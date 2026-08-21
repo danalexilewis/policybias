@@ -7,3 +7,6 @@ public/cards.json
 corpus/nz-election-2026/**/assets/
 .tmp/
 storage/
+data/score-records.jsonl
+.vercel
+.env*.local

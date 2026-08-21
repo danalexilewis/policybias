@@ -1,0 +1,52 @@
+{
+  "name": "policybias",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Guess the party from the policy, not the colour.",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.19.0",
+  "scripts": {
+    "predev": "pnpm build:cards",
+    "prebuild": "pnpm build:cards",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "preview": "vite preview",
+    "build:cards": "tsx scripts/build-cards.ts",
+    "check:policy": "tsx scripts/check-policy.ts",
+    "dump:party-policy": "tsx scripts/dump.ts",
+    "dump:harvest": "tsx scripts/harvest.ts",
+    "lint:specs": "gurki lint corpus/nz-election-2026",
+    "gurki": "gurki"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.6.4",
+    "gurki": "github:danalexilewis/gurki",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "yaml": "^2.8.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^22.17.0",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/turndown": "^5.0.5",
+    "@vitejs/plugin-react": "^4.5.2",
+    "cheerio": "^1.1.2",
+    "crawlee": "^3.18.1",
+    "jsdom": "^30.0.1",
+    "tsx": "^4.20.3",
+    "turndown": "^7.2.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

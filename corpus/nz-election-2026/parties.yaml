@@ -1,0 +1,47 @@
+# Display metadata for corpus parties.
+#
+# `name` matches corpus/nz-election-2026/_seeds/<id>.yaml. `label` is the short
+# form for a card badge. `colour` is for the canvas only.
+#
+# Anonymise mode and the game must not use `colour` or `label`: brand colour is
+# the fastest possible tell, and the whole point of hiding the party is that a
+# reader has to judge the policy. Slice 07 gates both behind CardDisplay.party.
+#
+# Order is the order the results chart uses. It is alphabetical by label so it
+# does not imply a ranking, a seat count, or a left-right axis.
+
+parties:
+  - id: act
+    label: ACT
+    name: ACT New Zealand
+    colour: "#fdb913"
+
+  - id: green
+    label: Green
+    name: Green Party of Aotearoa New Zealand
+    colour: "#098137"
+
+  - id: labour
+    label: Labour
+    name: New Zealand Labour Party
+    colour: "#d82c20"
+
+  - id: national
+    label: National
+    name: New Zealand National Party
+    colour: "#00529f"
+
+  - id: nz-first
+    label: NZ First
+    name: New Zealand First Party
+    colour: "#141414"
+
+  - id: opportunity
+    label: Opportunity
+    name: Opportunity Party
+    colour: "#00bcc1"
+
+  - id: te-pati-maori
+    label: Te Pāti Māori
+    name: Te Pāti Māori
+    colour: "#b5121b"

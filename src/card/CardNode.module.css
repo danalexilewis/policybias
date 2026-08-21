@@ -1,0 +1,273 @@
+.node {
+	position: relative;
+	width: 360px;
+}
+
+.clusterAccent {
+	position: absolute;
+	top: 8px;
+	bottom: 8px;
+	left: 0;
+	z-index: 1;
+	width: 5px;
+	border-radius: 3px 0 0 3px;
+	pointer-events: none;
+}
+
+.card {
+	width: 100%;
+	box-sizing: border-box;
+	background: #faf9f6;
+	border: 1px solid #d4cfc4;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+	font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, serif;
+	font-size: 14px;
+	line-height: 1.45;
+	color: #1a1a1a;
+}
+
+.header {
+	padding: 12px 14px 10px;
+	border-bottom: 1px solid #e8e4db;
+}
+
+.meta {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px;
+	margin-bottom: 8px;
+}
+
+.partyBadge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 4px;
+	font-family: system-ui, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	color: #fff;
+}
+
+.partyBadgeNeutral {
+	background: #6b6b6b;
+}
+
+.clusterChip {
+	display: inline-block;
+	padding: 2px 7px;
+	border-radius: 999px;
+	background: #ebe8e0;
+	font-family: system-ui, sans-serif;
+	font-size: 10px;
+	color: #444;
+}
+
+.title {
+	margin: 0;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.35;
+}
+
+.faceToggle {
+	display: flex;
+	gap: 4px;
+	margin-top: 10px;
+}
+
+.faceButton {
+	flex: 1;
+	padding: 5px 8px;
+	border: 1px solid #ccc5b8;
+	border-radius: 4px;
+	background: #fff;
+	font-family: system-ui, sans-serif;
+	font-size: 11px;
+	cursor: pointer;
+}
+
+.faceButton:hover:not(:disabled) {
+	background: #f3f0e8;
+}
+
+.faceButtonActive {
+	background: #e8e4db;
+	border-color: #a89f8e;
+	font-weight: 600;
+}
+
+.faceButton:disabled {
+	opacity: 0.45;
+	cursor: not-allowed;
+}
+
+.derivedBanner {
+	margin-top: 8px;
+	padding: 6px 8px;
+	border-radius: 4px;
+	background: #f0ebe3;
+	border-left: 3px solid #8b7355;
+	font-family: system-ui, sans-serif;
+	font-size: 11px;
+	color: #5c4a32;
+}
+
+.body {
+	padding: 12px 14px;
+}
+
+.note {
+	margin: 0 0 12px;
+	padding: 8px 10px;
+	background: #f5f3ee;
+	border-radius: 4px;
+	font-size: 13px;
+	color: #333;
+}
+
+.scenario {
+	margin-bottom: 14px;
+}
+
+.scenarioTitle {
+	margin: 0 0 6px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #444;
+}
+
+.step {
+	display: flex;
+	gap: 6px;
+	margin: 3px 0;
+	padding: 2px 0;
+}
+
+.stepExtrapolated {
+	opacity: 0.55;
+	font-style: italic;
+}
+
+.stepExtrapolated:hover {
+	opacity: 1;
+}
+
+.surface {
+	flex-shrink: 0;
+	min-width: 52px;
+	font-family:
+		ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+	font-size: 11px;
+	font-weight: 600;
+	text-align: right;
+}
+
+.surfaceGiven {
+	color: #2d6a4f;
+}
+
+.surfaceWhen {
+	color: #1d4e89;
+}
+
+.surfaceThen {
+	color: #7b2cbf;
+}
+
+.surfaceOutput {
+	color: #b5451b;
+}
+
+.surfaceOutcome {
+	color: #9d174d;
+}
+
+.surfaceAnd {
+	color: #6b7280;
+	font-weight: 500;
+}
+
+.surfaceBut {
+	color: #b45309;
+	font-weight: 700;
+}
+
+.stepText {
+	flex: 1;
+}
+
+.report {
+	margin-top: 12px;
+	padding-top: 10px;
+	border-top: 1px dashed #d4cfc4;
+}
+
+.reportHeading {
+	margin: 0 0 6px;
+	font-family: system-ui, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: #666;
+}
+
+.reportList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.reportItem {
+	display: flex;
+	gap: 6px;
+	margin: 2px 0;
+	font-size: 13px;
+}
+
+.gapsSection {
+	margin-top: 12px;
+	padding-top: 10px;
+	border-top: 1px dashed #d4cfc4;
+}
+
+.gapsHeading {
+	margin: 0 0 6px;
+	font-family: system-ui, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: #666;
+}
+
+.gapsList {
+	margin: 0;
+	padding-left: 18px;
+	font-size: 12px;
+	color: #444;
+}
+
+.gapsList li {
+	margin: 3px 0;
+}
+
+.source {
+	margin-top: 12px;
+	padding-top: 10px;
+	border-top: 1px solid #e8e4db;
+	font-family: system-ui, sans-serif;
+	font-size: 11px;
+}
+
+.source a {
+	color: #1d4e89;
+	text-decoration: none;
+}
+
+.source a:hover {
+	text-decoration: underline;
+}

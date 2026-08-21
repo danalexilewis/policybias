@@ -1,0 +1,59 @@
+---
+type: "crawled-page"
+party: "act"
+title: "ACT New Zealand"
+sourceUrl: "https://www.act.org.nz/welfare"
+canonicalUrl: "https://www.act.org.nz/welfare"
+fetchedAt: "2026-08-18T11:48:47.242Z"
+contentType: "html"
+via: "party-site"
+tags:
+  - social-welfare
+stance: intervention
+money: named-figure
+licenseNote: "Party copyright; not Gurki MIT"
+---
+
+# Welfare as a Hand Up, not a Way of Life
+
+Welfare should unlock potential, not trap it. So why are we paying people to stay at home who could be doing jobs we are currently filling with migrants?
+
+ACT’s welfare policy has two planks:
+
+### Tightening medical certification for health-related benefits
+
+*   All health and disability benefits will be independently issued by an MSD-approved pool of designated doctors.\* A person’s usual GP or specialist will still be able to provide medical history, clinical notes, and supporting evidence.
+    
+*   Assessments will be made against clear, objective criteria, rather than leaving major long-term benefit decisions to discretion.
+    
+*   Existing Jobseeker Support – Health Condition or Disability and Supported Living Payment recipients will be reassessed against the new criteria on a phased basis.
+    
+*   Reassessment will begin with mental-health-related grants made after the pandemic, where much of the recent growth has occurred.
+    
+*   ACT will allow for long-term arrangements for those with a genuine, enduring disability or health condition so support stays in place for those who truly need it.
+    
+
+\*_The Government has already established this as an option, but ACT will make it mandatory._
+
+### Managed assistance for long-term Jobseeker recipients
+
+*   ACT will introduce electronic money management for Jobseeker Support Work Ready recipients who remain on a benefit for more than four months.\*
+    
+*   Their benefit will be delivered through an electronic payment card directed to essentials such as groceries, rent, power, transport, health and childcare.
+    
+*   The card will block spending on alcohol, gambling, tobacco, and cash withdrawals.
+    
+*   ACT will include carve-outs and modified arrangements where money management would risk safety or block access to necessities.
+    
+
+\*_New Zealand already has money management as an option in certain circumstances, but ACT will make it mandatory after the four-month threshold._
+
+### In our team’s words:
+
+“New Zealanders believe in helping people through tough times. But the deal has to be fair: if you can work, you should be taking real steps toward work, and taxpayer support should go to the essentials it was intended to fund,” says ACT Leader David Seymour.
+
+“Nobody should be denied support when they genuinely cannot work. But the public deserves confidence that the system is not being gamed, and that people are not being written off when work or greater independence is possible.
+
+“Electronic money management means taxpayer support will not fund purchases that make it harder for people to get their lives back on track. If someone is receiving a benefit funded by working New Zealanders, that support should go to food, housing, power, transport, health, and childcare – not alcohol, gambling, or tobacco.
+
+“Unlocking New Zealand’s potential means unlocking the potential of New Zealanders. That starts with a welfare system that backs people to move forward, rewards effort, protects taxpayers, and refuses to write people off."

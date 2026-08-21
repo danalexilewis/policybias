@@ -1,0 +1,27 @@
+id: national
+name: New Zealand National Party
+origin: https://www.national.org.nz
+startUrls:
+  - https://www.national.org.nz/plan
+  - https://www.national.org.nz/news/20260517-honpaulgoldsmith
+  - https://www.national.org.nz/news/20260719-honpaulgoldsmith
+allowPathPrefixes:
+  - /plan
+  - /build-the-future
+  - /economy
+  - /education
+  - /healthcare
+  - /hunters-and-anglers
+  - /kiwisaver
+  - /lawandorder
+  - /new-trade
+  - /news/20260517-honpaulgoldsmith
+  - /news/20260719-honpaulgoldsmith
+  - /paid-parental-leave
+  - /policy-2023
+  - /responsibility-rules
+  - /south-island-growth
+  - /solar
+pdfOrigins:
+  - https://assets.national.org.nz
+maxPages: 80

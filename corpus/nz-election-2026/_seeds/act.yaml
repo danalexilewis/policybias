@@ -1,0 +1,48 @@
+id: act
+name: ACT New Zealand
+origin: https://www.act.org.nz
+startUrls:
+  - https://www.act.org.nz/policies
+allowPathPrefixes:
+  - /policies
+  # Root leaf policies linked from area hubs (../slug). Nav excluded.
+  - /affordable-government
+  - /affordable-uniforms
+  - /back-the-volunteers
+  - /burglary
+  - /closing-medicines-gap
+  - /democracy-record
+  - /deport
+  - /disrupt-the-class-leave-the-class
+  - /economy-record
+  - /education-record
+  - /equal-service
+  - /equal-treatment-at-universities
+  - /fair-contribution
+  - /game-management
+  - /grazing
+  - /health-record
+  - /hunting-lfo-record
+  - /infrastructure-record
+  - /innovation-trials
+  - /keeping-children-safe
+  - /law-order-record
+  - /let-pharmacies-do-more
+  - /medicines
+  - /let-the-kid-on-the-bus
+  - /local_tourism_dividend
+  - /open-the-backcountry
+  - /paris
+  - /professional-free-speech
+  - /protect-lawful-hunting
+  - /public-safety
+  - /rural-crime
+  - /rural-record
+  - /rural-visa
+  - /stopping-coercion
+  - /strengthening-end-of-life-choice
+  - /student_services_fee
+  - /welfare
+pdfOrigins:
+  - https://assets.nationbuilder.com
+maxPages: 80

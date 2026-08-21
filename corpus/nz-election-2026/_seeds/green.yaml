@@ -1,0 +1,70 @@
+id: green
+name: Green Party of Aotearoa New Zealand
+origin: https://www.greens.org.nz
+startUrls:
+  - https://www.greens.org.nz/policy_announcements
+  - https://www.greens.org.nz/manifesto_2026
+  - https://www.greens.org.nz/tax_system_for_all
+  - https://www.greens.org.nz/power_for_all_of_us
+  - https://www.greens.org.nz/drink_swim_fish
+  - https://www.greens.org.nz/waterforlife
+  - https://www.greens.org.nz/te_waonui_a_taane
+  - https://www.greens.org.nz/greens_announce_bill_to_entrench_m_ori_seats_in_law
+allowPathPrefixes:
+  # 2026 election hub + headline policy pages
+  - /policy_announcements
+  - /tax_system_for_all
+  - /power_for_all_of_us
+  - /drink_swim_fish
+  - /waterforlife
+  - /te_waonui_a_taane
+  - /greens_announce_bill_to_entrench_m_ori_seats_in_law
+  # Manifesto 2026 hub + topic pages (flat Nationbuilder slugs).
+  # PDF landings /manifesto_2026_full and /maori_manifesto_2026_full serve
+  # application/pdf (Cheerio skips); harvest separately if needed.
+  - /manifesto_2026
+  - /manifesto_2026_childen
+  - /manifesto_2026_climate_action_resilience_adaptation
+  - /manifesto_2026_conservation_and_biodiversity
+  - /manifesto_2026_culture_and_creativity
+  - /manifesto_2026_democracy
+  - /manifesto_2026_digital_technology
+  - /manifesto_2026_disability
+  - /manifesto_2026_drug_law_reform
+  - /manifesto_2026_education
+  - /manifesto_2026_energy
+  - /manifesto_2026_environmental_protection
+  - /manifesto_2026_food_fibre_and_forestry
+  - /manifesto_2026_freshwater
+  - /manifesto_2026_gender_equity
+  - /manifesto_2026_global_affairs_and_trade
+  - /manifesto_2026_health
+  - /manifesto_2026_housing
+  - /manifesto_2026_immigration_and_refugees
+  - /manifesto_2026_income
+  - /manifesto_2026_justice_and_community_safety
+  - /manifesto_2026_local_government
+  - /manifesto_2026_maori_centred
+  - /manifesto_2026_mental_health
+  - /manifesto_2026_oceans_and_fisheries
+  - /manifesto_2026_overseas_new_zealanders
+  - /manifesto_2026_pacific_peoples
+  - /manifesto_2026_public_services
+  - /manifesto_2026_rainbow_communities
+  - /manifesto_2026_seniors
+  - /manifesto_2026_small_business
+  - /manifesto_2026_te_tiriti_o_waitangi
+  - /manifesto_2026_tertiary_education
+  - /manifesto_2026_transport
+  - /manifesto_2026_violence_prevention
+  - /manifesto_2026_welfare_of_animals
+  - /manifesto_2026_workforce_rights
+  - /manifesto_2026_zero_waste
+  # Press releases linked from the 2026 announcements hub
+  - /greens_commit_to_tax_the_super_rich_and_large_corporates_fairly_cut_income_tax_for_96
+  - /people_and_nature_first_in_greens_rivers_and_oceans_policy
+  - /green_party_launches_plan_to_cut_power_bills_and_take_power_back_from_the_big_energy_companies
+  - /green_party_announce_marae_funding_policy_te_waonui_a_taane
+pdfOrigins:
+  - https://assets.nationbuilder.com
+maxPages: 80

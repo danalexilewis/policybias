@@ -1,0 +1,20 @@
+id: labour
+name: New Zealand Labour Party
+origin: https://www.labour.org.nz
+startUrls:
+  - https://www.labour.org.nz/our-policies
+allowPathPrefixes:
+  - /our-policies
+  - /apprenticeshipboost
+  - /capitalgainstax
+  - /cervicalscreening
+  - /familydoctorloanscheme
+  - /farecap
+  - /futurefund
+  - /maternityscans
+  - /medicard
+  - /prescriptions
+  - /solarsaver
+  - /small-business-action-plan
+  - /small-business-first
+maxPages: 80

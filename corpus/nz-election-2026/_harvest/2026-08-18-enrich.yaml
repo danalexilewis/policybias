@@ -1,0 +1,106 @@
+# Targeted 2026 offer harvest — linked party PDFs and missing announcement pages.
+# Does not crawl government delivery records or 2023-vintage policy PDFs.
+items:
+  - party: labour
+    kind: pdf
+    url: https://www.labour.org.nz/media/pfvguai5/labour-cgt.pdf
+    attachTo: capitalgainstax
+  - party: labour
+    kind: pdf
+    url: https://www.labour.org.nz/media/vtbneplb/labour-free-doctors-visits.pdf
+    attachTo: medicard
+  - party: labour
+    kind: pdf
+    url: https://www.labour.org.nz/media/dbskvb1y/backinglocaldoctors.pdf
+    attachTo: familydoctorloanscheme
+
+  - party: green
+    kind: pdf
+    url: https://assets.nationbuilder.com/beachheroes/pages/71965/attachments/original/1782084525/GreensTaxPolicy2026.pdf
+    attachTo: tax_system_for_all
+  - party: green
+    kind: pdf
+    url: https://assets.nationbuilder.com/beachheroes/pages/74612/attachments/original/1784510079/The_Greens'_Full_Power_Policy.pdf
+    attachTo:
+      - power_for_all_of_us
+      - green_party_launches_plan_to_cut_power_bills_and_take_power_back_from_the_big_energy_companies
+  - party: green
+    kind: html
+    url: https://www.greens.org.nz/waterforlife
+    tags: [environment]
+    stance: intervention
+    money: no-figure
+  - party: green
+    kind: html
+    url: https://www.greens.org.nz/greens_announce_bill_to_entrench_m_ori_seats_in_law
+    tags: [maori-affairs, democracy]
+    stance: intervention
+    money: no-figure
+
+  - party: national
+    kind: pdf
+    url: https://assets.national.org.nz/web/prod/Paid%20Parental%20Leave.pdf
+    attachTo: paid-parental-leave
+  - party: national
+    kind: pdf
+    url: https://assets.national.org.nz/web/prod/National%20KiwiSaver%20policy%20document.pdf
+    attachTo: kiwisaver
+
+  - party: act
+    kind: pdf
+    url: https://www.act.org.nz/medicines
+    attachTo: closing-medicines-gap
+  - party: act
+    kind: pdf
+    url: https://assets.nationbuilder.com/actnz/mailings/59457/attachments/original/Working_With_Children_policy_04.pdf
+    attachTo: keeping-children-safe
+  - party: act
+    kind: pdf
+    url: https://assets.nationbuilder.com/actnz/mailings/49491/attachments/original/immigration_policy_statement_04.pdf
+    attachTo:
+      - deport
+      - fair-contribution
+  - party: act
+    kind: pdf
+    url: https://assets.nationbuilder.com/actnz/mailings/57378/attachments/original/policy_backing_hunters_02.pdf
+    attachTo:
+      - back-the-volunteers
+      - game-management
+      - open-the-backcountry
+      - protect-lawful-hunting
+  - party: act
+    kind: pdf
+    url: https://assets.nationbuilder.com/actnz/pages/28682/attachments/original/1756344552/End_of_Life_Choice_Amendment_Bill-v3.1.pdf
+    attachTo: strengthening-end-of-life-choice
+
+  - party: nz-first
+    kind: html
+    url: https://www.nzfirst.nz/getting-tough-on-rising-crime
+    tags: [crime-and-justice]
+    stance: intervention
+    money: no-figure
+  - party: nz-first
+    kind: html
+    url: https://www.nzfirst.nz/one_clarion_call
+    tags: [superannuation, employment]
+    stance: intervention
+    money: named-figure
+
+  - party: te-pati-maori
+    kind: html
+    url: https://www.maoriparty.org.nz/maori_divorce_the_crown
+    tags: [maori-affairs, democracy]
+    stance: intervention
+    money: no-figure
+  - party: te-pati-maori
+    kind: html
+    url: https://www.maoriparty.org.nz/te_pati_maori_will_make_the_waitangi_tribunal_recommendations_binding
+    tags: [maori-affairs, democracy]
+    stance: intervention
+    money: no-figure
+  - party: te-pati-maori
+    kind: html
+    url: https://www.maoriparty.org.nz/seabed_mining_banned_in_aotearoa_under_reintroduced_member_s_bill
+    tags: [environment, maori-affairs]
+    stance: intervention
+    money: no-figure

@@ -1,0 +1,35 @@
+id: te-pati-maori
+name: Te Pāti Māori
+origin: https://www.maoriparty.org.nz
+startUrls:
+  - https://www.maoriparty.org.nz/policy
+  - https://www.maoriparty.org.nz/kai_sovereignt
+  - https://www.maoriparty.org.nz/kai_sovereignty
+  - https://www.maoriparty.org.nz/mokopuna_m_ori
+  - https://www.maoriparty.org.nz/takat_pui
+allowPathPrefixes:
+  - /policy
+  - /climate
+  - /cost_of_living
+  - /disabilities
+  - /economic_development
+  - /education_training
+  - /freshwater_policy
+  - /health
+  - /housing
+  - /justice
+  - /kai_sovereignt
+  - /kai_sovereignty
+  - /mana_motuhake
+  - /military_neutrality
+  - /mokopuna_m_ori
+  - /permanently_ban_seabed_mining
+  - /sports
+  - /takat_pui
+  - /tax
+  - /te_reo_maori
+  - /toi_maori
+  - /maori_divorce_the_crown
+  - /te_pati_maori_will_make_the_waitangi_tribunal_recommendations_binding
+  - /seabed_mining_banned_in_aotearoa_under_reintroduced_member_s_bill
+maxPages: 80

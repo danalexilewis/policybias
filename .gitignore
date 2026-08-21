@@ -1,0 +1,9 @@
+node_modules
+dist
+.pnpm-store
+.DS_Store
+*.log
+public/cards.json
+corpus/nz-election-2026/**/assets/
+.tmp/
+storage/

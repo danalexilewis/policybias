@@ -1,0 +1,76 @@
+# Cluster vocabulary for NZ 2026 party policy specs.
+#
+# These eight ids come from the stage-4 reduction
+# (plans/2026-08-18-nz-2026-policy-reduce-report.md). They are the closed set:
+# a spec's `clusters:` frontmatter must draw from these ids, and
+# `pnpm check:policy` fails on anything else.
+#
+# `tagHints` are the dump-page `tags:` values that usually land in a cluster.
+# They are hints for the author, not a rule. Assign one primary cluster by
+# reading the page and identifying its main intervention. Beneficiaries,
+# funding mechanisms and secondary effects do not create extra cluster homes.
+#
+# Adding a cluster is a deliberate act: it changes what the canvas groups by
+# and what the game can deal from. Say why in the plan first.
+
+clusters:
+  - id: health-access
+    label: Health access and medicines
+    description: >-
+      Getting to a clinician, and what a prescription or a medicine costs.
+      Primary care, screening, pharmacy scope, the medicines budget, end-of-life
+      choice.
+    tagHints: [healthcare]
+
+  - id: energy-power
+    label: Energy and household power
+    description: >-
+      Household power bills and the market that sets them. Rooftop solar
+      finance, batteries, retail and wholesale market structure, generation
+      ownership, fuel security.
+    tagHints: [energy, climate, cost-of-living]
+
+  - id: tax-fiscal
+    label: Tax and fiscal instruments
+    description: >-
+      Who pays, and the rules the Crown sets itself. Tax bases and rates,
+      levies, thresholds, fiscal rules, the size and shape of the public
+      service.
+    tagHints: [taxation, budget, economy, small-business]
+
+  - id: crime-justice
+    label: Crime, justice and public safety
+    description: >-
+      Offences, sentencing, policing, courts, and the powers handed to people
+      who are not police.
+    tagHints: [crime-and-justice]
+
+  - id: immigration
+    label: Immigration and contribution
+    description: >-
+      Who may come, on what terms, what they pay, what they may claim, and what
+      removes the right to stay. Refugee quota and resettlement.
+    tagHints: [immigration]
+
+  - id: family-income
+    label: Family income, welfare and savings
+    description: >-
+      Household cash and long-run savings. Benefits and their conditions,
+      Working for Families, parental leave, KiwiSaver, superannuation,
+      birth grants and child payments.
+    tagHints: [social-welfare, superannuation, employment, cost-of-living]
+
+  - id: environment-rural
+    label: Environment, water and rural land
+    description: >-
+      Land, water, biodiversity and the rules on those who farm or extract.
+      Freshwater, oceans and fisheries, conservation, emissions pricing where it
+      lands on land use, hunting and game.
+    tagHints: [environment, agriculture, climate]
+
+  - id: maori-affairs
+    label: Māori affairs and Te Tiriti
+    description: >-
+      Te Tiriti obligations, constitutional arrangements, Māori-specific
+      institutions and funding, te reo Māori, and mana motuhake.
+    tagHints: [maori-affairs]

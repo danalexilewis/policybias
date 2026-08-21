@@ -1,0 +1,58 @@
+---
+type: "crawled-page"
+party: "act"
+title: "ACT New Zealand"
+sourceUrl: "https://www.act.org.nz/equal-service"
+canonicalUrl: "https://www.act.org.nz/equal-service"
+fetchedAt: "2026-08-18T11:49:02.251Z"
+contentType: "html"
+via: "party-site"
+tags:
+  - other
+stance: intervention
+money: no-figure
+licenseNote: "Party copyright; not Gurki MIT"
+---
+
+# One Public Service for All
+
+ACT has already directed agencies to deliver services based on need, not identity. We have also strengthened the Public Service Act: public servants must stay politically neutral and appointments must be made on merit. But previous governments spent years building separate tracks for different groups, and too many of those rules remain.
+
+ACT will remove them and build one public service with one standard for everyone that delivers help where it is needed and keeps public servants focused on the New Zealanders they serve. The same rules will apply, whoever you are.  
+  
+[Read our full policy here.](https://assets.nationbuilder.com/actnz/mailings/59226/attachments/original/PublicService_policy_03.pdf?1786679526)
+
+### ACT will:  
+
+  
+
+*   **End race-based hiring.** Government jobs should go to the best candidate, whoever they are. But the law still tells public employers to shape employment policies around the aspirations and employment needs of particular ethnic groups. ACT will repeal those rules in section 73 of the Public Service Act and section 118 of the Crown Entities Act. Laws against discrimination and unsafe workplaces will remain. So will the rule that public service appointments must be based on merit.  
+      
+    
+*   **Deliver public services based on need, not race .** ACT will put into law that public services should go to the people who need them, whoever they are. If two New Zealanders have the same need, government should treat them the same. The Government has already told agencies to follow that rule. ACT will put it in law so people can challenge decisions that break it in court.  
+      
+    
+*   **Keep spiritual practices voluntary.** Taxpayer money isn't for running spiritual or religious activities at work. ACT will end the use of public time and public funds for this, whatever the tradition. Staff will remain free to practise their own religion, culture, or traditions in their own time, and workplaces can make reasonable arrangements for them.  
+      
+    
+*   **Remove cultural tests that have nothing to do with the job.** Job ads should ask whether you can do the work, not whether you know the right cultural concepts or share the right worldview. ACT will tell agencies to remove these requirements from job ads and position descriptions unless the knowledge is actually needed for the job.  
+      
+    
+*   **Rewrite the Public Service Act.** ACT will make these changes straight away, then rewrite the Act so the public service stays politically neutral, hires on merit, treats people equally, and is judged on whether services actually reach the people who need them.
+    
+      
+    
+
+### In our team's words:
+
+ACT Leader David Seymour says:
+
+> "To unlock New Zealand's potential we need one law for all, and one future together. That starts with a public service that treats people as individuals, hires the best people for the job, and delivers services according to need.
+> 
+> "Public service jobs should go to the best person for the job, regardless of race. Hiring and promotion should be based on merit, skills, experience, and what the role actually requires.
+> 
+> "If two New Zealanders have the same need, they should be entitled to the same treatment from government.
+> 
+> "Nobody should be expected to take part in a prayer, karakia, or other spiritual practice because they work for the Government.
+> 
+> “ACT will ensure a public service capable of unlocking the potential of all New Zealanders. It will be neutral, professional, focused on results, and treat every person as an individual."

@@ -1,0 +1,30 @@
+# Opportunity 2026 policy PDFs (CDN). Attach extracts to the HTML page they belong to.
+items:
+  - party: opportunity
+    kind: pdf
+    url: "https://cdn.opportunity.org.nz/documents/policy/Opportunity Policy - Tax Reset.pdf"
+    attachTo: tax-reset
+  - party: opportunity
+    kind: pdf
+    url: "https://cdn.opportunity.org.nz/documents/policy/Opportunity Policy - Abundant Energy.pdf"
+    attachTo: abundant-energy
+  - party: opportunity
+    kind: pdf
+    url: "https://cdn.opportunity.org.nz/documents/policy/breakthrough-economy-policy-overview.pdf"
+    attachTo: breakthrough-economy
+  - party: opportunity
+    kind: pdf
+    url: "https://cdn.opportunity.org.nz/documents/policy/citizens-voice-policy.pdf"
+    attachTo: citizens-voice
+  - party: opportunity
+    kind: pdf
+    url: "https://cdn.opportunity.org.nz/documents/policy/Opportunity Policy - Clean Up Politics.pdf"
+    attachTo: clean_up_politics
+  - party: opportunity
+    kind: pdf
+    url: "https://cdn.opportunity.org.nz/documents/policy/oceans-policy.pdf"
+    attachTo: healthy-oceans
+  - party: opportunity
+    kind: pdf
+    url: "https://cdn.opportunity.org.nz/documents/policy/intergenerational-infrastructure.pdf"
+    attachTo: intergenerational_infrastructure

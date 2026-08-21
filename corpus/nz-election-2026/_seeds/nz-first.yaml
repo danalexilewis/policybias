@@ -1,0 +1,22 @@
+id: nz-first
+name: New Zealand First Party
+origin: https://www.nzfirst.nz
+startUrls:
+  - https://www.nzfirst.nz/policy
+allowPathPrefixes:
+  - /policy
+  - /backing_a_new_zealand_owned_bank
+  - /break_up_the_supermarket_duopoly
+  - /breaking_up_the_gentailers
+  - /citizens_only_voting
+  - /complete_the_christchurch_cathedral
+  - /disestablish_auckland_s_independent_maori_statutory_board
+  - /establishing_a_kiwisaver_generation
+  - /establishing_a_special_economic_zone_at_marsden_point
+  - /future_proofing_our_fuel_security
+  - /referendum_on_maori_seats
+  - /returning_50_of_mining_royalties_to_the_regions
+  - /the_kiwi_kids_grant
+  - /getting-tough-on-rising-crime
+  - /one_clarion_call
+maxPages: 80

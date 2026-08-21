@@ -1,0 +1,57 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background: #f4f1ea;
+	color: #1a1a1a;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 15px;
+	line-height: 1.45;
+}
+
+body {
+	padding: 24px 28px 32px;
+}
+
+h1 {
+	margin: 0 0 1.25em;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.row {
+	margin: 0;
+}
+
+.dir {
+	margin-right: 1.25em;
+	color: #5c574f;
+}
+
+.comment {
+	margin-left: 1.5em;
+	color: #5c574f;
+}
+
+a:link {
+	color: #0000ee;
+}
+
+a:visited {
+	color: #551a8b;
+}
+
+a:active {
+	color: #ff0000;
+}
+
+footer {
+	margin-top: 2.5em;
+	font-size: 13px;
+	color: #6b645c;
+}
+
+footer a:link,
+footer a:visited {
+	color: #6b645c;
+}

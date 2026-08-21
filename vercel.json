@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/nz-election-2026",
+      "destination": "/nz-election-2026/index.html"
+    },
+    {
+      "source": "/nz-election-2026/",
+      "destination": "/nz-election-2026/index.html"
+    }
+  ]
+}

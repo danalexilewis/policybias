@@ -138,7 +138,7 @@ export const PARTY_COLOURS: Record<PartyId, string> = {
   green: '#098137',
   labour: '#d82c20',
   national: '#00529f',
-  'nz-first': '#141414',
-  opportunity: '#00bcc1',
-  'te-pati-maori': '#b5121b',
+  'nz-first': '#3d3d3d',
+  opportunity: '#00b9bc',
+  'te-pati-maori': '#7a1830',
 }

@@ -1,13 +1,19 @@
 .bar {
 	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	gap: 12px 16px;
+	flex-direction: column;
+	gap: 8px;
 	padding: 10px 16px;
 	background: #fff;
 	border-bottom: 1px solid #d4cfc4;
 	font-family: system-ui, sans-serif;
 	font-size: 13px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 12px 16px;
 }
 
 .group {
@@ -65,16 +71,47 @@
 	filter: grayscale(0.3);
 }
 
-.toggle {
-	display: flex;
+.switch {
+	display: inline-flex;
 	align-items: center;
-	gap: 6px;
+	gap: 8px;
+	padding: 0;
+	border: none;
+	background: none;
+	font-size: 12px;
+	color: #1a1a1a;
 	cursor: pointer;
 	user-select: none;
 }
 
-.toggle input {
-	cursor: pointer;
+.switchTrack {
+	position: relative;
+	flex: 0 0 auto;
+	width: 28px;
+	height: 16px;
+	border-radius: 999px;
+	background: #ccc5b8;
+	transition: background 0.15s ease;
+}
+
+.switchTrackOn {
+	background: #2c4a3e;
+}
+
+.switchThumb {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12px;
+	border-radius: 999px;
+	background: #fff;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 18%);
+	transition: transform 0.15s ease;
+}
+
+.switchTrackOn .switchThumb {
+	transform: translateX(12px);
 }
 
 .divider {

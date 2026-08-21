@@ -1,31 +1,44 @@
-import { useEffect, useRef, useState, type JSX } from 'react';
-import { useReportCardHeight } from '../canvas/cardHeight';
+import { type JSX, type KeyboardEvent } from 'react';
 import type {
 	CardFace,
 	CardScenario,
 	CardStep,
+	PartyId,
 	PolicyCard,
 	ReportItem
 } from '../data/types';
 import type { CardDisplay } from './CardDisplay';
-import {
-	anonymiseText,
-	PARTY_COLOURS,
-	PARTY_LABELS,
-	stripPartyFromTitle
-} from './anonymise';
-import type { CardNodeData } from '../canvas/layout';
-import { clusterColour } from '../canvas/clusterColours';
+import { anonymiseText, PARTY_LABELS, stripPartyFromTitle } from './anonymise';
+import { PARTY_LOGOS } from './partyLogos';
+import { clusterColour } from '../theme/clusterColours';
 import styles from './CardNode.module.css';
 
 type GurkiCardProps = {
 	card: PolicyCard;
 	display: CardDisplay;
 	face?: 'stated' | 'derived';
-	onFaceChange?: (face: 'stated' | 'derived') => void;
-	/** Canvas shows this; the game hides it and uses its own derived reveal. */
-	showFaceToggle?: boolean;
+	/** Larger type for the inspect overlay. */
+	size?: 'grid' | 'inspect';
+	/** Opens the inspect overlay. Source links stop this. */
+	onInspect?: () => void;
 };
+
+/** Fixed-size mark so revealing the party does not change the card header. */
+function PartyMark(props: { party: PartyId; visible: boolean }): JSX.Element {
+	return (
+		<div className={styles.logoSlot}>
+			{props.visible ? (
+				<img
+					className={styles.partyLogo}
+					src={PARTY_LOGOS[props.party]}
+					alt={PARTY_LABELS[props.party]}
+				/>
+			) : (
+				<span className={styles.logoPlaceholder} aria-hidden='true' />
+			)}
+		</div>
+	);
+}
 
 function headingText(text: string, hideParty: boolean): string {
 	const stripped = stripPartyFromTitle(text);
@@ -188,8 +201,6 @@ function FaceBody({
 	hideParty: boolean;
 }): JSX.Element {
 	const note = face.note ? maybeAnonymise(face.note, hideParty) : undefined;
-	const listItems = face.kind === 'stated' ? card.gaps : card.assumptions;
-	const listHeading = face.kind === 'stated' ? 'Gaps' : 'Assumptions';
 
 	return (
 		<div className={styles.body}>
@@ -217,20 +228,14 @@ function FaceBody({
 				hideParty={hideParty}
 			/>
 
-			{display.gaps && listItems.length > 0 ? (
-				<section className={styles.gapsSection}>
-					<h4 className={styles.gapsHeading}>{listHeading}</h4>
-					<ul className={styles.gapsList}>
-						{listItems.map((item, index) => (
-							<li key={index}>{maybeAnonymise(item, hideParty)}</li>
-						))}
-					</ul>
-				</section>
-			) : null}
-
 			{display.source ? (
 				<footer className={styles.source}>
-					<a href={card.source.url} target='_blank' rel='noopener noreferrer'>
+					<a
+						href={card.source.url}
+						target='_blank'
+						rel='noopener noreferrer'
+						onClick={(event) => event.stopPropagation()}
+					>
 						{headingText(card.source.title, hideParty) || 'Source'}
 					</a>
 				</footer>
@@ -239,92 +244,147 @@ function FaceBody({
 	);
 }
 
+type ListCardKind = 'gaps' | 'assumptions';
+
+type ListCardProps = {
+	kind: ListCardKind;
+	items: string[];
+	hideParty: boolean;
+	borderColour?: string;
+	size?: 'grid' | 'inspect';
+	onInspect?: () => void;
+};
+
+const LIST_CARD_TITLE: Record<ListCardKind, string> = {
+	gaps: 'Gaps',
+	assumptions: 'Assumptions'
+};
+
+/**
+ * Companion card for gaps or assumptions, stacked under the stated face.
+ * Renders nothing when the list is empty.
+ */
+export function ListCard({
+	kind,
+	items,
+	hideParty,
+	borderColour,
+	size = 'grid',
+	onInspect
+}: ListCardProps): JSX.Element | null {
+	if (items.length === 0) {
+		return null;
+	}
+
+	const title = LIST_CARD_TITLE[kind];
+	const kindClass =
+		kind === 'gaps' ? styles.listCardGaps : styles.listCardAssumptions;
+	const cardClassName = [
+		styles.card,
+		styles.listCard,
+		kindClass,
+		size === 'inspect' ? styles.cardInspect : '',
+		onInspect ? styles.cardInspectable : ''
+	]
+		.filter(Boolean)
+		.join(' ');
+
+	function onCardKeyDown(event: KeyboardEvent<HTMLElement>): void {
+		if (!onInspect) {
+			return;
+		}
+		if (event.key === 'Enter' || event.key === ' ') {
+			event.preventDefault();
+			onInspect();
+		}
+	}
+
+	return (
+		<article
+			className={cardClassName}
+			style={borderColour ? { borderColor: borderColour } : undefined}
+			onClick={onInspect}
+			onKeyDown={onCardKeyDown}
+			role={onInspect ? 'button' : undefined}
+			tabIndex={onInspect ? 0 : undefined}
+			aria-label={onInspect ? `Inspect ${title}` : undefined}
+		>
+			<h3 className={styles.listCardTitle}>{title}</h3>
+			<ul className={styles.listCardItems}>
+				{items.map((item, index) => (
+					<li key={index}>{maybeAnonymise(item, hideParty)}</li>
+				))}
+			</ul>
+		</article>
+	);
+}
+
 /** Presentational Gurki policy card; reusable by the game overlay. */
 export function GurkiCard({
 	card,
 	display,
 	face: faceProp,
-	onFaceChange,
-	showFaceToggle = true
+	size = 'grid',
+	onInspect
 }: GurkiCardProps): JSX.Element {
-	const [internalFace, setInternalFace] = useState<'stated' | 'derived'>(
-		'stated'
-	);
-	const faceKey = faceProp ?? internalFace;
-	const hasDerived = Boolean(card.derived);
+	const faceKey = faceProp ?? 'stated';
 	const activeFace =
 		faceKey === 'derived' && card.derived ? card.derived : card.stated;
 	const hideParty = !display.party;
+	const primaryCluster = card.clusters[0];
+	const borderColour = primaryCluster
+		? clusterColour(primaryCluster)
+		: undefined;
+	const title = display.title ? headingText(activeFace.title, hideParty) : '';
 
-	function setFace(next: 'stated' | 'derived'): void {
-		if (next === 'derived' && !card.derived) {
+	const cardClassName = [
+		styles.card,
+		size === 'inspect' ? styles.cardInspect : '',
+		onInspect ? styles.cardInspectable : ''
+	]
+		.filter(Boolean)
+		.join(' ');
+
+	function onCardKeyDown(event: KeyboardEvent<HTMLElement>): void {
+		if (!onInspect) {
 			return;
 		}
-		if (onFaceChange) {
-			onFaceChange(next);
-		} else {
-			setInternalFace(next);
+		if (event.key === 'Enter' || event.key === ' ') {
+			event.preventDefault();
+			onInspect();
 		}
 	}
 
-	const title = display.title ? headingText(activeFace.title, hideParty) : '';
-
-	const partyColour = hideParty ? undefined : PARTY_COLOURS[card.party];
-
 	return (
-		<article className={styles.card}>
+		<article
+			className={cardClassName}
+			style={borderColour ? { borderColor: borderColour } : undefined}
+			onClick={onInspect}
+			onKeyDown={onCardKeyDown}
+			role={onInspect ? 'button' : undefined}
+			tabIndex={onInspect ? 0 : undefined}
+			aria-label={onInspect && title ? `Inspect ${title}` : undefined}
+		>
 			<header className={styles.header}>
 				<div className={styles.meta}>
-					{display.party ? (
-						<span
-							className={`${styles.partyBadge} ${hideParty ? styles.partyBadgeNeutral : ''}`}
-							style={partyColour ? { backgroundColor: partyColour } : undefined}
-						>
-							{PARTY_LABELS[card.party]}
-						</span>
-					) : null}
-					{card.clusters.map((clusterId) => (
-						<span
-							key={clusterId}
-							className={styles.clusterChip}
-							style={{
-								backgroundColor: `${clusterColour(clusterId)}24`,
-								boxShadow: `inset 0 0 0 1px ${clusterColour(clusterId)}73`
-							}}
-						>
-							{clusterId}
-						</span>
-					))}
+					<PartyMark party={card.party} visible={display.party} />
+					<div className={styles.clusters}>
+						{card.clusters.map((clusterId) => (
+							<span
+								key={clusterId}
+								className={styles.clusterChip}
+								style={{
+									backgroundColor: `${clusterColour(clusterId)}24`,
+									boxShadow: `inset 0 0 0 1px ${clusterColour(clusterId)}73`
+								}}
+							>
+								{clusterId}
+							</span>
+						))}
+					</div>
 				</div>
 
 				{display.title ? <h3 className={styles.title}>{title}</h3> : null}
-
-				{showFaceToggle ? (
-					<div className={styles.faceToggle}>
-						<button
-							type='button'
-							className={`${styles.faceButton} ${faceKey === 'stated' ? styles.faceButtonActive : ''}`}
-							onClick={() => setFace('stated')}
-						>
-							Stated
-						</button>
-						<button
-							type='button'
-							className={`${styles.faceButton} ${faceKey === 'derived' ? styles.faceButtonActive : ''}`}
-							onClick={() => setFace('derived')}
-							disabled={!hasDerived}
-						>
-							Our reading
-						</button>
-					</div>
-				) : null}
-
-				{faceKey === 'derived' && hasDerived ? (
-					<p className={styles.derivedBanner}>
-						This face is our systems reading of the party page, not the
-						party&apos;s own wording.
-					</p>
-				) : null}
 			</header>
 
 			<FaceBody
@@ -334,61 +394,5 @@ export function GurkiCard({
 				hideParty={hideParty}
 			/>
 		</article>
-	);
-}
-
-/** React Flow custom node wrapping {@link GurkiCard}. */
-export function CardNode(props: { data: CardNodeData }): JSX.Element {
-	const { card, display, enriched, clusterColour: accent } = props.data;
-	const [face, setFace] = useState<'stated' | 'derived'>(
-		enriched && card.derived ? 'derived' : 'stated'
-	);
-	const rootRef = useRef<HTMLDivElement>(null);
-	const reportHeight = useReportCardHeight();
-	const reportHeightRef = useRef(reportHeight);
-	reportHeightRef.current = reportHeight;
-
-	useEffect(() => {
-		setFace(enriched && card.derived ? 'derived' : 'stated');
-	}, [enriched, card.derived]);
-
-	useEffect(() => {
-		const element = rootRef.current;
-		if (!element) {
-			return;
-		}
-		const root = element;
-
-		function publishHeight(): void {
-			const height = root.offsetHeight;
-			if (height > 0) {
-				reportHeightRef.current(card.id, height);
-			}
-		}
-
-		const observer = new ResizeObserver(() => {
-			publishHeight();
-		});
-		observer.observe(element);
-		publishHeight();
-		return () => observer.disconnect();
-	}, [card.id]);
-
-	return (
-		<div ref={rootRef} className={styles.node}>
-			{accent ? (
-				<div
-					className={styles.clusterAccent}
-					style={{ backgroundColor: accent }}
-					aria-hidden
-				/>
-			) : null}
-			<GurkiCard
-				card={card}
-				display={display}
-				face={face}
-				onFaceChange={setFace}
-			/>
-		</div>
 	);
 }

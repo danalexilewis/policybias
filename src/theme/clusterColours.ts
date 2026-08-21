@@ -1,6 +1,6 @@
 /**
- * Stable colours for the eight policy clusters. Used by the octagon washes,
- * the legend, filter chips, and card cluster tags. Ids match clusters.yaml.
+ * Stable colours for the eight policy clusters. Used by filter chips,
+ * card borders, and cluster tags. Ids match clusters.yaml.
  */
 export const CLUSTER_COLOURS: Record<string, string> = {
   'health-access': '#c45c6a',

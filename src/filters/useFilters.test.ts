@@ -5,6 +5,8 @@ import type { PolicyCard } from '../data/types'
 import { ALL_VISIBLE } from '../card/CardDisplay'
 import { useFilters } from './useFilters'
 
+const ANONYMISED_DISPLAY = { ...ALL_VISIBLE, party: false }
+
 function makeCard(overrides: Partial<PolicyCard> = {}): PolicyCard {
   return {
     id: 'test-card',
@@ -61,7 +63,8 @@ describe('useFilters', () => {
   it('returns all cards when no filters are active', () => {
     const { result } = renderHook(() => useFilters(cards))
     expect(result.current.filtered).toHaveLength(2)
-    expect(result.current.display).toEqual(ALL_VISIBLE)
+    expect(result.current.anonymise).toBe(true)
+    expect(result.current.display).toEqual(ANONYMISED_DISPLAY)
   })
 
   it('filters by cluster', () => {
@@ -100,22 +103,52 @@ describe('useFilters', () => {
     expect(result.current.filtered[0]?.id).toBe('labour-1')
   })
 
-  it('anonymise hides party in display', () => {
+  it('anonymise can be turned off to show party', () => {
     const { result } = renderHook(() => useFilters(cards))
     act(() => {
-      result.current.setAnonymise(true)
+      result.current.setAnonymise(false)
     })
-    expect(result.current.display.party).toBe(false)
+    expect(result.current.display.party).toBe(true)
     expect(result.current.display.title).toBe(true)
   })
 
-  it('enriched starts off and can be toggled without hiding party', () => {
+  it('starts ungrouped and can group by cluster or party', () => {
     const { result } = renderHook(() => useFilters(cards))
-    expect(result.current.enriched).toBe(false)
+    expect(result.current.groupBy).toBe('none')
     act(() => {
-      result.current.setEnriched(true)
+      result.current.setGroupBy('cluster')
     })
-    expect(result.current.enriched).toBe(true)
-    expect(result.current.display.party).toBe(true)
+    expect(result.current.groupBy).toBe('cluster')
+    act(() => {
+      result.current.setAnonymise(false)
+      result.current.setGroupBy('party')
+    })
+    expect(result.current.groupBy).toBe('party')
+  })
+
+  it('clears party filters and party grouping when anonymise turns on', () => {
+    const { result } = renderHook(() => useFilters(cards))
+    act(() => {
+      result.current.setAnonymise(false)
+      result.current.setGroupBy('party')
+      result.current.toggleParty('labour')
+    })
+    expect(result.current.filtered).toHaveLength(1)
+    act(() => {
+      result.current.setAnonymise(true)
+    })
+    expect(result.current.groupBy).toBe('none')
+    expect(result.current.selectedParties.size).toBe(0)
+    expect(result.current.filtered).toHaveLength(2)
+  })
+
+  it('keeps cluster grouping when anonymise turns on', () => {
+    const { result } = renderHook(() => useFilters(cards))
+    act(() => {
+      result.current.setGroupBy('cluster')
+      result.current.setAnonymise(false)
+      result.current.setAnonymise(true)
+    })
+    expect(result.current.groupBy).toBe('cluster')
   })
 })

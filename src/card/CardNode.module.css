@@ -1,30 +1,49 @@
-.node {
-	position: relative;
-	width: 360px;
-}
-
-.clusterAccent {
-	position: absolute;
-	top: 8px;
-	bottom: 8px;
-	left: 0;
-	z-index: 1;
-	width: 5px;
-	border-radius: 3px 0 0 3px;
-	pointer-events: none;
-}
-
 .card {
 	width: 100%;
 	box-sizing: border-box;
 	background: #faf9f6;
-	border: 1px solid #d4cfc4;
+	border: 2px solid #d4cfc4;
 	border-radius: 8px;
 	box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
 	font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, serif;
 	font-size: 14px;
 	line-height: 1.45;
 	color: #1a1a1a;
+}
+
+.cardInspectable {
+	cursor: pointer;
+}
+
+.cardInspectable:hover {
+	box-shadow: 0 4px 16px rgb(0 0 0 / 14%);
+}
+
+.cardInspect {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.cardInspect .title {
+	font-size: 1.35rem;
+}
+
+.cardInspect .note,
+.cardInspect .stepText,
+.cardInspect .reportItem {
+	font-size: 1rem;
+}
+
+.cardInspect .surface {
+	font-size: 0.75rem;
+}
+
+.cardInspect .scenarioTitle {
+	font-size: 1.15rem;
+}
+
+.cardInspect .reportHeading {
+	font-size: 0.8rem;
 }
 
 .header {
@@ -34,25 +53,43 @@
 
 .meta {
 	display: flex;
-	flex-wrap: wrap;
 	align-items: center;
-	gap: 6px;
+	justify-content: space-between;
+	gap: 8px;
 	margin-bottom: 8px;
 }
 
-.partyBadge {
-	display: inline-block;
-	padding: 2px 8px;
-	border-radius: 4px;
-	font-family: system-ui, sans-serif;
-	font-size: 11px;
-	font-weight: 600;
-	letter-spacing: 0.02em;
-	color: #fff;
+.logoSlot {
+	flex: 0 0 105px;
+	width: 105px;
+	height: 28px;
 }
 
-.partyBadgeNeutral {
-	background: #6b6b6b;
+.partyLogo,
+.logoPlaceholder {
+	display: block;
+	width: 105px;
+	height: 28px;
+}
+
+.partyLogo {
+	object-fit: contain;
+	object-position: left center;
+}
+
+.logoPlaceholder {
+	border-radius: 4px;
+	background: #ece8e0;
+}
+
+.clusters {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 6px;
+	flex: 1 1 auto;
+	min-width: 0;
 }
 
 .clusterChip {
@@ -70,49 +107,6 @@
 	font-size: 15px;
 	font-weight: 600;
 	line-height: 1.35;
-}
-
-.faceToggle {
-	display: flex;
-	gap: 4px;
-	margin-top: 10px;
-}
-
-.faceButton {
-	flex: 1;
-	padding: 5px 8px;
-	border: 1px solid #ccc5b8;
-	border-radius: 4px;
-	background: #fff;
-	font-family: system-ui, sans-serif;
-	font-size: 11px;
-	cursor: pointer;
-}
-
-.faceButton:hover:not(:disabled) {
-	background: #f3f0e8;
-}
-
-.faceButtonActive {
-	background: #e8e4db;
-	border-color: #a89f8e;
-	font-weight: 600;
-}
-
-.faceButton:disabled {
-	opacity: 0.45;
-	cursor: not-allowed;
-}
-
-.derivedBanner {
-	margin-top: 8px;
-	padding: 6px 8px;
-	border-radius: 4px;
-	background: #f0ebe3;
-	border-left: 3px solid #8b7355;
-	font-family: system-ui, sans-serif;
-	font-size: 11px;
-	color: #5c4a32;
 }
 
 .body {
@@ -141,7 +135,8 @@
 
 .step {
 	display: flex;
-	gap: 6px;
+	align-items: baseline;
+	gap: 8px;
 	margin: 3px 0;
 	padding: 2px 0;
 }
@@ -156,13 +151,14 @@
 }
 
 .surface {
-	flex-shrink: 0;
-	min-width: 52px;
+	flex: 0 0 8ch;
+	width: 8ch;
 	font-family:
 		ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
 	font-size: 11px;
 	font-weight: 600;
 	text-align: right;
+	white-space: nowrap;
 }
 
 .surfaceGiven {
@@ -197,6 +193,7 @@
 
 .stepText {
 	flex: 1;
+	min-width: 0;
 }
 
 .report {
@@ -223,19 +220,27 @@
 
 .reportItem {
 	display: flex;
-	gap: 6px;
+	align-items: baseline;
+	gap: 8px;
 	margin: 2px 0;
 	font-size: 13px;
 }
 
-.gapsSection {
-	margin-top: 12px;
-	padding-top: 10px;
-	border-top: 1px dashed #d4cfc4;
+.listCard {
+	padding: 12px 14px;
+	box-shadow: 0 1px 4px rgb(0 0 0 / 6%);
 }
 
-.gapsHeading {
-	margin: 0 0 6px;
+.listCardGaps {
+	background: #f7f6f2;
+}
+
+.listCardAssumptions {
+	background: #f4f0ea;
+}
+
+.listCardTitle {
+	margin: 0 0 8px;
 	font-family: system-ui, sans-serif;
 	font-size: 11px;
 	font-weight: 600;
@@ -244,15 +249,33 @@
 	color: #666;
 }
 
-.gapsList {
-	margin: 0;
-	padding-left: 18px;
-	font-size: 12px;
-	color: #444;
+.cardInspect .listCardTitle {
+	font-size: 0.8rem;
 }
 
-.gapsList li {
-	margin: 3px 0;
+.listCardItems {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.listCardItems li {
+	margin: 0;
+	padding: 7px 0;
+	border-top: 1px dashed #dcd6cb;
+	font-size: 13px;
+	line-height: 1.4;
+	color: #333;
+}
+
+.listCardItems li:first-child {
+	padding-top: 0;
+	border-top: none;
+}
+
+.cardInspect .listCardItems li {
+	font-size: 1rem;
+	padding: 8px 0;
 }
 
 .source {

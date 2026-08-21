@@ -1,6 +1,7 @@
 import { useCallback, useMemo, useState } from 'react'
 import type { MoneyClass, PartyId, PolicyCard } from '../data/types'
 import { ALL_VISIBLE, type CardDisplay } from '../card/CardDisplay'
+import type { GroupBy } from '../grid/sortCards'
 
 function toggleInSet<T>(set: Set<T>, value: T): Set<T> {
   const next = new Set(set)
@@ -17,8 +18,8 @@ export type UseFiltersResult = {
   display: CardDisplay
   anonymise: boolean
   setAnonymise: (value: boolean) => void
-  enriched: boolean
-  setEnriched: (value: boolean) => void
+  groupBy: GroupBy
+  setGroupBy: (value: GroupBy) => void
   selectedClusters: Set<string>
   toggleCluster: (clusterId: string) => void
   clearClusters: () => void
@@ -36,8 +37,8 @@ export type UseFiltersResult = {
 
 /** Filter policy cards and derive the {@link CardDisplay} flags for rendering. */
 export function useFilters(cards: PolicyCard[]): UseFiltersResult {
-  const [anonymise, setAnonymise] = useState(false)
-  const [enriched, setEnriched] = useState(false)
+  const [anonymise, setAnonymiseState] = useState(true)
+  const [groupBy, setGroupBy] = useState<GroupBy>('none')
   const [selectedClusters, setSelectedClusters] = useState<Set<string>>(new Set())
   const [selectedParties, setSelectedParties] = useState<Set<PartyId>>(new Set())
   const [selectedMoney, setSelectedMoney] = useState<Set<MoneyClass>>(new Set())
@@ -109,13 +110,21 @@ export function useFilters(cards: PolicyCard[]): UseFiltersResult {
     setSelectedMoney(new Set())
   }, [])
 
+  function setAnonymise(value: boolean): void {
+    setAnonymiseState(value)
+    if (value) {
+      setGroupBy((current) => (current === 'party' ? 'none' : current))
+      setSelectedParties(new Set())
+    }
+  }
+
   return {
     filtered,
     display,
     anonymise,
     setAnonymise,
-    enriched,
-    setEnriched,
+    groupBy,
+    setGroupBy,
     selectedClusters,
     toggleCluster,
     clearClusters,

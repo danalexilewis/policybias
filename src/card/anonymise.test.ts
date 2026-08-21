@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { anonymiseText, stripPartyFromTitle } from './anonymise'
+import { anonymiseText, PARTY_COLOURS, stripPartyFromTitle } from './anonymise'
 
 describe('anonymiseText', () => {
   it('strips party names from titles', () => {
@@ -107,5 +107,21 @@ describe('stripPartyFromTitle', () => {
     expect(
       stripPartyFromTitle('Opportunity knocks with return to old-fashioned political campaigning'),
     ).toBe('Opportunity knocks with return to old-fashioned political campaigning')
+  })
+})
+
+describe('PARTY_COLOURS', () => {
+  it('gives Opportunity a teal ring colour', () => {
+    expect(PARTY_COLOURS.opportunity).toBe('#00b9bc')
+  })
+
+  it('gives NZ First a dark grey', () => {
+    expect(PARTY_COLOURS['nz-first']).toBe('#3d3d3d')
+  })
+
+  it('gives Labour and Te Pāti Māori different reds', () => {
+    expect(PARTY_COLOURS.labour).toBe('#d82c20')
+    expect(PARTY_COLOURS['te-pati-maori']).toBe('#7a1830')
+    expect(PARTY_COLOURS.labour).not.toBe(PARTY_COLOURS['te-pati-maori'])
   })
 })

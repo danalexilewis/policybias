@@ -1,0 +1,81 @@
+.overlay {
+	position: fixed;
+	inset: 0;
+	z-index: 70;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 3.5rem 1.25rem 2rem;
+	overflow: auto;
+	background: rgb(16 15 14 / 55%);
+}
+
+.panel {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.25rem;
+	align-items: start;
+	width: min(76rem, 100%);
+	margin: 0 auto 2rem;
+}
+
+.column {
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.kicker {
+	margin: 0 0 0.55rem;
+	font-family: system-ui, sans-serif;
+	font-size: 0.72rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: rgb(244 241 234 / 78%);
+}
+
+.empty {
+	margin: 0;
+	padding: 1.25rem 1.1rem;
+	border-radius: 8px;
+	background: rgb(250 249 246 / 92%);
+	font-family: system-ui, sans-serif;
+	font-size: 0.95rem;
+	line-height: 1.45;
+	color: #3d3934;
+}
+
+.close {
+	position: fixed;
+	top: 1.1rem;
+	right: 1.1rem;
+	z-index: 2;
+	display: grid;
+	place-items: center;
+	width: 2.75rem;
+	height: 2.75rem;
+	padding: 0;
+	border: 1.5px solid rgb(244 241 234 / 45%);
+	border-radius: 50%;
+	background: rgb(12 11 10 / 55%);
+	color: #f4f1ea;
+	cursor: pointer;
+}
+
+.close svg {
+	width: 1.15rem;
+	height: 1.15rem;
+}
+
+.close:hover {
+	border-color: #f4f1ea;
+	background: rgb(244 241 234 / 10%);
+}
+
+@media (max-width: 52rem) {
+	.panel {
+		grid-template-columns: 1fr;
+	}
+}

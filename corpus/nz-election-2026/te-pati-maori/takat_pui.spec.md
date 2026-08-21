@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-takat-pui
 title: "Protect takatāpui Māori wellbeing and inclusive services"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Protect takatāpui Māori wellbeing, safety and dignity, and ensure public services are inclusive, accessible and accountable.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Two commitments on the source page. No figures appear.
+> The wellbeing, safety and dignity of takatāpui Māori would be protected. Public services would be inclusive, accessible and accountable.
 
 System: Takatāpui Māori wellbeing and inclusive services
 

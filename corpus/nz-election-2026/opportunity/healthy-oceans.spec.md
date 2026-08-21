@@ -3,7 +3,7 @@ type: spec
 id: opportunity-healthy-oceans
 title: "30% marine reserves by 2035, cameras on boats, and a bottom-trawling phase-out"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Protect 30% of ocean territory as marine reserve by 2035, raise the sustainability baseline from 40% to 50% of virgin biomass, put cameras on commercial boats, and phase out bottom trawling.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Today's 0.5% marine-reserve cover, 30% by 2035, 10,000-plus hectares of restored coast, $500 million a year of extra blue-economy revenue, 100% transparency on commercial fishing, about $100 million a year of short-term Crown cost, a sustainability baseline lifted from 40% to 50% of virgin biomass, 86% of threatened species protectable with a 14% catch cut, and three companies holding 60% of quota are on the source page. Bottom trawling is to be phased out. Customary and settlement interests are named.
+> Many fish stocks are under pressure and marine reserves cover a tiny share of ocean territory. Fisheries shift to ecosystem-based rules with cameras on boats and a phased bottom-trawling exit. Marine protection expands, the blue economy grows through sustainable practices, and an Oceans Secretariat returns for integrated governance.
 
 System: Healthy Oceans
 

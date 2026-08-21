@@ -3,7 +3,7 @@ type: spec
 id: national-kiwisaver
 title: "Compulsory KiwiSaver, Baby Boost and parental leave top-up"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Compulsory KiwiSaver from July 2028 lifting combined defaults to 12% by 2032, $1500 Baby Boost, hardship opt-out, and paid parental leave KiwiSaver contributions from July 2027.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> Compulsory KiwiSaver from 1 July 2028, 12% combined default by 2032, $1500 Baby Boost from 1 July 2027, automatic enrolment at birth, parental leave Government contribution even without employee contribution from 1 July 2027, and employer contributions for over-65s from 1 July 2027 are on the page. The linked PDF adds a hardship test to suspend contributions, a self-employed 4% contribution from 1 July 2028 rather than the combined 8%, and a fiscal table starting at $110.1 million in 2027/28 including $90.0 million a year for Baby Boost. Worked examples use illustrative returns.
+> KiwiSaver becomes compulsory for all workers from 1 July 2028, with combined default contributions continuing to rise. Every child born is enrolled at birth with a Baby Boost from 1 July 2027. From the same date, the Government contributes during paid parental leave even without employee contributions, and employers contribute for workers over 65. People facing hardship can suspend contributions; the self-employed contribute at a lower rate than the combined default.
 
 System: Enhanced KiwiSaver
 

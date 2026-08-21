@@ -3,7 +3,7 @@ type: spec
 id: national-news-20260517-honpaulgoldsmith
 title: "Abolish good character discounts for sexual offending"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Judges prohibited from treating good character as a mitigating factor at sentencing for all sexual offending.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> Prohibition on good character as a mitigating factor for all sexual offending, and reference to prior sentencing discount, name suppression and stalking reforms, are on the news release. No figures appear.
+> Judges would be prohibited from treating good character as a mitigating factor when sentencing all sexual offending. Character testimony from coaches, employers and family could no longer reduce sentences in these cases. The change builds on earlier sentencing discount, name suppression and stalking reforms.
 
 System: Abolishing good character at sentencing for sexual offending
 

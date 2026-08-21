@@ -3,7 +3,7 @@ type: spec
 id: opportunity-healthy-people
 title: "Ten-year cross-party health plan, spend-to-save primary care, and smokefree law restored"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Plan health over ten years across parties, put money into primary and prevention care that the page says can save $13 for every $1, and reinstate smokefree legislation.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> Every $1 of primary care saving upwards of $13 in wider health costs is the given. Commitments are a ten-year cross-party health plan, spend-to-save primary and prevention work including digital and AI tools, proper funding for ambulances, GPs and health infrastructure, better pay and more training places, and reinstating smokefree 2025 legislation. No new dollar totals appear. The page says a detailed policy is still to launch.
+> Primary and prevention care can reduce wider health costs when funded over the long term. A ten-year cross-party health plan backs spend-to-save primary care, proper funding for ambulances, GPs and infrastructure, better pay and training for health workers, and restored smokefree 2025 legislation. Detailed policy is still to launch.
 
 System: Healthy People
 

@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-kai-sovereignt
 title: "Kai sovereignty — protect Māori food systems"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Protect Māori food systems, invest in community food and regenerative agriculture, break corporate control, and increase land access for food production.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Four commitments on the source page. No board, GST change or figures appear.
+> Māori food systems would be protected, including seed sovereignty, rejecting GE foods and upholding WAI262. Community food systems and regenerative Māori agriculture would be invested in. Corporate control would be broken by supporting Māori-owned supermarkets and protecting local kai sellers, with increased access to land for food production.
 
 System: Kai sovereignty and Māori food systems
 

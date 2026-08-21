@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-seniors
 title: "Ageing strategy and not-for-profit retirement villages"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Long-term ageing strategy, community facilities for seniors, papakāinga and accessible housing, equitable home care pay and culturally grounded kaumātua support.
 jurisdiction: NZ
 sources:
@@ -32,7 +32,7 @@ gaps:
 
 # What the page states
 
-> The source page names plan items on ageing strategy, community spaces, housing, care workers and culturally aligned organisations. No figures appear. No timetable is given.
+> Seniors and kaumātua thrive through a long-term ageing strategy, expanded community spaces and suitable intergenerational housing. Papakāinga building expands with kaumātua prioritised on social housing waitlists and home care workers paid equitably including travel time. Māori, Pacific and migrant organisations are resourced for culturally aligned kaumātua care. No dollar amounts or dates are given.
 
 System: Support for seniors and kaumātua
 

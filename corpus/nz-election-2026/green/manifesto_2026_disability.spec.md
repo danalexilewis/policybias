@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-disability
 title: "Disability rights law, accessible income and housing, and a 75% Total Mobility subsidy"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Te Tiriti-based disability rights law, income support, universal design housing, 75% Total Mobility subsidy and Enabling Good Lives approach.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover disability rights law, income support, universal design housing, the Total Mobility scheme, Enabling Good Lives, emergency plans and supported decision-making. The page names a 75% Total Mobility taxi subsidy. No payment rates or budgets appear.
+> Disabled people and whānau would live with dignity through Te Tiriti-based disability rights law and enforceable accessibility standards. Income support would meet disability-related living and medical costs, housing would move toward universal design, and the Total Mobility taxi scheme would stay funded with easier use and more vehicles. The Enabling Good Lives approach would guide agencies, emergency plans would address disabled people's needs, and supported decision-making would replace legal capacity assessments.
 
 System: Disability rights and accessible services
 

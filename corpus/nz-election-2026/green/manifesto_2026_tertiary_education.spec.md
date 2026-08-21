@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-tertiary-education
 title: "Universal student income and a fees-free pathway"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Universal student income, tertiary funding overhaul, polytechnic protection, apprenticeships and fees-free pathway, Whare Wānanga resourcing and student union default membership.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> The source page names a universal student income and work toward fees-free education and student debt write-off. Living wage for placement courses is named without a dollar rate on this page. No timetable is given.
+> Tertiary funding shifts so study is affordable and institutions serve the public good. A universal student income covers postgraduate study, placement courses pay at least the living wage, and polytechnics regain local control. Free apprenticeships expand, fees-free education and student debt write-off are progressed, and default student union membership returns. No timetable is given.
 
 System: Tertiary education funding and student support
 

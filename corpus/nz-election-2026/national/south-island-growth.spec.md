@@ -3,7 +3,7 @@ type: spec
 id: national-south-island-growth
 title: "South Island growth plan for infrastructure and exports"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Invest in South Island transport, exports, energy, and frontline services including $50 million for Rolleston and $25 million for Queenstown roads.
 jurisdiction: NZ
 sources:
@@ -29,12 +29,15 @@ gaps:
 
 # What the page states
 
-> South Island economy scale ($100 billion a year, 22% of national economy), Rolleston $50 million, Queenstown $25 million four-laning, 96 Christchurch Hospital beds, nearly 100 classrooms, tourism and export context figures, and sector policy bullets are on the page.
+> Investment would target South Island transport, exports, energy and frontline services. Road and rail connections would include Rolleston's intermodal hub and Queenstown four-laning, with hospital beds and classrooms added. Energy policy would match new industrial demand with new generation, including firmed supply for data centres.
 
 System: South Island growth plan
 
 Scenario: South Island infrastructure and exports receive investment
 Given the South Island economy worth almost $100 billion a year
+And the South Island economy around 22 per cent of the national economy
+And international visitors spent $18.1 billion in the year to March 2025
+And tourism supports around one in nine New Zealand jobs
 When the South Island growth plan proceeds
 Then road, rail, hospital and classroom projects proceed
 Output $50 million for Rolleston intermodal freight hub connections

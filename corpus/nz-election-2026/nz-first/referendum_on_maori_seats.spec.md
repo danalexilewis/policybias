@@ -3,7 +3,7 @@ type: spec
 id: nz-first-referendum-on-maori-seats
 title: "Public referendum on the future of Māori seats"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A referendum for the public to decide whether Māori electorates remain effective, relevant and needed.
 jurisdiction: NZ
 sources:
@@ -30,12 +30,13 @@ gaps:
 
 # What the page states
 
-> The referendum commitment and rationale about MMP representation are on the page. Statistics on Māori representation and roll enrolment are context, not referendum design. No Output follows because no question, date or binding status is given.
+> A referendum after the next election would let the public decide whether Māori parliamentary seats remain effective, relevant and needed. MMP is argued to have made separate seats less necessary, with Māori representation in the House now higher than the share often claimed for the population. No question wording, date or binding status is given.
 
 System: Referendum on Māori parliamentary seats
 
 Scenario: A referendum is held on Māori seats
 Given twenty-seven percent of the House has a Māori background under MMP
+And Māori are often claimed as seventeen percent of the population
 And enrolment on the Māori roll has steadily decreased to half of all Māori enrolled
 When a referendum on the future of the Māori seats is held after the next election
 Then the public decides if the Māori seats are effective, relevant and still needed

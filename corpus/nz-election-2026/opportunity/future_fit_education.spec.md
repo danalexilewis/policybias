@@ -3,7 +3,7 @@ type: spec
 id: opportunity-future-fit-education
 title: "ECE pay parity, Year 6 civics, and a tighter cap on centre size"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Pay ECE teachers at primary and secondary rates, limit centre size and ratios, back Playcentre and Kōhanga Reo, teach civics from Year 6, and cut classroom screen time.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> The list on the source page covers ECE ownership, size and ratios, pay parity, integration with early primary, Year 6 civics, disabled learners, teacher pay and development, less classroom screen time, and community night schools. No dollar amounts appear except the Year 6 starting point. The page says a detailed policy is still to launch.
+> Education must prepare young people for a more complex world. Early childhood settings are rebalanced toward community centres with tighter size and ratio rules and pay parity for teachers. Schools teach civics from Year 6, cut classroom screen time, and community night schools support lifelong learning. Detailed policy is still to launch.
 
 System: Future-fit education
 

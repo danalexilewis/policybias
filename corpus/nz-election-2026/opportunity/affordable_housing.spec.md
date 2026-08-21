@@ -3,7 +3,7 @@ type: spec
 id: opportunity-affordable-housing
 title: "Land value tax plus a building boom to close an 80,000-home shortage"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Use a land value tax to bring prices down, and a building boom — zoning, tiny homes, underwriting, GST refunds — to cut an 80,000-home shortage.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> The 7.3 times median-wage price, the 3 times affordability benchmark, the 80,000-home shortage, and the building-boom list are on the source page. The land value tax is named here as part of the Tax Reset; the rate lives on that page. No dollar cost for underwriting or GST refunds appears.
+> Houses have become severely unaffordable as prices pulled away from wages. A land value tax under the Tax Reset is meant to discourage land banking and encourage denser development. A building boom adds supply through simpler zoning, tiny homes, underwriting and GST refunds on high-standard builds.
 
 System: House prices down and more homes built
 

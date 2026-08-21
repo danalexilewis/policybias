@@ -3,7 +3,7 @@ type: spec
 id: act-strengthening-end-of-life-choice
 title: "Adopt 25 review recommendations and replace six-month prognosis rule"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Implement all 25 Ministry of Health statutory review recommendations, replace the six-month prognosis with advanced progressive fatal condition, and allow limited waiver of final consent.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> All 25 Ministry of Health review recommendations, six-month prognosis replacement, retained eligibility tests, limited final-consent waiver, practitioner training, and Registrar oversight are on the source page. The linked Bill comes into force on the day after Royal assent. The almost 1,700 assisted deaths, 300 ineligible applicants and 42 withdrawals figures appear in a quoted speech on the source page.
+> The End of Life Choice Act's statutory review recommended 25 changes and the six-month prognosis rule shuts out some terminally ill applicants. The amendment Bill implements all 25 recommendations, replaces the prognosis test with advanced progressive fatal condition, and allows a limited waiver of final consent. The Bill comes into force on the day after Royal assent.
 
 System: End of Life Choice Act amendments
 

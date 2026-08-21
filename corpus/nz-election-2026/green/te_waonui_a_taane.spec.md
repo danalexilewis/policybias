@@ -3,7 +3,7 @@ type: spec
 id: green-te-waonui-a-taane
 title: "$2.44 billion Te Rangatiratanga Trust for marae"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Te Rangatiratanga Trust with $400 million restoration fund over four years and $2 billion intergenerational endowment, governed by hapū and iwi.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> Dollar figures are from the source page: $2.44 billion total Crown funding, $400 million over four years for Te Rākau Whakarauora Restoration Fund, and $2 billion for Te Tōtara Haemata Intergenerational Fund.
+> Marae are resourced as critical social and cultural infrastructure through hapū- and iwi-governed Te Rangatiratanga Trust. Nationwide wānanga would establish the trustee body, two complementary funds and governance mechanisms. Te Rākau Whakarauora Restoration Fund covers urgent projects while Te Tōtara Haemata Intergenerational Fund builds long-term returns for marae and community development.
 
 System: Te Waonui a Tāne marae funding via Te Rangatiratanga Trust
 

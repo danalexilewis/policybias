@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-economic-development
 title: "Māori-led institutions, enterprise and data sovereignty"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Build Māori-led institutions and funds, support trade and innovation for Māori wealth, and protect Māori data and knowledge.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> Māori-led institutions and funds would grow Māori enterprise. Trade, innovation and long-term Māori wealth building would be supported. Māori data and knowledge would be protected through data sovereignty.
 
 System: Māori economic development and data sovereignty
 

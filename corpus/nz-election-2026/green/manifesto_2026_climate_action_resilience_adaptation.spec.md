@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-climate-action-resilience-adaptation
 title: "Māori Climate Resilience Fund, wider Natural Hazards cover, and Pacific climate support"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Māori Climate Resilience Fund, expanded Natural Hazards Commission cover, nature-based adaptation, and Pacific climate support.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover adaptation funding, insurance, planning and Pacific support. No dollar amounts or dates appear.
+> Communities would get clearer support to prepare for intensifying storms, floods and drought. Adaptation planning would affirm tino rangatiratanga, fund a Māori Climate Resilience Fund, and widen Natural Hazards Commission cover for climate-related events including community-led retreat. Nature-based solutions and dedicated central and local government funding would back hapū, iwi and community-led plans, with scaled-up Pacific adaptation support. No dollar amounts or dates are given.
 
 System: Climate adaptation and resilience
 

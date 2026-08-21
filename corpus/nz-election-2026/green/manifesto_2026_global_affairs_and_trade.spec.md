@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-global-affairs-and-trade
 title: "Independent foreign policy, AUKUS and Five Eyes withdrawal, and Trade For All"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Independent foreign policy, defence refocus, AUKUS and Five Eyes withdrawal, Palestine recognition and enforceable trade standards.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover foreign policy, defence, alliances, Palestine, decolonisation, trade and climate diplomacy. No figures appear.
+> Foreign policy would stand independently for peace, justice and human rights rather than deepening military ties with the United States. Defence would focus on climate response, humanitarian work and environmental monitoring, with AUKUS declined and Five Eyes withdrawal. Palestine would be recognised and Israel sanctioned, decolonisation movements would be supported, and the Trade For All agenda would enforce Te Tiriti, workers' rights, human rights and climate commitments in trade. Climate diplomacy would pursue weaker patent protections on green technologies and climate border adjustments. No dollar amounts or dates are given.
 
 System: Independent foreign affairs and trade
 

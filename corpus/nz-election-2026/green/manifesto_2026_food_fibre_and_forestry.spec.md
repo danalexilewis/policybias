@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-food-fibre-and-forestry
 title: "Regenerative farming, forestry controls, and biodiversity credits"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Transition finance for farmers, palm kernel ban, clear-fell controls, local wood processing and Māori-led forestry investment.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover agricultural transition, fibre, feed, forestry, wood processing, Māori forestry and biodiversity credits. No figures appear.
+> Food, fibre and forestry would shift from intensive short-term profit toward regenerative production that protects waterways and communities. Farmers would get transition finance, wool and other natural fibres would be used in public buildings, palm kernel expeller would be banned, and clear-fell controls and a National Soil Strategy would protect erosion-prone land. Local wood processing and Māori-led forestry on whenua Māori would expand, with a biodiversity credits scheme offering a voluntary ETS alternative. No dollar amounts or dates are given.
 
 System: Regenerative food, fibre and forestry
 

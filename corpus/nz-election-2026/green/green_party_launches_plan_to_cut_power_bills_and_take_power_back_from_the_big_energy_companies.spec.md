@@ -3,7 +3,7 @@ type: spec
 id: green-green-party-launches-plan-to-cut-power-bills-and-take-power-back-from-the-big-energy-companies
 title: "Kiwipower, solar loans and community energy investment"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A publicly owned Kiwipower entity funded with $980 million over four years, zero-interest clean energy loans, $969.8 million to expand Warmer Kiwi Homes, and $280 million for community and Māori housing renewables.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Figures in steps are from the announcement page and its linked PDF: Kiwipower as a publicly owned entity with a $980 million four-year envelope, $200 million community renewables, $80 million Māori housing renewables, $969.8 million Warmer Kiwi Homes, $421.2 million loan opex, and solar on more than half of public homes within four years.
+> Household power bills would be cut through a publicly owned Kiwipower entity investing in renewable generation and dry-year firming without a billion-dollar LNG terminal. Zero-interest clean energy loans, a renters' right to solar and expanded Warmer Kiwi Homes would help households install solar and batteries and live in warmer, drier homes. Community-owned renewables and solar on public homes and Māori housing would put ownership back in communities.
 
 System: Affordable renewable power and household energy upgrades
 

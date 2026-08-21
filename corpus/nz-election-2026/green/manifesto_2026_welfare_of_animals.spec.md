@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-welfare-of-animals
 title: "Commissioner for Animals and phase out factory farming"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Animals Commissioner and ministry, stronger farm codes, phase-out of harmful practices, import welfare standards and live export ban extension.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> The source page names plan items on institutional advocacy, codes, practice phase-outs, imports, labelling and live exports. No figures or dates appear.
+> Animal welfare gains an independent Commissioner and ministry with stronger farm codes from a resourced National Animal Welfare Advisory Committee. Harmful practices including factory farming, rodeo and farrowing crates phase out and imported products must meet local welfare standards. The live export ban at sea extends to air exports and wild-caught animals such as longfin eels. No dollar amounts or dates are given.
 
 System: Animal welfare law and standards
 

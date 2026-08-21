@@ -3,7 +3,7 @@ type: spec
 id: nz-first-the-kiwi-kids-grant
 title: "Kiwi Kids Grant of $5000 a year for each of the first three children"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A universal tax-free grant of $5000 annually for the first three years of each of the first three children of New Zealand citizen parents, paid via IRD.
 jurisdiction: NZ
 sources:
@@ -31,12 +31,14 @@ gaps:
 
 # What the page states
 
-> The $5000 annual rate, three-year and three-child scope, citizenship requirement, IRD delivery, tax-free status, and $400 million third-year cost estimate are on the page. Demographic statistics cited are context for the problem statement.
+> A universal, non-means-tested grant would support New Zealand citizen parents raising their first three children through each child's first three years, paid via IRD and tax-free. It would sit alongside existing support such as Paid Parental Leave and Working for Families. The falling birthrate is cited as the problem the grant addresses. No commencement date is given.
 
 System: Kiwi Kids Grant for citizen families
 
 Scenario: A New Zealand citizen parent qualifies for the Kiwi Kids Grant
 Given New Zealand's birthrate has fallen to 1.53 births per person
+And citizen births fell from 52,506 in 2006 to 36,351 in 2025
+And citizen births were 72 percent of all births last year compared with 87 percent in 2006
 When the Kiwi Kids Grant is introduced
 Then a universal non-means tested grant supports citizens raising the first three children through the first three years of life
 Output $5000 paid annually for the first three years for each of the first, second and third child

@@ -3,7 +3,7 @@ type: spec
 id: nz-first-one-clarion-call
 title: "Compulsory KiwiSaver at 8% then 10% with matching tax cuts"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Compulsory KiwiSaver with combined employee and employer contributions rising first to 8% then later to 10%, offset by tax cuts, and KiwiSaver used as a New Zealand asset-owning entity.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> This is a convention speech. The KiwiSaver announcement is the 8% then 10% combined contribution, tax cuts to cover the increases, compulsion, and an asset-owning role for the scheme. Other passages in the speech are not modelled here. No dollar cost for the KiwiSaver change is given.
+> KiwiSaver would become compulsory, with combined employee and employer contributions rising first to eight per cent and later to ten per cent. Tax cuts would cover the increases for members and employers, and the scheme would become a New Zealand asset-owning entity. Other convention topics are not modelled here. No dollar cost or start dates are given.
 
 System: Compulsory KiwiSaver with matching tax cuts
 

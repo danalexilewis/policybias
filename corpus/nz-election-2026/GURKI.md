@@ -1,6 +1,6 @@
 # NZ 2026 party policy as Gurki specs
 
-Two Gurki specs per party policy page: what the party stated, and what we read into it.
+Two Gurki specs per party policy page: what the party stated, and our understanding of it.
 
 This is **stage 5** of the pipeline in the [dump plan](https://github.com/danalexilewis/gurki/blob/main/plans/2026-08-18-nz-party-policy-dump.md). Stage 1 crawled the pages into `corpus/nz-election-2026/`, stage 3 tagged them, stage 4 reduced them into [`_analysis/`](_analysis/) notes and a [published report](https://github.com/danalexilewis/gurki/blob/main/plans/2026-08-18-nz-2026-policy-reduce-report.md). This tree goes back to the **original pages** and models each one on its own terms.
 
@@ -18,11 +18,11 @@ So the interesting products of this tree are not the specs. They are the **gaps*
 
 Every page gets a **stated spec**. Only what the party says goes in it. If the page does not say a thing, it is not there.
 
-Most pages also get a **derived spec**: our systems reading of the same page. This is where the economics goes — incentives, timing, incidence, who carries the risk. It says so in its own title and note, and it is never presented as the party's claim.
+Most pages also get a **derived spec**: our understanding of the same policy. This is where the economics goes — incentives, timing, incidence, who carries the risk. The title still names it as a reading. The card labels the face Our understanding. The note states the finding, and is never presented as the party's claim.
 
 ```text
 labour/capitalgainstax.spec.md            # Labour's claim
-labour/capitalgainstax.derived.spec.md    # our reading of it
+labour/capitalgainstax.derived.spec.md    # our understanding of it
 ```
 
 Two files instead of markers inside one file, because:
@@ -41,7 +41,7 @@ Write no derived spec when you have nothing to add beyond the page. An empty res
 
 ## This is not a voting guide, and not an endorsement
 
-A stated spec is a party's claim, structured. A derived spec is our analysis and is labelled as such in its title, its note, and its `assumptions` list. Both point at the page with `sourcePath`, and the page is the authority.
+A stated spec is a party's claim, structured. A derived spec is our analysis and is labelled as such in its title and its `assumptions` list. The card labels that face Our understanding. Both point at the source with `sourcePath`, and the policy is the authority.
 
 ## Licence
 
@@ -57,7 +57,7 @@ corpus/nz-election-2026/
   parties.yaml                         # party labels and canvas colours
   <party-id>/<slug>.md                 # crawled page (stage 1)
   <party-id>/<slug>.spec.md            # stated: the party's claim (stage 5)
-  <party-id>/<slug>.derived.spec.md    # derived: our reading (stage 5)
+  <party-id>/<slug>.derived.spec.md    # derived: our understanding (stage 5)
 ```
 
 Party ids match the corpus: `act`, `green`, `labour`, `national`, `nz-first`, `opportunity`, `te-pati-maori`.
@@ -198,7 +198,9 @@ A dollar amount or a percentage on the page is measurable. On a stated spec it b
 
 Do not invent a figure to complete a picture, in either kind of spec. If one page states a rate and another states a spend, do not infer the missing revenue by combining them. That belongs in `gaps`.
 
-Open every spec with a note blockquote. A stated spec's note says what is sourced and flags anything vague as a sketch. A derived spec's note says plainly that the spec is our reading, not the published claim, and names where we disagree with the page. Do not name a party, a politician, or a spec id in the note.
+Open every spec with a note blockquote. A stated spec's note is a short, neutral paraphrase of the party's overview — what the policy is, in two to four sentences a neighbour could follow. Do not inventory figures, rates, or source provenance there (`The 4.9%, 12.2% and 13.3% budget shares… are all on the source page`). Those belong in `Given` and `Output`. Calendar dates (`1 July 2027`) may live in the note, because time in steps is elapsed duration. If the policy names no dollars, dates, or mechanism, flag that sketch in one short clause.
+
+A derived spec's note is our understanding of the policy. State the finding. Do not explain the process: no "this is our reading", "those readings are ours", "we invent none", or "not the published claim". The inspect column already labels the face. Say "the policy", never "the page". Do not name a party, a politician, or a spec id in the note.
 
 ## Gaps and assumptions
 

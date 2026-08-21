@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-housing
 title: "Tens of thousands of public homes, a 2% rent cap, and a rental WOF"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Tens of thousands of new public homes, 2% annual rent cap, Rental Warrant of Fitness and Housing First expansion.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover public home building, rent limits, a Rental Warrant of Fitness, Housing First, urban form and landlord tax settings. Annual rent increases are limited to no more than 2%. The page says tens of thousands of new public homes, not an exact count.
+> Warm, affordable housing would be treated as a basic right rather than an investment asset. Tens of thousands of new public homes and more papakāinga on whenua Māori would be built, annual rent increases would be capped, and new tenancy rents would link to what previous tenants paid. Healthy Homes Standards would strengthen under an independently certified Rental Warrant of Fitness, Housing First and supported housing would expand with same-day homelessness placement, and landlord tax benefits would reverse.
 
 System: Warm, affordable housing for all
 

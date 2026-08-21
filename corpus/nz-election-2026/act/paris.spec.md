@@ -3,7 +3,7 @@ type: spec
 id: act-paris
 title: "Split-gas NDC, reset emissions plans and keep agriculture out of the ETS"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Submit a split-gas NDC with no-additional-warming methane management, reset Emissions Reduction Plans around realistic targets, and permanently exclude agriculture from the Emissions Trading Scheme.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The split-gas NDC proposal, Emissions Reduction Plan reset, agriculture ETS exclusion, 46% lower dairy carbon footprint than global average, No Additional Warming methane approach, and Paris exit if targets cannot accommodate New Zealand's emissions profile are all on the source page. No numeric NDC targets appear.
+> Current climate targets treat methane like fossil carbon and push farmland into forestry despite efficient dairy production. The policy submits a split-gas NDC in the next parliamentary term, resets Emissions Reduction Plans around realistic targets, keeps agriculture out of the ETS, and manages biogenic methane under a No Additional Warming approach. New Zealand may leave the Paris Agreement if targets cannot reflect its emissions profile. No numeric NDC targets appear.
 
 System: Paris Agreement climate policy for New Zealand emissions
 

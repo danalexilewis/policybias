@@ -3,7 +3,7 @@ type: spec
 id: act-stopping-coercion
 title: "Criminalise using companion animal abuse as family violence coercion"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Amend the Crimes Act with up to seven years for coercive companion animal abuse, strengthen Protection Orders for pets, require Police recording and explicit authority to remove animals to safety.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The Crimes Act amendment with up to seven years imprisonment, Protection Order strengthening, Police recording on family harm reports, statutory removal authority, research finding abusive partners almost 11 times more likely to harm animals, and more than half of victims delaying leaving are all on the source page. No implementation timetable is given.
+> Abusive partners often harm companion animals and many victims delay leaving to protect pets. The policy criminalises using companion animal abuse as family violence coercion, strengthens Protection Orders, requires Police to record pets on family harm reports, and gives explicit authority to remove animals to safety. No implementation timetable is given.
 
 System: Protecting companion animals from family violence coercion
 

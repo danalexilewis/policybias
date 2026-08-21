@@ -3,7 +3,7 @@ type: spec
 id: national-solar
 title: "Home Energy Fund and permitted small-scale renewables"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Home Energy Fund offers ten-year property-secured loans with $7 million Crown equity, plus national permitted-activity rules for rooftop solar and batteries.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> Home Energy Fund structure, ten-year property-secured repayment, $7 million Crown equity for 20% shareholding, eligible investments (solar, batteries, insulation, heat pumps), 20% property equity requirement, and national permitted-activity rules for small-scale renewables are on the page.
+> The Home Energy Fund would offer low-interest loans secured against the home and repaid over ten years through rates or on sale. A one-off Crown equity investment would establish the fund alongside participating councils. National permitted-activity rules would let property owners install rooftop solar, batteries and small-scale renewables without resource consent.
 
 System: Home Energy Fund
 
@@ -38,4 +38,5 @@ When the Home Energy Fund is implemented
 Then low-interest long-term loans secured against the home
 Output $7 million one-off Crown equity investment for 20% shareholding
 And loans repaid over ten years through rates or on sale of property
+And ratepayers with at least 20% equity in their property eligible
 Outcome residential solar, battery storage, insulation and heat pumps eligible

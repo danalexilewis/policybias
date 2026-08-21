@@ -3,7 +3,7 @@ type: spec
 id: act-keeping-children-safe
 title: "One national Working with Children Card with continuous Police checking"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Replace snapshot employer checks with a three-year national card for paid workers and volunteers, continuously checked against Police information with immediate suspension on serious charges.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> The three-year check gap, national card, continuous Police checking, suspension on serious charges, child-protection training, and about $108 paid-worker fee are all on the source page. The linked PDF prints $12–20 million one-off establishment, about $50 million a year operating, about $37.5 million recovered in fees, and about $12.5 million net annual cost. No offence list or commencement date is given.
+> Safety checks can lag up to three years even when new Police information emerges. The policy creates one national Working with Children Card for paid workers and volunteers, continuously checked against Police information with immediate suspension on serious charges and child-protection training on renewal. No offence list or commencement date is given.
 
 System: Working with Children Card for covered roles
 

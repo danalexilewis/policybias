@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-te-tiriti-o-waitangi
 title: "Treaty Act reform, settlements and binding Tribunal recommendations"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Treaty of Waitangi Act amendment, Te Tiriti decision-making, settlement process reform, binding Waitangi Tribunal land return and private land first refusal.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> The source page names plan items on Treaty legislation, decision-making, settlements, Tribunal powers and land return. No figures appear. No timetable is given.
+> Te Tiriti sits at the heart of constitutional partnership through Treaty Act reform and genuine decision-making across government. Treaty settlements reform removes Full and Final clauses and validates hapū rangatiratanga while Waitangi Tribunal resourcing increases with binding land return recommendations. Wrongfully alienated whenua returns including exploring private land first refusal at point of sale. No dollar amounts or dates are given.
 
 System: Te Tiriti o Waitangi constitutional and settlement reform
 

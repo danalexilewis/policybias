@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-health
 title: "Māori-led health authority focused on prevention"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Rebuild a Māori-led health authority, shift toward prevention and whānau wellbeing, and make services culturally safe and accountable to Māori.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> A Māori-led health authority would be rebuilt and strengthened. The system would shift toward prevention and whānau wellbeing, not only crisis response. Services would be accessible, culturally safe and accountable to Māori.
 
 System: Māori-led health system reform
 

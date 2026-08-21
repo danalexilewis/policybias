@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-local-government
 title: "Local democracy, Māori wards and council funding tools"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Electoral Commission local elections, voting age 16, STV, Māori wards restored, new levies and four wellbeings purpose.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> The source page includes 16-year-olds voting in local elections. Levy types are named without amounts. No timetable is given.
+> Local democracy strengthens through Electoral Commission-run elections, voting at 16 and single transferable vote. Councils regain Māori wards and new funding tools replace a proposed rates cap. The four wellbeings become core purpose with devolved responsibilities and community-led processes such as citizens' assemblies. No dollar amounts or dates are given.
 
 System: Local government democracy and funding
 

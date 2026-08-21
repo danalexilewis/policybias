@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-democracy
 title: "Constitutional conversation, voting age 16, and donation reform"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Constitutional transformation dialogue, voting age 16, entrenched Māori seats, donation limits and a lobbyist register.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover constitutional talks, voting rights, Māori seats, donations and lobbying. The voting age extends to 16. Donation caps are described as a level that does not risk donor influence, without a dollar figure.
+> Democracy would represent people rather than wealthy corporate interests. A national conversation on constitutional transformation would use Matike Mai Aotearoa, voting rights would extend to 16-year-olds and people in custody, and Māori seats would be entrenched with longer roll-switch windows. Donations would be capped for registered voters with more public campaign financing, and lobbying would face a register and code of conduct. No dollar amounts or dates are given.
 
 System: Democratic representation and political finance reform
 

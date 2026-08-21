@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-mental-health
 title: "Expand free mental health services and end seclusion"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Expand Piki, Mana Ake and community services, implement suicide prevention strategy with under-24 focus, phase out seclusion and fund kaupapa Māori programmes.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> The source page names suicide prevention work focused on people under 24. No funding figures appear. No timetable is given.
+> Free mental health services expand so cost is never a barrier, including youth and culturally relevant programmes. The Every Life Matters suicide prevention strategy implements with kaupapa Māori actions focused on people under 24. Seclusion phases out as early intervention reduces compulsory care and referral pathways link primary and secondary services. No dollar amounts or dates are given.
 
 System: Mental health access and suicide prevention
 

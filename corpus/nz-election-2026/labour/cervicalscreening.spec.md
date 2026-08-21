@@ -3,7 +3,7 @@ type: spec
 id: labour-cervicalscreening
 title: "Free cervical screening through Medicard"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Cervical screening free for everyone aged 25 to 69 from 1 October 2027, loaded onto the Medicard.
 jurisdiction: NZ
 sources:
@@ -26,7 +26,7 @@ gaps:
 
 # What the page states
 
-> Start date, age band, Medicard integration, $21.6 million first-year cost, and funding from existing health baselines are all on the page.
+> Cervical screening becomes free for everyone aged 25 to 69 from 1 October 2027. Eligibility loads automatically onto the Medicard and can be used at a doctor or community screening event. Free screening sits alongside three free doctor's visits a year.
 
 System: Free cervical screening through Medicard
 

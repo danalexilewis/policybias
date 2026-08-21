@@ -3,7 +3,7 @@ type: spec
 id: labour-futurefund
 title: "New Zealand Future Fund for infrastructure and Kiwi businesses"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: An independently governed Future Fund seeded with Crown assets and an initial capital contribution, separate from the NZ Super Fund.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Governance model, Guardians of the Super Fund role, Minister of Finance as sole shareholder without investment direction, seeded asset protection in law, and separation from the NZ Super Fund are all on the page. No dollar seeding figure is published.
+> An independently governed Future Fund invests in infrastructure and innovative Kiwi businesses, seeded with Crown-owned assets and an initial capital contribution. It sits alongside and separate from the NZ Super Fund. Seeded assets are protected in law from sale.
 
 System: New Zealand Future Fund
 

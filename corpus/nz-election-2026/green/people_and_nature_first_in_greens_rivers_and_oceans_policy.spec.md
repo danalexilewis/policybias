@@ -3,7 +3,7 @@ type: spec
 id: green-people-and-nature-first-in-greens-rivers-and-oceans-policy
 title: "Drink Swim Fish water protection programme"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Drinking water limits, wastewater rules and bottom trawling phase-out as part of an eight-intervention Drink Swim Fish package.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> The source page names three of eight Drink Swim Fish interventions and cites up to 100,000 people becoming sick from unsafe drinking water each year as context. Numeric limits and budgets are not on this page.
+> Weak water rules have left drinking water, rivers and oceans open to industrial exploitation. The Drink Swim Fish programme names three of eight interventions here: stronger drinking-water limits, tighter wastewater discharge rules, and a phase-out of destructive bottom trawling. Numeric limits, budgets and dates are not given.
 
 System: Drink Swim Fish water and oceans protection
 

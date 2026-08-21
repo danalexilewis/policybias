@@ -3,7 +3,7 @@ type: spec
 id: act-student-services-fee
 title: "Make Student Services Fees voluntary with menu-based selection"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Amend regulations so universities offer student services as a menu, letting students pay only for chosen services up to the current $1,253 cap instead of a compulsory fee.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The up to $1,253 compulsory fee, more than $4,000 over a three-year degree, taxpayer subsidy through student loans, menu-based voluntary selection, and user-pays for unchosen services are all on the source page. No regulatory citation or rollout date is given.
+> Every domestic university student pays a compulsory Student Services Fee on top of tuition, much of it loan-funded and taxpayer-subsidised. The policy makes fees voluntary through a menu of services students choose and pay for, with unchosen services available on user-pays terms. No regulatory citation or rollout date is given.
 
 System: Voluntary Student Services Fees at universities
 

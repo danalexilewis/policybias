@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-immigration-and-refugees
 title: "Fair migration pathways and a 5,000 refugee quota by 2029"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Residence pathways, ASH abolition, employer switching, family reunification, Te Tiriti-based immigration and 5,000 refugee quota.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover residence pathways, health requirements, employer switching, family reunification, Te Tiriti-based immigration and refugee resettlement. The refugee quota rises to 5,000 by 2029. The 12-month visa stand-down is removed.
+> Migration pathways would become fair and achievable, with residence routes for long-term migrants including people whose visas have expired. Acceptable Standards of Health would be abolished, work visa holders could switch employers without a stand-down period, and family reunification backlogs would clear with expanded partner work rights and restored birthright citizenship. Immigration would be grounded in Te Tiriti with devolved hapū and iwi decision-making, the refugee quota would rise to 5,000 by 2029, and asylum processing would speed up without detention or electronic monitoring.
 
 System: Fair immigration and refugee resettlement
 

@@ -3,7 +3,7 @@ type: spec
 id: national-hunters-and-anglers
 title: "Plan for hunting and fishing access and game management"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Recognise valued introduced species in law, strengthen the Game Animal Council and Fish & Game, and expand hunter-led conservation and access.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> Wild animal management framework, valued introduced species recognition, Game Animal Council and Fish & Game reforms, Crown land hunting access, trophy export simplification, and delivered-term checklist are on the page. No dollar figures appear.
+> Valued introduced species would be recognised in law under a coordinated wild animal management framework. The Game Animal Council would be strengthened as statutory manager, and Fish & Game would be modernised by legislation. Suitable Crown land would open for hunting and fishing, with simpler trophy export rules and expanded hunter-led conservation.
 
 System: Plan for hunting and fishing
 

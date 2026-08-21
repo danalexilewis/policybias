@@ -3,7 +3,7 @@ type: spec
 id: opportunity-abundant-energy
 title: "30 GW more renewables, gentailer dividends ring-fenced, distributors cut to 8"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Add 30 GW of renewable capacity by 2050, spend about $500 million a year of government gentailer dividends on the plan, merge 29 distributors into at most 8, and merge four energy regulators into one.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Household savings of $500 to $2,700 a year, 5,000 extra high-skilled jobs over 30 years, 300% more renewable capacity up to 30 GW by 2050, 0.35% extra annual GDP growth, about $500 million a year of gentailer dividends, 29 distributors cut to no more than 8, and four regulators merged into one are on the source page. The page says this takes that $500 million away from core Crown revenue and would need another source, such as the land value tax. Structural separation of gentailers is rejected.
+> New Zealand spends heavily on fossil fuels despite abundant renewable resources. Abundant Energy adds capacity under cross-party agreement, ring-fences gentailer dividends for renewable investment, merges regulators and consolidates distributors, and funds household and community electrification. Structural separation of gentailers is rejected, and Huntly is kept for true emergencies rather than routine generation.
 
 System: Abundant Energy
 

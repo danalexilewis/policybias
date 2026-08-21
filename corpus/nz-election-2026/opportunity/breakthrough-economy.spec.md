@@ -3,7 +3,7 @@ type: spec
 id: opportunity-breakthrough-economy
 title: "R&D at 2% of GDP, Commerce Commission break-up powers, and an Impact Company"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Lift research spending to at least 2% of GDP, give the Commerce Commission High Court powers to break up duopolies, and create an Impact Company structure.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> R&D at 2% of GDP, $30 a week lost to uncompetitive sectors, a claimed $12 to $31 a week saved from more competition, student-loan interest forgiven for returning Kiwis, High Court break-up powers, and an Impact Company structure are on the source page. No R&D dollar total or Commerce Commission budget appears.
+> Growth is slowing because economic settings have not changed for decades. Science and innovation are funded properly, the Commerce Commission gets High Court power to break up duopolies, and small firms are backed with budgeting support, fair ACC and retail payments, and a new Impact Company structure.
 
 System: Breakthrough Economy
 

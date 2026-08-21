@@ -3,7 +3,7 @@ type: spec
 id: green-power-for-all-of-us
 title: "Kiwipower, solar loans and $280 million community energy"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: $980 million for Kiwipower over four years, $421.2 million for zero-interest loans, $969.8 million to expand Warmer Kiwi Homes, $460 million for public-housing solar, plus $200 million community energy and $80 million Māori housing renewables.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> The source page and linked PDF state 90% homeowner loan coverage, $200 million community projects, more than half of public homes with solar within four years, $80 million Māori housing renewables, and Kiwipower as a Crown entity. The PDF costings print $980 million for Kiwipower, $421.2 million loan opex, $969.8 million Warmer Kiwi Homes, and $460 million public-housing solar, paid for by the Super Rich Tax. Context claims include 200,000 households unable to afford heating and 85% market control by four gentailers.
+> Affordable renewable power shifts household and community energy toward rooftop solar, Warmer Kiwi Homes and publicly owned Kiwipower. Zero-interest clean energy loans, fair solar export prices and community energy investment aim to cut bills and reduce big-generator market control. Kiwipower would be established as a Crown entity investing in renewable generation and firming capacity, paid for by the Super Rich Tax.
 
 System: Affordable renewable power for households and communities
 

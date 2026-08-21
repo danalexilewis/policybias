@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-small-business
 title: "Buy Kiwi Made, procurement and competition reform"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Revitalise Buy Kiwi Made, government procurement from local firms, ICT grants for low-carbon jobs and stronger competition enforcement.
 jurisdiction: NZ
 sources:
@@ -31,11 +31,12 @@ gaps:
 
 # What the page states
 
-> The source page names plan items on local procurement, labelling, ICT grants, regional development and competition law. Highest business liquidations in almost 15 years is narrative context, not a programme figure. No timetable is given.
+> Local enterprise is backed through Buy Kiwi Made, expanded country-of-origin labelling and greater government procurement from Aotearoa businesses. Grants and rebates expand for smaller ICT firms and community-led regional development continues in sustainable building and low-carbon infrastructure. Competition laws reform with stronger regulatory agency powers. No dollar amounts or dates are given.
 
 System: Small business and local procurement support
 
 Scenario: The small business plan is put into effect
+Given the highest number of business liquidations in almost 15 years occurred in the last year
 When the government puts the small business plan into effect
 Then Buy Kiwi Made is revitalised and country-of-origin labelling expands
 And government departments buy more goods and services from Aotearoa businesses

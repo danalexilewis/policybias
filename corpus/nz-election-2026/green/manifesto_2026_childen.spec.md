@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-childen
 title: "Child voice in law, universal Best Start under three, and Oranga Tamariki Act reform"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Child voice in decisions, universal Best Start under three, workforce investment, disability support access, and Oranga Tamariki Act reform for tamariki Māori.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover child voice in law, Best Start under three, workforce training, disability support access, and Oranga Tamariki Act reform. No dollar amounts appear.
+> Tamariki and rangatahi would sit at the centre of a system that puts whānau first. The child's voice would be written into law, Best Start would extend to every child under three, and the workforce would be trained and resourced for culturally grounded care. Oranga Tamariki Act reform would protect tamariki Māori through whānau participation and iwi or hapū authority. No dollar amounts or dates are given.
 
 System: Tamariki, rangatahi and whānau-first child policy
 

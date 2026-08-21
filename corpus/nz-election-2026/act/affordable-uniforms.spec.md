@@ -3,7 +3,7 @@ type: spec
 id: act-affordable-uniforms
 title: "Cap branded school uniform items and allow generic alternatives"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Limit state schools to three compulsory branded uniform items and require generic alternatives families can buy from ordinary retailers.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The $1,000-per-child spend, 38,000 WINZ hardship loans and $11 million figure, the three branded-item cap, generic alternatives, retailer choice, and exclusions for sports and kapa haka uniforms are all on the source page. No implementation date or compliance detail is given.
+> State schools sometimes require families to buy everyday uniform items from a single approved supplier at high cost. The policy caps compulsory branded items at three per school, requires generic alternatives for high-use items, and lets families buy those from ordinary retailers. Sports uniforms, team strips, kapa haka uniforms and tracksuits stay outside the rules. No implementation date or compliance detail is given.
 
 System: Affordable school uniforms through competition and choice
 

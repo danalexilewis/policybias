@@ -3,7 +3,7 @@ type: spec
 id: act-closing-medicines-gap
 title: "Lift medicines share of health budget one point per year to Australian parity by 2033"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Increase the medicines share of the health budget by one percentage point each year until it matches Australia, funded from health budget growth without new taxes.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> The 4.9%, 12.2% and 13.3% budget shares, 142 unfunded medicines, 38% cancer share, one-point annual lift, 2033 parity target, seven-year path, Budget 2026 $1.5 billion / $13.5 million / $320 million comparison, and no-new-tax funding rule are all on the source page. The linked PDF adds eight per cent average health-spending growth over five years, a $1.2 billion remainder for the rest of health in that Budget example, a ~$1.8 billion 2026/27 medicines budget, a path to 12% and $5.4 billion–$6.1 billion by 2033/34, and additional medicines spending averaging $500–650 million a year.
+> New Zealand spends a smaller share of its health budget on medicines than Australia and the OECD. Pharmac has already assessed many of the missing treatments as worth funding, but the medicines budget runs out. The policy lifts the medicines share of health spending by one percentage point each year until Australian parity in 2033, paid from expected health-budget growth rather than new taxes or cuts to the rest of health.
 
 System: Closing the medicines funding gap with Pharmac
 
@@ -40,6 +40,7 @@ And Australia funds 142 modern medicines not funded in New Zealand, 38 per cent 
 And medicines on Pharmac's Options for Investment list remain unavailable when the medicines budget runs out
 And the 2026/27 medicines budget is about $1.8 billion
 And eight per cent average health-spending growth over the past five years
+And Health received an extra $1.5 billion in Budget 2026 while Pharmac received $13.5 million
 And around $1.2 billion remaining for the rest of the health system in the Budget 2026 worked example
 When the medicines share of the health budget is lifted each year
 Then Pharmac reaches parity with Australia in 2033
@@ -48,6 +49,7 @@ And a seven-percentage-point gap closed over seven years
 And 12% medicines share in 2033/34
 And about $5.4 billion–$6.1 billion medicines spend by 2033/34
 And $500–650 million additional medicines spending a year on average
+And around $320 million more for Pharmac had the Budget 2026 uplift followed this rule
 And Pharmac's future funding increases set in advance
 And funding drawn from expected growth in the health budget without additional taxes or cuts to non-medicines health spending
 Outcome more medicines on Pharmac's Options for Investment list become available

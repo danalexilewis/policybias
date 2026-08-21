@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-pacific-peoples
 title: "Pacific visa-free travel, climate aid and RSE replacement"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Visa-free Pacific visitors, increased climate aid, tangata moana leadership funding, fair seasonal work scheme and South Pacific Regional Environment Programme support.
 jurisdiction: NZ
 sources:
@@ -32,7 +32,7 @@ gaps:
 
 # What the page states
 
-> The source page names plan items on travel, climate aid, seasonal work, independence movements and marine protection. No figures appear. No timetable is given.
+> Pacific partnership deepens through visa-free travel, restored climate aid and fair seasonal work replacing the Recognised Seasonal Employer Scheme. Tangata moana climate leadership is resourced within Aotearoa while independence for West Papua and French-occupied Polynesia is supported. Marine protection funding increases for the South Pacific Regional Environment Programme and Pacific protected areas under the High Seas Treaty. No dollar amounts or dates are given.
 
 System: Pacific peoples policy and regional solidarity
 

@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-freshwater
 title: "Freshwater bottom lines, Te Mana o Te Wai, and a nitrate fertiliser phase-out"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: National freshwater bottom lines, Te Mana o Te Wai reinstatement, irrigation subsidy end, wastewater rules and synthetic nitrogen phase-out.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover freshwater limits, Te Mana o Te Wai, irrigation, wastewater, drinking water regulation, floods and fertiliser. The page commits to lowering the nitrate limit but does not state a numeric limit.
+> Freshwater health would be restored through strong national bottom lines including a lower nitrate limit for drinking water and reinstated Te Mana o Te Wai. Subsidies for big new irrigation and dam projects would end, wastewater discharge rules would tighten to keep rivers and beaches swimmable, and the drinking water regulator would be funded for monitoring and enforcement. Flood resilience funding would rise, synthetic nitrogen fertiliser would phase out, and stocking rates would fall on a catchment basis. No dollar amounts or dates are given.
 
 System: Freshwater health and drinking water safety
 

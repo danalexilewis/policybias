@@ -3,7 +3,7 @@ type: spec
 id: labour-medicard
 title: "Medicard three free doctor's visits funded by property gains tax"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Every New Zealander gets three free GP visits a year via Medicard, funded by a 28% tax on post-commencement property gains.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Three free visits, Medicard card and app, 28% CGT from 1 July 2027, exemption list, 9 in 10 won't pay, 4 in 5 won't pay for routine GP from July 2028, cost ramp ($393.3 million in 2027/28 to around $553 million), and 4.5 million appointments claim are on the page.
+> Every New Zealander gets three free doctor's visits a year through a Medicard card and app at their enrolled practice. The visits are funded by a capital gains tax on investment property sold after 1 July 2027, with the family home exempt. Entitlements track in real time and integrate with existing health identity systems.
 
 System: Medicard three free doctor's visits
 
@@ -42,7 +42,9 @@ Output 3 free doctor's visits a year for every New Zealander
 And 28% tax on profit from property sold after 1 July 2027 funds health
 And 100% of revenue ring-fenced to health
 And total cost $393.3 million in 2027/28
+And $553 million in 2028/29
 And around $553 million a year once fully in place
+And $548 million from 2030 and outyears
 And an estimated 9 in 10 New Zealanders won't pay the tax
 Outcome an estimated 4 in 5 New Zealanders won't pay for a routine GP visit from July 2028
 Activates labour-capitalgainstax

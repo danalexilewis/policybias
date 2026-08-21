@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-health
 title: "Free primary and dental care, and more Pharmac funding"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Prevention and mobile clinics, free dental and primary care, Hauora Māori funding, Pharmac and pharmacy services, and safe staffing.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover prevention, mobile services, free care, maternity support, Hauora Māori, Pharmac, pharmacy, workforce, endometriosis and data. No dollar amounts appear.
+> Public health would shift toward prevention and mobile services reaching rural communities and emergencies. Dental and primary care would move toward fully free public provision, with pā harakeke wrap-around maternity support, simplified Hauora Māori funding, sustained Pharmac investment, expanded pharmacy services, and safe staffing with fair wages. Endometriosis guidelines and specialised clinics would be funded alongside stronger health data infrastructure and privacy rules for private providers. No dollar amounts or dates are given.
 
 System: Equitable and accessible health care
 

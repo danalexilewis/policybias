@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-transport
 title: "Rapid transit, free fares under 18 and fossil vehicle phase-out"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Mass rapid transit in major cities, nationwide rapid rail, Community Connect fare extension, public not-for-profit transport and fossil-fuel import phase-out date.
 jurisdiction: NZ
 sources:
@@ -32,7 +32,7 @@ gaps:
 
 # What the page states
 
-> The source page extends Community Connect free fares to everyone under 18. A fossil-fuel import phase-out date is committed without a calendar date on the page.
+> Transport investment builds mass rapid transit in major cities, nationwide rapid rail and comprehensive bus and bike networks. Community Connect extends free fares to students, apprentices, community service card holders, everyone under 18 and Total Mobility card holders. The Public Transport Operating Model is replaced for public not-for-profit services and fossil-fuel vehicle imports face a phase-out date with more EV charging and incentives. A fossil-fuel import phase-out date is committed without a calendar date on the page. No budget figures are given.
 
 System: Public transport and active travel
 

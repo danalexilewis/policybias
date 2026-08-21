@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-mana-motuhake
 title: "Te Tiriti-based constitutional change and land back"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Commit to Te Tiriti-based constitutional change, strengthen Māori political authority, and progress land back and rangatiratanga commitments.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> Te Tiriti-based constitutional change would be committed to. Māori political authority and governance structures would be strengthened. Land back and rangatiratanga commitments under Te Tiriti o Waitangi would be progressed.
 
 System: Mana motuhake and Te Tiriti-based transformation
 

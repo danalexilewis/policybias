@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-drug-law-reform
 title: "Health-based drug law, harm reduction, and an alcohol advertising phase-out"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Replace the Misuse of Drugs Act, expand harm reduction, psychedelic licensing, Good Samaritan laws and alcohol advertising phase-out.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover drug law replacement, harm reduction, psychedelics, overdose response, nicotine, drug driving and alcohol advertising. No figures appear.
+> Alcohol and other drug policy would shift from punishment toward health and harm reduction. The Misuse of Drugs Act would be replaced with regulated cannabis access, expanded harm reduction and addiction support, psychedelic treatment licensing, and Good Samaritan laws with naloxone and supervised consumption spaces. Nicotine availability would phase down, drug driving law would move to impairment testing, and alcohol advertising and sponsorship would phase out with levy-funded harm reduction. No dollar amounts or dates are given.
 
 System: Health-based alcohol and other drug policy
 

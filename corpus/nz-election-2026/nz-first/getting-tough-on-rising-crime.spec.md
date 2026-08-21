@@ -3,7 +3,7 @@ type: spec
 id: nz-first-getting-tough-on-rising-crime
 title: "500 extra frontline police, gang-only prison and degrees of murder"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: 500 new frontline police in 18 months, a gang-only prison using spare beds, degrees of murder with life for first degree, and a youth justice demerit system.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The 500 extra police in 18 months, doubled Youth Aid, mandatory minimums, degrees of murder, gang-only prison using a claimed 3000 gang prisoners and 2000 spare beds, and the rest of the bullet list are on the source page. Past 1800 and 2338 police figures are given as a previous-government record. No dollar costs appear.
+> The package commits extra frontline police within eighteen months, doubles Youth Aid, and introduces mandatory minimums for assaults on police and first responders. A gang-only prison would use existing capacity, gangs would be designated terrorist organisations, and a degrees-of-murder regime would apply life for first-degree murder. Community sentences and discounts would be removed for violent offenders considered a threat. No dollar costs are given.
 
 System: Frontline policing and tougher sentencing
 
@@ -36,8 +36,9 @@ Scenario: Extra police, a gang-only prison and new sentencing rules take effect
 Given a previous target of 1800 new frontline police that in its maturity saw 2338 new police trained
 And a suspected 3000 gang members in prison and 2000 spare beds
 When an incoming government delivers the crime package
-Then no fewer than 500 new frontline police are committed in the first 18 months
-Output Youth Aid officer numbers doubled
+Then the Sentencing Act prioritises victims and the community ahead of offenders
+Output no fewer than 500 new frontline police in the first 18 months
+And Youth Aid officer numbers doubled
 And minimum mandatory prison sentences for serious assaults on police, corrections officers and first responders
 And a Youth Justice Demerit Points System
 And a gang-only prison to reduce recruitment of non-gang prisoners

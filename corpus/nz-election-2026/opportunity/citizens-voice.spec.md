@@ -3,7 +3,7 @@ type: spec
 id: opportunity-citizens-voice
 title: "Citizens' assemblies with a Parliamentary Commissioner"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Randomly selected citizens' assemblies on long-term issues, paid a stipend, backed by a Parliamentary Commissioner so recommendations are not ignored.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Sortition, a population-reflecting mix, a stipend like jury duty, 6 to 12 months for a complex issue, several full-scale assemblies at around $10 to $15 million a year, and a Parliamentary Commissioner to advocate for the recommendations are on the source page. The Watercare Auckland assembly is named as a local precedent. No first-term issue list is locked.
+> Parliament keeps failing on long-term issues that need cross-party courage. Citizens' assemblies use sortition so the group reflects the population, pay a stipend like jury duty, and can spend months part-time on a complex question. A Parliamentary Commissioner advocates for the recommendations once deliberation finishes.
 
 System: Citizens' Voice
 

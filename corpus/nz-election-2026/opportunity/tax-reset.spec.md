@@ -3,7 +3,7 @@ type: spec
 id: opportunity-tax-reset
 title: "Citizen's Income, land value tax, and compulsory KiwiSaver 2.0"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A weekly Citizen's Income of up to $370, paid for by a 1.75% urban land value tax, with compulsory KiwiSaver contributions rising to 6% each from worker and employer.
 jurisdiction: NZ
 sources:
@@ -32,7 +32,7 @@ gaps:
 
 # What the page states
 
-> Rates, thresholds and fiscal claims are from the policy page and its attached PDF: $370 a week ($19,400 a year), 1.75% on urban land and 0.5% on rural land, about $24 billion a year from an estimated $1.7 trillion of land, about $4 billion left after the Citizen's Income, three income-tax tiers at 28%, 34% and 39%, KiwiSaver 2.0 at 6% each from worker and employer (12% of gross earnings after 8 years), at least $1.7 billion of administrative savings, and a projected 10-15% fall in house prices. The 10-year transition, starting with young people, is named; calendar start dates are not. The page itself says $19,400 a year is not enough to live on.
+> A weekly Citizen's Income replaces most benefits, paid for by a land value tax on unimproved land, with income tax collapsed to three tiers. KiwiSaver 2.0 becomes compulsory and contributions rise over eight years. Transition runs over ten years, starting with young people. The annual payment is not enough to live on.
 
 System: Tax Reset — Citizen's Income, land value tax, and KiwiSaver 2.0
 

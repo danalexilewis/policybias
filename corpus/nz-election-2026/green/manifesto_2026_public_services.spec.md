@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-public-services
 title: "Public service funding, Te Tiriti and Children's Commissioner"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Te Tiriti in public service, keep services public, public finance reform, Children's Commissioner monitoring and equal pay.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> The source page names plan items on Te Tiriti, public ownership, finance reform, Children's Commissioner, workforce, community sector and disability employment. No figures appear. No timetable is given.
+> Public services stay in public hands with Te Tiriti upheld throughout and Māori organisations funded for rohe-specific initiatives. Public finance reform targets long-term resilience and wellbeing rather than short-term cuts. The Children's Commissioner monitoring role is restored and the community sector receives secure flexible funding with improved public sector pay and training. No dollar amounts or dates are given.
 
 System: Public service and public finance
 

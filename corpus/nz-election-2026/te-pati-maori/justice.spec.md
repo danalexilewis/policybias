@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-justice
 title: "Māori-led justice and move away from mass imprisonment"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Build Māori-led justice authority, reform laws that criminalise poverty, and shift from mass imprisonment toward transformation.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> Māori-led justice authority and community solutions would be built. Laws that criminalise poverty and survival would be reformed. Policy would move away from mass imprisonment toward long-term transformation.
 
 System: Māori-led justice transformation
 

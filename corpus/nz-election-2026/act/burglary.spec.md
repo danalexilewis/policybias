@@ -3,7 +3,7 @@ type: spec
 id: act-burglary
 title: "Three strikes for burglary with a three-year minimum and no parole"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A minimum three-year prison sentence with no parole for anyone convicted of burglary three times, with judges retaining discretion up to the ten-year maximum.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The 184,000 burglary victims in 2025, recidivism figures, three-strike trigger, three-year minimum, ten-year maximum, and interaction with the existing violent-crime three-strikes regime are all on the source page. No cost or offender-count estimate is given.
+> Burglary affects many households and most released burglars reoffend quickly. The policy creates a three-strikes regime requiring a minimum three-year prison sentence with no parole after a third burglary conviction, while judges retain discretion up to the ten-year maximum. No cost or offender-count estimate is given.
 
 System: Three strikes for burglary
 

@@ -3,7 +3,7 @@ type: spec
 id: green-tax-system-for-all
 title: "Wealth tax, corporate levy and a $10,000 tax-free threshold"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: 2.5% tax above $10 million net assets, 33% Capital Acquisitions Tax above $1 million, 33% corporate rate above $30 million turnover, bank levy, tech withholding and a 45% rate above $160,000.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> Rates, thresholds and the PDF fiscal tables are from the source page. The tables print $5,147 million net in 2027/28 rising to $5,725 million, including $3,762 million from the super-rich tax and $953 million from the Capital Acquisitions Tax, with tax-setting changes of $-2,335 million.
+> Tax settings shift burden toward the super-rich and largest corporations while cutting income tax for most earners. A 2.5% wealth tax applies above $10 million net assets, gifts and inheritances over $1 million face a Capital Acquisitions Tax, and corporate, bank and big-tech levies combine with reversed landlord tax cuts. The first $10,000 of income becomes tax-free and income over $160,000 faces a 45% rate.
 
 System: A tax system for all of us
 
@@ -51,6 +51,7 @@ And the first $10,000 of income tax-free at 0%
 And income over $160,000 taxed at 45 percent
 And 96 percent of New Zealanders receiving a tax cut
 And $5,147 million total in 2027/28
+And $5,725 million total in 2030/31
 And $3,762 million from the super-rich tax in 2027/28
 And $953 million from the Capital Acquisitions Tax in 2027/28
 And $1,370 million from the big corporations tax in 2027/28

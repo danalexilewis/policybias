@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-education
 title: "Free early childhood education, Te Mātaiaho reset, and Ka Ora Ka Ako expansion"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Free ECE as public good, Te Mātaiaho curriculum reset, learning support agency, Ka Ora Ka Ako expansion and Māori Education Authority.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover early childhood education, curriculum, learning support, school lunches, Māori education governance and workforce. No dollar amounts appear.
+> Education would be treated as a public good grounded in Te Tiriti o Waitangi and universal human rights. Early childhood education would become free with for-profit centres stopped, curriculum would reset to the original Te Mātaiaho direction, and learning support would expand through a single coordination agency. Ka Ora, Ka Ako would grow toward universal school lunches, a Māori Education Authority would govern Māori medium education, and fair wages and staffing would be co-developed with the sector. No dollar amounts or dates are given.
 
 System: Inclusive public education
 

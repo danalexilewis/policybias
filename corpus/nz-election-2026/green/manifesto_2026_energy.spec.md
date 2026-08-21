@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-energy
 title: "Renewable energy agency, fossil fuel extraction ban, and a single regulator"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Public wellbeing legislation, renewable infrastructure agency, distributed solar, fossil fuel extraction ban, LNG cancellation and Ministry for Energy.
 jurisdiction: NZ
 sources:
@@ -32,7 +32,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover wellbeing legislation, a renewable infrastructure agency, distributed solar, a fossil fuel extraction ban, LNG cancellation and a single regulator. Dollar amounts for Kiwipower and household programmes appear on other energy pages, not this source page.
+> The power system would put public wellbeing ahead of corporate profit through new legislation and a renewable energy infrastructure agency. Distributed solar and batteries would spread to households, marae and public buildings with community-led planning. New fossil fuel extraction would be banned, fossil fuel subsidies would end, the LNG terminal would be cancelled, and a single energy regulator and Ministry for Energy would oversee Te Tiriti-based Māori and community ownership. No dollar amounts or dates are given.
 
 System: Affordable renewable energy system reform
 

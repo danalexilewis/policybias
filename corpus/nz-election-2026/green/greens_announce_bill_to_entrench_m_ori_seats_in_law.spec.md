@@ -3,7 +3,7 @@ type: spec
 id: green-greens-announce-bill-to-entrench-m-ori-seats-in-law
 title: "Entrench Māori seats and allow Māori roll switching at any time"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A member's bill to entrench Māori seats so they need 75% of MPs to change, and to let Māori switch rolls at any time including for local elections.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The announcement says Māori seats would be entrenched so they need 75 per cent of MPs to change, matching other electoral settings that currently need 75 per cent rather than 50 per cent. General electorate seats are already entrenched; Māori seats can be abolished by a simple majority. The bill would also implement Independent Electoral Review recommendations to allow Māori to switch rolls at any time and vote on a different roll for local elections. No dollar figures appear.
+> Māori seats would be entrenched in law so they need the same supermajority as general electorate seats to change. General electorate seats are already entrenched; Māori seats can currently be abolished by a simple majority. The member's bill would also let Māori switch rolls at any time and vote on a different roll for local elections, following Independent Electoral Review recommendations. No dollar amounts or dates are given.
 
 System: Entrenched Māori seats and open roll switching
 

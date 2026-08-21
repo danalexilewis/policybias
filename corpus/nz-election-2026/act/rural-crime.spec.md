@@ -3,7 +3,7 @@ type: spec
 id: act-rural-crime
 title: "Rural crime crackdown with extra patrol hours and Text 111 extension"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Fund 100,000 extra rural patrol hours and a dedicated rural crime unit, extend Text 111 to areas with unreliable mobile coverage, and strengthen penalties for poaching and rustling.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The 100,000 extra patrol hours target, dedicated rural crime unit, Text 111 extension, poaching and rustling penalties, inter-agency coordination, and Federated Farmers survey figures (67%, 41% in 2016, 15% prosecuted) are all on the source page. No budget or penalty detail is given.
+> Rural crime is rising and many farmers no longer report incidents because prosecution is rare. The policy funds additional rural patrol hours, establishes a dedicated rural crime unit, extends Text 111 to areas with unreliable mobile coverage, and strengthens penalties for poaching and rustling. No budget or penalty detail is given.
 
 System: Rural crime crackdown
 

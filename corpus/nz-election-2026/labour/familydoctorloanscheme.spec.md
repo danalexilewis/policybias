@@ -3,7 +3,7 @@ type: spec
 id: labour-familydoctorloanscheme
 title: "Family Doctor Loan Scheme for owner-operated practices"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Interest-free loans up to 90% of practice purchase capped at $500,000, with up to 50 loans a year from 1 July 2027.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Loan cap, interest terms, 50 loans a year, corporate exclusion, 1 July 2027 start, 4.5 million appointments claim, and fiscal cost if fully subscribed ($25 million lent, less than $8 million forgone interest) are on the page and its linked PDF.
+> Owner-operated general practices can borrow to buy into a practice through a low-interest loan scheme from 1 July 2027. Corporate-owned practices are excluded. The scheme aims to free up GP appointments alongside broader primary care changes.
 
 System: Family Doctor Loan Scheme
 

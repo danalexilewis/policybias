@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-income
 title: "Liveable benefits and a 2.5% tax on net wealth over $10 million"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Social Security Act reform, liveable benefits without sanctions, ACC extension, Working for Families boost, and a 2.5% tax on net wealth over $10 million.
 jurisdiction: NZ
 sources:
@@ -33,7 +33,7 @@ gaps:
 
 # What the page states
 
-> The 2.5% tax on net wealth over $10 million is on the source page. Liveable benefit rates, the tax-free threshold and the top income tax rate are not. No timetable is given.
+> Liveable incomes are guaranteed through social welfare reform and a fair tax system. Benefits rise to liveable rates with sanctions abolished, ACC extends beyond injury, and Working for Families strengthens alongside progressive income tax. A wealth tax on the super-rich funds the package. No timetable is given.
 
 System: Liveable incomes and tax settings
 

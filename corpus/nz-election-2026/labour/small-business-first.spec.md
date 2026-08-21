@@ -3,7 +3,7 @@ type: spec
 id: labour-small-business-first
 title: "Small Business First for government contracts and rules"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Target 15% of government contracts to small businesses and start-ups, tell-government-once data use, and a small business test on new rules.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> 15% government contract target, contract unbundling, tell-government-once direction, Inland Revenue provisional tax review, and small business test on new rules are on the page.
+> Government contracts set a target share for small businesses and start-ups, with large contracts broken into smaller jobs where practical. Agencies will reuse information already held rather than asking repeatedly. Ministers must consider small business impact before approving new rules.
 
 System: Small Business First
 

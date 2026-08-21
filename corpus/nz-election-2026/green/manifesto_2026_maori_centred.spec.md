@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-maori-centred
 title: "Devolve power, Marae Resilience Fund and te reo expansion"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Resource redistribution to tangata whenua, Marae Resilience Fund, end perpetual leases, Public Works Act amendments and te reo promotion.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> The source page names a Marae Resilience Fund without a dollar amount. Marae funding figures are on a related page, not this one. No timetable is given.
+> Power and resources devolve back to tangata whenua as decision-makers for their whānau, hapū and iwi. A Marae Resilience Fund would resource marae-led initiatives with ongoing civil emergency funding. Perpetual leases on whenua Māori end and the Public Works Act protects land near marae, urupā and wāhi tapu. Te reo Māori learning and use expand nationwide. The Marae Resilience Fund is named without a dollar amount. No timetable is given.
 
 System: Māori-centred policy and marae resilience
 

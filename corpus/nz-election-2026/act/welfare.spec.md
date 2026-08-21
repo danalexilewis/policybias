@@ -3,7 +3,7 @@ type: spec
 id: act-welfare
 title: "Mandatory designated-doctor benefit assessments and electronic money management"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Require MSD-approved designated doctors for health and disability benefits with phased reassessment, and mandatory electronic payment cards for Jobseeker recipients after four months blocking alcohol, gambling and tobacco spend.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> Mandatory designated-doctor assessments, objective criteria, phased reassessment starting with post-pandemic mental-health grants, long-term arrangements for genuine disability, mandatory electronic money management after four months on Jobseeker, and blocked spending categories are all on the source page. No dollar figures or detailed criteria appear.
+> Health-related benefits rely on discretionary medical certification and long-term Jobseeker recipients can spend benefits freely. The policy mandates designated-doctor assessments with objective criteria and phased reassessment, and requires electronic payment cards after four months on Jobseeker blocking alcohol, gambling, tobacco and cash withdrawals. No dollar amounts or detailed criteria appear.
 
 System: Welfare certification and electronic money management
 

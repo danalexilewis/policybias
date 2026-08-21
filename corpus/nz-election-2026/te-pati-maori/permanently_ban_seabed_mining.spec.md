@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-permanently-ban-seabed-mining
 title: "Members Bill to permanently ban seabed mining"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A Members Bill, the Seabed Mining Prohibition Act 2026, would force a permanent legislative ban on seabed mining in New Zealand waters.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> This page is a petition in support of a Members Bill. It names the Seabed Mining Prohibition Act 2026 but no operative sections, dates or enforcement detail. No figures appear.
+> A Members Bill, the Seabed Mining Prohibition Act 2026, would force a permanent legislative ban on seabed mining in New Zealand waters. The call to action is a petition in support of the bill. No dollar amounts or dates are given.
 
 System: Permanent ban on seabed mining
 

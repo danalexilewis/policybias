@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-sports
 title: "Invest in community sport and rangatahi pathways"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Invest in sport and community initiatives and support rangatahi pathways through clubs, programmes and facilities.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> Two commitments on the source page. No figures appear.
+> Sport and community initiatives that build belonging, wellbeing and opportunity would be invested in. Pathways for rangatahi would be supported through local clubs, programmes and facilities.
 
 System: Community sport and rangatahi pathways
 

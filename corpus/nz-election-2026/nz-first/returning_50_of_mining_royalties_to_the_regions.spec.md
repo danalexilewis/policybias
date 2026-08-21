@@ -3,7 +3,7 @@ type: spec
 id: nz-first-returning-50-of-mining-royalties-to-the-regions
 title: "Return 50% of mining royalties to source regions"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Half of mining royalties stay in the region of extraction, alongside permit reforms, geological survey investment, and sector workforce measures.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> The 50% royalty return rule and the wider mining package elements are on the page. No gross royalty pool or regional split worked example is given beyond the 50% share rule.
+> Half of mining royalties would stay in the region of extraction rather than going to Wellington, alongside permit reforms, geological survey investment, and workforce measures including reopening the School of Mines. Regional shares would support infrastructure from water services to housing. No gross royalty pool or regional allocation estimate is given.
 
 System: Regional return of mining royalties and mining sector reforms
 

@@ -3,7 +3,7 @@ type: spec
 id: labour-farecap
 title: "$20 weekly public transport fare cap"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Weekly public transport fares capped at $20 in Auckland, Wellington and Christchurch and $10 elsewhere from 1 July 2027.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> Cap amounts, 1 July 2027 start, seven-day tracking, coverage exclusions, and average savings ($25 a week, over $1,200 a year) are on the page. Regional savings breakdowns are on the page as averages.
+> Weekly public transport fares are capped at $20 in Auckland, Wellington and Christchurch and $10 elsewhere from 1 July 2027. Once the cap is reached, further trips that week are free. Spending is tracked automatically over seven days with no new card or sign-up.
 
 System: Public transport weekly fare cap
 

@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-violence-prevention
 title: "Fund Te Aorerekura and criminalise coercive control"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Te Aorerekura implementation, kaupapa Māori FV/SV solutions, consent law reform, relationship education restoration and justice counselling funding.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> The source page centres Te Aorerekura and Crimes Act amendments. No dollar amounts appear. No timetable is given.
+> Family and sexual violence prevention centres Te Aorerekura with kaupapa Māori and community-led solutions resourced. The Crimes Act criminalises coercive control and reforms consent while relationship and sexuality education guidelines are restored in all schools. Counselling and mental health support increases for everyone engaging with the justice system. No dollar amounts or dates are given.
 
 System: Family and sexual violence prevention
 

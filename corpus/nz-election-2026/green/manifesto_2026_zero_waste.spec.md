@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-zero-waste
 title: "Product stewardship, waste levy and binding reduction targets"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Mandatory stewardship and container return scheme, waste levy reform, waste-to-energy moratorium, binding waste targets and community resource recovery.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> The source page names plan items on stewardship, levies, waste-to-energy, targets, soil diversion and community recovery. Levy increase is described as matching international best practice without a rate. No timetable is given.
+> A circular economy holds producers responsible through mandatory stewardship, a beverage container return scheme and right-to-repair. Waste disposal levy revenue funds minimisation with the levy raised to international best practice and applied consistently across landfill classes. A waste-to-energy moratorium applies while binding measurable reduction targets are set under Te Tiriti-aware Waste Minimisation Act reform. Levy rates and target numbers are not stated. No timetable is given.
 
 System: Zero waste and circular economy
 

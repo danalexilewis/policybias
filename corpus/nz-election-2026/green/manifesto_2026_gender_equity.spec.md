@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-gender-equity
 title: "Pay equity, 15 months' parental leave, and violence law reform"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Pay gap closure, universal Best Start under three, pā harakeke services, endometriosis clinics, FV/SV resourcing and 15 months parental leave.
 jurisdiction: NZ
 sources:
@@ -32,7 +32,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover pay equity, Best Start, pā harakeke services, endometriosis care, family and sexual violence, Crimes Act consent rules and parental leave. Paid parental leave rises to 15 months for the primary caregiver. No Best Start dollar amount appears.
+> Gender and ethnic pay gaps would close through restored pay equity, transparency and reporting. Best Start would extend to every child under three, pā harakeke one-stop-shops would support whānau through hapūtanga and early parenthood, and endometriosis care would speed up through guidelines and specialised clinics. Family and sexual violence would meet kaupapa Māori and community-led resourcing, coercive control would be criminalised with consent law reform, and paid parental leave would rise to 15 months for the primary caregiver.
 
 System: Gender equity and family wellbeing
 

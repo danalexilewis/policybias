@@ -3,7 +3,7 @@ type: spec
 id: nz-first-establishing-a-kiwisaver-generation
 title: "Compulsory KiwiSaver from birth with $1000 Crown kick-start"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Universal KiwiSaver enrolment at birth with an automatic $1000 Crown contribution for New Zealand citizens, alongside wider workforce compulsion at 8% rising to 10%.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Birth enrolment, the $1000 Crown contribution for citizens only, and the link to wider 8%/10% compulsion are on the page.
+> KiwiSaver enrolment would become compulsory at birth, with an automatic Crown contribution for New Zealand citizens only. Every child would begin life as a member with a balance already growing. This sits alongside wider compulsory workforce enrolment with rising contribution rates detailed elsewhere. No commencement date or fiscal cost is given.
 
 System: KiwiSaver Generation with birth enrolment
 

@@ -3,7 +3,7 @@ type: spec
 id: nz-first-break-up-the-supermarket-duopoly
 title: "Split Foodstuffs and strengthen grocery competition enforcement"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Legislation to split Foodstuffs into two competing cooperatives, lift Commerce Commission penalties, and reform the Groceries Commissioner and farm-to-shelf rules.
 jurisdiction: NZ
 sources:
@@ -30,12 +30,14 @@ gaps:
 
 # What the page states
 
-> The Foodstuffs split, penalty levels matching Australia, Groceries Commissioner reform, and Commerce Act farm-to-shelf framework are on the page. Context figures on market share and excess profits are not policy outputs.
+> Woolworths and Foodstuffs dominate grocery supply. Foodstuffs would be split into two nationwide cooperatives by brand—New World and Four Square in one, Pak'nSave in another—both competing with Woolworths New Zealand. Commerce Commission penalties would match Australia, the Groceries Commissioner would gain binding enforcement powers, and a Commerce Act framework would target farm-to-shelf access problems.
 
 System: Supermarket duopoly break-up and stronger grocery enforcement
 
 Scenario: Legislation is introduced to reform the grocery market
 Given Woolworths and Foodstuffs control more than 80 percent of the grocery market
+And the Commerce Commission has found supermarket giants earning around $1 million a day in excess profits
+And a grower received 60c per kg of peas while retail reached $5.79
 When legislation is introduced to break up Foodstuffs into two nationwide cooperatives
 Then one cooperative runs New World and Four Square and another runs Pak'nSave, both competing with Woolworths New Zealand
 And the Groceries Commissioner gains powers to investigate, make binding decisions, and impose penalties directly

@@ -34,14 +34,14 @@ parties:
   - id: nz-first
     label: NZ First
     name: New Zealand First Party
-    colour: "#141414"
+    colour: "#3d3d3d"
 
   - id: opportunity
     label: Opportunity
     name: Opportunity Party
-    colour: "#00bcc1"
+    colour: "#00b9bc"
 
   - id: te-pati-maori
     label: Te Pāti Māori
     name: Te Pāti Māori
-    colour: "#b5121b"
+    colour: "#7a1830"

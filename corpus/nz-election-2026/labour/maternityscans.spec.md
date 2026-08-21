@@ -3,7 +3,7 @@ type: spec
 id: labour-maternityscans
 title: "Free maternity scans through Medicard"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Every referred maternity scan free nationwide from July 2028, funded by capital gains tax revenue ring-fenced to health.
 jurisdiction: NZ
 sources:
@@ -26,7 +26,7 @@ gaps:
 
 # What the page states
 
-> July 2028 start, up to $90 current scan cost, $28.6 million annual cost, 24 trainee sonographer positions at less than $3 million a year, Medicard referral flow, and CGT funding link are on the page.
+> Every referred maternity scan becomes free nationwide from July 2028. After referral from a GP, midwife or specialist, the entitlement loads onto the Medicard. Funded alongside three free doctor's visits and free cervical screening.
 
 System: Free maternity scans through Medicard
 

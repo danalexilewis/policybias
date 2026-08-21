@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-environmental-protection
 title: "Repeal fast-track mining and restore environmental enforcement"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Ecosystem health limits, fast-track repeal, standalone Ministry for the Environment, international air standards and biosecurity eradication.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover limits, fast-track mining, ministry restoration, air quality, biosecurity and community funding. No figures appear.
+> Environmental protection would strengthen through evidence-based ecosystem health limits with tangata whenua as shared decision-makers. The Fast-track Approvals Act would be repealed and fast-track mining consents revoked, a standalone Ministry for the Environment would return with more EPA and enforcement resources, and air quality standards would align with international health protections. Biosecurity incursions including wilding pines, Caulerpa and yellow-legged hornets would be targeted for eradication, and the Community Environment Fund would be re-established. No dollar amounts or dates are given.
 
 System: Environmental protection and enforcement
 

@@ -3,7 +3,7 @@ type: spec
 id: act-let-the-kid-on-the-bus
 title: "Open Seat Rule for school bus spare capacity on existing routes"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Let any child along an existing school bus route use spare seats regardless of which school they attend, funding extra buses from the Ministry of Education's existing budget if demand fills a route.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The Open Seat Rule, route-based eligibility regardless of school choice, additional-bus trigger, and funding-from-existing-budget-by-cutting-waste claim are all on the source page. The page carries no dollar figures or rollout detail.
+> School transport is tied to nearest school, leaving empty bus seats passing children who attend a different school. The Open Seat Rule lets any child on an existing route use spare capacity regardless of school choice, funding extra buses from the Ministry of Education's existing budget if needed. No dollar amounts or dates are given.
 
 System: School transport Open Seat Rule
 

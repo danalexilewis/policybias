@@ -3,7 +3,7 @@ type: spec
 id: national-responsibility-rules
 title: "Budget responsibility rules to 2028/29 surplus and 40% debt"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Return to surplus in 2028/29, bend debt below 40% of GDP, and reduce core Crown spending toward 30% of GDP.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> Three fiscal rules (2028/29 surplus, debt below 40% of GDP, core Crown expenditure toward 30% of GDP), $50 billion savings across three Budgets, net debt peak at 46.1% of GDP in 2027/28, and spending restraint without new taxes are on the page.
+> Three fiscal rules would be maintained: return to operating surplus from 2028/29, net core Crown debt bent below 40% of GDP over time, and core Crown expenditure declining toward 30% of GDP. Surplus would be achieved through spending restraint rather than new taxes. Capital investment would continue, tested against value for money.
 
 System: Budget responsibility rules
 
@@ -37,6 +37,7 @@ Given net core Crown debt forecast to peak at 46.1 per cent of GDP in 2027/28
 And $50 billion in savings achieved across the last three Budgets
 When three fiscal rules are maintained
 Then return to surplus is prioritised
-Output debt bent down below 40 per cent of GDP over time
+Output return to operating surplus in 2028/29
+And debt bent down below 40 per cent of GDP over time
 And core Crown expenditure declining towards 30 per cent of GDP over time
 Outcome taxes kept low by right-sizing government

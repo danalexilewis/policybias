@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-cost-of-living
 title: "Lift incomes and strengthen welfare for dignified living"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Lift incomes, strengthen welfare so whānau are not punished for poverty, and back practical relief including transport affordability.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> Incomes would be lifted so people can live with dignity. Welfare would be strengthened so whānau are not punished for being poor. Practical cost-of-living relief would include transport affordability.
 
 System: Cost-of-living relief for whānau dignity
 

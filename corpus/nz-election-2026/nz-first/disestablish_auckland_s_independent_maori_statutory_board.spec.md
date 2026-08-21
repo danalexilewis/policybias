@@ -3,7 +3,7 @@ type: spec
 id: nz-first-disestablish-auckland-s-independent-maori-statutory-board
 title: "Disestablish Auckland's Independent Māori Statutory Board"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Disestablish the unelected Auckland Council Independent Māori Statutory Board with an orderly transition of its functions back to council.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Disestablishment via a member's bill, democratic accountability rationale, and orderly transition of functions, property and obligations are on the page. The $3.5 million annual IMSB cost is current spend cited as context, not a new fiscal Output.
+> The unelected Independent Māori Statutory Board would be disestablished through a member's bill, with its functions, property and obligations transitioning back to Auckland Council. Those who influence public spending would be directly accountable to ratepayers, without preventing council engagement with Māori. No disestablishment timetable is given.
 
 System: Disestablishment of Auckland's Independent Māori Statutory Board
 

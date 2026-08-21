@@ -3,7 +3,7 @@ type: spec
 id: act-back-the-volunteers
 title: "Fund community groups for backcountry upkeep and open nature credits to hunters"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Give community groups first funding opportunity and multi-year contracts for DOC upkeep, and let accredited hunting groups earn verified nature credits.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The DOC hut, track, maintenance shortfall and closure-alert figures, first-funding priority, multi-year contracts, nature credits for accredited hunting groups, and formal representation for NZDA and the Game Animal Council are all on the source page. No dollar budget or credit-market detail is given.
+> DOC cannot maintain its huge hut and track network alone and many volunteer groups work on annual discretionary grants. The policy gives community groups first opportunity and multi-year contracts for backcountry upkeep, opens nature credits to accredited hunting groups, and gives hunting bodies formal representation in predator-removal decisions. No dollar budget or credit-market detail is given.
 
 System: Backcountry upkeep through community groups and hunting conservation
 

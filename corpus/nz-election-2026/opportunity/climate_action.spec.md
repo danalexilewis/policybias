@@ -3,7 +3,7 @@ type: spec
 id: opportunity-climate-action
 title: "Agricultural emissions in the ETS, no new exotic forestry offsets, Climate Change Commission budgets"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Put agricultural emissions into the ETS, exclude new exotic forestry, let the Climate Change Commission set budgets, and pay for soil and wetland sequestration instead of pines.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Five commitments on the source page. No rates, volumes, dollar amounts or dates appear. The page says a detailed policy is still to launch. The gaps list is the finding.
+> Climate change is already here and needs both mitigation and adaptation. The Emissions Trading Scheme is strengthened with farm emissions included, new exotic forestry excluded, and Climate Change Commission budgets restored. Councils get support for nature-based flood and heat solutions, air quality improves through economic incentives, and carbon sequestration rewards soil and wetlands rather than pine plantations. Detailed policy is still to launch.
 
 System: Climate Action
 

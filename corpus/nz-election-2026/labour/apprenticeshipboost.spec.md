@@ -3,7 +3,7 @@ type: spec
 id: labour-apprenticeshipboost
 title: "Expanding Apprenticeship Boost for tradies and apprentices"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Extend employer payments to two years at $500 a month, add a $1,000 toolbox grant, and expand eligibility to five new trades.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> Employer payment extension, toolbox grant, five new trades, mentoring pilot dates, and the four-year cost path ($21 million in 2027/28 rising to $71.5 million in 2030/31, averaging $56.5 million a year) are all on the page.
+> Employer payments for taking on an apprentice extend from one year to two from 1 July 2028. New apprentices receive a toolbox grant, five additional trades qualify, and a structured mentoring pilot starts from 1 July 2027.
 
 System: Expanding Apprenticeship Boost
 
@@ -39,4 +39,6 @@ Output $500 a month employer payment for two years
 And $1,000 toolbox grant for new apprentices
 And five new trades eligible
 And average cost $56.5 million a year over four years
+And $21 million in 2027/28
+And $71.5 million in 2030/31
 Outcome more tradies and young people earn while they learn

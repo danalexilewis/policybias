@@ -3,7 +3,7 @@ type: spec
 id: labour-prescriptions
 title: "Free prescriptions from 1 July 2027"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: The $5 prescription fee removed for everyone entitled to free public healthcare, costing $74.5 million a year.
 jurisdiction: NZ
 sources:
@@ -26,7 +26,7 @@ gaps:
 
 # What the page states
 
-> $5 fee removal, 1 July 2027 start, $74.5 million annual cost, CGT funding link, and entitlement scope (everyone entitled to free public healthcare) are on the page.
+> The prescription fee is removed for everyone entitled to free public healthcare from 1 July 2027. No forms or claiming back is required. Free prescriptions sit alongside Medicard entitlements.
 
 System: Free prescriptions
 

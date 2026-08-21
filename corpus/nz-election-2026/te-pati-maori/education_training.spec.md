@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-education-training
 title: "Māori-led education authority and mātauranga Māori"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Build Māori-led education authority, embed mātauranga Māori, remove barriers for whānau, and support Māori governance in education.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Four commitments on the source page. No figures appear.
+> Māori-led education authority and solutions would be built. Mātauranga Māori would be embedded properly across learning. Barriers blocking whānau from education and training would be removed, and Māori governance and decision-making in education would be supported.
 
 System: Māori-led education and training
 

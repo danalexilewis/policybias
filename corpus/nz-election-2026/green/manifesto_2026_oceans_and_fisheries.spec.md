@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-oceans-and-fisheries
 title: "Protect 30% of ocean territory by 2030 and ban destructive fishing"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Marine protected areas reform, bottom trawling ban on seamounts, seabed mining ban, fleet cameras and QMS ecosystem review.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> The source page commits to protecting at least 30% of ocean territory by 2030 and cameras on the entire fishing fleet. No budget figures appear.
+> Ocean protection puts mauri and kaitiakitanga ahead of short-term commercial extraction. Marine protected areas reform toward protecting at least 30% of ocean territory by 2030 while destructive fishing methods and seabed mining are banned. Cameras roll out on the entire fishing fleet and the Quota Management System moves toward ecosystem-based management. No budget figures are given.
 
 System: Oceans and fisheries protection
 

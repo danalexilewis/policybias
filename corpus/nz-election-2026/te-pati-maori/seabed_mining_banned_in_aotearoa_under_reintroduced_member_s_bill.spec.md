@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-seabed-mining-banned-in-aotearoa-under-reintroduced-member-s-bill
 title: "Ban seabed mining across CMA, EEZ and continental shelf including fast-track"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A reintroduced Members Bill would close all legal pathways for seabed mining, including fast-track approvals, across the coastal marine area, exclusive economic zone and continental shelf.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The Seabed Mining Prohibition Act would close all legal pathways for seabed mining, including fast-track approvals, across the coastal marine area, the exclusive economic zone, and the continental shelf. The Bill is prepared for the Members' Bill ballot. No figures appear.
+> The Seabed Mining Prohibition Act would close all legal pathways for seabed mining, including fast-track approvals, across the coastal marine area, the exclusive economic zone and the continental shelf. The Bill is prepared for the Members' Bill ballot. No dollar amounts or dates are given.
 
 System: Permanent ban on seabed mining including fast-track
 

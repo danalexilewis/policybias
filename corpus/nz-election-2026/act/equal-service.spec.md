@@ -3,7 +3,7 @@ type: spec
 id: act-equal-service
 title: "One public service hiring on merit and delivering by need"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Repeal race-based public employment rules, put need-based service delivery in law, end public-funded spiritual practices at work, and remove unrelated cultural job requirements.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The repeal of sections 73 and 118, need-based service law, end to public-funded spiritual practices, removal of cultural job tests, and Public Service Act rewrite are all on the source page. The page carries no dollar figures and no detailed compliance mechanism.
+> Previous governments built separate public service tracks and many race-based rules remain. The policy repeals those rules, puts need-based service delivery in law, ends public-funded spiritual practices at work, removes unrelated cultural job requirements, and rewrites the Public Service Act. No dollar amounts or dates are given.
 
 System: One public service for all New Zealanders
 

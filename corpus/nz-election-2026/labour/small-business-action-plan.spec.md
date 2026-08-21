@@ -3,7 +3,7 @@ type: spec
 id: labour-small-business-action-plan
 title: "Paid on time, $10,000 write-off, and $80,000 GST threshold"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Large businesses pay small suppliers within 15 days, a $10,000 asset write-off from July 2027, and GST registration threshold lifted to $80,000 from July 2028.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> 15-day payment rule, $25,000 invoice cap, 100-day legislation commitment, $10,000 write-off from 1 July 2027, $80,000 GST threshold from 1 July 2028, 500,000 businesses eligible, 35,000 GST deregistrations, and $1.56 billion four-year cost ($1.355 billion write-off) are on the page.
+> Large businesses must pay small suppliers within 15 days for smaller invoices and publish payment times. Small businesses can write off new equipment purchases from 1 July 2027. The GST registration threshold rises from 1 July 2028.
 
 System: Small Business Action Plan
 
@@ -41,5 +41,6 @@ And large businesses must publish how quickly they pay
 And small businesses can write off up to $10,000 in new equipment
 And no compulsory GST registration until $80,000
 And $1.56 billion cost over four years
+And $1.355 billion for the asset write-off over four years
 Outcome around 500,000 businesses eligible for the asset write-off
 And around 35,000 businesses no longer required to register for GST

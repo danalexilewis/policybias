@@ -3,7 +3,7 @@ type: spec
 id: national-build-the-future
 title: "Streamlined commercial building consents"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Formalise producer statements in the Building Act and designate a specialist BCA for large commercial buildings.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> Producer statement formalisation, specialist BCA for large commercial buildings, and expected benefits (faster consents, reduced duplication, council focus on residential) are on the page. No dollar commitments appear.
+> Qualified engineers would sign off certain building work without council inspection, by formalising producer statements in the Building Act. A specialist Building Consent Authority would consent large commercial buildings through one national process. The aim is faster consents for major projects, less duplication, and councils freed to focus on residential work.
 
 System: Streamlined commercial building consents
 

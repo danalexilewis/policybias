@@ -3,7 +3,7 @@ type: spec
 id: opportunity-clean-up-politics
 title: "Lobbyist register, $30,000 donation cap, and an anti-corruption body"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A one-year ministerial cooling-off, a public lobbyist register, a $30,000 per-donor cap, company and trust donations banned, disclosure from $1,000, and an anti-corruption body costing about $40 million of a $52 million package.
 jurisdiction: NZ
 sources:
@@ -29,11 +29,12 @@ gaps:
 
 # What the page states
 
-> The one-year cooling-off, public lobbyist register, $30,000 cap per party per donor per election, ban on company and trust donations, $1,000 disclosure, anti-corruption body, independent policy costing unit, and the $52 million a year package ($40 million for the body, $10 million extra for the Electoral Commission, $2 million for costing in election years; Serious Fraud Office comparison at about $17 million) are on the source page. Cross-party support is named in the FAQ; it is not written into the spec body.
+> Trust in government has slipped as lobbying, donations and centralised power grew. Lobbying moves into daylight through a cooling-off period, a public register and a statutory code with real consequences. Donations are capped and restricted to individual voters, while an independent anti-corruption body, stronger Official Information Act rules and a policy costing unit tighten integrity.
 
 System: Clean Up Politics
 
 Scenario: Lobbying, donations and integrity rules change
+Given the Serious Fraud Office is funded at about $17 million a year
 When a one-year cooling-off period applies between ministers and lobbying
 And a mandatory public searchable lobbying register is stood up
 And a statutory code of conduct for lobbyists includes deregistration and fines

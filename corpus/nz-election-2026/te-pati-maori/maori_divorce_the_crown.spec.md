@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-maori-divorce-the-crown
 title: "Republic, Māori Parliament and Matike Mai constitutional change"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Remove the British royal family as head of state, establish a Māori Parliament, implement Matike Mai recommendations, and overhaul Treaty settlements including land return.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The page calls for removing the British royal family as head of state and moving to a Te Tiriti-based nation, with a Māori Parliament, all Matike Mai recommendations, an overhauled Treaty settlement process, and land returned to whānau, hapū and iwi. No figures appear.
+> The British royal family would be removed as head of state and Aotearoa would move to a Te Tiriti o Waitangi based nation. A Māori Parliament would be established and all Matike Mai recommendations for constitutional transformation implemented. The Treaty settlement process would be overhauled and land returned to whānau, hapū and iwi.
 
 System: Constitutional transformation and mana motuhake
 

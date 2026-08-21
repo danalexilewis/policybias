@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-housing
 title: "More public homes and build on Māori land"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Build more public and affordable homes, ease building on Māori land, and act against speculation and vacant properties.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> More public and affordable homes would be built and supported. It would be easier to build homes on Māori and ancestral land. Speculation and land-banking would be stopped, including action on vacant properties.
 
 System: Housing for whānau on Māori land
 

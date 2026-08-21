@@ -3,7 +3,7 @@ type: spec
 id: green-drink-swim-fish
 title: "Fix the rules so everyone can drink, swim and fish"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A commitment to fix the rules protecting water so people can drink, swim and fish in the places they love.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The source page states a headline commitment to fix the rules protecting water. It names no specific law, limit, budget or date. The Drink Swim Fish package is not set out here.
+> Water from mountain glaciers to wild coasts shapes life across Aotearoa. The rules protecting water would be fixed so people can drink, swim and fish in the places they love. Clean, safe water is treated as a way of life worth defending from exploitation. No dollar amounts, dates or specific instruments are given.
 
 System: Rules protecting water for drinking, swimming and fishing
 

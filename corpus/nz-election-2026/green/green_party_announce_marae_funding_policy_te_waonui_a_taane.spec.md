@@ -3,7 +3,7 @@ type: spec
 id: green-green-party-announce-marae-funding-policy-te-waonui-a-taane
 title: "Te Waonui a Tāne marae funding announcement"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Two complementary funds — immediate restoration and an intergenerational endowment — to resource marae, hapū and surrounding communities.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> The source page announces Te Waonui a Tāne and names two funds. Dollar figures and trust governance are not on this announcement page.
+> Marae funding would move onto a protected, ongoing footing rather than shifting with each government's priorities. Te Waonui a Tāne would run through Te Rākau Whakarauora for urgent restoration needs and Te Tōtara Haemata as an enduring investment fund delivering long-term returns. Marae would be resourced as essential community infrastructure alongside hospitals and schools. No dollar amounts or dates are given.
 
 System: Te Waonui a Tāne marae funding
 

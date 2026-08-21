@@ -3,7 +3,7 @@ type: spec
 id: nz-first-breaking-up-the-gentailers
 title: "Split gentailers and deliver a nationwide energy strategy"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Split major power companies into separate generators and retailers, replace price-setting rules, guarantee new-build contracts, and allow solar export at retail price.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> The gentailer split, a nationwide energy strategy, supply-holding ban, new-build contract guarantees, and solar export parity are on the page. Plant closures and job figures cited are context, not policy quantities. No Output step follows because the page names no rates, contract prices, or timetables.
+> Major power companies would be split into separate generators and retailers, alongside a nationwide energy strategy. Pricing rules would stop companies holding back supply to drive prices higher, and new generation would get long-term fixed-price contracts with priority dispatch. Households generating solar could sell power back to the grid at the retail price they pay. No contract prices or timetables are given.
 
 System: Electricity market split and nationwide energy strategy
 

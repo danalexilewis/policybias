@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-digital-technology
 title: "Digital Duty of Care, AI rules, and Māori data sovereignty"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Social media regulation, AI safety rules, multinational tech tax enforcement, Māori data governance and digital inclusion.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover platform regulation, AI, tax, Māori data sovereignty, privacy, literacy and inclusion. No figures appear.
+> Digital platforms would face a harm-reduction regime with a Digital Duty of Care, algorithmic transparency and an independent national regulator. Artificial intelligence use would be regulated, multinational tech profits offshore would be taxed harder, and the Māori Data Governance Model and Māori AI Governance Framework would apply across the public sector. Privacy penalties and enforcement would strengthen, literacy would expand, and digital inclusion would improve through internet, devices and offline alternatives. No dollar amounts or dates are given.
 
 System: Digital technology accountability and inclusion
 

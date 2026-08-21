@@ -3,7 +3,7 @@ type: spec
 id: act-fair-contribution
 title: "$6-a-day infrastructure surcharge on temporary work visas"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Add a $6 daily surcharge on temporary work visas on top of existing charges, expected to raise about $80 million a year while staying cheaper than comparable Australian and UK visas.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The $6-a-day surcharge, $80 million expected annual revenue, three-million working-age population context, and comparison with Australia and the United Kingdom visa costs are all on the source page. No spending allocation or visa-category list is given.
+> Temporary workers use roads and public services from arrival before paying much tax while population growth strains infrastructure. The policy adds a daily infrastructure surcharge on temporary work visas on top of existing charges. No spending allocation or visa-category list is given.
 
 System: Infrastructure contribution from temporary work visa holders
 

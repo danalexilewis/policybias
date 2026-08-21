@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-disabilities
 title: "Māori-led disability support that fits whānau realities"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Support Māori-led disability services, make access easier and less degrading, and fund support aligned with whānau realities.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> Māori-led disability services and decision-making would be supported. Support would be easier to access and less degrading. Funding would fit whānau realities rather than bureaucratic categories.
 
 System: Māori-led disability support
 

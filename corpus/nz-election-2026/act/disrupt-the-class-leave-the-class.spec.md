@@ -3,7 +3,7 @@ type: spec
 id: act-disrupt-the-class-leave-the-class
 title: "Give teachers power to remove disruptive students to supervised spaces"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Amend the Education and Training Act so teachers can direct seriously disruptive students to staffed supervision, with escalation, fines for parents and debt recovery for property damage.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The ERO and PISA context figures, teacher removal power, escalation path, section 99 clarification, assault stand-down rules, parent meeting requirements, fines up to $300 and $3,000, and property-damage debt recovery are all on the source page. No implementation date or resourcing detail is given.
+> Classroom disruption consumes teaching time and contributes to teacher retention problems. The policy gives teachers explicit power to direct seriously disruptive students to staffed supervision, with escalation, reasonable force after refusal, mandatory response to assault, parent fines for missed meetings, and debt recovery for deliberate property damage. No implementation date or resourcing detail is given.
 
 System: Classroom disruption response below formal stand-down
 

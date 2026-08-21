@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-overseas-new-zealanders
 title: "Diaspora voting, student loans and a 10-year superannuation residence rule"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Māori citizenship pathway, overseas student loan reforms, extended voting eligibility abroad and a 10-year superannuation residence requirement.
 jurisdiction: NZ
 sources:
@@ -30,11 +30,12 @@ gaps:
 
 # What the page states
 
-> The source page restores a 10-year New Zealand residence period for superannuation eligibility. About 15 percent of New Zealanders living overseas is narrative context, not a plan setting. No timetable is given.
+> Overseas New Zealanders keep stronger ties through citizenship, voting, loan and superannuation settings. A tikanga-based pathway enables citizenship for people who whakapapa Māori regardless of residence or birth country. Student loan terms ease for overseas borrowers and the 10-year residence period for superannuation eligibility is restored. Reciprocal health, welfare and visa arrangements would widen. No timetable is given.
 
 System: Rights and support for overseas New Zealanders
 
 Scenario: The overseas New Zealanders plan is put into effect
+Given about 15 percent of New Zealanders live overseas
 When the government puts the overseas New Zealanders plan into effect
 Then a tikanga-based pathway enables people who whakapapa Māori to establish citizenship regardless of residence or birth country
 And student loan repayments and interest rates for overseas borrowers are reduced and rebalanced with extended repayment holidays and border arrests for loan violations abolished

@@ -3,7 +3,7 @@ type: spec
 id: act-protect-lawful-hunting
 title: "Infringement offences for obstructing lawful hunters and harassing shooters"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Create infringement offences for deliberately standing in a lawful hunter's line of fire and for using drones or helicopters to harass game-bird shooters.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The two new infringement offences for line-of-fire obstruction and aircraft harassment of game-bird shooters are all on the source page. No fine amounts, penalties or implementation dates appear.
+> Lawful hunters can be deliberately obstructed in the line of fire or harassed by aircraft during game-bird shoots with little specific legal remedy. The policy creates infringement offences for both behaviours while people remain free to oppose hunting. No fine amounts or implementation dates are given.
 
 System: Protect lawful hunting from deliberate interference
 

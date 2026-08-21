@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-toi-maori
 title: "Invest in Toi Māori and Māori creative industries"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Invest in Toi Māori, protect Māori cultural rights and expressions, and back Māori-led arts infrastructure, funding and pathways.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> Toi Māori and Māori creative industries would be invested in. Māori cultural rights and expressions would be protected. Māori-led arts infrastructure, funding and pathways would be backed.
 
 System: Toi Māori and Māori creative industries
 

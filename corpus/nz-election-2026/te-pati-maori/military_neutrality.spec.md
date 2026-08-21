@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-military-neutrality
 title: "Declare Aotearoa militarily neutral"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Declare military neutrality, reset foreign policy around Māori and Pacific relationships, review alignments, and refocus Defence on protection and disaster response.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Five commitments on the source page. No figures appear.
+> Aotearoa would be declared a militarily neutral nation. Foreign policy would be reset to be independent, grounded in Māori values and centred on Pacific and Indigenous relationships. Military alignments that undermine sovereignty would be reviewed and withdrawn, and the Defence Force refocused on protection, disaster response and Pacific support. International human rights would be upheld and war criminals held to account.
 
 System: Military neutrality and independent foreign policy
 

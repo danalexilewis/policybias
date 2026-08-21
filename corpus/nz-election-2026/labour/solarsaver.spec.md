@@ -3,7 +3,7 @@ type: spec
 id: labour-solarsaver
 title: "SolarSaver finance, subsidies and community batteries"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Government-backed solar finance with no upfront cost, up to $3,000 kickstart subsidy, and a $30 million community battery fund over four years.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> No upfront finance, up to $3,000 kickstart subsidy, $77 million household subsidies over four years, $30 million community battery fund, $160 million four-year total, EECA shop front, $20 million Crown underwrite, $7 million Ratepayer Assistance Scheme establishment, $4 million workforce coordination, and 12-month rollout commitment are on the page.
+> Government-backed long-term low-interest finance lets households install solar with nothing to pay upfront and repayments below power bill savings. A kickstart subsidy helps low- and middle-income households, including renters with plug-in panels. A community battery fund supports neighbourhoods without rooftop panels.
 
 System: SolarSaver
 
@@ -41,6 +41,10 @@ Output kickstart subsidy of up to $3,000 for low- and middle-income households
 And $30 million community battery fund
 And $160 million fully funded over four years
 And $77 million for household subsidies over four years
+And $22 million for EECA delivery over four years
+And $20 million Crown underwrite for lines company loans
+And $7 million to establish the Ratepayer Assistance Scheme
+And $4 million for workforce coordination over four years
 And repayments set below power bill savings
 Outcome homeowners own the system from day one
 Activates labour-apprenticeshipboost

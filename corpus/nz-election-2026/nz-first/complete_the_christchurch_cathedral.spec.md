@@ -3,7 +3,7 @@ type: spec
 id: nz-first-complete-the-christchurch-cathedral
 title: "$15 million extra government funding for Christ Church Cathedral rebuild"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: An additional $15 million government commitment to complete the first stage of the Christ Church Cathedral reinstatement project.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The additional $15 million government commitment and its role in completing the first reopening stage are on the page. Prior funding totals ($90 million invested, $40–$45 million shortfall) are context, not this commitment's Output split.
+> An additional government commitment would help complete the first stage of the staged Christ Church Cathedral rebuild, reopening the cathedral and removing hoardings from the square. The project has been mothballed since 2024 for lack of funds despite prior investment from church, government, donors and council. No timetable for releasing the funding is given.
 
 System: Government funding for Christ Church Cathedral reinstatement
 

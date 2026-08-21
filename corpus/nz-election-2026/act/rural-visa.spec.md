@@ -3,7 +3,7 @@ type: spec
 id: act-rural-visa
 title: "Three-year Rural Workforce Visa with Work to Residence pathway after six years"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Create a standalone three-year visa tied to accredited rural employers for dairy, sheep, beef and general farm work, with reissue after readvertising and residence eligibility after 72 cumulative months.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> The three-year RWV, sector-tying to accredited employers, transfer rules, readvertise-and-reissue process, 72-month Work to Residence pathway, $60 billion export figure, and infrastructure-levy exemption for rural visas are all on the source page. No accreditation criteria or commencement date is given.
+> Seasonal visa pathways do not fill year-round farm labour shortages holding back export industries. The Rural Workforce Visa ties workers to accredited rural employers for three-year terms with readvertise-and-reissue renewal and a Work to Residence pathway after six cumulative years, exempt from the infrastructure levy. No accreditation criteria or commencement date is given.
 
 System: Rural Workforce Visa for primary sector employers
 

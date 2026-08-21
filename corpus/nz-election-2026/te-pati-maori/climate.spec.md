@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-climate
 title: "Protect whenua and moana and invest in climate resilience"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Protect land and sea from extractive industries, invest in resilience for at-risk communities, and back regenerative approaches aligned with Māori values.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> Whenua and moana would be protected from extractive industries, including seabed mining. Climate resilience would be invested in for communities most at risk. Regenerative and sustainable approaches aligned with Māori values would be backed so whānau can live safely and sovereign on their own whenua.
 
 System: Climate protection aligned with Māori values
 

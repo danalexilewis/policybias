@@ -3,7 +3,7 @@ type: spec
 id: nz-first-establishing-a-special-economic-zone-at-marsden-point
 title: "Special economic zone at Marsden Point"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A Marsden Point special economic zone covering the former refinery and Northport, with RMA relief via a government panel and further incentives under consideration.
 jurisdiction: NZ
 sources:
@@ -33,7 +33,7 @@ gaps:
 
 # What the page states
 
-> This page announces intent and lists relief options under consideration. It names no rates, budgets, dates or committed tax settings, so the stated spec has no Output. The gaps list is the finding.
+> A special economic zone at Marsden Point would cover the former refinery and Northport, focused on energy generation and maritime activity including ship repair. Planning rules and RMA consents would be decided quickly by a government panel rather than through multiple agencies. Tax incentives, Overseas Investment Act changes and rates rebates remain under consideration rather than committed. No rates, budgets, or dates are given.
 
 System: Special economic zone at Marsden Point
 

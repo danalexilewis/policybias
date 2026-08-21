@@ -3,7 +3,7 @@ type: spec
 id: act-innovation-trials
 title: "Permanent Innovation Trial process to set aside rules for limited tests"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Publish a permanent application process letting companies test autonomous vehicles, agricultural drones and medical technology by setting aside a specific regulation for a limited location with safety conditions.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The permanent application process, rule set-aside for limited location tests, safety conditions, Ministry for Regulation role, and invitation to autonomous vehicle, drone and med-tech companies are all on the source page. The $2,000 certification cost, one-year timeline, 25 kg and 150 kg drone weight comparisons, and two-year work programme reference appear in a quoted speech on the source page.
+> Old rules can block autonomous vehicles, agricultural drones and medical technology for years while other countries move ahead. The policy publishes a permanent Innovation Trial process to set aside a specific regulation for a limited test in one location with safety conditions and measured outcomes. No trial duration cap or approval criteria are given.
 
 System: Innovation Trials for technologies blocked by old rules
 

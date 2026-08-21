@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-rainbow-communities
 title: "Gender-affirming care and rainbow human rights law"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Rainbow health strategies, free gender-affirming care, Human Rights Act amendments, intersex surgery ban and migrant recognition reforms.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> The source page names plan items on health, resourcing, gender-affirming care, human rights law, intersex surgeries and migration law. No figures appear. No timetable is given.
+> Rainbow health moves toward culturally grounded services with increased resourcing for Māori and Pasifika-led organisations. Free gender-affirming care on informed consent includes reversal of the puberty blocker ban. Human rights law clarifies discrimination grounds and non-consensual intersex surgeries are prohibited. Migration law reforms enable recognition and family reunification for rainbow asylum seekers, refugees and migrants. No dollar amounts or dates are given.
 
 System: Rainbow community rights and health access
 

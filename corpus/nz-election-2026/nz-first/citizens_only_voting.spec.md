@@ -3,7 +3,7 @@ type: spec
 id: nz-first-citizens-only-voting
 title: "Restrict voting to New Zealand citizens"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Change electoral law so only citizens may vote in general elections, local elections and referendums.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The citizenship-only voting commitment and the distinction from permanent residence are on the page. Current eligibility periods for permanent residents and certain visa holders are described as status quo, not as new settings with figures. No Output follows.
+> Electoral law would restrict voting in general elections, local elections and referendums to New Zealand citizens only. Permanent residence would remain a right to live and work, but citizenship would be required to vote. The distinction between residence and the formal bond of allegiance would be restored. No legislative bill or timetable is given.
 
 System: Voting restricted to New Zealand citizens
 

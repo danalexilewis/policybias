@@ -3,7 +3,7 @@ type: spec
 id: national-paid-parental-leave
 title: "Paid parental leave to 30 weeks with shared leave"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Extend paid parental leave from 26 to 30 weeks over three Budgets, allow shared leave, and protect full holiday pay from 1 July 2027.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> Extension from 26 to 30 weeks over three Budgets, shared parental leave flexibility, full holiday pay protection from 1 July 2027, and KiwiSaver top-up cross-reference from 1 July 2027 are on the page. The linked PDF stages 27 weeks from 1 July 2027, 28 weeks from 1 July 2028, and 30 weeks from 1 July 2029, and prints $327.4 million for the leave extension and $121.9 million for the parental-leave KiwiSaver contribution. Dollar payment rates are not on this page.
+> Paid parental leave would rise from 26 weeks to 30 weeks in three Budget steps from 1 July 2027, 2028 and 2029. Parents could take leave together or in overlapping instalments rather than splitting it sequentially. From 1 July 2027, workers would earn full annual leave while on parental leave and receive a Government KiwiSaver contribution even if they are not contributing themselves.
 
 System: Modernised paid parental leave
 

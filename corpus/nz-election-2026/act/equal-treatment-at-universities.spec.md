@@ -3,7 +3,7 @@ type: spec
 id: act-equal-treatment-at-universities
 title: "Equal treatment for taxpayer-funded university benefits regardless of race"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Amend the Education and Training Act so tertiary institutions cannot confer publicly funded benefits on the basis of race or ethnic origin, while preserving merit, need and private donor targeting.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The 2024 government direction gap for tertiary institutions, the Equal Treatment Amendment Bill scope, preserved allocation grounds, and private endowment exemption are all on the source page. No figures or timetable appear on the page.
+> Universities can reserve taxpayer-funded scholarships, accommodation and other benefits by ethnicity despite a 2024 direction to other public agencies. The Equal Treatment Amendment Bill would bar race-based allocation of public tertiary benefits while preserving merit, need, disability and private donor targeting. No figures or timetable appear on the page.
 
 System: Equal treatment at taxpayer-funded tertiary institutions
 

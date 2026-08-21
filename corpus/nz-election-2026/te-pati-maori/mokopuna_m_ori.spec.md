@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-mokopuna-m-ori
 title: "End uplifts and restore whānau authority over mokopuna"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: End the pipeline removing Māori children from their people, restore whānau authority with whānau-led care, and make the state accountable for uplift harm.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> The pipeline that removes Māori children from their people would be ended. Whānau authority would be restored with investment in whānau-led care. The state would be made accountable for harm caused through uplifts and placements.
 
 System: Mokopuna Māori and whānau authority
 

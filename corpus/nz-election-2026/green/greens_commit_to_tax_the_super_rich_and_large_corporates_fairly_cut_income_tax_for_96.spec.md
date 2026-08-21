@@ -3,7 +3,7 @@ type: spec
 id: green-greens-commit-to-tax-the-super-rich-and-large-corporates-fairly-cut-income-tax-for-96
 title: "Tax the super-rich and large corporates, cut income tax for 96%"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Wealth and capital acquisitions taxes, higher corporate and bank levies, a $10,000 tax-free threshold, and net revenue rising to $5.73 billion by 2030/31.
 jurisdiction: NZ
 sources:
@@ -32,7 +32,7 @@ gaps:
 
 # What the page states
 
-> Rates, thresholds and net revenue forecasts are from the 22 June 2026 corrected source page. The page names instruments but not the top marginal income tax rate.
+> Tax settings would shift wealth and corporate contributions while cutting income tax for most wage earners. A net-assets tax on the super-rich, a Capital Acquisitions Tax, higher corporate and bank levies, and enforced withholding on offshore tech profits would fund critical services. Recent landlord tax cuts and brightline changes would be reversed. A tax-free threshold and new rate on high incomes would follow; net revenue forecasts run from 2027/28 to 2030/31.
 
 System: A tax system for all of us
 

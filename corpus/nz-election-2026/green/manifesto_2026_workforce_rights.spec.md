@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-workforce-rights
 title: "Default union membership and 15 months parental leave"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Default union membership, expanded strike rights, right to disconnect, inflation-linked minimum wage, 15 months parental leave and gig worker protections.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> The source page sets paid parental leave at 15 months for the primary caregiver and annual minimum wage increases that at least match inflation. Payment rates are not stated. No timetable is given.
+> Employment law shifts toward collective voice with default union membership and expanded strike rights including political and solidarity action. A right to disconnect protects out-of-hours contact while minimum wage rises at least match inflation and move toward the living wage. Paid parental leave increases to 15 months for the primary caregiver with ring-fenced partner leave and increased payments. Parental leave payment rates are not stated. No timetable is given.
 
 System: Workforce rights and pay
 

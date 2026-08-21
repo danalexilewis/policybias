@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-te-reo-maori
 title: "Strengthen and normalise te reo Māori"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Strengthen te reo Māori, invest in learning pathways and community revitalisation, and hold the state accountable for protecting te reo.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> Te reo Māori would be strengthened and normalised everywhere. Te reo learning pathways and community-led language revitalisation would be invested in. The state would be held accountable for protecting te reo Māori.
 
 System: Te reo Māori revitalisation
 

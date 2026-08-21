@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-justice-and-community-safety
 title: "Restorative justice, youth courts and sentencing discretion"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Rehabilitation and Te Pae Oranga, expanded specialist courts, police accountability, a Steps to Freedom Grant covering at least 30 years of inflation, and royal commission implementation.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> The source page says the Steps to Freedom Grant should cover at least 30 years of inflation. No grant dollar amount appears. No timetable is given.
+> Communities are kept safe by addressing crime drivers through prevention and rehabilitation rather than punitive sentencing. Evidence-based rehabilitation and tikanga-based restorative justice expand alongside specialist courts, police accountability and reintegration support. Mandatory minimums and similar constraints are removed while royal commission recommendations are implemented. The Steps to Freedom Grant should cover at least 30 years of inflation; no grant dollar amount is given. No timetable is given.
 
 System: Justice and community safety reform
 

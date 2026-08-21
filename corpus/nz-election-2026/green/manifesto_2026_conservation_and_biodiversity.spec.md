@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-conservation-and-biodiversity
 title: "Protect 30% of land and oceans and restore 30% of degraded wetlands"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Conservation law reform, mining ban on conservation land, Jobs for Nature expansion, wetland protection and Predator Free 2050 funding.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover conservation law reform, a mining ban on conservation land, Jobs for Nature, wetland protection and Predator Free 2050. The page commits to protecting 30% of land and oceans and restoring at least 30% of degraded wetland area.
+> Whenua, moana and taonga species would be protected from corporate exploitation through conservation law reform and a mining ban on conservation land. Jobs for Nature would expand, remaining natural wetlands would be protected and degraded wetland area restored, and public conservation funding would rise including for Predator Free 2050. Action for Nature and indigenous biodiversity guidance would be funded.
 
 System: Conservation and biodiversity protection
 

@@ -3,7 +3,7 @@ type: spec
 id: act-deport
 title: "Six-point immigration plan from deportation to overstayer enforcement"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Deport resident visa holders convicted of ten-year offences regardless of time here, tighten skilled visas, impose a five-year welfare stand-down, charge a $6 daily infrastructure surcharge, extend English requirements, and enforce overstayers.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> The six plan points, ten-year deportation threshold, twenty-year government comparison, five-year welfare stand-down, $6 daily surcharge, $80 million expected revenue, 20,980 known overstayers, annual skill-category expiry, English requirements, and platform employer rules are all on the source page. No commencement dates or enforcement detail beyond the headline measures is given.
+> The immigration system is framed as failing to enforce rules and letting infrastructure lag behind migration. The six-point plan covers deporting serious offenders, expiring skilled visa categories, a five-year welfare stand-down, a daily infrastructure surcharge, stronger English requirements, and overstayer enforcement. No commencement dates or enforcement detail beyond the headline measures is given.
 
 System: Six-point immigration plan
 

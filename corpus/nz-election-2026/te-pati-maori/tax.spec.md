@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-tax
 title: "Tax the wealthiest to fund housing, health, education and whānau support"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A stated intention that the wealthiest pay a larger share, with the revenue directed to four spending areas.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Two commitments on the source page. No base, rate, threshold, instrument, revenue estimate or date appears, so the stated spec has no Output. The gaps list is the finding.
+> The wealthiest would pay a larger share. Revenue raised would be directed to housing, health, education and whānau support. No tax base, rate, threshold or revenue estimate is given.
 
 System: Revenue from the wealthiest directed to social spending
 

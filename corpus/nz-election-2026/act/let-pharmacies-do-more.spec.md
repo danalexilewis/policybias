@@ -3,7 +3,7 @@ type: spec
 id: act-let-pharmacies-do-more
 title: "Expand pharmacy scope for common conditions and chronic disease monitoring"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Widen pharmacist treatment lists, allow monitoring of stable hypertension, diabetes and cholesterol, pilot skin-lesion checks, remove pharmacy ownership caps and enable 24-hour prescription lockers.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The one-in-four GP access barrier, thousand-plus pharmacies, expanded condition list, chronic-disease monitoring rules, skin-lesion pilot, ownership-cap removal, prescription lockers, and 120,000 pilot users with 88% needs met are all on the source page. No funding or rollout timetable is given.
+> GP access delays leave pharmacists underused despite successful minor-conditions pilots. The policy widens conditions pharmacists can treat, allows monitoring of stable chronic disease, pilots skin-lesion checks, removes pharmacy ownership caps, and enables 24-hour prescription lockers. No funding or rollout timetable is given.
 
 System: Community pharmacy scope and access
 

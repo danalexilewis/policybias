@@ -3,7 +3,7 @@ type: spec
 id: green-manifesto-2026-culture-and-creativity
 title: "Living-wage arts funding, taonga repatriation, and more money for RNZ and Whakaata Māori"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Living-wage arts funding, stable support for major creative events, taonga repatriation, and sustainable RNZ and Whakaata Māori funding.
 jurisdiction: NZ
 sources:
@@ -29,7 +29,7 @@ gaps:
 
 # What the page states
 
-> Plan items on the source page cover arts funding, venues, repatriation and public media. No dollar amounts appear.
+> Artists and creatives would be funded properly with living-wage payments on public projects and stable support for major events such as Te Matatini and Polyfest. Long-term arts funding would move off gambling revenue, taonga overseas would be repatriated to iwi and hapū, and cross-ministry infrastructure would strengthen the creative economy. Funding for Radio New Zealand, Whakaata Māori and community media would increase. No dollar amounts or dates are given.
 
 System: Arts, culture and creativity funding
 

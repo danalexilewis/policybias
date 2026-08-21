@@ -3,7 +3,7 @@ type: spec
 id: act-public-safety
 title: "Accredited Security Operators with expanded powers on private premises"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Introduce a new licence for trained security professionals to require name and address, issue multi-premises exclusion notices, remove threatening people, and conduct consent-based searches on private premises.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The Accredited Security Operator licence, private-premises powers, three-year exclusion notices, reasonable force limits, consent-based searches, twice-as-many security officers as police comparison, and Retail NZ $2.6 billion crime cost are all on the source page. No licence fee or rollout timetable is given.
+> Security officers outnumber police but have no more authority than ordinary citizens while retail crime costs billions. The policy introduces Accredited Security Operator licences with powers on private premises including name and address requirements, multi-premises exclusion notices, removal, limited force and consent-based searches. No licence fee or rollout timetable is given.
 
 System: Accredited Security Operators for public and business safety
 

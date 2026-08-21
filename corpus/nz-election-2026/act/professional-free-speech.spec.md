@@ -3,7 +3,7 @@ type: spec
 id: act-professional-free-speech
 title: "Protect lawful expression outside work for regulated professionals"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Ban regulators disciplining members for lawful private expression, require institutional neutrality, limit mandatory training to competence and safety, and strengthen judicial oversight.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The ban on disciplining lawful outside expression, regulator neutrality, training limits, judicial oversight strengthening, and preserved misconduct powers are all on the source page. The more than 200,000 regulated professionals figure appears in a quoted passage on the source page.
+> Regulated professionals have faced discipline over lawful opinions expressed outside work. The policy bans regulators disciplining members for lawful private expression, requires institutional neutrality, limits mandatory training to competence and safety, and strengthens judicial oversight while preserving misconduct powers. No commencement date is given.
 
 System: Free speech protections for regulated professionals
 

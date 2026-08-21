@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-freshwater-policy
 title: "Māori authority and consent over freshwater"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Assert Māori rights and authority over freshwater, stop decisions without Māori consent, and share benefits fairly.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Three commitments on the source page. No figures appear.
+> Māori rights and authority over freshwater would be asserted. Decisions would not be made without Māori consent. Resources would be protected and benefits shared fairly.
 
 System: Māori authority over freshwater
 

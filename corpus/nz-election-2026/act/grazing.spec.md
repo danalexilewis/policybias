@@ -3,7 +3,7 @@ type: spec
 id: act-grazing
 title: "Grazing licences on conservation land to cut pests and fire risk"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Amend the Conservation Act to issue grazing licences where grazing supports vegetation management, with ecological framework, practical conditions and virtual fencing recognition.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The 1.8 million hectare wilding conifer figure, Conservation Act amendment, ecological framework, licence conditions, and virtual fencing recognition are all on the source page. No dollar savings or implementation date is given.
+> Wilding conifers and unmanaged vegetation fuel loads are spreading on conservation land while farmers face barriers to grazing concessions. The policy amends the Conservation Act to let DOC issue grazing licences with ecological frameworks, practical conditions and virtual fencing recognition. No dollar savings or implementation date is given.
 
 System: Targeted grazing on conservation land
 

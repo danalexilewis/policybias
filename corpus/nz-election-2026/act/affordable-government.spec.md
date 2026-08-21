@@ -3,7 +3,7 @@ type: spec
 id: act-affordable-government
 title: "Consolidate 43 departments into 19 and cut the ministry to 18"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Merge departments, collapse portfolios, and move chief executive appointment from the Public Service Commission to ministers.
 jurisdiction: NZ
 sources:
@@ -32,7 +32,7 @@ gaps:
 
 # What the page states
 
-> The department, portfolio and minister counts, the Norway comparison, the appointment and removal powers, and the statutory carve-out for Police, NZSIS and NZDF are all on the source page. The page carries no dollar figure at all, despite being about affordability: no saving, no transition cost, no timetable.
+> New Zealand runs a sprawling public service with dozens of departments and ministers overseeing overlapping portfolios. The policy merges departments into fewer units, assigns each to a single minister, and lets ministers appoint and remove chief executives while protecting operational independence for Police, NZSIS and NZDF. No dollar amounts or dates are given.
 
 System: A consolidated public service under fewer ministers
 

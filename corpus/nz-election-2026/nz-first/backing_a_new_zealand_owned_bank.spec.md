@@ -3,7 +3,7 @@ type: spec
 id: nz-first-backing-a-new-zealand-owned-bank
 title: "Buy back BNZ and merge with Kiwibank as Crown-owned NBNZ"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A proposed buy-back of BNZ from NAB, merged with Kiwibank into a fully Crown-owned commercial bank at scale to compete with the major Australian-owned banks.
 jurisdiction: NZ
 sources:
@@ -31,7 +31,7 @@ gaps:
 
 # What the page states
 
-> The buy-back, merger into a Crown-owned "National Bank of New Zealand", blended funding stack, and self-financing claim are on the page. Context figures include 85% foreign bank share, Kiwibank's under-8% mortgage share, and BNZ's $1.5 billion annual cash earnings — none of these are purchase or capital commitments, so the stated spec has no Output.
+> BNZ would be bought back from National Australia Bank and merged with Kiwibank into a fully Crown-owned commercial bank large enough to compete with the major Australian-owned banks. Funding would come from a blended stack—sovereign bonds, Crown debt, limited Future Fund and ACC investment, and Kiwibank's existing capital—not from the operating budget. The buy-back is described as self-financing, with banking profits kept in New Zealand. No purchase price, timetable, or management structure is given.
 
 System: Crown-owned bank at scale to compete with foreign-owned majors
 

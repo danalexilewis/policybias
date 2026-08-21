@@ -3,7 +3,7 @@ type: spec
 id: act-game-management
 title: "Transfer game animal management on conservation land to the Game Animal Council"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Move game animal management from DOC to a fully funded Game Animal Council, recognise game species as valued resources, and designate Herds of Special Interest starting with Stewart Island whitetail.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> The transfer from DOC to the Game Animal Council, full funding commitment, legislative recognition of game species, and Herds of Special Interest starting with Stewart Island whitetail are all on the source page. No dollar figures or implementation dates appear.
+> DOC manages game animals under legislation aimed at control while the Game Animal Council can only advise. The policy transfers management to the fully funded Game Animal Council, recognises game species as valued resources, and designates Herds of Special Interest starting with Stewart Island whitetail. No dollar amounts or dates are given.
 
 System: Hunter-led game management on conservation land
 

@@ -3,7 +3,7 @@ type: spec
 id: opportunity-smart-on-crime
 title: "Less remand, decriminalise possession, raise the youth-court age"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Fund courts and probation to cut remand, decriminalise drug possession but not supply, expand family-violence and drug and mental-health courts, and raise the youth-court age.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> More than $150,000 a year to house a prisoner and about $9,000 to educate a child for a year are the given. Commitments are more court and probation funding to cut remand, decriminalising possession but not supply, expanding family-violence programmes in prison, raising the youth-court age, and expanding drug and mental-health court pilots. No new dollar totals or the new youth age appear. The page says a detailed policy is still to launch.
+> Prison is far costlier per person than schooling, yet remand and warehousing dominate. Courts and probation get more funding to cut remand, drug possession is decriminalised with a health-led response while supply stays an offence, and the youth-court age rises with expanded drug and mental-health courts. Detailed policy is still to launch.
 
 System: Smart on crime
 

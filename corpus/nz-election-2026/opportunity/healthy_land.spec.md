@@ -3,7 +3,7 @@ type: spec
 id: opportunity-healthy-land
 title: "More conservation spend, independent water oversight, and a nature market"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Raise conservation and biosecurity funding, put independent oversight on water quality, and pay landowners through a nature market and continuous-cover native forestry.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Half of rivers unswimmable is the given. The commitments are more conservation and biosecurity money (wetlands, native reforestation, biodiversity), stronger water rules with independent oversight, help for landowners to shift to high-value low-impact use, a nature market, continuous-cover native forestry, and a circular plastics economy aligned to the industry roadmap. No dollar amounts or dates appear. The page says a detailed policy is still to launch.
+> Half of rivers are unswimmable and unique biodiversity is at risk. Conservation and biosecurity funding rises for wetlands and native reforestation, water quality gets independent oversight, and landowners are helped to shift to high-value low-impact uses. A nature market pays for biodiversity alongside continuous-cover native forestry and a circular plastics economy aligned to the industry roadmap. Detailed policy is still to launch.
 
 System: Healthy Land
 

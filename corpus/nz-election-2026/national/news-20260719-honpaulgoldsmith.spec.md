@@ -3,7 +3,7 @@ type: spec
 id: national-news-20260719-honpaulgoldsmith
 title: "Modernise consent laws to require active yes"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Consent must be actively given with a yes rather than absence of a no, communicated by words or actions.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> Active consent requirement, communication by words or actions, silence not consent, consent not perpetual, and explicit statement that burden of proof does not shift are on the news release.
+> Sexual consent law would require active consent—a yes communicated by words or actions, not merely the absence of a no. Silence would not count as consent, and consent given once would not carry forward to later encounters. The prosecution would still need to prove beyond reasonable doubt that consent was not given.
 
 System: Modernised sexual consent laws
 

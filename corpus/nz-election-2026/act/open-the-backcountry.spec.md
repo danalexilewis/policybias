@@ -3,7 +3,7 @@ type: spec
 id: act-open-the-backcountry
 title: "Clearer backcountry aircraft access and hunting role for Game Animal Council"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Let the Game Animal Council designate helicopter landing sites, require clear DOC access tests, prioritise hunting access, and leave aircraft safety to the Civil Aviation Authority.
 jurisdiction: NZ
 sources:
@@ -27,7 +27,7 @@ gaps:
 
 # What the page states
 
-> Game Animal Council landing-site designation, DOC access tests, Outdoor Access Commission priority, CAA aircraft safety handover, and commercial take restrictions by gender are all on the source page. No figures or implementation dates appear.
+> Much public land is hard to reach and large areas stay closed by no-fly lines without clear conservation reasons while DOC overrides CAA on helicopter types. The policy lets the Game Animal Council designate landing sites, requires clear DOC access tests, prioritises hunting access, and leaves aircraft safety to the Civil Aviation Authority. No figures or implementation dates appear.
 
 System: Backcountry access for hunting and venison recovery
 

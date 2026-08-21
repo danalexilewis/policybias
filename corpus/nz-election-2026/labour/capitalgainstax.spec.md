@@ -3,7 +3,7 @@ type: spec
 id: labour-capitalgainstax
 title: "Capital gains tax on property, ring-fenced to health"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: A 28% tax on gains made after commencement on commercial and residential investment property, with all revenue directed to health.
 jurisdiction: NZ
 sources:
@@ -30,7 +30,7 @@ gaps:
 
 # What the page states
 
-> Every step here is on the policy page and its linked PDF: the 28% rate, the sale-only trigger, the exemption list, the 100% health ring-fence, and the claim that nine in 10 New Zealanders own no property the tax reaches. The page dates commencement at 1 July 2027. The PDF forecast table prints $100 million in 2027/28, $385 million in 2028/29, $965 million in 2029/2030, and $1,350 million in 2030 and outyears, averaging $700 million a year.
+> Gains on commercial and residential investment property are taxed on sale after commencement, with the family home exempt. All revenue is ring-fenced to health. Commencement is 1 July 2027.
 
 System: Capital gains tax on property, ring-fenced to health
 

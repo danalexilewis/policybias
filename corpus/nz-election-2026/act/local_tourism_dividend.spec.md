@@ -3,7 +3,7 @@ type: spec
 id: act-local-tourism-dividend
 title: "$1 per commercial guest night returned to councils as Local Tourism Dividend"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Pay every territorial authority $1 for each domestic and international commercial guest night from the existing tourism appropriation, about $40.6 million a year based on 2026 guest nights.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The $1 per guest night rate, Accommodation Data Programme basis, no-application design, $40.6 million total, Auckland $8.2 million, Queenstown $4.9 million, Rotorua $2 million, eligible spending categories, rates replacement option, and existing-appropriation funding are all on the source page.
+> Visitor growth puts pressure on council infrastructure while central government collects GST and the International Visitor Levy. The Local Tourism Dividend pays each territorial authority per commercial guest night recorded through the Accommodation Data Programme, automatically and without applications, from the existing tourism appropriation. No commencement date is given.
 
 System: Local Tourism Dividend to territorial authorities
 

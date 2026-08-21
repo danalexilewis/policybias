@@ -3,7 +3,7 @@ type: spec
 id: te-pati-maori-te-pati-maori-will-make-the-waitangi-tribunal-recommendations-binding
 title: "Make Waitangi Tribunal recommendations binding"
 status: draft
-updated: 2026-08-18
+updated: 2026-08-21
 summary: Make Waitangi Tribunal recommendations binding, establish a Parliamentary Commissioner for Te Tiriti, and require a Te Tiriti Impact Statement on every Bill.
 jurisdiction: NZ
 sources:
@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> The page says Tribunal recommendations would become binding, a Parliamentary Commissioner for Te Tiriti would be established, and every Bill would need a Te Tiriti Impact Statement. It argues governments can currently ignore Tribunal findings. No figures appear.
+> Waitangi Tribunal recommendations would become binding. A Parliamentary Commissioner for Te Tiriti would be established and every Bill before Parliament would include a Te Tiriti Impact Statement. Governments can currently ignore Tribunal findings.
 
 System: Binding Waitangi Tribunal recommendations
 

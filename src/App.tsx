@@ -1,72 +1,59 @@
 import { useState, type JSX } from 'react';
-import { CardNode } from './card/CardNode';
+import { CardInspectOverlay } from './card/CardInspectOverlay';
+import { useCards } from './data/useCards';
+import type { PolicyCard } from './data/types';
 import { FilterBar } from './filters/FilterBar';
 import { useFilters } from './filters/useFilters';
 import { GameOverlay } from './game/GameOverlay';
-import { PolicyCanvas } from './canvas/PolicyCanvas';
-import { useCards } from './data/useCards';
-import type { CanvasLayoutMode } from './canvas/layout';
-
-const LAYOUT_MODES: Array<{ id: CanvasLayoutMode; label: string }> = [
-	{ id: 'wall', label: 'Wall' },
-	{ id: 'cluster', label: 'Cluster' }
-];
+import { useLifetimeScore } from './game/useLifetimeScore';
+import { PolicyGrid } from './grid/PolicyGrid';
 
 export default function App(): JSX.Element {
 	const { data, error, loading } = useCards();
 	const filters = useFilters(data?.cards ?? []);
 	const [isGameOpen, setIsGameOpen] = useState(false);
-	const [layoutMode, setLayoutMode] = useState<CanvasLayoutMode>('wall');
+	const [inspectedCard, setInspectedCard] = useState<PolicyCard | null>(null);
+	const { score: lifetimeScore, recordGuess } = useLifetimeScore();
 
 	const cards = filters.filtered;
-	const clusters = data?.clusters ?? [];
 
 	return (
 		<div className='app-shell'>
-			<header className='app-header'>
-				<div className='app-header__brand'>
-					<p className='app-header__product'>Policy Bias</p>
-					<h1 className='app-header__title'>NZ 2026</h1>
-				</div>
-				<div
-					className='app-header__mode'
-					role='group'
-					aria-label='Canvas layout'
-				>
-					{LAYOUT_MODES.map((mode) => {
-						const pressed = layoutMode === mode.id;
-						return (
-							<button
-								key={mode.id}
-								type='button'
-								aria-pressed={pressed}
-								onClick={() => setLayoutMode(mode.id)}
+			<div className='app-sticky'>
+				<header className='app-header'>
+					<div className='app-header__brand'>
+						<p className='app-header__product'>Policy Bias</p>
+						<h1 className='app-header__title'>NZ 2026</h1>
+					</div>
+					<div className='app-header__actions'>
+						{lifetimeScore.attempted > 0 ? (
+							<p
+								className='app-header__score'
+								aria-label={`Score ${lifetimeScore.correct} out of ${lifetimeScore.attempted}`}
 							>
-								{mode.label}
-							</button>
-						);
-					})}
-				</div>
-				<div className='app-header__actions'>
-					<button
-						type='button'
-						className='app-button app-button--primary'
-						onClick={() => setIsGameOpen(true)}
-						disabled={loading || !data || cards.length === 0}
-					>
-						Play
-					</button>
-				</div>
-			</header>
+								{lifetimeScore.correct}/{lifetimeScore.attempted}
+							</p>
+						) : null}
+						<button
+							type='button'
+							className='app-button app-button--primary'
+							onClick={() => setIsGameOpen(true)}
+							disabled={loading || !data || cards.length === 0}
+						>
+							Play
+						</button>
+					</div>
+				</header>
 
-			{data ? (
-				<FilterBar
-					clusters={data.clusters}
-					parties={data.parties}
-					totalCount={data.cards.length}
-					filters={filters}
-				/>
-			) : null}
+				{data ? (
+					<FilterBar
+						clusters={data.clusters}
+						parties={data.parties}
+						totalCount={data.cards.length}
+						filters={filters}
+					/>
+				) : null}
+			</div>
 
 			<main className='app-main'>
 				{loading ? (
@@ -81,24 +68,38 @@ export default function App(): JSX.Element {
 				) : null}
 
 				{!loading && !error && data ? (
-					<PolicyCanvas
+					<PolicyGrid
 						cards={cards}
-						clusters={clusters}
+						clusters={data.clusters}
+						parties={data.parties}
 						display={filters.display}
-						enriched={filters.enriched}
-						layoutMode={layoutMode}
-						CardNodeComponent={CardNode}
+						groupBy={filters.groupBy}
+						onInspect={setInspectedCard}
 					/>
 				) : null}
 			</main>
 
 			<footer className='app-footer'>
-				Encoded in{' '}
-				<a href='https://github.com/danalexilewis/gurki'>Gurki</a>
+				Encoded in <a href='https://github.com/danalexilewis/gurki'>Gurki</a>
+				{' · '}
+				<a href='/api/scores'>Public scores</a>
 			</footer>
 
+			{inspectedCard ? (
+				<CardInspectOverlay
+					card={inspectedCard}
+					display={filters.display}
+					onClose={() => setInspectedCard(null)}
+				/>
+			) : null}
+
 			{isGameOpen && data ? (
-				<GameOverlay cards={data.cards} onExit={() => setIsGameOpen(false)} />
+				<GameOverlay
+					cards={data.cards}
+					onExit={() => setIsGameOpen(false)}
+					onGuess={recordGuess}
+					lifetimeScore={lifetimeScore}
+				/>
 			) : null}
 		</div>
 	);

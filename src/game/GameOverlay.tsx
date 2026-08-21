@@ -16,6 +16,10 @@ import {
 	type DealRound
 } from './dealRound';
 import { pickClusterTrivia, type ClusterTrivia } from './clusterTrivia';
+import { GameCensus } from './GameCensus';
+import { backgroundFromAnswers, type BackgroundAnswers } from './scoreRecord';
+import { publishScoreRecord } from './publishScoreRecord';
+import type { GameScore } from './scoreStore';
 import './GameOverlay.css';
 
 /** Game questions hide party, gaps, and source so the tell is the stated policy text. */
@@ -30,7 +34,7 @@ const GAME_REVEAL_DISPLAY: CardDisplay = {
 	party: true
 };
 
-type GamePhase = 'playing' | 'revealed' | 'results';
+type GamePhase = 'playing' | 'revealed' | 'census' | 'results';
 
 type GuessRecord = {
 	roundNumber: number;
@@ -43,14 +47,18 @@ type GuessRecord = {
 type GameOverlayProps = {
 	cards: PolicyCard[];
 	onExit: () => void;
+	onGuess?: (correct: boolean) => void;
+	lifetimeScore?: GameScore;
+	seed?: number;
+	onPlayAgain?: () => void;
 };
 
 function initialSeed(): number {
 	return Math.floor(Math.random() * 0xffffffff);
 }
 
-/** Party brand on the dark game field; NZ First's black would disappear. */
-function gamePartyColour(party: PartyId): string {
+/** Heading colour on the dark game field; NZ First's black would disappear. */
+function headingPartyColour(party: PartyId): string {
 	if (party === 'nz-first') {
 		return '#f4f1ea';
 	}
@@ -59,16 +67,19 @@ function gamePartyColour(party: PartyId): string {
 
 function TriviaDialog(props: {
 	trivia: ClusterTrivia;
+	nextLabel: string;
+	onNext: () => void;
 	onDismiss: () => void;
 }): JSX.Element {
 	return (
-		<div className='game-trivia' role='presentation'>
+		<div className='game-trivia' role='presentation' onClick={props.onDismiss}>
 			<div
 				className='game-trivia__panel'
 				role='dialog'
 				aria-modal='true'
 				aria-labelledby='game-trivia-title'
 				aria-describedby='game-trivia-body'
+				onClick={(event) => event.stopPropagation()}
 			>
 				<p className='game-trivia__kicker'>Correct</p>
 				<p className='game-trivia__category'>{props.trivia.category}</p>
@@ -82,9 +93,9 @@ function TriviaDialog(props: {
 					type='button'
 					className='game-trivia__continue'
 					autoFocus
-					onClick={props.onDismiss}
+					onClick={props.onNext}
 				>
-					Continue
+					{props.nextLabel}
 				</button>
 			</div>
 		</div>
@@ -131,15 +142,26 @@ function GameShell(props: {
 }
 
 export function GameOverlay(props: GameOverlayProps): JSX.Element {
-	const { cards, onExit } = props;
-	const [seed] = useState(initialSeed);
+	const [playId, setPlayId] = useState(0);
+
+	return (
+		<GameSession
+			key={playId}
+			{...props}
+			onPlayAgain={() => setPlayId((current) => current + 1)}
+		/>
+	);
+}
+
+function GameSession(props: GameOverlayProps): JSX.Element {
+	const { cards, onExit, onGuess, lifetimeScore, onPlayAgain } = props;
+	const [seed] = useState(() => props.seed ?? initialSeed());
 	const [rounds] = useState(() => dealAllRounds(cards, seed));
 	const [roundIndex, setRoundIndex] = useState(0);
 	const [phase, setPhase] = useState<GamePhase>('playing');
 	const [focusIndex, setFocusIndex] = useState<0 | 1 | 2>(0);
 	const [keyboardActive, setKeyboardActive] = useState(false);
 	const [guessedIndex, setGuessedIndex] = useState<0 | 1 | 2 | null>(null);
-	const [showDerived, setShowDerived] = useState(false);
 	const [score, setScore] = useState(0);
 	const [history, setHistory] = useState<GuessRecord[]>([]);
 	const [trivia, setTrivia] = useState<ClusterTrivia | null>(null);
@@ -164,6 +186,7 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 		};
 
 		setHistory((previous) => [...previous, record]);
+		onGuess?.(correct);
 		if (correct) {
 			setScore((previous) => previous + 1);
 			const nextTrivia = pickClusterTrivia({
@@ -182,13 +205,13 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 		setGuessedIndex(guessedCardIndex);
 		setFocusIndex(guessedCardIndex);
 		setPhase('revealed');
-		setShowDerived(false);
 	}
 
 	function advanceRound(): void {
 		const nextIndex = roundIndex + 1;
 		if (nextIndex >= rounds.length) {
-			setPhase('results');
+			setTrivia(null);
+			setPhase('census');
 			return;
 		}
 
@@ -196,7 +219,6 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 		setGuessedIndex(null);
 		setFocusIndex(0);
 		setKeyboardActive(false);
-		setShowDerived(false);
 		setTrivia(null);
 		setPhase('playing');
 	}
@@ -213,11 +235,7 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 				return;
 			}
 
-			if (trivia) {
-				if (event.key === 'Enter') {
-					event.preventDefault();
-					setTrivia(null);
-				}
+			if (trivia || phase === 'census' || phase === 'results') {
 				return;
 			}
 
@@ -238,9 +256,21 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 				}
 			}
 
-			if (phase === 'revealed' && event.key === 'Enter') {
-				event.preventDefault();
-				advanceRound();
+			if (phase === 'revealed') {
+				if (event.key === 'ArrowLeft') {
+					event.preventDefault();
+					setKeyboardActive(true);
+					setFocusIndex((previous) => ((previous + 2) % 3) as 0 | 1 | 2);
+				}
+				if (event.key === 'ArrowRight') {
+					event.preventDefault();
+					setKeyboardActive(true);
+					setFocusIndex((previous) => ((previous + 1) % 3) as 0 | 1 | 2);
+				}
+				if (event.key === 'Enter') {
+					event.preventDefault();
+					advanceRound();
+				}
 			}
 		}
 
@@ -254,8 +284,28 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 		rounds.length,
 		onExit,
 		trivia,
-		usedTriviaIds
+		usedTriviaIds,
+		onGuess
 	]);
+
+	function finishCensus(answers: BackgroundAnswers): void {
+		if (history.length >= 1) {
+			void publishScoreRecord({
+				correct: score,
+				attempted: history.length,
+				...backgroundFromAnswers(answers)
+			});
+		}
+		setPhase('results');
+	}
+
+	if (phase === 'census') {
+		return (
+			<GameShell label='Before your score' onExit={onExit}>
+				<GameCensus onContinue={finishCensus} />
+			</GameShell>
+		);
+	}
 
 	if (phase === 'results') {
 		const guessDistribution = Object.fromEntries(
@@ -289,6 +339,12 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 							{score} / {history.length}
 						</h2>
 					</header>
+
+					{lifetimeScore && lifetimeScore.attempted > history.length ? (
+						<p className='game-results__note'>
+							All time {lifetimeScore.correct} / {lifetimeScore.attempted}
+						</p>
+					) : null}
 
 					{history.length < MAX_GAME_ROUNDS ? (
 						<p className='game-results__note'>
@@ -354,6 +410,16 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 							wrong pick
 						</p>
 					</section>
+
+					<p className='game-results__note'>
+						This score is in the <a href='/api/scores'>public dataset</a>.
+					</p>
+
+					<div className='game-results__actions'>
+						<button type='button' className='game-next' onClick={onPlayAgain}>
+							Play again
+						</button>
+					</div>
 				</div>
 			</GameShell>
 		);
@@ -369,16 +435,21 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 		);
 	}
 
-	const targetCard = currentRound.cards[currentRound.targetIndex];
 	const partyName = PARTY_LABELS[currentRound.targetParty];
 	const partyStyle: CSSProperties = {
-		color: gamePartyColour(currentRound.targetParty)
+		color: headingPartyColour(currentRound.targetParty)
 	};
 
 	return (
 		<GameShell label={`Choose the ${partyName} policy`} onExit={onExit}>
 			<p className='game-progress'>
-				{roundNumber} / {rounds.length}
+				<span>
+					{roundNumber} / {rounds.length}
+				</span>
+				<span className='game-progress__score'>
+					Score {score}
+					{history.length > 0 ? ` / ${history.length}` : ''}
+				</span>
 			</p>
 
 			<header className='game-heading'>
@@ -393,26 +464,27 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 					const cardIndex = index as 0 | 1 | 2;
 					const isTarget = cardIndex === currentRound.targetIndex;
 					const isGuessed = guessedIndex === cardIndex;
-					const isSelected = phase === 'revealed' && (isGuessed || isTarget);
+					const isBrowsing =
+						phase === 'revealed' && keyboardActive && focusIndex === cardIndex;
+					const isSelected = phase === 'revealed';
 					const className = [
 						'game-card',
 						phase === 'playing' && keyboardActive && focusIndex === cardIndex
 							? 'game-card--focus'
 							: '',
+						isBrowsing ? 'game-card--focus' : '',
 						isSelected ? 'game-card--selected' : '',
 						phase === 'revealed' && isGuessed && !isTarget
 							? 'game-card--wrong'
-							: '',
-						phase === 'revealed' && !isTarget && !isGuessed
-							? 'game-card--dimmed'
 							: ''
 					]
 						.filter(Boolean)
 						.join(' ');
 
-					const ringColour = gamePartyColour(
-						phase === 'playing' ? currentRound.targetParty : card.party
-					);
+					const ringColour =
+						phase === 'playing'
+							? headingPartyColour(currentRound.targetParty)
+							: PARTY_COLOURS[card.party];
 					const ringStyle = {
 						'--game-ring-colour': ringColour
 					} as CSSProperties;
@@ -432,6 +504,11 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 							onClick={() => {
 								if (phase === 'playing') {
 									lockGuess(cardIndex);
+									return;
+								}
+								if (phase === 'revealed') {
+									setKeyboardActive(true);
+									setFocusIndex(cardIndex);
 								}
 							}}
 						>
@@ -443,15 +520,6 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 											? GAME_REVEAL_DISPLAY
 											: GAME_QUESTION_DISPLAY
 									}
-									face={
-										phase === 'revealed' &&
-										showDerived &&
-										isTarget &&
-										card.derived
-											? 'derived'
-											: 'stated'
-									}
-									showFaceToggle={false}
 								/>
 							</div>
 						</button>
@@ -460,30 +528,20 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 			</div>
 
 			<div className='game-actions'>
-				{phase === 'revealed' ? (
-					<>
-						{targetCard.derived ? (
-							<button
-								type='button'
-								className='game-text-button'
-								onClick={() => setShowDerived((previous) => !previous)}
-							>
-								{showDerived
-									? 'Back to what they stated'
-									: 'What we read into it'}
-							</button>
-						) : (
-							<span />
-						)}
-						<button type='button' className='game-next' onClick={advanceRound}>
-							{roundNumber >= rounds.length ? 'See results' : 'Next'}
-						</button>
-					</>
+				{phase === 'revealed' && !trivia ? (
+					<button type='button' className='game-next' onClick={advanceRound}>
+						{roundNumber >= rounds.length ? 'See results' : 'Next'}
+					</button>
 				) : null}
 			</div>
 
 			{trivia ? (
-				<TriviaDialog trivia={trivia} onDismiss={() => setTrivia(null)} />
+				<TriviaDialog
+					trivia={trivia}
+					nextLabel={roundNumber >= rounds.length ? 'See results' : 'Next'}
+					onNext={advanceRound}
+					onDismiss={() => setTrivia(null)}
+				/>
 			) : null}
 		</GameShell>
 	);

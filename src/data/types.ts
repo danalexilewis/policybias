@@ -6,8 +6,8 @@
  * the contract between that generator and the app: the canvas, the card and the
  * game all import from here and none of them parse Gurki.
  *
- * One card per policy page, with two faces. `stated` is the party's claim.
- * `derived` is our systems reading of the same page, and is absent when nobody
+ * One card per policy, with two faces. `stated` is the party's claim.
+ * `derived` is our understanding of the same policy, and is absent when nobody
  * wrote one. The UI toggles between them; it must never blend them.
  *
  * Owned by the dataset generator. If the app needs a field that is not here,
@@ -70,7 +70,7 @@ export type CardFace = {
   title: string
   summary?: string
   system?: string
-  /** The spec's opening note. On a derived face it says the reading is ours. */
+  /** The spec's opening note. Stated: a neutral party overview. Derived: our understanding. */
   note?: string
   scenarios: CardScenario[]
   report: { outputs: ReportItem[]; outcomes: ReportItem[] }
@@ -95,7 +95,7 @@ export type PolicyCard = {
   tags: string[]
   money: MoneyClass
   source: { title: string; url: string; path: string }
-  /** What the page does not answer. From the stated spec. */
+  /** What the policy does not answer. From the stated spec. */
   gaps: string[]
   /** Reasoning we supplied. From the derived spec; empty when there is none. */
   assumptions: string[]

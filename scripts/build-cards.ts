@@ -2,7 +2,7 @@
  * Builds public/cards.json from the NZ 2026 party policy spec tree.
  *
  * One card per policy page, pairing `<slug>.spec.md` (what the party stated)
- * with `<slug>.derived.spec.md` (our reading) into two faces of one card.
+ * with `<slug>.derived.spec.md` (our understanding) into two faces of one card.
  *
  * Gurki Markdown stays canonical. This emits the interchange the app reads, so
  * no card data is ever maintained by hand. Steps arrive pre-parsed, which is why
@@ -363,7 +363,7 @@ function main(): void {
   const total = (pick: (card: PolicyCard) => number) => cards.reduce((sum, card) => sum + pick(card), 0)
 
   console.log(`build:cards wrote ${relative(REPO_ROOT, out)}`)
-  console.log(`  ${cards.length} card(s), ${withDerived} with a derived reading`)
+  console.log(`  ${cards.length} card(s), ${withDerived} with a derived understanding`)
   console.log(
     `  ${total((card) => card.counts.gaps)} gap(s), ${total((card) => card.counts.assumptions)} assumption(s)`
   )

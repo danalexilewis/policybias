@@ -21,15 +21,15 @@ money: named-figure
 sourcePath: corpus/nz-election-2026/opportunity/abundant-energy.md
 derivesFrom: opportunity-abundant-energy
 assumptions:
-  - diverting about $500 million a year of dividends is a cut to general Crown revenue unless another tax fills it; the page says so, and we treat the land tax as the named backfill rather than a free lunch
+  - diverting about $500 million a year of dividends is a cut to general Crown revenue unless another tax fills it; the policy says so, and we treat the land tax as the named backfill rather than a free lunch
   - a 2050 capacity target is a stock that accrues over decades; this term can stand up a scheme, not deliver the 30 GW
-  - consolidating 29 distributors into 8 is a local-ownership and employment shock the page does not cost
+  - consolidating 29 distributors into 8 is a local-ownership and employment shock the policy does not cost
 sourceDigest: "sha256-77c0e4e9da0936d8"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page states the $500 million dividend, the 30 GW by 2050, and that the dividend currently funds core Crown revenue. It does not cost the distributor mergers or say how many of the 30 GW land in the next term. Those are ours.
+> The policy states the $500 million dividend, the 30 GW by 2050, and that the dividend currently funds core Crown revenue. It does not cost the distributor mergers or say how many of the 30 GW land in the next term.
 
 System: Gentailer dividends diverted, and a 2050 build
 

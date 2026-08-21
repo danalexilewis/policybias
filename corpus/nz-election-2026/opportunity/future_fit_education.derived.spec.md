@@ -4,7 +4,7 @@ id: opportunity-future-fit-education-derived
 title: "Education read as a system: pay parity without a bill, and a squeeze on corporate ECE"
 status: draft
 updated: 2026-08-18
-summary: Pay parity for ECE teachers is a large wage bill the page does not cost; limiting centre size lands on corporate chains first, and families in those centres need a place to go.
+summary: Pay parity for ECE teachers is a large wage bill the policy does not cost; limiting centre size lands on corporate chains first, and families in those centres need a place to go.
 jurisdiction: NZ
 sources:
   - title: Future fit Education
@@ -24,17 +24,17 @@ assumptions:
 sourceDigest: "sha256-238a14e34b149738"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page lists pay parity, size limits, Year 6 civics and less screen time. It does not cost the wage bill or say where children go if large centres shrink. Those are ours.
+> The policy lists pay parity, size limits, Year 6 civics and less screen time. It does not cost the wage bill or say where children go if large centres shrink.
 
 System: Pay parity without a bill
 
 Scenario: ECE pay parity is required
 When ECE teachers must be paid at primary and secondary rates
 Then the wage bill for centres rises
-Outcome community centres that already pay less well are the ones the page wants to back
-But corporate and community centres alike need a funding path the page does not print
+Outcome community centres that already pay less well are the ones the policy wants to back
+But corporate and community centres alike need a funding path the policy does not print
 
 Scenario: Centre size is capped
 When size and ratio rules bite

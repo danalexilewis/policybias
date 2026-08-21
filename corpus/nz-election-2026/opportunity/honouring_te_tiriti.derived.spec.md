@@ -4,7 +4,7 @@ id: opportunity-honouring-te-tiriti-derived
 title: "Honouring Te Tiriti read as a system: repeal without a replacement clause, and devolution without a vote"
 status: draft
 updated: 2026-08-18
-summary: Repealing two bills restores prior law only if that prior law is still in force; devolution of health and justice needs a legal person, a budget and an accountability line the page does not name.
+summary: Repealing two bills restores prior law only if that prior law is still in force; devolution of health and justice needs a legal person, a budget and an accountability line the policy does not name.
 jurisdiction: NZ
 sources:
   - title: Honouring Te Tiriti
@@ -25,16 +25,16 @@ assumptions:
 sourceDigest: "sha256-e84c190101ee0c03"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page lists repeal, curriculum, te reo teachers, devolution and equitable settlements. It does not name the receiving entity, the money, or what "equitable" changes in a settlement that is already signed. Those are ours.
+> The policy lists repeal, curriculum, te reo teachers, devolution and equitable settlements. It does not name the receiving entity, the money, or what "equitable" changes in a settlement that is already signed.
 
 System: Repeal and devolution without the receiving end
 
 Scenario: The two bills are repealed
 When the Treaty Principles Bill and the Takutai Moana amendment are repealed if they have passed
 Then whatever law sat underneath is back, unless it too has been replaced
-Outcome the page's aim is to stop those two statutes
+Outcome the policy's aim is to stop those two statutes
 But if they have not passed, the commitment does no work
 
 Scenario: Health and justice are devolved

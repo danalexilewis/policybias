@@ -21,15 +21,15 @@ derivesFrom: act-affordable-government
 assumptions:
   - merging 43 organisations into 19 costs money before it saves any: payroll, property, systems and records all have to be moved
   - an official whose chief executive can be removed for policy misalignment faces a cost to giving unwelcome advice, whatever the statutory protections say
-  - the page's claim that frontline services are unaffected assumes the merged departments retain the same delivery staff
+  - the policy's claim that frontline services are unaffected assumes the merged departments retain the same delivery staff
   - a fixed term renewable once ties senior tenure to the electoral cycle
-  - no saving is claimed here, because the page publishes none
+  - no saving is claimed here, because the policy publishes none
 sourceDigest: "sha256-cf145c74128adc18"
 ---
 
-# Our reading
+# Our understanding
 
-> This is our systems reading of the source page, not the published claim. The page states the counts, the powers and the carve-out. It does not state the transition cost, and it argues the opposite of our reading on advice: the page says chief executives "retain public service protections". We think a removal power for policy misalignment prices advice regardless, and the assumptions above say why. We publish no saving and no cost figure, because the source page publishes none and inventing one would be fabrication.
+> The policy states the counts, the powers and the carve-out. It does not state the transition cost, and it argues the opposite on advice: chief executives "retain public service protections". A removal power for policy misalignment prices advice regardless. The policy publishes no saving and no cost figure.
 
 System: Consolidation as a transition with a price on advice
 

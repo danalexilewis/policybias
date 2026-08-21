@@ -19,16 +19,16 @@ sourcePath: corpus/nz-election-2026/te-pati-maori/tax.md
 derivesFrom: te-pati-maori-tax
 assumptions:
   - "\"the wealthiest\" has to become a threshold on something measurable before anyone can be assessed: income, net wealth, a transaction, or a company"
-  - a wealth or asset base needs valuation, which is an administrative cost the page does not mention
+  - a wealth or asset base needs valuation, which is an administrative cost the policy does not mention
   - four named spending areas with no split means the revenue is claimed four times over until one is chosen
   - a revenue intention without a rate cannot be compared with policies that publish a base and a rate
-  - we introduce no figure, because the page contains none to work from
+  - we introduce no figure, because the policy contains none to work from
 sourceDigest: "sha256-29c40b17ec990303"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our systems analysis of the stated tax page. The page asserts an intention and a destination. Everything here is the work that intention implies and the page leaves undone. We are not filling the gaps with numbers; we are naming the decisions that would have to be made.
+> The policy asserts an intention and a destination. Who counts as the wealthiest, which base, and at what rate are still unmade decisions.
 
 System: What an unnamed tax base leaves undecided
 
@@ -38,7 +38,7 @@ And no threshold, base or rate
 When the policy is drafted
 Then a base and a threshold must be chosen before anyone can be assessed
 Outcome the people who would pay are unidentified until that choice is made
-But a voter cannot tell from this page whether they are among them
+But a voter cannot tell from this policy whether they are among them
 
 Scenario: The revenue is claimed by four spending areas at once
 Given housing, health, education and whānau support all named as destinations

@@ -4,7 +4,7 @@ id: opportunity-healthy-land-derived
 title: "Healthy Land read as a system: a nature market without a unit"
 status: draft
 updated: 2026-08-18
-summary: Paying for biodiversity needs a unit, a buyer and a rule against double-counting; none of those are on the page, so the market is a name until they are.
+summary: Paying for biodiversity needs a unit, a buyer and a rule against double-counting; none of those are in the policy, so the market is a name until they are.
 jurisdiction: NZ
 sources:
   - title: Healthy Land
@@ -25,9 +25,9 @@ assumptions:
 sourceDigest: "sha256-e9b2ccac80561019"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page names a nature market, independent water oversight, and more conservation spend. It does not define the unit, the overseer, or the dollar lift. Those are ours.
+> The policy names a nature market, independent water oversight, and more conservation spend. It does not define the unit, the overseer, or the dollar lift.
 
 System: A nature market without a unit
 

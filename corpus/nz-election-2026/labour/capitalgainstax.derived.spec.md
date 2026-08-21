@@ -25,13 +25,13 @@ assumptions:
   - property turnover is cyclical, so revenue from realisations is cyclical too
   - the published $700 million a year is a forecast average across years that already print $100 million then $1,350 million, so the path is front-loaded in later years
   - the health commitment is standing and per-person, so a year below the average must be met from elsewhere or the service reduced
-  - the incidence assumed here is on the owner at sale; the page argues rents are set by supply and demand
+  - the incidence assumed here is on the owner at sale; the policy argues rents are set by supply and demand
 sourceDigest: "sha256-6bc4a73d82f33c05"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page and PDF state the rate, the trigger, the exemptions, the ring-fence, and a forecast averaging $700 million a year. They do not state that the tax defers under holding, that a year can come in well below that average, or that a standing commitment funded from realisations carries timing risk. Those are ours, and the assumptions above say why we think each follows.
+> The policy and PDF state the rate, the trigger, the exemptions, the ring-fence, and a forecast averaging $700 million a year. They do not state that the tax defers under holding, that a year can come in well below that average, or that a standing commitment funded from realisations carries timing risk.
 
 System: Capital gains tax on property as a revenue source for a standing health commitment
 

@@ -22,13 +22,13 @@ derivesFrom: opportunity-citizens-voice
 assumptions:
   - a Parliamentary Commissioner who "advocates" is not a veto or a binding vote; we treat the output as advice unless a later statute says otherwise
   - 6 to 12 months of deliberation sits across at least one Budget, so an assembly on tax or housing can be overtaken by a coalition deal
-  - $10 to $15 million a year is small next to a botched infrastructure project, which is the page's comparison, not a proof that recommendations will be adopted
+  - $10 to $15 million a year is small next to a botched infrastructure project, which is the policy's comparison, not a proof that recommendations will be adopted
 sourceDigest: "sha256-27241b37ad215189"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page states sortition, a stipend, 6 to 12 months, $10 to $15 million, and a Commissioner to advocate. It does not give that Commissioner a vote, a veto, or a statutory duty on ministers to implement. Those limits are ours.
+> The policy states sortition, a stipend, 6 to 12 months, $10 to $15 million, and a Commissioner to advocate. It does not give that Commissioner a vote, a veto, or a statutory duty on ministers to implement.
 
 System: Advice that still needs votes
 

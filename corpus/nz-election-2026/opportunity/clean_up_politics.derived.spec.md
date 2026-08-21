@@ -26,9 +26,9 @@ assumptions:
 sourceDigest: "sha256-6ae8a35ec67fe9cf"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page states the $30,000 cap, the company and trust ban, the $1,000 disclosure, and the $52 million package. It does not close related-party channels or say how the new body divides work with the Serious Fraud Office. Those limits are ours.
+> The policy states the $30,000 cap, the company and trust ban, the $1,000 disclosure, and the $52 million package. It does not close related-party channels or say how the new body divides work with the Serious Fraud Office.
 
 System: Caps that can still be routed around
 

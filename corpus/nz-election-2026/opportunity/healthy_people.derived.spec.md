@@ -24,9 +24,9 @@ assumptions:
 sourceDigest: "sha256-59d91a23e3a12473"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page states $1 of primary care saving $13 later, a ten-year plan, and smokefree 2025 restored. It does not appropriate the $1, or bind the next Parliament. Those are ours.
+> The policy states $1 of primary care saving $13 later, a ten-year plan, and smokefree 2025 restored. It does not appropriate the $1, or bind the next Parliament.
 
 System: A return that needs the spend first
 
@@ -41,6 +41,6 @@ Activates opportunity-tax-reset
 Scenario: A later government inherits the ten-year plan
 When a new Parliament arrives
 Then a plan without a statute can be parked
-Outcome the page's cross-party process is the intended lock
+Outcome the policy's cross-party process is the intended lock
 But process without law is the same three-year cycle the infrastructure page is trying to escape
 Activates opportunity-intergenerational-infrastructure

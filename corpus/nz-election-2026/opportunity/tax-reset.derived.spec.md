@@ -23,16 +23,16 @@ sourcePath: corpus/nz-election-2026/opportunity/tax-reset.md
 derivesFrom: opportunity-tax-reset
 assumptions:
   - an annual tax on land cannot be deferred by holding, which is the opposite of a tax charged only at sale; that contrast is ours, not a published claim
-  - a cash transfer into a tight rental market can be bid into rent until supply increases; the page names this risk and says the land tax is the counter, but does not time how long that takes
+  - a cash transfer into a tight rental market can be bid into rent until supply increases; the policy names this risk and says the land tax is the counter, but does not time how long that takes
   - a 10-year transition that starts with young people means the full $24 billion land-tax take and universal Citizen's Income do not arrive in year one
   - repurposing 2,000 Ministry of Social Development roles is a labour displacement even when labelled as efficiency
-  - a compulsory 6% employer contribution is a labour cost that can fall on wages or prices; the page does not settle incidence
+  - a compulsory 6% employer contribution is a labour cost that can fall on wages or prices; the policy does not settle incidence
 sourceDigest: "sha256-a65b509e32452db7"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page and PDF state the rates, the $24 billion land-tax take, the $4 billion leftover, the 10-15% house-price path, and that $19,400 a year is not enough to live on. They do not state how long rents stay high while the land tax works through, that the first years raise less than the fully phased picture, or that the employer KiwiSaver slice is a wage cost. Those are ours.
+> The policy and PDF state the rates, the $24 billion land-tax take, the $4 billion leftover, the 10-15% house-price path, and that $19,400 a year is not enough to live on. They do not state how long rents stay high while the land tax works through, that the first years raise less than the fully phased picture, or that the employer KiwiSaver slice is a wage cost.
 
 System: Tax Reset as an annual land charge funding a cash floor
 
@@ -46,7 +46,7 @@ But a farmer or older homeowner without a deferral must find cash from income, b
 
 Scenario: A renter receives the Citizen's Income in a tight housing market
 Given $370 a week paid in cash
-And a housing market the page itself says can swallow a cash transfer as rent
+And a housing market the policy itself says can swallow a cash transfer as rent
 When the Citizen's Income is paid before extra homes are built
 Then some of the transfer can accrue to the landlord as higher rent
 Outcome the land tax is the piece intended to stop that capture, by making vacant and underused land costly to hold
@@ -66,6 +66,6 @@ Scenario: KiwiSaver 2.0 is levied on the wage
 Given a compulsory 6% employer contribution once the 8-year climb is done
 When the employer pays that 6%
 Then the cost sits on the employment relationship
-Outcome retirement balances grow, and the page's $1 trillion pool is a 20-year stock
-But take-home pay or prices can move to fund the employer slice; the page does not say which
+Outcome retirement balances grow, and the policy's $1 trillion pool is a 20-year stock
+But take-home pay or prices can move to fund the employer slice; the policy does not say which
 Activates opportunity-intergenerational-infrastructure

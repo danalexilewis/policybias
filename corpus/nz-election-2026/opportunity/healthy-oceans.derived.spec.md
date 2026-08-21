@@ -26,9 +26,9 @@ assumptions:
 sourceDigest: "sha256-aeee33902a089ae3"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page states 30% by 2035, a 14% catch cut to protect 86% of threatened species, 60% of quota in three companies, and that Māori commercial fishing will be affected. It does not keep settlement quota whole, or name the first closures. Those limits are ours.
+> The policy states 30% by 2035, a 14% catch cut to protect 86% of threatened species, 60% of quota in three companies, and that Māori commercial fishing will be affected. It does not keep settlement quota whole, or name the first closures.
 
 System: A catch cut that still hits the settlement
 
@@ -36,7 +36,7 @@ Scenario: Quota is cut to lift biomass
 Given three companies holding 60% of quota and a significant Māori commercial interest
 When the catch is reduced by 14% and the baseline rises from 40% to 50% of virgin biomass
 Then quota owners, including settlement holders, take a smaller authorised catch
-Outcome the page says large companies carry much of the adjustment
+Outcome the policy says large companies carry much of the adjustment
 But a smaller operator, or an iwi whose settlement is quota, can still lose income the transition fund does not automatically replace
 Activates opportunity-honouring-te-tiriti
 
@@ -44,5 +44,5 @@ Scenario: Thirty percent of the sea is reserved
 Given 0.5% in reserve today and a 30% target by 2035
 When the first large closures are gazetted
 Then fishing stops in those waters
-Outcome spillover may improve catch next door, which is the page's recreational claim
+Outcome spillover may improve catch next door, which is the policy's recreational claim
 But the first communities next to a new reserve lose access before that spillover is proven

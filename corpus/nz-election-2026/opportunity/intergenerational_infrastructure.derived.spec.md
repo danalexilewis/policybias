@@ -26,9 +26,9 @@ assumptions:
 sourceDigest: "sha256-0fbcde7d08fa59fd"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page states 60% to maintenance, $60 billion over ten years, and $150 million net for free public transport. It does not say that 60% of a frozen envelope shrinks new build, or that a majority can still cancel a project by passing the Bill. Those are ours.
+> The policy states 60% to maintenance, $60 billion over ten years, and $150 million net for free public transport. It does not say that 60% of a frozen envelope shrinks new build, or that a majority can still cancel a project by passing the Bill.
 
 System: Maintenance first, new build from extra debt
 

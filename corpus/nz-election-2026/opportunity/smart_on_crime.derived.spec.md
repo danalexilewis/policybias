@@ -24,9 +24,9 @@ assumptions:
 sourceDigest: "sha256-8b9bd045e1513213"
 ---
 
-# Our reading
+# Our understanding
 
-> This spec is our reading, not the published claim. The page states $150,000 a year per prisoner, $9,000 per child in school, more court funding, and decriminalised possession. It does not guarantee sitting days, a health door, or the new youth age. Those are ours.
+> The policy states $150,000 a year per prisoner, $9,000 per child in school, more court funding, and decriminalised possession. It does not guarantee sitting days, a health door, or the new youth age.
 
 System: Remand falls only if the court sits
 

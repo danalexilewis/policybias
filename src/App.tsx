@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { useState, type JSX } from 'react';
 import { CardInspectOverlay } from './card/CardInspectOverlay';
 import { useCards } from './data/useCards';
@@ -19,6 +20,7 @@ export default function App(): JSX.Element {
 
 	return (
 		<div className='app-shell'>
+			<Analytics />
 			<div className='app-sticky'>
 				<header className='app-header'>
 					<div className='app-header__brand'>

@@ -6,6 +6,7 @@ import {
   CURRENT_EVENT_ID,
   EVENT_IDS,
   eventGamePath,
+  eventIdFromAppPath,
   eventIdFromGamePath,
   eventIdFromLlmsPath,
   eventIdFromRequest,
@@ -14,6 +15,8 @@ import {
   eventLlmsPolicyPath,
   llmsHrefForHtmlPath,
   eventPath,
+  eventQuestionsPath,
+  eventResultsPath,
   eventScoresPath,
   specIdFromLlmsPath,
   eventViewFromPath,
@@ -92,6 +95,33 @@ describe('event game path', () => {
     expect(eventIdFromGamePath('/nz-election-2026/')).toBeNull()
     expect(eventViewFromPath('/nz-election-2026/game')).toBe('game')
     expect(eventViewFromPath('/nz-election-2026/')).toBe('board')
+  })
+})
+
+describe('event questions and results paths', () => {
+  it('scopes the optional questions and final score under the event url', () => {
+    expect(eventQuestionsPath(CURRENT_EVENT_ID)).toBe(
+      '/nz-election-2026/questions',
+    )
+    expect(eventResultsPath(CURRENT_EVENT_ID)).toBe(
+      '/nz-election-2026/results',
+    )
+    expect(eventViewFromPath('/nz-election-2026/questions')).toBe('questions')
+    expect(eventViewFromPath('/nz-election-2026/questions/')).toBe('questions')
+    expect(eventViewFromPath('/nz-election-2026/results')).toBe('results')
+    expect(eventViewFromPath('/nz-election-2026/results/')).toBe('results')
+    expect(eventViewFromPath('/nz-election-2026/scores')).toBe('board')
+    expect(eventIdFromAppPath('/nz-election-2026/questions')).toBe(
+      'nz-election-2026',
+    )
+    expect(eventIdFromAppPath('/nz-election-2026/results')).toBe(
+      'nz-election-2026',
+    )
+    expect(eventIdFromAppPath('/nz-election-2026/game')).toBe(
+      'nz-election-2026',
+    )
+    expect(eventIdFromAppPath('/nz-election-2026/scores')).toBeNull()
+    expect(eventIdFromAppPath('/nz-election-2026/')).toBeNull()
   })
 })
 

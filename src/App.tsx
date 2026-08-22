@@ -45,7 +45,7 @@ function AppShell(): JSX.Element {
 	const canPlay = !loading && Boolean(data) && cards.length > 0;
 
 	useEffect(() => {
-		document.title = view === 'game' ? GAME_TITLE : BOARD_TITLE;
+		document.title = view === 'board' ? BOARD_TITLE : GAME_TITLE;
 	}, [view]);
 
 	function onPlayGameClick(event: MouseEvent<HTMLAnchorElement>): void {
@@ -63,7 +63,9 @@ function AppShell(): JSX.Element {
 		openGame();
 	}
 
-	if (view === 'game') {
+	if (view !== 'board') {
+		const startAt =
+			view === 'questions' || view === 'results' ? view : 'playing';
 		return (
 			<>
 				<Analytics />
@@ -86,6 +88,8 @@ function AppShell(): JSX.Element {
 						onExit={exitGame}
 						onGuess={recordGuess}
 						lifetimeScore={lifetimeScore}
+						startAt={startAt}
+						onPlayAgain={view === 'game' ? undefined : openGame}
 					/>
 				) : null}
 			</>

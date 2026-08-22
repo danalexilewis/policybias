@@ -6,7 +6,9 @@ import {
 	CURRENT_EVENT_ID,
 	eventGamePath,
 	eventLlmsPath,
-	eventPath
+	eventPath,
+	eventQuestionsPath,
+	eventResultsPath
 } from './event/events';
 
 vi.mock('@vercel/analytics/react', () => ({
@@ -121,6 +123,25 @@ describe('App game route', () => {
 		render(<App />);
 
 		expect(screen.queryByRole('heading', { name: 'NZ 2026' })).toBeNull();
+		expect(screen.getByRole('button', { name: 'Exit game' })).toBeTruthy();
+	});
+
+	it('opens the optional questions on /questions', async () => {
+		window.history.replaceState({}, '', eventQuestionsPath(CURRENT_EVENT_ID));
+		const { default: App } = await import('./App');
+		render(<App />);
+
+		expect(screen.getByText('Optional questions')).toBeTruthy();
+		expect(screen.getByRole('button', { name: 'Exit game' })).toBeTruthy();
+	});
+
+	it('opens the final score on /results', async () => {
+		window.history.replaceState({}, '', eventResultsPath(CURRENT_EVENT_ID));
+		const { default: App } = await import('./App');
+		render(<App />);
+
+		expect(screen.getByText('Results')).toBeTruthy();
+		expect(screen.getByRole('heading', { name: '0 / 0' })).toBeTruthy();
 		expect(screen.getByRole('button', { name: 'Exit game' })).toBeTruthy();
 	});
 });

@@ -1,37 +1,4 @@
-import type { PartyId } from '../data/types'
-
-/**
- * Unique party names, matched case-insensitively. Short English words that
- * collide with party names (Act, green, labour, national, opportunity) are
- * not listed here.
- */
-const CASE_INSENSITIVE_NAMES = [
-  'Green Party of Aotearoa New Zealand',
-  'Green Party',
-  'New Zealand Labour Party',
-  'Labour Party',
-  'New Zealand National Party',
-  'National Party',
-  'New Zealand First Party',
-  'NZ First',
-  'NZFirst',
-  'Te Pāti Māori',
-  'Te Pati Maori',
-  'The Māori Party',
-  'The Maori Party',
-  'Māori Party',
-  'Maori Party',
-  'ACT New Zealand',
-  'The Opportunities Party',
-  'The Opportunity Party',
-  'Opportunity Party',
-]
-
-/**
- * Short labels that must stay case-sensitive so legislation ("the Act"),
- * the job market ("labour"), and ordinary "national" / "green" survive.
- */
-const CASE_SENSITIVE_NAMES = ["ACT's", 'ACT', 'Labour', 'Greens']
+import type { AnonymiseNames, PartyId, PartyMeta } from '../data/types'
 
 function escapeRegex(value: string): string {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
@@ -45,50 +12,71 @@ function namePattern(names: string[]): string {
     .join('|')
 }
 
-const CASE_INSENSITIVE_RE = new RegExp(namePattern(CASE_INSENSITIVE_NAMES), 'gi')
-const CASE_SENSITIVE_RE = new RegExp(`\\b(?:${namePattern(CASE_SENSITIVE_NAMES)})\\b`, 'g')
+/** NZ 2026 names. Used when the caller has no dataset (unit tests). */
+export const NZ_ANONYMISE_NAMES: AnonymiseNames = {
+  caseInsensitive: [
+    'Green Party of Aotearoa New Zealand',
+    'Green Party',
+    'New Zealand Labour Party',
+    'Labour Party',
+    'New Zealand National Party',
+    'National Party',
+    'New Zealand First Party',
+    'NZ First',
+    'NZFirst',
+    'Te Pāti Māori',
+    'Te Pati Maori',
+    'The Māori Party',
+    'The Maori Party',
+    'Māori Party',
+    'Maori Party',
+    'ACT New Zealand',
+    'The Opportunities Party',
+    'The Opportunity Party',
+    'Opportunity Party',
+  ],
+  caseSensitive: ["ACT's", 'ACT', 'Labour', 'Greens'],
+  uniqueTitle: [
+    'Green Party of Aotearoa New Zealand',
+    'Green Party',
+    'New Zealand Labour Party',
+    'Labour Party',
+    'New Zealand National Party',
+    'National Party',
+    'New Zealand First Party',
+    'NZ First',
+    'NZFirst',
+    'Te Pāti Māori',
+    'Te Pati Maori',
+    'The Māori Party',
+    'The Maori Party',
+    'Māori Party',
+    'Maori Party',
+    'ACT New Zealand',
+    'Greens',
+    'The Opportunities Party',
+    'The Opportunity Party',
+    'Opportunity Party',
+  ],
+  shortTitle: ['ACT', 'National', 'Labour', 'Green'],
+}
 
-/**
- * Unique names that can be stripped from the start of a title even without a
- * colon. Short English words (National, Labour, Green) are not in this list.
- */
-const UNIQUE_TITLE_NAMES = [
-  'Green Party of Aotearoa New Zealand',
-  'Green Party',
-  'New Zealand Labour Party',
-  'Labour Party',
-  'New Zealand National Party',
-  'National Party',
-  'New Zealand First Party',
-  'NZ First',
-  'NZFirst',
-  'Te Pāti Māori',
-  'Te Pati Maori',
-  'The Māori Party',
-  'The Maori Party',
-  'Māori Party',
-  'Maori Party',
-  'ACT New Zealand',
-  'Greens',
-  'The Opportunities Party',
-  'The Opportunity Party',
-  'Opportunity Party',
-]
+function emptyNames(): AnonymiseNames {
+  return NZ_ANONYMISE_NAMES
+}
 
-const SHORT_TITLE_NAMES = ['ACT', 'National', 'Labour', 'Green']
+export function mergeAnonymiseNames(parties: PartyMeta[]): AnonymiseNames {
+  const merged = emptyNames()
+  for (const party of parties) {
+    merged.caseInsensitive.push(...(party.anonymise?.caseInsensitive ?? []))
+    merged.caseSensitive.push(...(party.anonymise?.caseSensitive ?? []))
+    merged.uniqueTitle.push(...(party.anonymise?.uniqueTitle ?? []))
+    merged.shortTitle.push(...(party.anonymise?.shortTitle ?? []))
+  }
+  return merged
+}
+
 const SHORT_TITLE_VERBS = 'will|backs|to|commit|commits|announce|announces|launch|launches'
-
-const LEADING_UNIQUE_RE = new RegExp(
-  `^(?:${namePattern(UNIQUE_TITLE_NAMES)})(?:'s)?(?:\\s*[:—–-]\\s*|\\s+|$)`,
-  'i',
-)
-const LEADING_SHORT_RE = new RegExp(
-  `^(?:${namePattern(SHORT_TITLE_NAMES)})(?:'s\\s+|\\s*[:—–-]\\s+|\\s+(?:${SHORT_TITLE_VERBS})\\s+)`,
-  'i',
-)
-const TRAILING_PARTY_RE = new RegExp(
-  `(?:\\s*[|–—-]\\s*|\\s+[Uu]nder\\s+)(?:${namePattern([...UNIQUE_TITLE_NAMES, ...SHORT_TITLE_NAMES])})\\s*$`,
-)
 
 function tidyGaps(text: string): string {
   return text
@@ -112,18 +100,85 @@ function capitaliseFirst(text: string): string {
  * colon, possessive, or campaign verb so "national economy" and "Green spaces"
  * survive.
  */
-export function stripPartyFromTitle(text: string): string {
-  const withoutSuffix = text.replace(TRAILING_PARTY_RE, '')
-  const withoutPrefix = withoutSuffix.replace(LEADING_UNIQUE_RE, '').replace(LEADING_SHORT_RE, '')
+export function stripPartyFromTitle(
+  text: string,
+  names: AnonymiseNames = emptyNames(),
+): string {
+  const unique = names.uniqueTitle
+  const short = names.shortTitle
+  if (unique.length === 0 && short.length === 0) {
+    return text
+  }
+
+  const trailingPartyRe =
+    unique.length + short.length > 0
+      ? new RegExp(
+          `(?:\\s*[|–—-]\\s*|\\s+[Uu]nder\\s+)(?:${namePattern([...unique, ...short])})\\s*$`,
+        )
+      : null
+  const leadingUniqueRe =
+    unique.length > 0
+      ? new RegExp(`^(?:${namePattern(unique)})(?:'s)?(?:\\s*[:—–-]\\s*|\\s+|$)`, 'i')
+      : null
+  const leadingShortRe =
+    short.length > 0
+      ? new RegExp(
+          `^(?:${namePattern(short)})(?:'s\\s+|\\s*[:—–-]\\s+|\\s+(?:${SHORT_TITLE_VERBS})\\s+)`,
+          'i',
+        )
+      : null
+
+  const withoutSuffix = trailingPartyRe ? text.replace(trailingPartyRe, '') : text
+  const withoutPrefix = (leadingUniqueRe
+    ? withoutSuffix.replace(leadingUniqueRe, '')
+    : withoutSuffix
+  ).replace(leadingShortRe ?? /^$/, '')
   return capitaliseFirst(tidyGaps(withoutPrefix))
 }
 
 /** Remove party names from visible text when the party badge is hidden. */
-export function anonymiseText(text: string): string {
-  return tidyGaps(text.replace(CASE_INSENSITIVE_RE, '').replace(CASE_SENSITIVE_RE, ''))
+export function anonymiseText(
+  text: string,
+  names: AnonymiseNames = emptyNames(),
+): string {
+  let next = text
+  if (names.caseInsensitive.length > 0) {
+    next = next.replace(new RegExp(namePattern(names.caseInsensitive), 'gi'), '')
+  }
+  if (names.caseSensitive.length > 0) {
+    next = next.replace(
+      new RegExp(`\\b(?:${namePattern(names.caseSensitive)})\\b`, 'g'),
+      '',
+    )
+  }
+  return tidyGaps(next)
 }
 
-export const PARTY_LABELS: Record<PartyId, string> = {
+export function partyById(
+  parties: PartyMeta[],
+  partyId: PartyId,
+): PartyMeta | undefined {
+  return parties.find((party) => party.id === partyId)
+}
+
+export function partyLabel(parties: PartyMeta[], partyId: PartyId): string {
+  return partyById(parties, partyId)?.label ?? partyId
+}
+
+export function partyColour(parties: PartyMeta[], partyId: PartyId): string {
+  return partyById(parties, partyId)?.colour ?? '#171717'
+}
+
+export function partyLogoUrl(parties: PartyMeta[], partyId: PartyId): string {
+  const logo = partyById(parties, partyId)?.logo
+  if (!logo) {
+    return ''
+  }
+  return `${import.meta.env.BASE_URL}logos/${logo}`
+}
+
+/** NZ labels kept for tests that still look parties up by id. */
+export const PARTY_LABELS: Record<string, string> = {
   act: 'ACT',
   green: 'Green',
   labour: 'Labour',
@@ -133,7 +188,7 @@ export const PARTY_LABELS: Record<PartyId, string> = {
   'te-pati-maori': 'Te Pāti Māori',
 }
 
-export const PARTY_COLOURS: Record<PartyId, string> = {
+export const PARTY_COLOURS: Record<string, string> = {
   act: '#fdb913',
   green: '#098137',
   labour: '#d82c20',

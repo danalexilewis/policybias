@@ -21,9 +21,10 @@ describe('contrastingText', () => {
   })
 
   it('puts ink on Opportunity teal, which fails with white', () => {
-    expect(meetsAaBody(WHITE, PARTY_COLOURS.opportunity)).toBe(false)
-    expect(contrastingText(PARTY_COLOURS.opportunity)).toBe(INK)
-    expect(meetsAaBody(INK, PARTY_COLOURS.opportunity)).toBe(true)
+    const teal = PARTY_COLOURS.opportunity as string
+    expect(meetsAaBody(WHITE, teal)).toBe(false)
+    expect(contrastingText(teal)).toBe(INK)
+    expect(meetsAaBody(INK, teal)).toBe(true)
   })
 
   it('gives every category fill a 4.5:1 text colour', () => {

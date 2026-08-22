@@ -1,6 +1,8 @@
 // @vitest-environment jsdom
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+import { NuqsAdapter } from 'nuqs/adapters/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
+import type { ReactElement } from 'react';
 import type { ClusterMeta, PartyMeta } from '../data/types';
 import { ALL_VISIBLE } from '../card/CardDisplay';
 import { FilterBar } from './FilterBar';
@@ -50,9 +52,13 @@ function makeFilters(
 
 afterEach(cleanup);
 
+function renderBar(ui: ReactElement) {
+	return render(<NuqsAdapter>{ui}</NuqsAdapter>);
+}
+
 describe('FilterBar', () => {
 	it('keeps category chips in a closed Filters window', () => {
-		render(
+		renderBar(
 			<FilterBar
 				clusters={clusters}
 				parties={parties}
@@ -61,17 +67,15 @@ describe('FilterBar', () => {
 			/>
 		);
 
-		expect(
-			screen
-				.getByRole('button', { name: 'Filters' })
-				.getAttribute('aria-expanded')
-		).toBe('false');
+		const toggle = screen.getByRole('button', { name: 'Filters' });
+		expect(toggle.getAttribute('aria-expanded')).toBe('false');
+		expect(toggle.getAttribute('aria-pressed')).toBe('false');
 		expect(screen.queryByText('Health')).toBeNull();
 		expect(screen.queryByText('Named figure')).toBeNull();
 	});
 
-	it('opens the Filters window and shows category checkbox pills', () => {
-		render(
+	it('opens a headerless overlay and keeps Filters pressed', () => {
+		renderBar(
 			<FilterBar
 				clusters={clusters}
 				parties={parties}
@@ -80,20 +84,19 @@ describe('FilterBar', () => {
 			/>
 		);
 
-		fireEvent.click(screen.getByRole('button', { name: 'Filters' }));
+		const toggle = screen.getByRole('button', { name: 'Filters' });
+		fireEvent.click(toggle);
 
-		expect(
-			screen
-				.getByRole('button', { name: 'Filters' })
-				.getAttribute('aria-expanded')
-		).toBe('true');
+		expect(toggle.getAttribute('aria-expanded')).toBe('true');
+		expect(toggle.getAttribute('aria-pressed')).toBe('true');
+		expect(screen.getAllByText('Filters')).toHaveLength(1);
 		expect(screen.getByRole('checkbox', { name: 'Health' })).toBeTruthy();
 		expect(screen.getByRole('checkbox', { name: 'Named figure' })).toBeTruthy();
 		expect(screen.queryByLabelText('Hide filters')).toBeNull();
 	});
 
 	it('paints a category pill with the solid category colour and white text', () => {
-		render(
+		renderBar(
 			<FilterBar
 				clusters={clusters}
 				parties={parties}
@@ -111,7 +114,7 @@ describe('FilterBar', () => {
 	});
 
 	it('fills a selected party pill with the solid party colour', () => {
-		render(
+		renderBar(
 			<FilterBar
 				clusters={clusters}
 				parties={parties}
@@ -133,7 +136,7 @@ describe('FilterBar', () => {
 	});
 
 	it('puts ink text on a selected Opportunity pill', () => {
-		render(
+		renderBar(
 			<FilterBar
 				clusters={clusters}
 				parties={[
@@ -160,7 +163,7 @@ describe('FilterBar', () => {
 	});
 
 	it('shows how many filters are applied on the closed control', () => {
-		render(
+		renderBar(
 			<FilterBar
 				clusters={clusters}
 				parties={parties}
@@ -173,5 +176,14 @@ describe('FilterBar', () => {
 		);
 
 		expect(screen.getByLabelText('2 applied')).toBeTruthy();
+		const count = screen.getByText('0 / 12');
+		const clear = screen.getByRole('button', { name: 'Clear filters' });
+		const filters = screen.getByRole('button', { name: /Filters/ });
+		expect(
+			count.compareDocumentPosition(clear) & Node.DOCUMENT_POSITION_FOLLOWING
+		).toBeTruthy();
+		expect(
+			clear.compareDocumentPosition(filters) & Node.DOCUMENT_POSITION_FOLLOWING
+		).toBeTruthy();
 	});
 });

@@ -8,6 +8,12 @@ export type CardGroup = {
   cards: PolicyCard[]
 }
 
+export type NamedCount = {
+  id: string
+  label: string
+  count: number
+}
+
 function clusterOrder(clusters: ClusterMeta[]): Map<string, number> {
   const order = new Map<string, number>()
   clusters.forEach((cluster, index) => {
@@ -119,6 +125,85 @@ function groupsFromBuckets(
   }
 
   return groups
+}
+
+function countNamed(
+  cards: PolicyCard[],
+  keys: Array<{ id: string; label: string }>,
+  matches: (card: PolicyCard, id: string) => boolean,
+): NamedCount[] {
+  return keys.flatMap((key) => {
+    const count = cards.filter((card) => matches(card, key.id)).length
+    if (count === 0) {
+      return []
+    }
+    return [{ id: key.id, label: key.label, count }]
+  })
+}
+
+/** How many cards sit in each cluster, in cluster list order. Empty clusters are omitted. */
+export function countByCluster(
+  cards: PolicyCard[],
+  clusters: ClusterMeta[],
+): NamedCount[] {
+  return countNamed(cards, clusters, (card, id) => card.clusters.includes(id))
+}
+
+/** How many cards sit with each party, in party list order. Empty parties are omitted. */
+export function countByParty(
+  cards: PolicyCard[],
+  parties: PartyMeta[],
+): NamedCount[] {
+  return countNamed(cards, parties, (card, id) => card.party === id)
+}
+
+/** Parties in this group versus parties in the field. */
+export function partyCoverage(
+  cards: PolicyCard[],
+  parties: PartyMeta[],
+): { have: number; of: number } {
+  return {
+    have: countByParty(cards, parties).length,
+    of: parties.length,
+  }
+}
+
+/** Parties with no cards in this set, in party list order. */
+export function missingParties(
+  cards: PolicyCard[],
+  parties: PartyMeta[],
+): PartyMeta[] {
+  const present = new Set(
+    countByParty(cards, parties).map((entry) => entry.id),
+  )
+  return parties.filter((party) => !present.has(party.id))
+}
+
+/** Party grouping is meaningless when party is hidden — fall back to the ungrouped wall. */
+export function resolveGroupBy(
+  groupBy: GroupBy,
+  partyVisible: boolean,
+): GroupBy {
+  if (!partyVisible && groupBy === 'party') {
+    return 'none'
+  }
+  return groupBy
+}
+
+/** Cards in the order they appear on the wall, including grouping. */
+export function cardsInWallOrder(
+  cards: PolicyCard[],
+  clusters: ClusterMeta[],
+  parties: PartyMeta[],
+  groupBy: GroupBy,
+  partyVisible: boolean,
+): PolicyCard[] {
+  return groupCards(
+    cards,
+    clusters,
+    parties,
+    resolveGroupBy(groupBy, partyVisible),
+  ).flatMap((group) => group.cards)
 }
 
 /** Split cards into labelled groups, omitting empty groups. */

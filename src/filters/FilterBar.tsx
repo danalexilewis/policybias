@@ -5,10 +5,10 @@ import {
 	type CSSProperties,
 	type JSX
 } from 'react';
-import { AppWindow } from '../chrome/AppWindow';
 import type { ClusterMeta, PartyMeta } from '../data/types';
 import type { GroupBy } from '../grid/sortCards';
 import type { UseFiltersResult } from './useFilters';
+import { useLang } from '../i18n/useLang';
 import { clusterColour } from '../theme/clusterColours';
 import { chipText, contrastingText } from '../theme/contrast';
 import styles from './FilterBar.module.css';
@@ -20,10 +20,7 @@ type FilterBarProps = {
 	filters: UseFiltersResult;
 };
 
-const MONEY_OPTIONS = [
-	{ id: 'named-figure' as const, label: 'Named figure' },
-	{ id: 'no-figure' as const, label: 'No figure' }
-];
+const MONEY_OPTION_IDS = ['named-figure', 'no-figure'] as const;
 
 function nextGroupBy(current: GroupBy, clicked: 'cluster' | 'party'): GroupBy {
 	return current === clicked ? 'none' : clicked;
@@ -60,7 +57,7 @@ type FilterPillProps = {
 	invertChecked?: boolean;
 };
 
-/** Pill-shaped checkbox used for every filter in the Filters window. */
+/** Pill-shaped checkbox used for every filter in the docked panel. */
 function FilterPill({
 	label,
 	checked,
@@ -127,6 +124,7 @@ export function FilterBar({
 		clearAppliedFilters
 	} = filters;
 
+	const { t } = useLang();
 	const barRef = useRef<HTMLDivElement>(null);
 	const [menuOpen, setMenuOpen] = useState(false);
 	const applied = appliedFilterCount(filters);
@@ -156,10 +154,7 @@ export function FilterBar({
 
 		window.addEventListener('keydown', onKeyDown);
 		window.addEventListener('pointerdown', onPointerDown, true);
-		const previousOverflow = document.body.style.overflow;
-		document.body.style.overflow = 'hidden';
 		return () => {
-			document.body.style.overflow = previousOverflow;
 			window.removeEventListener('keydown', onKeyDown);
 			window.removeEventListener('pointerdown', onPointerDown, true);
 		};
@@ -170,7 +165,7 @@ export function FilterBar({
 			ref={barRef}
 			className={styles.bar}
 			role='toolbar'
-			aria-label='Policy card filters'
+			aria-label={t('filterAria')}
 		>
 			<div className={styles.row}>
 				<button
@@ -180,7 +175,7 @@ export function FilterBar({
 					aria-checked={anonymise}
 					onClick={() => setAnonymise(!anonymise)}
 				>
-					Anonymise
+					{t('anonymise')}
 					<span
 						className={`${styles.switchTrack} ${anonymise ? styles.switchTrackOn : ''}`}
 						aria-hidden
@@ -192,14 +187,14 @@ export function FilterBar({
 				<div className={styles.divider} aria-hidden />
 
 				<div className={styles.group}>
-					<span className={styles.groupLabel}>Group by</span>
+					<span className={styles.groupLabel}>{t('groupBy')}</span>
 					<button
 						type='button'
 						className={`${styles.chip} ${groupBy === 'cluster' ? styles.chipActive : ''}`}
 						onClick={() => setGroupBy(nextGroupBy(groupBy, 'cluster'))}
 						aria-pressed={groupBy === 'cluster'}
 					>
-						Category
+						{t('category')}
 					</button>
 					{anonymise ? null : (
 						<button
@@ -208,7 +203,7 @@ export function FilterBar({
 							onClick={() => setGroupBy(nextGroupBy(groupBy, 'party'))}
 							aria-pressed={groupBy === 'party'}
 						>
-							Party
+							{t('party')}
 						</button>
 					)}
 				</div>
@@ -217,16 +212,29 @@ export function FilterBar({
 					<span className={styles.count}>
 						{filtered.length} / {totalCount}
 					</span>
+					{applied > 0 ? (
+						<button
+							type='button'
+							className={styles.menuButton}
+							onClick={clearAppliedFilters}
+						>
+							{t('clearFilters')}
+						</button>
+					) : null}
 					<button
 						type='button'
 						className={`${styles.menuButton} ${menuOpen ? styles.menuButtonOpen : ''}`}
 						aria-expanded={menuOpen}
+						aria-pressed={menuOpen}
 						aria-controls='filter-menu'
 						onClick={() => setMenuOpen(!menuOpen)}
 					>
-						Filters
+						{t('filters')}
 						{applied > 0 ? (
-							<span className={styles.badge} aria-label={`${applied} applied`}>
+							<span
+								className={styles.badge}
+								aria-label={`${applied} ${t('applied')}`}
+							>
 								{applied}
 							</span>
 						) : null}
@@ -236,111 +244,92 @@ export function FilterBar({
 
 			{menuOpen ? (
 				<div className={styles.menu} id='filter-menu'>
-					<AppWindow
-						title='Filters'
-						fill
-						className={styles.menuWindow}
-						trailing={
-							applied > 0 ? (
-								<button
-									type='button'
-									className={styles.clear}
-									onClick={clearAppliedFilters}
-								>
-									Clear filters
-								</button>
-							) : null
-						}
-					>
-						<div className={styles.menuBody}>
+					<div className={styles.menuBody}>
+						<div className={styles.group}>
+							<span className={styles.groupLabel}>{t('category')}</span>
+							{clusters.map((cluster) => {
+								const colour = clusterColour(cluster.id);
+								return (
+									<FilterPill
+										key={cluster.id}
+										label={cluster.label}
+										checked={selectedClusters.has(cluster.id)}
+										onChange={() => toggleCluster(cluster.id)}
+										className={styles.pillCategory}
+										invertChecked={false}
+										style={{
+											backgroundColor: colour,
+											color: chipText(colour)
+										}}
+									/>
+								);
+							})}
+						</div>
+
+						{anonymise ? null : (
 							<div className={styles.group}>
-								<span className={styles.groupLabel}>Category</span>
-								{clusters.map((cluster) => {
-									const colour = clusterColour(cluster.id);
+								<span className={styles.groupLabel}>{t('party')}</span>
+								{parties.map((party) => {
+									const active = selectedParties.has(party.id);
 									return (
 										<FilterPill
-											key={cluster.id}
-											label={cluster.label}
-											checked={selectedClusters.has(cluster.id)}
-											onChange={() => toggleCluster(cluster.id)}
-											className={styles.pillCategory}
+											key={party.id}
+											label={party.label}
+											checked={active}
+											onChange={() => toggleParty(party.id)}
+											className={active ? undefined : styles.partyChipInactive}
 											invertChecked={false}
-											style={{
-												backgroundColor: colour,
-												color: chipText(colour)
-											}}
+											style={partyChipStyle(party.colour, active)}
 										/>
 									);
 								})}
 							</div>
+						)}
 
-							{anonymise ? null : (
-								<div className={styles.group}>
-									<span className={styles.groupLabel}>Party</span>
-									{parties.map((party) => {
-										const active = selectedParties.has(party.id);
-										return (
-											<FilterPill
-												key={party.id}
-												label={party.label}
-												checked={active}
-												onChange={() => toggleParty(party.id)}
-												className={
-													active ? undefined : styles.partyChipInactive
-												}
-												invertChecked={false}
-												style={partyChipStyle(party.colour, active)}
-											/>
-										);
-									})}
-								</div>
-							)}
-
-							<div className={styles.group}>
-								<span className={styles.groupLabel}>Money</span>
-								{MONEY_OPTIONS.map((option) => (
-									<FilterPill
-										key={option.id}
-										label={option.label}
-										checked={selectedMoney.has(option.id)}
-										onChange={() => toggleMoney(option.id)}
-									/>
-								))}
-							</div>
-
-							<div className={styles.group}>
-								<span className={styles.groupLabel}>Shape</span>
+						<div className={styles.group}>
+							<span className={styles.groupLabel}>{t('money')}</span>
+							{MONEY_OPTION_IDS.map((id) => (
 								<FilterPill
-									label='Has output'
-									checked={hasOutput === true}
-									onChange={() =>
-										setHasOutput(hasOutput === true ? null : true)
+									key={id}
+									label={
+										id === 'named-figure' ? t('namedFigure') : t('noFigure')
 									}
+									checked={selectedMoney.has(id)}
+									onChange={() => toggleMoney(id)}
 								/>
-								<FilterPill
-									label='No output'
-									checked={hasOutput === false}
-									onChange={() =>
-										setHasOutput(hasOutput === false ? null : false)
-									}
-								/>
-								<FilterPill
-									label='Has understanding'
-									checked={hasDerived === true}
-									onChange={() =>
-										setHasDerived(hasDerived === true ? null : true)
-									}
-								/>
-								<FilterPill
-									label='Stated only'
-									checked={hasDerived === false}
-									onChange={() =>
-										setHasDerived(hasDerived === false ? null : false)
-									}
-								/>
-							</div>
+							))}
 						</div>
-					</AppWindow>
+
+						<div className={styles.group}>
+							<span className={styles.groupLabel}>{t('shape')}</span>
+							<FilterPill
+								label={t('hasOutput')}
+								checked={hasOutput === true}
+								onChange={() => setHasOutput(hasOutput === true ? null : true)}
+							/>
+							<FilterPill
+								label={t('noOutput')}
+								checked={hasOutput === false}
+								onChange={() =>
+									setHasOutput(hasOutput === false ? null : false)
+								}
+							/>
+							<FilterPill
+								label={t('hasUnderstanding')}
+								checked={hasDerived === true}
+								onChange={() =>
+									setHasDerived(hasDerived === true ? null : true)
+								}
+							/>
+							<FilterPill
+								label={t('statedOnly')}
+								checked={hasDerived === false}
+								onChange={() =>
+									setHasDerived(hasDerived === false ? null : false)
+								}
+							/>
+						</div>
+					</div>
 				</div>
 			) : null}
 		</div>

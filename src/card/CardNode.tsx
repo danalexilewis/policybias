@@ -4,12 +4,15 @@ import type {
 	CardScenario,
 	CardStep,
 	PartyId,
+	PartyMeta,
 	PolicyCard,
 	ReportItem
 } from '../data/types';
 import type { CardDisplay } from './CardDisplay';
 import { anonymiseText, PARTY_LABELS, stripPartyFromTitle } from './anonymise';
-import { PARTY_LOGOS } from './partyLogos';
+import { PARTY_LOGOS, partyLogoSrc } from './partyLogos';
+import type { UiKey } from '../i18n/messages';
+import { useLang } from '../i18n/useLang';
 import { clusterColour } from '../theme/clusterColours';
 import { chipText } from '../theme/contrast';
 import styles from './CardNode.module.css';
@@ -26,18 +29,21 @@ type GurkiCardProps = {
 	/** Render as a div inside a game button. */
 	as?: 'article' | 'div';
 	clusterLabels?: Record<string, string>;
+	parties?: PartyMeta[];
 };
 
 /** Fixed-size mark so revealing the party does not change the card header. */
-function PartyMark(props: { party: PartyId; visible: boolean }): JSX.Element {
+function PartyMark(props: {
+	party: PartyId;
+	visible: boolean;
+	parties: PartyMeta[];
+}): JSX.Element {
+	const src = partyLogoSrc(props.parties, props.party) || PARTY_LOGOS[props.party];
+	const alt = PARTY_LABELS[props.party] ?? props.party;
 	return (
 		<div className={styles.logoSlot}>
-			{props.visible ? (
-				<img
-					className={styles.partyLogo}
-					src={PARTY_LOGOS[props.party]}
-					alt={PARTY_LABELS[props.party]}
-				/>
+			{props.visible && src ? (
+				<img className={styles.partyLogo} src={src} alt={alt} />
 			) : (
 				<span className={styles.logoPlaceholder} aria-hidden='true' />
 			)}
@@ -199,13 +205,15 @@ function FaceBody({
 	card,
 	display,
 	hideParty,
-	size
+	size,
+	t
 }: {
 	face: CardFace;
 	card: PolicyCard;
 	display: CardDisplay;
 	hideParty: boolean;
 	size: CardSize;
+	t: (key: UiKey) => string;
 }): JSX.Element {
 	const note = face.note ? maybeAnonymise(face.note, hideParty) : undefined;
 	const outputCount = face.counts.outputs;
@@ -216,8 +224,8 @@ function FaceBody({
 				{note ? <p className={styles.note}>{note}</p> : null}
 				<p className={styles.metaLine}>
 					{outputCount > 0
-						? `${outputCount} output${outputCount === 1 ? '' : 's'}`
-						: 'Stated only'}
+						? `${outputCount} ${t('outputsCount')}`
+						: t('statedOnlyMeta')}
 				</p>
 			</div>
 		);
@@ -240,17 +248,21 @@ function FaceBody({
 			))}
 
 			<ReportBlock
-				heading='System outputs'
+				heading={t('systemOutputs')}
 				items={face.report.outputs}
 				displayFlag={display.output}
 				hideParty={hideParty}
 			/>
 			<ReportBlock
-				heading='System outcomes'
+				heading={t('systemOutcomes')}
 				items={face.report.outcomes}
 				displayFlag={display.outcome}
 				hideParty={hideParty}
 			/>
+
+			{card.translated && size !== 'game' ? (
+				<p className={styles.translated}>{t('translatedBadge')}</p>
+			) : null}
 
 			{display.source && size !== 'game' ? (
 				<footer className={styles.source}>
@@ -260,7 +272,7 @@ function FaceBody({
 						rel='noopener noreferrer'
 						onClick={(event) => event.stopPropagation()}
 					>
-						{headingText(card.source.title, hideParty) || 'Source'}
+						{headingText(card.source.title, hideParty) || t('source')}
 					</a>
 				</footer>
 			) : null}
@@ -278,11 +290,6 @@ type ListCardProps = {
 	onInspect?: () => void;
 };
 
-const LIST_CARD_TITLE: Record<ListCardKind, string> = {
-	gaps: 'Gaps',
-	assumptions: 'Assumptions'
-};
-
 /**
  * Companion card for gaps (under stated) or assumptions (under our reading).
  * Renders nothing when the list is empty.
@@ -294,11 +301,12 @@ export function ListCard({
 	size = 'grid',
 	onInspect
 }: ListCardProps): JSX.Element | null {
+	const { t } = useLang();
 	if (items.length === 0) {
 		return null;
 	}
 
-	const title = LIST_CARD_TITLE[kind];
+	const title = kind === 'gaps' ? t('gaps') : t('assumptions');
 	const kindClass =
 		kind === 'gaps' ? styles.listCardGaps : styles.listCardAssumptions;
 	const cardClassName = [
@@ -328,7 +336,7 @@ export function ListCard({
 			onKeyDown={onCardKeyDown}
 			role={onInspect ? 'button' : undefined}
 			tabIndex={onInspect ? 0 : undefined}
-			aria-label={onInspect ? `Inspect ${title}` : undefined}
+			aria-label={onInspect ? `${t('inspect')} ${title}` : undefined}
 		>
 			<h3 className={styles.listCardTitle}>{title}</h3>
 			<ul className={styles.listCardItems}>
@@ -348,8 +356,10 @@ export function GurkiCard({
 	size = 'grid',
 	onInspect,
 	as = 'article',
-	clusterLabels
+	clusterLabels,
+	parties = []
 }: GurkiCardProps): JSX.Element {
+	const { t } = useLang();
 	const faceKey = faceProp ?? 'stated';
 	const activeFace =
 		faceKey === 'derived' && card.derived ? card.derived : card.stated;
@@ -383,12 +393,12 @@ export function GurkiCard({
 			onKeyDown={onCardKeyDown}
 			role={onInspect ? 'button' : undefined}
 			tabIndex={onInspect ? 0 : undefined}
-			aria-label={onInspect && title ? `Inspect ${title}` : undefined}
+			aria-label={onInspect && title ? `${t('inspect')} ${title}` : undefined}
 		>
 			<header className={styles.header}>
 				<div className={styles.meta}>
 					{display.party || size === 'game' ? (
-						<PartyMark party={card.party} visible={display.party} />
+						<PartyMark party={card.party} visible={display.party} parties={parties} />
 					) : null}
 					<div className={styles.clusters}>
 						{card.clusters.map((clusterId) => {
@@ -418,6 +428,7 @@ export function GurkiCard({
 				display={display}
 				hideParty={hideParty}
 				size={size}
+				t={t}
 			/>
 		</Tag>
 	);

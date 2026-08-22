@@ -288,6 +288,15 @@
 	padding: 8px 0;
 }
 
+.translated {
+	margin-top: 10px;
+	font-family: var(--font-mono);
+	font-size: 11px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: var(--accent);
+}
+
 .source {
 	margin-top: 12px;
 	padding-top: 10px;

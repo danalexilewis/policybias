@@ -54,7 +54,10 @@ function makeCard(id: string, party: PartyId, clusters: string[]): PolicyCard {
 }
 
 const dataset: CardsDataset = {
-	schemaVersion: '2',
+	schemaVersion: '3',
+	eventId: 'nz-election-2026',
+	lang: 'en',
+	langs: ['en'],
 	generatedAt: '2026-01-01T00:00:00Z',
 	clusters: [{ id: 'tax-fiscal', label: 'Tax', description: '' }],
 	parties: [
@@ -63,11 +66,19 @@ const dataset: CardsDataset = {
 			label: 'Labour',
 			name: 'Labour',
 			colour: '#d82c20',
-			cardCount: 1
+			logo: 'labour.svg',
+			cardCount: 1,
+			anonymise: {
+				caseInsensitive: ['Labour Party'],
+				caseSensitive: ['Labour'],
+				uniqueTitle: ['Labour Party'],
+				shortTitle: ['Labour']
+			}
 		}
 	],
 	coverage: [{ cluster: 'tax-fiscal', party: 'labour', cards: 1 }],
-	cards: [makeCard('labour-0', 'labour', ['tax-fiscal'])]
+	cards: [makeCard('labour-0', 'labour', ['tax-fiscal'])],
+	trivia: []
 };
 
 afterEach(() => {
@@ -88,6 +99,27 @@ describe('App board', () => {
 		expect(link.getAttribute('href')).toBe(eventLlmsPath(CURRENT_EVENT_ID));
 		expect(link.closest('footer')).not.toBeNull();
 		expect(screen.queryByRole('columnheader', { name: 'llms.txt' })).toBeNull();
+	});
+
+	it('links the title back to the home page', async () => {
+		const { default: App } = await import('./App');
+		render(<App />);
+
+		const home = screen.getByRole('link', { name: 'Policy Bias NZ 2026' });
+		expect(home.getAttribute('href')).toBe('/');
+		expect(home.closest('header')).not.toBeNull();
+	});
+
+	it('puts terms and privacy next to Gurki in the footer', async () => {
+		const { default: App } = await import('./App');
+		render(<App />);
+
+		const terms = screen.getByRole('link', { name: 'Terms' });
+		const privacy = screen.getByRole('link', { name: 'Privacy' });
+		expect(terms.getAttribute('href')).toBe('/terms/');
+		expect(privacy.getAttribute('href')).toBe('/privacy/');
+		expect(terms.closest('footer')).not.toBeNull();
+		expect(privacy.closest('footer')).not.toBeNull();
 	});
 });
 

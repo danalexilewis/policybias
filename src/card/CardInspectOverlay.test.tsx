@@ -1,9 +1,10 @@
 // @vitest-environment jsdom
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+import { NuqsAdapter } from 'nuqs/adapters/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import type { CardFace, PolicyCard } from '../data/types';
 import { ALL_VISIBLE, type CardDisplay } from './CardDisplay';
-import { CardInspectOverlay } from './CardInspectOverlay';
+import { CardInspectOverlay, neighbourCard } from './CardInspectOverlay';
 
 function makeFace(kind: 'stated' | 'derived', title: string): CardFace {
 	return {
@@ -23,11 +24,19 @@ function makeFace(kind: 'stated' | 'derived', title: string): CardFace {
 	};
 }
 
-function makeCard(withReading: boolean, gaps: string[] = []): PolicyCard {
+function makeCard(
+	withReading: boolean,
+	gaps: string[] = [],
+	id = 'labour-medicard'
+): PolicyCard {
+	const title =
+		id === 'labour-medicard'
+			? 'Medicard three free doctor visits'
+			: id;
 	return {
-		id: 'labour-medicard',
+		id,
 		party: 'labour',
-		title: 'Medicard three free doctor visits',
+		title,
 		clusters: ['health-access'],
 		tags: [],
 		money: 'named-figure',
@@ -40,7 +49,7 @@ function makeCard(withReading: boolean, gaps: string[] = []): PolicyCard {
 		assumptions: withReading
 			? ['a standing entitlement still needs a year of GP capacity']
 			: [],
-		stated: makeFace('stated', 'Medicard three free doctor visits'),
+		stated: makeFace('stated', title),
 		derived: withReading
 			? makeFace('derived', 'Medicard read as a standing entitlement')
 			: undefined,
@@ -57,16 +66,20 @@ type OverlayRenderExtra = {
 	display?: CardDisplay;
 	onClose?: () => void;
 	onToggleParty?: () => void;
+	cards?: PolicyCard[];
 };
 
 function renderOverlay(card: PolicyCard, extra: OverlayRenderExtra = {}) {
 	return render(
-		<CardInspectOverlay
-			card={card}
-			display={extra.display ?? ALL_VISIBLE}
-			onClose={extra.onClose ?? vi.fn()}
-			onToggleParty={extra.onToggleParty ?? vi.fn()}
-		/>
+		<NuqsAdapter>
+			<CardInspectOverlay
+				card={card}
+				cards={extra.cards}
+				display={extra.display ?? ALL_VISIBLE}
+				onClose={extra.onClose ?? vi.fn()}
+				onToggleParty={extra.onToggleParty ?? vi.fn()}
+			/>
+		</NuqsAdapter>
 	);
 }
 
@@ -145,6 +158,55 @@ describe('CardInspectOverlay', () => {
 		expect(onClose).toHaveBeenCalledTimes(2);
 	});
 
+	it('hides cycle controls when there is only one policy', () => {
+		renderOverlay(makeCard(true), {
+			cards: [makeCard(true)]
+		});
+
+		expect(
+			screen.queryByRole('button', { name: 'Previous policy' })
+		).toBeNull();
+		expect(screen.queryByRole('button', { name: 'Next policy' })).toBeNull();
+	});
+
+	it('cycles with the arrows and the left and right keys', () => {
+		const first = makeCard(true, [], 'first');
+		const second = makeCard(true, [], 'second');
+		const third = makeCard(true, [], 'third');
+		const onClose = vi.fn();
+		renderOverlay(second, {
+			cards: [first, second, third],
+			onClose
+		});
+
+		fireEvent.click(screen.getByRole('button', { name: 'Next policy' }));
+		expect(screen.getByRole('dialog', { name: 'third' })).toBeTruthy();
+
+		fireEvent.click(screen.getByRole('button', { name: 'Previous policy' }));
+		expect(screen.getByRole('dialog', { name: 'second' })).toBeTruthy();
+
+		fireEvent.keyDown(window, { key: 'ArrowRight' });
+		expect(screen.getByRole('dialog', { name: 'third' })).toBeTruthy();
+
+		fireEvent.keyDown(window, { key: 'ArrowLeft' });
+		expect(screen.getByRole('dialog', { name: 'second' })).toBeTruthy();
+		expect(onClose).not.toHaveBeenCalled();
+	});
+
+	it('wraps from the last policy to the first', () => {
+		const first = makeCard(true, [], 'first');
+		const last = makeCard(true, [], 'last');
+		renderOverlay(last, {
+			cards: [first, last]
+		});
+
+		fireEvent.keyDown(window, { key: 'ArrowRight' });
+		expect(screen.getByRole('dialog', { name: 'first' })).toBeTruthy();
+
+		fireEvent.keyDown(window, { key: 'ArrowLeft' });
+		expect(screen.getByRole('dialog', { name: 'last' })).toBeTruthy();
+	});
+
 	it('toggles party from the top-left switch without closing', () => {
 		const onClose = vi.fn();
 		const onToggleParty = vi.fn();
@@ -163,17 +225,38 @@ describe('CardInspectOverlay', () => {
 		expect(onClose).not.toHaveBeenCalled();
 
 		rerender(
-			<CardInspectOverlay
-				card={makeCard(true)}
-				display={ALL_VISIBLE}
-				onClose={onClose}
-				onToggleParty={onToggleParty}
-			/>
+			<NuqsAdapter>
+				<CardInspectOverlay
+					card={makeCard(true)}
+					display={ALL_VISIBLE}
+					onClose={onClose}
+					onToggleParty={onToggleParty}
+				/>
+			</NuqsAdapter>
 		);
 
 		expect(
 			screen.getByRole('switch', { name: 'Party' }).getAttribute('aria-checked')
 		).toBe('true');
 		expect(screen.getAllByAltText('Labour').length).toBeGreaterThan(0);
+	});
+});
+
+describe('neighbourCard', () => {
+	const cards = ['a', 'b', 'c'].map((id) => makeCard(false, [], id));
+
+	it('steps forward and wraps', () => {
+		expect(neighbourCard(cards, 'a', 1)?.id).toBe('b');
+		expect(neighbourCard(cards, 'c', 1)?.id).toBe('a');
+	});
+
+	it('steps backward and wraps', () => {
+		expect(neighbourCard(cards, 'b', -1)?.id).toBe('a');
+		expect(neighbourCard(cards, 'a', -1)?.id).toBe('c');
+	});
+
+	it('jumps from a missing card to the start or end', () => {
+		expect(neighbourCard(cards, 'gone', 1)?.id).toBe('a');
+		expect(neighbourCard(cards, 'gone', -1)?.id).toBe('c');
 	});
 });

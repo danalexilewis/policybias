@@ -1,6 +1,8 @@
 // @vitest-environment jsdom
 import { cleanup, render, screen } from '@testing-library/react';
+import { NuqsAdapter } from 'nuqs/adapters/react';
 import { afterEach, describe, expect, it } from 'vitest';
+import type { ReactElement } from 'react';
 import type { CardFace, PolicyCard } from '../data/types';
 import { ALL_VISIBLE } from './CardDisplay';
 import { GurkiCard } from './CardNode';
@@ -21,6 +23,10 @@ function makeFace(title: string): CardFace {
 			extrapolated: 0
 		}
 	};
+}
+
+function renderCard(ui: ReactElement) {
+	return render(<NuqsAdapter>{ui}</NuqsAdapter>);
 }
 
 function makeCard(): PolicyCard {
@@ -47,7 +53,7 @@ afterEach(cleanup);
 
 describe('GurkiCard', () => {
 	it('paints the category as a solid chip, not a coloured border', () => {
-		render(
+		renderCard(
 			<GurkiCard
 				card={makeCard()}
 				display={ALL_VISIBLE}
@@ -67,7 +73,7 @@ describe('GurkiCard', () => {
 	});
 
 	it('does not reserve the party mark on index cards when the party is hidden', () => {
-		render(
+		renderCard(
 			<GurkiCard
 				card={makeCard()}
 				display={{ ...ALL_VISIBLE, party: false }}
@@ -85,7 +91,7 @@ describe('GurkiCard', () => {
 	});
 
 	it('keeps the party mark slot on game cards so a reveal does not shift the header', () => {
-		const { container } = render(
+		const { container } = renderCard(
 			<GurkiCard
 				card={makeCard()}
 				display={{ ...ALL_VISIBLE, party: false }}
@@ -99,7 +105,7 @@ describe('GurkiCard', () => {
 	});
 
 	it('game-sized cards stretch to fill their frame', () => {
-		const { container } = render(
+		const { container } = renderCard(
 			<GurkiCard
 				card={makeCard()}
 				display={ALL_VISIBLE}

@@ -23,7 +23,13 @@
 	-webkit-backdrop-filter: blur(2px);
 }
 
-.close {
+.nav {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.iconButton {
 	display: grid;
 	place-items: center;
 	width: 48px;
@@ -36,12 +42,12 @@
 	box-shadow: var(--shadow);
 }
 
-.close svg {
+.iconButton svg {
 	width: 1.15rem;
 	height: 1.15rem;
 }
 
-.close:active {
+.iconButton:active {
 	transform: translate(2px, 2px);
 	box-shadow: var(--shadow-pressed);
 }

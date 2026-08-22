@@ -1,6 +1,15 @@
 import { describe, expect, it } from 'vitest'
 import type { ClusterMeta, PartyMeta, PolicyCard } from '../data/types'
-import { groupCards, shuffleCards, sortCards } from './sortCards'
+import {
+  cardsInWallOrder,
+  countByCluster,
+  countByParty,
+  groupCards,
+  missingParties,
+  partyCoverage,
+  shuffleCards,
+  sortCards,
+} from './sortCards'
 
 const clusters: ClusterMeta[] = [
   { id: 'tax-fiscal', label: 'Tax', description: '' },
@@ -142,5 +151,94 @@ describe('groupCards', () => {
       'labour-a',
       'labour-b',
     ])
+  })
+})
+
+describe('cardsInWallOrder', () => {
+  const cards = [
+    makeCard('labour-b', 'labour', 'tax-fiscal'),
+    makeCard('act-health', 'act', 'health-access'),
+    makeCard('labour-a', 'labour', 'tax-fiscal'),
+    makeCard('act-tax', 'act', 'tax-fiscal'),
+  ]
+
+  it('flattens grouped party order', () => {
+    expect(
+      cardsInWallOrder(cards, clusters, parties, 'party', true).map(
+        (card) => card.id,
+      ),
+    ).toEqual(['act-tax', 'act-health', 'labour-a', 'labour-b'])
+  })
+
+  it('keeps incoming order when party grouping is hidden', () => {
+    expect(
+      cardsInWallOrder(cards, clusters, parties, 'party', false).map(
+        (card) => card.id,
+      ),
+    ).toEqual(['labour-b', 'act-health', 'labour-a', 'act-tax'])
+  })
+})
+
+describe('countByCluster', () => {
+  it('counts cards per cluster in cluster list order, omitting empty ones', () => {
+    const cards = [
+      makeCard('labour-b', 'labour', 'tax-fiscal'),
+      makeCard('act-health', 'act', 'health-access'),
+      makeCard('labour-a', 'labour', 'tax-fiscal'),
+    ]
+    expect(countByCluster(cards, clusters)).toEqual([
+      { id: 'tax-fiscal', label: 'Tax', count: 2 },
+      { id: 'health-access', label: 'Health', count: 1 },
+    ])
+  })
+
+  it('counts a card once per cluster it belongs to', () => {
+    const card = makeCard('act-both', 'act', 'tax-fiscal')
+    card.clusters = ['tax-fiscal', 'health-access']
+    expect(countByCluster([card], clusters)).toEqual([
+      { id: 'tax-fiscal', label: 'Tax', count: 1 },
+      { id: 'health-access', label: 'Health', count: 1 },
+    ])
+  })
+})
+
+describe('countByParty', () => {
+  it('counts cards per party in party list order, omitting empty ones', () => {
+    const cards = [
+      makeCard('labour-b', 'labour', 'tax-fiscal'),
+      makeCard('act-health', 'act', 'health-access'),
+      makeCard('labour-a', 'labour', 'tax-fiscal'),
+    ]
+    expect(countByParty(cards, parties)).toEqual([
+      { id: 'act', label: 'ACT', count: 1 },
+      { id: 'labour', label: 'Labour', count: 2 },
+    ])
+  })
+})
+
+describe('partyCoverage', () => {
+  it('counts how many parties have cards against the party list', () => {
+    const cards = [
+      makeCard('labour-a', 'labour', 'tax-fiscal'),
+      makeCard('labour-b', 'labour', 'tax-fiscal'),
+    ]
+    expect(partyCoverage(cards, parties)).toEqual({ have: 1, of: 2 })
+  })
+})
+
+describe('missingParties', () => {
+  it('returns parties with no cards, in party list order', () => {
+    const cards = [makeCard('labour-a', 'labour', 'tax-fiscal')]
+    expect(missingParties(cards, parties).map((party) => party.id)).toEqual([
+      'act',
+    ])
+  })
+
+  it('returns an empty list when every party has a card', () => {
+    const cards = [
+      makeCard('labour-a', 'labour', 'tax-fiscal'),
+      makeCard('act-tax', 'act', 'tax-fiscal'),
+    ]
+    expect(missingParties(cards, parties)).toEqual([])
   })
 })

@@ -178,6 +178,11 @@
 	background: color-mix(in srgb, var(--ink) 8%, var(--paper));
 }
 
+.menuButton:active {
+	transform: translate(2px, 2px);
+	box-shadow: var(--shadow-pressed);
+}
+
 .badge {
 	display: grid;
 	place-items: center;
@@ -194,36 +199,22 @@
 
 .menu {
 	position: absolute;
-	left: 16px;
-	right: 16px;
+	left: 0;
+	right: 0;
 	top: 100%;
-	z-index: 21;
-	padding: 8px 0 0;
+	z-index: 1;
+	margin: 0;
+	padding: 12px 16px 16px;
+	background: var(--paper);
+	border: 2px solid var(--ink);
 }
 
 .menuBody {
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
-	padding: 16px;
 	overflow: auto;
 	max-height: min(28rem, 60vh);
-}
-
-.clear {
-	min-height: 48px;
-	padding: 0 8px;
-	border: none;
-	background: none;
-	font-family: var(--font-mono);
-	font-size: 12px;
-	color: var(--accent);
-	text-decoration: underline;
-	text-underline-offset: 3px;
-}
-
-.menuWindow {
-	min-width: 0;
 }
 
 @media (max-width: 52rem) {
@@ -236,7 +227,7 @@
 		gap: 8px;
 	}
 
-	.groupLabel,
+	.row .groupLabel,
 	.divider {
 		display: none;
 	}
@@ -264,6 +255,11 @@
 		padding: 0 14px;
 	}
 
+	.menuButtonOpen,
+	.menuButton:active {
+		box-shadow: var(--shadow-pressed);
+	}
+
 	.count {
 		display: none;
 	}
@@ -275,26 +271,7 @@
 	}
 
 	.menu {
-		position: fixed;
-		inset: 0;
-		z-index: 50;
-		padding: env(safe-area-inset-top) 0 0;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.menuWindow {
-		flex: 1 1 auto;
-		min-height: 0;
-		height: auto;
-		border-radius: 0;
-		box-shadow: none;
-		border: none;
-	}
-
-	.menuBody {
-		max-height: none;
-		padding: 20px 16px max(20px, env(safe-area-inset-bottom));
+		padding: 12px 16px 16px;
 	}
 }
 
@@ -307,7 +284,7 @@
 		background: color-mix(in srgb, var(--ink) 6%, var(--paper));
 	}
 
-	.menuButton:hover {
+	.menuButton:hover:not(.menuButtonOpen) {
 		transform: translate(1px, 1px);
 		box-shadow: var(--shadow-pressed);
 	}

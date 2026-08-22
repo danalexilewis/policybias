@@ -42,6 +42,14 @@
 
 .app-header__brand {
 	justify-self: start;
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+
+a.app-header__brand:link,
+a.app-header__brand:visited {
+	color: inherit;
 }
 
 .app-header__product {

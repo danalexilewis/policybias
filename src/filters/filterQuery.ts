@@ -4,18 +4,8 @@ import {
   parseAsString,
   parseAsStringLiteral,
 } from 'nuqs'
-import type { MoneyClass, PartyId } from '../data/types'
+import type { MoneyClass } from '../data/types'
 import type { GroupBy } from '../grid/sortCards'
-
-const PARTY_IDS = [
-  'act',
-  'green',
-  'labour',
-  'national',
-  'nz-first',
-  'opportunity',
-  'te-pati-maori',
-] as const satisfies readonly PartyId[]
 
 const MONEY_IDS = ['named-figure', 'no-figure'] as const satisfies readonly MoneyClass[]
 
@@ -26,7 +16,7 @@ export const filterSearchParams = {
   anonymise: parseAsBoolean.withDefault(true),
   group: parseAsStringLiteral(GROUP_BY).withDefault('none'),
   clusters: parseAsArrayOf(parseAsString).withDefault([]),
-  parties: parseAsArrayOf(parseAsStringLiteral(PARTY_IDS)).withDefault([]),
+  parties: parseAsArrayOf(parseAsString).withDefault([]),
   money: parseAsArrayOf(parseAsStringLiteral(MONEY_IDS)).withDefault([]),
   output: parseAsBoolean,
   derived: parseAsBoolean,

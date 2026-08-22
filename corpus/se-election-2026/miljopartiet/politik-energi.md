@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-34ead1739c3c66ca
+contentLength: 3945
 ---
 
 Miljöpartiet vill bygga ett helt förnybart energisystem som ger fossilfri energi, stabil elförsörjning och låga elkostnader för hushåll och företag.

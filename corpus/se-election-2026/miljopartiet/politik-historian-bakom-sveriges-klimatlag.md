@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-dd7ab446a02a8f3b
+contentLength: 2280
 ---
 
 Miljöpartiet har länge drivit frågan om en klimatlag. År 2012 presenterade Åsa Romson idén och sommaren 2017 klubbas lagen i Sveriges riksdag.

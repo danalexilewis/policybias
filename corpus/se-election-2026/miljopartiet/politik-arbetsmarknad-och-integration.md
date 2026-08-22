@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-dda5c0eeb904c48f
+contentLength: 4705
 ---
 
 Miljöpartiet vill skapa fler och bättre jobb, stärka tryggheten vid arbetslöshet och ge människor mer makt över sin tid.

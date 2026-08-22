@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-f426151434a79def
+contentLength: 6376
 ---
 
 Miljöpartiet vill skydda naturen och ekosystemen, säkra rent vatten och mat för människor och djur, och se till att människor och andra arter kan leva tillsammans på jorden under lång tid framöver. 

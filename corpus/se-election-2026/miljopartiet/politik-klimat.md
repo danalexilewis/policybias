@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: named-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-7867b925a62a33b9
+contentLength: 5605
 ---
 
 Miljöpartiet vill minska utsläppen snabbt och rättvist, klimatanpassa Sverige och skapa jämlika möjligheter till hållbara val i vardagen. 

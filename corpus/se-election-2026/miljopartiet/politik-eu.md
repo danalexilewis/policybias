@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-465bfc54232df3a3
+contentLength: 5163
 ---
 
 Miljöpartiet arbetar för att EU ska vara en ledande kraft i klimatomställningen och för en demokratisk och rättvis värld. 

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-95c4a5f782ba1e3f
+contentLength: 3918
 ---
 
 Miljöpartiet vill påskynda industrins klimatomställning, stärka Sveriges konkurrenskraft och säkerställa att industriinvesteringar bidrar till hållbar utveckling i hela landet och resten av världen.

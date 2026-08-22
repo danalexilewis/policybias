@@ -1,8 +1,7 @@
 ---
 type: crawled-page
 party: miljopartiet
-title: Miljöpartiet vill öka jämlikheten så att alla människor ska ha samma möjlighet
-  till trygghet och ett gott liv.
+title: Miljöpartiet vill öka jämlikheten så att alla människor ska ha samma möjlighet till trygghet och ett gott liv.
 sourceUrl: https://www.mp.se/politik/jamlikhet
 canonicalUrl: https://www.mp.se/politik/jamlikhet
 fetchedAt: 2026-08-22T13:40:25.500Z
@@ -15,6 +14,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-a02c5479aae84e39
+contentLength: 6239
 ---
 
 Miljöpartiet vill öka jämlikheten så att alla människor ska ha samma möjlighet till trygghet och ett gott liv.

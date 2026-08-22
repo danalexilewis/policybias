@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ad8903f0b01bdf25
+contentLength: 16728
 ---
 
 # havvattenprogram_a4_003-7d356863.pdf

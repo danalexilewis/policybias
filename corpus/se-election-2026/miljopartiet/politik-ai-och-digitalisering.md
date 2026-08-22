@@ -13,6 +13,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-08af5b14c87fd1d4
+contentLength: 5120
 ---
 
 Miljöpartiet vill att den tekniska utvecklingen ska komma alla människor till del. AI och digitalisering ska stärka demokratin, välfärden och klimatomställningen i hela landet.

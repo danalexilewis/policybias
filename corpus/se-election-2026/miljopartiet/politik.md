@@ -9,9 +9,11 @@ contentType: html
 via: party-site
 tags:
   - other
-stance: intervention
+stance: not-policy
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-2fa3cfa69fe12044
+contentLength: 3665
 ---
 
 ## Sverige vinner   

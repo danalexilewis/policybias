@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9b3c433464af44e5
+contentLength: 4177
 ---
 
 Miljöpartiet vill stärka Sveriges globala arbete för fred, demokrati, mänskliga rättigheter och klimaträttvisa.

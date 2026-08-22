@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4d6bb96bbac8a56c
+contentLength: 4495
 ---
 
 Miljöpartiet vill fasa ut fossila bränslen och göra elbilar tillgängliga för alla.

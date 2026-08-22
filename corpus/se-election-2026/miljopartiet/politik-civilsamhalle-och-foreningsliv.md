@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-32bae2f69afa1b2f
+contentLength: 4084
 ---
 
 Miljöpartiet vill stärka civilsamhället, den ideella kulturen och folkbildningen så att fler kan delta, mötas och bidra i hela landet.

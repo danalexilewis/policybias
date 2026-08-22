@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-c028097d26dee1b2
+contentLength: 3837
 ---
 
 Miljöpartiet vill sänka arbetstiden till 35 timmar i veckan som steg mot fyradagarsvecka och ett arbetsliv där fler orkar hela livet.

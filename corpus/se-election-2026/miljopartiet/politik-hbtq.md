@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f3a7a95fe588124b
+contentLength: 4367
 ---
 
 Miljöpartiet vill stärka hbtqi-personers rättigheter, trygghet och hälsa i Sverige och globalt, och ge alla barn samma rätt till sina familjer.

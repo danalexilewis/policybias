@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4a4bf811596e6b95
+contentLength: 906
 ---
 
 Kvinnor ska ha rätt att bestämma över sin kropp. Det borde vara en självklarhet  men det är det tyvärr inte i världen i dag. I Sverige har det länge rått en samsyn runt rätten till abort, men även här blir den ibland ifrågasatt. Rätten till abort behöver bevakas så att den ej försämras. 

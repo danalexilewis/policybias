@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c1dab4b7b4f7fd81
+contentLength: 4471
 ---
 
 Miljöpartiet vill stärka landsbygderna med bättre välfärd, service, arbetstillfällen, hållbara transporter och lokal återbäring av energiproduktion och mineralutvinning.

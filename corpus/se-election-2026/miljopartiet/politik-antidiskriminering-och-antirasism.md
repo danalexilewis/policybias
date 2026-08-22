@@ -14,6 +14,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-bdac7b4b70fa8a66
+contentLength: 3048
 ---
 
 Miljöpartiet vill skapa ett Sverige fritt från diskriminering och rasism där alla har lika rättigheter, trygghet och möjlighet att delta fullt ut i samhället.

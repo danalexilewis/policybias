@@ -13,6 +13,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-e10ce16ef8eff3fe
+contentLength: 6028
 ---
 
 Miljöpartiet var drivande i att göra barnkonventionen till svensk lag. Nu måste arbetet växlas upp så att barns rättigheter stärks i praktiken. Miljöpartiet vill ge alla barn en trygg uppväxt, skydda barn från utsatthet och kriminalitet och se till att inget barn växer upp i fattigdom.

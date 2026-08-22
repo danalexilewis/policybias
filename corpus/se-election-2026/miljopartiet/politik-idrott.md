@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f8e56614c3546a1b
+contentLength: 3826
 ---
 
 Miljöpartiet vill göra idrott och rörelse tillgängligt för fler genom jämlika villkor, fler hållbara anläggningar och starkare stöd till föreningslivet.

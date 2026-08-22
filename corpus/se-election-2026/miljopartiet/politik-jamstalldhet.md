@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f4020b7f51cb50e3
+contentLength: 4735
 ---
 
 Miljöpartiet vill stärka jämställdheten, förbättra kvinnors ekonomiska trygghet och hälsa samt bekämpa mäns våld mot kvinnor, sexuellt våld och hedersförtryck.

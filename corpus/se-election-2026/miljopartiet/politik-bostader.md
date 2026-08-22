@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-62c07c77d9f29e5d
+contentLength: 3824
 ---
 
 Miljöpartiet vill minska bostadsbristen, göra boendet tryggare och bygga fler klimatsmarta bostäder med rimliga hyror.

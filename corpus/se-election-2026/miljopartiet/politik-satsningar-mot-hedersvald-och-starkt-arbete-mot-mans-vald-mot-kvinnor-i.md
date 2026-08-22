@@ -1,8 +1,7 @@
 ---
 type: crawled-page
 party: miljopartiet
-title: Satsningar mot hedersvåld och stärkt arbete mot mäns våld mot kvinnor i budgeten
-  för 2021 | Miljöpartiet
+title: Satsningar mot hedersvåld och stärkt arbete mot mäns våld mot kvinnor i budgeten för 2021 | Miljöpartiet
 sourceUrl: https://www.mp.se/politik/satsningar-mot-hedersvald-och-starkt-arbete-mot-mans-vald-mot-kvinnor-i
 canonicalUrl: https://www.mp.se/politik/satsningar-mot-hedersvald-och-starkt-arbete-mot-mans-vald-mot-kvinnor-i
 fetchedAt: 2026-08-22T13:49:43.909Z
@@ -13,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-cc376ff370b95603
+contentLength: 1230
 ---
 
 Alla har rätt att välja hur man vill leva sitt liv utan hot och våld från familj eller släktingar. I budgeten för 2021 stärker vi arbetet mot hedersvåld och fortsätter arbetet för att stoppa mäns våld mot kvinnor.

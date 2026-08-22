@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-afc0f41dc0099469
+contentLength: 26300
 ---
 
 # 100_fornybar_energi_program-c4170d71.pdf

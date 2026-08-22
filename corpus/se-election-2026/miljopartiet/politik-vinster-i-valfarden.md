@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-98acb6620d67d0df
+contentLength: 3760
 ---
 
 Miljöpartiet vill avskaffa marknadsskolan, låta vinster från skattefinansierad välfärd stanna i välfärden och ge alla en jämlik välfärd.

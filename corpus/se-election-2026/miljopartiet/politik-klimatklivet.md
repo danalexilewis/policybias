@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-efcfc7ec8f5da1b3
+contentLength: 1099
 ---
 
 För att minska klimatutsläppen har regeringen investerat i Klimatklivet. En satsning där kommuner, företag och organisationer kan ansöka om investeringsstöd för att minska sin klimatpåverkan.  

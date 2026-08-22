@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fff5a48ff28dbbf4
+contentLength: 21034
 ---
 
 # programfordjupning_jamstalldhet-6304bec2.pdf

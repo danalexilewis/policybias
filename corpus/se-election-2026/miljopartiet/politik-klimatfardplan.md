@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-22655bfe4dda0dd7
+contentLength: 1266
 ---
 
 ## Klimatfärdplanen

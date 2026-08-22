@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-28d7aa5710f2a30d
+contentLength: 4481
 ---
 
 Miljöpartiet vill skydda värdefulla skogar och slå vakt om skogens roll för biologisk mångfald, klimat, friluftsliv och rennäring. Vi vill se en ny inriktning för skogsbruket med mer varierade, naturnära och hyggesfria metoder.

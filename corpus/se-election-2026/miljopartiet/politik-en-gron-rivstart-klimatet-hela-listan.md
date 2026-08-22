@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-3d1099c49cbfbeca
+contentLength: 3440
 ---
 
 Vi ska inte återgå till gamla hjulspår utan bygga nytt, smartare och bättre. Miljöpartiet presenterar en grön rivstart för både ekonomin och klimatomställningen i budgeten för 2021.

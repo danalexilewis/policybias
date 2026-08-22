@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4005ce3a31028129
+contentLength: 3904
 ---
 
 Miljöpartiet vill stärka den fria kulturen, öka allas tillgång till kultur och ge kulturskapare bättre villkor i hela landet.

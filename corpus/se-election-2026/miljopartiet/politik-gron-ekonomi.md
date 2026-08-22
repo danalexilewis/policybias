@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-842e4792685174ae
+contentLength: 4434
 ---
 
 Miljöpartiet vill bygga en grön ekonomi som sänker utsläppen, minskar klyftorna och stärker tryggheten i vardagen. 

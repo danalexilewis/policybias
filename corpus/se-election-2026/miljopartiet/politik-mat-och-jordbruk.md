@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-da3987479ede4626
+contentLength: 4864
 ---
 
 Miljöpartiet vill stärka ett levande och hållbart jordbruk i hela Sverige med hög beredskap, fossilfri matproduktion, rik biologisk mångfald och god djurvälfärd.

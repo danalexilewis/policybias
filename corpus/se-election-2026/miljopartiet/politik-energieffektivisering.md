@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-82ccfb0254c27adf
+contentLength: 2294
 ---
 
 Energieffektiviseringar – att använda elen smartare – är det snabbaste, billigaste och mest miljövänliga sättet att minska energikostnaderna för hushåll och företag, minska energiproduktionens miljöpåverkan och tillgängliggöra mer el för klimatomställningen.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-05603499c4e0722c
+contentLength: 5247
 ---
 
 Miljöpartiet vill stoppa förlusten av biologisk mångfald och säkra livskraftiga arter och ekosystem.

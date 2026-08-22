@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3fb7992fddafcb14
+contentLength: 4725
 ---
 
 Miljöpartiet vill säkra en mer hållbar mineralpolitik med mer återvinning och starkare skydd för miljön, människor och samiska rättigheter.

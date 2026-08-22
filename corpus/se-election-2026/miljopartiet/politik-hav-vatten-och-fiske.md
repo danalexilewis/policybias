@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-af6493d2e0844c4e
+contentLength: 4301
 ---
 
 Miljöpartiet vill stoppa överfisket, säkra havens återhämtning och stärka skyddet för vattenlevande arter och ekosystem.

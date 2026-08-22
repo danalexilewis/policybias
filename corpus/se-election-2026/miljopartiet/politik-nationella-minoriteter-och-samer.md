@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-add9420a6aa4b7ac
+contentLength: 5138
 ---
 
 Miljöpartiet vill stärka de nationella minoriteternas och urfolket samernas rättigheter till språk, kultur, inflytande och självbestämmande. Nationella minoriteter och samer har också rätt till upprättelse för historiska övergrepp från den svenska staten.

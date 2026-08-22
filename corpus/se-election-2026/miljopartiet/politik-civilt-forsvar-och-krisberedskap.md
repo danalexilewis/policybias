@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-94a33e6680c188ba
+contentLength: 4938
 ---
 
 Miljöpartiet vill stärka det civila försvaret, skydda civilbefolkningen och göra Sverige bättre rustat för kriser, krig och klimatförändringar.

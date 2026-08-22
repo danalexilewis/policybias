@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f5620794b3d9d4fd
+contentLength: 4061
 ---
 
 Miljöpartiet vill stärka djurvälfärden och ge djur möjlighet till fullvärdiga liv.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-e594533345d76387
+contentLength: 2893
 ---
 
 I budgeten för 2021 har Miljöpartiet fått igenom viktiga satsningar för vården, äldreomsorgen, pensionärer och ensamstående föräldrar.

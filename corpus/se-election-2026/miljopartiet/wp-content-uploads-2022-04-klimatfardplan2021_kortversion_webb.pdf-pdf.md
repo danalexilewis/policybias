@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-309afcbe773b220c
+contentLength: 18023
 ---
 
 # klimatfardplan2021_kortversion_webb-be941c29.pdf

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e2062421b96b4efc
+contentLength: 4242
 ---
 
 Miljöpartiet vill minska segregationen, stärka integrationen och skapa trygga områden där människor med olika bakgrund kan leva, mötas och utvecklas tillsammans.

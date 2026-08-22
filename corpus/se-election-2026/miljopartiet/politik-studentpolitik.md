@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-156bc994aa5d863c
+contentLength: 3303
 ---
 
 Miljöpartiet vill stärka studenters ekonomi, förbättra den psykiska hälsan och ge studenter större trygghet och inflytande under studietiden.

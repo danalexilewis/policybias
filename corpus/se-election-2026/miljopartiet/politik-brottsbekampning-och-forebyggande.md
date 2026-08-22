@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3cef926aabd3fa45
+contentLength: 5518
 ---
 
 Miljöpartiet vill öka tryggheten, utöka de förebyggande insatserna, bryta nyrekryteringen till gängen och ge brottsoffer starkare stöd och upprättelse.

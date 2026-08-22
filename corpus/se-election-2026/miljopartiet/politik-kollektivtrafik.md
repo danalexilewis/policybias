@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-d3707ead9a758a4f
+contentLength: 3612
 ---
 
 Miljöpartiet vill göra kollektivtrafiken billigare, mer pålitlig och tillgänglig i hela landet.

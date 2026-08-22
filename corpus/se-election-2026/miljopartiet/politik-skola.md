@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ef14d4ed1280423b
+contentLength: 4384
 ---
 
 Miljöpartiet vill ge alla barn och elever en trygg och likvärdig utbildning med mindre grupper, starkare stöd och skolor där resurserna går till lärande.

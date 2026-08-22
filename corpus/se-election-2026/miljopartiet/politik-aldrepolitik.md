@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fd30890f0e8b64e9
+contentLength: 3335
 ---
 
 Miljöpartiet vill höja pensionerna, stärka äldreomsorgen och skapa bättre möjligheter för äldre att leva ett tryggt, aktivt och självständigt liv.

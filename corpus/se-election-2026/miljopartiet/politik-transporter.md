@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-b18c7c1458160d1d
+contentLength: 5099
 ---
 
 Miljöpartiet vill ställa om transporterna så att fler kan resa hållbart, utsläppen minskar och hela landet får bättre tåg, kollektivtrafik och laddinfrastruktur.

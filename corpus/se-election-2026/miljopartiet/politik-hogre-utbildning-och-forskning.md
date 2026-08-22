@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-77d78fa19cdac963
+contentLength: 4093
 ---
 
 Miljöpartiet vill att Sverige ska vara en stark kunskapsnation med hög kvalitet i högre utbildning och fri, oberoende forskning.

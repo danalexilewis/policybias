@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-df8f6a66ea607ab6
+contentLength: 2605
 ---
 
 ## Miljöpartiets programfördjupning: jämställdhet

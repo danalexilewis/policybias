@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-249f138e2ccfef9a
+contentLength: 832
 ---
 
 ## Sverige behöver en ny riktning

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2da445cf9ac20baf
+contentLength: 5377
 ---
 
 Miljöpartiet vill stärka funktionsrätten, återupprätta rätten till stöd och skapa ett samhälle där alla kan delta på lika villkor.

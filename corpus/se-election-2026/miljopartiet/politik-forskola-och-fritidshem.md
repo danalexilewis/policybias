@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-18d3126b0ac490fe
+contentLength: 3151
 ---
 
 Miljöpartiet vill ge alla barn en trygg start med mindre barngrupper, starkare förskola och rätt till fritidshem.

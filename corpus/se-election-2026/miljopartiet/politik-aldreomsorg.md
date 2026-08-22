@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ee4cd02cfec3c453
+contentLength: 3983
 ---
 
 Miljöpartiet vill stärka äldreomsorgen så att människor kan åldras med trygghet, värdighet och livsglädje.

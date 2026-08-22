@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fad4cf4bee279b86
+contentLength: 4866
 ---
 
 Miljöpartiet vill stärka Sveriges motståndskraft, försvara demokratin och öka vår säkerhet genom ett starkt totalförsvar.

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-52dd851c10146848
+contentLength: 1231
 ---
 
 1.  [Hem](https://www.mp.se/) 

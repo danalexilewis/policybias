@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a3a8609130ed1d41
+contentLength: 5823
 ---
 
 Miljöpartiet vill stärka demokratin, skydda mänskliga rättigheter och säkra fria medier för att skapa ett öppet samhälle som alla människor kan delta i.

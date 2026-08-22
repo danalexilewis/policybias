@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-571b1f0ddfbf7601
+contentLength: 2689
 ---
 
 Miljöpartiet vill bevara strandskyddet för att skydda djur- och växtliv och för att alla människor ska ha fortsatt tillgång till stränder.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-936d3e3adcc55f10
+contentLength: 2911
 ---
 
 Miljöpartiet vill göra tandvården mer jämlik, stärka skyddet mot höga kostnader och ge unga upp till 23 år gratis tandvård.

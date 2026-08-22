@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4a5be3ec7e9aafbf
+contentLength: 5756
 ---
 
 ## Vatten är livsviktigt

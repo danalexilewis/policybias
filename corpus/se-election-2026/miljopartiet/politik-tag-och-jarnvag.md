@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-03bcbfd347413b52
+contentLength: 4502
 ---
 
 Miljöpartiet vill bygga ut och rusta upp järnvägen så att tågen kan gå oftare, komma fram i tid. Järnvägen ska knyta ihop Sverige med resten av Europa.

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-27d1248352acdd62
+contentLength: 3741
 ---
 
 Miljöpartiet vill skärpa kemikalielagstiftningen och skydda djur, natur och människor mot gifter.

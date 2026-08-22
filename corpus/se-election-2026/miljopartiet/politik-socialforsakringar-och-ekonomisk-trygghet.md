@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-851e3d53cf4b6ae2
+contentLength: 4521
 ---
 
 Miljöpartiet vill stärka den ekonomiska grundtryggheten och välfärdens skyddsnät så att färre barn och vuxna lever i utsatthet. 

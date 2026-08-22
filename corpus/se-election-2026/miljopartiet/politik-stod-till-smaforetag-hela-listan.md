@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ffdc93e8b8b6696f
+contentLength: 3386
 ---
 
 Miljöpartiet vill göra det enklare att starta och driva företag, stärka Sveriges konkurrenskraft och se till att  den gröna omställningen skapar nya jobb och investeringar.

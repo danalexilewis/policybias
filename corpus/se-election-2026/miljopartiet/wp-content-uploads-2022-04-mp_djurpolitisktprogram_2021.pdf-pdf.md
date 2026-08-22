@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-501bd503d95a630d
+contentLength: 77785
 ---
 
 # mp_djurpolitisktprogram_2021-8f7cf143.pdf

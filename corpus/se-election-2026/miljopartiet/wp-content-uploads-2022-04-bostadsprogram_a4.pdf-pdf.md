@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6ddd30eca7623ef9
+contentLength: 18539
 ---
 
 # bostadsprogram_a4-229a598f.pdf

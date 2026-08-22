@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-53e07860baa4fdd1
+contentLength: 4566
 ---
 
 Miljöpartiet vill ha en human, solidarisk och rättssäker migrationspolitik. Asylrätten ska värnas i Sverige, i EU och globalt, och varje människa ska ha rätt att få sin ansökan individuellt prövad. Den som kommer till Sverige ska mötas av öppenhet, trygghet och goda möjligheter att snabbt bli en del av samhället.

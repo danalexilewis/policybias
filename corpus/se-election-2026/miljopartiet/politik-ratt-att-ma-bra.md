@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d2bb25879c1cd4bb
+contentLength: 4563
 ---
 
 Miljöpartiet vill att psykisk hälsa prioriteras lika högt som fysisk hälsa och att barn, unga och vuxna får stöd i tid.

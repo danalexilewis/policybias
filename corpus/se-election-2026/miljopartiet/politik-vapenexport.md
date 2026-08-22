@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d60b8e9b82f0c7f7
+contentLength: 3479
 ---
 
 Miljöpartiet vill stoppa Sveriges vapenhandel med diktaturer och stärka arbetet för fred, demokrati och mänskliga rättigheter.

@@ -8,6 +8,7 @@ import { useFilters } from './filters/useFilters';
 import { GameOverlay } from './game/GameOverlay';
 import { useLifetimeScore } from './game/useLifetimeScore';
 import { PolicyGrid } from './grid/PolicyGrid';
+import { shuffleCards } from './grid/sortCards';
 import {
 	CURRENT_EVENT_ID,
 	eventGamePath,
@@ -23,7 +24,9 @@ const GAME_TITLE = `Play — ${eventLabel(CURRENT_EVENT_ID)}`;
 
 export default function App(): JSX.Element {
 	const { data, error, loading } = useCards();
-	const filters = useFilters(data?.cards ?? []);
+	const [shuffleSeed] = useState(() => Math.floor(Math.random() * 0xffffffff));
+	const wallCards = data ? shuffleCards(data.cards, shuffleSeed) : [];
+	const filters = useFilters(wallCards);
 	const [inspectedCard, setInspectedCard] = useState<PolicyCard | null>(null);
 	const { score: lifetimeScore, recordGuess } = useLifetimeScore();
 	const { view, openGame, exitGame } = useEventView();

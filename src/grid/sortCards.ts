@@ -34,6 +34,37 @@ function compareByCluster(
   return aCluster - bCluster
 }
 
+/** Mulberry32 — the same generator the game uses to deal rounds. */
+function createSeededRandom(seed: number): () => number {
+  let state = seed >>> 0
+  return function nextRandom(): number {
+    state = (state + 0x6d2b79f5) >>> 0
+    let t = Math.imul(state ^ (state >>> 15), 1 | state)
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+}
+
+/** Fisher–Yates shuffle, stable for a given seed. */
+export function shuffleCards(
+  cards: PolicyCard[],
+  seed: number,
+): PolicyCard[] {
+  const random = createSeededRandom(seed)
+  const copy = cards.slice()
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(random() * (index + 1))
+    const current = copy[index]
+    const swap = copy[swapIndex]
+    if (current === undefined || swap === undefined) {
+      continue
+    }
+    copy[index] = swap
+    copy[swapIndex] = current
+  }
+  return copy
+}
+
 /** Wall order: primary cluster, then party, then card id. */
 export function sortCards(
   cards: PolicyCard[],
@@ -98,7 +129,7 @@ export function groupCards(
   groupBy: GroupBy,
 ): CardGroup[] {
   if (groupBy === 'none') {
-    return [{ id: 'all', label: '', cards: sortCards(cards, clusters) }]
+    return [{ id: 'all', label: '', cards }]
   }
 
   const order = clusterOrder(clusters)

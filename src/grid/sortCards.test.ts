@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { ClusterMeta, PartyMeta, PolicyCard } from '../data/types'
-import { groupCards, sortCards } from './sortCards'
+import { groupCards, shuffleCards, sortCards } from './sortCards'
 
 const clusters: ClusterMeta[] = [
   { id: 'tax-fiscal', label: 'Tax', description: '' },
@@ -58,6 +58,25 @@ function makeCard(
   }
 }
 
+describe('shuffleCards', () => {
+  const cards = [
+    makeCard('labour-b', 'labour', 'tax-fiscal'),
+    makeCard('act-health', 'act', 'health-access'),
+    makeCard('labour-a', 'labour', 'tax-fiscal'),
+    makeCard('act-tax', 'act', 'tax-fiscal'),
+  ]
+
+  it('reorders with a seed, and the same seed repeats', () => {
+    const first = shuffleCards(cards, 7).map((card) => card.id)
+    const second = shuffleCards(cards, 7).map((card) => card.id)
+    expect(first).toEqual(second)
+    expect(first).not.toEqual(cards.map((card) => card.id))
+    expect(first.slice().sort()).toEqual(
+      cards.map((card) => card.id).slice().sort(),
+    )
+  })
+})
+
 describe('sortCards', () => {
   it('orders by cluster list, then party, then id', () => {
     const cards = [
@@ -98,16 +117,16 @@ describe('groupCards', () => {
     expect(groups[1]?.cards.map((card) => card.id)).toEqual(['act-health'])
   })
 
-  it('keeps one unlabelled group in wall order when grouping is off', () => {
+  it('keeps one unlabelled group in the incoming order when grouping is off', () => {
     const groups = groupCards(cards, clusters, parties, 'none')
     expect(groups).toHaveLength(1)
     expect(groups[0]?.id).toBe('all')
     expect(groups[0]?.label).toBe('')
     expect(groups[0]?.cards.map((card) => card.id)).toEqual([
-      'act-tax',
-      'labour-a',
       'labour-b',
       'act-health',
+      'labour-a',
+      'act-tax',
     ])
   })
 

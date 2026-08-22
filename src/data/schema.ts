@@ -1,14 +1,6 @@
 import { z } from 'zod'
 
-const partyIdSchema = z.enum([
-  'act',
-  'green',
-  'labour',
-  'national',
-  'nz-first',
-  'opportunity',
-  'te-pati-maori',
-])
+const partyIdSchema = z.string().min(1)
 
 const stepKindSchema = z.enum([
   'given',
@@ -83,6 +75,7 @@ const policyCardSchema = z.object({
     gaps: z.number(),
     assumptions: z.number(),
   }),
+  translated: z.boolean().optional(),
 })
 
 const clusterMetaSchema = z.object({
@@ -91,12 +84,21 @@ const clusterMetaSchema = z.object({
   description: z.string(),
 })
 
+const anonymiseNamesSchema = z.object({
+  caseInsensitive: z.array(z.string()),
+  caseSensitive: z.array(z.string()),
+  uniqueTitle: z.array(z.string()),
+  shortTitle: z.array(z.string()),
+})
+
 const partyMetaSchema = z.object({
   id: partyIdSchema,
   label: z.string(),
   name: z.string(),
   colour: z.string(),
+  logo: z.string().optional(),
   cardCount: z.number(),
+  anonymise: anonymiseNamesSchema.optional(),
 })
 
 const coverageCellSchema = z.object({
@@ -105,12 +107,24 @@ const coverageCellSchema = z.object({
   cards: z.number(),
 })
 
-/** Zod schema for `public/cards.json`. */
+const clusterTriviaSchema = z.object({
+  id: z.string(),
+  cluster: z.string(),
+  category: z.string(),
+  headline: z.string(),
+  body: z.string(),
+})
+
+/** Zod schema for `public/<event>/cards.<lang>.json`. */
 export const cardsDatasetSchema = z.object({
-  schemaVersion: z.literal('2'),
+  schemaVersion: z.literal('3'),
+  eventId: z.string(),
+  lang: z.string(),
+  langs: z.array(z.string()),
   generatedAt: z.string(),
   clusters: z.array(clusterMetaSchema),
   parties: z.array(partyMetaSchema),
   coverage: z.array(coverageCellSchema),
   cards: z.array(policyCardSchema),
+  trivia: z.array(clusterTriviaSchema),
 })

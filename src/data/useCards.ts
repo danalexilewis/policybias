@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import type { CardsDataset } from './types'
 import { cardsDatasetSchema } from './schema'
+import { eventCardsPath, type EventId, type Lang } from '../event/events'
 
 export type UseCardsResult = {
   data: CardsDataset | null
@@ -9,10 +10,9 @@ export type UseCardsResult = {
 }
 
 /**
- * Fetch and Zod-validate `cards.json` from the Vite base URL.
- * Throws a clear error message when the payload is invalid.
+ * Fetch and Zod-validate `cards.<lang>.json` for the given event.
  */
-export function useCards(): UseCardsResult {
+export function useCards(eventId: EventId, lang: Lang): UseCardsResult {
   const [result, setResult] = useState<UseCardsResult>({
     data: null,
     error: null,
@@ -21,17 +21,19 @@ export function useCards(): UseCardsResult {
 
   useEffect(() => {
     let cancelled = false
+    const url = eventCardsPath(eventId, lang)
 
     async function loadCards() {
+      setResult({ data: null, error: null, loading: true })
       try {
-        const response = await fetch(`${import.meta.env.BASE_URL}cards.json`)
+        const response = await fetch(url)
         if (!response.ok) {
           throw new Error(
-            `Failed to fetch cards.json (${response.status} ${response.statusText})`,
+            `Failed to fetch ${url} (${response.status} ${response.statusText})`,
           )
         }
 
-        const json: unknown = await response.json()
+        const json = await readCardsJson(response, url)
         const parsed = cardsDatasetSchema.safeParse(json)
 
         if (!parsed.success) {
@@ -41,9 +43,9 @@ export function useCards(): UseCardsResult {
           throw new Error(`Invalid cards.json — ${detail}`)
         }
 
-        if (parsed.data.schemaVersion !== '2') {
+        if (parsed.data.schemaVersion !== '3') {
           throw new Error(
-            `Unsupported cards.json schemaVersion "${String(parsed.data.schemaVersion)}" (expected "2")`,
+            `Unsupported cards.json schemaVersion "${String(parsed.data.schemaVersion)}" (expected "3")`,
           )
         }
 
@@ -64,7 +66,20 @@ export function useCards(): UseCardsResult {
     return () => {
       cancelled = true
     }
-  }, [])
+  }, [eventId, lang])
 
   return result
+}
+
+/**
+ * Vite's SPA fallback returns 200 HTML when the generated file is missing.
+ * Reject that before JSON.parse, whose error is otherwise opaque.
+ */
+async function readCardsJson(response: Response, url: string): Promise<unknown> {
+  const raw = await response.text()
+  const contentType = response.headers.get('content-type') ?? ''
+  if (contentType.includes('text/html') || raw.trimStart().startsWith('<')) {
+    throw new Error(`Failed to fetch ${url} — got HTML instead of JSON`)
+  }
+  return JSON.parse(raw) as unknown
 }

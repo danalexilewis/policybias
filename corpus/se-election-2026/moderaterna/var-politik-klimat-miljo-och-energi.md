@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Klimat, miljö och energi"
-sourceUrl: "https://moderaterna.se/var-politik/klimat-miljo-och-energi"
-canonicalUrl: "https://moderaterna.se/var-politik/klimat-miljo-och-energi"
-fetchedAt: "2026-08-22T13:51:04.743Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Klimat, miljö och energi
+sourceUrl: https://moderaterna.se/var-politik/klimat-miljo-och-energi
+canonicalUrl: https://moderaterna.se/var-politik/klimat-miljo-och-energi
+fetchedAt: 2026-08-22T13:51:04.743Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

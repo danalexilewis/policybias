@@ -1,21 +1,22 @@
 ---
 type: spec
 id: moderaterna-var-politik-forskola-derived
-title: "Förskola (reading)"
+title: Förskola (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Förskola"
+summary: Our reading of Förskola
 jurisdiction: SE
 sources:
-  - title: "Förskola"
-    url: https://moderaterna.se/var-politik/forskola/
-tags: [climate-environment]
+  - title: Förskola
+    url: https://moderaterna.se/var-politik/forskola
+tags:
+  - education
 party: moderaterna
 clusters:
-  - climate-environment
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-forskola.md
-sourceDigest: "sha256-7d0222cbf939c355"
+sourceDigest: sha256-7d0222cbf939c355
 derivesFrom: moderaterna-var-politik-forskola
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

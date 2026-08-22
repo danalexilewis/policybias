@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Privatekonomi"
-sourceUrl: "https://moderaterna.se/var-politik/privatekonomi"
-canonicalUrl: "https://moderaterna.se/var-politik/privatekonomi"
-fetchedAt: "2026-08-22T13:54:56.316Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Privatekonomi
+sourceUrl: https://moderaterna.se/var-politik/privatekonomi
+canonicalUrl: https://moderaterna.se/var-politik/privatekonomi
+fetchedAt: 2026-08-22T13:54:56.316Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - social-welfare
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

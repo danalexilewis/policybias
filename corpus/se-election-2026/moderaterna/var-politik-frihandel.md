@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Frihandel"
-sourceUrl: "https://moderaterna.se/var-politik/frihandel"
-canonicalUrl: "https://moderaterna.se/var-politik/frihandel"
-fetchedAt: "2026-08-22T13:52:40.056Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Frihandel
+sourceUrl: https://moderaterna.se/var-politik/frihandel
+canonicalUrl: https://moderaterna.se/var-politik/frihandel
+fetchedAt: 2026-08-22T13:52:40.056Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

@@ -1,21 +1,25 @@
 ---
 type: spec
 id: moderaterna-var-politik-grona-naringar-landsbygd-och-jakt
-title: "Gröna näringar,  landsbygd och jakt"
+title: Gröna näringar,  landsbygd och jakt
 status: draft
 updated: 2026-08-22
-summary: "De gröna näringarna är avgörande för svensk tillväxt, klimatnytta och beredskap. Det är självklart att hela Sveriges potential ska tas tillvara. Människor och företag i hela landet ska ha förutsättningar för att växa och utvecklas på ett hållbart sätt – ekonomiskt, socialt och mi"
+summary: De gröna näringarna är avgörande för svensk tillväxt, klimatnytta och
+  beredskap. Det är självklart att hela Sveriges potential ska tas tillvara. Människor
+  och företag i hela landet ska ha förutsättningar för att växa och utvecklas på ett
+  hållbart sätt – ekonomiskt, socialt och mi
 jurisdiction: SE
 sources:
-  - title: "Gröna näringar,  landsbygd och jakt"
-    url: https://moderaterna.se/var-politik/grona-naringar-landsbygd-och-jakt/
-tags: [energy-power]
+  - title: Gröna näringar,  landsbygd och jakt
+    url: https://moderaterna.se/var-politik/grona-naringar-landsbygd-och-jakt
+tags:
+  - environment
 party: moderaterna
 clusters:
-  - energy-power
-money: no-figure
+  - climate-environment
+money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-grona-naringar-landsbygd-och-jakt.md
-sourceDigest: "sha256-63991d11e2d89fb6"
+sourceDigest: sha256-63991d11e2d89fb6
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

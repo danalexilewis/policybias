@@ -1,21 +1,27 @@
 ---
 type: spec
 id: moderaterna-var-politik-hbtq
-title: "HBTQ-frågor"
+title: HBTQ-frågor
 status: draft
 updated: 2026-08-22
-summary: "I Sverige ska alla kunna leva ett fritt och tryggt liv oavsett vem man älskar. Men för hbtq-personer är friheten inte längre självklar. Negativa attityder mot homosexuella, bisexuella och transpersoner ökar nu för första gången sedan början av 2000-talet. Det är en utveckling vi "
+summary: "I Sverige ska alla kunna leva ett fritt och tryggt liv oavsett vem man älskar.
+  Men för hbtq-personer är friheten inte längre självklar. Negativa attityder mot
+  homosexuella, bisexuella och transpersoner ökar nu för första gången sedan början av
+  2000-talet. Det är en utveckling vi "
 jurisdiction: SE
 sources:
-  - title: "HBTQ-frågor"
-    url: https://moderaterna.se/var-politik/hbtq/
-tags: [defence-security]
+  - title: HBTQ-frågor
+    url: https://moderaterna.se/var-politik/hbtq
+tags:
+  - crime-and-justice
+  - immigration
+  - social-welfare
 party: moderaterna
 clusters:
-  - defence-security
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-hbtq.md
-sourceDigest: "sha256-32d38e4772a72af0"
+sourceDigest: sha256-32d38e4772a72af0
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

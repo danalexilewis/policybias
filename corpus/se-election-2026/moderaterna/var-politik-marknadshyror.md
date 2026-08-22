@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Marknadshyror"
-sourceUrl: "https://moderaterna.se/var-politik/marknadshyror"
-canonicalUrl: "https://moderaterna.se/var-politik/marknadshyror"
-fetchedAt: "2026-08-22T13:54:09.734Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Marknadshyror
+sourceUrl: https://moderaterna.se/var-politik/marknadshyror
+canonicalUrl: https://moderaterna.se/var-politik/marknadshyror
+fetchedAt: 2026-08-22T13:54:09.734Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

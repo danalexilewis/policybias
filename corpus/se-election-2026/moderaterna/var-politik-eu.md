@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "EU"
-sourceUrl: "https://moderaterna.se/var-politik/eu"
-canonicalUrl: "https://moderaterna.se/var-politik/eu"
-fetchedAt: "2026-08-22T13:50:06.479Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: moderaterna
+title: EU
+sourceUrl: https://moderaterna.se/var-politik/eu
+canonicalUrl: https://moderaterna.se/var-politik/eu
+fetchedAt: 2026-08-22T13:50:06.479Z
+contentType: html
+via: party-site
 tags:
-  - "migration-integration"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - climate
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 [Gå direkt till innehåll](#primary)

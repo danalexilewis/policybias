@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Bostadspolitik"
-sourceUrl: "https://moderaterna.se/var-politik/bostadspolitik"
-canonicalUrl: "https://moderaterna.se/var-politik/bostadspolitik"
-fetchedAt: "2026-08-22T13:49:50.513Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: moderaterna
+title: Bostadspolitik
+sourceUrl: https://moderaterna.se/var-politik/bostadspolitik
+canonicalUrl: https://moderaterna.se/var-politik/bostadspolitik
+fetchedAt: 2026-08-22T13:49:50.513Z
+contentType: html
+via: party-site
 tags:
-  - "schools-education"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - housing
+stance: intervention
+money: named-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 [Gå direkt till innehåll](#primary)

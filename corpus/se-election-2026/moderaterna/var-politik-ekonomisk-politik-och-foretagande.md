@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Ekonomisk politik och företagande"
-sourceUrl: "https://moderaterna.se/var-politik/ekonomisk-politik-och-foretagande"
-canonicalUrl: "https://moderaterna.se/var-politik/ekonomisk-politik-och-foretagande"
-fetchedAt: "2026-08-22T13:50:01.809Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: moderaterna
+title: Ekonomisk politik och företagande
+sourceUrl: https://moderaterna.se/var-politik/ekonomisk-politik-och-foretagande
+canonicalUrl: https://moderaterna.se/var-politik/ekonomisk-politik-och-foretagande
+fetchedAt: 2026-08-22T13:50:01.809Z
+contentType: html
+via: party-site
 tags:
-  - "economy-tax"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - economy
+stance: intervention
+money: named-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 [Gå direkt till innehåll](#primary)

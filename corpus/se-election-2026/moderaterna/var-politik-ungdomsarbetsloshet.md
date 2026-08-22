@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Ungdomsarbetslöshet"
-sourceUrl: "https://moderaterna.se/var-politik/ungdomsarbetsloshet"
-canonicalUrl: "https://moderaterna.se/var-politik/ungdomsarbetsloshet"
-fetchedAt: "2026-08-22T13:56:44.769Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Ungdomsarbetslöshet
+sourceUrl: https://moderaterna.se/var-politik/ungdomsarbetsloshet
+canonicalUrl: https://moderaterna.se/var-politik/ungdomsarbetsloshet
+fetchedAt: 2026-08-22T13:56:44.769Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - employment
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## Ungdomsarbetslöshet

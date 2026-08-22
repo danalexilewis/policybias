@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Gröna näringar, landsbygd och jakt"
-sourceUrl: "https://moderaterna.se/var-politik/grona-naringar-landsbygd-och-jakt"
-canonicalUrl: "https://moderaterna.se/var-politik/grona-naringar-landsbygd-och-jakt"
-fetchedAt: "2026-08-22T13:50:21.986Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: moderaterna
+title: Gröna näringar, landsbygd och jakt
+sourceUrl: https://moderaterna.se/var-politik/grona-naringar-landsbygd-och-jakt
+canonicalUrl: https://moderaterna.se/var-politik/grona-naringar-landsbygd-och-jakt
+fetchedAt: 2026-08-22T13:50:21.986Z
+contentType: html
+via: party-site
 tags:
-  - "energy-power"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - environment
+stance: intervention
+money: named-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 [Gå direkt till innehåll](#primary)

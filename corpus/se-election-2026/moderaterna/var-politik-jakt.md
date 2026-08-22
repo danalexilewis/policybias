@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Jakt"
-sourceUrl: "https://moderaterna.se/var-politik/jakt"
-canonicalUrl: "https://moderaterna.se/var-politik/jakt"
-fetchedAt: "2026-08-22T13:53:34.356Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Jakt
+sourceUrl: https://moderaterna.se/var-politik/jakt
+canonicalUrl: https://moderaterna.se/var-politik/jakt
+fetchedAt: 2026-08-22T13:53:34.356Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Jakt

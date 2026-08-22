@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Invandring"
-sourceUrl: "https://moderaterna.se/var-politik/invandring"
-canonicalUrl: "https://moderaterna.se/var-politik/invandring"
-fetchedAt: "2026-08-22T13:53:28.975Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Invandring
+sourceUrl: https://moderaterna.se/var-politik/invandring
+canonicalUrl: https://moderaterna.se/var-politik/invandring
+fetchedAt: 2026-08-22T13:53:28.975Z
+contentType: html
+via: party-site
+tags:
+  - employment
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

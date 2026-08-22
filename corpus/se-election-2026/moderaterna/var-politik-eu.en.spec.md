@@ -4,22 +4,22 @@ id: moderaterna-var-politik-eu
 title: EU
 status: draft
 updated: 2026-08-22
-summary: The EU is an important part of making Sweden stronger, richer and
-  safer. Through cooperation, we can solve problems that affect people's
-  everyday lives - from war and cross-border crime to climate challenges and
-  economic competitiveness. Sweden must therefore be an active voice in the EU
+summary: The EU is an important part of making Sweden stronger, richer and safer.
+  Through cooperation, we can solve problems that affect people's everyday lives - from
+  war and cross-border crime to climate challenges and economic competitiveness. Sweden
+  must therefore be an active voice in the EU
 jurisdiction: SE
 sources:
   - title: EU
-    url: https://moderaterna.se/var-politik/eu/
+    url: https://moderaterna.se/var-politik/eu
 tags:
-  - migration-integration
+  - climate
 party: moderaterna
 clusters:
-  - migration-integration
+  - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-eu.md
-sourceDigest: "sha256-061fb6dbfaba84f4"
+sourceDigest: sha256-061fb6dbfaba84f4
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -27,7 +27,7 @@ lang: en
 translationOf: moderaterna-eu
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-2a90ca5de9887796"
+sourceSpecDigest: sha256-2a90ca5de9887796
 ---
 
 # What the page states

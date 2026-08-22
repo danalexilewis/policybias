@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Rut- och rotavdrag"
-sourceUrl: "https://moderaterna.se/var-politik/rut-och-rotavdrag"
-canonicalUrl: "https://moderaterna.se/var-politik/rut-och-rotavdrag"
-fetchedAt: "2026-08-22T13:55:06.419Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Rut- och rotavdrag
+sourceUrl: https://moderaterna.se/var-politik/rut-och-rotavdrag
+canonicalUrl: https://moderaterna.se/var-politik/rut-och-rotavdrag
+fetchedAt: 2026-08-22T13:55:06.419Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

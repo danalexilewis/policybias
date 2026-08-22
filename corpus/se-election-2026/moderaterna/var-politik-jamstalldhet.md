@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Jämställdhet"
-sourceUrl: "https://moderaterna.se/var-politik/jamstalldhet"
-canonicalUrl: "https://moderaterna.se/var-politik/jamstalldhet"
-fetchedAt: "2026-08-22T13:50:53.776Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Jämställdhet
+sourceUrl: https://moderaterna.se/var-politik/jamstalldhet
+canonicalUrl: https://moderaterna.se/var-politik/jamstalldhet
+fetchedAt: 2026-08-22T13:50:53.776Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

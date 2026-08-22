@@ -1,21 +1,22 @@
 ---
 type: spec
 id: moderaterna-var-politik-bostadspolitik-derived
-title: "Bostadspolitik (reading)"
+title: Bostadspolitik (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Bostadspolitik"
+summary: Our reading of Bostadspolitik
 jurisdiction: SE
 sources:
-  - title: "Bostadspolitik"
-    url: https://moderaterna.se/var-politik/bostadspolitik/
-tags: [schools-education]
+  - title: Bostadspolitik
+    url: https://moderaterna.se/var-politik/bostadspolitik
+tags:
+  - housing
 party: moderaterna
 clusters:
-  - schools-education
-money: no-figure
+  - economy-tax
+money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-bostadspolitik.md
-sourceDigest: "sha256-c1c5e6f1d4bbf0f0"
+sourceDigest: sha256-c1c5e6f1d4bbf0f0
 derivesFrom: moderaterna-var-politik-bostadspolitik
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

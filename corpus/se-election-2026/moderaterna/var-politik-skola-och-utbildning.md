@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Skola och utbildning"
-sourceUrl: "https://moderaterna.se/var-politik/skola-och-utbildning"
-canonicalUrl: "https://moderaterna.se/var-politik/skola-och-utbildning"
-fetchedAt: "2026-08-22T13:51:29.665Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Skola och utbildning
+sourceUrl: https://moderaterna.se/var-politik/skola-och-utbildning
+canonicalUrl: https://moderaterna.se/var-politik/skola-och-utbildning
+fetchedAt: 2026-08-22T13:51:29.665Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

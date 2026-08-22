@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Arbetslöshet"
-sourceUrl: "https://moderaterna.se/var-politik/arbetsloshet"
-canonicalUrl: "https://moderaterna.se/var-politik/arbetsloshet"
-fetchedAt: "2026-08-22T13:52:06.141Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Arbetslöshet
+sourceUrl: https://moderaterna.se/var-politik/arbetsloshet
+canonicalUrl: https://moderaterna.se/var-politik/arbetsloshet
+fetchedAt: 2026-08-22T13:52:06.141Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## Arbetslöshet

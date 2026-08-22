@@ -4,23 +4,22 @@ id: moderaterna-var-politik-grona-naringar-landsbygd-och-jakt
 title: Green industries, countryside and hunting
 status: draft
 updated: 2026-08-22
-summary: The green industries are crucial for Swedish growth, climate benefits
-  and preparedness. It goes without saying that all of Sweden's potential must
-  be exploited. People and companies throughout the country must have the
-  conditions to grow and develop in a sustainable way - economically, socially
-  and mi
+summary: The green industries are crucial for Swedish growth, climate benefits and
+  preparedness. It goes without saying that all of Sweden's potential must be exploited.
+  People and companies throughout the country must have the conditions to grow and
+  develop in a sustainable way - economically, socially and mi
 jurisdiction: SE
 sources:
   - title: Gröna näringar,  landsbygd och jakt
-    url: https://moderaterna.se/var-politik/grona-naringar-landsbygd-och-jakt/
+    url: https://moderaterna.se/var-politik/grona-naringar-landsbygd-och-jakt
 tags:
-  - energy-power
+  - environment
 party: moderaterna
 clusters:
-  - energy-power
-money: no-figure
+  - climate-environment
+money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-grona-naringar-landsbygd-och-jakt.md
-sourceDigest: "sha256-63991d11e2d89fb6"
+sourceDigest: sha256-63991d11e2d89fb6
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -28,7 +27,7 @@ lang: en
 translationOf: moderaterna-grona-naringar-landsbygd-och-jakt
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-550c5299b8f9b819"
+sourceSpecDigest: sha256-550c5299b8f9b819
 ---
 
 # What the page states

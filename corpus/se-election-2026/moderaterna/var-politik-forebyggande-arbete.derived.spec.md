@@ -1,21 +1,24 @@
 ---
 type: spec
 id: moderaterna-var-politik-forebyggande-arbete-derived
-title: "Förebyggande arbete (reading)"
+title: Förebyggande arbete (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Förebyggande arbete"
+summary: Our reading of Förebyggande arbete
 jurisdiction: SE
 sources:
-  - title: "Förebyggande arbete"
-    url: https://moderaterna.se/var-politik/forebyggande-arbete/
-tags: [elderly-welfare]
+  - title: Förebyggande arbete
+    url: https://moderaterna.se/var-politik/forebyggande-arbete
+tags:
+  - crime-and-justice
+  - education
+  - social-welfare
 party: moderaterna
 clusters:
-  - elderly-welfare
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-forebyggande-arbete.md
-sourceDigest: "sha256-300632d67752933c"
+sourceDigest: sha256-300632d67752933c
 derivesFrom: moderaterna-var-politik-forebyggande-arbete
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

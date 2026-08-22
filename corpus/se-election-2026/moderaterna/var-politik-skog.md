@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Skog"
-sourceUrl: "https://moderaterna.se/var-politik/skog"
-canonicalUrl: "https://moderaterna.se/var-politik/skog"
-fetchedAt: "2026-08-22T13:55:27.020Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Skog
+sourceUrl: https://moderaterna.se/var-politik/skog
+canonicalUrl: https://moderaterna.se/var-politik/skog
+fetchedAt: 2026-08-22T13:55:27.020Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

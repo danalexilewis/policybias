@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Glesbygd"
-sourceUrl: "https://moderaterna.se/var-politik/glesbygd"
-canonicalUrl: "https://moderaterna.se/var-politik/glesbygd"
-fetchedAt: "2026-08-22T13:52:55.011Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Glesbygd
+sourceUrl: https://moderaterna.se/var-politik/glesbygd
+canonicalUrl: https://moderaterna.se/var-politik/glesbygd
+fetchedAt: 2026-08-22T13:52:55.011Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - education
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

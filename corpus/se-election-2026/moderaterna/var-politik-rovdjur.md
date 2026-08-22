@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Rovdjur"
-sourceUrl: "https://moderaterna.se/var-politik/rovdjur"
-canonicalUrl: "https://moderaterna.se/var-politik/rovdjur"
-fetchedAt: "2026-08-22T13:55:00.901Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Rovdjur
+sourceUrl: https://moderaterna.se/var-politik/rovdjur
+canonicalUrl: https://moderaterna.se/var-politik/rovdjur
+fetchedAt: 2026-08-22T13:55:00.901Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Rovdjur

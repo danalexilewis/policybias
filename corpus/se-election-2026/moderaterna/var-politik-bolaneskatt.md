@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Bolåneskatt"
-sourceUrl: "https://moderaterna.se/var-politik/bolaneskatt"
-canonicalUrl: "https://moderaterna.se/var-politik/bolaneskatt"
-fetchedAt: "2026-08-22T13:51:54.854Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Bolåneskatt
+sourceUrl: https://moderaterna.se/var-politik/bolaneskatt
+canonicalUrl: https://moderaterna.se/var-politik/bolaneskatt
+fetchedAt: 2026-08-22T13:51:54.854Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## Bolåneskatt

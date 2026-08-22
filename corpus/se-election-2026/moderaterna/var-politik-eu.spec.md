@@ -1,21 +1,25 @@
 ---
 type: spec
 id: moderaterna-var-politik-eu
-title: "EU"
+title: EU
 status: draft
 updated: 2026-08-22
-summary: "EU är en viktig del i att göra Sverige starkare, rikare och säkrare. Genom samarbetet kan vi lösa problem som påverkar människors vardag – från krig och gränsöverskridande brottslighet till klimatutmaningar och ekonomisk konkurrenskraft. Därför ska Sverige vara en aktiv röst i EU"
+summary: EU är en viktig del i att göra Sverige starkare, rikare och säkrare. Genom
+  samarbetet kan vi lösa problem som påverkar människors vardag – från krig och
+  gränsöverskridande brottslighet till klimatutmaningar och ekonomisk konkurrenskraft.
+  Därför ska Sverige vara en aktiv röst i EU
 jurisdiction: SE
 sources:
-  - title: "EU"
-    url: https://moderaterna.se/var-politik/eu/
-tags: [migration-integration]
+  - title: EU
+    url: https://moderaterna.se/var-politik/eu
+tags:
+  - climate
 party: moderaterna
 clusters:
-  - migration-integration
+  - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-eu.md
-sourceDigest: "sha256-061fb6dbfaba84f4"
+sourceDigest: sha256-061fb6dbfaba84f4
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

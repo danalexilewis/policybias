@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Integration"
-sourceUrl: "https://moderaterna.se/var-politik/integration"
-canonicalUrl: "https://moderaterna.se/var-politik/integration"
-fetchedAt: "2026-08-22T13:50:43.016Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Integration
+sourceUrl: https://moderaterna.se/var-politik/integration
+canonicalUrl: https://moderaterna.se/var-politik/integration
+fetchedAt: 2026-08-22T13:50:43.016Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

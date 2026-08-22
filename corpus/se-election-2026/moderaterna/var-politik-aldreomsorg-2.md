@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Äldreomsorg"
-sourceUrl: "https://moderaterna.se/var-politik/aldreomsorg-2"
-canonicalUrl: "https://moderaterna.se/var-politik/aldreomsorg-2"
-fetchedAt: "2026-08-22T13:57:21.005Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Äldreomsorg
+sourceUrl: https://moderaterna.se/var-politik/aldreomsorg-2
+canonicalUrl: https://moderaterna.se/var-politik/aldreomsorg-2
+fetchedAt: 2026-08-22T13:57:21.005Z
+contentType: html
+via: party-site
+tags:
+  - elderly-care
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Äldreomsorg

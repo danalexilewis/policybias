@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Straff"
-sourceUrl: "https://moderaterna.se/var-politik/straff-2"
-canonicalUrl: "https://moderaterna.se/var-politik/straff-2"
-fetchedAt: "2026-08-22T13:55:47.962Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Straff
+sourceUrl: https://moderaterna.se/var-politik/straff-2
+canonicalUrl: https://moderaterna.se/var-politik/straff-2
+fetchedAt: 2026-08-22T13:55:47.962Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

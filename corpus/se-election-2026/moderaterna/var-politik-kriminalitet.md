@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Kriminalitet"
-sourceUrl: "https://moderaterna.se/var-politik/kriminalitet"
-canonicalUrl: "https://moderaterna.se/var-politik/kriminalitet"
-fetchedAt: "2026-08-22T13:53:50.052Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Kriminalitet
+sourceUrl: https://moderaterna.se/var-politik/kriminalitet
+canonicalUrl: https://moderaterna.se/var-politik/kriminalitet
+fetchedAt: 2026-08-22T13:53:50.052Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

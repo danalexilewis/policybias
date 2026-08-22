@@ -1,21 +1,25 @@
 ---
 type: spec
 id: moderaterna-var-politik-ekonomisk-politik-och-foretagande
-title: "Ekonomisk politik och företagande"
+title: Ekonomisk politik och företagande
 status: draft
 updated: 2026-08-22
-summary: "Sverige ska ha högst levnadsstandard i EU inom tio år. Det kräver en växande ekonomi där fler företag kan växa och anställa – och där människor får behålla mer av sin egen lön, eftersom det både är rättvist och stärker ekonomin, på ett sätt som märks direkt i människors vardag."
+summary: Sverige ska ha högst levnadsstandard i EU inom tio år. Det kräver en växande
+  ekonomi där fler företag kan växa och anställa – och där människor får behålla mer av
+  sin egen lön, eftersom det både är rättvist och stärker ekonomin, på ett sätt som
+  märks direkt i människors vardag.
 jurisdiction: SE
 sources:
-  - title: "Ekonomisk politik och företagande"
-    url: https://moderaterna.se/var-politik/ekonomisk-politik-och-foretagande/
-tags: [economy-tax]
+  - title: Ekonomisk politik och företagande
+    url: https://moderaterna.se/var-politik/ekonomisk-politik-och-foretagande
+tags:
+  - economy
 party: moderaterna
 clusters:
   - economy-tax
-money: no-figure
+money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-ekonomisk-politik-och-foretagande.md
-sourceDigest: "sha256-e165259e1005eaf1"
+sourceDigest: sha256-e165259e1005eaf1
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

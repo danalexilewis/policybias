@@ -1,21 +1,25 @@
 ---
 type: spec
 id: moderaterna-var-politik-bostadspolitik
-title: "Bostadspolitik"
+title: Bostadspolitik
 status: draft
 updated: 2026-08-22
-summary: "Sverige ska vara ett land där unga kan flytta hemifrån och där fler familjer kan köpa ett eget hus – när man anstränger sig ska det gå att ta nästa steg i livet. Den moderatledda regeringen gör det enklare att bygga, billigare att låna och tryggare att bo."
+summary: Sverige ska vara ett land där unga kan flytta hemifrån och där fler familjer
+  kan köpa ett eget hus – när man anstränger sig ska det gå att ta nästa steg i livet.
+  Den moderatledda regeringen gör det enklare att bygga, billigare att låna och tryggare
+  att bo.
 jurisdiction: SE
 sources:
-  - title: "Bostadspolitik"
-    url: https://moderaterna.se/var-politik/bostadspolitik/
-tags: [schools-education]
+  - title: Bostadspolitik
+    url: https://moderaterna.se/var-politik/bostadspolitik
+tags:
+  - housing
 party: moderaterna
 clusters:
-  - schools-education
-money: no-figure
+  - economy-tax
+money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-bostadspolitik.md
-sourceDigest: "sha256-c1c5e6f1d4bbf0f0"
+sourceDigest: sha256-c1c5e6f1d4bbf0f0
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

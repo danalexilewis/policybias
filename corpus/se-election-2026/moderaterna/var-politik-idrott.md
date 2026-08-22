@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Idrott och friluftsliv"
-sourceUrl: "https://moderaterna.se/var-politik/idrott"
-canonicalUrl: "https://moderaterna.se/var-politik/idrott"
-fetchedAt: "2026-08-22T13:50:37.467Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Idrott och friluftsliv
+sourceUrl: https://moderaterna.se/var-politik/idrott
+canonicalUrl: https://moderaterna.se/var-politik/idrott
+fetchedAt: 2026-08-22T13:50:37.467Z
+contentType: html
+via: party-site
+tags:
+  - culture
+  - education
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

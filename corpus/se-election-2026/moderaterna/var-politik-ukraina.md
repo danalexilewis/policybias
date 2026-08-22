@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Ukraina"
-sourceUrl: "https://moderaterna.se/var-politik/ukraina"
-canonicalUrl: "https://moderaterna.se/var-politik/ukraina"
-fetchedAt: "2026-08-22T13:56:40.113Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Ukraina
+sourceUrl: https://moderaterna.se/var-politik/ukraina
+canonicalUrl: https://moderaterna.se/var-politik/ukraina
+fetchedAt: 2026-08-22T13:56:40.113Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## Ukraina

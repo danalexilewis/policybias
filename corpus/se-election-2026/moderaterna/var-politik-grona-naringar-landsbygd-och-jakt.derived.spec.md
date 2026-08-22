@@ -1,21 +1,22 @@
 ---
 type: spec
 id: moderaterna-var-politik-grona-naringar-landsbygd-och-jakt-derived
-title: "Gröna näringar,  landsbygd och jakt (reading)"
+title: Gröna näringar,  landsbygd och jakt (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Gröna näringar,  landsbygd och jakt"
+summary: Our reading of Gröna näringar,  landsbygd och jakt
 jurisdiction: SE
 sources:
-  - title: "Gröna näringar,  landsbygd och jakt"
-    url: https://moderaterna.se/var-politik/grona-naringar-landsbygd-och-jakt/
-tags: [energy-power]
+  - title: Gröna näringar,  landsbygd och jakt
+    url: https://moderaterna.se/var-politik/grona-naringar-landsbygd-och-jakt
+tags:
+  - environment
 party: moderaterna
 clusters:
-  - energy-power
-money: no-figure
+  - climate-environment
+money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-grona-naringar-landsbygd-och-jakt.md
-sourceDigest: "sha256-63991d11e2d89fb6"
+sourceDigest: sha256-63991d11e2d89fb6
 derivesFrom: moderaterna-var-politik-grona-naringar-landsbygd-och-jakt
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

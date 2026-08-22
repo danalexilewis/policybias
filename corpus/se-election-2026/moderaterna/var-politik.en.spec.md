@@ -10,13 +10,13 @@ sources:
   - title: På hårt arbetande människors sida
     url: https://moderaterna.se/var-politik/
 tags:
-  - health-care
+  - other
 party: moderaterna
 clusters:
-  - health-care
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik.md
-sourceDigest: "sha256-0d0358eaa55b4134"
+sourceDigest: sha256-0d0358eaa55b4134
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +24,7 @@ lang: en
 translationOf: moderaterna-var-politik
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-31548bd9074708a2"
+sourceSpecDigest: sha256-31548bd9074708a2
 ---
 
 # What the page states

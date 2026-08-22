@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Vägar"
-sourceUrl: "https://moderaterna.se/var-politik/vagar"
-canonicalUrl: "https://moderaterna.se/var-politik/vagar"
-fetchedAt: "2026-08-22T13:57:05.092Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Vägar
+sourceUrl: https://moderaterna.se/var-politik/vagar
+canonicalUrl: https://moderaterna.se/var-politik/vagar
+fetchedAt: 2026-08-22T13:57:05.092Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Frihet"
-sourceUrl: "https://moderaterna.se/var-politik/frihet"
-canonicalUrl: "https://moderaterna.se/var-politik/frihet"
-fetchedAt: "2026-08-22T13:52:45.360Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Frihet
+sourceUrl: https://moderaterna.se/var-politik/frihet
+canonicalUrl: https://moderaterna.se/var-politik/frihet
+fetchedAt: 2026-08-22T13:52:45.360Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - economy
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

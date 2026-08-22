@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Visitationszoner (Säkerhetszoner)"
-sourceUrl: "https://moderaterna.se/var-politik/visitationszoner-sakerhetszoner"
-canonicalUrl: "https://moderaterna.se/var-politik/visitationszoner-sakerhetszoner"
-fetchedAt: "2026-08-22T13:56:55.023Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Visitationszoner (Säkerhetszoner)
+sourceUrl: https://moderaterna.se/var-politik/visitationszoner-sakerhetszoner
+canonicalUrl: https://moderaterna.se/var-politik/visitationszoner-sakerhetszoner
+fetchedAt: 2026-08-22T13:56:55.023Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Östersjön"
-sourceUrl: "https://moderaterna.se/var-politik/ostersjon"
-canonicalUrl: "https://moderaterna.se/var-politik/ostersjon"
-fetchedAt: "2026-08-22T13:57:26.443Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Östersjön
+sourceUrl: https://moderaterna.se/var-politik/ostersjon
+canonicalUrl: https://moderaterna.se/var-politik/ostersjon
+fetchedAt: 2026-08-22T13:57:26.443Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

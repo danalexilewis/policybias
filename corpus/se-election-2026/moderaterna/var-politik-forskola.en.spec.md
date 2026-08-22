@@ -4,22 +4,22 @@ id: moderaterna-var-politik-forskola
 title: Preschool
 status: draft
 updated: 2026-08-22
-summary: Preschool is not just a place of care, it is an educational activity
-  that lays the foundation for children's future. Preschool plays a crucial role
-  both in children's development and in making it possible for parents to work.
-  So that both women and men can work at l
+summary: Preschool is not just a place of care, it is an educational activity that lays
+  the foundation for children's future. Preschool plays a crucial role both in
+  children's development and in making it possible for parents to work. So that both
+  women and men can work at l
 jurisdiction: SE
 sources:
   - title: Förskola
-    url: https://moderaterna.se/var-politik/forskola/
+    url: https://moderaterna.se/var-politik/forskola
 tags:
-  - climate-environment
+  - education
 party: moderaterna
 clusters:
-  - climate-environment
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-forskola.md
-sourceDigest: "sha256-7d0222cbf939c355"
+sourceDigest: sha256-7d0222cbf939c355
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -27,7 +27,7 @@ lang: en
 translationOf: moderaterna-forskola
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-2e58a3a1ea1a2438"
+sourceSpecDigest: sha256-2e58a3a1ea1a2438
 ---
 
 # What the page states

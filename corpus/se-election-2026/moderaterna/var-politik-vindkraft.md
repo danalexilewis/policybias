@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Vindkraft"
-sourceUrl: "https://moderaterna.se/var-politik/vindkraft"
-canonicalUrl: "https://moderaterna.se/var-politik/vindkraft"
-fetchedAt: "2026-08-22T13:56:50.364Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Vindkraft
+sourceUrl: https://moderaterna.se/var-politik/vindkraft
+canonicalUrl: https://moderaterna.se/var-politik/vindkraft
+fetchedAt: 2026-08-22T13:56:50.364Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Inflation"
-sourceUrl: "https://moderaterna.se/var-politik/inflation"
-canonicalUrl: "https://moderaterna.se/var-politik/inflation"
-fetchedAt: "2026-08-22T13:53:24.247Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Inflation
+sourceUrl: https://moderaterna.se/var-politik/inflation
+canonicalUrl: https://moderaterna.se/var-politik/inflation
+fetchedAt: 2026-08-22T13:53:24.247Z
+contentType: html
+via: party-site
+tags:
+  - energy
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

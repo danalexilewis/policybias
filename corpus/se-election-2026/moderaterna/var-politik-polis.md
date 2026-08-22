@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Polis"
-sourceUrl: "https://moderaterna.se/var-politik/polis"
-canonicalUrl: "https://moderaterna.se/var-politik/polis"
-fetchedAt: "2026-08-22T13:54:44.711Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Polis
+sourceUrl: https://moderaterna.se/var-politik/polis
+canonicalUrl: https://moderaterna.se/var-politik/polis
+fetchedAt: 2026-08-22T13:54:44.711Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

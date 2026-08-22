@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Gängkriminalitet/Gängvåld"
-sourceUrl: "https://moderaterna.se/var-politik/gangkriminalitet-gangvald"
-canonicalUrl: "https://moderaterna.se/var-politik/gangkriminalitet-gangvald"
-fetchedAt: "2026-08-22T13:53:03.973Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Gängkriminalitet/Gängvåld
+sourceUrl: https://moderaterna.se/var-politik/gangkriminalitet-gangvald
+canonicalUrl: https://moderaterna.se/var-politik/gangkriminalitet-gangvald
+fetchedAt: 2026-08-22T13:53:03.973Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## Gängkriminalitet/Gängvåld

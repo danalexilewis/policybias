@@ -1,21 +1,25 @@
 ---
 type: spec
 id: moderaterna-var-politik-forskola
-title: "Förskola"
+title: Förskola
 status: draft
 updated: 2026-08-22
-summary: "Förskolan är inte bara en plats för omsorg, det är en pedagogisk verksamhet som lägger grunden för barns framtid. Förskolan spelar en avgörande roll både för barns utveckling och för att göra det möjligt för föräldrar att arbeta. För att både kvinnor och män ska kunna arbeta på l"
+summary: Förskolan är inte bara en plats för omsorg, det är en pedagogisk verksamhet som
+  lägger grunden för barns framtid. Förskolan spelar en avgörande roll både för barns
+  utveckling och för att göra det möjligt för föräldrar att arbeta. För att både kvinnor
+  och män ska kunna arbeta på l
 jurisdiction: SE
 sources:
-  - title: "Förskola"
-    url: https://moderaterna.se/var-politik/forskola/
-tags: [climate-environment]
+  - title: Förskola
+    url: https://moderaterna.se/var-politik/forskola
+tags:
+  - education
 party: moderaterna
 clusters:
-  - climate-environment
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-forskola.md
-sourceDigest: "sha256-7d0222cbf939c355"
+sourceDigest: sha256-7d0222cbf939c355
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

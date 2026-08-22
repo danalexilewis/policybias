@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Säkerhetspolitik"
-sourceUrl: "https://moderaterna.se/var-politik/sakerhetspolitik"
-canonicalUrl: "https://moderaterna.se/var-politik/sakerhetspolitik"
-fetchedAt: "2026-08-22T13:56:02.197Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Säkerhetspolitik
+sourceUrl: https://moderaterna.se/var-politik/sakerhetspolitik
+canonicalUrl: https://moderaterna.se/var-politik/sakerhetspolitik
+fetchedAt: 2026-08-22T13:56:02.197Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## Säkerhetspolitik

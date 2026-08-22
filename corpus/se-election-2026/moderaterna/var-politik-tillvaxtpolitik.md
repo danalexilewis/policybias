@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Tillväxtpolitik"
-sourceUrl: "https://moderaterna.se/var-politik/tillvaxtpolitik"
-canonicalUrl: "https://moderaterna.se/var-politik/tillvaxtpolitik"
-fetchedAt: "2026-08-22T13:56:12.915Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Tillväxtpolitik
+sourceUrl: https://moderaterna.se/var-politik/tillvaxtpolitik
+canonicalUrl: https://moderaterna.se/var-politik/tillvaxtpolitik
+fetchedAt: 2026-08-22T13:56:12.915Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Tillväxtpolitik

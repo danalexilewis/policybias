@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Tjänstemannaansvar"
-sourceUrl: "https://moderaterna.se/var-politik/tjanstemannaansvar"
-canonicalUrl: "https://moderaterna.se/var-politik/tjanstemannaansvar"
-fetchedAt: "2026-08-22T13:56:18.234Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Tjänstemannaansvar
+sourceUrl: https://moderaterna.se/var-politik/tjanstemannaansvar
+canonicalUrl: https://moderaterna.se/var-politik/tjanstemannaansvar
+fetchedAt: 2026-08-22T13:56:18.234Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

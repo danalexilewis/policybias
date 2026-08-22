@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Jordbruk"
-sourceUrl: "https://moderaterna.se/var-politik/jordbruk-2"
-canonicalUrl: "https://moderaterna.se/var-politik/jordbruk-2"
-fetchedAt: "2026-08-22T13:53:39.881Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Jordbruk
+sourceUrl: https://moderaterna.se/var-politik/jordbruk-2
+canonicalUrl: https://moderaterna.se/var-politik/jordbruk-2
+fetchedAt: 2026-08-22T13:53:39.881Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Jordbruk

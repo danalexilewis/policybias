@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Vår politik"
-sourceUrl: "https://moderaterna.se/var-politik/"
-canonicalUrl: "https://moderaterna.se/var-politik"
-fetchedAt: "2026-08-22T13:49:47.301Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: moderaterna
+title: Vår politik
+sourceUrl: https://moderaterna.se/var-politik/
+canonicalUrl: https://moderaterna.se/var-politik
+fetchedAt: 2026-08-22T13:49:47.301Z
+contentType: html
+via: party-site
 tags:
-  - "health-care"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - other
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 ### A

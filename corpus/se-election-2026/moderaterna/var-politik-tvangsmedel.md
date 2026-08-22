@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Tvångsmedel"
-sourceUrl: "https://moderaterna.se/var-politik/tvangsmedel"
-canonicalUrl: "https://moderaterna.se/var-politik/tvangsmedel"
-fetchedAt: "2026-08-22T13:56:27.944Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Tvångsmedel
+sourceUrl: https://moderaterna.se/var-politik/tvangsmedel
+canonicalUrl: https://moderaterna.se/var-politik/tvangsmedel
+fetchedAt: 2026-08-22T13:56:27.944Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

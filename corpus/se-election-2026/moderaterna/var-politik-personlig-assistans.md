@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Personlig assistans"
-sourceUrl: "https://moderaterna.se/var-politik/personlig-assistans"
-canonicalUrl: "https://moderaterna.se/var-politik/personlig-assistans"
-fetchedAt: "2026-08-22T13:54:39.146Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Personlig assistans
+sourceUrl: https://moderaterna.se/var-politik/personlig-assistans
+canonicalUrl: https://moderaterna.se/var-politik/personlig-assistans
+fetchedAt: 2026-08-22T13:54:39.146Z
+contentType: html
+via: party-site
+tags:
+  - employment
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

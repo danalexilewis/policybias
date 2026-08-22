@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Mängdrabatt"
-sourceUrl: "https://moderaterna.se/var-politik/mangdrabatt"
-canonicalUrl: "https://moderaterna.se/var-politik/mangdrabatt"
-fetchedAt: "2026-08-22T13:54:24.170Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Mängdrabatt
+sourceUrl: https://moderaterna.se/var-politik/mangdrabatt
+canonicalUrl: https://moderaterna.se/var-politik/mangdrabatt
+fetchedAt: 2026-08-22T13:54:24.170Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Mängdrabatt

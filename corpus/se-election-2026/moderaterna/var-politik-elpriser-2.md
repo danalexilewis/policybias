@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Elpriser"
-sourceUrl: "https://moderaterna.se/var-politik/elpriser-2"
-canonicalUrl: "https://moderaterna.se/var-politik/elpriser-2"
-fetchedAt: "2026-08-22T13:52:26.042Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Elpriser
+sourceUrl: https://moderaterna.se/var-politik/elpriser-2
+canonicalUrl: https://moderaterna.se/var-politik/elpriser-2
+fetchedAt: 2026-08-22T13:52:26.042Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

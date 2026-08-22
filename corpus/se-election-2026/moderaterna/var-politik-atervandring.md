@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Återvandring"
-sourceUrl: "https://moderaterna.se/var-politik/atervandring"
-canonicalUrl: "https://moderaterna.se/var-politik/atervandring"
-fetchedAt: "2026-08-22T13:57:15.582Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Återvandring
+sourceUrl: https://moderaterna.se/var-politik/atervandring
+canonicalUrl: https://moderaterna.se/var-politik/atervandring
+fetchedAt: 2026-08-22T13:57:15.582Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Djurskydd"
-sourceUrl: "https://moderaterna.se/var-politik/djurskydd"
-canonicalUrl: "https://moderaterna.se/var-politik/djurskydd"
-fetchedAt: "2026-08-22T13:52:20.721Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Djurskydd
+sourceUrl: https://moderaterna.se/var-politik/djurskydd
+canonicalUrl: https://moderaterna.se/var-politik/djurskydd
+fetchedAt: 2026-08-22T13:52:20.721Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - environment
+  - cost-of-living
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

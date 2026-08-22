@@ -1,21 +1,27 @@
 ---
 type: spec
 id: moderaterna-var-politik-forebyggande-arbete
-title: "Förebyggande arbete"
+title: Förebyggande arbete
 status: draft
 updated: 2026-08-22
-summary: "Sveriges styrka är samhällskontraktet: att den som gör rätt för sig också kan lita på att andra gör det. Många upplever att det har brustit. Moderaterna står på brottsoffrets sida när brott begås, men det förebyggande arbetet är lika viktigt. Med tydligare, tidigare och tätare in"
+summary: "Sveriges styrka är samhällskontraktet: att den som gör rätt för sig också kan
+  lita på att andra gör det. Många upplever att det har brustit. Moderaterna står på
+  brottsoffrets sida när brott begås, men det förebyggande arbetet är lika viktigt. Med
+  tydligare, tidigare och tätare in"
 jurisdiction: SE
 sources:
-  - title: "Förebyggande arbete"
-    url: https://moderaterna.se/var-politik/forebyggande-arbete/
-tags: [elderly-welfare]
+  - title: Förebyggande arbete
+    url: https://moderaterna.se/var-politik/forebyggande-arbete
+tags:
+  - crime-and-justice
+  - education
+  - social-welfare
 party: moderaterna
 clusters:
-  - elderly-welfare
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-forebyggande-arbete.md
-sourceDigest: "sha256-300632d67752933c"
+sourceDigest: sha256-300632d67752933c
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

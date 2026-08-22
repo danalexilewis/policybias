@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "A-kassa"
-sourceUrl: "https://moderaterna.se/var-politik/a-kassa-3"
-canonicalUrl: "https://moderaterna.se/var-politik/a-kassa-3"
-fetchedAt: "2026-08-22T13:52:00.655Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: A-kassa
+sourceUrl: https://moderaterna.se/var-politik/a-kassa-3
+canonicalUrl: https://moderaterna.se/var-politik/a-kassa-3
+fetchedAt: 2026-08-22T13:52:00.655Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

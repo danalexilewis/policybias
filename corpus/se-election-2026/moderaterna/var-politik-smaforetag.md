@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Småföretag"
-sourceUrl: "https://moderaterna.se/var-politik/smaforetag"
-canonicalUrl: "https://moderaterna.se/var-politik/smaforetag"
-fetchedAt: "2026-08-22T13:55:32.786Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Småföretag
+sourceUrl: https://moderaterna.se/var-politik/smaforetag
+canonicalUrl: https://moderaterna.se/var-politik/smaforetag
+fetchedAt: 2026-08-22T13:55:32.786Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Yrkesutbildning"
-sourceUrl: "https://moderaterna.se/var-politik/yrkesutbildning"
-canonicalUrl: "https://moderaterna.se/var-politik/yrkesutbildning"
-fetchedAt: "2026-08-22T13:57:10.973Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Yrkesutbildning
+sourceUrl: https://moderaterna.se/var-politik/yrkesutbildning
+canonicalUrl: https://moderaterna.se/var-politik/yrkesutbildning
+fetchedAt: 2026-08-22T13:57:10.973Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Yrkesutbildning

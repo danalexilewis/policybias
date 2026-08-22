@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Samlingspartiet Moderaterna"
-sourceUrl: "https://moderaterna.se/var-politik/tag"
-canonicalUrl: "https://moderaterna.se/"
-fetchedAt: "2026-08-22T13:56:35.580Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Samlingspartiet Moderaterna
+sourceUrl: https://moderaterna.se/var-politik/tag
+canonicalUrl: https://moderaterna.se/
+fetchedAt: 2026-08-22T13:56:35.580Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## Senaste nytt

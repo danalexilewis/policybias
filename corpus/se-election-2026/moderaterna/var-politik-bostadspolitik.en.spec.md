@@ -4,22 +4,22 @@ id: moderaterna-var-politik-bostadspolitik
 title: Housing policy
 status: draft
 updated: 2026-08-22
-summary: Sweden should be a country where young people can move away from home
-  and where more families can buy their own house - when you make an effort, you
-  should be able to take the next step in life. The moderate-led government
-  makes it easier to build, cheaper to borrow and safer to live.
+summary: Sweden should be a country where young people can move away from home and where
+  more families can buy their own house - when you make an effort, you should be able to
+  take the next step in life. The moderate-led government makes it easier to build,
+  cheaper to borrow and safer to live.
 jurisdiction: SE
 sources:
   - title: Bostadspolitik
-    url: https://moderaterna.se/var-politik/bostadspolitik/
+    url: https://moderaterna.se/var-politik/bostadspolitik
 tags:
-  - schools-education
+  - housing
 party: moderaterna
 clusters:
-  - schools-education
-money: no-figure
+  - economy-tax
+money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-bostadspolitik.md
-sourceDigest: "sha256-c1c5e6f1d4bbf0f0"
+sourceDigest: sha256-c1c5e6f1d4bbf0f0
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -27,7 +27,7 @@ lang: en
 translationOf: moderaterna-bostadspolitik
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-b84bead0d6ff2ca1"
+sourceSpecDigest: sha256-b84bead0d6ff2ca1
 ---
 
 # What the page states

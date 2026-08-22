@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Havsmiljö"
-sourceUrl: "https://moderaterna.se/var-politik/havsmiljo"
-canonicalUrl: "https://moderaterna.se/var-politik/havsmiljo"
-fetchedAt: "2026-08-22T13:53:09.098Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Havsmiljö
+sourceUrl: https://moderaterna.se/var-politik/havsmiljo
+canonicalUrl: https://moderaterna.se/var-politik/havsmiljo
+fetchedAt: 2026-08-22T13:53:09.098Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 [Gå direkt till innehåll](#primary)

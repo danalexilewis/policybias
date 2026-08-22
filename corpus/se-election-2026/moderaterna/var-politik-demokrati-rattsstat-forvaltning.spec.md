@@ -1,21 +1,26 @@
 ---
 type: spec
 id: moderaterna-var-politik-demokrati-rattsstat-forvaltning
-title: "Demokrati, rättsstat och förvaltning"
+title: Demokrati, rättsstat och förvaltning
 status: draft
 updated: 2026-08-22
-summary: "Sveriges ska vara en rättsstat där lagar gäller lika för alla och där människor kan lita på att det offentliga fungerar. Det är grunden för samhällskontraktet. Den moderatledda regeringen stärker våra grundlagar, effektiviserar förvaltningen och bekämpar den grova organiserade kr"
+summary: Sveriges ska vara en rättsstat där lagar gäller lika för alla och där människor
+  kan lita på att det offentliga fungerar. Det är grunden för samhällskontraktet. Den
+  moderatledda regeringen stärker våra grundlagar, effektiviserar förvaltningen och
+  bekämpar den grova organiserade kr
 jurisdiction: SE
 sources:
-  - title: "Demokrati, rättsstat och förvaltning"
-    url: https://moderaterna.se/var-politik/demokrati-rattsstat-forvaltning/
-tags: [crime-justice]
+  - title: Demokrati, rättsstat och förvaltning
+    url: https://moderaterna.se/var-politik/demokrati-rattsstat-forvaltning
+tags:
+  - crime-and-justice
+  - democracy
 party: moderaterna
 clusters:
   - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-demokrati-rattsstat-forvaltning.md
-sourceDigest: "sha256-8585a45b60485ca7"
+sourceDigest: sha256-8585a45b60485ca7
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

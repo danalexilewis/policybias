@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Pensioner"
-sourceUrl: "https://moderaterna.se/var-politik/pensioner-2"
-canonicalUrl: "https://moderaterna.se/var-politik/pensioner-2"
-fetchedAt: "2026-08-22T13:54:34.510Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Pensioner
+sourceUrl: https://moderaterna.se/var-politik/pensioner-2
+canonicalUrl: https://moderaterna.se/var-politik/pensioner-2
+fetchedAt: 2026-08-22T13:54:34.510Z
+contentType: html
+via: party-site
+tags:
+  - pensions
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

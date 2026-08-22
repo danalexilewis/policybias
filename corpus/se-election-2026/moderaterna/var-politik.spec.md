@@ -1,21 +1,22 @@
 ---
 type: spec
 id: moderaterna-var-politik
-title: "På hårt arbetande människors sida"
+title: På hårt arbetande människors sida
 status: draft
 updated: 2026-08-22
-summary: "Du hittar oss här på sociala medier"
+summary: Du hittar oss här på sociala medier
 jurisdiction: SE
 sources:
-  - title: "På hårt arbetande människors sida"
+  - title: På hårt arbetande människors sida
     url: https://moderaterna.se/var-politik/
-tags: [health-care]
+tags:
+  - other
 party: moderaterna
 clusters:
-  - health-care
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik.md
-sourceDigest: "sha256-0d0358eaa55b4134"
+sourceDigest: sha256-0d0358eaa55b4134
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

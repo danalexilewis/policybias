@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Sjukvård"
-sourceUrl: "https://moderaterna.se/var-politik/sjukvard"
-canonicalUrl: "https://moderaterna.se/var-politik/sjukvard"
-fetchedAt: "2026-08-22T13:55:22.429Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Sjukvård
+sourceUrl: https://moderaterna.se/var-politik/sjukvard
+canonicalUrl: https://moderaterna.se/var-politik/sjukvard
+fetchedAt: 2026-08-22T13:55:22.429Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## Sjukvård

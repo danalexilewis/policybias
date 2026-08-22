@@ -1,17 +1,18 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Demokrati, rättsstat och förvaltning"
-sourceUrl: "https://moderaterna.se/var-politik/demokrati-rattsstat-forvaltning"
-canonicalUrl: "https://moderaterna.se/var-politik/demokrati-rattsstat-forvaltning"
-fetchedAt: "2026-08-22T13:49:56.525Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: moderaterna
+title: Demokrati, rättsstat och förvaltning
+sourceUrl: https://moderaterna.se/var-politik/demokrati-rattsstat-forvaltning
+canonicalUrl: https://moderaterna.se/var-politik/demokrati-rattsstat-forvaltning
+fetchedAt: 2026-08-22T13:49:56.525Z
+contentType: html
+via: party-site
 tags:
-  - "crime-justice"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - crime-and-justice
+  - democracy
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 [Gå direkt till innehåll](#primary)

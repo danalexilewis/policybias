@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "Matpriser"
-sourceUrl: "https://moderaterna.se/var-politik/matpriser"
-canonicalUrl: "https://moderaterna.se/var-politik/matpriser"
-fetchedAt: "2026-08-22T13:54:14.433Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: moderaterna
+title: Matpriser
+sourceUrl: https://moderaterna.se/var-politik/matpriser
+canonicalUrl: https://moderaterna.se/var-politik/matpriser
+fetchedAt: 2026-08-22T13:54:14.433Z
+contentType: html
+via: party-site
+tags:
+  - cost-of-living
+  - agriculture
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 [Gå direkt till innehåll](#primary)

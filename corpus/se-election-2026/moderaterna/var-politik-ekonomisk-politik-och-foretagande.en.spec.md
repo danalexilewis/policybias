@@ -4,23 +4,22 @@ id: moderaterna-var-politik-ekonomisk-politik-och-foretagande
 title: Economic policy and entrepreneurship
 status: draft
 updated: 2026-08-22
-summary: Sweden must have the highest standard of living in the EU within ten
-  years. It requires a growing economy where more companies can grow and hire -
-  and where people get to keep more of their own wages, because it is both fair
-  and strengthens the economy, in a way that is directly felt in people's
-  everyday lives.
+summary: Sweden must have the highest standard of living in the EU within ten years. It
+  requires a growing economy where more companies can grow and hire - and where people
+  get to keep more of their own wages, because it is both fair and strengthens the
+  economy, in a way that is directly felt in people's everyday lives.
 jurisdiction: SE
 sources:
   - title: Ekonomisk politik och företagande
-    url: https://moderaterna.se/var-politik/ekonomisk-politik-och-foretagande/
+    url: https://moderaterna.se/var-politik/ekonomisk-politik-och-foretagande
 tags:
-  - economy-tax
+  - economy
 party: moderaterna
 clusters:
   - economy-tax
-money: no-figure
+money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-ekonomisk-politik-och-foretagande.md
-sourceDigest: "sha256-e165259e1005eaf1"
+sourceDigest: sha256-e165259e1005eaf1
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -28,7 +27,7 @@ lang: en
 translationOf: moderaterna-ekonomisk-politik-och-foretagande
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-415790611a9fba8e"
+sourceSpecDigest: sha256-415790611a9fba8e
 ---
 
 # What the page states

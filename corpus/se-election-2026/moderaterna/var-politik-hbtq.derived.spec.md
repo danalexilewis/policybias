@@ -1,21 +1,24 @@
 ---
 type: spec
 id: moderaterna-var-politik-hbtq-derived
-title: "HBTQ-frågor (reading)"
+title: HBTQ-frågor (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of HBTQ-frågor"
+summary: Our reading of HBTQ-frågor
 jurisdiction: SE
 sources:
-  - title: "HBTQ-frågor"
-    url: https://moderaterna.se/var-politik/hbtq/
-tags: [defence-security]
+  - title: HBTQ-frågor
+    url: https://moderaterna.se/var-politik/hbtq
+tags:
+  - crime-and-justice
+  - immigration
+  - social-welfare
 party: moderaterna
 clusters:
-  - defence-security
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-hbtq.md
-sourceDigest: "sha256-32d38e4772a72af0"
+sourceDigest: sha256-32d38e4772a72af0
 derivesFrom: moderaterna-var-politik-hbtq
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

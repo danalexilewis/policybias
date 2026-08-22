@@ -1,17 +1,19 @@
 ---
-type: "crawled-page"
-party: "moderaterna"
-title: "HBTQ-frågor"
-sourceUrl: "https://moderaterna.se/var-politik/hbtq"
-canonicalUrl: "https://moderaterna.se/var-politik/hbtq"
-fetchedAt: "2026-08-22T13:50:27.469Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: moderaterna
+title: HBTQ-frågor
+sourceUrl: https://moderaterna.se/var-politik/hbtq
+canonicalUrl: https://moderaterna.se/var-politik/hbtq
+fetchedAt: 2026-08-22T13:50:27.469Z
+contentType: html
+via: party-site
 tags:
-  - "defence-security"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - crime-and-justice
+  - immigration
+  - social-welfare
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 [Gå direkt till innehåll](#primary)

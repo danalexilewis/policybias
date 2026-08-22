@@ -1,21 +1,23 @@
 ---
 type: spec
 id: moderaterna-var-politik-demokrati-rattsstat-forvaltning-derived
-title: "Demokrati, rättsstat och förvaltning (reading)"
+title: Demokrati, rättsstat och förvaltning (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Demokrati, rättsstat och förvaltning"
+summary: Our reading of Demokrati, rättsstat och förvaltning
 jurisdiction: SE
 sources:
-  - title: "Demokrati, rättsstat och förvaltning"
-    url: https://moderaterna.se/var-politik/demokrati-rattsstat-forvaltning/
-tags: [crime-justice]
+  - title: Demokrati, rättsstat och förvaltning
+    url: https://moderaterna.se/var-politik/demokrati-rattsstat-forvaltning
+tags:
+  - crime-and-justice
+  - democracy
 party: moderaterna
 clusters:
   - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-demokrati-rattsstat-forvaltning.md
-sourceDigest: "sha256-8585a45b60485ca7"
+sourceDigest: sha256-8585a45b60485ca7
 derivesFrom: moderaterna-var-politik-demokrati-rattsstat-forvaltning
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

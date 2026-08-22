@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Krisberedskap och samhällsskydd"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/krisberedskap-och-samhallsskydd"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/krisberedskap-och-samhallsskydd"
-fetchedAt: "2026-08-22T14:51:40.616Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Krisberedskap och samhällsskydd
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/krisberedskap-och-samhallsskydd
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/krisberedskap-och-samhallsskydd
+fetchedAt: 2026-08-22T14:51:40.616Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vi lever i ett sårbart samhälle. De senaste åren har det blivit tydligt vilka civila hot som finns mot Sverige, som cyberattacker, splittring mellan olika grupper i samhället, naturkatastrofer i klimatförändringens spår, kriminalitet, påverkansförsök och falska nyheter och inte minst, pandemier. Men också hur en militär konflikt i vårt närområde påverkar Sverige.**

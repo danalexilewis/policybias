@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Elpriset"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/elpriset"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/elpriset"
-fetchedAt: "2026-08-22T14:49:24.175Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Elpriset
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/elpriset
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/elpriset
+fetchedAt: 2026-08-22T14:49:24.175Z
+contentType: html
+via: party-site
+tags:
+  - energy
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Hushåll och företag knäcks av snabbt skenande elpriser. Elnätsavgiften höjs återigen och har nu mer än fördubblats under de senaste tio åren. Samtidigt kammar eljättarna hem storvinster. Vänsterpartiet vill stoppa rånet genom att sänka och stabilisera elkostnaderna.**

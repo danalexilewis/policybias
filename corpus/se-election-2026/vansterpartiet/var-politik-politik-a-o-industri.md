@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Industri"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/industri"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/industri"
-fetchedAt: "2026-08-22T14:51:00.608Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Industri
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/industri
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/industri
+fetchedAt: 2026-08-22T14:51:00.608Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Industrin måste göras mer hållbar. Den gröna omställningen är inte ett hot, utan den är vår chans att bygga något bättre. Vi har just nu alla möjligheter att göra rätt. Vänsterpartiet vill därför se kraftigt ökade investeringar i att ställa om Sverige. Vi vill se en övergång till förnybar energiproduktion och smarta elnät, satsningar på järnvägar, elvägar, energirenoveringar och nybyggnation av lokaler och klimatsmarta bostäder. Det är satsningar som i hög grad kommer att påverka industrin.**

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Fler jobb och minskad arbetslöshet"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/jobb-och-arbetsloshet"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/jobb-och-arbetsloshet"
-fetchedAt: "2026-08-22T14:49:56.451Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Fler jobb och minskad arbetslöshet
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/jobb-och-arbetsloshet
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/jobb-och-arbetsloshet
+fetchedAt: 2026-08-22T14:49:56.451Z
+contentType: html
+via: party-site
+tags:
+  - employment
+  - transport
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vårt mål är att alla som har möjlighet att arbeta ska kunna göra det. Det går att göra något åt arbetslösheten, men det kräver aktiva politiska beslut.**

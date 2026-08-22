@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "AI"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ai"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ai"
-fetchedAt: "2026-08-22T14:48:26.290Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: vansterpartiet
+title: AI
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ai
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ai
+fetchedAt: 2026-08-22T14:48:26.290Z
+contentType: html
+via: party-site
 tags:
-  - "elderly-welfare"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - democracy
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Mellan 2024 och 2025 ökade andelen vuxna svenskars användning av artificiell intelligens (AI) med 48%. Det innebär att idag använder mer än var tredje svensk generativ AI. AI har stor potential att förenkla och effektivisera våra liv. Just därför är det också viktigt att den regleras, så att den inte används på ett riskabelt, integritetskränkande eller repressivt sätt. Vänsterpartiet vill ta vara på den nya tekniken samtidigt som vi balanserar de utmaningar som följer med den.**

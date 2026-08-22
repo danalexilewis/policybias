@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Droger och beroende"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/droger-och-beroende"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/droger-och-beroende"
-fetchedAt: "2026-08-22T14:49:14.299Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Droger och beroende
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/droger-och-beroende
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/droger-och-beroende
+fetchedAt: 2026-08-22T14:49:14.299Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Alla har rätt till en bra hälsa och vård. Idag har ungefär 100 000 personer ett missbruk av narkotika eller läkemedel. Många våldsbrott begås under påverkan av droger. Tillgången till droger måste begränsas kraftfullt och det preventiva arbetet stärkas.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Skatteflykt"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/skatteflykt"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/skatteflykt"
-fetchedAt: "2026-08-22T14:53:07.770Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Skatteflykt
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/skatteflykt
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/skatteflykt
+fetchedAt: 2026-08-22T14:53:07.770Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Skatteflykt är ett stort samhällsproblem. Stora resurser försvinner och det blir vi andra som får stå för notan. Lågt räknat går Sverige årligen miste om ca 30 miljarder kronor i uteblivna skatteintäkter varje år.**

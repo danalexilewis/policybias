@@ -1,17 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Arbetsmiljö"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmiljo"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmiljo"
-fetchedAt: "2026-08-22T14:48:37.375Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: vansterpartiet
+title: Arbetsmiljö
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmiljo
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmiljo
+fetchedAt: 2026-08-22T14:48:37.375Z
+contentType: html
+via: party-site
 tags:
-  - "defence-security"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - employment
+  - education
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Alla människor har rätt att arbeta i en trygg och säker arbetsmiljö. Idag har många en arbetsmiljö som präglas av stress, låg bemanning, tunga lyft och monotona arbetsuppgifter. Detta märks inte minst i kvinnodominerade yrken som inom sjukvården, skolan, socialtjänsten och äldreomsorgen. Det vill vi ändra på.**

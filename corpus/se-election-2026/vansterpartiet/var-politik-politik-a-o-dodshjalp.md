@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Dödshjälp"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/dodshjalp"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/dodshjalp"
-fetchedAt: "2026-08-22T14:49:17.719Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Dödshjälp
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/dodshjalp
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/dodshjalp
+fetchedAt: 2026-08-22T14:49:17.719Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Frågan om aktiv dödshjälp innebär etiska överväganden som mycket grundligt måste göras och som talar för att dödshjälp står i stark kontrast till det som är vårdens främsta uppgift – att bota, lindra och trösta.**

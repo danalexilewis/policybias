@@ -1,21 +1,22 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-arbetsmarknad-derived
-title: "Arbetsmarknadspolitik (reading)"
+title: Arbetsmarknadspolitik (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Arbetsmarknadspolitik"
+summary: Our reading of Arbetsmarknadspolitik
 jurisdiction: SE
 sources:
-  - title: "Arbetsmarknadspolitik"
-    url: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmarknad/
-tags: [energy-power]
+  - title: Arbetsmarknadspolitik
+    url: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmarknad
+tags:
+  - employment
 party: vansterpartiet
 clusters:
-  - energy-power
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-arbetsmarknad.md
-sourceDigest: "sha256-9fee8fd04ff7bf5f"
+sourceDigest: sha256-9fee8fd04ff7bf5f
 derivesFrom: vansterpartiet-var-politik-politik-a-o-arbetsmarknad
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

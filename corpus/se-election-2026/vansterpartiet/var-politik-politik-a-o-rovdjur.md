@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Rovdjur"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/rovdjur"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/rovdjur"
-fetchedAt: "2026-08-22T14:52:53.699Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Rovdjur
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/rovdjur
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/rovdjur
+fetchedAt: 2026-08-22T14:52:53.699Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Våra stora rovdjur i Sverige har en stor betydelse för att vår natur ska vara i balans. Att det finns stabila bestånd av björn, varg, lodjur och järv kan vara helt avgörande för att även andra arter kan existera. Förvaltningen av våra stora rovdjur måste därför enligt Vänsterpartiet vara långsiktigt hållbar, baserad på vetenskapligt underlag och i linje med vår skyldighet att bevara biologisk mångfald.**

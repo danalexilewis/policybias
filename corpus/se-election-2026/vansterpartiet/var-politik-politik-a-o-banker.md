@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Banker"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/banker"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/banker"
-fetchedAt: "2026-08-22T14:48:44.094Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Banker
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/banker
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/banker
+fetchedAt: 2026-08-22T14:48:44.094Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Bankerna ska vara till för vanligt folk, inte bara för storföretagen. Därför har Vänsterpartiet lagt en rad förslag för att stärka kundernas ställning gentemot bankerna. Vi vill också hindra bankerna från att agera så att samhällsekonomin hotas.**

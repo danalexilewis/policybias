@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Strandskyddet"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/strandskyddet"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/strandskyddet"
-fetchedAt: "2026-08-22T14:53:23.072Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Strandskyddet
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/strandskyddet
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/strandskyddet
+fetchedAt: 2026-08-22T14:53:23.072Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Strandskyddet behövs för att vi alla ska ha tillgång till sjöar och vattendrag.**

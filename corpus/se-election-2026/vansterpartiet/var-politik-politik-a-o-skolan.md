@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Skolan"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/skolan"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/skolan"
-fetchedAt: "2026-08-22T14:53:13.800Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Skolan
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/skolan
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/skolan
+fetchedAt: 2026-08-22T14:53:13.800Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Svensk skola ska vara jämlik, alla barn och unga ska ges samma rätt till utbildning.**

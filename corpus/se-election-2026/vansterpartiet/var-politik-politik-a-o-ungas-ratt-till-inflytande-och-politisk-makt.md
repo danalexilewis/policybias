@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Ungas rätt till inflytande och politisk makt"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ungas-ratt-till-inflytande-och-politisk-makt"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ungas-ratt-till-inflytande-och-politisk-makt"
-fetchedAt: "2026-08-22T14:53:46.442Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Ungas rätt till inflytande och politisk makt
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ungas-ratt-till-inflytande-och-politisk-makt
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ungas-ratt-till-inflytande-och-politisk-makt
+fetchedAt: 2026-08-22T14:53:46.442Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla ungdomar i Sverige ska ha goda levnadsvillkor, makt att forma sina liv och inflytande över samhällsutvecklingen. Genom en aktiv politik med både breda välfärdssatsningar och riktade insatser för unga kan vi ge alla en bra start i livet och möta de utmaningar som ungdomar ställs inför. I dag handlar dessa utmaningar t.ex. om hög ungdomsarbetslöshet, bostadsbrist, osäkra arbetsvillkor, psykisk ohälsa samt bristande politiskt inflytande. Den nationella ungdomspolitiken omfattar unga i åldern 13–24. Många av våra förslag kring utbildning, bostad och arbete kan man hitta under andra rubriker här på hemsidan.**

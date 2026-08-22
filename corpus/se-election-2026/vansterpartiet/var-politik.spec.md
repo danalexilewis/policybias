@@ -1,21 +1,25 @@
 ---
 type: spec
 id: vansterpartiet-var-politik
-title: "Vår politik"
+title: Vår politik
 status: draft
 updated: 2026-08-22
-summary: "För att ge dig den bästa upplevelsen använder vi tekniker som cookies för att lagra och/eller få åtkomst till information på din enhet. Om du samtycker till dessa tekniker kan vi behandla data, såsom surfbeteende eller unika identifierare, på denna webbplats. Om du inte samtycker"
+summary: För att ge dig den bästa upplevelsen använder vi tekniker som cookies för att
+  lagra och/eller få åtkomst till information på din enhet. Om du samtycker till dessa
+  tekniker kan vi behandla data, såsom surfbeteende eller unika identifierare, på denna
+  webbplats. Om du inte samtycker
 jurisdiction: SE
 sources:
-  - title: "Vår politik"
-    url: https://www.vansterpartiet.se/var-politik/
-tags: [schools-education]
+  - title: Vår politik
+    url: https://www.vansterpartiet.se/var-politik
+tags:
+  - other
 party: vansterpartiet
 clusters:
-  - schools-education
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik.md
-sourceDigest: "sha256-7d24abd94d031153"
+sourceDigest: sha256-7d24abd94d031153
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Kriminalitet och kriminalvård"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/kriminalitet-och-kriminalvard"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/kriminalitet-och-kriminalvard"
-fetchedAt: "2026-08-22T14:51:37.435Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Kriminalitet och kriminalvård
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/kriminalitet-och-kriminalvard
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/kriminalitet-och-kriminalvard
+fetchedAt: 2026-08-22T14:51:37.435Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Det bästa brottsförebyggande arbetet börjar med en stark välfärd som skapar ett jämlikt samhälle, har resurser att fånga upp unga tidigt och som kan ge föräldrar det stöd de behöver. Men när människor begår brott måste samhället självklart sätta gränser i form av straff. Det är viktigt att straffen motsvarar brottens allvarlighet. Att stoppa nyrekryteringen av barn och unga in i kriminalitet är centralt. Narkotika och vapen måste stoppas redan vid landets gränser.**

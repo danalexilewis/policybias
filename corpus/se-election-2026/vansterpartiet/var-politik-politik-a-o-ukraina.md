@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Ukraina"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ukraina"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ukraina"
-fetchedAt: "2026-08-22T14:53:43.205Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Ukraina
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ukraina
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ukraina
+fetchedAt: 2026-08-22T14:53:43.205Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Rysslands anfallskrig mot Ukraina är folkrättsvidrigt och en humanitär katastrof. Det ställer nya krav på Europas länder, däribland Sverige, att agera för folkrätt och alla länders rätt att försvara sig. Den ryska invasionen är en attack mot Ukrainas territoriella integritet, suveränitet och kultur och innebär såklart ett stort mänskligt lidande för det ukrainska folket.**

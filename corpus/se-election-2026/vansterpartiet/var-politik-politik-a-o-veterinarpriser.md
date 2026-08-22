@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Veterinärpriser"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/veterinarpriser"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/veterinarpriser"
-fetchedAt: "2026-08-22T14:53:59.081Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Veterinärpriser
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/veterinarpriser
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/veterinarpriser
+fetchedAt: 2026-08-22T14:53:59.081Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Den årliga djurskyddsrapporten från Jordbruksverket för 2024 redovisar inspel från länsstyrelserna om hur höga kostnader för veterinärvård samt djurhållares försämrade ekonomi bidragit till att andelen brister gällande veterinärvård varit hög under flera år. Enligt länsstyrelserna har vissa djurhållare också undvikit att ta en svårt sjuk eller skadad hund eller katt till veterinär av rädsla för att behöva avliva djuret. Det har även blivit vanligare att djurhållare vill att djuret ska få självdö hemma, och av den anledningen inte sökt vård hos veterinär.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Funktionsrätt"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/funktionsratt"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/funktionsratt"
-fetchedAt: "2026-08-22T14:50:08.108Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Funktionsrätt
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/funktionsratt
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/funktionsratt
+fetchedAt: 2026-08-22T14:50:08.108Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla människor har lika värde och alla människor har kunskaper, förmågor och erfarenheter som är viktiga för samhället. Den som lever sitt liv med en normbrytande funktionalitet ska ha samma möjlighet till ett gott liv som alla andra.**

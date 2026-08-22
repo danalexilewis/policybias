@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "A-kassa"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/a-kassa"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/a-kassa"
-fetchedAt: "2026-08-22T14:48:19.167Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: vansterpartiet
+title: A-kassa
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/a-kassa
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/a-kassa
+fetchedAt: 2026-08-22T14:48:19.167Z
+contentType: html
+via: party-site
 tags:
-  - "crime-justice"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - employment
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **En trygg inkomst ger människor större frihet. Arbetslösheten är ett samhällsmisslyckande och ett stort slöseri med mänskliga resurser. I osäkra tider måste våra socialförsäkringar bidra med trygghet. A-kassan måste stärkas om människor ska kunna lita på den. För att den som förlorar jobbet ska kunna få goda möjligheter att antingen ställa om eller hitta ett jobb som motsvarar ens kompetens behöver a‑kassan ge en rimlig ersättning**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Trygg på jobbet och trygga anställningar"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/trygg-pa-jobbet-och-trygga-anstallningar"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/trygg-pa-jobbet-och-trygga-anstallningar"
-fetchedAt: "2026-08-22T14:53:39.136Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Trygg på jobbet och trygga anställningar
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/trygg-pa-jobbet-och-trygga-anstallningar
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/trygg-pa-jobbet-och-trygga-anstallningar
+fetchedAt: 2026-08-22T14:53:39.136Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla vill känna sig trygga på jobbet. Man vill veta att man har ett jobb att gå till imorgon, vilka tider det är man jobbar, hur mycket man tjänar från månad till månad, att man kan vara borta och vara sjuk när man behöver och att man inte kan få sparken så fort chefen känner för det.**

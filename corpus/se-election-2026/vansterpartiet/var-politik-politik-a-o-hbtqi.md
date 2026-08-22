@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "hbtqia+"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/hbtqi"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/hbtqi"
-fetchedAt: "2026-08-22T14:50:40.057Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: hbtqia+
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/hbtqi
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/hbtqi
+fetchedAt: 2026-08-22T14:50:40.057Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla människor ska ha samma rättigheter oavsett sexuell läggning, könsidentitet eller könsuttryck.**

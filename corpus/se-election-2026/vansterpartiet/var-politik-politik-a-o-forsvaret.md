@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Försvaret"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/forsvaret"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/forsvaret"
-fetchedAt: "2026-08-22T14:50:20.827Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Försvaret
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/forsvaret
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/forsvaret
+fetchedAt: 2026-08-22T14:50:20.827Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Det säkerhetspolitiska läget är allvarligare än på mycket länge. Det handlar både om Rysslands anfallskrig mot Ukraina, naturkatastrofer, cyberattacker, splittring mellan olika grupper i samhället, kriminalitet, påverkansförsök och falska nyheter. Det är hot som måste mötas av ett robust och starkt samhälle.**

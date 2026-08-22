@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Bistånd"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/bistand"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/bistand"
-fetchedAt: "2026-08-22T14:48:59.468Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Bistånd
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/bistand
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/bistand
+fetchedAt: 2026-08-22T14:48:59.468Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet vill se en rättvis och jämlik värld där alla människor har samma möjligheter att leva de liv de vill. Utvecklings- och biståndspolitiken är viktiga medel för att nå dit. Vi vill att Sverige ska ta tillbaka enprocentsmålet i biståndet.**

@@ -4,21 +4,21 @@ id: vansterpartiet-var-politik-politik-a-o-antirasism
 title: Anti-racism
 status: draft
 updated: 2026-08-22
-summary: The left party wants a society for everyone, free from racism. Racism
-  sorts and subordinates people and therefore racism is an obstacle to justice
-  and equality.
+summary: The left party wants a society for everyone, free from racism. Racism sorts and
+  subordinates people and therefore racism is an obstacle to justice and equality.
 jurisdiction: SE
 sources:
   - title: Antirasism
-    url: https://www.vansterpartiet.se/var-politik/politik-a-o/antirasism/
+    url: https://www.vansterpartiet.se/var-politik/politik-a-o/antirasism
 tags:
-  - climate-environment
+  - gender-equality
+  - immigration
 party: vansterpartiet
 clusters:
-  - climate-environment
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-antirasism.md
-sourceDigest: "sha256-4c0ba0bbddbe18d6"
+sourceDigest: sha256-4c0ba0bbddbe18d6
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -26,7 +26,7 @@ lang: en
 translationOf: vansterpartiet-antirasism
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-7c099116eb0c7322"
+sourceSpecDigest: sha256-7c099116eb0c7322
 ---
 
 # What the page states

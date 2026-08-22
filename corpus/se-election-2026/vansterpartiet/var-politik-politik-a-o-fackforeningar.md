@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Fackföreningar"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/fackforeningar"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/fackforeningar"
-fetchedAt: "2026-08-22T14:49:45.332Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Fackföreningar
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/fackforeningar
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/fackforeningar
+fetchedAt: 2026-08-22T14:49:45.332Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Starka fackföreningar med många medlemmar är avgörande för trygghet på jobbet, goda arbetsvillkor och bra löner.**

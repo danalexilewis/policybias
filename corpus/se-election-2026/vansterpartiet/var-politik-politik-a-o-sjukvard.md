@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Sjukvård"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/sjukvard"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/sjukvard"
-fetchedAt: "2026-08-22T14:53:05.159Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Sjukvård
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/sjukvard
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/sjukvard
+fetchedAt: 2026-08-22T14:53:05.159Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla har rätt till en bra och tillgänglig sjukvård som är anpassad efter den enskildes behov. Vänsterpartiet värnar en vård som finns där i alla delar av livet och som är tillgänglig över hela landet.**

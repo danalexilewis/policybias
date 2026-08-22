@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Klimatkrisen"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/klimat"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/klimat"
-fetchedAt: "2026-08-22T14:51:28.512Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Klimatkrisen
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/klimat
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/klimat
+fetchedAt: 2026-08-22T14:51:28.512Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Klimatkrisen är akut och vi måste snabbt få ned utsläppen. Det finns en stark rörelse och folklig opinion för detta och för att bygga Sverige starkt genom ett hållbart och tryggare samhälle som är mindre sårbart. Regeringen och Sverigedemokraterna har valt motsatt väg med en politik som ökar utsläppen och som försvårar för människor att leva klimatsmart.**

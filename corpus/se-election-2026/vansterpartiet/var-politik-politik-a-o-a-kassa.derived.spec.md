@@ -1,21 +1,22 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-a-kassa-derived
-title: "A-kassa (reading)"
+title: A-kassa (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of A-kassa"
+summary: Our reading of A-kassa
 jurisdiction: SE
 sources:
-  - title: "A-kassa"
-    url: https://www.vansterpartiet.se/var-politik/politik-a-o/a-kassa/
-tags: [crime-justice]
+  - title: A-kassa
+    url: https://www.vansterpartiet.se/var-politik/politik-a-o/a-kassa
+tags:
+  - employment
 party: vansterpartiet
 clusters:
-  - crime-justice
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-a-kassa.md
-sourceDigest: "sha256-28dddd01540dd0b5"
+sourceDigest: sha256-28dddd01540dd0b5
 derivesFrom: vansterpartiet-var-politik-politik-a-o-a-kassa
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

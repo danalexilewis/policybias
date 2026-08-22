@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Barns och ungas rätt i samhällets vård"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/barns-och-ungas-ratt-i-samhallets-vard"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/barns-och-ungas-ratt-i-samhallets-vard"
-fetchedAt: "2026-08-22T14:48:50.262Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Barns och ungas rätt i samhällets vård
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/barns-och-ungas-ratt-i-samhallets-vard
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/barns-och-ungas-ratt-i-samhallets-vard
+fetchedAt: 2026-08-22T14:48:50.262Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **I ett jämlikt samhälle är allas rättigheter lika viktiga och därför måste barns rättigheter stärkas.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Hyresrätter och allmännyttan"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/hyresratter"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/hyresratter"
-fetchedAt: "2026-08-22T14:50:47.630Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Hyresrätter och allmännyttan
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/hyresratter
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/hyresratter
+fetchedAt: 2026-08-22T14:50:47.630Z
+contentType: html
+via: party-site
+tags:
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla människor behöver någonstans att bo, inte bara de som har mycket pengar. Därför vill Vänsterpartiet att det ska byggas fler hyresrätter med rimliga hyror. Bostäder som vanligt folk har råd med.**

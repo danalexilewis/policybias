@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Psykisk ohälsa"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/psykisk-ohalsa"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/psykisk-ohalsa"
-fetchedAt: "2026-08-22T14:52:41.399Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Psykisk ohälsa
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/psykisk-ohalsa
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/psykisk-ohalsa
+fetchedAt: 2026-08-22T14:52:41.399Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Psykisk ohälsa kan drabba vem som helst. Därför måste alla som drabbas få en bra vård, inte bara de som har råd att betala psykologsamtal ur egen ficka.**

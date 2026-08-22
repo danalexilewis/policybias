@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "RUT och ROT"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/rut-och-rot"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/rut-och-rot"
-fetchedAt: "2026-08-22T14:52:57.022Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: RUT och ROT
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/rut-och-rot
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/rut-och-rot
+fetchedAt: 2026-08-22T14:52:57.022Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet vill ha ett rättvist och robust skattesystem. Idag finns flera avdrag och skattereduktioner som i stor utsträckning går till de med höga inkomster. Dit hör t.ex. rut- och rotavdragen.**

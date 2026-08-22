@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Norrlandsrapport_WEBB-7bb10d59.pdf"
-sourceUrl: "https://www.vansterpartiet.se/wp-content/uploads/2025/09/Norrlandsrapport_WEBB.pdf"
-canonicalUrl: "https://www.vansterpartiet.se/wp-content/uploads/2025/09/Norrlandsrapport_WEBB.pdf"
-fetchedAt: "2026-08-22T14:51:55.554Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Norrlandsrapport_WEBB-7bb10d59.pdf
+sourceUrl: https://www.vansterpartiet.se/wp-content/uploads/2025/09/Norrlandsrapport_WEBB.pdf
+canonicalUrl: https://www.vansterpartiet.se/wp-content/uploads/2025/09/Norrlandsrapport_WEBB.pdf
+fetchedAt: 2026-08-22T14:51:55.554Z
+contentType: pdf
+via: party-site
+tags:
+  - social-welfare
+  - employment
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Norrlandsrapport_WEBB-7bb10d59.pdf

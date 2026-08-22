@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Högskolan och yrkeshögskolan"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/hogskolan-och-yrkeshogskolan"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/hogskolan-och-yrkeshogskolan"
-fetchedAt: "2026-08-22T14:50:54.334Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Högskolan och yrkeshögskolan
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/hogskolan-och-yrkeshogskolan
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/hogskolan-och-yrkeshogskolan
+fetchedAt: 2026-08-22T14:50:54.334Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Högskolans huvuduppgift är att förmedla kunskap och bildning. Tanken bakom yrkeshögskolans utbildningar är att de ska finnas när och där de behövs. Båda är viktiga för att skapa välstånd och ett öppet och demokratiskt samhälle.**

@@ -1,21 +1,22 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-abort-derived
-title: "Abort (reading)"
+title: Abort (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Abort"
+summary: Our reading of Abort
 jurisdiction: SE
 sources:
-  - title: "Abort"
-    url: https://www.vansterpartiet.se/var-politik/politik-a-o/abort/
-tags: [migration-integration]
+  - title: Abort
+    url: https://www.vansterpartiet.se/var-politik/politik-a-o/abort
+tags:
+  - healthcare
 party: vansterpartiet
 clusters:
-  - migration-integration
+  - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-abort.md
-sourceDigest: "sha256-a74649dd054bf626"
+sourceDigest: sha256-a74649dd054bf626
 derivesFrom: vansterpartiet-var-politik-politik-a-o-abort
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

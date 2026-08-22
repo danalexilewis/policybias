@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Bostäder"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/bostader"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/bostader"
-fetchedAt: "2026-08-22T14:49:02.514Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Bostäder
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/bostader
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/bostader
+fetchedAt: 2026-08-22T14:49:02.514Z
+contentType: html
+via: party-site
+tags:
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet vill bygga bort bostadsbristen. Framför allt vill vi att det byggs hyresrätter med rimliga hyror som folk har råd med. För att kunna göra det krävs en aktiv statlig bostadspolitik.**

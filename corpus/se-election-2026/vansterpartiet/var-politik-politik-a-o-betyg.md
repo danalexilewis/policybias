@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Betyg"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/betyg"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/betyg"
-fetchedAt: "2026-08-22T14:48:56.809Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Betyg
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/betyg
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/betyg
+fetchedAt: 2026-08-22T14:48:56.809Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **För Vänsterpartiet är kunskap en rättighet och när eleverna inte fått den rättigheten uppfylld är det skolan som ska hållas ansvarig. Betyg och bedömning behövs därför i skolan som en försäkring att**

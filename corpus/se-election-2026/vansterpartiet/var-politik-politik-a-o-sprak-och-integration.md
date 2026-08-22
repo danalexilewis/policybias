@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Språk och integration"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/sprak-och-integration"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/sprak-och-integration"
-fetchedAt: "2026-08-22T14:53:19.277Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Språk och integration
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/sprak-och-integration
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/sprak-och-integration
+fetchedAt: 2026-08-22T14:53:19.277Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **I språklagen slås fast att alla ska ha rätt till språk. Språket skapar mening för oss människor och är grunden för vår kommunikation. En sån grundläggande mänsklig funktion blir ofrånkomligt också en viktig politisk fråga.** 

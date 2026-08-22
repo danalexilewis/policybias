@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Kemikalier"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/kemikalier"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/kemikalier"
-fetchedAt: "2026-08-22T14:51:24.331Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Kemikalier
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/kemikalier
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/kemikalier
+fetchedAt: 2026-08-22T14:51:24.331Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **En stor del av de kemikalier som finns i vår vardag är skadliga för vår hälsa och för vår natur.  För en säkrare kemikalieanvändning krävs hårdare krav på de företag som tillverkar kemikalier och släpper ut dem på marknaden. Vänsterpartiet anser att inga nya kemikalier ska börja användas innan man tagit reda på om de innebär risker för människor och miljön. Kemikalier med egenskaper som inte är tillräckligt kända ska bedömas som farliga tills de har granskats. Vänsterpartiet anser att Sverige måste arbeta för att skärpa lagstiftningen på en rad områden. Den bör exempelvis ändras så att barns hälsa sätts i första rummet, och hormonstörande ämnen regleras hårdare.**

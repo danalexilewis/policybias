@@ -1,21 +1,25 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-ai
-title: "AI"
+title: AI
 status: draft
 updated: 2026-08-22
-summary: "Mellan 2024 och 2025 ökade andelen vuxna svenskars användning av artificiell intelligens (AI) med 48%. Det innebär att idag använder mer än var tredje svensk generativ AI. AI har stor potential att förenkla och effektivisera våra liv. Just därför är det också viktigt att den regl"
+summary: Mellan 2024 och 2025 ökade andelen vuxna svenskars användning av artificiell
+  intelligens (AI) med 48%. Det innebär att idag använder mer än var tredje svensk
+  generativ AI. AI har stor potential att förenkla och effektivisera våra liv. Just
+  därför är det också viktigt att den regl
 jurisdiction: SE
 sources:
-  - title: "AI"
-    url: https://www.vansterpartiet.se/var-politik/politik-a-o/ai/
-tags: [elderly-welfare]
+  - title: AI
+    url: https://www.vansterpartiet.se/var-politik/politik-a-o/ai
+tags:
+  - democracy
 party: vansterpartiet
 clusters:
-  - elderly-welfare
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-ai.md
-sourceDigest: "sha256-cddabc30f3960f8c"
+sourceDigest: sha256-cddabc30f3960f8c
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

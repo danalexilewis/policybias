@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Tandvård"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/tandvard"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/tandvard"
-fetchedAt: "2026-08-22T14:53:29.242Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Tandvård
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/tandvard
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/tandvard
+fetchedAt: 2026-08-22T14:53:29.242Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Alla ska ha råd att ha bra tänder, inte bara de som kan betala dyra behandlingar. Tänderna är en del av kroppen och bör på sikt ingå i sjukvården. I dag har tandhälsan blivit en klassmarkör.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Vapenexport"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/vapenexport"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/vapenexport"
-fetchedAt: "2026-08-22T14:53:56.125Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Vapenexport
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/vapenexport
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/vapenexport
+fetchedAt: 2026-08-22T14:53:56.125Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet vill att Sverige ska vara ett land som konsekvent står upp för demokrati och mänskliga rättigheter, samt aktivt och konsekvent arbetar för fred och nedrustning. Därför vill vi förbjuda vapenexport till diktaturer, stater som för angreppskrig och regimer som begår brott mot de mänskliga rättigheterna.**

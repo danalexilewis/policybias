@@ -1,21 +1,23 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-arbetsmiljo-derived
-title: "Arbetsmiljö (reading)"
+title: Arbetsmiljö (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Arbetsmiljö"
+summary: Our reading of Arbetsmiljö
 jurisdiction: SE
 sources:
-  - title: "Arbetsmiljö"
-    url: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmiljo/
-tags: [defence-security]
+  - title: Arbetsmiljö
+    url: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmiljo
+tags:
+  - employment
+  - education
 party: vansterpartiet
 clusters:
-  - defence-security
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-arbetsmiljo.md
-sourceDigest: "sha256-3af4fb0b007b291f"
+sourceDigest: sha256-3af4fb0b007b291f
 derivesFrom: vansterpartiet-var-politik-politik-a-o-arbetsmiljo
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

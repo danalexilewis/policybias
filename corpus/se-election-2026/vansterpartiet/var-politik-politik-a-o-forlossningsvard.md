@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Förlossningsvård"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/forlossningsvard"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/forlossningsvard"
-fetchedAt: "2026-08-22T14:50:14.166Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Förlossningsvård
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/forlossningsvard
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/forlossningsvard
+fetchedAt: 2026-08-22T14:50:14.166Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Den som föder barn ska känna sig trygg med att få den vård som behövs. Vårt mål är ett det ska finnas en barnmorska för varje förlossning.**

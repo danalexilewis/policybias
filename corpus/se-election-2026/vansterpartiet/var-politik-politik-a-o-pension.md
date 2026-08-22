@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Pension"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/pension"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/pension"
-fetchedAt: "2026-08-22T14:52:29.155Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Pension
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/pension
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/pension
+fetchedAt: 2026-08-22T14:52:29.155Z
+contentType: html
+via: party-site
+tags:
+  - pensions
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Alla människor ska kunna leva på sin pension, inte bara de som varit höginkomsttagare. Därför vill Vänsterpartiet att det offentliga ska ta ett större ansvar för vår gemensamma välfärd och inkomsttrygghet. Sveriges pensionssparare och pensionärer ska inte vara beroende att privata lösningar för ekonomisk trygghet vid arbetslivets slut. Det är politikens ansvar att du får en trygg pension.**

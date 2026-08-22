@@ -4,22 +4,22 @@ id: vansterpartiet-var-politik-politik-a-o-abort
 title: Abortion
 status: draft
 updated: 2026-08-22
-summary: All women should have the right to decide over their own bodies. Free
-  abortion is a prerequisite for all children born to be welcome, but is also a
-  health issue for women, both physically and psychologically. It is the woman's
-  right to decide if and when she wants to have children.
+summary: All women should have the right to decide over their own bodies. Free abortion
+  is a prerequisite for all children born to be welcome, but is also a health issue for
+  women, both physically and psychologically. It is the woman's right to decide if and
+  when she wants to have children.
 jurisdiction: SE
 sources:
   - title: Abort
-    url: https://www.vansterpartiet.se/var-politik/politik-a-o/abort/
+    url: https://www.vansterpartiet.se/var-politik/politik-a-o/abort
 tags:
-  - migration-integration
+  - healthcare
 party: vansterpartiet
 clusters:
-  - migration-integration
+  - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-abort.md
-sourceDigest: "sha256-a74649dd054bf626"
+sourceDigest: sha256-a74649dd054bf626
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -27,7 +27,7 @@ lang: en
 translationOf: vansterpartiet-abort
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-8fa8426cc3c43476"
+sourceSpecDigest: sha256-8fa8426cc3c43476
 ---
 
 # What the page states

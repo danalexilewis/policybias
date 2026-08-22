@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Välfärden"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/valfard"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/valfard"
-fetchedAt: "2026-08-22T14:54:07.721Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Välfärden
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/valfard
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/valfard
+fetchedAt: 2026-08-22T14:54:07.721Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Att välfärden fungerar är en förutsättning för många människors frihet. Det ska gå att lita på att ditt barn möter trygghet i skolan, att dina föräldrar får värme och omsorg på äldreboendet och på att du får bästa möjliga vård när du behöver det.**

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Kollektivtrafik"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/kollektivtrafik"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/kollektivtrafik"
-fetchedAt: "2026-08-22T14:51:33.976Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Kollektivtrafik
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/kollektivtrafik
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/kollektivtrafik
+fetchedAt: 2026-08-22T14:51:33.976Z
+contentType: html
+via: party-site
+tags:
+  - transport
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **För klimatets skull behöver det bli enklare, bättre och billigare att åka kollektivt. Vänsterpartiet vill satsa mer på kollektivtrafiken så att den är billig eller gratis och fungerar bra i hela landet.**

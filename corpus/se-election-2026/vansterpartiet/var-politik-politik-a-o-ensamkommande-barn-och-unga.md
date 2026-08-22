@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Ensamkommande barn och unga"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ensamkommande-barn-och-unga"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ensamkommande-barn-och-unga"
-fetchedAt: "2026-08-22T14:49:39.378Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Ensamkommande barn och unga
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ensamkommande-barn-och-unga
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ensamkommande-barn-och-unga
+fetchedAt: 2026-08-22T14:49:39.378Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet vill se en mänsklig, välkomnande och rättssäker flyktingpolitik i Sverige och Europa.**

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Sjukförsäkringen"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/sjukforsakringen"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/sjukforsakringen"
-fetchedAt: "2026-08-22T14:53:02.447Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Sjukförsäkringen
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/sjukforsakringen
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/sjukforsakringen
+fetchedAt: 2026-08-22T14:53:02.447Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - economy
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Alla kan bli sjuka. Alla har därför intresse av en bra sjukförsäkring som ger ett bra skydd för den som är för sjuk för att arbeta.**

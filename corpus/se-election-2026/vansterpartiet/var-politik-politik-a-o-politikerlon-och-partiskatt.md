@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Politikerlön och partiskatt"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/politikerlon-och-partiskatt"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/politikerlon-och-partiskatt"
-fetchedAt: "2026-08-22T14:52:37.331Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Politikerlön och partiskatt
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/politikerlon-och-partiskatt
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/politikerlon-och-partiskatt
+fetchedAt: 2026-08-22T14:52:37.331Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Många politiker har idag inkomster som de flesta i Sverige bara kan drömma om. Till exempel tjänar de flesta partiledarna i andra partier mellan cirka 100 000 och 170 000 kronor i månaden. För att inte klyftan ska bli för stor mellan de folkvalda och folket de representerar vill Vänsterpartiet att riksdagsledamöternas arvoden sänks.**

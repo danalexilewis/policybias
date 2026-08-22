@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "EU"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/eu"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/eu"
-fetchedAt: "2026-08-22T14:49:41.952Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: EU
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/eu
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/eu
+fetchedAt: 2026-08-22T14:49:41.952Z
+contentType: html
+via: party-site
+tags:
+  - climate
+  - employment
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **I EU arbetar Vänsterpartiet för samma saker som här hemma: en mer effektiv klimatpolitik, en tryggare arbetsmarknad och bättre livsvillkor för vanliga människor.**

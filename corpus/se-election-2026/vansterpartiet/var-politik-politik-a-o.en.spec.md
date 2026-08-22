@@ -4,22 +4,22 @@ id: vansterpartiet-var-politik-politik-a-o
 title: Politics A-Z
 status: draft
 updated: 2026-08-22
-summary: "The Left Party is a party that works for justice and equality. We are
-  an association of thousands of people who work together for that goal all over
-  Sweden in many different ways: on the square, in the residential areas, in the
-  municipality and the Riksdag."
+summary: "The Left Party is a party that works for justice and equality. We are an
+  association of thousands of people who work together for that goal all over Sweden in
+  many different ways: on the square, in the residential areas, in the municipality and
+  the Riksdag."
 jurisdiction: SE
 sources:
   - title: Politik A-Ö
     url: https://www.vansterpartiet.se/var-politik/politik-a-o/
 tags:
-  - health-care
+  - other
 party: vansterpartiet
 clusters:
-  - health-care
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o.md
-sourceDigest: "sha256-8ad1692d7c2db6eb"
+sourceDigest: sha256-8ad1692d7c2db6eb
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -27,7 +27,7 @@ lang: en
 translationOf: vansterpartiet-politik-a-o
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-b7a456cb84a56ca5"
+sourceSpecDigest: sha256-b7a456cb84a56ca5
 ---
 
 # What the page states

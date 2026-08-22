@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Feminism"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/feminism"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/feminism"
-fetchedAt: "2026-08-22T14:49:49.100Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Feminism
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/feminism
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/feminism
+fetchedAt: 2026-08-22T14:49:49.100Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+  - employment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vi i Vänsterpartiet är feminister. Det innebär att vi ser att män generellt överordnas kvinnor i vårt samhälle. Genom vår feministiska politik arbetar vi för att förändra detta.**

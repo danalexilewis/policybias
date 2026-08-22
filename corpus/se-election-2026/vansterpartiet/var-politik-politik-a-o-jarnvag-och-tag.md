@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Järnväg och tåg"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/jarnvag-och-tag"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/jarnvag-och-tag"
-fetchedAt: "2026-08-22T14:51:21.454Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Järnväg och tåg
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/jarnvag-och-tag
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/jarnvag-och-tag
+fetchedAt: 2026-08-22T14:51:21.454Z
+contentType: html
+via: party-site
+tags:
+  - transport
+  - climate
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **För klimatets skull måste vi satsa mycket mer på tågen. Det ska vara bekvämt och smidigt att välja tåget och man ska kunna lita på att det går i tid. Vänsterpartiet driver på för ökade investeringar i nya järnvägar och förbättrat underhåll av banorna.**

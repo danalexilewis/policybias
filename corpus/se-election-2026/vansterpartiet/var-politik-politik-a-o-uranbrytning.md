@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Uranbrytning"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/uranbrytning"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/uranbrytning"
-fetchedAt: "2026-08-22T14:53:48.995Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Uranbrytning
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/uranbrytning
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/uranbrytning
+fetchedAt: 2026-08-22T14:53:48.995Z
+contentType: html
+via: party-site
+tags:
+  - energy
+  - agriculture
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet har länge drivit krav på att uranbrytning ska förbjudas helt i Sverige och ett förbud infördes till sist 2018. Men regeringen och Sverigedemokraterna har nu drivit igenom en lagstiftning som gör det möjligt att åter bryta uran i Sverige.**

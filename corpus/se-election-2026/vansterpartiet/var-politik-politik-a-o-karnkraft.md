@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Kärnkraft"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/karnkraft"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/karnkraft"
-fetchedAt: "2026-08-22T14:51:47.804Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Kärnkraft
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/karnkraft
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/karnkraft
+fetchedAt: 2026-08-22T14:51:47.804Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet vill sätta fasta ramar för att ta Sverige ur fossilberoendet, med en utsläppsbudget och ett omställningsprogram som kan ta oss hela vägen till utsläpp nära noll. Det kommer att behövas stora investeringar, ett aktivt gemensamt ägande och en beredskap att ta konflikt med fossila ekonomiska intressen för att genomföra det. Det handlar bl.a. om att bygga upp ny infrastruktur och nya industrier, som tar oss ur fossilberoendet och kärnkraftsberoendet. Vänsterpartiet avvisar planerna på att bygga ut kärnkraften som en väg ut ur fossilberoendet.**

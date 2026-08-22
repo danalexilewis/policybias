@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Studiemedel"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/studiemedel"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/studiemedel"
-fetchedAt: "2026-08-22T14:53:26.068Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Studiemedel
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/studiemedel
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/studiemedel
+fetchedAt: 2026-08-22T14:53:26.068Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 För att kunna studera på heltid är det nödvändigt med studiemedel som det går att leva på. De är en av de viktigaste förutsättningarna för att göra kunskap och utbildning tillgänglig för fler människor från vuxenutbildning till högskola. Samhället ska erbjuda ekonomiska villkor för studenter som gör att man klarar sig utan hjälp från anhöriga eller extrajobb.

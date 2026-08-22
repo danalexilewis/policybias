@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Företagande"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/foretagande"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/foretagande"
-fetchedAt: "2026-08-22T14:50:10.800Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Företagande
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/foretagande
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/foretagande
+fetchedAt: 2026-08-22T14:50:10.800Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Samhället fungerar som bäst när alla människor har möjlighet att ha ett arbete. Jobben skapas när innovationer och nytänkande omsätts i nya produkter och tjänster, inte genom att konkurrera med lägre löner och sämre villkor. Vänsterpartiets politik för små och medelstora företag handlar om att skapa långsiktighet och goda förutsättningar för tillväxt. Men också trygghet för den enskilda företagaren och för anställda.**

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Äldreomsorg"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/aldreomsorg"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/aldreomsorg"
-fetchedAt: "2026-08-22T14:54:11.407Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Äldreomsorg
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/aldreomsorg
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/aldreomsorg
+fetchedAt: 2026-08-22T14:54:11.407Z
+contentType: html
+via: party-site
+tags:
+  - employment
+  - elderly-care
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Äldreomsorgen präglas av underbemanning och otrygga anställningar. Under lång tid har äldreomsorgen underfinansierats, vilket har lett till en ökad stress där tiden för den äldres omsorg alltför ofta inte räcker till. Hetsig minutjakt, dåliga arbetsvillkor och låga löner är de anställdas vardag. Nu vill Vänsterpartiet se en haverikommission för att kraftfullt åtgärda problemen.**

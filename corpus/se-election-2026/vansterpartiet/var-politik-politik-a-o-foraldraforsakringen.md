@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Föräldraförsäkringen"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/foraldraforsakringen"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/foraldraforsakringen"
-fetchedAt: "2026-08-22T14:50:24.373Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Föräldraförsäkringen
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/foraldraforsakringen
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/foraldraforsakringen
+fetchedAt: 2026-08-22T14:50:24.373Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Att föräldrar ska fördela ansvar för hem och barn lika är en av de mest centrala jämställdhetsfrågorna. Ett jämnare uttag av föräldraledighet skulle göra att kvinnors inkomster och hälsa ökar och att män tar större ansvar för hem och barn. Alla barn har rätt till en bra relation med båda sina föräldrar.**

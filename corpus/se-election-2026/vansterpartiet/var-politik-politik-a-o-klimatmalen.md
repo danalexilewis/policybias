@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Klimatmålen"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/klimatmalen"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/klimatmalen"
-fetchedAt: "2026-08-22T14:51:30.580Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Klimatmålen
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/klimatmalen
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/klimatmalen
+fetchedAt: 2026-08-22T14:51:30.580Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## **Så når vi klimatmålen till 2030**

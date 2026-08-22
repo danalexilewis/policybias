@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Djurskydd"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/djurskydd"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/djurskydd"
-fetchedAt: "2026-08-22T14:49:08.234Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Djurskydd
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/djurskydd
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/djurskydd
+fetchedAt: 2026-08-22T14:49:08.234Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - environment
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet arbetar för att stärka djurskyddet och respekten för djur som kännande individer. Därför vill vi förbättra deras möjligheter till naturligt beteende och utevistelse samt att de ska skyddas från onödigt lidande. Att stärka djurs välfärd och hälsa kan bidra till att minska många globala kriser som pandemier, antibiotikaresistens, klimatförändringar och förlust av biologisk mångfald.**

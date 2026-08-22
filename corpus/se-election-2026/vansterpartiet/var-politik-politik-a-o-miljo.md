@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Miljö"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/miljo"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/miljo"
-fetchedAt: "2026-08-22T14:52:05.614Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Miljö
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/miljo
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/miljo
+fetchedAt: 2026-08-22T14:52:05.614Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - economy
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **För oss är miljön viktigare än vinstintresset. Utarmningen av den biologiska mångfalden, klimatkrisen, farliga kemikalier och andra allvarliga miljöproblem gör att vi snabbt måste ställa om vårt samhälle. Ett samhälle som effektivt nyttjar naturresurserna utan att utarma ekosystemen och som ger oss och kommande generationer en trygg hälsosam miljö.**

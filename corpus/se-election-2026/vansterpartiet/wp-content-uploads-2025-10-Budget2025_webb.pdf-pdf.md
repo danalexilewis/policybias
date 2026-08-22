@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Budget2025_webb-b4cc8801.pdf"
-sourceUrl: "https://www.vansterpartiet.se/wp-content/uploads/2025/10/Budget2025_webb.pdf"
-canonicalUrl: "https://www.vansterpartiet.se/wp-content/uploads/2025/10/Budget2025_webb.pdf"
-fetchedAt: "2026-08-22T14:49:32.936Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Budget2025_webb-b4cc8801.pdf
+sourceUrl: https://www.vansterpartiet.se/wp-content/uploads/2025/10/Budget2025_webb.pdf
+canonicalUrl: https://www.vansterpartiet.se/wp-content/uploads/2025/10/Budget2025_webb.pdf
+fetchedAt: 2026-08-22T14:49:32.936Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - employment
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Budget2025_webb-b4cc8801.pdf

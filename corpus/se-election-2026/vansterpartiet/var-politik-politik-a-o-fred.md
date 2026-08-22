@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Fred"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/fred"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/fred"
-fetchedAt: "2026-08-22T14:50:05.796Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Fred
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/fred
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/fred
+fetchedAt: 2026-08-22T14:50:05.796Z
+contentType: html
+via: party-site
+tags:
+  - defence
+  - foreign-policy
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla människor har rätt att leva i fred och frihet. De väpnade konflikterna i världen är fler än de någonsin varit tidigare. Dessutom riskerar klimatkrisen att skapa nya konflikter när kampen om naturresurserna blir svårare. Krig och konflikter drabbar människor här och nu, men de får också konsekvenser för världen under lång tid framöver.**

@@ -1,21 +1,25 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-arbetsmarknad
-title: "Arbetsmarknadspolitik"
+title: Arbetsmarknadspolitik
 status: draft
 updated: 2026-08-22
-summary: "Arbetsmarknadspolitik är de insatser som politiken gör för att på olika sätt hjälpa och stimulera arbetsmarknaden. Vänsterpartiet vill återskapa den aktiva arbetsmarknadspolitiken. Sverige har tidigare varit ett föregångsland beträffande arbetsmarknadspolitik. Det byggde på gener"
+summary: Arbetsmarknadspolitik är de insatser som politiken gör för att på olika sätt
+  hjälpa och stimulera arbetsmarknaden. Vänsterpartiet vill återskapa den aktiva
+  arbetsmarknadspolitiken. Sverige har tidigare varit ett föregångsland beträffande
+  arbetsmarknadspolitik. Det byggde på gener
 jurisdiction: SE
 sources:
-  - title: "Arbetsmarknadspolitik"
-    url: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmarknad/
-tags: [energy-power]
+  - title: Arbetsmarknadspolitik
+    url: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmarknad
+tags:
+  - employment
 party: vansterpartiet
 clusters:
-  - energy-power
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-arbetsmarknad.md
-sourceDigest: "sha256-9fee8fd04ff7bf5f"
+sourceDigest: sha256-9fee8fd04ff7bf5f
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

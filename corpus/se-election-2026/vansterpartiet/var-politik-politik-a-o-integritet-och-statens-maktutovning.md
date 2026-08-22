@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Integritet och statens maktutövning"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/integritet-och-statens-maktutovning"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/integritet-och-statens-maktutovning"
-fetchedAt: "2026-08-22T14:51:08.006Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Integritet och statens maktutövning
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/integritet-och-statens-maktutovning
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/integritet-och-statens-maktutovning
+fetchedAt: 2026-08-22T14:51:08.006Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet värnar demokratiska grundvärden som rättssäkerhet och skyddet för den personliga integriteten. Vi vill samtidigt inte försvåra de brottsbekämpande myndigheternas arbete med att utreda och beivra brott.**

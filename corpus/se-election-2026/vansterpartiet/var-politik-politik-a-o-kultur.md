@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Kultur"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/kultur"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/kultur"
-fetchedAt: "2026-08-22T14:51:44.763Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Kultur
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/kultur
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/kultur
+fetchedAt: 2026-08-22T14:51:44.763Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Kultur ska vara till för alla, inte bara för några få. Den ska vara lätt att uppleva och att utöva oavsett var i landet man bor eller vem man är.**

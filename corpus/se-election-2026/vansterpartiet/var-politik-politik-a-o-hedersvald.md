@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Hedersvåld"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/hedersvald"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/hedersvald"
-fetchedAt: "2026-08-22T14:50:43.655Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Hedersvåld
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/hedersvald
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/hedersvald
+fetchedAt: 2026-08-22T14:50:43.655Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Hedersrelaterat våld och förtryck har, liksom mäns våld mot kvinnor i övrigt, generellt sin grund i kön, sexualitet, makt och kulturella föreställningar om dessa.**

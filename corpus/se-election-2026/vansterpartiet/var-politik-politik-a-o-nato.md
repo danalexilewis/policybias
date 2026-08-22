@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Nato"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/nato"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/nato"
-fetchedAt: "2026-08-22T14:52:20.595Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Nato
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/nato
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/nato
+fetchedAt: 2026-08-22T14:52:20.595Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **När vi gick med i Nato förändrades Sveriges försvars- och säkerhetspolitik. Vänsterpartiet var emot ett Svenskt medlemskap. Vi kan konstatera att det nu är särskilt viktigt att riksdag och regering fattar självständiga beslut som gynnar svensk säkerhet och trygghet. Svensk utrikes- och säkerhetspolitik ska beslutas i Sverige, inte på Natos högkvarter i Bryssel, i Washington av USA:s president eller i Ankara av Turkiets president.**

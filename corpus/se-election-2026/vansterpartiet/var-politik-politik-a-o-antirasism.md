@@ -1,17 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Antirasism"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/antirasism"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/antirasism"
-fetchedAt: "2026-08-22T14:48:28.987Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: vansterpartiet
+title: Antirasism
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/antirasism
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/antirasism
+fetchedAt: 2026-08-22T14:48:28.987Z
+contentType: html
+via: party-site
 tags:
-  - "climate-environment"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - gender-equality
+  - immigration
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Vänsterpartiet vill ha ett samhälle för alla, fritt från rasism. Rasism sorterar och underordnar människor och därför är rasism ett hinder för rättvisa och jämlikhet.**

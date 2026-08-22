@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Arbetstidsförkortning"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetstidsforkortning"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetstidsforkortning"
-fetchedAt: "2026-08-22T14:48:40.667Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Arbetstidsförkortning
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetstidsforkortning
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetstidsforkortning
+fetchedAt: 2026-08-22T14:48:40.667Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet vill ha ett mänskligt och rättvist samhälle där människor har reella möjligheter att utvecklas och leva berikande liv.**

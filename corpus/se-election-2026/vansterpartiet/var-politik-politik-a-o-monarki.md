@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Monarki"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/monarki"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/monarki"
-fetchedAt: "2026-08-22T14:52:09.642Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Monarki
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/monarki
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/monarki
+fetchedAt: 2026-08-22T14:52:09.642Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet vill avskaffa monarkin. Till dess att det sker kräver vi att anslaget till kungahuset minskar, att utgifterna redovisas samt att kungens åtalsimmunitet avskaffas.**

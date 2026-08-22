@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Politik A-Ö"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o"
-fetchedAt: "2026-08-22T14:48:15.244Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: vansterpartiet
+title: Politik A-Ö
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o
+fetchedAt: 2026-08-22T14:48:15.244Z
+contentType: html
+via: party-site
 tags:
-  - "health-care"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - other
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Vänsterpartiet är ett parti som arbetar för rättvisa och jämlikhet. Vi är en sammanslutning av tusentals människor som arbetar tillsammans för det målet över hela Sverige på många olika sätt: på torget, i bostadsområdena, i kommunen och riksdagen.

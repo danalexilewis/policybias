@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Rasistiska organisationer"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/rasistiska-organisationer"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/rasistiska-organisationer"
-fetchedAt: "2026-08-22T14:52:46.531Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Rasistiska organisationer
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/rasistiska-organisationer
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/rasistiska-organisationer
+fetchedAt: 2026-08-22T14:52:46.531Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Rasismen utgör ett hot mot demokratin och oss alla. Den utgör en begränsning i det offentliga rummet för alla som är föremål för rasisternas hat och våld, men i förlängningen även av rätten att existera. Kampen mot rasism och fascism måste föras på flera nivåer: mot strukturell rasism och diskriminering, mot uttalat rasistiska grupper och partier, mot rasistiska tendenser i etablerade partiers politik, mot ökande klasskillnader och för en generell välfärdspolitik som omfattar alla – invandrade som infödda. Vi behöver ha en politik som skapar framtidstro och bekämpar de orättvisor och försämrade villkor som får människor att leta efter syndabockar.

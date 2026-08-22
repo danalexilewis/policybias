@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Energi"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/energi"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/energi"
-fetchedAt: "2026-08-22T14:49:35.360Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Energi
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/energi
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/energi
+fetchedAt: 2026-08-22T14:49:35.360Z
+contentType: html
+via: party-site
+tags:
+  - climate
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Klimatet förändras nu drastiskt. För att minska de skadliga utsläppen behöver vi en grön omställning, där fler delar av samhället elektrifieras. De fossila bränslena måste i större utsträckning fasas ut och ersättas av el. Genom Vänsterpartiets politik och långsiktiga investeringar kan vi bygga ett starkare Sverige.**

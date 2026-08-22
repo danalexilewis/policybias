@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Gårdsförsäljning"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/gardsforsaljning"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/gardsforsaljning"
-fetchedAt: "2026-08-22T14:50:32.097Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Gårdsförsäljning
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/gardsforsaljning
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/gardsforsaljning
+fetchedAt: 2026-08-22T14:50:32.097Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet står för en solidarisk och restriktiv alkoholpolitik som innebär att alkohol inte ska vara tillgängligt som om det var vilken vara som helst.**

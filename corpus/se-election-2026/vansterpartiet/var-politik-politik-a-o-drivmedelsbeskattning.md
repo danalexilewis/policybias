@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Drivmedels­beskattning"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/drivmedelsbeskattning"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/drivmedelsbeskattning"
-fetchedAt: "2026-08-22T14:49:11.493Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Drivmedels­beskattning
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/drivmedelsbeskattning
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/drivmedelsbeskattning
+fetchedAt: 2026-08-22T14:49:11.493Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Priset på fossila drivmedel kommer att öka när EU:s nya utsläppshandelssystem träder i kraft 2028. Oavsett vilken nivå drivmedelsskatten ligger på nationellt kommer alltså bensin- och dieselpriset bli högt i Sverige. Vänsterpartiet vill därför göra det billigare och enklare för människor att resa hållbart, t.ex. med elbilar och kollektivtrafik. Genom att gynna både klimatomställningen och människors ekonomi bygger vi Sverige starkare och tryggare.**    

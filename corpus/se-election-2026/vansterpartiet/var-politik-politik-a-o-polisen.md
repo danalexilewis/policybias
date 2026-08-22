@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Polisen"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/polisen"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/polisen"
-fetchedAt: "2026-08-22T14:52:32.836Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Polisen
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/polisen
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/polisen
+fetchedAt: 2026-08-22T14:52:32.836Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Polisen är central för upprätthållandet av rättsstaten. Därför har det stor betydelse att myndigheten är en attraktiv arbetsplats som tar väl hand om sina anställda. Personalomsättningen inom Polismyndigheten är en bekymmersam utveckling som måste brytas. För Vänsterpartiet är det viktigt att det finns tillräckligt många poliser och att de poliser som är verksamma har en bra arbetsmiljö, att kompetensförsörjningen och fortbildningsnivån är god och att nya arbetsmetoder för ett mer effektivt arbete utvecklas.**

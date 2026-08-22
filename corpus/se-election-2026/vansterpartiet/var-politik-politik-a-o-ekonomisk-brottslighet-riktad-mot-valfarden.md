@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Ekonomisk brottslighet riktad mot välfärden"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ekonomisk-brottslighet-riktad-mot-valfarden"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ekonomisk-brottslighet-riktad-mot-valfarden"
-fetchedAt: "2026-08-22T14:49:20.657Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Ekonomisk brottslighet riktad mot välfärden
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ekonomisk-brottslighet-riktad-mot-valfarden
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ekonomisk-brottslighet-riktad-mot-valfarden
+fetchedAt: 2026-08-22T14:49:20.657Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - economy
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet vill ha en välfärd som är till för alla, inte bara för de rika. Välfärden har genom omfattande privatiseringar och utförsäljningar genomgått stora förändringar, vilket gjort den sårbar och till en måltavla för oseriösa företagare och ekonomisk brottslighet. Idag används företag tyvärr ofta som brottsverktyg. Ekonomisk brottslighet är ett allvarligt samhällsproblem och hänger ofta tätt samman med annan grov brottslighet. Årligen undandras samhället stora summor som hade kunnat gå till en bättre och tryggare välfärd.**

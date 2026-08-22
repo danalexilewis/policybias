@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Socialpolitik"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/socialpolitik"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/socialpolitik"
-fetchedAt: "2026-08-22T14:53:16.445Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Socialpolitik
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/socialpolitik
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/socialpolitik
+fetchedAt: 2026-08-22T14:53:16.445Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Alla har rätt till ett skyddsnät som fångar upp oss när sjukdom eller arbetslöshet gör att vi faller. Det ska inte bara finnas för dem som har pengar eller anhöriga som kämpar för dem. Ett jämlikt samhälle med få människor som lever i utsatthet är bra för alla.**

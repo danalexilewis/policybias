@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Abort"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/abort"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/abort"
-fetchedAt: "2026-08-22T14:48:22.809Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: vansterpartiet
+title: Abort
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/abort
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/abort
+fetchedAt: 2026-08-22T14:48:22.809Z
+contentType: html
+via: party-site
 tags:
-  - "migration-integration"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - healthcare
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Alla kvinnor ska ha rätt att bestämma över sin egen kropp. Fri abort är en förutsättning för att alla barn som föds ska vara välkomna men är också en hälsofråga för kvinnor, både fysiskt och psykiskt. Det är kvinnans rätt att avgöra om och när hon vill ha barn.**

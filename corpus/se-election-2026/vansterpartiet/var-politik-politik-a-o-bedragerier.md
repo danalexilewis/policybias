@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Bedrägerier"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/bedragerier"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/bedragerier"
-fetchedAt: "2026-08-22T14:48:54.536Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Bedrägerier
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/bedragerier
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/bedragerier
+fetchedAt: 2026-08-22T14:48:54.536Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **De senaste åren har telefonbedrägerierna nått nya rekordnivåer Enligt polisen genererar bedrägerier flera miljarder kronor i brottsvinster årligen. Dessa pengar återinvesteras sedan i annan organiserad brottslighet. Det finns i dag brister i de tjänster som bankerna erbjuder för att motverka bedrägerier.**

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Vindkraft"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/vindkraft"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/vindkraft"
-fetchedAt: "2026-08-22T14:54:01.449Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Vindkraft
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/vindkraft
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/vindkraft
+fetchedAt: 2026-08-22T14:54:01.449Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Elbehovet väntas öka kraftigt då transporternas och industrins klimatomställning sker genom elektrifiering. Samtidigt vill Vänsterpartiet ställa om energisystemet så att energiproduktionen blir helt förnybar.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Bankskatt"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/bankskatt"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/bankskatt"
-fetchedAt: "2026-08-22T14:48:46.867Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Bankskatt
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/bankskatt
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/bankskatt
+fetchedAt: 2026-08-22T14:48:46.867Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Bankerna har gjort rekordvinster de senaste åren. Bankernas höga vinster har både strukturella och mer tillfälliga förklaringar. När Riksbanken på allvar började höja styrräntan under 2022 följde kraftigt höjda bolåneräntor. Mellan januari 2022 och januari 2024 steg den genomsnittliga 3-månadersräntan med 227 procent. Bankerna var emellertid inte varit lika snabba på att höja räntan på människors transaktionskonton. Detta fick bankernas inlåningsmarginaler att explodera.**

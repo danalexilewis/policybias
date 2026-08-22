@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Skattepolitik"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/skattepolitik"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/skattepolitik"
-fetchedAt: "2026-08-22T14:53:11.131Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Skattepolitik
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/skattepolitik
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/skattepolitik
+fetchedAt: 2026-08-22T14:53:11.131Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Skatternas huvudsakliga uppgift är att finansiera välfärden och övriga delar av det offentliga åtagandet. Därtill bör de jämna ut inkomster, konsumtion och sparande mellan olika inkomstgrupper och vara styrande i klimat- och miljöpolitiken. Det finns ett samband mellan ett relativt högt skatteuttag och hög sysselsättning. Skattefinansierad äldreomsorg, förskola och fritids gör det möjligt för flera att kombinera yrkes- och familjeliv.**

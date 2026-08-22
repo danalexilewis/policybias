@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Penningpolitik"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/penningpolitik"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/penningpolitik"
-fetchedAt: "2026-08-22T14:52:24.070Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Penningpolitik
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/penningpolitik
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/penningpolitik
+fetchedAt: 2026-08-22T14:52:24.070Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Riksbankens penningpolitik styrs av ett inflationsmål som innebär att inflationen ska ligga på omkring 2 procent. Sedan inflationsmålet infördes har arbetslösheten i genomsnitt legat på ca 8 procent. Vi menar att detta visar att inflationsmålet bör kompletteras med ett sysselsättningsmål. Detta mål ska inte vara underordnat inflationsmålet. De senaste årens inflationskris har varit utmanande för världens centralbanker. När inflationen beror på utbudsstörningar och dåligt fungerade marknader är räntevapnet trubbigt. Penningpolitiken bör därför ta större hänsyn till realekonomiska faktorer.**

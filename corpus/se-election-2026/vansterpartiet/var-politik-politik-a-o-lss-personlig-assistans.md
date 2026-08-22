@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "LSS/Personlig assistans"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/lss-personlig-assistans"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/lss-personlig-assistans"
-fetchedAt: "2026-08-22T14:51:58.710Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: LSS/Personlig assistans
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/lss-personlig-assistans
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/lss-personlig-assistans
+fetchedAt: 2026-08-22T14:51:58.710Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vår gemensamma välfärd ska skapa frihet för alla, ge oss möjlighet att leva goda liv. Alla människor har lika värde och alla människor har kunskaper, förmågor och erfarenheter som är viktiga för samhället. Alla människor, oavsett funktionsvariation, ska ha samma möjlighet till ett gott liv som alla andra.**

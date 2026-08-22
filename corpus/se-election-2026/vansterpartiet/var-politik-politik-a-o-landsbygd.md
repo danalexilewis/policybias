@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Landsbygd"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/landsbygd"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/landsbygd"
-fetchedAt: "2026-08-22T14:51:51.407Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Landsbygd
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/landsbygd
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/landsbygd
+fetchedAt: 2026-08-22T14:51:51.407Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - crime-and-justice
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige ska vara ett land som håller ihop. Våra gemensamma rikedomar skapas av hela landets resurser och hela landets arbete. Då ska frukterna av det arbetet också komma hela landet till del.**

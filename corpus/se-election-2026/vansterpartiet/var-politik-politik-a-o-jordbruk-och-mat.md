@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Jordbruk och mat"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/jordbruk-och-mat"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/jordbruk-och-mat"
-fetchedAt: "2026-08-22T14:51:15.705Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Jordbruk och mat
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/jordbruk-och-mat
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/jordbruk-och-mat
+fetchedAt: 2026-08-22T14:51:15.705Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - climate
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet anser att Sverige ska vara mer självförsörjande på livsmedel. Vi vill stärka stödet för ett hållbart jordbruk och för att produktion, förädling och distribution av hållbar mat ska ske närmare konsumenten.**

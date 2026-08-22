@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Utrikespolitik"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/utrikespolitik"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/utrikespolitik"
-fetchedAt: "2026-08-22T14:53:52.107Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Utrikespolitik
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/utrikespolitik
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/utrikespolitik
+fetchedAt: 2026-08-22T14:53:52.107Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+  - defence
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Vänsterpartiet vill se en fredlig, rättvis och jämlik värld. Vi vill jämna ut klyftorna mellan fattiga och rika människor, mellan fattiga och rika länder och mellan kvinnor och män. Då krävs en rättvis global världsordning, ökad demokrati och en starkare respekt för internationell rätt och mänskliga rättigheter.

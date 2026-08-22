@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Brottsoffer"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/brottsoffer"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/brottsoffer"
-fetchedAt: "2026-08-22T14:49:05.216Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Brottsoffer
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/brottsoffer
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/brottsoffer
+fetchedAt: 2026-08-22T14:49:05.216Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Det öppna samhället bygger på demokrati, frihet och respekt för alla människors rätt att forma sina liv så länge man inte inkräktar på sina medmänniskors frihet.**

@@ -1,21 +1,26 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-arbetsmiljo
-title: "Arbetsmiljö"
+title: Arbetsmiljö
 status: draft
 updated: 2026-08-22
-summary: "Alla människor har rätt att arbeta i en trygg och säker arbetsmiljö. Idag har många en arbetsmiljö som präglas av stress, låg bemanning, tunga lyft och monotona arbetsuppgifter. Detta märks inte minst i kvinnodominerade yrken som inom sjukvården, skolan, socialtjänsten och äldreo"
+summary: Alla människor har rätt att arbeta i en trygg och säker arbetsmiljö. Idag har
+  många en arbetsmiljö som präglas av stress, låg bemanning, tunga lyft och monotona
+  arbetsuppgifter. Detta märks inte minst i kvinnodominerade yrken som inom sjukvården,
+  skolan, socialtjänsten och äldreo
 jurisdiction: SE
 sources:
-  - title: "Arbetsmiljö"
-    url: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmiljo/
-tags: [defence-security]
+  - title: Arbetsmiljö
+    url: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmiljo
+tags:
+  - employment
+  - education
 party: vansterpartiet
 clusters:
-  - defence-security
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-arbetsmiljo.md
-sourceDigest: "sha256-3af4fb0b007b291f"
+sourceDigest: sha256-3af4fb0b007b291f
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

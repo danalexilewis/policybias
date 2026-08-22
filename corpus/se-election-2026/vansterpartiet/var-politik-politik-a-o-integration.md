@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Integration"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/integration"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/integration"
-fetchedAt: "2026-08-22T14:51:04.344Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Integration
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/integration
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/integration
+fetchedAt: 2026-08-22T14:51:04.344Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet arbetar för alla människors frihet. Det är samhällets ansvar och kräver en politik som ger alla, oavsett bakgrund, religion, hudfärg, kön eller sexualitet, samma möjligheter och samma rätt till god utbildning, arbete och bostad.**

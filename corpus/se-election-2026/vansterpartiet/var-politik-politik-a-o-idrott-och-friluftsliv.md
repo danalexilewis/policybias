@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Idrott och friluftsliv"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/idrott-och-friluftsliv"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/idrott-och-friluftsliv"
-fetchedAt: "2026-08-22T14:50:57.535Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Idrott och friluftsliv
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/idrott-och-friluftsliv
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/idrott-och-friluftsliv
+fetchedAt: 2026-08-22T14:50:57.535Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **För Vänsterpartiet är det centralt att det finns goda möjligheter till idrottande för människor i alla åldrar, oavsett bakgrund, funktionsvariation och ekonomiska förhållanden. Att kunna gå till fotbollsträningen, åka skidor, vara med i simlaget, gå ut och springa eller någon av alla de andra sätt man kan hålla på med idrott ska inte vara till för några få utan finnas tillgängligt för alla.**

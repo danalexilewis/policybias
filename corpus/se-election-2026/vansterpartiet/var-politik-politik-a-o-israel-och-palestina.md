@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Israel och Palestina"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/israel-och-palestina"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/israel-och-palestina"
-fetchedAt: "2026-08-22T14:51:11.504Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Israel och Palestina
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/israel-och-palestina
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/israel-och-palestina
+fetchedAt: 2026-08-22T14:51:11.504Z
+contentType: html
+via: party-site
+tags:
+  - defence
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Den israeliska ockupationen av Palestina är folkrättsvidrig och måste upphöra. Den internationella rätten måste respekteras. Alla attacker mot civila, och brott mot de mänskliga rättigheterna måste fördömas, oavsett vilken part som begår dem.**

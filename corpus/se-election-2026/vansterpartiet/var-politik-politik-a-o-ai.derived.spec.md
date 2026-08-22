@@ -1,21 +1,22 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-ai-derived
-title: "AI (reading)"
+title: AI (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of AI"
+summary: Our reading of AI
 jurisdiction: SE
 sources:
-  - title: "AI"
-    url: https://www.vansterpartiet.se/var-politik/politik-a-o/ai/
-tags: [elderly-welfare]
+  - title: AI
+    url: https://www.vansterpartiet.se/var-politik/politik-a-o/ai
+tags:
+  - democracy
 party: vansterpartiet
 clusters:
-  - elderly-welfare
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-ai.md
-sourceDigest: "sha256-cddabc30f3960f8c"
+sourceDigest: sha256-cddabc30f3960f8c
 derivesFrom: vansterpartiet-var-politik-politik-a-o-ai
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

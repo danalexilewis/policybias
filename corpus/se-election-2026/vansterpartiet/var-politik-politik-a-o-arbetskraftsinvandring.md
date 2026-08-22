@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Arbetskraftsinvandring"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetskraftsinvandring"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetskraftsinvandring"
-fetchedAt: "2026-08-22T14:48:31.641Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: vansterpartiet
+title: Arbetskraftsinvandring
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetskraftsinvandring
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/arbetskraftsinvandring
+fetchedAt: 2026-08-22T14:48:31.641Z
+contentType: html
+via: party-site
 tags:
-  - "economy-tax"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - employment
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Arbetskraftsinvandringen har historiskt varit positiv för Sverige och bidragit till vårt lands utveckling. En väl fungerande arbetskraftsinvandring kan även framöver tillföra mycket för såväl den enskilde som kommer hit för att arbeta som för svensk ekonomi och arbetsmarknad.**

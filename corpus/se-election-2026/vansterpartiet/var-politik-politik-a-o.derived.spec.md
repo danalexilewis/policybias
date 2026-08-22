@@ -1,21 +1,22 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-derived
-title: "Politik A-Ö (reading)"
+title: Politik A-Ö (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Politik A-Ö"
+summary: Our reading of Politik A-Ö
 jurisdiction: SE
 sources:
-  - title: "Politik A-Ö"
+  - title: Politik A-Ö
     url: https://www.vansterpartiet.se/var-politik/politik-a-o/
-tags: [health-care]
+tags:
+  - other
 party: vansterpartiet
 clusters:
-  - health-care
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o.md
-sourceDigest: "sha256-8ad1692d7c2db6eb"
+sourceDigest: sha256-8ad1692d7c2db6eb
 derivesFrom: vansterpartiet-var-politik-politik-a-o
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

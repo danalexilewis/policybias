@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Östersjön och havsfrågor"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ostersjon-och-havsfragor"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ostersjon-och-havsfragor"
-fetchedAt: "2026-08-22T14:54:16.162Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Östersjön och havsfrågor
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ostersjon-och-havsfragor
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/ostersjon-och-havsfragor
+fetchedAt: 2026-08-22T14:54:16.162Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Klimatet och tillståndet för vår natur hänger ihop. Stora mängder kol binds i våra hav som även står för en stor del av det syre som produceras på jorden.  Haven har också en mycket stor förmåga att lagra värme och har genom tiderna haft en viktig roll för att stabilisera klimatet. För att det ska fungera krävs att haven som ekosystem är intakta och att den biologiska mångfalden värnas.

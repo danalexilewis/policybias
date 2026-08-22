@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Handelspolitik"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/handelspolitik"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/handelspolitik"
-fetchedAt: "2026-08-22T14:50:35.429Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Handelspolitik
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/handelspolitik
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/handelspolitik
+fetchedAt: 2026-08-22T14:50:35.429Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - environment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet vill se en rättvis handelspolitik som sätter människor, social rättvisa, djur, klimatet och miljön främst och som fokuserar på samhällsvinster för alla och inte bara på vinster för storföretag.**

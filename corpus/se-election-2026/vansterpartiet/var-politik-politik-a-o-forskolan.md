@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Förskolan"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/forskolan"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/forskolan"
-fetchedAt: "2026-08-22T14:50:17.729Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Förskolan
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/forskolan
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/forskolan
+fetchedAt: 2026-08-22T14:50:17.729Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vänsterpartiet anser att förskolan ska vara en rättighet och en möjlighet för alla barn.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Jämlikhet"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/jamlikhet"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/jamlikhet"
-fetchedAt: "2026-08-22T14:51:18.005Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Jämlikhet
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/jamlikhet
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/jamlikhet
+fetchedAt: 2026-08-22T14:51:18.005Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige hör till de OECD-länder där den ekonomiska ojämlikheten ökat mest sedan mitten av 1980-talet. En viktig orsak till de ökade klyftorna är hur det svenska skattesystemet utvecklats. Sverige har gått från att vara ett av de länder vars skattesystem omfördelar mest till att ha det minst omfördelande skattesystemet bland EU:s kärnländer.**

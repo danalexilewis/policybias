@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Flyktingpolitik"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/flyktingpolitik"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/flyktingpolitik"
-fetchedAt: "2026-08-22T14:50:01.900Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Flyktingpolitik
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/flyktingpolitik
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/flyktingpolitik
+fetchedAt: 2026-08-22T14:50:01.900Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Människor på flykt behöver få skydd, därför vill vi försvara asylrätten. Sverige ska inte vara ett land som splittrar familjer. Vi vill bygga ett starkt samhälle med robust välfärd och politik för full sysselsättning. Det är så man löser samhällsproblemen, inte genom att urholka asylrätten.**

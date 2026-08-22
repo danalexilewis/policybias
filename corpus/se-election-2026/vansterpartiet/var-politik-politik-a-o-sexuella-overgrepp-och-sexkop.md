@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "vansterpartiet"
-title: "Sexköp, människohandel för sexuella ändamål och pornografi"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/sexuella-overgrepp-och-sexkop"
-canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/sexuella-overgrepp-och-sexkop"
-fetchedAt: "2026-08-22T14:52:59.908Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: vansterpartiet
+title: Sexköp, människohandel för sexuella ändamål och pornografi
+sourceUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/sexuella-overgrepp-och-sexkop
+canonicalUrl: https://www.vansterpartiet.se/var-politik/politik-a-o/sexuella-overgrepp-och-sexkop
+fetchedAt: 2026-08-22T14:52:59.908Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **I Sverige är det sedan 1999 förbjudet att köpa sex, och en utvärdering av sexköpslagen har visat att lagen har varit ett viktigt verktyg för att begränsa prostitution och människohandel för sexuella ändamål i Sverige. Den har också bidragit till en tydlig attitydförändring. Sexköp är en del av det sexualiserade våldet mot kvinnor eftersom budskapet är att kvinnor är en handelsvara som män har rätt att köpa. Sexköpslagen riktar in sig på grundproblemet, som är mäns efterfrågan på sexuella tjänster, eftersom köparen kriminaliseras men inte säljaren. Vi tycker att det ska vara förbjudet att köpa sex oavsett var i världen det förekommer. Vi vill att även svenskars sexköp utomlands kriminaliseras. I EU-parlamentet arbetar vi med att sprida den svenska sexköpslagen till andra länder.**

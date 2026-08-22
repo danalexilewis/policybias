@@ -28,7 +28,28 @@ describe('GameCensus', () => {
 		expect(onContinue).toHaveBeenCalledWith({
 			ageRange: '25-34',
 			ethnicities: ['maori'],
-			intendedVote: 'green'
+			intendedVote: 'green',
+			feltWealth: null
+		});
+	});
+
+	it('see my score includes felt wealth after the slider is moved', () => {
+		const onContinue = vi.fn();
+		render(<GameCensus onContinue={onContinue} />);
+
+		fireEvent.change(
+			screen.getByRole('slider', {
+				name: 'How wealthy do you feel you are?'
+			}),
+			{ target: { value: '7' } }
+		);
+		fireEvent.click(screen.getByRole('button', { name: 'See my score' }));
+
+		expect(onContinue).toHaveBeenCalledWith({
+			ageRange: null,
+			ethnicities: [],
+			intendedVote: null,
+			feltWealth: 7
 		});
 	});
 });

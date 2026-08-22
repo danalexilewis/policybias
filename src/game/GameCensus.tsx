@@ -4,10 +4,13 @@ import { ALL_PARTIES } from './dealRound';
 import {
 	AGE_RANGE_OPTIONS,
 	ETHNICITY_OPTIONS,
+	FELT_WEALTH_MAX,
+	FELT_WEALTH_MIN,
 	INTENDED_VOTE_EXTRA_OPTIONS,
 	emptyBackground,
 	type BackgroundAnswers,
-	type Ethnicity
+	type Ethnicity,
+	type FeltWealth
 } from './scoreRecord';
 
 type GameCensusProps = {
@@ -26,17 +29,24 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 		props.onContinue(next);
 	}
 
+	function setFeltWealth(value: number): void {
+		const feltWealth = feltWealthFromNumber(value);
+		if (feltWealth === null) {
+			return;
+		}
+		setAnswers((current) => ({ ...current, feltWealth }));
+	}
+
 	return (
 		<div className='game-census'>
 			<header className='game-heading'>
 				<p className='game-heading__kicker'>Before your score</p>
-				<h2 className='game-census__title'>Three optional questions</h2>
+				<h2 className='game-census__title'>Optional questions</h2>
 			</header>
 
 			<p className='game-census__lede'>
 				Your score goes into a public dataset. There are no accounts, and we do
-				not store a name, cookie, or IP address. Age, ethnicity, and who you
-				plan to vote for are optional.
+				not store a name, cookie, or IP address. Every question is optional.
 			</p>
 
 			<form
@@ -139,6 +149,47 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 					</div>
 				</fieldset>
 
+				<fieldset>
+					<legend id='felt-wealth-legend'>
+						How wealthy do you feel you are?
+					</legend>
+					<p className='game-census__hint'>
+						1 is not wealthy. 10 is very wealthy.
+					</p>
+					<div
+						className={
+							answers.feltWealth === null
+								? 'game-census__slider game-census__slider--unanswered'
+								: 'game-census__slider'
+						}
+					>
+						<span aria-hidden='true'>{FELT_WEALTH_MIN}</span>
+						<input
+							type='range'
+							min={FELT_WEALTH_MIN}
+							max={FELT_WEALTH_MAX}
+							step={1}
+							aria-labelledby='felt-wealth-legend'
+							aria-valuetext={
+								answers.feltWealth === null
+									? 'Not answered'
+									: String(answers.feltWealth)
+							}
+							value={answers.feltWealth ?? 5}
+							onPointerDown={() => {
+								if (answers.feltWealth === null) {
+									setFeltWealth(5);
+								}
+							}}
+							onChange={(event) => setFeltWealth(Number(event.target.value))}
+						/>
+						<span aria-hidden='true'>{FELT_WEALTH_MAX}</span>
+					</div>
+					<p className='game-census__slider-value'>
+						{answers.feltWealth === null ? 'Not answered' : answers.feltWealth}
+					</p>
+				</fieldset>
+
 				<div className='game-census__actions'>
 					<button
 						type='button'
@@ -161,4 +212,15 @@ function toggleEthnicity(current: Ethnicity[], id: Ethnicity): Ethnicity[] {
 		return current.filter((item) => item !== id);
 	}
 	return [...current, id];
+}
+
+function feltWealthFromNumber(value: number): FeltWealth | null {
+	if (
+		!Number.isInteger(value) ||
+		value < FELT_WEALTH_MIN ||
+		value > FELT_WEALTH_MAX
+	) {
+		return null;
+	}
+	return value as FeltWealth;
 }

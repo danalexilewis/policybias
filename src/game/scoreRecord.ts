@@ -22,18 +22,40 @@ export type Ethnicity =
 
 export type IntendedVote = PartyId | 'undecided' | 'will-not-vote' | 'another-party'
 
+/** How wealthy the player feels, from 1 (not wealthy) to 10 (very wealthy). */
+export type FeltWealth = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
+
+export const FELT_WEALTH_MIN = 1
+export const FELT_WEALTH_MAX = 10
+
+/** One round on a score record: the party picked and the party that was asked for. */
+export type StoredGuess = {
+  guessedParty: PartyId
+  targetParty: PartyId
+  correct: boolean
+}
+
+export type PartyGuessScore = {
+  party: PartyId
+  correct: number
+  attempted: number
+}
+
 export type BackgroundAnswers = {
   ageRange: AgeRange | null
   ethnicities: Ethnicity[]
   intendedVote: IntendedVote | null
+  feltWealth: FeltWealth | null
 }
 
 export type ScoreRecordInput = {
   correct: number
   attempted: number
+  guesses: StoredGuess[] | null
   ageRange: AgeRange | null
   ethnicities: Ethnicity[] | null
   intendedVote: IntendedVote | null
+  feltWealth: FeltWealth | null
 }
 
 export type ScoreRecord = ScoreRecordInput & {
@@ -71,6 +93,7 @@ export const INTENDED_VOTE_EXTRA_OPTIONS: {
 
 const AGE_RANGES = new Set<string>(AGE_RANGE_OPTIONS.map((option) => option.id))
 const ETHNICITIES = new Set<string>(ETHNICITY_OPTIONS.map((option) => option.id))
+const PARTIES = new Set<string>(ALL_PARTIES)
 const INTENDED_VOTES = new Set<string>([
   ...ALL_PARTIES,
   ...INTENDED_VOTE_EXTRA_OPTIONS.map((option) => option.id),
@@ -83,18 +106,52 @@ export function emptyBackground(): BackgroundAnswers {
     ageRange: null,
     ethnicities: [],
     intendedVote: null,
+    feltWealth: null,
   }
 }
 
 export function backgroundFromAnswers(
   answers: BackgroundAnswers,
-): Pick<ScoreRecordInput, 'ageRange' | 'ethnicities' | 'intendedVote'> {
+): Pick<
+  ScoreRecordInput,
+  'ageRange' | 'ethnicities' | 'intendedVote' | 'feltWealth'
+> {
   return {
     ageRange: answers.ageRange,
     ethnicities:
       answers.ethnicities.length === 0 ? null : uniqueEthnicities(answers.ethnicities),
     intendedVote: answers.intendedVote,
+    feltWealth: answers.feltWealth,
   }
+}
+
+export function scoresByGuessedParty(
+  guesses: StoredGuess[] | null,
+): PartyGuessScore[] {
+  const buckets = Object.fromEntries(
+    ALL_PARTIES.map((party) => [party, { correct: 0, attempted: 0 }]),
+  ) as Record<PartyId, { correct: number; attempted: number }>
+
+  for (const guess of guesses ?? []) {
+    buckets[guess.guessedParty].attempted += 1
+    if (guess.correct) {
+      buckets[guess.guessedParty].correct += 1
+    }
+  }
+
+  return ALL_PARTIES.map((party) => ({
+    party,
+    correct: buckets[party].correct,
+    attempted: buckets[party].attempted,
+  }))
+}
+
+/** Session score for one party, or empty when that party was never picked. */
+export function partyScoreLabel(bucket: PartyGuessScore): string {
+  if (bucket.attempted === 0) {
+    return ''
+  }
+  return `${bucket.correct}/${bucket.attempted}`
 }
 
 export function formatRecordedOn(now: Date): string {
@@ -122,6 +179,8 @@ export function parseScoreRecordInput(value: unknown): ScoreRecordInput | null {
     ageRange?: unknown
     ethnicities?: unknown
     intendedVote?: unknown
+    feltWealth?: unknown
+    guesses?: unknown
   }
 
   if (
@@ -147,12 +206,24 @@ export function parseScoreRecordInput(value: unknown): ScoreRecordInput | null {
     return null
   }
 
+  const feltWealth = parseOptionalFeltWealth(record.feltWealth)
+  if (feltWealth === undefined) {
+    return null
+  }
+
+  const guesses = parseGuesses(record.guesses, record.correct, record.attempted)
+  if (guesses === undefined) {
+    return null
+  }
+
   return {
     correct: record.correct,
     attempted: record.attempted,
+    guesses,
     ageRange: ageRange as AgeRange | null,
     ethnicities,
     intendedVote: intendedVote as IntendedVote | null,
+    feltWealth,
   }
 }
 
@@ -171,19 +242,37 @@ export function parseScoreRecord(value: unknown): ScoreRecord | null {
 }
 
 export function scoreRecordsToCsv(records: ScoreRecord[]): string {
-  const header = 'recordedOn,correct,attempted,ageRange,ethnicities,intendedVote'
-  const rows = records.map((record) =>
-    [
+  const header = [
+    'recordedOn',
+    'correct',
+    'attempted',
+    ...ALL_PARTIES,
+    'ageRange',
+    'ethnicities',
+    'intendedVote',
+    'feltWealth',
+  ].join(',')
+  const rows = records.map((record) => {
+    const partyScores = Object.fromEntries(
+      scoresByGuessedParty(record.guesses).map((bucket) => [
+        bucket.party,
+        partyScoreLabel(bucket),
+      ]),
+    ) as Record<PartyId, string>
+
+    return [
       record.recordedOn,
       String(record.correct),
       String(record.attempted),
+      ...ALL_PARTIES.map((party) => partyScores[party]),
       record.ageRange ?? '',
       record.ethnicities?.join(';') ?? '',
       record.intendedVote ?? '',
+      record.feltWealth === null ? '' : String(record.feltWealth),
     ]
       .map(csvCell)
-      .join(','),
-  )
+      .join(',')
+  })
   return [header, ...rows].join('\n')
 }
 
@@ -196,6 +285,24 @@ function isSessionScore(correct: number, attempted: number): boolean {
     attempted <= MAX_GAME_ROUNDS &&
     correct <= attempted
   )
+}
+
+/** `undefined` means the field was invalid; `null` means skipped. */
+function parseOptionalFeltWealth(
+  value: unknown,
+): FeltWealth | null | undefined {
+  if (value === undefined || value === null || value === '') {
+    return null
+  }
+  if (
+    typeof value !== 'number' ||
+    !Number.isInteger(value) ||
+    value < FELT_WEALTH_MIN ||
+    value > FELT_WEALTH_MAX
+  ) {
+    return undefined
+  }
+  return value as FeltWealth
 }
 
 /** `undefined` means the field was invalid; `null` means skipped. */
@@ -238,6 +345,68 @@ function uniqueEthnicities(values: Ethnicity[]): Ethnicity[] {
   return ETHNICITY_OPTIONS.map((option) => option.id).filter((id) =>
     values.includes(id),
   )
+}
+
+/** `undefined` means the field was invalid; `null` means a legacy row. */
+function parseGuesses(
+  value: unknown,
+  correct: number,
+  attempted: number,
+): StoredGuess[] | null | undefined {
+  if (value === undefined || value === null) {
+    return null
+  }
+  if (!Array.isArray(value) || value.length !== attempted) {
+    return undefined
+  }
+
+  const parsed: StoredGuess[] = []
+  let correctCount = 0
+  for (const item of value) {
+    const guess = parseGuess(item)
+    if (!guess) {
+      return undefined
+    }
+    if (guess.correct) {
+      correctCount += 1
+    }
+    parsed.push(guess)
+  }
+
+  if (correctCount !== correct) {
+    return undefined
+  }
+  return parsed
+}
+
+function parseGuess(value: unknown): StoredGuess | null {
+  if (value === null || typeof value !== 'object') {
+    return null
+  }
+
+  const item = value as {
+    guessedParty?: unknown
+    targetParty?: unknown
+    correct?: unknown
+  }
+  if (typeof item.guessedParty !== 'string' || !PARTIES.has(item.guessedParty)) {
+    return null
+  }
+  if (typeof item.targetParty !== 'string' || !PARTIES.has(item.targetParty)) {
+    return null
+  }
+  if (typeof item.correct !== 'boolean') {
+    return null
+  }
+  if (item.correct !== (item.guessedParty === item.targetParty)) {
+    return null
+  }
+
+  return {
+    guessedParty: item.guessedParty as PartyId,
+    targetParty: item.targetParty as PartyId,
+    correct: item.correct,
+  }
 }
 
 function csvCell(value: string): string {

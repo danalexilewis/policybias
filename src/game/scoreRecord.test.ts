@@ -5,6 +5,8 @@ import {
   parseScoreRecord,
   parseScoreRecordInput,
   scoreRecordsToCsv,
+  scoresByGuessedParty,
+  partyScoreLabel,
   stampScoreRecord,
 } from './scoreRecord'
 
@@ -15,9 +17,11 @@ describe('parseScoreRecordInput', () => {
     ).toEqual({
       correct: 7,
       attempted: 10,
+      guesses: null,
       ageRange: null,
       ethnicities: null,
       intendedVote: null,
+      feltWealth: null,
     })
   })
 
@@ -29,15 +33,42 @@ describe('parseScoreRecordInput', () => {
         ageRange: '25-34',
         ethnicities: ['maori', 'european', 'maori'],
         intendedVote: 'green',
+        feltWealth: 7,
         userId: 'should-be-ignored',
         recordedOn: '1999-01-01',
       }),
     ).toEqual({
       correct: 3,
       attempted: 10,
+      guesses: null,
       ageRange: '25-34',
       ethnicities: ['european', 'maori'],
       intendedVote: 'green',
+      feltWealth: 7,
+    })
+  })
+
+  it('keeps guesses when they match the session score', () => {
+    expect(
+      parseScoreRecordInput({
+        correct: 1,
+        attempted: 2,
+        guesses: [
+          { guessedParty: 'green', targetParty: 'green', correct: true },
+          { guessedParty: 'labour', targetParty: 'national', correct: false },
+        ],
+      }),
+    ).toEqual({
+      correct: 1,
+      attempted: 2,
+      guesses: [
+        { guessedParty: 'green', targetParty: 'green', correct: true },
+        { guessedParty: 'labour', targetParty: 'national', correct: false },
+      ],
+      ageRange: null,
+      ethnicities: null,
+      intendedVote: null,
+      feltWealth: null,
     })
   })
 
@@ -60,6 +91,34 @@ describe('parseScoreRecordInput', () => {
         ethnicities: ['kiwi'],
       }),
     ).toBeNull()
+    expect(
+      parseScoreRecordInput({
+        correct: 1,
+        attempted: 1,
+        feltWealth: 11,
+      }),
+    ).toBeNull()
+    expect(
+      parseScoreRecordInput({
+        correct: 1,
+        attempted: 1,
+        feltWealth: 5.5,
+      }),
+    ).toBeNull()
+    expect(
+      parseScoreRecordInput({
+        correct: 1,
+        attempted: 1,
+        guesses: [{ guessedParty: 'green', targetParty: 'labour', correct: true }],
+      }),
+    ).toBeNull()
+    expect(
+      parseScoreRecordInput({
+        correct: 1,
+        attempted: 2,
+        guesses: [{ guessedParty: 'green', targetParty: 'green', correct: true }],
+      }),
+    ).toBeNull()
   })
 })
 
@@ -74,9 +133,11 @@ describe('parseScoreRecord', () => {
     ).toEqual({
       correct: 1,
       attempted: 1,
+      guesses: null,
       ageRange: null,
       ethnicities: null,
       intendedVote: null,
+      feltWealth: null,
       recordedOn: '2026-08-21',
     })
     expect(
@@ -103,9 +164,11 @@ describe('stampScoreRecord', () => {
     expect(stampScoreRecord(input, new Date('2026-08-21T23:15:00.000Z'))).toEqual({
       correct: 2,
       attempted: 10,
+      guesses: null,
       ageRange: null,
       ethnicities: null,
       intendedVote: null,
+      feltWealth: null,
       recordedOn: '2026-08-21',
     })
   })
@@ -117,7 +180,30 @@ describe('backgroundFromAnswers', () => {
       ageRange: null,
       ethnicities: null,
       intendedVote: null,
+      feltWealth: null,
     })
+  })
+})
+
+describe('scoresByGuessedParty', () => {
+  it('counts correct and attempted for each party the player picked', () => {
+    expect(
+      scoresByGuessedParty([
+        { guessedParty: 'green', targetParty: 'green', correct: true },
+        { guessedParty: 'green', targetParty: 'labour', correct: false },
+        { guessedParty: 'labour', targetParty: 'national', correct: false },
+      ]).filter((bucket) => bucket.attempted > 0),
+    ).toEqual([
+      { party: 'green', correct: 1, attempted: 2 },
+      { party: 'labour', correct: 0, attempted: 1 },
+    ])
+  })
+
+  it('formats a party score only when that party was guessed', () => {
+    expect(partyScoreLabel({ party: 'green', correct: 1, attempted: 2 })).toBe(
+      '1/2',
+    )
+    expect(partyScoreLabel({ party: 'act', correct: 0, attempted: 0 })).toBe('')
   })
 })
 
@@ -131,22 +217,29 @@ describe('scoreRecordsToCsv', () => {
           ageRange: '25-34',
           ethnicities: ['european', 'maori'],
           intendedVote: 'green',
+          feltWealth: 8,
+          guesses: [
+            { guessedParty: 'green', targetParty: 'green', correct: true },
+            { guessedParty: 'labour', targetParty: 'national', correct: false },
+          ],
           recordedOn: '2026-08-21',
         },
         {
           correct: 1,
           attempted: 10,
+          guesses: null,
           ageRange: null,
           ethnicities: null,
           intendedVote: null,
+          feltWealth: null,
           recordedOn: '2026-08-21',
         },
       ]),
     ).toBe(
       [
-        'recordedOn,correct,attempted,ageRange,ethnicities,intendedVote',
-        '2026-08-21,7,10,25-34,european;maori,green',
-        '2026-08-21,1,10,,,',
+        'recordedOn,correct,attempted,act,green,labour,national,nz-first,opportunity,te-pati-maori,ageRange,ethnicities,intendedVote,feltWealth',
+        '2026-08-21,7,10,,1/1,0/1,,,,,25-34,european;maori,green,8',
+        '2026-08-21,1,10,,,,,,,,,,,',
       ].join('\n'),
     )
   })

@@ -12,6 +12,7 @@ import {
 	CURRENT_EVENT_ID,
 	eventGamePath,
 	eventLabel,
+	eventLlmsPath,
 	eventScoresPath
 } from './event/events';
 import { useEventView } from './event/useEventView';
@@ -158,6 +159,8 @@ export default function App(): JSX.Element {
 					Encoded in <a href='https://github.com/danalexilewis/gurki'>Gurki</a>
 					{' · '}
 					<a href={eventScoresPath(CURRENT_EVENT_ID)}>Public scores</a>
+					{' · '}
+					<a href={eventLlmsPath(CURRENT_EVENT_ID)}>llms.txt</a>
 				</footer>
 			</div>
 

@@ -86,6 +86,12 @@ export function scoresPageHtml(
       th { font-size: 0.8rem; color: #6b645c; font-weight: 600; }
       .num { font-variant-numeric: tabular-nums; }
       a { color: inherit; }
+      footer {
+        width: min(72rem, calc(100% - 2rem));
+        margin: 0 auto 2rem;
+        font-size: 0.8rem;
+        color: #6b645c;
+      }
     </style>
   </head>
   <body>
@@ -118,6 +124,9 @@ export function scoresPageHtml(
       </table>
       </div>
     </main>
+    <footer>
+      <a href="${eventLlmsPath(eventId)}">llms.txt</a>
+    </footer>
   </body>
 </html>`,
     eventLlmsPath(eventId),

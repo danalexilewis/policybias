@@ -2,7 +2,12 @@
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { CardsDataset, CardFace, PartyId, PolicyCard } from './data/types';
-import { CURRENT_EVENT_ID, eventGamePath, eventPath } from './event/events';
+import {
+	CURRENT_EVENT_ID,
+	eventGamePath,
+	eventLlmsPath,
+	eventPath
+} from './event/events';
 
 vi.mock('@vercel/analytics/react', () => ({
 	Analytics: () => null
@@ -70,6 +75,18 @@ afterEach(() => {
 
 beforeEach(() => {
 	window.history.replaceState({}, '', eventPath(CURRENT_EVENT_ID));
+});
+
+describe('App board', () => {
+	it('puts llms.txt in the footer, not the header', async () => {
+		const { default: App } = await import('./App');
+		render(<App />);
+
+		const link = screen.getByRole('link', { name: 'llms.txt' });
+		expect(link.getAttribute('href')).toBe(eventLlmsPath(CURRENT_EVENT_ID));
+		expect(link.closest('footer')).not.toBeNull();
+		expect(screen.queryByRole('columnheader', { name: 'llms.txt' })).toBeNull();
+	});
 });
 
 describe('App game route', () => {

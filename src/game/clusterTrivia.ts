@@ -1,5 +1,5 @@
 /**
- * Short history facts shown after a correct guess, keyed by the round's cluster.
+ * Short history facts shown after a wrong guess, keyed by the round's cluster.
  * One surprising concrete, then the settlement it left behind — Stuff-quiz length.
  */
 
@@ -55,6 +55,13 @@ export const CLUSTER_TRIVIA: ClusterTrivia[] = [
     body: 'Judge Silvia Cartwright found women at National Women’s Hospital had been left untreated in a research programme they had not consented to. The report created a national screening programme and a health and disability commissioner. Consent rules in clinics still sit on that finding.',
   },
   {
+    id: 'health-access-he-ara-oranga',
+    cluster: 'health-access',
+    category: 'Health access and medicines',
+    headline: 'A 2018 inquiry said mental health needed a new centre of gravity',
+    body: 'He Ara Oranga told the government to spend more on community care and to put a Mental Health and Wellbeing Commission in statute. The Commission was established. The spend shift is still the argument the inquiry named.',
+  },
+  {
     id: 'health-access-pho',
     cluster: 'health-access',
     category: 'Health access and medicines',
@@ -102,6 +109,20 @@ export const CLUSTER_TRIVIA: ClusterTrivia[] = [
     category: 'Energy and household power',
     headline: 'The wires were legally split from the retailer',
     body: 'The Electricity Industry Reform Act 1998 forced local power companies to sell either their lines or their retail and generation. The frenzy of sales created today’s gentailers-versus-lines split. Cross-subsidy from the poles to the bill was the thing the Act was trying to stop.',
+  },
+  {
+    id: 'energy-power-tiwai',
+    cluster: 'energy-power',
+    category: 'Energy and household power',
+    headline: 'One smelter still shapes the whole grid argument',
+    body: 'Tiwai Point has long been the country’s largest electricity user, on a contract tied back to Manapouri. Every threat to close it becomes a wholesale-price event. Household bills and a Southland factory have been in the same sentence for fifty years.',
+  },
+  {
+    id: 'energy-power-onslow',
+    cluster: 'energy-power',
+    category: 'Energy and household power',
+    headline: 'A giant pumped lake was meant to cover dry years',
+    body: 'The NZ Battery project studied pumping water uphill at Lake Onslow so hydro could run when the lakes were low. The coalition cancelled it. Dry-year risk did not cancel with it.',
   },
   {
     id: 'tax-fiscal-gst',
@@ -153,6 +174,13 @@ export const CLUSTER_TRIVIA: ClusterTrivia[] = [
     body: 'Michael Cullen restored 39 percent in 2000. Bill English took it back to 33 percent in 2010, aligned with company tax for a while. It returned at 39 percent in 2021, this time above $180,000.',
   },
   {
+    id: 'tax-fiscal-bright-line',
+    cluster: 'tax-fiscal',
+    category: 'Tax and fiscal instruments',
+    headline: 'The bright-line test has been two years, then five, then ten, then two',
+    body: 'From 2015, selling a residential property inside a window counted as income. The window grew to ten years, then shrank again. It has been the capital-gains instrument that could pass, because it only named property, and only for a while.',
+  },
+  {
     id: 'crime-justice-death-penalty',
     cluster: 'crime-justice',
     category: 'Crime, justice and public safety',
@@ -193,6 +221,20 @@ export const CLUSTER_TRIVIA: ClusterTrivia[] = [
     category: 'Crime, justice and public safety',
     headline: 'Semi-automatics were banned in four weeks',
     body: 'After 15 March 2019, Parliament passed the Arms Amendment Act on 11 April. Most military-style semi-automatics became prohibited. A buy-back followed. Firearms law here can move that fast.',
+  },
+  {
+    id: 'crime-justice-serco',
+    cluster: 'crime-justice',
+    category: 'Crime, justice and public safety',
+    headline: 'A private prison contract was pulled after “fight clubs”',
+    body: 'Serco ran Mount Eden from 2011. In 2015 the government cancelled the contract after organised fights and other failures were exposed. The prison went back to the public service. Contracting out the cells did not last the decade.',
+  },
+  {
+    id: 'crime-justice-youth-17',
+    cluster: 'crime-justice',
+    category: 'Crime, justice and public safety',
+    headline: 'Seventeen-year-olds were moved into youth justice in 2019',
+    body: 'Until then, 17 was adult court. The Oranga Tamariki Act change put most 17-year-olds into the youth jurisdiction, with family group conferences still the engine. Where childhood ends in the criminal law is a line Parliament has redrawn.',
   },
   {
     id: 'immigration-dawn-raids',
@@ -237,6 +279,20 @@ export const CLUSTER_TRIVIA: ClusterTrivia[] = [
     body: 'The Samoan Quota dates from 1970. The Pacific Access Category, from 2002, added Tonga, Tuvalu, Kiribati and later Fiji. Registrations are drawn. Demand always exceeds the places.',
   },
   {
+    id: 'immigration-miq',
+    cluster: 'immigration',
+    category: 'Immigration and contribution',
+    headline: 'The border became a hotel system for two years',
+    body: 'Managed isolation and quarantine, from 2020, put arrivals in designated hotels under health rules. It was how the country ran a closed border. The last MIQ facilities wound down in 2022 as the border reopened.',
+  },
+  {
+    id: 'immigration-parent-category',
+    cluster: 'immigration',
+    category: 'Immigration and contribution',
+    headline: 'Bringing parents has been a queue more than a right',
+    body: 'The Parent Category has been closed, redesigned, capped and paused more than once. When it runs, places are limited and the wait is long. Family reunion sits behind skills and numbers in the residence settings.',
+  },
+  {
     id: 'family-income-muldoon-super',
     cluster: 'family-income',
     category: 'Family income, welfare and savings',
@@ -277,6 +333,20 @@ export const CLUSTER_TRIVIA: ClusterTrivia[] = [
     category: 'Family income, welfare and savings',
     headline: 'Super age went from 60 back to 65',
     body: 'Muldoon’s National Super was paid from 60. A 1992 law lifted the age in steps, finishing in 2001. Every later government has been asked to lift it again. None has.',
+  },
+  {
+    id: 'family-income-winter-energy',
+    cluster: 'family-income',
+    category: 'Family income, welfare and savings',
+    headline: 'Winter energy money was added to the pension and benefits',
+    body: 'From 1 July 2018, NZ Super and main benefits got a seasonal top-up for the colder months. It is paid whether or not the power bill is high. The payment is a line item, not a subsidy to the gentailer.',
+  },
+  {
+    id: 'family-income-child-poverty-act',
+    cluster: 'family-income',
+    category: 'Family income, welfare and savings',
+    headline: 'Child poverty targets were written into an Act',
+    body: 'The Child Poverty Reduction Act 2018 makes governments set targets and publish the numbers. It does not pick the tools. Budgets still have to do the reducing; the Act makes missing it visible.',
   },
   {
     id: 'environment-rural-nuclear',
@@ -321,6 +391,20 @@ export const CLUSTER_TRIVIA: ClusterTrivia[] = [
     body: 'Fonterra formed in 2001 from the two big dairy companies, under the Dairy Industry Restructuring Act. Farmers voted it through. A single seller of most of the milk is a statutory exception, not a market accident.',
   },
   {
+    id: 'environment-rural-zero-carbon',
+    cluster: 'environment-rural',
+    category: 'Environment, water and rural land',
+    headline: 'The 2050 climate target is in an Act, with a commission attached',
+    body: 'The Zero Carbon amendment of 2019 wrote net-zero (except methane, which has its own band) into the Climate Change Response Act and created the Climate Change Commission. Governments still set the budgets. The statute makes them explain themselves.',
+  },
+  {
+    id: 'environment-rural-three-waters',
+    cluster: 'environment-rural',
+    category: 'Environment, water and rural land',
+    headline: 'Three Waters tried to take pipes off the councils',
+    body: 'The reform would have moved drinking water, wastewater and stormwater into new regional entities. Councils, iwi seats and debt were the fight. The next government repealed it in 2024. The pipes did not get younger.',
+  },
+  {
     id: 'maori-affairs-seats',
     cluster: 'maori-affairs',
     category: 'Māori affairs and Te Tiriti',
@@ -362,9 +446,23 @@ export const CLUSTER_TRIVIA: ClusterTrivia[] = [
     headline: 'The 1975 land march walked the length of the North Island',
     body: 'Dame Whina Cooper led Te Rōpū o te Matakite from Te Hāpua to Parliament. The same year, the Waitangi Tribunal was established. The march made land a national argument again.',
   },
+  {
+    id: 'maori-affairs-lands-case',
+    cluster: 'maori-affairs',
+    category: 'Māori affairs and Te Tiriti',
+    headline: 'A 1987 court case stopped the Crown giving land away blindly',
+    body: 'When state-owned enterprises were created, the Court of Appeal said the Treaty clause in that Act had teeth. The Lands case meant the Crown could not transfer land without a way to protect Māori claims. Settlement machinery was built in the shadow of that judgment.',
+  },
+  {
+    id: 'maori-affairs-te-urewera',
+    cluster: 'maori-affairs',
+    category: 'Māori affairs and Te Tiriti',
+    headline: 'Te Urewera stopped being a national park in 2014',
+    body: 'The Te Urewera Act took the land out of the national-parks statute and gave it legal personality, with a board that includes Tūhoe. People still walk the tracks. The owner on the paper is no longer the Crown in the old sense.',
+  },
 ]
 
-export const TRIVIA_BANK_SIZE = 50
+export const TRIVIA_BANK_SIZE = 64
 
 const EXPECTED_CLUSTERS = [
   'health-access',
@@ -377,18 +475,44 @@ const EXPECTED_CLUSTERS = [
   'maori-affairs',
 ] as const
 
-/** First unused fact for the cluster; wraps when the session has seen them all. */
+function createSeededRandom(seed: number): () => number {
+  let state = seed >>> 0
+  return function nextRandom(): number {
+    state = (state + 0x6d2b79f5) >>> 0
+    let t = Math.imul(state ^ (state >>> 15), 1 | state)
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+}
+
+function fisherYatesShuffle<T>(items: T[], random: () => number): T[] {
+  const copy = [...items]
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(random() * (index + 1))
+    const current = copy[index]
+    const swap = copy[swapIndex]
+    if (current === undefined || swap === undefined) {
+      continue
+    }
+    copy[index] = swap
+    copy[swapIndex] = current
+  }
+  return copy
+}
+
+/** Next unused fact for the cluster, in a seed-shuffled order. Never repeats in-session. */
 export function pickClusterTrivia(args: {
   cluster: string
   usedIds: readonly string[]
+  seed: number
 }): ClusterTrivia | null {
   const pool = CLUSTER_TRIVIA.filter((item) => item.cluster === args.cluster)
   if (pool.length === 0) {
     return null
   }
 
-  const unused = pool.filter((item) => !args.usedIds.includes(item.id))
-  return unused[0] ?? pool[0] ?? null
+  const shuffled = fisherYatesShuffle(pool, createSeededRandom(args.seed))
+  return shuffled.find((item) => !args.usedIds.includes(item.id)) ?? null
 }
 
 export { EXPECTED_CLUSTERS }

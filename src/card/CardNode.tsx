@@ -1,17 +1,24 @@
 import { type JSX, type KeyboardEvent } from 'react';
 import type {
+	AnonymiseNames,
 	CardFace,
 	CardScenario,
 	CardStep,
 	PartyId,
+	PartyMeta,
 	PolicyCard,
 	ReportItem
 } from '../data/types';
 import type { CardDisplay } from './CardDisplay';
-import { anonymiseText, PARTY_LABELS, stripPartyFromTitle } from './anonymise';
-import { PARTY_LOGOS } from './partyLogos';
+import {
+	anonymiseText,
+	NZ_ANONYMISE_NAMES,
+	partyLabel,
+	partyLogoUrl,
+	stripPartyFromTitle
+} from './anonymise';
 import { clusterColour } from '../theme/clusterColours';
-import { contrastingText } from '../theme/contrast';
+import { chipText } from '../theme/contrast';
 import styles from './CardNode.module.css';
 
 type CardSize = 'grid' | 'index' | 'inspect' | 'game';
@@ -26,17 +33,24 @@ type GurkiCardProps = {
 	/** Render as a div inside a game button. */
 	as?: 'article' | 'div';
 	clusterLabels?: Record<string, string>;
+	parties?: PartyMeta[];
+	anonymiseNames?: AnonymiseNames;
 };
 
 /** Fixed-size mark so revealing the party does not change the card header. */
-function PartyMark(props: { party: PartyId; visible: boolean }): JSX.Element {
+function PartyMark(props: {
+	party: PartyId;
+	visible: boolean;
+	parties: PartyMeta[];
+}): JSX.Element {
+	const src = partyLogoUrl(props.parties, props.party);
 	return (
 		<div className={styles.logoSlot}>
-			{props.visible ? (
+			{props.visible && src ? (
 				<img
 					className={styles.partyLogo}
-					src={PARTY_LOGOS[props.party]}
-					alt={PARTY_LABELS[props.party]}
+					src={src}
+					alt={partyLabel(props.parties, props.party)}
 				/>
 			) : (
 				<span className={styles.logoPlaceholder} aria-hidden='true' />
@@ -45,13 +59,21 @@ function PartyMark(props: { party: PartyId; visible: boolean }): JSX.Element {
 	);
 }
 
-function headingText(text: string, hideParty: boolean): string {
-	const stripped = stripPartyFromTitle(text);
-	return hideParty ? anonymiseText(stripped) : stripped;
+function headingText(
+	text: string,
+	hideParty: boolean,
+	names: AnonymiseNames,
+): string {
+	const stripped = stripPartyFromTitle(text, names);
+	return hideParty ? anonymiseText(stripped, names) : stripped;
 }
 
-function maybeAnonymise(text: string, hideParty: boolean): string {
-	return hideParty ? anonymiseText(text) : text;
+function maybeAnonymise(
+	text: string,
+	hideParty: boolean,
+	names: AnonymiseNames,
+): string {
+	return hideParty ? anonymiseText(text, names) : text;
 }
 
 function stepVisible(step: CardStep, display: CardDisplay): boolean {
@@ -96,12 +118,14 @@ function surfaceClass(step: CardStep): string {
 
 function StepLine({
 	step,
-	hideParty
+	hideParty,
+	names
 }: {
 	step: CardStep;
 	hideParty: boolean;
+	names: AnonymiseNames;
 }): JSX.Element {
-	const text = maybeAnonymise(step.text, hideParty);
+	const text = maybeAnonymise(step.text, hideParty, names);
 	const className = [
 		styles.step,
 		step.extrapolated ? styles.stepExtrapolated : ''
@@ -125,11 +149,13 @@ function StepLine({
 function ScenarioBlock({
 	scenario,
 	display,
-	hideParty
+	hideParty,
+	names
 }: {
 	scenario: CardScenario;
 	display: CardDisplay;
 	hideParty: boolean;
+	names: AnonymiseNames;
 }): JSX.Element {
 	const visibleSteps = scenario.steps.filter((step) =>
 		stepVisible(step, display)
@@ -138,7 +164,7 @@ function ScenarioBlock({
 		return <></>;
 	}
 
-	const title = headingText(scenario.title, hideParty);
+	const title = headingText(scenario.title, hideParty, names);
 
 	return (
 		<section className={styles.scenario}>
@@ -148,6 +174,7 @@ function ScenarioBlock({
 					key={`${step.kind}-${index}`}
 					step={step}
 					hideParty={hideParty}
+					names={names}
 				/>
 			))}
 		</section>
@@ -158,12 +185,14 @@ function ReportBlock({
 	heading,
 	items,
 	displayFlag,
-	hideParty
+	hideParty,
+	names
 }: {
 	heading: string;
 	items: ReportItem[];
 	displayFlag: boolean;
 	hideParty: boolean;
+	names: AnonymiseNames;
 }): JSX.Element | null {
 	if (!displayFlag || items.length === 0) {
 		return null;
@@ -186,7 +215,7 @@ function ReportBlock({
 						) : (
 							<span className={styles.surface} />
 						)}
-						<span>{maybeAnonymise(item.text, hideParty)}</span>
+						<span>{maybeAnonymise(item.text, hideParty, names)}</span>
 					</li>
 				))}
 			</ul>
@@ -199,15 +228,17 @@ function FaceBody({
 	card,
 	display,
 	hideParty,
-	size
+	size,
+	names
 }: {
 	face: CardFace;
 	card: PolicyCard;
 	display: CardDisplay;
 	hideParty: boolean;
 	size: CardSize;
+	names: AnonymiseNames;
 }): JSX.Element {
-	const note = face.note ? maybeAnonymise(face.note, hideParty) : undefined;
+	const note = face.note ? maybeAnonymise(face.note, hideParty, names) : undefined;
 	const outputCount = face.counts.outputs;
 
 	if (size === 'index') {
@@ -236,6 +267,7 @@ function FaceBody({
 					scenario={scenario}
 					display={display}
 					hideParty={hideParty}
+					names={names}
 				/>
 			))}
 
@@ -244,12 +276,14 @@ function FaceBody({
 				items={face.report.outputs}
 				displayFlag={display.output}
 				hideParty={hideParty}
+				names={names}
 			/>
 			<ReportBlock
 				heading='System outcomes'
 				items={face.report.outcomes}
 				displayFlag={display.outcome}
 				hideParty={hideParty}
+				names={names}
 			/>
 
 			{display.source && size !== 'game' ? (
@@ -260,7 +294,7 @@ function FaceBody({
 						rel='noopener noreferrer'
 						onClick={(event) => event.stopPropagation()}
 					>
-						{headingText(card.source.title, hideParty) || 'Source'}
+						{headingText(card.source.title, hideParty, names) || 'Source'}
 					</a>
 				</footer>
 			) : null}
@@ -276,6 +310,7 @@ type ListCardProps = {
 	hideParty: boolean;
 	size?: 'grid' | 'inspect';
 	onInspect?: () => void;
+	anonymiseNames?: AnonymiseNames;
 };
 
 const LIST_CARD_TITLE: Record<ListCardKind, string> = {
@@ -292,7 +327,8 @@ export function ListCard({
 	items,
 	hideParty,
 	size = 'grid',
-	onInspect
+	onInspect,
+	anonymiseNames = NZ_ANONYMISE_NAMES
 }: ListCardProps): JSX.Element | null {
 	if (items.length === 0) {
 		return null;
@@ -333,7 +369,7 @@ export function ListCard({
 			<h3 className={styles.listCardTitle}>{title}</h3>
 			<ul className={styles.listCardItems}>
 				{items.map((item, index) => (
-					<li key={index}>{maybeAnonymise(item, hideParty)}</li>
+					<li key={index}>{maybeAnonymise(item, hideParty, anonymiseNames)}</li>
 				))}
 			</ul>
 		</article>
@@ -348,18 +384,23 @@ export function GurkiCard({
 	size = 'grid',
 	onInspect,
 	as = 'article',
-	clusterLabels
+	clusterLabels,
+	parties = [],
+	anonymiseNames = NZ_ANONYMISE_NAMES
 }: GurkiCardProps): JSX.Element {
 	const faceKey = faceProp ?? 'stated';
 	const activeFace =
 		faceKey === 'derived' && card.derived ? card.derived : card.stated;
 	const hideParty = !display.party;
-	const title = display.title ? headingText(activeFace.title, hideParty) : '';
+	const title = display.title
+		? headingText(activeFace.title, hideParty, anonymiseNames)
+		: '';
 	const Tag = as;
 
 	const cardClassName = [
 		styles.card,
 		size === 'inspect' ? styles.cardInspect : '',
+		size === 'game' ? styles.cardGame : '',
 		onInspect ? styles.cardInspectable : ''
 	]
 		.filter(Boolean)
@@ -386,7 +427,13 @@ export function GurkiCard({
 		>
 			<header className={styles.header}>
 				<div className={styles.meta}>
-					<PartyMark party={card.party} visible={display.party} />
+					{display.party || size === 'game' ? (
+						<PartyMark
+							party={card.party}
+							visible={display.party}
+							parties={parties}
+						/>
+					) : null}
 					<div className={styles.clusters}>
 						{card.clusters.map((clusterId) => {
 							const fill = clusterColour(clusterId);
@@ -396,7 +443,7 @@ export function GurkiCard({
 									className={styles.clusterChip}
 									style={{
 										backgroundColor: fill,
-										color: contrastingText(fill)
+										color: chipText(fill)
 									}}
 								>
 									{clusterLabels?.[clusterId] ?? clusterId}
@@ -415,6 +462,7 @@ export function GurkiCard({
 				display={display}
 				hideParty={hideParty}
 				size={size}
+				names={anonymiseNames}
 			/>
 		</Tag>
 	);

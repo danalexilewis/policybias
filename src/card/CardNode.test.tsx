@@ -62,7 +62,54 @@ describe('GurkiCard', () => {
 
 		const category = screen.getByText('Health');
 		expect(category.style.backgroundColor).toBe('rgb(184, 77, 92)');
-		expect(category.style.color).toBe('rgb(255, 255, 255)');
+		expect(category.style.color).toBe('rgb(255, 251, 230)');
 		expect(category.style.boxShadow).toBe('');
+	});
+
+	it('does not reserve the party mark on index cards when the party is hidden', () => {
+		render(
+			<GurkiCard
+				card={makeCard()}
+				display={{ ...ALL_VISIBLE, party: false }}
+				face='stated'
+				size='index'
+				clusterLabels={{
+					'health-access': 'Family income, welfare and savings'
+				}}
+			/>
+		);
+
+		expect(screen.queryByRole('img')).toBeNull();
+		expect(document.querySelector('[class*="logoSlot"]')).toBeNull();
+		expect(screen.getByText('Family income, welfare and savings')).toBeTruthy();
+	});
+
+	it('keeps the party mark slot on game cards so a reveal does not shift the header', () => {
+		const { container } = render(
+			<GurkiCard
+				card={makeCard()}
+				display={{ ...ALL_VISIBLE, party: false }}
+				face='stated'
+				size='game'
+				as='div'
+			/>
+		);
+
+		expect(container.querySelector('[class*="logoSlot"]')).not.toBeNull();
+	});
+
+	it('game-sized cards stretch to fill their frame', () => {
+		const { container } = render(
+			<GurkiCard
+				card={makeCard()}
+				display={ALL_VISIBLE}
+				face='stated'
+				size='game'
+				as='div'
+			/>
+		);
+
+		const card = container.firstElementChild;
+		expect(card?.className).toMatch(/cardGame/);
 	});
 });

@@ -21,6 +21,16 @@
 	box-shadow: none;
 }
 
+.cardGame {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.cardGame .body {
+	flex: 1 1 auto;
+}
+
 .cardInspect .title {
 	font-size: 1.35rem;
 }
@@ -50,8 +60,8 @@
 
 .meta {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
 	gap: 8px;
 	margin-bottom: 8px;
 }
@@ -84,8 +94,9 @@
 	justify-content: flex-end;
 	align-items: center;
 	gap: 6px;
-	flex: 1 1 auto;
-	min-width: 0;
+	flex: 0 0 auto;
+	margin-left: auto;
+	max-width: 100%;
 }
 
 .clusterChip {
@@ -96,6 +107,8 @@
 	font-size: 10px;
 	font-weight: 600;
 	letter-spacing: 0.02em;
+	line-height: 1.25;
+	white-space: nowrap;
 }
 
 .title {

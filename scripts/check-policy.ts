@@ -2,8 +2,8 @@
  * Checks NZ 2026 party policy specs against the pages they model.
  *
  * Gurki lint proves a spec is well-formed. This proves it is faithful: the
- * page exists, has not changed underneath the spec, and every figure in an
- * Output step is actually on the page.
+ * page exists, has not changed underneath the spec, and every figure in a
+ * step is actually on the source page or another dump page listed in `sources`.
  *
  *   pnpm check:policy
  *   pnpm check:policy --party green
@@ -20,11 +20,12 @@ import { parseFile, type GurkiDocument } from 'gurki'
 import { extrapolatedLines, findMarkerProblems } from './extrapolated.ts'
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
-const CORPUS_DIR = join(REPO_ROOT, 'corpus/nz-election-2026')
-const CLUSTERS_FILE = join(CORPUS_DIR, 'clusters.yaml')
 const MONEY_VALUES = ['named-figure', 'no-figure']
 
-type Options = { party?: string; fix: boolean; complete: boolean }
+type Options = { event: string; party?: string; fix: boolean; complete: boolean }
+
+let CORPUS_DIR = join(REPO_ROOT, 'corpus/nz-election-2026')
+let CLUSTERS_FILE = join(CORPUS_DIR, 'clusters.yaml')
 
 export type Problem = {
   level: 'error' | 'warning'
@@ -62,6 +63,7 @@ type Scenario = GurkiDocument['scenarios'][number]
 
 function parseArgs(argv: string[]): Options {
   let party: string | undefined
+  let event = 'nz-election-2026'
   let fix = false
   let complete = false
 
@@ -75,6 +77,11 @@ function parseArgs(argv: string[]): Options {
       complete = true
       continue
     }
+    if (arg === '--event') {
+      event = argv[index + 1] ?? event
+      index += 1
+      continue
+    }
     if (arg === '--party') {
       party = argv[index + 1]
       index += 1
@@ -85,7 +92,7 @@ function parseArgs(argv: string[]): Options {
     }
   }
 
-  return { party, fix, complete }
+  return { event, party, fix, complete }
 }
 
 /** Cluster ids a spec may claim. Closed set, from clusters.yaml. */
@@ -193,12 +200,21 @@ function loadSpecFiles(parties: string[]): { specs: SpecFile[]; problems: Proble
       }
 
       const name = basename(file, '.spec.md')
-      const derived = name.endsWith('.derived')
+      const parts = name.split('.')
+      let kind: SpecKind = 'stated'
+      let slugParts = parts
+      if (parts.at(-1) === 'derived') {
+        kind = 'derived'
+        slugParts = parts.slice(0, -1)
+      }
+      if (['en', 'sv', 'mi'].includes(slugParts.at(-1) ?? '') && slugParts.length > 1) {
+        slugParts = slugParts.slice(0, -1)
+      }
 
       specs.push({
         party,
-        slug: derived ? name.slice(0, -'.derived'.length) : name,
-        kind: derived ? 'derived' : 'stated',
+        slug: slugParts.join('.'),
+        kind,
         absolutePath,
         repoPath,
         raw: readFileSync(absolutePath, 'utf8'),
@@ -249,6 +265,17 @@ export function hasNumber(haystack: string, value: string): boolean {
 
 function escapeRegExp(value: string): string {
   return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
+export function sourceUrlsOf(document: GurkiDocument): string[] {
+  return (document.frontmatter?.sources ?? [])
+    .map((source) => (typeof source === 'string' ? source : (source.url ?? '')))
+    .filter((url) => url.length > 0)
+}
+
+/** Keeper page plus any other dump pages whose URL is listed in `sources`. */
+export function combinedSourceBody(keeperBody: string, extraBodies: string[]): string {
+  return [keeperBody, ...extraBodies.filter((body) => body.length > 0)].join('\n\n')
 }
 
 export type UnsourcedFigure = { line: number; value: string }
@@ -496,8 +523,15 @@ const MARKER_MESSAGES: Record<string, string> = {
   extrapolated_without_reason: 'Say why the step is inferred: "# extrapolated: <reason>"'
 }
 
-/** Every figure must be on the page. Only a derived spec may mark an exception. */
-function checkFigures(spec: SpecFile, page: DumpPage): Problem[] {
+function extraBodiesForSpec(spec: SpecFile, pages: DumpPage[], keeper: DumpPage): string[] {
+  const urls = new Set(sourceUrlsOf(spec.document))
+  return pages
+    .filter((page) => page.repoPath !== keeper.repoPath && urls.has(page.sourceUrl))
+    .map((page) => page.body)
+}
+
+/** Every figure must be on a sourced dump page. Only a derived spec may mark an exception. */
+function checkFigures(spec: SpecFile, page: DumpPage, pages: DumpPage[]): Problem[] {
   const problems: Problem[] = findMarkerProblems(spec.document).map((problem) => ({
     level: 'warning' as const,
     code: problem.code,
@@ -524,13 +558,14 @@ function checkFigures(spec: SpecFile, page: DumpPage): Problem[] {
       ? 'A stated spec may only use figures the page prints. Move it to gaps, or to the derived spec.'
       : 'Mark the step "# extrapolated: <reason>" and add it to assumptions, or drop the figure.'
 
-  for (const figure of findUnsourcedFigures(spec.document, page.body, {
+  const haystack = combinedSourceBody(page.body, extraBodiesForSpec(spec, pages, page))
+  for (const figure of findUnsourcedFigures(spec.document, haystack, {
     allowMarkers: spec.kind === 'derived'
   })) {
     problems.push({
-      level: 'error',
+      level: spec.document.frontmatter?.status === 'draft' ? 'warning' : 'error',
       code: 'unsourced_figure',
-      message: `Figure "${figure.value}" is not on ${page.repoPath}. ${remedy}`,
+      message: `Figure "${figure.value}" is not on ${page.repoPath} or its other sourced dump pages. ${remedy}`,
       path: spec.repoPath,
       line: figure.line
     })
@@ -579,6 +614,8 @@ function reportProblem(problem: Problem): void {
 
 function main(): void {
   const options = parseArgs(process.argv.slice(2))
+  CORPUS_DIR = join(REPO_ROOT, 'corpus', options.event)
+  CLUSTERS_FILE = join(CORPUS_DIR, 'clusters.yaml')
   const parties = listParties(options.party)
   const clusterIds = loadClusterIds()
   const pages = loadDumpPages(parties)
@@ -602,15 +639,21 @@ function main(): void {
       continue
     }
     problems.push(...checkDigest(spec, page, options.fix))
-    problems.push(...checkFigures(spec, page))
+    problems.push(...checkFigures(spec, page, pages))
   }
 
   const modelled = new Set(
     specs.filter((spec) => spec.kind === 'stated').map((spec) => `${spec.party}/${spec.slug}`)
   )
+  const modelledUrls = new Set(
+    specs.filter((spec) => spec.kind === 'stated').flatMap((spec) => sourceUrlsOf(spec.document))
+  )
   const unmodelled = pages
     .filter((page) => page.stance === 'intervention')
-    .filter((page) => !modelled.has(`${page.party}/${page.slug}`))
+    .filter(
+      (page) =>
+        !modelled.has(`${page.party}/${page.slug}`) && !modelledUrls.has(page.sourceUrl)
+    )
 
   if (options.complete) {
     for (const page of unmodelled) {

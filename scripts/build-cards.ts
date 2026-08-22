@@ -1,5 +1,5 @@
 /**
- * Builds public/cards.json from the NZ 2026 party policy spec tree.
+ * Builds `public/<event>/cards.<lang>.json` from each event's spec tree.
  *
  * One card per policy page, pairing `<slug>.spec.md` (what the party stated)
  * with `<slug>.derived.spec.md` (our understanding) into two faces of one card.
@@ -9,7 +9,7 @@
  * the app needs no Gurki parser and no syntax highlighter.
  *
  *   pnpm build:cards
- *   pnpm build:cards --out some/other/cards.json
+ *   pnpm build:cards --event se-election-2026 --lang en
  *
  * Succeeds on a partial tree: the app can be developed against three cards.
  */
@@ -27,24 +27,31 @@ import {
 } from 'gurki'
 import { extrapolatedLines } from './extrapolated.ts'
 import type {
+  AnonymiseNames,
   CardFace,
   CardFaceKind,
   CardScenario,
   CardStep,
   CardsDataset,
   ClusterMeta,
+  ClusterTrivia,
   CoverageCell,
   PartyId,
   PartyMeta,
   PolicyCard,
   ReportItem
 } from '../src/data/types.ts'
+import {
+  EVENT_IDS,
+  EVENT_LANGS,
+  eventCardsPath,
+  parseEventId,
+  parseLang,
+  type EventId,
+  type Lang
+} from '../src/event/events.ts'
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
-const CORPUS_DIR = join(REPO_ROOT, 'corpus/nz-election-2026')
-const CLUSTERS_FILE = join(CORPUS_DIR, 'clusters.yaml')
-const PARTIES_FILE = join(CORPUS_DIR, 'parties.yaml')
-const DEFAULT_OUT = join(REPO_ROOT, 'public/cards.json')
 
 type Scenario = GurkiDocument['scenarios'][number]
 
@@ -52,57 +59,169 @@ type LoadedSpec = {
   party: PartyId
   slug: string
   kind: CardFaceKind
+  lang: Lang | null
   repoPath: string
   document: GurkiDocument
 }
 
-function parseArgs(argv: string[]): { out: string } {
-  for (let index = 0; index < argv.length; index += 1) {
-    const arg = argv[index]
-    if (arg === '--out') {
-      return { out: join(REPO_ROOT, argv[index + 1] ?? '') }
-    }
-    if (arg?.startsWith('--out=')) {
-      return { out: join(REPO_ROOT, arg.slice('--out='.length)) }
-    }
-  }
-  return { out: DEFAULT_OUT }
+export type BuildCardsArgs = {
+  eventId: EventId | 'all'
+  lang: Lang | 'all'
 }
 
-function loadClusters(): ClusterMeta[] {
-  const parsed = YAML.parse(readFileSync(CLUSTERS_FILE, 'utf8')) as { clusters?: ClusterMeta[] }
+export function parseArgs(argv: string[]): BuildCardsArgs {
+  let eventId: EventId | 'all' = 'all'
+  let lang: Lang | 'all' = 'all'
+
+  for (let index = 0; index < argv.length; index += 1) {
+    const arg = argv[index]
+    if (arg === '--event') {
+      eventId = parseEventArg(argv[index + 1])
+      index += 1
+      continue
+    }
+    if (arg?.startsWith('--event=')) {
+      eventId = parseEventArg(arg.slice('--event='.length))
+      continue
+    }
+    if (arg === '--lang') {
+      lang = parseLangArg(argv[index + 1])
+      index += 1
+      continue
+    }
+    if (arg?.startsWith('--lang=')) {
+      lang = parseLangArg(arg.slice('--lang='.length))
+    }
+  }
+
+  return { eventId, lang }
+}
+
+function parseEventArg(value: string | undefined): EventId | 'all' {
+  if (!value || value === 'all') {
+    return 'all'
+  }
+  const parsed = parseEventId(value)
+  if (!parsed) {
+    throw new Error(`Unknown event "${value}"`)
+  }
+  return parsed
+}
+
+function parseLangArg(value: string | undefined): Lang | 'all' {
+  if (!value || value === 'all') {
+    return 'all'
+  }
+  const parsed = parseLang(value)
+  if (!parsed) {
+    throw new Error(`Unknown language "${value}"`)
+  }
+  return parsed
+}
+
+function pickLocalized(
+  record: Record<string, string> | undefined,
+  lang: Lang,
+  fallback: Lang,
+): string {
+  if (!record) {
+    return ''
+  }
+  return record[lang] ?? record[fallback] ?? Object.values(record)[0] ?? ''
+}
+
+function loadClusters(corpusDir: string, lang: Lang, fallback: Lang): ClusterMeta[] {
+  const parsed = YAML.parse(readFileSync(join(corpusDir, 'clusters.yaml'), 'utf8')) as {
+    clusters?: Array<{
+      id: string
+      label?: string
+      description?: string
+      labels?: Record<string, string>
+      descriptions?: Record<string, string>
+    }>
+  }
   return (parsed.clusters ?? []).map((cluster) => ({
     id: cluster.id,
-    label: cluster.label,
-    description: (cluster.description ?? '').trim()
+    label: cluster.labels
+      ? pickLocalized(cluster.labels, lang, fallback)
+      : (cluster.label ?? ''),
+    description: cluster.descriptions
+      ? pickLocalized(cluster.descriptions, lang, fallback)
+      : (cluster.description ?? '').trim()
   }))
 }
 
-function loadParties(): Omit<PartyMeta, 'cardCount'>[] {
-  const parsed = YAML.parse(readFileSync(PARTIES_FILE, 'utf8')) as {
-    parties?: Omit<PartyMeta, 'cardCount'>[]
+function emptyAnonymise(): AnonymiseNames {
+  return {
+    caseInsensitive: [],
+    caseSensitive: [],
+    uniqueTitle: [],
+    shortTitle: []
   }
-  return parsed.parties ?? []
 }
 
-function listPartyIds(): string[] {
-  if (!existsSync(CORPUS_DIR)) {
+function loadParties(corpusDir: string): Omit<PartyMeta, 'cardCount'>[] {
+  const parsed = YAML.parse(readFileSync(join(corpusDir, 'parties.yaml'), 'utf8')) as {
+    parties?: Array<Omit<PartyMeta, 'cardCount'>>
+  }
+  return (parsed.parties ?? []).map((party) => ({
+    ...party,
+    logo: party.logo ?? `${party.id}.svg`,
+    anonymise: party.anonymise ?? emptyAnonymise()
+  }))
+}
+
+function loadTrivia(corpusDir: string, lang: Lang, fallback: Lang): ClusterTrivia[] {
+  const preferred = join(corpusDir, `trivia.${lang}.yaml`)
+  const fallbackPath = join(corpusDir, `trivia.${fallback}.yaml`)
+  const path = existsSync(preferred) ? preferred : fallbackPath
+  if (!existsSync(path)) {
     return []
   }
-  return readdirSync(CORPUS_DIR)
+  const parsed = YAML.parse(readFileSync(path, 'utf8')) as { trivia?: ClusterTrivia[] }
+  return parsed.trivia ?? []
+}
+
+function parseSpecFilename(file: string): { slug: string; kind: CardFaceKind; lang: Lang | null } | null {
+  if (!file.endsWith('.spec.md')) {
+    return null
+  }
+  const name = basename(file, '.spec.md')
+  const parts = name.split('.')
+  let kind: CardFaceKind = 'stated'
+  let lang: Lang | null = null
+  let slugParts = parts
+  if (parts.at(-1) === 'derived') {
+    kind = 'derived'
+    slugParts = parts.slice(0, -1)
+  }
+  const maybeLang = parseLang(slugParts.at(-1))
+  if (maybeLang && slugParts.length > 1) {
+    lang = maybeLang
+    slugParts = slugParts.slice(0, -1)
+  }
+  return { slug: slugParts.join('.'), kind, lang }
+}
+
+function listPartyIds(corpusDir: string): string[] {
+  if (!existsSync(corpusDir)) {
+    return []
+  }
+  return readdirSync(corpusDir)
     .filter((name) => !name.startsWith('_') && !name.startsWith('.'))
-    .filter((name) => statSync(join(CORPUS_DIR, name)).isDirectory())
+    .filter((name) => statSync(join(corpusDir, name)).isDirectory())
     .sort()
 }
 
-function loadSpecs(): LoadedSpec[] {
+function loadSpecs(corpusDir: string, lang: Lang, canonical: Lang): LoadedSpec[] {
   const specs: LoadedSpec[] = []
 
-  for (const party of listPartyIds()) {
-    const directory = join(CORPUS_DIR, party)
+  for (const party of listPartyIds(corpusDir)) {
+    const directory = join(corpusDir, party)
 
     for (const file of readdirSync(directory).sort()) {
-      if (!file.endsWith('.spec.md')) {
+      const parsedName = parseSpecFilename(file)
+      if (!parsedName) {
         continue
       }
 
@@ -115,20 +234,45 @@ function loadSpecs(): LoadedSpec[] {
         continue
       }
 
-      const name = basename(file, '.spec.md')
-      const derived = name.endsWith('.derived')
-
       specs.push({
         party: party as PartyId,
-        slug: derived ? name.slice(0, -'.derived'.length) : name,
-        kind: derived ? 'derived' : 'stated',
+        slug: parsedName.slug,
+        kind: parsedName.kind,
+        lang: parsedName.lang,
         repoPath,
         document: result.document
       })
     }
   }
 
-  return specs
+  return pickSpecsForLang(specs, lang, canonical)
+}
+
+function pickSpecsForLang(
+  specs: LoadedSpec[],
+  lang: Lang,
+  canonical: Lang
+): LoadedSpec[] {
+  const byKey = new Map<string, LoadedSpec>()
+
+  function keyOf(spec: LoadedSpec): string {
+    return `${spec.party}/${spec.slug}/${spec.kind}`
+  }
+
+  for (const spec of specs) {
+    const isCanonical = spec.lang === null || spec.lang === canonical
+    const isWanted = spec.lang === lang
+    if (!isCanonical && !isWanted) {
+      continue
+    }
+    const key = keyOf(spec)
+    const existing = byKey.get(key)
+    if (!existing || (isWanted && existing.lang !== lang)) {
+      byKey.set(key, spec)
+    }
+  }
+
+  return [...byKey.values()]
 }
 
 function toCardStep(step: Scenario['steps'][number], marked: Map<number, string>): CardStep {
@@ -259,7 +403,8 @@ export function toCards(specs: LoadedSpec[]): PolicyCard[] {
       assumptions,
       stated: toFace(spec),
       ...(derivedSpec ? { derived: toFace(derivedSpec) } : {}),
-      counts: { gaps: gaps.length, assumptions: assumptions.length }
+      counts: { gaps: gaps.length, assumptions: assumptions.length },
+      ...(spec.lang ? { translated: true } : {})
     })
   }
 
@@ -323,11 +468,13 @@ function coverageOf(cards: PolicyCard[], clusters: ClusterMeta[], parties: Party
   return cells
 }
 
-function main(): void {
-  const { out } = parseArgs(process.argv.slice(2))
-  const clusters = loadClusters()
-  const partyMeta = loadParties()
-  const cards = toCards(loadSpecs())
+function writeDataset(eventId: EventId, lang: Lang): void {
+  const langs = EVENT_LANGS[eventId]
+  const corpusDir = join(REPO_ROOT, 'corpus', eventId)
+  const clusters = loadClusters(corpusDir, lang, langs.canonical)
+  const partyMeta = loadParties(corpusDir)
+  const cards = toCards(loadSpecs(corpusDir, lang, langs.canonical))
+  const trivia = loadTrivia(corpusDir, lang, langs.canonical)
 
   resolveActivates(cards)
 
@@ -337,7 +484,10 @@ function main(): void {
   }))
 
   const dataset: CardsDataset = {
-    schemaVersion: '2',
+    schemaVersion: '3',
+    eventId,
+    lang,
+    langs: [...langs.available],
     generatedAt: new Date().toISOString(),
     clusters,
     parties,
@@ -346,9 +496,11 @@ function main(): void {
       clusters,
       parties.map((party) => party.id)
     ),
-    cards
+    cards,
+    trivia
   }
 
+  const out = join(REPO_ROOT, 'public', eventCardsPath(eventId, lang).slice(1))
   mkdirSync(dirname(out), { recursive: true })
   writeFileSync(out, `${JSON.stringify(dataset, null, 2)}\n`, 'utf8')
 
@@ -370,6 +522,17 @@ function main(): void {
   console.log(`  ${gameable.length} of ${clusters.length} cluster(s) have 3+ parties and can be dealt`)
   for (const party of parties) {
     console.log(`  ${party.label.padEnd(14)} ${String(party.cardCount).padStart(3)} card(s)`)
+  }
+}
+
+function main(): void {
+  const { eventId, lang } = parseArgs(process.argv.slice(2))
+  const events = eventId === 'all' ? [...EVENT_IDS] : [eventId]
+  for (const id of events) {
+    const langs = lang === 'all' ? EVENT_LANGS[id].available : [lang]
+    for (const code of langs) {
+      writeDataset(id, code)
+    }
   }
 }
 

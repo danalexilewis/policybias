@@ -6,6 +6,7 @@ import YAML from 'yaml'
 import { parseGurki } from 'gurki'
 import {
   bodyAfterFrontmatter,
+  combinedSourceBody,
   digestOf,
   expectedId,
   extractNumbers,
@@ -13,7 +14,8 @@ import {
   findMisplacedMeasures,
   findUnsourcedFigures,
   hasNumber,
-  normaliseHaystack
+  normaliseHaystack,
+  sourceUrlsOf
 } from '../scripts/check-policy.ts'
 import { findMarkerProblems } from '../scripts/extrapolated.ts'
 import { extractNote, resolveActivates } from '../scripts/build-cards.ts'
@@ -332,8 +334,10 @@ describe('cluster and party vocabularies', () => {
     expect(parsed.clusters).toHaveLength(8)
     for (const cluster of parsed.clusters) {
       expect(cluster.id).toMatch(/^[a-z][a-z0-9-]*$/)
-      expect(cluster.label.length).toBeGreaterThan(0)
-      expect(cluster.description.length).toBeGreaterThan(0)
+      const label = cluster.labels?.en ?? cluster.label
+      const description = cluster.descriptions?.en ?? cluster.description
+      expect(label.length).toBeGreaterThan(0)
+      expect(description.length).toBeGreaterThan(0)
     }
   })
 
@@ -411,17 +415,29 @@ describe('the authored spec tree', () => {
     }
   })
 
-  it.each(specs)('$party/$name states every figure on its page', ({ path, kind }) => {
+  it.each(specs)('$party/$name states every figure on its sourced pages', ({ party, path, kind }) => {
     const document = documentOf(path)
     const extensions = (document.frontmatter?.extensions ?? {}) as Record<string, unknown>
-    const pageBody = readFileSync(
-      join(import.meta.dirname, '..', String(extensions.sourcePath)),
-      'utf8'
-    )
+    const keeperPath = join(import.meta.dirname, '..', String(extensions.sourcePath))
+    const keeperBody = bodyAfterFrontmatter(readFileSync(keeperPath, 'utf8'))
+    const urls = new Set(sourceUrlsOf(document))
+    const extras = readdirSync(join(CORPUS_DIR, party))
+      .filter((name) => name.endsWith('.md') && !name.endsWith('.spec.md'))
+      .map((name) => {
+        const raw = readFileSync(join(CORPUS_DIR, party, name), 'utf8')
+        const frontmatter = YAML.parse(raw.match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? '') as {
+          sourceUrl?: string
+        }
+        return { sourceUrl: frontmatter.sourceUrl ?? '', body: bodyAfterFrontmatter(raw), path: join(CORPUS_DIR, party, name) }
+      })
+      .filter((page) => page.path !== keeperPath && urls.has(page.sourceUrl))
+      .map((page) => page.body)
 
-    expect(findUnsourcedFigures(document, pageBody, { allowMarkers: kind === 'derived' })).toEqual(
-      []
-    )
+    expect(
+      findUnsourcedFigures(document, combinedSourceBody(keeperBody, extras), {
+        allowMarkers: kind === 'derived'
+      })
+    ).toEqual([])
     expect(findMarkerProblems(document)).toEqual([])
     if (kind === 'stated') {
       expect(findMarkersInStatedSpec(document)).toEqual([])

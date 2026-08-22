@@ -51,7 +51,36 @@ function slugFromUrl(url: string): string {
   return last.toLowerCase().replace(/[^a-z0-9-]+/g, '-').slice(0, 60)
 }
 
-function assignCluster(title: string, url: string, used: Set<string>): string {
+function loadTopicClusters(): Map<string, string> {
+  const parsed = YAML.parse(
+    readFileSync(join(REPO_ROOT, 'corpus', EVENT, 'topics.yaml'), 'utf8'),
+  ) as { topics?: { id?: string; usuallyCluster?: string }[] }
+  const map = new Map<string, string>()
+  for (const topic of parsed.topics ?? []) {
+    if (topic.id && topic.usuallyCluster) {
+      map.set(topic.id, topic.usuallyCluster)
+    }
+  }
+  return map
+}
+
+const TOPIC_CLUSTERS = loadTopicClusters()
+
+function clusterFromTags(tags: string[], used: Set<string>): string | undefined {
+  for (const tag of tags) {
+    const cluster = TOPIC_CLUSTERS.get(tag)
+    if (cluster && !used.has(cluster)) {
+      return cluster
+    }
+  }
+  return undefined
+}
+
+function assignCluster(title: string, url: string, used: Set<string>, tags: string[] = []): string {
+  const fromTags = clusterFromTags(tags, used)
+  if (fromTags) {
+    return fromTags
+  }
   const hay = `${title} ${url}`.toLowerCase()
   for (const cluster of CLUSTERS) {
     if (used.has(cluster)) {
@@ -179,11 +208,12 @@ async function main(): Promise<void> {
         const fm = YAML.parse(raw.slice(3, end < 0 ? 0 : end)) as {
           title?: string
           sourceUrl?: string
+          tags?: string[]
         }
         const body = end < 0 ? raw : raw.slice(end + 4)
         const title = fm.title ?? file
         const url = fm.sourceUrl ?? seed.origin
-        const cluster = assignCluster(title, url, used)
+        const cluster = assignCluster(title, url, used, fm.tags ?? [])
         used.add(cluster)
         const slug = file.replace(/\.md$/, '')
         writeSpec({

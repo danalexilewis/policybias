@@ -2,7 +2,7 @@
 #
 # Dump `tags:` must draw from these ids only (1–3 per page).
 # Spec `clusters:` still use clusters.yaml (exactly one canvas id).
-# `usuallyCluster` is a hint for spec sync, not a rule.
+# `usuallyCluster` is the topics → clusters map used when drafting specs.
 
 topics:
   - id: healthcare

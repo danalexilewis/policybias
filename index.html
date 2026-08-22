@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Policy Bias</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#fffbe6" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +19,7 @@
     <main class="desktop">
       <section class="window" aria-label="Policy Bias">
         <div class="title-bar">
-          <p class="title">POLICYBIAS</p>
+          <p class="title"><a href="/">POLICYBIAS</a></p>
         </div>
         <div class="window-body">
           <table>
@@ -26,6 +28,7 @@
                 <th>Name</th>
                 <th>Created</th>
                 <th>Updated</th>
+                <th>Status</th>
               </tr>
             </thead>
             <tbody>
@@ -33,6 +36,13 @@
                 <td><a href="/nz-election-2026/">nz-election-2026</a></td>
                 <td><time datetime="2026-08-21">2026-08-21</time></td>
                 <td><time datetime="2026-08-22">2026-08-22</time></td>
+                <td class="event-status">Review</td>
+              </tr>
+              <tr>
+                <td><a href="/se-election-2026/">se-election-2026</a></td>
+                <td><time datetime="2026-08-22">2026-08-22</time></td>
+                <td><time datetime="2026-08-22">2026-08-22</time></td>
+                <td class="event-status">Researching Policies</td>
               </tr>
             </tbody>
           </table>
@@ -41,6 +51,10 @@
     </main>
     <footer>
       Encoded in <a href="https://gurki.nz">Gurki</a>
+      ·
+      <a href="/terms/">Terms</a>
+      ·
+      <a href="/privacy/">Privacy</a>
     </footer>
   </body>
 </html>

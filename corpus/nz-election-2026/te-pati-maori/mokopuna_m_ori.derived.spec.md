@@ -27,7 +27,7 @@ sourceDigest: "sha256-2302ee6d4fb92f66"
 
 # Our understanding
 
-> The policy ends the pipeline that removes Māori children, restores whānau authority with whānau-led care, and makes the state accountable for uplift harm. Liability and care capacity stay undecided.
+> Ending the uplift pipeline would narrow who can remove mokopuna, and whānau-led care is meant to hold children with their people—but the legislative change to removal powers is not spelled out, and care capacity has no funding or design. State accountability for uplift harm could mean apology, compensation, inquiry or criminal liability; until one is chosen, harmed whānau cannot pursue redress.
 
 System: Whānau care without a named liability rule
 
@@ -45,7 +45,7 @@ And no funding level or programme design
 When a child would otherwise have been uplifted
 Then whānau-led care must have capacity, support and a decision path
 Outcome mokopuna can stay connected if that capacity exists
-But unnamed investment leaves the care system's size open
+But whānau cannot tell how many mokopuna the care system can hold
 
 Scenario: The state is made accountable for uplift harm
 Given an intention to hold the state accountable for harm from uplifts and placements
@@ -53,4 +53,4 @@ And no apology, compensation, tribunal or other liability instrument
 When harm is alleged
 Then the form of liability must still be chosen
 Outcome accountability is the named duty
-But without an instrument, neither redress nor fiscal exposure can be read from this policy
+But harmed whānau cannot pursue redress and Treasury cannot size the state's exposure

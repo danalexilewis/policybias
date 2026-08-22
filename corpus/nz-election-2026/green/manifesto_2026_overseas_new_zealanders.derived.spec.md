@@ -28,7 +28,7 @@ sourceDigest: "sha256-824928d72b9d1d43"
 
 # Our understanding
 
-> The policy enables tikanga-based Māori citizenship, eases overseas student loan terms, extends voting eligibility time abroad, restores a 10-year superannuation residence period, and widens reciprocal health and visa deals. About 15 percent of New Zealanders living overseas is the policy's context. It does not state the new voting duration or loan rates. We treat the 10-year restore as an eligibility reset and the voting extension as incomplete without a length.
+> Tikanga-based Māori citizenship, easier overseas student loans, longer voting abroad, a restored 10-year super residence rule, and wider reciprocal health and visa deals are on the table. About 15 percent of New Zealanders live overseas. The new voting window, loan rates and citizenship criteria carry no figures.
 
 System: Super timing restored; voting duration unstated
 
@@ -38,13 +38,13 @@ When the 10-year period of residence in Aotearoa required for superannuation eli
 Then eligibility turns on that named residence span again
 Output 10-year residence period required for superannuation eligibility
 Outcome people who meet the restored span qualify on those terms
-But how the restore treats people mid-way through a different rule is not stated
+But people who started counting under a longer or shorter rule carry the transition cost until officials rule
 
 Scenario: Voting eligibility abroad is extended without a published length
 When the time overseas New Zealanders may spend abroad without losing voting eligibility is extended
 Then diaspora voters keep the franchise for longer than under the current window
 Outcome more people living abroad can stay on the roll
-But without a stated number of years, the new window cannot be read from the policy
+But diaspora voters still do not know how many years abroad keeps them on the roll
 
 Scenario: Overseas student loan terms ease without published rates
 When student loan repayments and interest rates for overseas borrowers are reduced and rebalanced
@@ -52,4 +52,4 @@ And repayment holidays are extended
 And border arrests for student loan repayment violations are abolished
 Then overseas borrowers face a softer repayment path and no border arrest for loan debt
 Outcome coming home is less blocked by loan enforcement at the border
-But the new repayment and interest figures are not in the policy
+But borrowers abroad still guess their repayment schedule until rates are published

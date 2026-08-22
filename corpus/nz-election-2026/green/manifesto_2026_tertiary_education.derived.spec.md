@@ -25,28 +25,28 @@ assumptions:
   - no fiscal cost appears on the page, so none is invented here
 ---
 
-# Our reading
+# Our understanding
 
-> This is our systems reading of the source page, not the published claim. The page overhauls tertiary support with a universal student income including postgraduate study, living-wage placements, polytechnic protection, apprenticeships, and a fees-free and debt-write-off pathway. It states no income rate, write-off criteria, fees-free date, or budget total. Those readings are ours. We invent no dollar figures.
+> Students are promised a living payment, a fees-free path and debt write-off. Until a rate and a start date land, they still carry rent and existing loans.
 
-System: Student income and fees-free without a settled price
+System: Student income and fees-free as a path, not a price
 
 Scenario: A student receives a universal student income
 Given students struggling to pay rent and eat a decent meal under normalised student poverty
 When a universal student income including postgraduate study is provided
 Then living costs during study are met by a standing payment rather than loan drawdown alone
 Outcome study is less of a hardship commitment if the payment covers rent and food
-But without a stated rate, the entitlement's size and fiscal cost stay unnamed
+But students cannot budget against a payment whose weekly rate has not been set
 
 Scenario: Fees-free and debt write-off are progressed
 When the government works towards fees-free tertiary education and a student debt write-off while reducing loan repayments
 Then new cohorts can face lower fees over time and existing debt can shrink
 Outcome tertiary study becomes less of a debt burden along the pathway
-But working towards sets no commencement or eligibility, so timing and who qualifies remain open
+But students still carry debt until eligibility rules and a start date land
 
 Scenario: Polytechnics are protected from further cuts
 Given universities and polytechs forced into deep cuts to courses and services
 When polytechnics receive adequate funding and local control with campuses, courses and staff protected
 Then regional training capacity is held rather than wound down
 Outcome workforce and community needs can still be met locally
-But adequate is undefined, so the funding floor that stops cuts is not on the page
+But polytechnics still face cuts whenever the next Budget falls short

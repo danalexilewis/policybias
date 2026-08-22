@@ -27,7 +27,7 @@ sourceDigest: "sha256-c4411f9ba2fcfd2f"
 
 # Our understanding
 
-> The policy rebuilds a Māori-led health authority and shifts toward prevention and whānau wellbeing. Funding and structure for those moves stay open.
+> Rebuilding a Māori-led health authority and shifting from crisis response to prevention would change who steers care—but statute, budget and boundaries against the rest of the system are open. Prevention programmes need workforce and early spend; accountability to Māori communities needs a mechanism that can bind providers when a whānau is failed.
 
 System: Authority and prevention without a named Budget line
 
@@ -37,14 +37,14 @@ And no structure, statute or funding level
 When the authority is rebuilt and strengthened
 Then its powers, budget and edge against other health bodies must still be set
 Outcome Māori-led steering is the named design
-But without funding the authority's reach stays undecided
+But without a budget, the authority cannot tell which services it runs
 
 Scenario: Care shifts toward prevention and whānau wellbeing
 Given an intention to move off crisis-only response
 When prevention and whānau wellbeing become the priority
 Then programmes, workforce and early spend must be stood up somewhere
 Outcome harm can be caught earlier if capacity exists
-But the unnamed funding leaves the size of that shift unknown
+But whānau cannot tell how much prevention capacity exists
 
 Scenario: Services must be accountable to Māori
 Given accessible, culturally safe services accountable to Māori
@@ -52,4 +52,4 @@ And no named accountability mechanism
 When a service fails a whānau
 Then who can require a change is not settled on this policy
 Outcome accountability is the stated standard
-But without a mechanism it cannot bind providers
+But when a service fails them, whānau have no one who can require a change

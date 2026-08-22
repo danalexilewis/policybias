@@ -28,15 +28,15 @@ sourceDigest: "sha256-75d8b6f9e08b0ad1"
 
 # Our understanding
 
-> The policy transfers local elections to the Electoral Commission, sets voting at 16 and STV, reinstates Māori wards, rejects a rates cap, enables new funding tools, restores the four wellbeings, and backs citizens' assemblies. It does not state levy rates, a devolution list, or how much resourcing follows. We treat funding tools as powers without set rates, and devolution as incomplete without the money.
+> Local elections move to the Electoral Commission, voting drops to 16 with STV, Māori wards return, a rates cap is rejected, bed levies and congestion charging are enabled, and citizens' assemblies are backed. Levy rates, devolution lists and the money following workload carry no figures.
 
 System: Local powers and tools without published rates or resourcing
 
 Scenario: New funding tools are enabled
 When councils may use a bed levy, congestion charging and GST from rates and growth
 Then councils gain instruments beyond rates alone
-Outcome funding options widen on paper
-But without stated rates or take-up, no revenue figure follows from this policy
+Outcome councils can add bed levies, congestion charges or GST tools to their toolkit
+But ratepayers only pay once councillors set rates and drivers actually use the charges
 
 Scenario: The proposed rates cap is rejected
 When the proposed rates cap is rejected
@@ -47,6 +47,6 @@ But rejecting a cap does not create new revenue by itself
 Scenario: Responsibilities devolve with "appropriate resourcing"
 When further responsibilities move from central to local government with the four wellbeings as core purpose
 Then councils hold more of the day-to-day work
-Outcome local control rises if the transfer is real
-But without a named resourcing amount, the work can arrive faster than the money
+Outcome councils hold more day-to-day responsibilities under the four wellbeings
+But staff inherit the workload before a Budget line matches the transfer
 Activates green-manifesto-2026-democracy

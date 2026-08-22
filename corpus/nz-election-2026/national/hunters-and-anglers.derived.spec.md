@@ -28,7 +28,7 @@ sourceDigest: "sha256-07921cf813f7f9b3"
 
 # Our understanding
 
-> The policy recognises valued introduced species in law, opens suitable Crown land, and names a biodiversity credit pilot. It does not spell out how the pest default flips in practice, that access on Crown land carries a management duty, or how the credit would work.
+> Recognising valued introduced species in law ends pest-by-default treatment, so control now needs a local damage case first. Opening suitable Crown land is access plus a conservation management duty, and the biodiversity credit pilot needs a unit, a buyer and a double-counting rule before it can pay.
 
 System: Valued species status, Crown-land access, and an unnamed credit
 

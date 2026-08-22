@@ -27,7 +27,7 @@ sourceDigest: "sha256-092d1b1b27fd6b64"
 
 # Our understanding
 
-> The policy amends the Treaty of Waitangi Act, puts Te Tiriti-based decision-making across government, reforms settlements without Full and Final clauses, resources the Waitangi Tribunal with binding land-return powers, and explores private-land first refusal. It does not quantify Tribunal resourcing or define the binding power's appeal path. We treat binding private-land return as needing statute that reaches title, and Full and Final removal as keeping claims open.
+> The policy amends the Treaty of Waitangi Act, puts Te Tiriti-based decision-making across government, reforms settlements without Full and Final clauses, resources the Waitangi Tribunal with binding land-return powers, and explores private-land first refusal. Binding private-land return needs statute that reaches title; removing Full and Final keeps claims open.
 
 System: Binding return and open-ended settlements
 

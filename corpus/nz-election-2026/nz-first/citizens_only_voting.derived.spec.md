@@ -27,7 +27,7 @@ assumptions:
 
 # Our understanding
 
-> The policy states that permanent residents may vote after two years, that certain visa holders with no expiry date may vote after one year, and that electoral law would reserve voting for citizens. It does not name a transition or how many voters are affected.
+> Electoral law would reserve voting for citizens, ending the franchise permanent residents gain after two years and some long-stay visa holders after one year. Transition timing and the count of affected voters are missing.
 
 System: Franchise narrowed to citizenship
 
@@ -36,11 +36,11 @@ Given permanent residents may vote after two years living in New Zealand
 When electoral law is changed so only citizens may vote
 Then permanent residents who have not taken citizenship lose the franchise
 Outcome the right to decide New Zealand's future sits with citizens
-But whether that loss is immediate or phased is unnamed
+But permanent residents bear the loss on a timetable Parliament has not fixed
 
 Scenario: Certain long-stay visa holders lose the vote
 Given certain visa holders with no expiry date may vote after one year
 When the same citizens-only rule applies to general, local and referendum votes
 Then those visa holders lose the franchise they hold under current eligibility
 Outcome local elections and referendums follow the same citizenship line
-But the count of affected voters is unnamed, so the scale stays unknown
+But enrolled non-citizens lose voice without a published headcount

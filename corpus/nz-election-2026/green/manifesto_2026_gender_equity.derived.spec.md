@@ -29,7 +29,7 @@ sourceDigest: "sha256-816e9fffb6ea638a"
 
 # Our understanding
 
-> The policy restores pay equity, extends Best Start under three, lifts parental leave to 15 months, and amends the Crimes Act on coercive control and consent. It does not print Best Start or leave payment rates, and it repeats the leave promise also made in the workforce rights policy. We treat that overlap as one leave rule stated twice, and treat the violence law as a crime change that still needs service funding elsewhere.
+> Pay equity is restored, Best Start runs to every child under three, parental leave rises to 15 months, and the Crimes Act picks up coercive control and consent. Best Start and leave weekly rates are not priced here. Leave matches the workforce-rights chapter — one rule, two places. Coercive-control law changes what counts as a crime; family and sexual violence services still need their own Budget lines.
 
 System: Pay, early-years income, leave and violence law stacked
 
@@ -38,8 +38,8 @@ Given Best Start increased and extended to every child under three as a universa
 And no payment amount in the policy
 When a child under three is in a household
 Then that child receives Best Start without a means test on this policy
-Outcome early-years income support widens to all under-threes
-But the dollar amount a household receives cannot be read from the policy
+Outcome every household with a child under three can draw Best Start
+But Treasury still has to set the payment rate before anyone knows the weekly top-up
 Activates green-manifesto-2026-childen
 
 Scenario: Parental leave rises to 15 months on the same terms as workforce rights
@@ -48,14 +48,14 @@ And ring-fenced partner leave and increased payments
 When the leave rule is in force
 Then the primary caregiver can take 15 months
 Output 15 months paid parental leave for the primary caregiver
-Outcome leave length matches the workforce rights chapter
-But the weekly rate remains unnamed, so income while on leave is not settled here
+Outcome primary caregivers can take the same 15 months as in the workforce chapter
+But someone's pay packet while on leave still depends on a rate this chapter never prints
 Activates green-manifesto-2026-workforce-rights
 
 Scenario: Coercive control is criminalised while FV and SV services are resourced separately
 When the Crimes Act criminalises coercive control and amends consent including precluding reluctant consent
 And kaupapa Māori and community-led family and sexual violence solutions are resourced
 Then the statute names new offending and consent rules
-Outcome survivors have a clearer criminal pathway
-But the policy does not say how much funding those services receive
+Outcome survivors can point to coercive control and consent rules in the Crimes Act
+But front-line family and sexual violence services wait on Budget lines this crime change does not fund
 Activates green-manifesto-2026-violence-prevention

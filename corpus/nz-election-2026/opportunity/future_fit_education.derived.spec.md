@@ -26,7 +26,7 @@ sourceDigest: "sha256-238a14e34b149738"
 
 # Our understanding
 
-> The policy lists pay parity, size limits, Year 6 civics and less screen time. It does not cost the wage bill or say where children go if large centres shrink.
+> ECE pay parity with schools, tighter centre size and ratios, Year 6 civics and less screen time — but the wage bill is uncosted and families in shrinking large centres have nowhere named to go.
 
 System: Pay parity without a bill
 
@@ -34,7 +34,7 @@ Scenario: ECE pay parity is required
 When ECE teachers must be paid at primary and secondary rates
 Then the wage bill for centres rises
 Outcome community centres that already pay less well are the ones the policy wants to back
-But corporate and community centres alike need a funding path the policy does not print
+But centres and taxpayers still owe the wage bill without a funding path
 
 Scenario: Centre size is capped
 When size and ratio rules bite

@@ -29,7 +29,7 @@ sourceDigest: "sha256-9de7372ece2acc96"
 
 # Our understanding
 
-> The policy states nothing-upfront finance, repayments below bill savings, a typical system cost, a Crown underwrite, and plug-in options for renters. It does not say that household debt rises with the loan, that the savings claim depends on tariffs, that the underwrite is Crown risk, or that renters do not get rooftop ownership.
+> Nothing-upfront finance means household debt rises with the loan, and repayments below bill savings only hold while tariffs and usage keep the gap open. The Crown underwrite puts residual credit risk on the public balance sheet, and renters get plug-in kits rather than financed rooftop ownership.
 
 System: SolarSaver finance, underwrite and renter path
 

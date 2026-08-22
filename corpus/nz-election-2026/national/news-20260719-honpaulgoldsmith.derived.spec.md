@@ -27,7 +27,7 @@ sourceDigest: "sha256-78f47b234ebcc496"
 
 # Our understanding
 
-> The policy requires consent to be an active yes by words or actions, says silence is not consent, and keeps the beyond-reasonable-doubt burden on the prosecution. It does not say how that yes is proved in court day to day. That gap remains, and so does the tension between an active-yes definition and proving absence.
+> Requiring an active yes means silence is not consent, yet the prosecution still proves beyond reasonable doubt that consent was not given. That tension between an active-yes definition and proving absence remains, and juries still weigh words and actions without further guidance on intoxication or mixed signals.
 
 System: Active yes with an unchanged proof burden
 
@@ -50,4 +50,4 @@ Scenario: Evidential practice is left open
 When judges and juries apply "words or actions" without further guidance in the policy
 Then counsel argue what counts as an active yes in each fact pattern
 Outcome social expectations may reset ahead of courtroom practice
-But how intoxication, mixed signals and non-verbal cues are tried remains unnamed
+But defendants still face juries weighing intoxication and mixed signals without a fixed rulebook

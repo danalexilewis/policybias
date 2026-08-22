@@ -28,7 +28,7 @@ sourceDigest: "sha256-9a285312a27be659"
 
 # Our understanding
 
-> The policy states tens of thousands of public homes, a 2% annual rent cap, rents linked to the previous tenancy, and a Rental Warrant of Fitness. It does not say that the cap is a price control with shortage risk, or that the public build is uncosted.
+> Tens of thousands of public and papakāinga homes sit beside a 2% annual rent cap, new tenancies tied to the last rent, and a Rental Warrant of Fitness. The cap is a price control. The build is a standing Crown programme.
 
 System: Rent controls beside an uncosted public housing build
 
@@ -38,14 +38,14 @@ And new tenancy rents linked to what the previous tenants paid
 When a landlord faces those limits in a tight market
 Then the rent cannot track a faster rise in costs or demand
 Output annual rent increases limited to no more than 2%
-Outcome sitting tenants gain predictability on the next increase
-But some landlords may exit or withhold dwellings, which is a shortage risk until public homes arrive
+Outcome sitting tenants know the next rent rise cannot exceed 2%
+But landlords who cannot cover costs may sell up or leave flats empty until public stock arrives
 
 Scenario: Tens of thousands of public homes are promised without a build cost
 When tens of thousands of new public homes and more papakāinga are built
 Then the Crown takes on a large construction and ownership programme
-Outcome more households can access public and papakāinga homes
-But the build cost and timetable are not on this policy
+Outcome more households can queue for public and papakāinga tenancies
+But the Crown carries the construction bill before a dollar total or finish date is fixed
 
 Scenario: A Rental Warrant of Fitness is enforced
 When Healthy Homes Standards are enforced with an independently certified Rental Warrant of Fitness

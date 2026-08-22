@@ -3,12 +3,14 @@ type: spec
 id: green-tax-system-for-all
 title: "Wealth tax, corporate levy and a $10,000 tax-free threshold"
 status: draft
-updated: 2026-08-21
+updated: 2026-08-22
 summary: 2.5% tax above $10 million net assets, 33% Capital Acquisitions Tax above $1 million, 33% corporate rate above $30 million turnover, bank levy, tech withholding and a 45% rate above $160,000.
 jurisdiction: NZ
 sources:
   - title: For people and planet
     url: https://www.greens.org.nz/tax_system_for_all
+  - title: Greens commit to tax the super-rich and large corporates fairly, cut income tax for 96%
+    url: https://www.greens.org.nz/greens_commit_to_tax_the_super_rich_and_large_corporates_fairly_cut_income_tax_for_96
   - title: Greens tax policy 2026
     url: https://assets.nationbuilder.com/beachheroes/pages/71965/attachments/original/1782084525/GreensTaxPolicy2026.pdf
 tags:
@@ -38,6 +40,8 @@ System: A tax system for all of us
 Scenario: Wealth, corporate and income tax settings change
 Given the corporate tax rate is 28 percent
 And the bright-line test period is currently 2 years
+And the richest 311 households pay an effective tax rate of nine percent
+And the super-rich pay $9 in tax out of every $100 they make while a teacher pays $22
 When wealth, corporate and income tax settings change
 Then income tax is cut for most people
 And recent landlord tax cuts are reversed
@@ -57,4 +61,3 @@ And $953 million from the Capital Acquisitions Tax in 2027/28
 And $1,370 million from the big corporations tax in 2027/28
 And tax setting changes of $2,335 million in 2027/28
 Outcome inequality and corporate under-taxation are addressed to fund critical social services
-Activates green-greens-commit-to-tax-the-super-rich-and-large-corporates-fairly-cut-income-tax-for-96

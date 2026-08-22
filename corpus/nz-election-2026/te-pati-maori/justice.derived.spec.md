@@ -27,7 +27,7 @@ sourceDigest: "sha256-3dee911c8f69c54c"
 
 # Our understanding
 
-> The policy builds Māori-led justice authority and community solutions, reforms poverty criminalisation, and moves away from mass imprisonment. Replacement capacity and legal detail stay missing.
+> Māori-led justice authority and community solutions would change who decides cases and who holds people outside prison—but jurisdiction, funding and the relationship to courts and police are still open. Reforming poverty criminalisation needs named offences and sentences; without replacement programmes or beds, communities hold the safety risk instead of prisons.
 
 System: Less imprisonment without named replacement capacity
 
@@ -45,7 +45,7 @@ And no named community programmes, beds or budgets to replace prison
 When fewer people are imprisoned
 Then someone outside prison must hold safety, rehabilitation and accountability
 Outcome imprisonment can fall if replacement capacity exists
-But the unnamed replacement leaves public safety incidence undecided
+But without named programmes or beds, communities hold the safety risk instead of prisons
 
 Scenario: Laws that criminalise poverty and survival are reformed
 Given an intention to reform those laws
@@ -53,4 +53,4 @@ And no offences listed
 When reform is drafted
 Then each offence, penalty and diversion path must be picked
 Outcome poverty-as-crime is the named target
-But a reader cannot tell which charges change
+But prosecutors and defendants cannot tell which charges change

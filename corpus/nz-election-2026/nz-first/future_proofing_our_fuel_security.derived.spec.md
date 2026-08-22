@@ -27,7 +27,7 @@ assumptions:
 
 # Our understanding
 
-> The policy states $1 billion for a nationwide subsurface survey, a royalty well above 50% as production matures, discovery odds well above ninety percent, and a potential six-year pathway to own domestic supply. It does not measure those odds, draft the pathway as law, or show that survey spend equals fuel security.
+> $1 billion funds a nationwide subsurface survey that delivers data and a framework, not proven commercial supply. Discovery odds well above ninety percent and a six-year pathway to domestic ownership are asserted without a measured method or enacted law. Royalties well above 50% follow only as production matures, long after the survey spend.
 
 System: Survey spend as data before supply
 
@@ -44,7 +44,7 @@ Given the policy states the odds of a major commercial discovery are well above 
 When that figure is read as a probability
 Then it remains a claim without a stated method
 Outcome the survey is still argued as worth doing
-But the odds are not a measured probability a reader can check
+But taxpayers fund the survey on odds nobody can verify
 
 Scenario: Production matures after a discovery
 Given a royalty well above 50% on extractions as production matures
@@ -53,4 +53,4 @@ When explorers prove fields and production begins
 Then the Crown's royalty share rises as production matures
 Output a royalty well above 50% on extractions as production matures
 Outcome domestic ownership is the named destination
-But the six-year pathway is unnamed as law, so ownership remains a timetable claim
+But Parliament still has to enact the path before Crown ownership is real

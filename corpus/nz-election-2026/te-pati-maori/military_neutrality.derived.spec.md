@@ -28,7 +28,7 @@ sourceDigest: "sha256-d12b9511938eaf10"
 
 # Our understanding
 
-> The policy declares military neutrality, resets foreign policy, reviews and withdraws from alignments, and refocuses Defence on protection and disaster response. Which alliances exit, and under what law, stay undecided.
+> Declaring neutrality and refocusing Defence on disaster response and Pacific support would change posture—but commanders still lack a list of which treaties end and what replaces alliance tasks. A legal definition of neutrality and prohibited alignment must arrive before the declaration binds anyone.
 
 System: Neutrality without the exit list
 

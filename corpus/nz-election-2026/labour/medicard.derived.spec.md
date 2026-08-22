@@ -31,7 +31,7 @@ sourceDigest: "sha256-ec8fadc24803c00f"
 
 # Our understanding
 
-> The policy states three free visits, the Medicard rail, a cost path from $393.3 million to around $553 million a year, and funding from a property gains tax. It does not state that the entitlement still stands when realisations dip, that GP spare capacity is already there, or what rate the Independent Pricing Authority will set.
+> Three free visits a year lock in as a standing per-person entitlement, funded by a tax that only arrives when property turns over. The printed cost path matures before anyone knows what rate the Independent Pricing Authority will set, and triage and tech are bundled as capacity measures rather than spare clinician hours.
 
 System: Medicard as a standing health entitlement funded by property turnover
 
@@ -62,4 +62,4 @@ And a plan to free up more than 4.5 million GP appointments a year
 When more people book because visits are free
 Then clinics face higher demand against a capacity plan the policy states in bundles
 Outcome wait times can still rise if the freed appointments do not match new demand
-But the policy does not name spare clinician hours beyond those bundled measures
+But patients who cannot get a slot carry the queue when freed appointments fall short of new demand

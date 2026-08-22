@@ -9,6 +9,8 @@ jurisdiction: NZ
 sources:
   - title: For people and planet
     url: https://www.greens.org.nz/tax_system_for_all
+  - title: Greens commit to tax the super-rich and large corporates fairly, cut income tax for 96%
+    url: https://www.greens.org.nz/greens_commit_to_tax_the_super_rich_and_large_corporates_fairly_cut_income_tax_for_96
   - title: Greens tax policy 2026
     url: https://assets.nationbuilder.com/beachheroes/pages/71965/attachments/original/1782084525/GreensTaxPolicy2026.pdf
 tags:
@@ -31,7 +33,7 @@ sourceDigest: "sha256-a127e80197aa1d77"
 
 # Our understanding
 
-> The policy and PDF state the 2.5% wealth tax above $10 million, the Capital Acquisitions Tax, the 33% corporate rate for large firms, the bank levy, the $10,000 tax-free threshold and the 45% top rate. They do not say that incidence sits on wealth holders and large firms, or that the threshold is an income-tax cut rather than a wealth redistribution by itself.
+> Wealth and corporate charges pay for an income-tax cut. A 2.5% tax on net assets above $10 million, a higher corporate rate and a bank levy fall first on wealth holders and large firms. The $10,000 tax-free threshold is a cut for almost every earner, including people who never pay the wealth tax. Prices or wages can still absorb the corporate charges.
 
 System: Wealth and corporate charges funding an income-tax cut
 
@@ -51,7 +53,7 @@ Then the extra tax sits on those firms' accounts first
 Output corporate tax at 33 percent for about 0.7 percent of businesses above $30 million turnover
 And a Bank Levy of 0.06 percent on liabilities of the four big banks
 Outcome the Crown gains revenue from highly profitable balance sheets
-But prices, wages or margins can move to recover the charge; the policy does not say which
+But shoppers and workers may end up paying through higher prices or lower wages
 
 Scenario: Most earners receive the tax-free threshold
 Given a new tax-free threshold of $10,000

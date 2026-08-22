@@ -27,22 +27,22 @@ sourceDigest: "sha256-4dd00fcbe17f317d"
 
 # Our understanding
 
-> The policy resources rehabilitation and Te Pae Oranga, expands specialist courts, restores sentencing discretion, and lifts the Steps to Freedom Grant to cover at least 30 years of inflation. It does not size custody volumes, name the new age of criminal responsibility, or print the grant in dollars. We treat discretion and restorative paths as process shifts whose prison effect is unproven in the policy.
+> Rehabilitation and Te Pae Oranga get resourcing, specialist courts expand, mandatory floors on sentencing fall away, and the Steps to Freedom Grant is indexed to at least 30 years of inflation. Prison headcount, the new youth threshold and today's grant dollars carry no figures.
 
 System: Restorative courts and sentencing range without a sized custody path
 
 Scenario: Sentencing discretion is restored
 When mandatory minimums, life sentences, preventive detention, three strikes and sentence discount limits are abolished
 Then judges regain a wider sentencing range
-Outcome punitive floors and caps named in the policy fall away
-But how many fewer people enter or stay in prison is not stated
+Outcome judges can sentence below old floors and above old caps
+But prison operators still run the same beds until sentencing patterns actually change
 
 Scenario: Restorative justice and specialist youth courts expand
 When tikanga-based restorative justice including Te Pae Oranga is available to anyone who wishes to access it
 And Te Ao Mārama and specialist youth courts expand nationwide
 Then diversion and specialist forums become a wider option
-Outcome more cases can leave the ordinary punitive track
-But uptake still depends on consent, referrals and funded places the policy does not count
+Outcome more people can choose tikanga-based or specialist forums
+But victims, offenders and courts still need spare seats and staff before anyone diverts
 Activates green-manifesto-2026-violence-prevention
 
 Scenario: The Steps to Freedom Grant covers at least 30 years of inflation
@@ -50,5 +50,5 @@ Given reintegration support including housing for people leaving the justice sys
 When the Steps to Freedom Grant is increased
 Then the grant is meant to keep pace with long-run inflation
 Output at least 30 years of inflation covered by the Steps to Freedom Grant
-Outcome release money is indexed rather than left frozen in nominal terms
-But the dollar amount of the grant is not in the policy
+Outcome people leaving prison get grants that track long-run inflation
+But someone leaving today still waits on a dollar figure Treasury has not printed

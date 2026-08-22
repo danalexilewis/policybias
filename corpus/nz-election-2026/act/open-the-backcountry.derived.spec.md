@@ -28,7 +28,7 @@ assumptions:
 
 # Our understanding
 
-> The policy lets the Game Animal Council designate helicopter landing sites, requires clear DOC access tests, and leaves aircraft safety to the Civil Aviation Authority. It does not define the public test, which sites come first, or how gender restrictions on commercial take are enforced.
+> The Game Animal Council designates helicopter landing sites, DOC must use clear access tests, and aircraft safety stays with the Civil Aviation Authority. The public test, which sites come first, and how gender restrictions on commercial take are enforced stay unspecified.
 
 System: Landing sites, access tests, and a safety split
 
@@ -44,7 +44,7 @@ Scenario: DOC must justify where aircraft may land
 When DOC is required to use clear, public and consistent tests when deciding where aircraft may land
 Then a closure that cannot meet the test loses its footing
 Outcome access decisions become defensible in public
-But until the test's contents are published, operators and hunters cannot tell which lines will stand
+But operators and hunters cannot tell which closure lines will stand until the test is published
 
 Scenario: Aircraft safety stays with the Civil Aviation Authority
 Given DOC can dictate the type of helicopter commercial venison recovery operators use despite Civil Aviation Authority aircraft safety regulation

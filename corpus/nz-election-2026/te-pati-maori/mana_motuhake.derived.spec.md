@@ -29,7 +29,7 @@ sourceDigest: "sha256-4cec8e3e18d9a30f"
 
 # Our understanding
 
-> The policy commits to Te Tiriti-based constitutional change, stronger Māori political authority, and land back. It does not name the receiving entity, the compensation rule, or the constitutional model.
+> Te Tiriti-based constitutional change and land back name where power and whenua should sit—but a model, process and vote threshold are still open, so a later government could unwind gains. Title cannot move until a receiving hapū, iwi, whānau or trust is chosen and a compensation rule is set for current holders.
 
 System: Constitutional change and land back without the receiving end
 

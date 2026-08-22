@@ -28,7 +28,7 @@ assumptions:
 
 # Our understanding
 
-> The policy's Open Seat Rule uses spare seats on existing school bus routes regardless of which school a child attends, and funds extra buses from within the Ministry of Education's existing budget if a route fills. It does not say how seats are rationed when several children want the same spare, what waste is cut, or how many children are affected.
+> The Open Seat Rule uses spare seats on existing school bus routes regardless of which school a child attends, and funds extra buses from within the Ministry of Education's existing budget if a route fills. Seat rationing when several children want the same spare, what waste is cut, and how many children are affected stay unspecified.
 
 System: Spare capacity first, then crowding inside a capped budget
 
@@ -45,7 +45,7 @@ Scenario: Demand fills a route beyond its capacity
 When demand on a route grows beyond its capacity and an additional bus is provided
 Then crowding on the Open Seat Rule creates a new operating cost
 Outcome the extra bus is funded from within the Ministry of Education's existing budget by cutting waste
-But a cost inside a capped budget still displaces some other Ministry spend; the policy does not name which
+But a cost inside a capped budget still displaces some other Ministry spend
 
 Scenario: Most routes never fill
 When the Open Seat Rule is introduced for school transport

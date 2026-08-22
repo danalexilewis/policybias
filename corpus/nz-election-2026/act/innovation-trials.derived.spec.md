@@ -27,7 +27,7 @@ sourceDigest: "sha256-995af0010b1f96cb"
 
 # Our understanding
 
-> The policy publishes a permanent Innovation Trial process to set aside a specific regulation for a limited test with safety conditions and measured outcomes. It invites companies working on autonomous vehicles, agricultural drones and medical technology. A trial is not product clearance: it is a temporary permission, and the safety conditions stay unnamed in detail in the policy.
+> A permanent Innovation Trial can set aside one regulation for a limited test. Autonomous vehicles, agricultural drones and medical technology are invited in. A trial is temporary permission, not product clearance. The safety conditions still have to be written before anyone can run one.
 
 System: Trial as waiver permission, not product clearance
 
@@ -43,8 +43,8 @@ But the waiver is not a nationwide product approval
 Scenario: Safety conditions are written into the approval
 When safety conditions and a way to measure the result are set before a trial begins
 Then the trial cannot start without those terms
-Outcome the policy requires conditions without listing what they are
-But until each approval names them, firms cannot price compliance from the policy alone
+Outcome each trial must meet safety conditions before it begins
+But each applicant must wait on its approval to learn what compliance will cost
 
 Scenario: The measured result arrives
 When the trial produces a bad result

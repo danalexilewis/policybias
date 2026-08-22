@@ -30,7 +30,7 @@ sourceDigest: "sha256-a7bb48377c828e84"
 
 # Our understanding
 
-> The policy frames compulsion, Baby Boost and the hardship test as greater financial security. The combined default rise is a wage cost on both sides of the employment relationship, Baby Boost is a grant into a locked account rather than cash a household can use now, and hardship opt-out is the valve that makes compulsion tolerable.
+> Compulsion with combined defaults rising to twelve per cent by 2032 is a wage cost on both sides of the employment relationship. Baby Boost lands in locked KiwiSaver accounts at birth rather than household cash, and the hardship test is the only stated valve when compulsory contributions bite.
 
 System: Compulsory KiwiSaver as a wage cost with a locked grant and a hardship valve
 

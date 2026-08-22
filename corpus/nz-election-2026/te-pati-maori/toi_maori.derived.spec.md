@@ -27,7 +27,7 @@ sourceDigest: "sha256-ff1a676e69f762fa"
 
 # Our understanding
 
-> The policy invests in Toi Māori, protects Māori cultural rights and expressions, and backs Māori-led arts infrastructure, funding and pathways. Amounts and the rights instrument are unnamed.
+> Toi Māori and Māori creative industries are named priorities, and cultural rights are meant to be protected through Māori-led infrastructure and pathways—but no amount, funding channel or rights instrument is chosen yet. Without those, artists cannot tell what gets built and collectors face no binding rule.
 
 System: Creative investment without a spend or a rights rule
 
@@ -36,7 +36,7 @@ Given toi Māori is truth-telling, resistance, healing, identity and legacy
 When Toi Māori and Māori creative industries are invested in
 Then an amount and a funding channel must still be chosen
 Outcome the creative sector is named as a priority
-But without that line, the investment cannot be sized
+But until a Budget line lands, artists cannot tell what gets funded
 
 Scenario: Cultural rights and Māori-led infrastructure are backed
 When Māori cultural rights and expressions are protected

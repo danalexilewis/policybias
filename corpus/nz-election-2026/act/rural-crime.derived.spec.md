@@ -28,7 +28,7 @@ sourceDigest: "sha256-301c6a8c1c5f5ef9"
 
 # Our understanding
 
-> The policy funds 100,000 extra patrol hours, a rural crime unit, Text 111 and stronger poaching and rustling offences. It treats hours and connectivity as the intervention. It does not claim those hours are a clearance rate.
+> One hundred thousand extra patrol hours, a rural crime unit, Text 111 and stronger poaching and rustling offences treat hours and connectivity as the intervention, not clearance rates. Patrol hours buy presence; they do not promise prosecuted outcomes.
 
 System: Rural presence and connectivity as inputs, not clearance
 
@@ -53,5 +53,5 @@ But a text still waits on someone who can respond in person
 Scenario: Armed poaching or livestock rustling is charged
 When penalties and offences for armed poachers and livestock rustling are strengthened
 Then the statute is harsher for those offences
-Outcome the policy's deterrent sits in the penalty schedule
-But without stated penalty amounts, the size of that deterrent cannot be read from the policy
+Outcome the deterrent sits in the penalty schedule
+But steeper statutory penalties only bite when courts impose sentences near the top of the range

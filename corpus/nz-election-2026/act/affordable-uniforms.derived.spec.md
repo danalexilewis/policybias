@@ -28,7 +28,7 @@ sourceDigest: "sha256-a9d7234d0a5321a5"
 
 # Our understanding
 
-> The policy presents competition and choice. The three-item cap is a forced trade: schools keep a small branded set for identity, and families buy the rest as generics from ordinary retailers. Sports, team strips, kapa haka and tracksuits stay outside that trade. The policy does not quantify the per-family saving beyond the hardship-loan baseline.
+> Competition and choice force a trade: schools keep a small branded set for identity, and families buy the rest as generics from ordinary retailers. Sports, team strips, kapa haka and tracksuits stay outside that trade. Per-family saving beyond the hardship-loan baseline carries no figure.
 
 System: Branded identity capped so families can buy generics
 

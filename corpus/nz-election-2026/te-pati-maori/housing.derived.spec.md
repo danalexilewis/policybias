@@ -27,7 +27,7 @@ sourceDigest: "sha256-cd97193f14d894d8"
 
 # Our understanding
 
-> The policy wants more public homes, easier building on Māori land, and an end to speculation including vacant properties. Those intentions still leave the instruments undecided.
+> More public and affordable homes and easier building on Māori and ancestral land would ease pressure on whānau—but build scale, tenure mix and who pays are open. Action against speculation and vacant properties needs a tax, compulsory lease or use-it-or-lose-it rule before owners know what holding land empty costs them.
 
 System: Supply and Māori land with an unnamed anti-speculation tool
 
@@ -37,7 +37,7 @@ And no build target or budget
 When more public and affordable homes are built and supported
 Then scale, tenure mix and who pays must still be chosen
 Outcome more homes can ease pressure on whānau
-But a reader cannot tell how many or at what cost
+But whānau on waiting lists cannot tell how many homes arrive or what they cost to build
 
 Scenario: Building on Māori and ancestral land is made easier
 Given an intention to ease building on Māori and ancestral land
@@ -53,4 +53,4 @@ And no tax, levy, compulsory order or other instrument
 When an owner holds land empty or banks it
 Then the consequence for that owner is unknown until an instrument is chosen
 Outcome speculation is the named target
-But incidence on investors, trusts and whānau landowners cannot be read from this policy
+But investors, trusts and whānau landowners cannot tell what holding land empty would cost them

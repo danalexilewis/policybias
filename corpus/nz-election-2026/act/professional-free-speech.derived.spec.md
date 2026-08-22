@@ -27,7 +27,7 @@ sourceDigest: "sha256-8e3809e28a58d3a5"
 
 # Our understanding
 
-> The policy bans discipline for lawful private expression, requires neutrality, limits mandatory training, and keeps misconduct powers. It frames that as focus on public safety. It is a narrowing of professional-body power: the private-expression lever is removed while the workplace lever stays.
+> Lawful private expression exits the disciplinary frame, neutrality is required, mandatory training is limited, and misconduct powers stay. Professional-body power narrows: the private-expression lever is removed while the workplace lever remains.
 
 System: Regulator power narrowed to work, not private opinion
 

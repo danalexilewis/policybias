@@ -28,7 +28,7 @@ sourceDigest: "sha256-0bc1f22926f9fcd1"
 
 # Our understanding
 
-> The policy states that 50% of mining royalties return to the region of extraction rather than all going to Wellington, and lists infrastructure uses. It does not size the royalty pool, say who governs the regional share, or print a dollar allocation.
+> Half of mining royalties would return to the extraction region for infrastructure uses rather than all flowing to Wellington, but the royalty pool is unsized and no regional governor is named — so regions cannot plan the dollars or who allocates them.
 
 System: A fifty-fifty royalty split without a sized pool
 
@@ -40,7 +40,7 @@ Output 50% of mining royalties returned to the region of extraction
 # extrapolated: 50% remaining with Wellington is arithmetic from the stated regional share
 And 50% of mining royalties remaining with Wellington
 Outcome communities receive a named share of royalties from activity in their region
-But the dollars in that share cannot be read without a pool size
+But regions cannot budget until the royalty pool is sized
 
 Scenario: The regional share must be spent without a named decision-maker
 Given regional investment named for water services, flood protection, energy, tourism, transport, housing and critical infrastructure
@@ -48,4 +48,4 @@ And no description of who holds or allocates the regional 50%
 When the regional share arrives
 Then a governance choice must be made before any of those spends can be authorised
 Outcome the list of intended uses is clear
-But a reader cannot tell who decides between them, or on what terms
+But councils, trusts or Crown agents must be chosen before any spend is authorised

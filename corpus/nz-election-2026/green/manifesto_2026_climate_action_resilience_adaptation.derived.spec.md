@@ -4,7 +4,7 @@ id: green-manifesto-2026-climate-action-resilience-adaptation-derived
 title: "Climate resilience funds read as a system: named funds without a printed size"
 status: draft
 updated: 2026-08-21
-summary: The Māori Climate Resilience Fund, wider Natural Hazards cover and Pacific support are named instruments whose fund size, premium path and transfer scale stay unnamed on a no-figure page.
+summary: The Māori Climate Resilience Fund, wider Natural Hazards cover and Pacific support are named instruments whose fund size, premium path and transfer scale carry no dollar figure.
 jurisdiction: NZ
 sources:
   - title: "Climate Action: Resilience + Adaptation"
@@ -25,29 +25,28 @@ assumptions:
   - expanding Natural Hazards Commission cover for climate-related events and retreat changes premium or Crown backstop risk; neither path is quantified
   - a dedicated central and local adaptation fund without a budget is an intention, not an appropriation
   - scaling Pacific climate support without a dollar path leaves the transfer size unnamed
-  - we introduce no figure, because the policy contains none to work from
 ---
 
 # Our understanding
 
-> The policy funds a Māori Climate Resilience Fund, widens Natural Hazards Commission cover, and scales Pacific adaptation support. It never prints fund size, premium path or transfer scale.
+> Hapū and iwi get a dedicated adaptation fund. More households sit inside Natural Hazards cover after storms. Pacific neighbours get more help. Each of those is a standing Crown bill.
 
 System: Named resilience funds without a printed size
 
 Scenario: The Māori Climate Resilience Fund is stood up without a size
 When a Māori Climate Resilience Fund is funded
 Then hapū and iwi can draw on a dedicated adaptation pool
-Outcome tino rangatiratanga over whenua, wai and taonga is the named aim
-But the fund size and governance stay unnamed
+Outcome hapū and iwi can draw on a dedicated adaptation pool for whenua, wai and taonga
+But hapū and iwi cannot plan works until Cabinet sets what the fund can actually spend
 
 Scenario: Natural Hazards cover widens to climate events and retreat
 When the Natural Hazards Commission expands to cover climate-related weather events and community-led retreat
 Then more households and communities sit inside the cover
-Outcome clarity after storms and floods can improve
-But whether premiums rise or the Crown backstop grows stays unnamed
+Outcome more households and communities sit inside cover after storms and floods
+But either premiums rise or the Crown backstop grows — and the policy picks neither path
 
 Scenario: Pacific support scales without a transfer figure
 When support for Pacific neighbours to adapt is scaled up
 Then more adaptation help leaves Aotearoa for neighbouring countries
-Outcome regional climate solidarity is the named aim
-But the scale of that support stays unnamed
+Outcome more adaptation help leaves Aotearoa for neighbouring countries
+But later Budgets have to find the money for that help, because there is no ceiling

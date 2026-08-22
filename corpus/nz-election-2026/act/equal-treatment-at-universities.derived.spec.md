@@ -27,7 +27,7 @@ sourceDigest: "sha256-4297a1524bca7836"
 
 # Our understanding
 
-> The policy bars race-based publicly funded tertiary benefits and preserves merit, need and private donor targeting. It does not price how much funding moves. That silence is binding: three allocators stay standing beside the ban.
+> Race-based publicly funded tertiary benefits are barred while merit, need and private donor targeting stay lawful. How much funding moves carries no price tag — three allocators remain beside the ban.
 
 System: Race removed as a public allocator; other allocators stay
 
@@ -37,13 +37,13 @@ And in 2024 the Government directed public agencies to allocate support accordin
 When the Education and Training Act is amended to prevent tertiary institutions conferring benefits on the basis of race or ethnic origin
 Then scholarships, grants, financial assistance, accommodation, designated spaces and other benefits cannot use race as the criterion where the benefit is publicly funded
 Outcome taxpayer-funded opportunities open without ethnicity as the gate
-But how much existing ethnicity-targeted public funding is reallocated is not stated
+But students who relied on ethnicity-targeted public funding compete for a smaller or different pool
 
 Scenario: Support is still awarded on merit or need
 When universities allocate support according to academic merit, academic need, geographic location, economic circumstances or disability
 Then those criteria remain lawful after the amendment
 Outcome hardship and academic help can still direct resources
-But the assessment method for hardship or academic need is not stated in the policy
+But universities still decide how hardship and academic need are measured
 
 Scenario: A private donor funds a targeted scholarship
 When an endowment, bequest or other assistance from a private individual, iwi, charity or trust is given for a targeted purpose

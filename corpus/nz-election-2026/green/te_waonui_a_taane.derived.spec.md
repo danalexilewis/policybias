@@ -9,6 +9,8 @@ jurisdiction: NZ
 sources:
   - title: For people and planet
     url: https://www.greens.org.nz/te_waonui_a_taane
+  - title: Green Party announce marae funding policy Te Waonui a Tāne
+    url: https://www.greens.org.nz/green_party_announce_marae_funding_policy_te_waonui_a_taane
 tags:
   - maori-affairs
   - budget
@@ -28,7 +30,7 @@ sourceDigest: "sha256-7aa4a4fefcd9750c"
 
 # Our understanding
 
-> The policy states a $2.44 billion Te Rangatiratanga Trust, $400 million over four years for restoration and a $2 billion intergenerational endowment under hapū and iwi governance. It does not say that the endowment only pays later, or that most of the headline sits as capital rather than year-one spend.
+> Hapū and iwi govern a $2.44 billion trust now. $400 million spends on restoration over four years. The $2 billion endowment is capital: it pays later, once returns arrive.
 
 System: Te Rangatiratanga Trust with a restoration fund and an endowment
 
@@ -44,7 +46,7 @@ When Te Rākau Whakarauora Restoration Fund runs
 Then marae can draw on near-term cash for urgent infrastructure and capability
 Output $400 million over four years for immediate and urgent marae projects
 Outcome urgent needs can be met inside the parliamentary term
-But the envelope is finite and this policy does not name project caps
+But marae still compete for shares of a finite four-year envelope
 
 Scenario: The endowment pays later from returns
 Given $2 billion in a diversified portfolio to generate returns for annual distribution
@@ -54,4 +56,4 @@ Then capital is locked while returns accumulate for later annual draws
 Output $2 billion intergenerational investment portfolio
 And $2.44 billion total Crown funding for Te Rangatiratanga Trust
 Outcome future generations can receive distributions the restoration fund was not built to supply
-But distributions wait on investment returns, and no rate is published
+But marae wait on portfolio returns before the endowment pays anything out

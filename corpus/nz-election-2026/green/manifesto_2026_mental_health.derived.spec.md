@@ -27,27 +27,27 @@ sourceDigest: "sha256-7980d16e0222c608"
 
 # Our understanding
 
-> The policy expands free services including Piki, Mana Ake and Youth One Stop Shops, implements Every Life Matters with an under-24 focus, and phases out seclusion through community care. It names no funding totals, staffing targets or wait-time goals. We treat free access as a demand shift against unnamed capacity, and seclusion's end as dependent on community resources the policy does not size.
+> Free services expand across Piki, Mana Ake, Youth One Stop Shops and related programmes. Every Life Matters gets an under-24 focus and seclusion is phased out through community care. Funding totals, staffing targets and wait-time goals carry no figures.
 
 System: Free access and seclusion exit against unnamed capacity
 
 Scenario: Free mental health services expand
 When free mental health services expand including Piki, Mana Ake, Youth One Stop Shops, Asian Family Services and postnatal support
 Then cost is no longer the barrier named in the policy
-Outcome more people can seek help without paying
-But geography, caseload and wait times stay unnamed, so spare capacity is assumed rather than shown
+Outcome anyone who avoided care because of fees can walk through the door
+But DHBs and NGOs still set who waits how long in each region
 
 Scenario: Seclusion phases out while community care is the substitute
 When seclusion is phased out entirely
 And early intervention increases to reduce compulsory care
 Then solitary confinement exits the named care model
-Outcome acute care is meant to be rehabilitative in the community
-But without named beds, staffing or a timetable, the substitute capacity is an open claim
+Outcome people in crisis are meant to be cared for in the community, not secluded
+But community teams still need beds, staff and a phased timetable someone has to fund
 Activates green-manifesto-2026-drug-law-reform
 
 Scenario: Suicide prevention focuses on people under 24
 When Every Life Matters recommendations are implemented
 And kaupapa Māori suicide prevention actions focus on people under 24
 Then youth are the named priority group
-Outcome prevention effort concentrates on under-24s
-But youth service places and workforce hours are not quantified in the policy
+Outcome suicide prevention work centres on people under 24
+But youth services absorb the caseload before anyone counts extra places or clinician hours

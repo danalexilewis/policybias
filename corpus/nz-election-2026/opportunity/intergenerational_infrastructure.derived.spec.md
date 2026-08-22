@@ -28,7 +28,7 @@ sourceDigest: "sha256-0fbcde7d08fa59fd"
 
 # Our understanding
 
-> The policy states 60% to maintenance, $60 billion over ten years, and $150 million net for free public transport. It does not say that 60% of a frozen envelope shrinks new build, or that a majority can still cancel a project by passing the Bill.
+> Sixty percent of future infrastructure spend goes to maintenance, with $60 billion over ten years and $150 million net for free public transport. On a frozen envelope that rule shrinks new build, and a majority can still cancel any project over $250 million by passing the Bill.
 
 System: Maintenance first, new build from extra debt
 
@@ -37,7 +37,7 @@ Given 60% of future infrastructure spend going to maintenance and renewal
 When the envelope does not grow
 Then new hospitals and lines compete for whatever is left after maintenance
 Outcome existing assets last longer
-But new build shrinks unless the $60 billion fund actually enlarges the envelope
+But hospitals and lines compete for a shrinking slice unless the $60 billion fund enlarges the envelope
 Activates opportunity-tax-reset
 
 Scenario: A later government wants to cancel a project

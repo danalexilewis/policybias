@@ -29,7 +29,7 @@ sourceDigest: "sha256-a89e3dab3adee6da"
 
 # Our understanding
 
-> The policy says safeguards stay and the six-month rule is the biggest barrier. The prognosis replacement widens eligibility to people in irreversible decline whose death cannot be timed to six months, and the limited waiver as allowing administration after capacity is lost. The 25 recommendations are adopted as a block; the policy does not list them.
+> Safeguards stay and the six-month rule is the biggest barrier. The prognosis replacement widens eligibility to people in irreversible decline whose death cannot be timed to six months, and the limited waiver allows administration after capacity is lost. All twenty-five review recommendations are adopted as a block; they are not itemised here.
 
 System: End of Life Choice eligibility and consent after the amendment
 
@@ -40,7 +40,7 @@ And more than 300 applicants were found ineligible last year and 42 people withd
 When all 25 recommendations are implemented
 Then process, training and Registrar oversight change with the review package
 Outcome practitioners face specified training and stronger oversight of pressure-free consent
-But the policy does not itemise what each recommendation does
+But practitioners inherit twenty-five process changes without a published checklist in this material
 
 Scenario: The six-month prognosis is replaced
 Given the six-month prognosis requirement has shut out people who are terminally ill, in irreversible decline and suffering unbearably when a doctor cannot say death will occur within six months
@@ -48,11 +48,11 @@ When that requirement is replaced with an advanced progressive condition expecte
 Then people outside a six-month window can still meet the prognosis-style test
 Output the other eligibility tests kept, including age at least 18, advanced irreversible decline, unbearable suffering that cannot be tolerably relieved, and competence to make an informed decision
 Outcome the eligible pool widens relative to the six-month rule
-But death still need not follow a calendar the policy can state
+But the patient's death may still arrive outside any timetable the clinician can fix in advance
 
 Scenario: A limited waiver of final consent is used
 Given a person assessed as eligible chose the date and time while competent
 When that person loses capacity before the chosen date
 Then administration may proceed under the limited waiver
 Outcome final consent at the moment of administration is no longer always required
-But the policy says none of the existing safeguards are being weakened, which is a claim about the rest of the Act, not about this waiver's effect on the last consent step
+But the last consent step loosens even while the rest of the Act's safeguards are said to stay intact

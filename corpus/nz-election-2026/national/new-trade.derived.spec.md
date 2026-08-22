@@ -27,7 +27,7 @@ sourceDigest: "sha256-b98068e2528d26a1"
 
 # Our understanding
 
-> The policy aims to connect businesses with nearly one billion potential new customers, keep a goal of doubling export value by 2034, and pursue new agreements in fast-growing markets. It does not turn market size into contracted demand, name the instruments that would deliver the doubling, or list the agreements.
+> Nearly one billion potential customers is the size of target markets, not signed demand — exporters still need buyers, routes and rules before sales land. Doubling export value by 2034 is a destination without named agreements, budgets or barrier cuts on this material.
 
 System: A market-size headline without named demand instruments
 
@@ -37,17 +37,17 @@ When New Zealand businesses are connected with nearly one billion potential new 
 Then that figure measures the size of target markets, not orders placed
 Output nearly one billion potential new customers as a market-size claim
 Outcome exporters still need buyers, routes and rules before sales land
-But contracted demand is not what the policy has counted
+But exporters carry the gap between market size and actual orders
 
 Scenario: The doubling goal sits without instruments on this policy
 Given a goal of doubling the value of New Zealand exports by 2034
 When this policy's trade plan is read for delivery tools
 Then barriers, border processes and digital tools are named without budgets or metrics
 Outcome the destination is clear
-But the instruments that would achieve the doubling are not specified here
+But exporters carry the delivery risk when instruments and budgets sit elsewhere
 
 Scenario: Agreements stay unnamed
 When new trade agreements are pursued with fast-growing markets in Europe, South America, Asia and Africa
 Then no country, bloc or negotiation order is listed on this policy
 Outcome the direction of travel is continental
-But a reader cannot tell which deal comes first or what it covers
+But negotiators and exporters wait on sequencing nobody has published

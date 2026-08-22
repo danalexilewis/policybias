@@ -27,7 +27,7 @@ sourceDigest: "sha256-0da4a8f281497913"
 
 # Our understanding
 
-> The policy states the monthly employer payment for two years, the toolbox grant, and a cost path that rises over four years. It does not label the payment as an employer subsidy with Crown incidence, or say that the rising path is uptake growth.
+> The monthly payment lands with the employer, so the Crown carries the subsidy incidence while the apprentice's take-home is set elsewhere. The toolbox grant is a one-off, and the rising four-year cost path implies uptake growth as more apprentices and employers join.
 
 System: Apprenticeship Boost as employer subsidy and uptake-linked spend
 

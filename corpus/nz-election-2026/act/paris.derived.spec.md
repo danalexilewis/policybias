@@ -28,7 +28,7 @@ sourceDigest: "sha256-28be68128eedcd59"
 
 # Our understanding
 
-> The policy frames split-gas targets and an agriculture ETS carve-out as climate science and food security. The permanent carve-out leaves farm methane unpriced in the ETS, and No Additional Warming is a metric choice that can be met by holding methane's warming contribution steady rather than cutting herd emissions. The policy publishes no numeric NDC targets.
+> Split-gas targets and an agriculture ETS carve-out leave farm methane unpriced in the ETS. No Additional Warming is a metric choice that can be met by holding methane's warming contribution steady rather than cutting herd emissions. No numeric NDC targets are published.
 
 System: Split-gas climate targets with unpriced farm methane
 
@@ -38,7 +38,7 @@ And New Zealand dairy has a carbon footprint 46% lower than the global average
 When an incoming government issues a split-gas Nationally Determined Contribution
 Then long-life gases and short-lived methane are scored on different paths
 Outcome compliance is judged against separate gas metrics
-But the policy states no numeric targets for either path
+But neither gas path carries a published numeric target in this material
 
 Scenario: Agriculture is permanently kept out of the Emissions Trading Scheme
 Given agriculture is to be permanently kept out of the Emissions Trading Scheme

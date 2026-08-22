@@ -30,7 +30,7 @@ sourceDigest: "sha256-35bba72da8239416"
 
 # Our understanding
 
-> The policy sells peace of mind and less duplicated bureaucracy. The mechanism replaces employer snapshot checks with a portable three-year card fed by continuous Police information: when risk appears, suspension hits every linked organisation at once. Cost figures below are the policy's own estimates.
+> A portable three-year card fed by continuous Police information replaces employer snapshot checks. When risk appears, suspension hits every linked organisation at once. Cost figures below are the policy's own estimates.
 
 System: Portable card with continuous Police monitoring
 
@@ -47,7 +47,7 @@ Given cardholders are checked continuously against new Police information
 When Police learn someone may be dangerous
 Then the card can be suspended, work with children stops, and every linked organisation is told
 Outcome employers no longer wait for the next three-year snapshot to learn of a change
-But the policy does not list which offences trigger suspension
+But employers cannot know in advance which offences will suspend a card until the trigger list is published
 
 Scenario: The scheme is funded at the policy's stated costs
 Given paid workers pay about $108, often covered by employers, with volunteers and students exempt or discounted

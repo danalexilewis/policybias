@@ -27,7 +27,7 @@ sourceDigest: "sha256-ed8940b2f0ae12e1"
 
 # Our understanding
 
-> The policy lists powers for Accredited Security Operators on private premises and says communities need authority until Police arrive. It does not say those powers are state-like, or that a private licence is a substitute for Police oversight.
+> Accredited Security Operators on private premises can compel identity, exclude people and condition entry on consent searches while remaining private operators who are not Police. Communities gain authority until Police arrive; oversight differs from Police processes.
 
 System: Private licence holders with coercive tools on private premises
 

@@ -28,7 +28,7 @@ sourceDigest: "sha256-6ae8a35ec67fe9cf"
 
 # Our understanding
 
-> The policy states the $30,000 cap, the company and trust ban, the $1,000 disclosure, and the $52 million package. It does not close related-party channels or say how the new body divides work with the Serious Fraud Office.
+> A $30,000 cap per donor, a company and trust ban, $1,000 disclosure and a $52 million package — but related-party routes remain open and the new body's division of work with the Serious Fraud Office is unsettled.
 
 System: Caps that can still be routed around
 
@@ -37,7 +37,7 @@ Given a $30,000 cap per party per donor per election and a ban on company and tr
 When a wealthy supporter wants to give more
 Then a second natural person, or unpaid professional time, can still move value unless those routes are closed
 Outcome the named cash cap is real for a single cheque
-But total influence is not capped unless related-party and labour-in-kind rules catch up
+But wealthy donors can still route value through family members or unpaid labour
 
 Scenario: The anti-corruption body opens
 Given about $40 million a year for a new body, against about $17 million for the Serious Fraud Office

@@ -32,7 +32,7 @@ sourceDigest: "sha256-a65b509e32452db7"
 
 # Our understanding
 
-> The policy and PDF state the rates, the $24 billion land-tax take, the $4 billion leftover, the 10-15% house-price path, and that $19,400 a year is not enough to live on. They do not state how long rents stay high while the land tax works through, that the first years raise less than the fully phased picture, or that the employer KiwiSaver slice is a wage cost.
+> An annual land tax targets $24 billion with about $4 billion leftover after the Citizen's Income, alongside a projected 10–15% house-price path and a cash floor of $19,400 a year that is not enough to live on. Rents can absorb the transfer until supply rises; early years raise less than the fully phased picture, and the employer KiwiSaver slice lands on the wage bill.
 
 System: Tax Reset as an annual land charge funding a cash floor
 
@@ -67,5 +67,5 @@ Given a compulsory 6% employer contribution once the 8-year climb is done
 When the employer pays that 6%
 Then the cost sits on the employment relationship
 Outcome retirement balances grow, and the policy's $1 trillion pool is a 20-year stock
-But take-home pay or prices can move to fund the employer slice; the policy does not say which
+But take-home pay or prices move to fund the employer slice — workers and shoppers carry whichever the employer chooses
 Activates opportunity-intergenerational-infrastructure

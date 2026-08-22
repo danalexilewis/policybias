@@ -27,7 +27,7 @@ sourceDigest: "sha256-1086630fd4733d5b"
 
 # Our understanding
 
-> The policy builds a Māori-led education authority, embeds mātauranga Māori, removes barriers for whānau, and supports Māori governance. The structure and the dollar barriers stay unnamed.
+> A Māori-led education authority would shift who steers learning, and mātauranga Māori would run through curriculum and teaching—but the authority still has no statute, budget or boundary with existing bodies. Barriers blocking whānau might be fees, travel, childcare or institutional racism; until each is named and costed, the removal cannot be Budgeted.
 
 System: Authority and mātauranga with barriers not priced
 
@@ -44,7 +44,7 @@ Given an intention to embed mātauranga properly
 When curriculum and teaching change
 Then content, teacher capacity and assessment must be designed somewhere
 Outcome learning can hold identity if that work is funded and staffed
-But the policy gives no spend or workforce scale
+But without a workforce budget, schools cannot hire the teachers mātauranga needs
 
 Scenario: Barriers blocking whānau are removed
 Given barriers that block education and training
@@ -52,4 +52,4 @@ And no list of which barriers, and no dollar amounts
 When barriers are removed
 Then each barrier's cost and owner must be identified first
 Outcome access can widen once those costs are named and met
-But unnamed as dollars, the removal cannot be Budgeted from this policy
+But until each barrier has a dollar cost and an owner, officials cannot Budget the removal

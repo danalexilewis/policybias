@@ -1,11 +1,12 @@
 # Display metadata for corpus parties.
 #
 # `name` matches corpus/nz-election-2026/_seeds/<id>.yaml. `label` is the short
-# form for a card badge. `colour` is for the canvas only.
+# form for a card badge. `colour` is for the canvas only. `logo` is a file in
+# public/logos/.
 #
 # Anonymise mode and the game must not use `colour` or `label`: brand colour is
 # the fastest possible tell, and the whole point of hiding the party is that a
-# reader has to judge the policy. Slice 07 gates both behind CardDisplay.party.
+# reader has to judge the policy.
 #
 # Order is the order the results chart uses. It is alphabetical by label so it
 # does not imply a ranking, a seat count, or a left-right axis.
@@ -15,33 +16,122 @@ parties:
     label: ACT
     name: ACT New Zealand
     colour: "#fdb913"
+    logo: act.svg
+    anonymise:
+      caseInsensitive:
+        - ACT New Zealand
+      caseSensitive:
+        - "ACT's"
+        - ACT
+      uniqueTitle:
+        - ACT New Zealand
+      shortTitle:
+        - ACT
 
   - id: green
     label: Green
     name: Green Party of Aotearoa New Zealand
     colour: "#098137"
+    logo: green.svg
+    anonymise:
+      caseInsensitive:
+        - Green Party of Aotearoa New Zealand
+        - Green Party
+      caseSensitive:
+        - Greens
+      uniqueTitle:
+        - Green Party of Aotearoa New Zealand
+        - Green Party
+        - Greens
+      shortTitle:
+        - Green
 
   - id: labour
     label: Labour
     name: New Zealand Labour Party
     colour: "#d82c20"
+    logo: labour.svg
+    anonymise:
+      caseInsensitive:
+        - New Zealand Labour Party
+        - Labour Party
+      caseSensitive:
+        - Labour
+      uniqueTitle:
+        - New Zealand Labour Party
+        - Labour Party
+      shortTitle:
+        - Labour
 
   - id: national
     label: National
     name: New Zealand National Party
     colour: "#00529f"
+    logo: national.svg
+    anonymise:
+      caseInsensitive:
+        - New Zealand National Party
+        - National Party
+      caseSensitive: []
+      uniqueTitle:
+        - New Zealand National Party
+        - National Party
+      shortTitle:
+        - National
 
   - id: nz-first
     label: NZ First
     name: New Zealand First Party
     colour: "#3d3d3d"
+    logo: nz-first.svg
+    anonymise:
+      caseInsensitive:
+        - New Zealand First Party
+        - NZ First
+        - NZFirst
+      caseSensitive: []
+      uniqueTitle:
+        - New Zealand First Party
+        - NZ First
+        - NZFirst
+      shortTitle: []
 
   - id: opportunity
     label: Opportunity
     name: Opportunity Party
     colour: "#00b9bc"
+    logo: opportunity.svg
+    anonymise:
+      caseInsensitive:
+        - The Opportunities Party
+        - The Opportunity Party
+        - Opportunity Party
+      caseSensitive: []
+      uniqueTitle:
+        - The Opportunities Party
+        - The Opportunity Party
+        - Opportunity Party
+      shortTitle: []
 
   - id: te-pati-maori
     label: Te Pāti Māori
     name: Te Pāti Māori
     colour: "#7a1830"
+    logo: te-pati-maori.svg
+    anonymise:
+      caseInsensitive:
+        - Te Pāti Māori
+        - Te Pati Maori
+        - The Māori Party
+        - The Maori Party
+        - Māori Party
+        - Maori Party
+      caseSensitive: []
+      uniqueTitle:
+        - Te Pāti Māori
+        - Te Pati Maori
+        - The Māori Party
+        - The Maori Party
+        - Māori Party
+        - Maori Party
+      shortTitle: []

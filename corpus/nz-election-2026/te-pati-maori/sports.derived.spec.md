@@ -27,7 +27,7 @@ sourceDigest: "sha256-9240d954a4e7780a"
 
 # Our understanding
 
-> The policy invests in sport and community initiatives and supports rangatahi pathways through clubs, programmes and facilities. Amounts, priorities and the delivery agency are unnamed.
+> Rangatahi are promised pathways through clubs, programmes and facilities, but nobody has yet picked which clubs come first, who delivers, or what it costs. Treasury cannot size the spend; whānau cannot book a programme that does not exist yet.
 
 System: Community sport without a Budget line
 
@@ -35,8 +35,8 @@ Scenario: Sport and community initiatives are invested in
 Given sport builds belonging, discipline, leadership and connection for rangatahi
 When sport and community initiatives that build belonging, wellbeing and opportunity are invested in
 Then an amount and a funder must still be chosen
-Outcome the direction is more community sport
-But without that line, officials cannot size the spend
+Outcome rangatahi could get more community sport
+But until Treasury assigns a line, nobody can size the spend
 
 Scenario: Rangatahi pathways run through local clubs
 When pathways for rangatahi are supported through local clubs, programmes and facilities

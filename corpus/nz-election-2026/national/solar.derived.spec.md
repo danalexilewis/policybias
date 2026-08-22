@@ -28,7 +28,7 @@ sourceDigest: "sha256-e8603daa6d161a87"
 
 # Our understanding
 
-> The policy presents low-interest loans and permitted small-scale renewables as easing upfront cost. It does not say the Crown stake implies a small fund, that securing loans on the home puts the house at risk, or that the equity floor excludes highly leveraged owners.
+> A $7 million Crown stake for twenty per cent shareholding implies a modest equity base before gearing, and loans secured on the home put the property at risk even when repaid through rates. The twenty per cent equity floor screens out highly leveraged owners who most need low-friction finance.
 
 System: Home Energy Fund as a small, house-secured, equity-gated loan book
 

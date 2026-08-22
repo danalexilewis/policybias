@@ -29,7 +29,7 @@ assumptions:
 
 # Our understanding
 
-> The policy protects at least 30% of ocean territory, bans destructive fishing methods and seabed mining, and reviews the Quota Management System. It does not keep quota value whole when waters close.
+> The policy protects at least 30% of ocean territory, bans destructive fishing methods and seabed mining, and reviews the Quota Management System. Quota value is not protected when waters close.
 
 System: Closed waters and lost quota access
 
@@ -50,4 +50,4 @@ Scenario: The Quota Management System moves to ecosystem management
 When the Quota Management System is reviewed toward ecosystem-based fisheries management
 Then authorised catch can be cut, moved, or reconditioned even when settlements stay in the frame
 Outcome management aims at ecosystem health rather than single-stock extraction alone
-But settlement and other quota holders can still lose income the policy does not replace
+But settlement and other quota holders absorb lost catch income with no compensation line

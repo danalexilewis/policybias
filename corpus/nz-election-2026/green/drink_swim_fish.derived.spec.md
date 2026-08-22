@@ -1,14 +1,16 @@
 ---
 type: spec
 id: green-drink-swim-fish-derived
-title: "Drink, swim and fish read as a system: farm and nitrate incidence without instruments in the policy"
+title: "Drink, swim and fish read as a system: nitrate, wastewater and trawl incidence without numeric limits"
 status: draft
-updated: 2026-08-21
-summary: Fixing the rules so everyone can drink, swim and fish implies tighter limits that fall on farms and nitrate sources, but this policy names no instruments, so incidence is read through the freshwater plan it points toward.
+updated: 2026-08-22
+summary: The three named interventions bind farms on nitrate, councils on wastewater, and fishers on bottom trawling; none of the limits is printed.
 jurisdiction: NZ
 sources:
   - title: For people and planet
     url: https://www.greens.org.nz/drink_swim_fish
+  - title: People and nature first in Greens' rivers and oceans policy
+    url: https://www.greens.org.nz/people_and_nature_first_in_greens_rivers_and_oceans_policy
 tags:
   - environment
 party: green
@@ -19,36 +21,34 @@ sourcePath: corpus/nz-election-2026/green/drink_swim_fish.md
 sourceDigest: "sha256-4af5cf7f6d220476"
 derivesFrom: green-drink-swim-fish
 assumptions:
-  - drinkable, swimmable and fishable water requires enforceable limits on discharges and land-use pressure; those limits fall on farms, towns and industry even though this policy does not name them
-  - nitrate in drinking water and waterways is a main pathway from intensive land use to the drink-swim-fish test; we treat farm nitrate incidence as implied, not published here
-  - the full instruments live on the linked freshwater policy, not on this campaign page
-  - we introduce no figure, because the policy contains none to work from
+  - lowering nitrate limits for drinking water binds the land uses that produce nitrate, principally farms
+  - stronger wastewater discharge rules bind the councils and plants that discharge
+  - phasing out destructive bottom trawling binds the fishers who use it
+  - we introduce no intervention figure, because the policy prints 100,000 only as current-state illness
 ---
 
 # Our understanding
 
-> The policy says the rules will be fixed so people can drink, swim and fish. It names no limits, no fertiliser rules and no farm instruments. The nitrate and farm incidence sits with the freshwater plan.
+> Drinking-water limits, wastewater rules and a bottom-trawling phase-out are how rivers and coasts would become drinkable, swimmable and fishable. Farms, councils and fishers carry the cost. The numbers that bind them are still unwritten.
 
-System: Drink-swim-fish rules as farm and nitrate incidence
+System: Drink-swim-fish rules as nitrate, wastewater and trawl incidence
 
-Scenario: Rules tighten enough that water passes the drink-swim-fish test
-When the rules are fixed to protect water and the environment from exploitation
-Then discharges and land-use pressure that fail the test must fall
-Outcome people can drink, swim and fish in the places they love
-But who cuts pollution first is not settled on this policy
+Scenario: Nitrate limits bind farms
+When drinking-water nitrate limits are lowered
+Then farms that produce nitrate face the tighter rule
+Outcome drinking water can pass the test if the limit binds
+But farms carry the cost of meeting a limit they cannot yet read
 Activates Synthetic nitrogen fertiliser is phased out
 
-Scenario: Nitrate pressure is treated as farm incidence
-Given clean, safe water as a way of life the policy says it will defend
-When nitrate and related farm inputs are the pathway that fails drinking and swimming tests
-Then farms that rely on those inputs face the tighter rule
-Outcome water quality can recover if the rule binds
-But this policy never names the nitrate limit or the farm instrument
-Activates Synthetic nitrogen fertiliser is phased out
+Scenario: Wastewater rules bind councils
+When rules for wastewater discharges are strengthened
+Then councils and plants that discharge to rivers and coasts face the tighter rule
+Outcome rivers and beaches can stay swimmable if the rule binds
+But councils carry the upgrade cost while the standard that binds them is still unwritten
 
-Scenario: The instruments live in the freshwater policy
-When a reader looks for how the rules are fixed
-Then the instruments are not on this policy
-Outcome the commitment is a direction of travel
-But cost, timetable and enforcement stay unnamed here
-Activates Synthetic nitrogen fertiliser is phased out
+Scenario: Bottom trawling phase-out binds fishers
+When destructive bottom trawling is phased out
+Then fishers who use that method lose it
+Outcome moana can recover if the phase-out covers the grounds that matter
+But fishers lose their method before they know which grounds or when
+Activates green-manifesto-2026-oceans-and-fisheries

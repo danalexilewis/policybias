@@ -27,7 +27,7 @@ assumptions:
 
 # Our understanding
 
-> The policy states 500 new frontline police in 18 months, a prior target of 1800 that matured into 2338 trained, a suspected 3000 gang members in prison with 2000 spare beds, degrees of murder with life for first degree, and terrorist designation for gangs. It does not define first-degree murder, name the designation process, cost the package, or prove spare beds equal a workable gang-only prison.
+> Five hundred new frontline police in eighteen months. Gangs would be isolated using claimed spare beds. Murder gets degrees, with life for first degree. Gangs would be designated as terrorists. Spare-bed capacity is asserted, not proved; first-degree murder still needs a definition.
 
 System: Policing and sentencing with capacity and definition gaps
 
@@ -42,10 +42,10 @@ Scenario: First-degree murder attracts life for life
 When a degrees of murder regime uses life for life for first-degree murder
 Then first-degree cases draw the life sentence the policy names
 Outcome the most serious murders are treated as a separate degree
-But first-degree murder is undefined in the policy, so the boundary is not settled
+But courts still lack a boundary for first-degree murder until Parliament defines it
 
 Scenario: Gangs are designated under the Terrorism Suppression Act
 When gangs are designated as terrorist organisations under the Terrorism Suppression Act
 Then gang membership sits under that Act's consequences
 Outcome designation is available as a law-and-order tool
-But the designation process is unnamed, so who decides and how remains open
+But ministers or officials still decide designation without a named process

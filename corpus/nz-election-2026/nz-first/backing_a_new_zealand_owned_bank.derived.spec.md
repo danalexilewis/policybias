@@ -28,7 +28,7 @@ sourceDigest: "sha256-ff7fce88ee091b00"
 
 # Our understanding
 
-> The policy states a BNZ buy-back from NAB, a merge with Kiwibank into a Crown-owned National Bank of New Zealand, around 85% Australian control of the system, Kiwibank at just under 8% of mortgages, and more than $1.5 billion a year of BNZ cash earnings said to service the debt. It does not state the purchase price or what happens if earnings fall.
+> The BNZ buy-back is meant to pay for itself from more than $1.5 billion of annual cash earnings, yet the purchase price is missing and earnings could fall. Merging with Kiwibank into a Crown-owned National Bank still leaves a player with under 8% of mortgages facing majors with around 85% of the system.
 
 System: Crown-backed buy-back with an unpriced principal
 
@@ -39,7 +39,7 @@ When the buy-back is funded with long-dated Crown debt said to be comfortably se
 Then the debt service claim cannot be checked against a principal
 Output more than $1.5 billion in annual BNZ cash earnings claimed to service the debt
 Outcome the policy presents the buy-back as self-financing in expectation
-But without a price, a reader cannot tell whether those earnings cover the debt
+But taxpayers carry the debt if those earnings fall short of whatever price is paid
 
 Scenario: Public and near-public capital takes banking risk
 Given a blended stack of sovereign bonds, long-dated Crown debt, and a limited Future Fund and ACC equity tranche
@@ -54,4 +54,4 @@ And Kiwibank holds just under 8 percent of the mortgage market
 When BNZ is merged with Kiwibank into one Crown-owned bank
 Then a larger domestic competitor is put on the field
 Outcome real competitive pressure is the intended result
-But moving from under eight percent mortgage share to pressure on an eighty-five percent Australian-owned system still depends on capital, pricing and risk the policy does not size
+But taxpayers and the bank still need capital, pricing and risk appetite the policy never sizes

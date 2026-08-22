@@ -30,7 +30,7 @@ sourceDigest: "sha256-c768385696d468bd"
 
 # Our understanding
 
-> The policy makes Waitangi Tribunal recommendations binding, adds a Parliamentary Commissioner for Te Tiriti, and requires a Te Tiriti Impact Statement on every Bill. The shift is from Crown discretion to Tribunal bindingness; the powers and content rules stay unnamed.
+> Binding Tribunal recommendations would move the last word from ministerial discretion to the Tribunal—a constitutional shift, not a process tweak. Which recommendations bind, how they are enforced against the Crown, and what powers the Commissioner and Te Tiriti Impact Statements carry are still to be written in statute.
 
 System: Bindingness without the enforcement design
 
@@ -39,7 +39,7 @@ Given governments can simply ignore Waitangi Tribunal findings today
 When Waitangi Tribunal recommendations are made binding
 Then the last say leaves Crown discretion and lands with the Tribunal
 Outcome ignoring a finding is no longer available as a political choice
-But which recommendations bind, and how they are enforced against the Crown, are still unnamed
+But until statute defines scope and remedies, ministers can still treat findings as optional
 
 Scenario: A Commissioner and Impact Statements are added
 When a Parliamentary Commissioner for Te Tiriti is established and every Bill must include a Te Tiriti Impact Statement

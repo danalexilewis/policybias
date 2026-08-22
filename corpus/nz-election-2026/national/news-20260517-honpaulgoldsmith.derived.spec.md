@@ -27,7 +27,7 @@ sourceDigest: "sha256-5a384fc5bd7e436a"
 
 # Our understanding
 
-> The policy prohibits good character as a mitigating factor at sentencing for all sexual offending and expects tougher sentences. It does not size the lengthening, name prison or court capacity, or say that character evidence still cuts other offences.
+> Barring good character as mitigation for sexual offending lengthens those sentences while character evidence can still cut other offences — a two-track system. Prison beds and court sitting days must absorb the lift, but neither capacity effect is sized.
 
 System: A mitigation ban that lengthens one track and leaves another
 
@@ -36,17 +36,17 @@ Given judges must take into account character testimony today
 When the law prohibits treating good character as mitigating for all sexual offending
 Then that discount path closes for those cases
 Outcome sentences for sexual offending are tougher than under the current rule
-But how much longer, on average, is not stated
+But victims and taxpayers carry whatever average lengthening follows once the discount closes
 
 Scenario: The same offender faces a non-sexual charge
 Given the prohibition is limited to sexual offending
 When a judge sentences a different offence
 Then good character evidence can still be weighed as mitigation
 Outcome sexual offending and other offending run on different character rules
-But a reader cannot tell from this policy alone how the two tracks interact in a multi-charge case
+But multi-charge defendants still face two character rules in one sentencing
 
 Scenario: Tougher sentences meet the prison estate
 When more sexual offending sentences run longer
 Then beds and court sitting days absorb the lift
 Outcome victims see the tougher outcome the policy names
-But prison and court capacity for that lift are unnamed
+But prisons and courts carry the capacity bill for longer sentences

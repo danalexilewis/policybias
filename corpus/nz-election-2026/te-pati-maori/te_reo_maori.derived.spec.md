@@ -28,7 +28,7 @@ sourceDigest: "sha256-9b7c31b133a39d75"
 
 # Our understanding
 
-> The policy strengthens and normalises te reo, invests in learning pathways and community revitalisation, and holds the state accountable for protection. The spend and the accountability form stay unnamed.
+> Learning pathways and community revitalisation need teachers, places and programmes; normalising te reo could touch public service, schooling, broadcasting or signage—each with a different cost profile. Holding the state accountable needs a statute, reporting duty or funding floor, and none of those is chosen yet.
 
 System: Pathways and duty without a named Budget
 
@@ -38,7 +38,7 @@ And no funding figure for pathways
 When learning pathways and community-led revitalisation are invested in
 Then teachers, places and programmes must be paid for somewhere
 Outcome pathways can grow if spend arrives
-But unnamed spend leaves provision scale unread
+But until pathways are funded, kaumātua and rangatahi cannot tell how many classes or places exist
 
 Scenario: Te reo is strengthened and normalised everywhere
 Given an intention to normalise te reo everywhere
@@ -54,4 +54,4 @@ And no statute, reporting duty or funding floor
 When protection fails
 Then the form of accountability must still be chosen
 Outcome state duty is the named standard
-But without a mechanism, duty cannot be enforced or costed from this policy
+But without a mechanism, whānau cannot enforce the duty or cost what protection takes

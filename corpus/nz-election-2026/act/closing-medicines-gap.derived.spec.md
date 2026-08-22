@@ -30,7 +30,7 @@ sourceDigest: "sha256-1f6b71f82a390c0a"
 
 # Our understanding
 
-> The policy frames the climb as funded from expected health growth without new taxes or cutting the size of the non-medicines budget. The same path is a squeeze on other health growth: each year medicines takes one point of the uplift, so the rest of health keeps less than the full growth would have given. The Budget 2026 worked example in the policy is that trade-off in dollars.
+> The climb is funded from expected health growth without new taxes or cutting the size of the non-medicines budget. Each year medicines takes one point of the uplift, so the rest of health keeps less than the full growth would have given. The Budget 2026 worked example is that trade-off in dollars.
 
 System: Medicines share climb paid from health-budget growth
 

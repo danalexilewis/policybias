@@ -26,7 +26,7 @@ sourceDigest: "sha256-59d91a23e3a12473"
 
 # Our understanding
 
-> The policy states $1 of primary care saving $13 later, a ten-year plan, and smokefree 2025 restored. It does not appropriate the $1, or bind the next Parliament.
+> Every $1 into primary care is claimed to save $13 later, alongside a ten-year cross-party plan and smokefree 2025 restored — but the $1 is a claim not an appropriation, and the plan binds no future Parliament.
 
 System: A return that needs the spend first
 
@@ -35,12 +35,12 @@ Given a claimed $13 of wider-system saving for each $1 of primary care
 When the first Budget is written
 Then the saving cannot be booked unless the $1 is actually spent
 Outcome prevention can cut later hospital cost if the spend happens and is held
-But "saving billions" is a completed-system claim, not a first-year line
+But the Crown still owes the first dollar before any billions can be booked
 Activates opportunity-tax-reset
 
 Scenario: A later government inherits the ten-year plan
 When a new Parliament arrives
 Then a plan without a statute can be parked
 Outcome the policy's cross-party process is the intended lock
-But process without law is the same three-year cycle the infrastructure page is trying to escape
+But the next government can still shelve the plan as quickly as any other three-year cycle
 Activates opportunity-intergenerational-infrastructure

@@ -149,7 +149,7 @@ Keep official names (Pharmac, KiwiSaver, IRD) and te reo the page uses (whānau,
 
 ## Body
 
-One `System:` per spec. In a stated spec, one `Scenario:` is the norm; add more only when the page proposes genuinely separate mechanisms. In a derived spec, one scenario per mechanism you are analysing — often two or three, because that is where the reasoning lives.
+One `System:` per spec. In a stated spec, one `Scenario:` is the norm; add more when the page proposes genuinely separate mechanisms, or when a press-release restatement of the same policy is folded in instead of living as its own card. In a derived spec, one scenario per mechanism you are analysing — often two or three, because that is where the reasoning lives.
 
 ```gherkin
 System: Capital gains tax on property, ring-fenced to health
@@ -174,7 +174,7 @@ Step discipline, in the order they appear:
 | `When` | The proposed event, without the numbers. | The event you are analysing, which may be one the party never mentions — an owner choosing to hold, a downturn arriving. |
 | `Then` | The qualitative immediate consequence. No dollar amounts or percentages. | The immediate consequence you think follows. |
 | `Output` | Every dollar amount and percentage the intervention proposes, quantity first. Rates and thresholds belong here. **Only figures the page states.** | Same rule. Arithmetic from a stated figure is allowed if marked. |
-| `Outcome` | What the page says is now different, without restating the figures. Use `But` for strain or loss it admits. | What you think is now different. `But` is where the cost you found goes. |
+| `Outcome` | What the page says is now different, without restating the figures. Use `But` for strain or loss it admits. | What is now different for a person or institution. `But` is the cost they carry — who pays, who waits, who loses a choice. Do not write "stays unnamed" or "not in the policy": silence lives in `assumptions`. If the bill is open-ended, say that. Distinct scenarios on one card need distinct costs, not the same refrain. |
 | `Activates` | Another card's `id` or scenario title, when the page ties two policies together. | Other cards your reasoning connects to. Do not point back at your own stated spec: `derivesFrom` already says that, and the canvas treats a pair as one card, so the edge would be dropped. |
 
 Read [`.cursor/rules/gurki-spec-authoring.mdc`](../../.cursor/rules/gurki-spec-authoring.mdc) and the `gurki` skill before writing. Two rules catch people out:
@@ -184,7 +184,7 @@ Read [`.cursor/rules/gurki-spec-authoring.mdc`](../../.cursor/rules/gurki-spec-a
 
 ## Figures
 
-`pnpm check:policy` pulls every number-like token out of your steps and checks it against the source page.
+`pnpm check:policy` pulls every number-like token out of your steps and checks it against the source page and any other dump pages listed in `sources`.
 
 - **Stated spec:** every figure, in every step, must be on the page. There is no escape hatch. If you cannot source it, it does not belong in a stated spec.
 - **Derived spec:** the same, except a figure that is arithmetic from the page may carry a marker on the line above it, and must also appear in `assumptions`:

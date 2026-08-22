@@ -26,7 +26,7 @@ assumptions:
 
 # Our understanding
 
-> The policy states around $90 million already invested, a $40 to $45 million shortfall, and an extra $15 million government commitment to complete the first stage. It does not say the $15 million closes the shortfall or finishes the whole rebuild.
+> Around $90 million is already in the rebuild with a $40 to $45 million shortfall remaining, and an extra $15 million commits to the first stage only — not the whole gap or full revitalisation.
 
 System: Staged cathedral funding against an open shortfall
 
@@ -37,7 +37,7 @@ When additional government funding is committed
 Then the first stage of the staged rebuild can restart
 Output $15 million in additional government funding committed
 Outcome the cathedral reopens and hoardings leave the square on the first-stage path
-But the additional commitment is smaller than the shortfall still named in the policy
+But the $15 million covers less than half the shortfall still outstanding
 
 Scenario: First stage finishes while the wider gap remains
 Given the additional funding is to help complete the first stage on the way to full revitalisation
@@ -45,4 +45,4 @@ And a $40 to $45 million shortfall remaining after around $90 million already in
 When Church and council contributions are still being sought for more of the shortfall
 Then first-stage works can proceed without a named closer for the rest
 Outcome the square can clear while later stages wait on other money
-But the remaining gap after the additional government funding has no named closer in the policy
+But Church, council and donors still owe the rest after the first stage

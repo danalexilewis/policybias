@@ -27,7 +27,7 @@ sourceDigest: "sha256-2c16328343a90b5f"
 
 # Our understanding
 
-> The policy lists agricultural emissions in the ETS, a pine-offset ban, and Commission-set budgets. It does not name the farm instrument or what happens to the carbon price when pine offsets go.
+> Agricultural emissions enter the ETS. New pine offsets are excluded. The Commission sets budgets. Farms still need an instrument that puts a price on methane, and closing pine offsets tightens the carbon market for everyone else.
 
 System: Farm emissions priced without a stated instrument
 
@@ -35,8 +35,8 @@ Scenario: Agriculture enters the ETS
 Given a scheme that today largely leaves biological farm emissions out
 When a mechanism for agricultural emissions is added
 Then someone in the food chain pays
-Outcome either processors, farmers, or consumers carry the price, depending on an instrument the policy does not name
-But without phase-in, free allocation, or a price cap, the first years can be a cliff
+Outcome someone in the food chain pays the farm-emissions price
+But processors, farmers or shoppers carry whichever instrument Parliament chooses, and without phase-in the first years can be a cliff
 Activates opportunity-healthy-land
 
 Scenario: New pine offsets are excluded

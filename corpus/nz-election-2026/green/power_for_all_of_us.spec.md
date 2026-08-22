@@ -3,12 +3,14 @@ type: spec
 id: green-power-for-all-of-us
 title: "Kiwipower, solar loans and $280 million community energy"
 status: draft
-updated: 2026-08-21
+updated: 2026-08-22
 summary: $980 million for Kiwipower over four years, $421.2 million for zero-interest loans, $969.8 million to expand Warmer Kiwi Homes, $460 million for public-housing solar, plus $200 million community energy and $80 million Māori housing renewables.
 jurisdiction: NZ
 sources:
   - title: For people and planet
     url: https://www.greens.org.nz/power_for_all_of_us
+  - title: Green Party launches plan to cut power bills and take power back from the big energy companies
+    url: https://www.greens.org.nz/green_party_launches_plan_to_cut_power_bills_and_take_power_back_from_the_big_energy_companies
   - title: Full Power Policy
     url: https://assets.nationbuilder.com/beachheroes/pages/74612/attachments/original/1784510079/The_Greens'_Full_Power_Policy.pdf
 tags:
@@ -27,11 +29,12 @@ gaps:
   - dry-year firming technology mix beyond named options is not locked in
   - mandate for solar on new public homes exceptions are qualitative only
   - loan of $25,000 at 4.25% over 20 years is a modelling assumption, not an eligibility cap
+  - a 6 month loan start is a sketch, not a commencement date
 ---
 
 # What the page states
 
-> Affordable renewable power shifts household and community energy toward rooftop solar, Warmer Kiwi Homes and publicly owned Kiwipower. Zero-interest clean energy loans, fair solar export prices and community energy investment aim to cut bills and reduce big-generator market control. Kiwipower would be established as a Crown entity investing in renewable generation and firming capacity, paid for by the Super Rich Tax.
+> Affordable renewable power shifts household and community energy toward rooftop solar, Warmer Kiwi Homes and publicly owned Kiwipower. Zero-interest clean energy loans, fair solar export prices and community energy investment aim to cut bills and reduce big-generator market control. Kiwipower would be established as a Crown entity investing in renewable generation and firming capacity, including dry-year supply without an LNG terminal, paid for by the Super Rich Tax.
 
 System: Affordable renewable power for households and communities
 
@@ -58,4 +61,11 @@ And $200 million invested in community energy projects
 And $80 million invested in renewable energy for Māori housing
 And solar on more than half of all public homes within four years
 Outcome communities hold more control over energy
-Activates green-green-party-launches-plan-to-cut-power-bills-and-take-power-back-from-the-big-energy-companies
+
+Scenario: Dry-year firming is built without an LNG terminal
+Given four big power companies control over 85 percent of retail and generation markets
+And 200,000 households unable to afford to heat their homes
+When Kiwipower invests in new renewable generation and contracts dry-year firming
+Then firming is provided without an LNG terminal
+And independent generators and retailers can use that capacity
+Outcome dry-year risk is met by public renewable firming rather than imported gas

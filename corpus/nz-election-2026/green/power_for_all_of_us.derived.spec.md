@@ -9,6 +9,8 @@ jurisdiction: NZ
 sources:
   - title: For people and planet
     url: https://www.greens.org.nz/power_for_all_of_us
+  - title: Green Party launches plan to cut power bills and take power back from the big energy companies
+    url: https://www.greens.org.nz/green_party_launches_plan_to_cut_power_bills_and_take_power_back_from_the_big_energy_companies
   - title: Full Power Policy
     url: https://assets.nationbuilder.com/beachheroes/pages/74612/attachments/original/1784510079/The_Greens'_Full_Power_Policy.pdf
 tags:
@@ -31,7 +33,7 @@ sourceDigest: "sha256-753c929981bf1c73"
 
 # Our understanding
 
-> The policy and PDF state Kiwipower's $980 million envelope, $421.2 million for zero-interest loans, $969.8 million for Warmer Kiwi Homes, $460 million for public-housing solar, $200 million community energy and $80 million for Māori housing renewables. They do not say that Kiwipower competes with the big generators as a market actor, that the loans raise household debt, or that community and Māori housing renewables sum to $280 million.
+> Kiwipower enters the market as a Crown generator and firming buyer. Zero-interest loans still leave the household owing the principal. Community and Māori housing renewables are extra Crown spend, not the same loan path.
 
 System: Public generation, household loans and community renewables as one energy stack
 
@@ -66,3 +68,9 @@ And $460 million total capex for public housing solar
 And $969.8 million total opex for Warmer Kiwi Homes
 Outcome tenants and marae projects can cut bills without taking the homeowner loan path
 But the Crown still pays the full published envelopes
+
+Scenario: Dry-year firming substitutes for an LNG terminal
+When Kiwipower contracts firming instead of an LNG terminal
+Then the Crown builds renewable firming rather than locking in imported gas
+Outcome dry-year risk is met without a new fossil import path
+But the Crown still has to contract and pay for whatever firming mix it chooses

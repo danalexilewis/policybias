@@ -28,7 +28,7 @@ sourceDigest: "sha256-47fb856ec39bb0a0"
 
 # Our understanding
 
-> The policy states compulsory birth enrolment, a $1000 Crown contribution for citizens only, and that the balance compounds as a nest egg into adulthood. It does not estimate the fiscal cost, say how many births receive the grant each year, or describe early-access rules.
+> Every citizen newborn would receive a $1000 Crown kick-start, locked in KiwiSaver until adulthood, but the fiscal cost, annual birth count and early-access rules are missing.
 
 System: Birth KiwiSaver kick-start as a locked, citizen-gated stock
 
@@ -56,4 +56,4 @@ Given a $1000 contribution per eligible birth and no published fiscal cost
 When the policy runs for a full year of citizen births
 Then the Crown pays the kick-start for each qualifying birth
 Outcome every eligible new-born starts with the named balance
-But the annual outlay cannot be sized from this policy
+But the Crown still pays every qualifying birth without a published annual bill

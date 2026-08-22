@@ -26,7 +26,7 @@ sourceDigest: "sha256-66cd32358a546bf3"
 
 # Our understanding
 
-> The policy states free referred scans nationwide, today's cost of up to $90, a $28.6 million a year spend, and 24 trainee sonographers. It does not state that the trainee pipeline will clear the demand spike, or that the entitlement flexes when realisations dip.
+> Today's regional lottery on maternity scan fees becomes a nationwide free entitlement, but delivery turns on twenty-four paid trainee sonographers as the only named workforce expansion. Funding sits on capital gains ring-fenced to health, so receipts follow property sales while the entitlement calendar does not.
 
 System: Free maternity scans as a national entitlement on a thin workforce path
 
@@ -46,7 +46,7 @@ When referred scan demand rises because cost falls to zero
 Then workforce growth is capped at that trainee intake in the policy
 Output less than $3 million a year for the trainee positions
 Outcome capacity, not the Medicard load, is the binding constraint
-But completion rates and placement regions for trainees are unnamed
+But regions with slow trainee completion still leave pregnant people waiting for a slot
 
 Scenario: Ring-fenced capital gains fund the entitlement
 Given free maternity scans funded by a capital gains tax ring-fenced to health

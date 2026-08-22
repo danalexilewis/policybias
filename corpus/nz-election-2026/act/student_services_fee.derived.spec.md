@@ -28,7 +28,7 @@ sourceDigest: "sha256-ebcde03da21fe1cc"
 
 # Our understanding
 
-> The policy sells choice and loan relief. The same change ends the compulsory levy that currently funds student services: once the fee is a menu, universities lose guaranteed revenue from students who opt out, and the policy does not say how those services are then funded.
+> Choice and loan relief end the compulsory levy that currently funds student services. Once the fee is a menu, universities lose guaranteed revenue from students who opt out.
 
 System: Student services funded by choice instead of a levy
 
@@ -44,7 +44,7 @@ Given services from fitness facilities to students unions and student media are 
 When many students decline those items on the menu
 Then those services no longer receive a guaranteed contribution from every enrolled domestic student
 Outcome unchosen services remain available only on user-pays terms
-But the policy does not state how shortfalls in service budgets are met
+But service budgets shrink when students opt out of the menu
 
 Scenario: The taxpayer subsidy on student debt shrinks with smaller loans
 Given student loans are subsidised by the taxpayer

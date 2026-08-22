@@ -4,7 +4,7 @@ id: green-manifesto-2026-conservation-and-biodiversity-derived
 title: "Thirty percent protection read as a system: land and ocean closure with wetland restoration load"
 status: draft
 updated: 2026-08-21
-summary: Protecting 30% of land and oceans and restoring at least 30% of degraded wetlands is a spatial and restoration programme whose first sites, Jobs for Nature lift and overall conservation budget stay unnamed beyond the percentages.
+summary: Protecting 30% of land and oceans and restoring at least 30% of degraded wetlands is a spatial and restoration programme — first sites and conservation funding carry no dollar figure beyond the percentages.
 jurisdiction: NZ
 sources:
   - title: Conservation and Biodiversity
@@ -29,7 +29,7 @@ assumptions:
 
 # Our understanding
 
-> The policy protects 30% of land and oceans, restores at least 30% of degraded wetland area, bans new mining on conservation land, and expands Jobs for Nature. It does not name first sites or the dollar lift.
+> The policy protects 30% of land and oceans, restores at least 30% of degraded wetland area, bans new mining on conservation land, and expands Jobs for Nature. Someone has to pick the first sites and fund the work.
 
 System: Spatial protection and wetland restoration load
 
@@ -37,20 +37,20 @@ Scenario: Land and oceans move toward the protection target
 When conservation and wildlife laws are reformed to halt and reverse nature loss
 Then places counted toward the protection target face tighter use limits
 Output 30% of land and oceans protected
-Outcome native species and ecosystems gain statutory priority
-But which first hectares and waters are closed stays unnamed
+Outcome native species and ecosystems gain statutory priority as protection tightens
+But landowners and users on the first closed hectares lose current uses once sites are gazetted
 
 Scenario: Degraded wetlands are restored
 When all remaining natural wetlands are protected
 And a plan restores degraded wetland area
 Then restoration work and land-use change begin on chosen catchments
 Output at least 30% of degraded wetland area restored
-Outcome biodiversity recovery and community resilience are the named aims
-But which wetlands are prioritised first stays unnamed
+Outcome degraded wetlands start coming back in chosen catchments
+But landowners and councils carry restoration cost until funding is allocated
 
 Scenario: Mining stops on conservation land while Jobs for Nature expands
 When new mining is banned on conservation land including stewardship land
 And funding for Jobs for Nature – Mahi mō te Taiao is expanded
 Then new mines cannot open on that estate and regional nature jobs can grow
 Outcome corporate extraction on conservation land is closed
-But the Jobs for Nature and overall conservation funding lifts stay unquantified
+But the Crown takes on an open-ended bill for Jobs for Nature and wider conservation spend

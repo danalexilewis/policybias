@@ -4,7 +4,7 @@ id: green-manifesto-2026-disability-derived
 title: "Disability read as a system: a 75% Total Mobility subsidy beside income support without named levels"
 status: draft
 updated: 2026-08-21
-summary: The only printed figure is a 75% Total Mobility subsidy, while income support that meets all disability-related costs and a rights law with enforceable standards leave payment levels and enforcement capacity unnamed.
+summary: The only printed figure is a 75% Total Mobility subsidy, while income support that meets all disability-related costs and a rights law with enforceable standards leave payment levels and enforcement capacity open.
 jurisdiction: NZ
 sources:
   - title: Disability
@@ -29,7 +29,7 @@ sourceDigest: "sha256-b17ebae49ea4f711"
 
 # Our understanding
 
-> The policy keeps a 75% Total Mobility subsidy, promises income support that meets all disability-related costs, and introduces Te Tiriti-based disability rights law with enforceable accessibility standards. It does not name income levels, vehicle numbers, or how standards are enforced. We treat the subsidy as the only priced rail and the rest as entitlements whose fiscal size is open in the policy.
+> The policy keeps a 75% Total Mobility subsidy, promises income support that meets all disability-related costs, and introduces Te Tiriti-based disability rights law with enforceable accessibility standards. Income levels, vehicle numbers and enforcement detail are not attached.
 
 System: Priced mobility subsidy beside unpriced income and rights law
 
@@ -39,7 +39,7 @@ When a disabled person takes an eligible trip
 Then the subsidy covers most of the fare
 Output 75% subsidy for the Total Mobility taxi scheme
 Outcome getting around stays cheaper than the full fare
-But the policy does not say how many extra vehicles arrive or when
+But passengers still wait on enough vehicles turning up
 
 Scenario: Income support must meet all disability-related costs
 Given easily accessible and timely income support for all disability-related living and medical costs
@@ -47,11 +47,11 @@ And support regardless of relationship status and cause of disability
 When a disabled person claims that support
 Then living and medical costs tied to disability are meant to be covered in full
 Outcome relationship status no longer cuts the claim on this policy
-But payment levels are not stated, so the fiscal exposure is open-ended
+But the Crown takes on an open-ended bill with no payment ceiling
 
 Scenario: Supported decision-making replaces capacity assessments
 When legal capacity assessments give way to rights-based supported decision-making
 And a disability rights law with enforceable accessibility standards is introduced
 Then decisions about a person's life are framed as support rather than capacity tests
-Outcome autonomy is the named legal direction
-But who enforces accessibility standards, and with what penalties, is not in the policy
+Outcome decisions about a person's life are framed as support rather than capacity tests
+But builders and landlords face standards with no named enforcer or penalties yet

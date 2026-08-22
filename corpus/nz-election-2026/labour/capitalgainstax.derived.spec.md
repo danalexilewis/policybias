@@ -31,7 +31,7 @@ sourceDigest: "sha256-6bc4a73d82f33c05"
 
 # Our understanding
 
-> The policy and PDF state the rate, the trigger, the exemptions, the ring-fence, and a forecast averaging $700 million a year. They do not state that the tax defers under holding, that a year can come in well below that average, or that a standing commitment funded from realisations carries timing risk.
+> A tax charged only on sale defers while an asset is held, so owners choose when the Crown receives revenue. Property turnover is cyclical, yet the health commitment is standing and per-person — a year below the forecast average must be met from elsewhere or the service reduced.
 
 System: Capital gains tax on property as a revenue source for a standing health commitment
 

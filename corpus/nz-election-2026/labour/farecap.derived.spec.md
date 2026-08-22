@@ -29,7 +29,7 @@ sourceDigest: "sha256-0d9068c38ff16373"
 
 # Our understanding
 
-> The policy states the weekly caps, that further trips are free once the cap is reached, seven-day automatic tracking, and average savings. It does not publish the total fiscal cost, treat the averages as a personal guarantee, or name how tracking aligns across regional systems.
+> Once the weekly cap is hit, every further trip that week is free to the rider and the Crown meets the fare. Published averages are a mean across riders and routes, not a floor for any one person, and seven-day tracking only works if regional fare systems share a common window.
 
 System: Weekly fare cap as a standing subsidy
 
@@ -53,4 +53,4 @@ Scenario: Spending is tracked over a seven-day window
 When fare spending is tracked automatically over seven days
 Then the cap depends on that window lining up across regional systems
 Outcome further trips that week are free once the cap is reached
-But how the window aligns across unnamed regional fare systems is not stated
+But riders in misaligned regions may pay more before the cap kicks in

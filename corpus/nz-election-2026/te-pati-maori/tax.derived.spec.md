@@ -1,7 +1,7 @@
 ---
 type: spec
 id: te-pati-maori-tax-derived
-title: "Tax intention read as a system: an unnamed base and an unbounded claim"
+title: "Tax intention read as a system: a destination with no base or rate yet"
 status: draft
 updated: 2026-08-18
 summary: Without a base, rate or threshold, neither the revenue nor the people who would pay it can be identified, so the spending claim cannot be sized.
@@ -28,7 +28,7 @@ sourceDigest: "sha256-29c40b17ec990303"
 
 # Our understanding
 
-> The policy asserts an intention and a destination. Who counts as the wealthiest, which base, and at what rate are still unmade decisions.
+> Revenue from the wealthiest is meant to fund housing, health, education and whānau support—but nobody can tell yet who is assessed, or at what rate, because the base and threshold are unmade. The four spending destinations claim the same pool until someone splits it.
 
 System: What an unnamed tax base leaves undecided
 
@@ -38,7 +38,7 @@ And no threshold, base or rate
 When the policy is drafted
 Then a base and a threshold must be chosen before anyone can be assessed
 Outcome the people who would pay are unidentified until that choice is made
-But a voter cannot tell from this policy whether they are among them
+But no voter can tell yet whether they land in the assessed group
 
 Scenario: The revenue is claimed by four spending areas at once
 Given housing, health, education and whānau support all named as destinations
@@ -46,4 +46,4 @@ And no split between them
 When the revenue arrives
 Then the four claims must be reconciled against one pool
 Outcome the direction of travel is clear
-But no reader can tell what any one area receives
+But housing, health, education and whānau supporters cannot tell what share each receives

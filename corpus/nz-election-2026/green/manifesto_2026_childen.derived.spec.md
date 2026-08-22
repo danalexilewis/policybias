@@ -29,7 +29,7 @@ sourceDigest: "sha256-70b5a955d678c483"
 
 # Our understanding
 
-> The policy centres the child's voice in law, extends Best Start to every child under three, and amends the Oranga Tamariki Act for whānau and iwi or hapū authority. It prints no payment amount and no timetable. We treat Best Start as an unpriced universal claim, and OT Act reform as a real shift of decision rights rather than a consultation add-on.
+> The policy centres the child's voice in law, extends Best Start to every child under three, and amends the Oranga Tamariki Act so whānau and iwi or hapū hold real authority over care decisions. Best Start becomes a universal early-years payment. OT Act reform shifts who decides, not just who gets consulted.
 
 System: Child voice, unpriced Best Start, and whānau-led care law
 
@@ -38,20 +38,20 @@ Given Best Start increased and extended to every child under three as a universa
 And no payment amount in the policy
 When a child under three is in a household
 Then that child receives Best Start without a means test on this policy
-Outcome early-years income support widens
-But the dollar amount cannot be read from the policy
+Outcome every child under three can receive Best Start without a means test
+But the Crown takes on an open-ended bill — no payment rate is attached
 Activates green-manifesto-2026-gender-equity
 
 Scenario: The child's voice is written into legislation
 When legislation makes the child's voice central using the Child Impact Assessment Tool
 And the Rights of the Child are incorporated into legislation
 Then decisions that affect children must show that voice was weighed
-Outcome process rights expand for tamariki and rangatahi
-But how the tool is made consistent and fully incorporated is not specified in the policy
+Outcome decisions that affect children must show their voice was weighed
+But agencies must design and run the tool before children actually gain that voice
 
 Scenario: Oranga Tamariki Act reform embeds iwi or hapū authority
 When the Oranga Tamariki Act is amended to protect tamariki Māori
 And whānau participation and iwi or hapū authority are embedded
 Then care decisions for tamariki Māori must include that authority
-Outcome the care system shifts toward whakapapa-led decision rights
-But amendment detail beyond that embedding is not in the policy
+Outcome care decisions for tamariki Māori must include whānau and iwi or hapū authority
+But Parliament still has to write the amendment before those rights change on the ground

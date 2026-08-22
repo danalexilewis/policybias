@@ -27,7 +27,7 @@ sourceDigest: "sha256-f85cf88a49d77c09"
 
 # Our understanding
 
-> The policy frames designated doctors and payment cards as fairness and essentials. Two control points: who certifies health-related benefits, and what long-term Jobseeker money can buy. Making optional tools mandatory is the policy's own contrast; electronic money management is spend control.
+> Designated doctors and payment cards are two control points: who certifies health-related benefits, and what long-term Jobseeker money can buy. Making optional tools mandatory is the contrast; electronic money management is spend control.
 
 System: Welfare as certification gate and spend control
 

@@ -29,25 +29,25 @@ sourceDigest: "sha256-5b03cad4f84915da"
 
 # Our understanding
 
-> The policy states a renewable energy agency, a ban on new fossil extraction, an end to fossil subsidies, cancellation of the LNG terminal, and a single regulator with a Ministry for Energy. It prints no dollars. What those institutions imply stays unpriced.
+> A public energy agency is stood up to secure supply and lower prices. New fossil extraction ends and the LNG terminal is cancelled. Regulation merges into one body. Households and industry carry the cost if replacement capacity lags.
 
-System: Energy institutions and fossil exit without a published cost
+System: Public energy build and a fossil exit
 
 Scenario: A renewable energy agency is stood up
 When a renewable energy infrastructure agency is established to secure supply and lower prices
 Then a public body holds duties the market alone is said to have failed
 Outcome households and industry are meant to face more secure, cheaper power
-But the agency's budget, borrowing powers and build list are not on this policy
+But later Budgets have to fund the agency's build list, because none is attached
 Activates green-power-for-all-of-us
 
 Scenario: New fossil extraction ends and the LNG terminal is cancelled
 When new fossil fuel extraction is banned, fossil fuel subsidies end and the LNG terminal is cancelled
 Then those supply options leave the plan
 Outcome the system must lean harder on renewables, distributed solar and demand response
-But replacement capacity and any transition shortfall are uncosted here
+But households and industry carry the cost if replacement capacity lags
 
 Scenario: Regulation is gathered into one regulator and a Ministry for Energy
 When a single energy regulator and a Ministry for Energy are established
 Then oversight and policy sit in fewer Crown bodies with Te Tiriti-based community and Māori ownership frameworks
 Outcome equitable access and Māori leadership become statutory design goals
-But how existing regulators are wound down, and at what cost, is not stated
+But existing regulators and their staff carry wind-down cost until the merger is complete

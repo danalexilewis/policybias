@@ -26,7 +26,7 @@ sourceDigest: "sha256-8b9bd045e1513213"
 
 # Our understanding
 
-> The policy states $150,000 a year per prisoner, $9,000 per child in school, more court funding, and decriminalised possession. It does not guarantee sitting days, a health door, or the new youth age.
+> Holding a prisoner costs $150,000 a year against $9,000 per child in school, with more court funding and decriminalised possession — but sitting days, a health door and the new youth age are not guaranteed.
 
 System: Remand falls only if the court sits
 

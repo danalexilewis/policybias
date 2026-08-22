@@ -29,7 +29,7 @@ sourceDigest: "sha256-77c0e4e9da0936d8"
 
 # Our understanding
 
-> The policy states the $500 million dividend, the 30 GW by 2050, and that the dividend currently funds core Crown revenue. It does not cost the distributor mergers or say how many of the 30 GW land in the next term.
+> About $500 million a year of gentailer dividends would ring-fence into the energy plan against a 30 GW by 2050 target, diverting money that now funds core Crown revenue — but distributor mergers are uncosted and almost all gigawatts sit beyond this term.
 
 System: Gentailer dividends diverted, and a 2050 build
 

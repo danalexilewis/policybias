@@ -27,7 +27,7 @@ sourceDigest: "sha256-1f518a892b703df3"
 
 # Our understanding
 
-> The policy states 7.3 times wages, 3 times as affordable, and an 80,000-home shortage, and it says prices have to drop. It does not measure the capital loss for sitting owners, or the Crown's underwriting exposure if the bust arrives.
+> Housing at 7.3 times wages should move toward three times affordability with an 80,000-home shortage, and prices have to drop — but sitting owners' capital loss and the Crown's bust underwriting exposure go unmeasured.
 
 System: A price fall sitting owners must absorb
 
@@ -45,4 +45,4 @@ Given an 80,000-home shortage and a promise to underwrite reputable affordable d
 When a downturn hits during the boom
 Then the Crown is on the hook for the "bust" it offered to take out
 Outcome more homes can keep being built through the cycle
-But the cost of that underwrite is not in the policy
+But taxpayers carry whatever exposure the bust underwrite creates

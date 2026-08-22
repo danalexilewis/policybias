@@ -29,7 +29,7 @@ sourceDigest: "sha256-5f5bc6e07373b824"
 
 # Our understanding
 
-> The policy names visa-free Pacific travel, more climate aid, tangata moana leadership, an RSE replacement with residency pathways, and more SPREP and High Seas support. It does not name the country list, the aid dollars, or how many seasonal workers gain residence.
+> Visa-free Pacific travel, higher climate aid, tangata moana leadership, an RSE replacement with residency pathways, and more SPREP and High Seas support are promised. Country lists, aid dollars and how many seasonal workers may settle carry no figures.
 
 System: Pacific access and an unpriced seasonal pathway
 
@@ -37,16 +37,16 @@ Scenario: A Pacific visitor arrives without a visa
 When visa-free travel is extended to visitors from Pacific Islands
 Then arrival no longer depends on a visa grant for those countries
 Outcome more short-stay movement is possible
-But without a printed country list or conditions, the gate is unnamed
+But border officials still need a country list and entry rules before anyone boards
 
 Scenario: Seasonal work is no longer tied to one employer
 When the Recognised Seasonal Employer Scheme is replaced with fair wages, housing, open work rights and residency pathways
 Then a seasonal worker can leave an employer without losing the right to work
 Outcome the labour shortage can still be filled
-But residency pathways turn a seasonal inflow into a settlement path the policy does not size
+But communities and councils absorb settlers from a seasonal flow no one has capped
 
 Scenario: Climate aid is restored without a figure
 When international climate aid funding is restored and increased
 Then Pacific climate negotiations receive more support than today
 Outcome solidarity is the named direction
-But the transfer cannot be compared with other aid without a printed amount
+But Pacific partners wait on Treasury for a dollar line before comparing aid packages

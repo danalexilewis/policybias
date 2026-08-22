@@ -29,29 +29,29 @@ sourceDigest: "sha256-239f5c3f950c1468"
 
 # Our understanding
 
-> The policy states liveable benefits, welfare reform and a 2.5% tax on net wealth over $10 million as the way to pay for a decent income. It does not say that the wealth tax is the funder of a standing claim, or that valuation is missing before anyone can be assessed.
+> Benefits rise to liveable rates, sanctions end, and a 2.5% tax on net wealth over $10 million is meant to pay for the package. That tax is the named funder of a standing yearly bill. Assets still need a valuation rule before anyone can be assessed.
 
 System: Liveable benefits funded by a wealth tax
 
 Scenario: Benefits rise to liveable rates while sanctions end
 When benefits increase to liveable rates and sanctions are abolished
 Then the Crown owes a higher ongoing transfer to people on support
-Outcome households on benefits can meet more of the basics from the grant itself
-But the yearly cost is a standing claim, and this policy does not size it
+Outcome people on support can cover more essentials from the benefit itself
+But the Crown takes on an open-ended annual bill once rates rise and sanctions end
 
 Scenario: The wealth tax is treated as the funder
 Given a 2.5% tax on net wealth over $10 million
 When liveable incomes and welfare reform are paid for by making the wealthy few pay their fair share
 Then the revenue claim sits on that wealth base
 Output 2.5% tax on net wealth over $10 million
-Outcome the spending path depends on collecting that tax
-But this policy does not publish how much the tax raises
+Outcome liveable benefits ride on wealth-tax revenue
+But households above $10 million cannot be taxed until Treasury models the yield
 
 Scenario: Net wealth must be valued before assessment
 Given a tax on net wealth over $10 million
 And no valuation method on this policy
 When the tax is drafted for collection
 Then assets must be valued before anyone can be assessed
-Outcome multimillionaires cannot be billed until that method exists
-But a voter cannot tell from this policy how their assets would be counted
+Outcome no one above $10 million gets a bill until assets can be valued
+But wealthy households still face unknown treatment of homes, businesses and trusts
 Activates green-tax-system-for-all

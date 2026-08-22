@@ -29,7 +29,7 @@ sourceDigest: "sha256-cf145c74128adc18"
 
 # Our understanding
 
-> The policy states the counts, the powers and the carve-out. It does not state the transition cost, and it argues the opposite on advice: chief executives "retain public service protections". A removal power for policy misalignment prices advice regardless. The policy publishes no saving and no cost figure.
+> The counts, powers and carve-out are published. Transition cost carries no price tag, and a removal power for policy misalignment prices advice regardless of statutory protections. No saving and no cost figure are published.
 
 System: Consolidation as a transition with a price on advice
 

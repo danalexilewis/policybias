@@ -27,7 +27,7 @@ sourceDigest: "sha256-148e14dadbe5c5d9"
 
 # Our understanding
 
-> The policy frames access and unused pharmacist skill. The widened treatment list is GP substitution for common conditions when the pharmacy can close the case, and the ownership-cap removal allows chains to expand. Chronic monitoring stays under GP-set limits; the policy does not say how many appointments move.
+> Wider pharmacist treatment lists shift common conditions off GP queues, and removing the five-pharmacy ownership cap lets chains expand where proximity rules once blocked them. Chronic monitoring stays under GP-set limits; how many appointments move carries no count.
 
 System: Community pharmacy as first contact and ownership without the five-pharmacy cap
 
@@ -44,7 +44,7 @@ Given barriers preventing new pharmacies from opening include the five-pharmacy 
 When those barriers are removed while licensing red tape is cut
 Then an owner who already holds several pharmacies may open more without the five-pharmacy limit
 Outcome chains can expand into sites proximity rules once blocked
-But the policy does not address how concentration affects local competition
+But shoppers in thin markets may face fewer independent pharmacies as chains expand
 
 Scenario: Stable chronic disease is monitored at the pharmacy
 Given New Zealand has more than a thousand community pharmacies staffed by qualified health professionals whose skills are not fully used

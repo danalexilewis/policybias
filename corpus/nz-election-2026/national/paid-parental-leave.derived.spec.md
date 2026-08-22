@@ -30,7 +30,7 @@ sourceDigest: "sha256-2933f6dbec2d7033"
 
 # Our understanding
 
-> The policy extends leave in week steps, allows shared use, and costs the package. It does not print a weekly payment rate, and it treats shared leave as flexibility over the same entitlement rather than more cover. We disagree that "more time" alone settles what a household can live on without a stated weekly income.
+> Leave length rises in Budget steps while the weekly dollar rate stays unpublished, so more calendar time is granted without a stated weekly income. Shared leave lets both parents draw at once, but the entitlement per child stays one pool of weeks.
 
 System: Paid parental leave as more weeks without a stated weekly income
 
@@ -43,7 +43,7 @@ Output 30 weeks paid parental leave
 And 27 weeks from the first Budget step
 And 28 weeks from the second
 Outcome more calendar time at home is granted in steps
-But weekly household income while on leave cannot be read from the policy
+But households budget on weeks alone until a weekly rate is published
 
 Scenario: Both parents take leave at the same time
 Given a combined right to 30 weeks of paid parental leave per child

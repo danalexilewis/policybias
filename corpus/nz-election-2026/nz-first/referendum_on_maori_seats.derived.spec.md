@@ -27,7 +27,7 @@ assumptions:
 
 # Our understanding
 
-> The policy states twenty-seven percent of the House has a Māori background, Māori are often claimed as seventeen percent of the population, enrolment on the Māori roll sits at half of all enrolled Māori, and a referendum after the next election would let the public decide if the seats are still needed. It does not state the question or whether the result binds. So the referendum may not change seats.
+> A referendum after the next election would let the public decide whether the Māori seats remain needed, framed by 27% of the House with Māori background against a claimed 17% of population and half of enrolled Māori on the Māori roll. Without question wording or binding force, the vote may not change the seats.
 
 System: Referendum without a settled question or bind
 

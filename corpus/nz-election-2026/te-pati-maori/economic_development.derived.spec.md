@@ -27,7 +27,7 @@ sourceDigest: "sha256-fbbbfd4a0f0c6987"
 
 # Our understanding
 
-> The policy builds Māori-led institutions and funds, supports trade and innovation for Māori wealth, and protects Māori data through data sovereignty. Fund size and data rules stay unnamed.
+> Māori-led institutions and funds would steer enterprise, and data sovereignty would govern who may hold Māori knowledge—but capitalisation, mandate and board membership are still open. Grants, loans or equity each land differently on the Budget; access, storage and consent rules must exist before collectors are bound.
 
 System: Funds and data sovereignty without named capital or rules
 
@@ -37,7 +37,7 @@ And no named institutions or fund sizes
 When Māori-led institutions and funds are built
 Then capitalisation, mandate and who sits on the board must still be chosen
 Outcome Māori enterprise can grow if capital arrives
-But unnamed fund size leaves reach undecided
+But until capital is set, Māori enterprise cannot tell how far the funds reach
 
 Scenario: Trade, innovation and long-term Māori wealth building are supported
 Given support for trade and innovation as a path to wealth
@@ -45,7 +45,7 @@ And no instrument or budget
 When support is offered
 Then grants, loans, equity or preference must be picked
 Outcome wealth building is the named destination
-But without an instrument the support cannot be scored
+But until someone picks grants, loans or equity, officials cannot score the support
 
 Scenario: Māori data and knowledge are protected through data sovereignty
 Given an intention to protect Māori data and knowledge

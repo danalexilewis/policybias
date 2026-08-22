@@ -28,7 +28,7 @@ sourceDigest: "sha256-f9872f1407506d8e"
 
 # Our understanding
 
-> The policy frames the Rural Workforce Visa as cutting bureaucracy and avoiding geographic borders. The tie: workers may move between accredited rural employers, but not into non-rural sectors, so mobility is limited by accreditation rather than a regional fence. Certainty for farms and a residence clock after seventy-two months are published; the mobility trade-off is not.
+> The Rural Workforce Visa cuts bureaucracy and avoids geographic borders, but workers may move only between accredited rural employers, not into non-rural sectors — mobility is limited by accreditation rather than a regional fence. Certainty for farms and a residence clock after seventy-two months are published; the mobility trade-off is the tie.
 
 System: Rural Workforce Visa as tied labour with a residence clock
 

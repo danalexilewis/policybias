@@ -27,7 +27,7 @@ sourceDigest: "sha256-4adb6d9d6c8657ff"
 
 # Our understanding
 
-> The policy names an independently governed fund seeded with Crown assets and an initial capital contribution, separate from the Super Fund. It does not name the seed amount or the asset list. Independence is governance, not a published size, and Super Fund figures in the policy are context.
+> An independently governed fund seeded with Crown assets is a wrapper until seed amount and asset list are named. Independence from ministerial direction is a governance rule, not a measure of scale, and Super Fund figures in the material are comparative context rather than this fund's budget.
 
 System: Future Fund as a wrapper without a stated seed
 
@@ -35,7 +35,7 @@ Scenario: The fund is created without a published seed
 When the Future Fund is established
 Then the seed amount and the seeded asset list remain unnamed
 Outcome the fund is a wrapper until those are named
-But its scale cannot be checked from the policy
+But taxpayers cannot size the commitment until seed and assets are named
 
 Scenario: Independence from the Minister is set in governance
 When the Guardians govern the Fund and the Minister cannot direct individual investments

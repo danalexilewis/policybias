@@ -3,12 +3,14 @@ type: spec
 id: te-pati-maori-kai-sovereignty
 title: "Māori Kai Sovereignty Board and GST-free kai"
 status: draft
-updated: 2026-08-21
+updated: 2026-08-22
 summary: Establish a Māori Kai Sovereignty Board, invest in māra kai and regenerative agriculture, support Māori supermarkets, and remove GST from kai while regulating price hikes.
 jurisdiction: NZ
 sources:
   - title: Kai Sovereignty
     url: https://www.maoriparty.org.nz/kai_sovereignty
+  - title: Kai Sovereignty
+    url: https://www.maoriparty.org.nz/kai_sovereignt
 tags:
   - agriculture
   - taxation
@@ -46,3 +48,11 @@ And corporate control is broken by supporting Māori-owned supermarkets and prot
 And grocery costs are reduced, including removing GST from kai and regulating supermarket price hikes
 And access to land for food production is increased
 Outcome kai is affordable, healthy and connected to whenua and whakapapa
+
+Scenario: Māori food systems are protected
+Given Aotearoa grows enough kai but whānau still go hungry
+When Māori food systems are protected, including seed sovereignty, rejecting GE foods and upholding WAI262
+Then community food systems and regenerative Māori agriculture are invested in
+And corporate control is broken by supporting Māori-owned supermarkets and protecting local kai sellers
+And access to land for food production is increased
+Outcome affordable healthy kai connected to whenua, whakapapa and Māori control

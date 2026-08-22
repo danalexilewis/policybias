@@ -26,9 +26,9 @@ assumptions:
   - no fiscal cost appears on the page, so none is invented here
 ---
 
-# Our reading
+# Our understanding
 
-> This is our systems reading of the source page, not the published claim. The page ties local enterprise to Buy Kiwi Made, department procurement, ICT grants, regional development and competition reform after the highest liquidations in almost 15 years. It does not set a procurement share, name grant sizes, or cost the agency uplift. Those readings are ours. We invent no dollar figures.
+> The policy ties local enterprise to Buy Kiwi Made, department procurement, ICT grants, regional development and competition reform. It sets no procurement share, names no grant sizes, and prints no agency uplift cost.
 
 System: Local preference and competition without binding floors
 
@@ -37,7 +37,7 @@ Given local suppliers squeezed while large corporates send profits offshore
 When government departments commit to buying more goods and services from Aotearoa businesses
 Then local firms gain a larger share of public demand only if the commitment binds buyers
 Outcome wealth can stay in local communities when procurement actually shifts
-But without a quantified share or mandatory rule, buy-more can remain guidance
+But buyers can still treat buy-more as guidance unless a share or rule binds them
 
 Scenario: Buy Kiwi Made and country-of-origin labelling expand
 When Buy Kiwi Made is revitalised and country-of-origin labelling expands
@@ -49,4 +49,4 @@ Scenario: Competition agencies get more power to investigate
 When competition laws reform and regulatory agencies gain resources and powers against anti-competitive practice
 Then small firms and consumers can bring stronger cases against concentrated players such as the supermarket duopoly
 Outcome the playing field can tilt toward smaller businesses if investigations actually run
-But the page names no resource figure, so the enforcement lift is unmeasured
+But the Commerce Commission still has to staff and fund every investigation it runs

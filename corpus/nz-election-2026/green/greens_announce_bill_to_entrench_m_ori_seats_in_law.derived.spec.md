@@ -28,7 +28,7 @@ sourceDigest: "sha256-ef1ff4478c32e350"
 
 # Our understanding
 
-> The policy announces a member's bill to entrench Māori seats so they need 75% of MPs to change, matching general electorate seats, and to let Māori switch rolls at any time including for local elections. It does not print the bill text or a commencement date. We treat entrenchment as raising the repeal threshold, and introduction as not yet law.
+> The policy announces a member's bill to entrench Māori seats so they need 75% of MPs to change, matching general electorate seats, and to let Māori switch rolls at any time including for local elections. Entrenchment raises the repeal threshold; introduction is not yet law.
 
 System: Higher repeal threshold and open roll switching
 

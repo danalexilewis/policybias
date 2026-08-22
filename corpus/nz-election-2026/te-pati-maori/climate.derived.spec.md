@@ -29,7 +29,7 @@ sourceDigest: "sha256-7bdfc420622bbf39"
 
 # Our understanding
 
-> The policy protects whenua and moana from extractives including seabed mining, invests in resilience for communities most at risk, and backs regenerative approaches. The instruments stay unnamed, and so does the resilience spend.
+> Whenua and moana would be protected from extractives including seabed mining, but resilience spend for communities most at risk has no programme list or dollar figure. Regenerative approaches need standards and funding before they displace extractive industries—and oil, gas, coal and other takes beyond mining are not settled here.
 
 System: Extractives line with resilience unpriced
 
@@ -38,7 +38,7 @@ Given whenua, awa, moana and whakapapa treated as inheritance not sacrifice
 When protection including a seabed mining ban is applied
 Then which other extractive activities are in or out must still be listed
 Outcome mining of the seabed is the named hard stop
-But the wider extractives perimeter is not settled on this policy
+But farmers and extractors cannot tell which activities beyond seabed mining are in or out
 
 Scenario: Climate resilience is invested in for communities most at risk
 Given an intention to invest in resilience for those most at risk
@@ -46,7 +46,7 @@ And no definition of who that is and no spend figure
 When resilience money is sought
 Then place, hazard and people must be chosen before a dollar can land
 Outcome at-risk communities are the named priority
-But unnamed spend leaves adaptation scale unread
+But coastal and remote whānau cannot tell how much adaptation money reaches them
 
 Scenario: Regenerative approaches aligned with Māori values are backed
 Given regenerative and sustainable approaches as the alternative path
@@ -54,4 +54,4 @@ And no programmes or standards
 When backing is offered
 Then what qualifies and who pays must still be decided
 Outcome Māori values steer the named path
-But without spend or rules, backing is a label
+But farmers cannot tell what qualifies as regenerative or who pays

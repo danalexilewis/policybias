@@ -27,7 +27,7 @@ sourceDigest: "sha256-e077eb9749eb2def"
 
 # Our understanding
 
-> The policy criminalises coercive companion-animal abuse, strengthens Protection Orders, and gives Police removal authority. It presents those as one package. The seven-year offence and the Order-and-removal pathway are two mechanisms: one punishes, the other keeps the pet out of the abuser's hands.
+> Coercive companion-animal abuse is criminalised, Protection Orders are strengthened, and Police gain removal authority. The seven-year offence and the order-and-removal pathway are two mechanisms: one punishes, the other keeps the pet out of the abuser's hands.
 
 System: Criminal penalty and civil protection for pets used as coercion
 

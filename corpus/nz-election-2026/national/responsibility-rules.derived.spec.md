@@ -28,7 +28,7 @@ sourceDigest: "sha256-b7fb6b4cafc519ae"
 
 # Our understanding
 
-> The policy states three rules, surplus by spending restraint, and a debt curve that bends down over time. It does not say that the path to thirty per cent of GDP is programme cuts, or that forty per cent is a path rather than a cap that binds this term.
+> Surplus by spending restraint rather than new taxes means the path to thirty per cent of GDP runs through programme cuts and reprioritisation. Debt bent below forty per cent is a long-term path, so near-term spending can sit above that share while the rules hold, and this term can finish with debt still above forty.
 
 System: Fiscal rules as spending restraint with a debt path, not a term cap
 

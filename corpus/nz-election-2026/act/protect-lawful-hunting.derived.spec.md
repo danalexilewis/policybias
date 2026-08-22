@@ -28,7 +28,7 @@ assumptions:
 
 # Our understanding
 
-> The policy creates infringement offences for deliberately standing in a lawful hunter's line of fire and for using drones or helicopters to harass game-bird shooters. It does not state fine amounts, evidence standards, or how aircraft harassment is detected.
+> Infringement offences cover deliberately standing in a lawful hunter's line of fire and using drones or helicopters to harass game-bird shooters. Fine amounts, evidence standards and how aircraft harassment is detected carry no detail.
 
 System: Infringement for safety-risk interference, not for opposition
 
@@ -37,7 +37,7 @@ Given hunters acting safely and within the law can be deliberately obstructed by
 When deliberately standing in the line of fire of a lawful hunter becomes an infringement offence
 Then that conduct carries a specific legal consequence
 Outcome hunters expected to follow strict safety rules are not undermined by deliberate obstruction
-But without a stated fine or evidence rule, how hard the offence bites stays unknown
+But hunters gain little deterrence until fines and proof standards are set
 
 Scenario: Drones or helicopters are used to harass a game-bird shoot
 Given drones or helicopters can be used to harass game-bird shooters by scattering or flushing birds with little legal remedy

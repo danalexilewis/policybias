@@ -26,9 +26,9 @@ assumptions:
   - no fiscal cost appears on the page, so none is invented here
 ---
 
-# Our reading
+# Our understanding
 
-> This is our systems reading of the source page, not the published claim. The page creates a Commissioner for Animals and independent ministry, resources NAWAC for stronger farmed-animal codes, phases out factory farming and related practices, aligns imports to local standards, and extends the live-export ban. It states no commissioner budget, phase-out dates, or import enforcement detail. Those readings are ours. We invent no dollar figures.
+> A Commissioner for Animals and an independent ministry would watch farmed-animal codes. Factory farming phases out. Imports have to match local standards. Farmers and importers carry the change; the Crown carries the new offices.
 
 System: Animal welfare offices and phase-outs without dates
 
@@ -37,13 +37,13 @@ Given farmed animals suffering because standards meant to protect them are not u
 When a Commissioner for Animals independently monitors and advocates and an independent ministry is created
 Then animal welfare has a dedicated advocate and department outside industry capture
 Outcome cruelty claims have a clearer institutional home
-But without stated powers and budget, the offices are named rather than equipped
+But the Crown still has to fund staff and powers before the offices can act
 
 Scenario: Factory farming and related practices phase out
 When debeaking, intensive winter grazing, factory farming, octopus farming, farrowing crates and rodeos are phased out
 Then those practices end as lawful production methods over time
-Outcome animals leave the systems the page calls harmful
-But without a timetable, the phase-out can stretch indefinitely
+Outcome animals leave the systems the policy calls harmful
+But farmers keep running those systems until a later decision sets the end date
 
 Scenario: Imports must meet Aotearoa welfare standards
 When imported products including cosmetics must meet Aotearoa animal welfare standards

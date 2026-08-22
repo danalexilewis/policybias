@@ -26,7 +26,7 @@ sourceDigest: "sha256-72f01fd6a271bce8"
 
 # Our understanding
 
-> The policy states the $5 fee comes off, costs $74.5 million a year, and is funded from capital gains tax revenue ring-fenced to health. It does not state that the entitlement flexes when realisations dip, or that the 155,000 non-collection figure is a target.
+> Removing the prescription fee creates a standing $74.5 million annual entitlement, ring-fenced to cyclical capital gains receipts that follow property sales rather than the health calendar. The 155,000 who skipped medicine last year is context, not a delivery target for uptake once the fee is gone.
 
 System: Free prescriptions as a standing spend on cyclical health revenue
 
@@ -37,7 +37,7 @@ Then prescriptions stay free as a standing entitlement
 Output $5 prescription fee removed
 And $74.5 million a year estimated cost
 Outcome every entitled person keeps the free medicine path
-But the policy does not say the spend flexes if revenue falls
+But the Crown or patients meet the shortfall when realisations dip in a given year
 Activates labour-medicard
 
 Scenario: Capital gains receipts fund health while realisations dip
@@ -46,7 +46,7 @@ When property realisations fall in a year
 Then the annual cost still stands as printed
 Output $74.5 million a year estimated cost
 Outcome the entitlement is not written as contingent on that year's sales
-But patients and the Crown share a timing mismatch the policy does not price
+But patients and the Crown share a timing mismatch when sales slow and the entitlement does not
 Activates labour-medicard
 
 Scenario: Non-collection is read as context
@@ -54,4 +54,4 @@ Given 155,000 New Zealanders did not collect prescribed medicine because of cost
 When free prescriptions begin
 Then that figure is a baseline, not a delivery target
 Outcome uptake may rise, fall, or stay put without the policy naming a goal
-But the policy offers no target for how many of those 155,000 will collect
+But the Crown carries the bill whether uptake rises, falls, or stays put

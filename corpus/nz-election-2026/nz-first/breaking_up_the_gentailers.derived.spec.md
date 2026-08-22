@@ -27,7 +27,7 @@ sourceDigest: "sha256-9c944c2c3a7d8d81"
 
 # Our understanding
 
-> The policy states a split of generators and retailers, almost 90% control by the big four, a promise to replace pricing so firms cannot hold back supply, and solar export at the retail price paid. It does not specify the replacement pricing rule or who funds the retail-price buy-back.
+> Generators and retailers would split, solar exporters would be paid the retail price, and pricing would change so firms cannot hold back supply — but the replacement rule and who funds the retail-price buy-back are unspecified against almost 90% generation control by the big four.
 
 System: Structural split and a retail-price solar transfer
 
@@ -43,11 +43,11 @@ Given the big four power companies control almost 90% of electricity generation 
 When those companies are split into generators and retailers
 Then generation and retail can no longer sit in the same firm
 Outcome innovative and low-cost retailers face a less closed wholesale path
-But which assets each successor holds, and at what price, is not stated
+But investors and customers still face unknown asset splits and transfer prices
 
 Scenario: Marginal-cost pricing is replaced without a named formula
 Given the most expensive generator sets the price for all electricity under the current system
 When the current system is replaced so companies cannot hold back supply just to drive prices higher
 Then a new pricing rule must be chosen before offers clear
 Outcome firms lose the ability to withhold for price under the stated constraint
-But household and business price paths cannot be read without the replacement rule
+But bill-payers carry whatever the new pricing rule delivers, before anyone has seen it

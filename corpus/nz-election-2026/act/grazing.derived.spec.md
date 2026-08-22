@@ -28,7 +28,7 @@ assumptions:
 
 # Our understanding
 
-> The policy amends the Conservation Act so DOC can issue grazing licences where grazing supports vegetation management, with an ecological framework and practical licence conditions. It names the wilding scale and the fire-fuel problem. It does not detail the framework's tests, stocking limits or how many hectares would be licensed.
+> Conservation Act licences let controlled grazing suppress wildings and fuel loads, but the ecological framework that decides where grazing is appropriate is named without its tests, stocking detail or hectare scope.
 
 System: Targeted grazing whose gate is an unnamed framework
 
@@ -45,11 +45,11 @@ Scenario: The ecological framework decides where grazing is appropriate
 When a clear ecological framework identifies where grazing is appropriate to suppress conifer seedlings and other invasive vegetation while reducing wildfire fuel loads
 Then areas that fail the framework stay closed to stock
 Outcome fuel loads that contribute to devastating wildfires can fall where grazing is allowed
-But until the framework's tests are published, "clear" is a promise rather than a checklist farmers or conservationists can audit
+But farmers and conservationists cannot tell which hectares qualify until DOC publishes the tests
 
 Scenario: A licence sets stocking and recognises virtual fencing
 When grazing licences specify appropriate stocking types, rates and duration
 And virtual fencing systems are recognised as a compliant method of stock exclusion on DOC land
 Then exclusion can be enforced without physical fence lines on every boundary
 Outcome land can be managed under licence conditions without burying farmers in unnecessary process
-But overstocking or duration beyond what the unnamed framework allows still damages the conservation objective the licence was meant to serve
+But overstocking or staying too long still damages the conservation objective the licence was meant to serve

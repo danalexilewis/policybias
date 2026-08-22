@@ -28,7 +28,7 @@ sourceDigest: "sha256-27241b37ad215189"
 
 # Our understanding
 
-> The policy states sortition, a stipend, 6 to 12 months, $10 to $15 million, and a Commissioner to advocate. It does not give that Commissioner a vote, a veto, or a statutory duty on ministers to implement.
+> Sortition, a stipend, six to twelve months of deliberation, $10 to $15 million and a Commissioner to advocate — but no vote, veto or statutory duty on ministers to implement.
 
 System: Advice that still needs votes
 
@@ -37,5 +37,5 @@ Given recommendations that need political heft so they are not ignored
 When the Commissioner tables the report
 Then MPs may still prefer their base, their lobbyists, or a coalition deal
 Outcome the assembly has done the slow work
-But the law does not change unless votes follow
+But MPs can still ignore the assembly unless they choose to vote it through
 Activates opportunity-clean-up-politics

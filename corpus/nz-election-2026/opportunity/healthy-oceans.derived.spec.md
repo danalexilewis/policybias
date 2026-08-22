@@ -28,7 +28,7 @@ sourceDigest: "sha256-aeee33902a089ae3"
 
 # Our understanding
 
-> The policy states 30% by 2035, a 14% catch cut to protect 86% of threatened species, 60% of quota in three companies, and that Māori commercial fishing will be affected. It does not keep settlement quota whole, or name the first closures.
+> Thirty percent marine reserves by 2035, a 14% catch cut to protect 86% of threatened species, 60% of quota in three companies, with Māori commercial fishing affected — but settlement quota is not held whole and the first closures are unlisted.
 
 System: A catch cut that still hits the settlement
 

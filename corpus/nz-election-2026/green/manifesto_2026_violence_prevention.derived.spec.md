@@ -28,7 +28,7 @@ sourceDigest: "sha256-708ca1ada7f39234"
 
 # Our understanding
 
-> The policy funds Te Aorerekura, resources kaupapa Māori and community-led family and sexual violence solutions, criminalises coercive control, and restores relationship education guidelines. It prints no budgets. We treat the strategy fund as unpriced, and the Crimes Act change as the same mechanism also named under gender equity.
+> The policy funds Te Aorerekura, resources kaupapa Māori and community-led family and sexual violence solutions, criminalises coercive control, and restores relationship education guidelines. The strategy fund carries no printed budget; the Crimes Act change is the same mechanism also named under gender equity.
 
 System: Strategy funding and coercive-control law without a priced service rail
 
@@ -37,7 +37,7 @@ When the Te Aorerekura action plan is funded centred on Te Tiriti
 And kaupapa Māori and community-led family and sexual violence solutions are resourced
 Then the national strategy and community solutions are meant to be paid for
 Outcome prevention and response sit under a named national plan
-But the funding level is not stated, so the scale of delivery is open
+But front-line services still depend on a Budget line the policy never sizes
 Activates green-manifesto-2026-gender-equity
 
 Scenario: Coercive control is criminalised
@@ -45,11 +45,11 @@ When the Crimes Act is amended to criminalise coercive control
 And consent is amended including precluding reluctant consent
 Then new criminal pathways exist for patterns of control and for consent disputes
 Outcome survivors can use a clearer offence and consent rule
-But counselling and front-line capacity still depend on funding increases the policy does not size
+But refuges and counsellors still need funding the policy never prints
 Activates green-manifesto-2026-justice-and-community-safety
 
 Scenario: Relationship and sexuality education guidelines are restored in all schools
 When relationship and sexuality education guidelines on healthy relationships and consent are restored in all schools
 Then every school is meant to teach affirmative consent and healthy relationships again
 Outcome prevention shifts partly into the classroom
-But workforce training for violence response remains unquantified in the policy
+But schools still have to train teachers to deliver the restored guidelines

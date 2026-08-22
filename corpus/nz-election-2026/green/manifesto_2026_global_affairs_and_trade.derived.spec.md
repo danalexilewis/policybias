@@ -27,24 +27,24 @@ sourceDigest: "sha256-ce84565c7c4972e6"
 
 # Our understanding
 
-> The policy states an independent foreign policy, a defence refocus, declining AUKUS and leaving Five Eyes, Palestine recognition, and Trade For All standards. It does not size the defence shift or name how Trade For All is enforced.
+> Foreign policy is framed as independent: defence shifts toward climate and humanitarian work, AUKUS is declined and Five Eyes is left, Palestine is recognised, and Trade For All adds treaty, labour, human rights and climate tests to trade deals. Defence refocus and Trade For All enforcement carry no dollar figure and no named gatekeeper.
 
 System: Alliance exit and unenforced trade standards
 
 Scenario: Intelligence and alliance arrangements end
 When military and security frameworks decouple including declining AUKUS and withdrawing from Five Eyes
 Then those arrangements no longer apply
-Outcome Aotearoa is not a member of AUKUS or Five Eyes
-But the policy does not name a replacement intelligence arrangement
+Outcome Aotearoa sits outside AUKUS and Five Eyes
+But intelligence sharing falls back to whatever bilateral deals diplomats strike next
 
 Scenario: Defence is retasked without a printed budget
 When defence policy focuses on climate responses, humanitarian response and environmental monitoring
 Then force design is meant to follow those tasks
-Outcome climate and disaster response is the named priority
-But ships, people and money still have to be found; the policy does not reallocate a figure
+Outcome defence planning turns toward climate and humanitarian tasks
+But crews, vessels and operating money still have to come from existing defence budgets
 
 Scenario: Trade agreements must meet extra tests
 When the Trade For All agenda enforces Te Tiriti, workers' rights, human rights and climate commitments in trade agreements
 Then a deal that fails those tests is meant not to proceed
-Outcome trade is conditional on those standards
-But without a named enforcement body, the condition is a policy instruction rather than a working gate
+Outcome future deals are meant to meet treaty, labour, rights and climate tests
+But negotiators still decide when a deal fails those tests unless Parliament names an enforcer

@@ -28,7 +28,7 @@ sourceDigest: "sha256-a9b5c4aa45f6a2e0"
 
 # Our understanding
 
-> The policy states the annual grant, the three-year window, the first-three-children limit, citizen-parent eligibility, and a $400 million third-year cost. It does not say what a fourth child receives, estimate how many extra births the grant produces, or show how the cost path changes if births rise.
+> The Kiwi Kids Grant pays $5000 a year for three years on the first three children only, for citizen parents, with a $400 million third-year cost — but a fourth child receives nothing and no birth-rate response is estimated.
 
 System: Kiwi Kids Grant as a capped, time-limited transfer
 
@@ -49,7 +49,7 @@ And no estimate of how many extra births the grant produces
 When the grant is introduced to encourage more children
 Then the cost of raising the first three children falls for eligible parents
 Outcome the barrier of cost is lowered for those who qualify
-But whether the birthrate rises, and by how much, cannot be read from this policy
+But taxpayers still fund the grant without knowing if births actually rise
 
 Scenario: A household where neither parent is a New Zealand citizen
 Given one parent must be a New Zealand citizen to be eligible

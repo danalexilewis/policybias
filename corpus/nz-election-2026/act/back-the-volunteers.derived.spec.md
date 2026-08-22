@@ -28,7 +28,7 @@ assumptions:
 
 # Our understanding
 
-> The policy puts community groups first for DOC backcountry upkeep, allows multi-year contracts, and opens nature credits to accredited hunting groups. It states the hut, track, shortfall and closure figures. It does not define competitive funding, price the credit, or name the credit unit.
+> Community groups get first opportunity for DOC backcountry upkeep, multi-year contracts replace annual grants, and nature credits open to accredited hunting groups. Hut, track, shortfall and closure figures are published; competitive funding, credit pricing and the credit unit stay undefined.
 
 System: First-call upkeep funding and a nature credit without a unit
 

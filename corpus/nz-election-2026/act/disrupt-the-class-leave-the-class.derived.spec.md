@@ -28,7 +28,7 @@ sourceDigest: "sha256-0de4f3c8a8f3ab84"
 
 # Our understanding
 
-> The policy gives teachers an explicit removal power and keeps removed students supervised. That supervision is an unnamed cost: pastoral offices, dean's rooms and learning support rooms only work if staff are there. Parent fines and damage recovery move money onto families. The policy publishes no staffing or school-cost figure.
+> Teachers gain an explicit removal power and removed students stay supervised. That supervision only works if staff are in the pastoral office, dean's room or learning-support room. Parent fines and damage recovery move money onto families.
 
 System: Classroom removal below stand-down with supervised holding
 
@@ -46,11 +46,11 @@ When a parent misses a mandatory meeting without reasonable excuse, or deliberat
 Then a fine may apply and schools may recover damage costs as a debt
 Output a parent who misses a mandatory meeting without reasonable excuse may be fined up to $300 for a first offence and up to $3,000 for a later offence
 Outcome some of the cost of disruption and damage shifts onto parents
-But the cost of supervision staff remains unstated in the policy
+But schools must pay supervision staff without a named payroll line
 
 Scenario: Reasonable force follows a second refusal after escalation
 Given a refusal is escalated to a dean or senior leader
 When the student refuses a second lawful direction after that escalation
 Then staff may use reasonable force to remove the student
 Outcome corporal punishment remains illegal and empty rooms stay banned
-But the policy does not define how often force would be used or what it costs in training and liability
+But schools carry training and liability risk whenever staff use force on a second refusal

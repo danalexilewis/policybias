@@ -27,7 +27,7 @@ sourceDigest: "sha256-2d791458b297b5f6"
 
 # Our understanding
 
-> The policy protects takatāpui Māori wellbeing, safety and dignity, and requires public services that are inclusive, accessible and accountable. The instruments that would do that work are unnamed.
+> Takatāpui wellbeing, safety and dignity are named aims, and public services are to be inclusive, accessible and accountable—but no law, standard, complaint path or sanction binds agencies yet. Without those instruments, inclusion stays a preference rather than a requirement someone can enforce.
 
 System: Wellbeing without the enforcement instrument
 

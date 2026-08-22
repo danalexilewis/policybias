@@ -28,7 +28,7 @@ sourceDigest: "sha256-8292d71a43467bfc"
 
 # Our understanding
 
-> The policy devolves power to tangata whenua, invests to cut disparities, names a Marae Resilience Fund with civil emergency funding, ends perpetual leases, amends the Public Works Act near marae and wāhi tapu, and expands te reo. It does not print a fund amount or name the receiving entities. We treat the Fund as named without dollars on this policy, and devolution as incomplete without a holder of the money.
+> Power and resources shift toward tangata whenua, disparities get investment, a Marae Resilience Fund backs marae-led work and civil emergencies, perpetual leases on whenua Māori end, and Public Works Act tests tighten near marae and wāhi tapu. Fund dollars, receiving entities and lease transition terms carry no figures.
 
 System: Named fund without quantum, and devolution without the receiving end
 
@@ -36,19 +36,19 @@ Scenario: The Marae Resilience Fund is stood up
 When a Marae Resilience Fund resources marae-led initiatives
 And ongoing funding supports marae as civil emergency lifelines
 Then marae have a named funding channel for tikanga-led work and emergencies
-Outcome marae resilience is a standing Budget idea on this policy
-But the dollar amount is not on this policy, so the size of the channel cannot be read here
+Outcome marae have a named fund for tikanga-led resilience and emergency lifelines
+But marae committees wait on Treasury for the annual appropriation size
 Activates green-te-waonui-a-taane
 
 Scenario: Power and resources are devolved
 When power and resources are redistributed back to tangata whenua as decision-makers for whānau, hapū and iwi
 Then Māori organisations are the implied holders of that work
-Outcome by-Māori decision-making is the stated direction
-But without a named legal person, mandate or Budget line, the Crown still holds the service until those land
+Outcome whānau, hapū and iwi are meant to hold decisions and resources
+But officials keep running services until a legal body and Budget line take over
 
 Scenario: Perpetual leases end and Public Works Act proximity is qualitative
 When perpetual leases on whenua Māori end
 And the Public Works Act prevents acquisition of Māori freehold and customary land and land within reasonable proximity to marae, urupā and wāhi tapu
 Then leaseholders lose perpetual tenure and acquisition near sacred sites faces a new bar
-Outcome whenua near marae is harder for the Crown to take
-But "reasonable proximity" stays qualitative until a distance rule is set, and lease transition terms are not stated
+Outcome the Crown faces a higher bar before acquiring land near marae, urupā and wāhi tapu
+But leaseholders on whenua Māori absorb tenure change while proximity rules and compensation stay vague

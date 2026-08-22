@@ -29,7 +29,7 @@ assumptions:
 
 # Our understanding
 
-> The policy states a special economic zone covering the former refinery and Northport, with planning and RMA consents decided by a government panel, and tax incentives only under consideration. It does not commit a tax rate, budget, or date. The zone is planning relief first.
+> A special economic zone at Marsden Point and Northport puts planning and RMA consents before a government panel, with tax incentives only under consideration. Planning speed is the committed relief; no tax rate, budget or date is fixed.
 
 System: Special economic zone as planning relief before fiscal incentives
 

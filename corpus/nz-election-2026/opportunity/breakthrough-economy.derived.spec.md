@@ -29,7 +29,7 @@ sourceDigest: "sha256-fc532ee34b4a0eb9"
 
 # Our understanding
 
-> The policy states 2% of GDP, $30 a week lost to uncompetitive sectors, and $12 to $31 a week saved. It does not convert 2% of GDP into dollars, or time the High Court path.
+> Research and development would rise to 2% of GDP, with $30 a week lost to uncompetitive sectors and $12 to $31 saved — but 2% of GDP is not converted to dollars and the High Court break-up path is untimed.
 
 System: A research target and a slow competition remedy
 
@@ -38,7 +38,7 @@ Given research and development spending lifted to at least 2% of GDP
 When the extra public spend is appropriated
 Then the dollar cost has to be found each year
 Outcome labs and accelerators grow
-But the policy never prints that dollar cost, so it cannot be checked against the Tax Reset leftover
+But Budget writers still lack a dollar figure to weigh against the Tax Reset leftover
 Activates opportunity-tax-reset
 
 Scenario: A duopoly is taken to the High Court

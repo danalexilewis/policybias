@@ -28,7 +28,7 @@ sourceDigest: "sha256-0cd661f24497a032"
 
 # Our understanding
 
-> The policy replaces the Misuse of Drugs Act with a health approach and regulated cannabis access, ramps up harm reduction, enables psychedelic licensing, and phases out alcohol advertising with levy-funded harm reduction. It does not specify the cannabis model, funding totals or phase-out dates. We treat decriminalising framing as incomplete without a named health door, and the advertising ban as a rule without a timetable.
+> The policy replaces the Misuse of Drugs Act with a health approach and regulated cannabis access, ramps up harm reduction, enables psychedelic licensing, and phases out alcohol advertising with levy-funded campaigns. The cannabis model, funding totals and phase-out dates are not attached.
 
 System: Health-based drug law without a sized door or timetable
 
@@ -45,11 +45,11 @@ When funding for harm reduction and addiction support ramps up
 And Good Samaritan laws pass with naloxone availability and medically supervised consumption spaces
 Then calling for help and overdose response become safer in the policy's terms
 Outcome fewer people are punished for seeking help at the point of crisis
-But the number and location of supervised spaces, and programme budgets, are not stated
+But communities still wait on how many supervised spaces open, and at what cost to the Crown
 
 Scenario: Alcohol advertising and sponsorship phase out
 When alcohol advertising and sponsorship are phased out including at sporting and cultural events
 And alcohol levy funding establishes a national harm-reduction campaign
 Then commercial alcohol promotion exits the named channels
-Outcome advertising pressure falls while levy money funds harm reduction
-But the phase-out timetable and campaign budget are not in the policy
+Outcome commercial alcohol promotion exits the named channels
+But broadcasters and sport lose alcohol sponsorship revenue on a timetable Parliament has not set

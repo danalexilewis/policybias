@@ -27,7 +27,7 @@ sourceDigest: "sha256-8f5216c1b631f6a7"
 
 # Our understanding
 
-> The policy creates residence pathways including for expired visas, abolishes Acceptable Standards of Health, lets work-visa holders switch employers and removes the 12-month stand-down, clears family reunification backlogs, grounds immigration in Te Tiriti, and raises the refugee quota to 5,000 by 2029. It does not print intermediate quota steps or residence numbers. We treat the quota as a progressive target without a path in the policy, and employer switching as cutting single-employer leverage.
+> Residence pathways open for long-term migrants, including people whose visas have expired. Acceptable Standards of Health end, work-visa holders can switch employers without a 12-month stand-down, reunification backlogs are cleared, and the refugee quota rises to 5,000 by 2029. Yearly quota steps and residence numbers carry no figures.
 
 System: Quota path and weaker employer hold
 
@@ -35,8 +35,8 @@ Scenario: The refugee quota rises toward the named year
 When the refugee quota is progressively increased
 Then more people may be resettled under the quota each year on the way up
 Output 5,000 annual refugee quota by the policy's named year
-Outcome resettlement capacity is meant to grow to that ceiling
-But intermediate yearly steps and resettlement funding increases are not quantified in the policy
+Outcome communities can resettle up to 5,000 refugees a year by 2029
+But settlement agencies absorb each yearly step before Treasury prints the path or the money
 
 Scenario: A work-visa holder can leave a bad employer
 Given a 12-month stand-down that currently requires workers to leave Aotearoa between visas
@@ -45,12 +45,12 @@ And the 12-month stand-down is removed
 Then a worker is not locked to one employer or forced out for a year between visas
 Output 12-month stand-down between visas removed
 Outcome employer leverage over that worker falls
-But open switching still needs Immigration New Zealand capacity to process changes quickly
+But workers still wait on Immigration New Zealand to approve each employer change in time
 
 Scenario: Health screens end and expired visas gain a residence path
 When Acceptable Standards of Health requirements are abolished
 And residence pathways open for long-term migrants including people whose visas have expired
 Then health conditions and disability no longer block those pathways in the policy's terms
 And people already living here without a current visa have a stated route to stay
-Outcome discrimination by health status is removed from the named screen
-But pathway criteria and volumes are not stated, so take-up cannot be sized from the policy
+Outcome health conditions and disability no longer block the named residence routes
+But Ministers still decide how many people enter each pathway and on what terms

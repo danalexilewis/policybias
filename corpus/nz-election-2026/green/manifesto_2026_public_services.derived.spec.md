@@ -28,7 +28,7 @@ sourceDigest: "sha256-c867d1669bbf6ee3"
 
 # Our understanding
 
-> The policy upholds Te Tiriti across the public service, keeps services and SOEs public, reforms public finance for wellbeing, restores Children's Commissioner monitoring, standardises pay and training, and fully funds the community sector. It does not quantify any of those spends. We treat "adequate" funding as unquantified and the Commissioner restore as an institutional change, not a printed appropriation.
+> Te Tiriti runs through the public service, state holdings stay in public hands, finance reform targets wellbeing, Children's Commissioner monitoring returns, pay and training standardise, and the community sector is fully funded. None of those lines carry a dollar figure.
 
 System: Unquantified funding and an institutional monitor
 
@@ -36,17 +36,17 @@ Scenario: Public services are to be funded adequately and kept public
 When public services and state-owned enterprises are funded to remain in public hands
 Then ownership stays with the Crown rather than sale
 Outcome privatisation of those holdings is off the table on this plan
-But the policy does not say how much "adequate" costs
+But taxpayers carry whatever "adequate" turns out to mean once services are costed
 
 Scenario: Public finance is reformed for wellbeing and resilience
 When the public finance system is reformed so fiscal management supports long-term resilience, productive capacity and wellbeing
 Then Budget choices are judged against those aims as well as short-term cuts
 Outcome the criterion for fiscal management shifts
-But a criterion change is not a named appropriation on this policy
+But the wellbeing lens adds no cash until Budget day sets each department's envelope
 
 Scenario: The Children's Commissioner regains a monitoring role
 When the monitoring role of the Children's Commissioner is restored alongside advocacy
 Then an independent commission both advocates and monitors again
 Outcome children have a named monitor in the commission structure
-But the policy does not state the cost or staffing of that restore
+But the Commissioner's monitoring team still needs salaries and budget someone must allocate
 Activates green-manifesto-2026-te-tiriti-o-waitangi

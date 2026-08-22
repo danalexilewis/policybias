@@ -27,7 +27,7 @@ sourceDigest: "sha256-5d3ce5bc5ca8fa78"
 
 # Our understanding
 
-> The policy frames three strikes as preventing repeat burglary by keeping offenders in custody. The custody bargain: a three-year floor with no parole, while judges still work up to the ten-year maximum. Victim and reoffending figures are published; prison capacity and cost for the extra time served are not.
+> Three strikes prevents repeat burglary by keeping offenders in custody. The custody bargain is a three-year floor with no parole, while judges still work up to the ten-year maximum. Victim and reoffending figures are published; prison capacity for the extra time served carries no price tag.
 
 System: Three strikes for burglary as a custody floor with an open prison bill
 
@@ -54,4 +54,4 @@ And around one in four burglary victims have already been burgled before
 When third-strike terms without parole accumulate
 Then more bed-days are required for the same class of offender
 Outcome repeat burglary is interrupted by custody rather than by warning
-But the policy names no prison capacity, bed count or cost for that accumulation
+But prisons must hold more repeat burglars for longer, from today's beds and budget

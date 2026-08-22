@@ -30,7 +30,7 @@ sourceDigest: "sha256-d1acb086a0c0d11a"
 
 # Our understanding
 
-> The policy lifts incomes, strengthens welfare, and backs practical relief including transport affordability. It names no rates, thresholds or instruments.
+> No household can tell what lands in their pocket until someone picks the wage, tax or transfer lever and sets a rate. Welfare sanctions and transport relief face the same gap: which rules ease, and which fare or subsidy changes, are still open.
 
 System: Three relief levers without rates
 
@@ -39,11 +39,11 @@ Given whānau cannot meet basics across kai, rent, power, transport, medicine an
 When incomes are lifted so people can live with dignity
 Then a wage, tax or transfer instrument and a rate must still be chosen
 Outcome dignity is the aim
-But no household can tell from this policy what they would receive
+But until someone picks the instrument and rate, no whānau can tell what they would receive
 
 Scenario: Welfare and transport relief land together
 When welfare is strengthened so whānau are not punished for being poor
 And practical cost-of-living relief includes transport affordability
 Then which sanctions or abatement rules change, and which transport instrument applies, remain unnamed
 Outcome the direction is less punishment and cheaper travel
-But without rates and instruments, neither lever can be sized
+But without a rate and an instrument, Treasury cannot size either lever

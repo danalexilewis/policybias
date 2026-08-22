@@ -22,12 +22,12 @@ assumptions:
   - a Digital Duty of Care without published obligations, complaint timelines or penalties leaves platforms free to interpret care until a regulator writes the detail
   - cracking down on tax avoidance by Meta, Amazon and Microsoft without naming the instrument leaves the revenue path unspecified
   - adopting Te Kāhui Raraunga frameworks across the public sector binds Crown data first; private platforms are not automatically covered by that adoption alone
-  - no fiscal cost appears on the page, so none is invented here
+  - no fiscal cost appears in the policy, so none is invented here
 ---
 
-# Our reading
+# Our understanding
 
-> This is our systems reading of the source page, not the published claim. The page regulates social media through a Digital Duty of Care, sets AI rules including deepfakes, cracks down on multinational tech profit offshoring, adopts Māori data and AI governance across the public sector, and strengthens privacy penalties. It states no duty obligations, tax instrument, or penalty levels. Those readings are ours. We invent no dollar figures.
+> The policy puts a Digital Duty of Care on platforms, sets AI rules, cracks down on multinational tech profit offshoring, adopts Māori data governance across the public sector, and strengthens privacy penalties. No duty details, tax instrument or penalty levels are attached.
 
 System: Platform accountability without settled instruments
 
@@ -36,13 +36,13 @@ Given harmful content damaging mental health and trust while platforms act as es
 When a Digital Duty of Care requires algorithmic transparency, complaints systems and an independent national regulator
 Then platforms must answer for harm under a named duty
 Outcome users gain a complaints path and transparency claim
-But without stated obligations and penalties, the duty is a label until the regulator writes them
+But platforms keep interpreting care their own way until the regulator writes obligations and penalties
 
 Scenario: Multinational tech profits offshore are taxed harder
 When tax avoidance and offshoring of profits by multinational tech giants such as Meta, Amazon and Microsoft is cracked down on
 Then more profit from those firms is meant to stay in the New Zealand tax base
 Outcome the Crown can claim a larger share of platform revenue
-But without a named tax instrument, the crackdown has no mechanism on the page
+But Inland Revenue has no named instrument yet to collect the extra revenue
 
 Scenario: Māori data governance is adopted across the public sector
 When the Māori Data Governance Model and Māori AI Governance Framework from Te Kāhui Raraunga are adopted across the public sector

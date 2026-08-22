@@ -30,25 +30,25 @@ assumptions:
 
 # Our understanding
 
-> The policy builds rapid transit and rapid rail, extends free Community Connect fares under 18, and commits a fossil-vehicle import phase-out date. It prints no capital budgets, no subsidy total, and no calendar date.
+> Rapid transit and nationwide rail are multi-year builds. Free fares under 18 are a standing subsidy. Petrol and diesel imports would stop once a phase-out date arrives. The Crown, councils and vehicle owners carry those costs.
 
 System: Rapid transit and free fares without a printed bill
 
 Scenario: Rapid transit and rail are built without a capital budget
 When mass rapid transit is built in Auckland, Wellington and Christchurch
 And nationwide rapid rail connects regions for passengers and freight
-Then multi-year capital programmes begin without a printed budget in the policy
+Then multi-year capital programmes begin
 Outcome cities and regions gain higher-capacity public options
-But the Crown and council capital exposure stays unnamed
+But the Crown and councils carry the multi-year capital bill
 
 Scenario: Free fares under 18 stand as a subsidy
 When Community Connect provides free fares for everyone under 18 and the other named groups
 Then each forgone fare becomes a standing public subsidy
 Outcome young people and named card holders travel without paying
-But the total subsidy cost stays unnamed
+But every forgone fare is a standing Crown or council subsidy
 
 Scenario: Fossil-fuel imports face a phase-out without a date
 When a phase-out date for fossil-fuel vehicle imports is implemented
 Then new petrol and diesel vehicles stop entering once that date arrives
 Outcome the fleet shifts toward electric vehicles over time
-But the calendar date itself stays unnamed
+But vehicle owners lose the right to import petrol and diesel cars until that date is set

@@ -27,7 +27,7 @@ assumptions:
 
 # Our understanding
 
-> The policy transfers game management on conservation land from DOC to the Game Animal Council and recognises game species as valued resources. It does not say how conservation limits bind Council decisions, what funding "fully funded" costs, or how DOC's remaining conservation role resolves a conflict with a herd plan.
+> Game management on conservation land transfers from DOC to the Game Animal Council and game species are recognised as valued resources. How conservation limits bind Council decisions, what fully funded costs, and how DOC's remaining role resolves conflict with a herd plan stay unspecified.
 
 System: Hunter-led management when the pest default flips
 

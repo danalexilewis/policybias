@@ -28,7 +28,7 @@ sourceDigest: "sha256-945c5ee5fe3df118"
 
 # Our understanding
 
-> The policy presents the Dividend as returning visitor revenue to host councils without a new bed tax. The funding line is the finding: the money comes from the existing tourism appropriation, so national tourism spend loses what councils gain. The guest-night rate and the council totals are the published scale of that move.
+> Visitor revenue returns to host councils without a new bed tax, but the money comes from the existing tourism appropriation — national tourism spend loses what councils gain. The guest-night rate and council totals are the published scale of that move.
 
 System: Local Tourism Dividend as a tourism-appropriation reallocation
 

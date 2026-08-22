@@ -28,7 +28,7 @@ sourceDigest: "sha256-6335940b73a57131"
 
 # Our understanding
 
-> The policy presents six immigration reforms as restoring a basic bargain. Three resident-facing edges: deportation for serious offences with no time limit here, a five-year welfare stand-down, and the daily infrastructure surcharge that overlaps the fair-contribution card. The overstayer count and skilled-visa figures are published context; who carries the stand-down and the surcharge is not.
+> Six immigration reforms restore a basic bargain. Three resident-facing edges: deportation for serious offences with no time limit, a five-year welfare stand-down, and the daily infrastructure surcharge overlapping the fair-contribution card. Migrants carry the stand-down and surcharge; overstayer count and skilled-visa figures are published context.
 
 System: Six-point immigration plan as conditional belonging
 

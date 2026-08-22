@@ -29,7 +29,7 @@ sourceDigest: "sha256-5d95024f1d5eb77f"
 
 # Our understanding
 
-> The policy removes the British royal family as head of state, establishes a Māori Parliament, implements Matike Mai, and overhauls settlements with land return. It does not say how two parliaments resolve a clash.
+> Two parliaments would sit with overlapping authority: a republic removes the Crown as head of state and a Māori Parliament joins the existing House. Without a clash rule, neither house knows whose law prevails when they disagree—and Matike Mai implementation plus settlement overhaul still need a sequence and compensation rule before title moves.
 
 System: Dual authority without a supremacy rule
 
@@ -43,5 +43,5 @@ Scenario: Matike Mai and settlement overhaul land together
 When all Matike Mai recommendations are implemented and the Treaty settlement process is overhauled
 Then land return to whānau, hapū and iwi still needs a receiving entity and a compensation rule
 Outcome "full and final" settlements are no longer treated as closed
-But title and money cannot move until those choices are named
+But whānau, hapū and iwi cannot receive title until a receiving entity and compensation rule exist
 Activates te-pati-maori-mana-motuhake

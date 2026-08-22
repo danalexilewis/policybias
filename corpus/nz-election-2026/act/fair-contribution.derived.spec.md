@@ -28,7 +28,7 @@ sourceDigest: "sha256-0f6efd430410ae38"
 
 # Our understanding
 
-> The policy frames the surcharge as a fair infrastructure contribution from day one while comparable visas stay cheaper than those in Australia and the United Kingdom. Incidence: the charge lands on temporary workers unless employers absorb or pass it on through the wage bargain. The daily rate and yearly take are published; who ultimately pays is not.
+> The surcharge is framed as a fair infrastructure contribution from day one while comparable visas stay cheaper than those in Australia and the United Kingdom. The charge lands on temporary workers unless employers absorb or pass it on through the wage bargain. The daily rate and yearly take are published.
 
 System: Temporary-work visa surcharge as an incidence question
 
@@ -46,11 +46,11 @@ Given employers cannot find every nurse, software engineer or farm worker they n
 When the surcharge sits on the visa the employer sponsors
 Then the employer may absorb it, reimburse the worker, or leave the worker to pay
 Outcome hiring still happens where the role is hard to fill domestically
-But labour cost or worker disposable income moves to fund the charge; the policy does not say which
+But either the worker's take-home pay or the employer's wage bill shrinks to fund the charge
 
 Scenario: Revenue arrives without a spending map
 Given around $80 million a year expected at the stated rate
 When the surcharge is collected
 Then the Crown receives a named stream labelled for infrastructure
 Outcome comparable visas are still said to remain cheaper than those in Australia and the United Kingdom
-But how that revenue is spent on roads, housing or services is not stated in the policy
+But roads, housing and services gain no guaranteed share until a Budget allocates the revenue

@@ -28,7 +28,7 @@ sourceDigest: "sha256-c613257c7b24fad0"
 
 # Our understanding
 
-> The policy asserts Māori rights and authority, stops decisions without Māori consent, and shares benefits fairly. The consent machinery and the benefit share stay unnamed.
+> Māori authority over freshwater would change who approves takes, discharges and allocations—but ownership, co-governance and veto are still open as legal forms. Consent needs a defined decision set and a consenting body; fair benefit sharing needs a share, formula or recipient class before commercial and community interests know who pays and who receives.
 
 System: Consent power without a named share of benefits
 
@@ -54,4 +54,4 @@ And no share, formula or recipient class
 When water creates commercial or community value
 Then how much goes to which Māori and non-Māori interests must still be set
 Outcome fair share is the named outcome
-But the unnamed benefit share leaves winners and payers unidentified
+But commercial users and Māori communities cannot tell who pays and who receives

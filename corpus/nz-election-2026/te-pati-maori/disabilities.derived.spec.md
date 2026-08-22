@@ -29,7 +29,7 @@ sourceDigest: "sha256-79c92452bc62e5d1"
 
 # Our understanding
 
-> The policy supports Māori-led disability services, easier and less degrading access, and funding that fits whānau realities. It does not name the decision-making body, the access reforms, or the funding.
+> Māori-led disability services need a receiving entity with decision rights, not just a preference for Māori providers. Easier, less degrading access means changing assessments, waiting rules or appeal paths—and funding that fits whānau realities is a redesign of eligibility categories plus a Budget line.
 
 System: Māori-led support without the funding design
 

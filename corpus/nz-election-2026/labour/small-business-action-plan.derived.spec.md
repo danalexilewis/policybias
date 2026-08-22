@@ -27,7 +27,7 @@ sourceDigest: "sha256-32a2741f0e85e3e1"
 
 # Our understanding
 
-> The policy states fifteen-day pay for smaller invoices, a higher asset write-off as most of a four-year package, and a higher GST registration threshold that drops firms from compulsory registration. It does not frame pay rules as a working-capital shift or the threshold lift as shrinking the GST base.
+> Faster pay for smaller invoices shifts working capital from large firms to small suppliers without creating new money. The asset write-off carries most of the four-year package cost as a timing benefit on tax, and lifting the GST threshold drops firms from the compulsory net even though voluntary registration stays open.
 
 System: Small Business Action Plan as cash timing, write-off spend and GST net
 

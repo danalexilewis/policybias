@@ -28,7 +28,7 @@ sourceDigest: "sha256-c9efcdca9cc2bfcb"
 
 # Our understanding
 
-> The policy names road, hospital and classroom figures against a large island economy, and lists many other commitments without dollars. It does not say the named items are small beside that economy, that the remainder is uncosted, or that the visitor charge has no rate.
+> Named road and hospital dollars are a thin slice against a nearly $100 billion island economy, while agriculture, mining, energy and other frontline commitments carry no figures at all. A visitor access charge at Aoraki and Milford Sounds has no rate, so reinvestment is promised before anyone knows what visitors will pay.
 
 System: South Island growth as named dollars against an uncosted remainder
 
@@ -51,10 +51,10 @@ Then most of those items carry no dollar figure in the policy
 Output 96 additional beds at Christchurch Hospital Tower Three
 And nearly 100 more classrooms across the South Island
 Outcome the plan names direction without a summed package cost
-But a reader cannot add the whole offer up from this policy
+But taxpayers carry the uncosted remainder of the plan
 
 Scenario: International visitor access charging
 When access charging is introduced at Aoraki / Mt Cook and Milford Sounds
 Then the charge rate is not stated
 Outcome reinvestment in local conservation and tourism infrastructure is the named use
-But visitors and operators cannot price the charge from the policy
+But visitors and operators budget blind until a rate is set

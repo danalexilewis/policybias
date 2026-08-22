@@ -27,7 +27,7 @@ sourceDigest: "sha256-e84c190101ee0c03"
 
 # Our understanding
 
-> The policy lists repeal, curriculum, te reo teachers, devolution and equitable settlements. It does not name the receiving entity, the money, or what "equitable" changes in a settlement that is already signed.
+> Two statutes would be repealed, curriculum would change, and more te reo teachers would be trained. Devolution is meant to come with real resources. Hapū and iwi still need a receiving entity and a money line before those resources arrive, and "equitable" does not yet rewrite a signed settlement.
 
 System: Repeal and devolution without the receiving end
 
@@ -41,5 +41,5 @@ Scenario: Health and justice are devolved
 When services are devolved where outcomes are unequal
 Then someone has to hold the money and the duty of care
 Outcome hapū, iwi or Māori organisations are the implied holders
-But without a named entity, a Budget, or an accountability line, officials still hold the service
+But officials still hold the money and duty of care until hapū, iwi or Māori organisations are named
 Activates opportunity-healthy-people

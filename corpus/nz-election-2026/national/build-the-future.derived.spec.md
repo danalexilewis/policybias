@@ -28,7 +28,7 @@ sourceDigest: "sha256-8a3d14bc14478ded"
 
 # Our understanding
 
-> The policy formalises producer statements and designates a specialist Building Consent Authority for large commercial buildings. It does not say who carries defect risk once council inspection drops out, what happens to council fee income when major commercial work leaves the local queue, or which projects qualify.
+> Formalising producer statements shifts defect liability onto the engineer and their insurer once council inspection drops out. A specialist Building Consent Authority for large commercial work can pull fee revenue away from residential-focused councils, and which projects qualify stays open until a scope list is published.
 
 System: Commercial consent changes as a liability and fee shift
 
@@ -50,4 +50,4 @@ Scenario: A developer asks which projects qualify
 When the Building Act change and the specialist pathway are announced without a scope list
 Then "certain building work" and "large commercial buildings" remain undefined in the policy
 Outcome major projects wait for a schedule before they can plan
-But until that list exists, neither liability nor fee effects can be sized
+But councils and developers carry planning uncertainty until the scope list lands

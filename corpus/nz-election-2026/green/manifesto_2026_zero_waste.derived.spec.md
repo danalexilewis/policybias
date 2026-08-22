@@ -27,9 +27,9 @@ assumptions:
   - no fiscal cost appears on the page, so none is invented here
 ---
 
-# Our reading
+# Our understanding
 
-> This is our systems reading of the source page, not the published claim. The page builds a circular economy through mandatory stewardship, a container return scheme, right-to-repair, a higher and consistent waste levy funding minimisation, a waste-to-energy moratorium, and binding reduction targets under Te Tiriti-aware law. It states no levy rate or target numbers. Those readings are ours. We invent no dollar figures.
+> Producers pay for stewardship and a container return scheme. Right-to-repair and a higher waste levy push stuff back into use. Waste-to-energy is paused. Households and firms face the levy before any rate is set.
 
 System: Producer responsibility without priced signals
 
@@ -44,10 +44,10 @@ Scenario: The waste levy rises to international best practice
 When the waste disposal levy increases to international best practice with a consistent rate across landfill classes and revenue funds waste minimisation
 Then landfilling becomes dearer and levy money stays on minimisation
 Outcome disposal behaviour can shift if the price bite is real
-But without a stated rate, the levy signal remains unset
+But landfill operators and their customers pay whatever rate Parliament sets
 
 Scenario: Binding waste reduction targets are set
 When binding, measurable and ambitious waste reduction targets are implemented under Waste Minimisation Act reform that gives effect to Te Tiriti
 Then agencies and producers face targets that can be enforced
 Outcome reduction can be checked against the law
-But without published target numbers, ambition cannot be audited from the page
+But producers and councils still face targets nobody can check until numbers land

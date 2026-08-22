@@ -1,10 +1,10 @@
 ---
 type: spec
 id: green-manifesto-2026-health-derived
-title: "Free primary and dental care read as a system: standing entitlements without a printed cost"
+title: "Free primary and dental care read as a system: patient fees become a standing Crown bill"
 status: draft
-updated: 2026-08-21
-summary: Fully free dental and primary care plus sustained Pharmac funding are standing entitlements with no printed cost, while safe staffing and fair wages leave the workforce bill unnamed.
+updated: 2026-08-22
+summary: Free dental and GP care, a larger Pharmac budget, and safer staffing move costs off the patient and onto the Crown, as standing bills with no amount attached.
 jurisdiction: NZ
 sources:
   - title: Health
@@ -23,29 +23,28 @@ assumptions:
   - sustained Pharmac funding increases are also standing; without a dollar path the Crown's open-ended medicine spend cannot be sized from the policy
   - fair wages, primary care nurse pay parity and safe staffing levels imply a workforce bill the policy never prints
   - mobile clinics, endometriosis clinics and health data infrastructure add capital and operating cost that stays unnamed
-  - we introduce no figure, because the policy contains none to work from
 ---
 
 # Our understanding
 
-> The policy moves dental and primary care toward fully free public provision, lifts Pharmac funding, and promises fair wages with safe staffing. It prints no cost for any of those standing offers.
+> A GP visit and a dental visit stop being something you pay for. Pharmac can fund more medicines. Nurses and other staff are promised pay parity and safer rosters. Each of those is a standing Crown bill.
 
-System: Standing health entitlements without a printed cost
+System: Patient health costs moving onto standing Crown bills
 
 Scenario: Free dental and primary care stands without a published bill
 When dental and primary care move toward publicly delivered fully free provision
 Then every visit that used to carry a patient fee becomes a Crown cost instead
-Outcome access widens for people who were locked out by private fees
-But the standing entitlement has no printed cost in the policy
+Outcome people who stayed away because of fees can use the dentist and the GP
+But the Crown takes on an open-ended annual bill
 
 Scenario: Pharmac funding rises as an open-ended commitment
 When sustained Pharmac funding increases for new medicines and devices
-Then the medicines budget grows without a published ceiling in the policy
-Outcome treatment options can widen
-But the size of the sustained lift stays unnamed
+Then Pharmac can list more medicines and devices
+Outcome more treatments can be funded
+But later Budgets have to find the money, because there is no ceiling
 
 Scenario: Safe staffing and fair wages arrive without a workforce bill
 When fair wages, primary care nurse pay parity and safe staffing levels are set
 Then the wage and headcount bill must be met from somewhere
-Outcome worker wellbeing and care quality are the named aims
-But the workforce cost and staffing targets stay unnamed
+Outcome nurses and other staff are promised safer rosters and fairer pay
+But clinics still have to hire and pay those people after the promise is made

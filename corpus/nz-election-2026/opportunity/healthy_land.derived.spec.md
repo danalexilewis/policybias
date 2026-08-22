@@ -27,7 +27,7 @@ sourceDigest: "sha256-e9b2ccac80561019"
 
 # Our understanding
 
-> The policy names a nature market, independent water oversight, and more conservation spend. It does not define the unit, the overseer, or the dollar lift.
+> A nature market, independent water oversight and more conservation spend — but the biodiversity unit, the overseer and the dollar lift are undefined.
 
 System: A nature market without a unit
 
@@ -35,7 +35,7 @@ Scenario: A landowner is paid for biodiversity
 When a nature market is opened
 Then a payment needs a measurable unit, a buyer, and a rule against selling the same hectare twice
 Outcome wetlands and native forest are the named winners
-But until those rules exist, the market cannot pay
+But landowners wait unpaid until a unit, buyer and anti-double-counting rule exist
 Activates opportunity-climate-action
 
 Scenario: Water rules tighten
@@ -43,4 +43,4 @@ Given half of rivers unswimmable
 When independent oversight is added
 Then farms and towns face a harder water bottom line
 Outcome rivers can recover if the overseer can actually stop a discharge
-But without a named agency, budget, or penalty, oversight is a label
+But farms and towns still face discharge until an agency, budget and penalty are fixed

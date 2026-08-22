@@ -27,7 +27,7 @@ sourceDigest: "sha256-9d1d665b090eb87d"
 
 # Our understanding
 
-> The policy resources a Matike Mai constitutional conversation, extends voting to 16 and people in custody, entrenches Māori seats, reforms donations and public financing, and adds a lobbyist register. It does not name a donation cap, a public financing quantum, or a timeline for constitutional change. We treat the conversation as dialogue and the finance reform as incomplete without a stated cap.
+> A Matike Mai conversation can grow options. It does not rewrite the statute book. Voting at 16 and in custody still needs electoral law. Donation reform still needs a dollar ceiling before parties and donors can plan.
 
 System: Conversation and franchise without a finished constitution or finance quantum
 
@@ -50,6 +50,6 @@ When donations are limited to registered voters
 And public financing of campaigns increases
 And a donor's donations are capped at a level that does not risk donor influence
 Then corporate and trust channels the policy targets are meant to shrink
-Outcome political finance rules tighten in direction
-But without a stated dollar cap or public financing amount, the size of the shift cannot be read from the policy
+Outcome corporate and trust donation channels the policy targets are meant to shrink
+But parties and donors still do not know the ceiling, so they cannot plan against it
 Activates green-greens-announce-bill-to-entrench-m-ori-seats-in-law

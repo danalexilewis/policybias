@@ -28,7 +28,7 @@ sourceDigest: "sha256-ccd35b96560e549d"
 
 # Our understanding
 
-> The speech states compulsory KiwiSaver, combined contributions first at 8% then later at 10%, tax cuts meant to cover the increases, and an intention to turn KiwiSaver into a New Zealand asset-owning entity. It does not size the tax cuts, define the entity, or state today's contribution rate.
+> KiwiSaver becomes compulsory with combined contributions at 8% then 10%, tax cuts meant to cover the increase, and a plan to turn the scheme into a New Zealand asset-owning entity. The tax cuts are unsized, the entity is undefined, and today's starting rate is missing — so nobody can measure the net wage hit or the first step.
 
 System: Compulsory contribution lift with an unpriced offset
 
@@ -39,7 +39,7 @@ When combined employee and employer contributions rise in two steps
 Then more of each wage is directed into KiwiSaver
 Output combined employee and employer contributions first at 8%, then later at 10%
 Outcome retirement balances grow under compulsion
-But whether take-home pay is held constant, rises, or falls cannot be read from this policy
+But workers carry whatever gap the unsized tax cuts leave
 Activates nz-first-establishing-a-kiwisaver-generation
 
 Scenario: KiwiSaver is turned into an asset-owning entity
@@ -48,11 +48,11 @@ And no description of ownership, board, or investment mandate
 When the reform is drafted
 Then a vehicle must be chosen before any domestic assets can be held in that name
 Outcome the direction of travel is toward domestic ownership of capital
-But the entity that would own those assets is unidentified on this policy
+But savers still do not know who would hold or control those assets
 
 Scenario: A member faces compulsion without a published starting rate
 Given the speech does not state today's combined contribution rate
 When compulsion and the first contribution step take effect
 Then the size of the first increase depends on a baseline this policy does not print
 Outcome saving becomes compulsory at the new combined rates
-But a reader cannot tell from this policy alone how large the first step is
+But members bear the first lift from an unknown starting rate

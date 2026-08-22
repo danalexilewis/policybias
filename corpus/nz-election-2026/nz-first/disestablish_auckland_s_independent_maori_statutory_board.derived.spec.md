@@ -27,7 +27,7 @@ assumptions:
 
 # Our understanding
 
-> The policy states $3.5 million last year for IMSB operations, disestablishment of the unelected board, and orderly transition of functions back to Auckland Council without preventing council engagement with Māori. It does not prove ratepayers keep the $3.5 million if the work continues inside council.
+> Disestablishing the Independent Māori Statutory Board ends its $3.5 million operations line and moves functions back to Auckland Council, which may still continue Māori engagement — so ratepayers only save if the work actually stops.
 
 System: Board removal as accountability change with a named operations cost
 

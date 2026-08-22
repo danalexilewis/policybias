@@ -47,7 +47,7 @@ When the household budgets across the leave
 Then they know how long the primary caregiver can stay home
 Output 15 months paid parental leave for the primary caregiver
 Outcome more calendar time at home is granted
-But weekly household income while on leave cannot be read from the policy
+But the household still has to budget without knowing the weekly payment rate
 Activates green-manifesto-2026-gender-equity
 
 Scenario: Strike rights widen while board seats stay exploratory
@@ -55,4 +55,4 @@ When the right to strike expands to collective agreement breaches and political 
 And workers' representatives on boards of listed companies are only explored
 Then industrial action options widen before board representation is settled
 Outcome collective leverage shifts toward strike and default membership first
-But board seats are not yet a committed mechanism in the policy
+But workers still have no guaranteed board seat until exploration becomes law

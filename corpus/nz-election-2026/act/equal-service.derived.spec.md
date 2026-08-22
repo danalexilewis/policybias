@@ -27,7 +27,7 @@ sourceDigest: "sha256-7c60bb5f0171f372"
 
 # Our understanding
 
-> The policy repeals race-based employment rules, puts need-based delivery in law, ends publicly funded spiritual practice at work, and rewrites the Public Service Act. It presents one public service as three separate mechanisms. The policy publishes no fiscal figure.
+> Race-based employment rules are repealed, need-based delivery goes into law, publicly funded spiritual practice at work ends, and the Public Service Act is rewritten as three separate mechanisms. No fiscal figure is published.
 
 System: One standard as three legal changes
 
@@ -37,7 +37,7 @@ And the Public Service Act requires politically neutral public servants and meri
 When section 73 of the Public Service Act and section 118 of the Crown Entities Act are repealed
 Then employment policy is no longer shaped around the aspirations and employment needs of particular ethnic groups by those sections
 Outcome government jobs are filled under the remaining merit and anti-discrimination rules
-But how agencies rewrite existing policies in the transition is not stated
+But agencies still carry the transition work of rewriting existing policies
 
 Scenario: Two people present with the same need
 Given agencies have already been directed to deliver services based on need, not identity
@@ -50,4 +50,4 @@ Scenario: Spiritual or religious activity is scheduled on public time
 When use of public time and public funds for spiritual or religious activities at work ends
 Then the employer stops running those activities as paid work
 Outcome staff remain free to practise in their own time
-But what counts as a spiritual activity at work is not defined in the policy
+But what counts as spiritual activity at work will be argued until practice settles

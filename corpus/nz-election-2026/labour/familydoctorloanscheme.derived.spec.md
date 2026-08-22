@@ -30,7 +30,7 @@ sourceDigest: "sha256-4f398e987bdfbba8"
 
 # Our understanding
 
-> The policy states loan caps, fifty loans a year, corporate exclusion, and a more than 4.5 million appointments plan. It does not state that the loans alone free those appointments, how large the channel is against the national stock, or what happens if a borrower defaults.
+> Fifty loans a year at up to $500,000 is a narrow buy-in channel against the national practice stock, and corporate exclusion shifts who can use it. The more than 4.5 million appointments figure belongs to a bundled plan of triage, tech and facilities, not to the loans alone, and default rules sit outside the published terms.
 
 System: Family Doctor Loan Scheme as a small ownership channel
 
@@ -42,7 +42,7 @@ Then at most fifty doctors a year buy in on these terms
 Output $25 million a year lent if fully subscribed
 And less than $8 million a year forgone interest if fully subscribed
 Outcome the Crown's annual buy-in channel stays small even when every loan is taken
-But the policy does not say how many practices that covers nationwide
+But most practices nationwide still wait outside this small annual channel
 
 Scenario: A corporate buyer is shut out of the same sale
 Given corporate-owned practices are excluded
@@ -58,4 +58,4 @@ And that plan lists triage, technology, long-term condition advice and clinic sp
 When the loan scheme is delivered
 Then the appointments figure is not unique to the loans
 Outcome the loans are a buy-in channel, not the source of the freed appointments
-But default and recovery if a borrower cannot repay are unnamed
+But the Crown or the lender carries the loss if a borrower cannot repay

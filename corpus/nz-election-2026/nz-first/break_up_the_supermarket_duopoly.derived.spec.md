@@ -28,7 +28,7 @@ sourceDigest: "sha256-ce79d1034ee679f4"
 
 # Our understanding
 
-> The policy states a Foodstuffs split by brand, Woolworths left as the competitor both face, penalty ceilings matching Australia, and a Commerce Commission finding of around $1 million a day in excess profits. It does not split Woolworths, convert that finding into a household saving, or treat the fine ceilings as expected revenue.
+> Foodstuffs would split by brand into two cooperatives while Woolworths stays whole, so only one side of the duopoly is broken. Penalty ceilings match Australia; the million-a-day excess-profit figure is a Commerce Commission finding about today, not a promised saving at the checkout.
 
 System: Asymmetric grocery break-up and enforcement ceilings
 
@@ -44,7 +44,7 @@ Given the Commerce Commission has found supermarket giants earning around $1 mil
 When the break-up and enforcement powers take effect
 Then competitive pressure and higher penalties are meant to change behaviour
 Outcome prices, value and supplier treatment are the intended pressure points
-But the million-a-day figure remains a finding about current excess, not a published grocery saving from this policy
+But the million-a-day figure remains a finding about current excess, not a promised saving at the checkout
 
 Scenario: Penalty ceilings are mistaken for a transfer to shoppers
 Given fines of up to $10 million, three times the gain, or 10 percent of turnover for serious breaches

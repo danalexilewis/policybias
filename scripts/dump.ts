@@ -317,17 +317,62 @@ function chromeSelector(): string {
     '.social-share-container',
     '.social-media-container',
     '[class*="social-share"]',
+    '[class*="modal-cacsp"]',
+    '[id*="cookiebot"]',
+    '[id*="onetrust"]',
+    '[class*="onetrust"]',
+    '[class*="cookie-banner"]',
+    '[class*="cookie-consent"]',
+    '[class*="cookiebot"]',
+    '#CybotCookiebotDialog',
+    '.coi-banner',
   ].join(', ')
 }
 
 function pickContentRoot($: cheerio.CheerioAPI): cheerio.Cheerio<any> {
-  for (const selector of ['#main-wrapper', 'main', 'article', '[role="main"]']) {
+  for (const selector of [
+    '.wp-block-post-content',
+    '#main-wrapper',
+    'main',
+    'article',
+    '[role="main"]',
+  ]) {
     const $el = $(selector).first()
     if ($el.length > 0) {
       return $el
     }
   }
   return $('body')
+}
+
+const CONSENT_FINGERPRINTS = [
+  'När du besöker en webbplats kan den lagra',
+  'Vi använder kakor',
+  'Cookies för marknadsföring',
+  'We use cookies',
+]
+
+export function looksLikeConsentBody(text: string): boolean {
+  const normalised = text.replace(/\s+/g, ' ')
+  const hits = CONSENT_FINGERPRINTS.filter((fingerprint) =>
+    normalised.includes(fingerprint),
+  ).length
+  if (hits >= 2) {
+    return true
+  }
+  if (hits >= 1 && text.replace(/\s+/g, '').length < 1500) {
+    return true
+  }
+  return false
+}
+
+function htmlAsPlainText(html: string): string {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
 }
 
 function isChromeHeading(text: string): boolean {
@@ -367,7 +412,18 @@ function stripChrome($: cheerio.CheerioAPI, $root: cheerio.Cheerio<any>): void {
   })
 }
 
-function extractPageMeta(html: string, pageUrl: string): PageMeta {
+function contentHtmlFromRoot(
+  $: cheerio.CheerioAPI,
+  $root: cheerio.Cheerio<any>,
+): string {
+  stripChrome($, $root)
+  if ($root.is('body')) {
+    return $root.html() ?? ''
+  }
+  return $.html($root) ?? $root.html() ?? ''
+}
+
+export function extractPageMeta(html: string, pageUrl: string): PageMeta {
   const $page = cheerio.load(html)
   stripChrome($page, $page('body'))
   const strippedHtml = $page.html() ?? html
@@ -398,15 +454,23 @@ function extractPageMeta(html: string, pageUrl: string): PageMeta {
     pageUrl
 
   let contentHtml: string
-  if (readabilityHtml) {
+  const readabilityLooksLikeConsent =
+    readabilityHtml !== undefined && looksLikeConsentBody(htmlAsPlainText(readabilityHtml))
+
+  if (readabilityHtml && !readabilityLooksLikeConsent) {
     const $article = cheerio.load(readabilityHtml)
     const $articleRoot = $article('body').length > 0 ? $article('body') : $article.root()
-    stripChrome($article, $articleRoot)
-    contentHtml = ($article('body').html() ?? $article.html()) ?? ''
+    contentHtml = contentHtmlFromRoot($article, $articleRoot)
   } else {
+    if (readabilityLooksLikeConsent) {
+      console.warn(`warn: readability returned consent chrome for ${pageUrl}; using content root`)
+    }
     const $content = pickContentRoot($page)
-    stripChrome($page, $content)
-    contentHtml = $content.html() ?? ''
+    contentHtml = contentHtmlFromRoot($page, $content)
+  }
+
+  if (looksLikeConsentBody(htmlAsPlainText(contentHtml))) {
+    console.warn(`warn: extracted body still looks like a cookie banner for ${pageUrl}`)
   }
 
   return {
@@ -801,6 +865,7 @@ export async function processHtmlPage(
       contentType: 'html',
       via: 'party-site',
       contentDigest: contentDigest(markdown),
+      contentLength: markdown.length,
       ...sourceLastmodField(existing, sourceLastmod),
       tags: existing.tags ?? catalogue.tags ?? [],
       stance: existing.stance !== undefined ? existing.stance : (catalogue.stance ?? null),
@@ -903,6 +968,7 @@ export async function processPdf(
       contentType: 'pdf',
       via: 'party-site',
       contentDigest: contentDigest(body),
+      contentLength: body.length,
       tags: existing.tags ?? [],
       stance: existing.stance !== undefined ? existing.stance : 'not-policy',
       ...(existing.money ? { money: existing.money } : {}),

@@ -4,7 +4,9 @@ import { digestOf } from '../scripts/check-policy.ts'
 import {
   cleanMarkdown,
   contentDigest,
+  extractPageMeta,
   loadSeeds,
+  looksLikeConsentBody,
   parseSitemapEntries,
   shouldSkipWrite,
 } from '../scripts/dump.ts'
@@ -213,6 +215,44 @@ ${existingBody}
     expect(shouldSkipWrite(null, existingBody)).toBe(false)
     expect(shouldSkipWrite(undefined, existingBody)).toBe(false)
     expect(shouldSkipWrite('', existingBody)).toBe(false)
+  })
+})
+
+describe('looksLikeConsentBody', () => {
+  it('flags a short Swedish cookie banner', () => {
+    expect(
+      looksLikeConsentBody(
+        'När du besöker en webbplats kan den lagra eller hämta information från din webbläsare.',
+      ),
+    ).toBe(true)
+  })
+
+  it('keeps a long policy page that merely mentions cookies', () => {
+    const body = `${'Sverigedemokraterna vill bygga ut kärnkraften. '.repeat(40)}Vi använder kakor sällan i policytext.`
+    expect(looksLikeConsentBody(body)).toBe(false)
+  })
+})
+
+describe('extractPageMeta', () => {
+  it('drops a post-footer cookie modal and keeps the article', () => {
+    const html = `<!doctype html><html lang="sv-SE"><head>
+<title>Tandvård | Sverigedemokraterna</title>
+<link rel="canonical" href="https://www.sd.se/a-till-o/tandvard/" />
+</head><body>
+<main><article>
+<p class="wp-block-paragraph">Den 1 januari 2026 infördes Tiotandvården genom en överenskommelse mellan Sverigedemokraterna och regeringen.</p>
+</article></main>
+<footer><p>Footer</p></footer>
+<div class="modal-cacsp-position">
+<div class="modal-cacsp-box-content">
+<p>När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies.</p>
+<p>Cookies för marknadsföring används för att spåra besökare på webbplatser.</p>
+</div>
+</div>
+</body></html>`
+    const meta = extractPageMeta(html, 'https://www.sd.se/a-till-o/tandvard/')
+    expect(meta.html).toContain('Tiotandvården')
+    expect(meta.html).not.toContain('När du besöker en webbplats')
   })
 })
 

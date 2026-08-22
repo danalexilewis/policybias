@@ -1,0 +1,17 @@
+{
+  "name": "Policy Bias",
+  "short_name": "Policy Bias",
+  "description": "Guess the party from the policy, not the colour.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffbe6",
+  "theme_color": "#fffbe6",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    }
+  ]
+}

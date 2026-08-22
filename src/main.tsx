@@ -14,3 +14,9 @@ createRoot(rootElement).render(
 		<App />
 	</StrictMode>
 );
+
+if (import.meta.env.PROD) {
+	void import('./registerSw').then((mod) => {
+		void mod.registerServiceWorker();
+	});
+}

@@ -2,7 +2,7 @@ import type { JSX, ReactNode } from 'react';
 import styles from './AppWindow.module.css';
 
 type AppWindowProps = {
-	title: string;
+	title: ReactNode;
 	children: ReactNode;
 	onClose?: () => void;
 	closeLabel?: string;
@@ -10,6 +10,8 @@ type AppWindowProps = {
 	fill?: boolean;
 	/** Edge-to-edge: no frame, border, or shadow. */
 	bare?: boolean;
+	/** Brand | centre | close, for compact headers. */
+	split?: boolean;
 	className?: string;
 	/** Focus the close box when the window opens. */
 	focusClose?: boolean;
@@ -26,10 +28,14 @@ export function AppWindow(props: AppWindowProps): JSX.Element {
 		.filter(Boolean)
 		.join(' ');
 
+	const titleBarClass = [styles.titleBar, props.split ? styles.split : '']
+		.filter(Boolean)
+		.join(' ');
+
 	return (
 		<div className={className}>
-			<div className={styles.titleBar}>
-				<p className={styles.title}>{props.title}</p>
+			<div className={titleBarClass}>
+				<div className={styles.title}>{props.title}</div>
 				{props.trailing ? (
 					<div className={styles.trailing}>{props.trailing}</div>
 				) : null}

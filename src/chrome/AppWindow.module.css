@@ -19,8 +19,8 @@
 	display: flex;
 	align-items: center;
 	gap: 8px;
-	min-height: 48px;
-	padding: 0 8px 0 12px;
+	min-height: 64px;
+	padding: 8px 12px;
 	border-bottom: 2px solid var(--ink);
 	background: var(--paper);
 }
@@ -59,7 +59,6 @@
 	border-radius: var(--radius);
 	background: var(--paper);
 	color: var(--ink);
-	box-shadow: var(--shadow);
 }
 
 .close svg {
@@ -68,8 +67,36 @@
 }
 
 .close:active {
-	transform: translate(2px, 2px);
-	box-shadow: var(--shadow-pressed);
+	transform: translate(1px, 1px);
+}
+
+.split {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+	gap: 8px;
+}
+
+.split .title {
+	display: flex;
+	align-items: center;
+	flex: unset;
+	overflow: hidden;
+	text-overflow: unset;
+	white-space: normal;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+.split .trailing {
+	justify-self: center;
+	color: var(--ink);
+}
+
+.split .close {
+	justify-self: end;
 }
 
 .body {
@@ -88,6 +115,8 @@
 }
 
 .bare .titleBar {
-	padding-top: env(safe-area-inset-top);
-	min-height: calc(48px + env(safe-area-inset-top));
+	padding-top: max(8px, env(safe-area-inset-top));
+	padding-left: max(12px, env(safe-area-inset-left));
+	padding-right: max(12px, env(safe-area-inset-right));
+	min-height: calc(48px + 16px + env(safe-area-inset-top));
 }

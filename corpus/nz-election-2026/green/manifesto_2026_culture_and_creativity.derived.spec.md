@@ -4,7 +4,7 @@ id: green-manifesto-2026-culture-and-creativity-derived
 title: "Culture plan read as a system: a living-wage floor on arts projects and public media without a budget line"
 status: draft
 updated: 2026-08-21
-summary: Living-wage pay on publicly funded arts projects raises project cost or cuts hours; leaving gambling revenue needs a replacement source the policy does not name, and RNZ and Whakaata Māori lifts stay unpriced.
+summary: Living-wage pay on publicly funded arts projects raises project cost or cuts hours; leaving gambling revenue needs a replacement source the page does not name, and RNZ and Whakaata Māori lifts stay unpriced.
 jurisdiction: NZ
 sources:
   - title: Culture and Creativity
@@ -21,13 +21,13 @@ derivesFrom: green-manifesto-2026-culture-and-creativity
 assumptions:
   - requiring the living wage on publicly funded projects either raises project budgets or shrinks hours and headcount for the same envelope
   - arts funding not reliant on gambling revenue needs a replacement source; removing one stream without naming the other leaves a hole
-  - increasing RNZ and Whakaata Māori funding without an amount is a direction, not a measurable lift
-  - no fiscal cost appears in the policy, so none is invented here
+  - increasing Radio New Zealand and Whakaata Māori funding without an amount is a direction, not a measurable lift
+  - no fiscal cost appears on the page, so none is invented here
 ---
 
-# Our understanding
+# Our reading
 
-> The policy funds artists at least the living wage on public projects, stabilises major events, ends gambling dependence for long-term arts money, repatriates taonga, and increases RNZ, Whakaata Māori and community media funding. It states no budget figures or living-wage rate.
+> This is our systems reading of the source page, not the published claim. The page funds artists at least the living wage on public projects, stabilises major events, ends gambling dependence for long-term arts money, repatriates taonga, and increases Radio New Zealand, Whakaata Māori and community media funding. It states no budget figures or living-wage rate. Those readings are ours. We invent no dollar figures.
 
 System: Arts and public media funding without priced lifts
 
@@ -49,4 +49,4 @@ Given steep cuts to Māori arts and broadcasting
 When funding for Radio New Zealand and Whakaata Māori increases alongside community, Māori and Pacific media
 Then non-commercial public media can restore capacity
 Outcome local stories and talent have a stronger broadcast base
-But the increase is unnamed, so the lift cannot be checked from the policy
+But the increase is unnamed, so the lift cannot be checked from the page

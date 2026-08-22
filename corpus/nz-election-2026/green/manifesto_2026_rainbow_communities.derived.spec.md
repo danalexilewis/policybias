@@ -4,7 +4,7 @@ id: green-manifesto-2026-rainbow-communities-derived
 title: "Rainbow plan read as a system: free gender-affirming care and rights law without capacity or cost"
 status: draft
 updated: 2026-08-21
-summary: Free gender-affirming care on informed consent needs workforce and wait rules the policy omits; Human Rights Act clarification changes grounds without saying how complaints are resourced.
+summary: Free gender-affirming care on informed consent needs workforce and wait rules the page omits; Human Rights Act clarification changes grounds without saying how complaints are resourced.
 jurisdiction: NZ
 sources:
   - title: Rainbow Communities
@@ -23,12 +23,12 @@ assumptions:
   - free gender-affirming care without stated capacity, wait targets or cost leaves demand able to outrun supply
   - reversing the puberty blocker ban restores access only when clinical pathways and prescribing rules actually reopen
   - clarifying Human Rights Act grounds widens discrimination claims; without complaint capacity, the right can sit ahead of enforcement
-  - no fiscal cost appears in the policy, so none is invented here
+  - no fiscal cost appears on the page, so none is invented here
 ---
 
-# Our understanding
+# Our reading
 
-> The policy builds rainbow health strategies, free gender-affirming care on informed consent including reversing the puberty blocker ban, Human Rights Act clarification, an intersex surgery ban, and migrant recognition reforms. It states no care cost, wait targets, or commencement for the ban reversal.
+> This is our systems reading of the source page, not the published claim. The page builds rainbow health strategies, free gender-affirming care on informed consent including reversing the puberty blocker ban, Human Rights Act clarification, an intersex surgery ban, and migrant recognition reforms. It states no care cost, wait targets, or commencement for the ban reversal. Those readings are ours. We invent no dollar figures.
 
 System: Rainbow health and rights without capacity figures
 
@@ -36,10 +36,10 @@ Scenario: Free gender-affirming care on informed consent is provided
 When clear pathways for timely, free, non-discriminatory gender-affirming health care based on informed consent are resourced, including reversal of the puberty blocker ban
 Then people seeking that care face no charge and a restored blocker pathway
 Outcome access turns on consent and self-determination rather than a ban
-But without capacity and wait rules, "timely" and "free" can still meet a queue
+But without capacity and wait rules, timely and free can still meet a queue
 
 Scenario: Human Rights Act grounds are clarified
-When the Human Rights Act clarifies that sexual orientation, gender identity and variations in sex characteristics are prohibited grounds of discrimination and Ia Tangata recommendations are implemented
+When the Human Rights Act clarifies that sexual orientation, gender identity and variations of sex characteristics are prohibited grounds of discrimination and Ia Tangata recommendations are implemented
 Then discrimination claims can cite those grounds clearly
 Outcome takatāpui and rainbow people have a sharper legal shield
 But without complaint and tribunal capacity, the clarified right can outrun enforcement
@@ -48,4 +48,4 @@ Scenario: Non-consensual intersex surgeries are prohibited
 When non-consensual and medically unnecessary surgeries or medical interventions on intersex people are prohibited
 Then those interventions stop as a lawful practice
 Outcome intersex bodily integrity is protected by a hard ban
-But the policy names no enforcement path, so monitoring sits outside the published claim
+But the page names no enforcement path, so monitoring sits outside the published claim

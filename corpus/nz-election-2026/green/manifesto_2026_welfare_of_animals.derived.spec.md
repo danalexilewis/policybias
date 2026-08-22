@@ -4,7 +4,7 @@ id: green-manifesto-2026-welfare-of-animals-derived
 title: "Animal welfare plan read as a system: a commissioner and phase-outs without a timetable"
 status: draft
 updated: 2026-08-21
-summary: An Animals Commissioner and ministry need powers and budget the policy omits; phasing out factory farming and related practices without dates leaves industry timing open; import standards shift cost to importers and buyers.
+summary: An Animals Commissioner and ministry need powers and budget the page omits; phasing out factory farming and related practices without dates leaves industry timing open; import standards shift cost to importers and buyers.
 jurisdiction: NZ
 sources:
   - title: Welfare of Animals
@@ -23,12 +23,12 @@ assumptions:
   - a Commissioner for Animals and independent ministry without stated powers and budget are offices until those are written
   - phase-out without a timetable lets harmful practices continue until a later decision sets the end date
   - requiring imports to meet Aotearoa welfare standards raises compliance cost at the border; incidence falls on importers and then buyers
-  - no fiscal cost appears in the policy, so none is invented here
+  - no fiscal cost appears on the page, so none is invented here
 ---
 
-# Our understanding
+# Our reading
 
-> The policy creates a Commissioner for Animals and independent ministry, resources NAWAC for stronger farmed-animal codes, phases out factory farming and related practices, aligns imports to local standards, and extends the live-export ban. It states no commissioner budget, phase-out dates, or import enforcement detail.
+> This is our systems reading of the source page, not the published claim. The page creates a Commissioner for Animals and independent ministry, resources NAWAC for stronger farmed-animal codes, phases out factory farming and related practices, aligns imports to local standards, and extends the live-export ban. It states no commissioner budget, phase-out dates, or import enforcement detail. Those readings are ours. We invent no dollar figures.
 
 System: Animal welfare offices and phase-outs without dates
 
@@ -40,9 +40,9 @@ Outcome cruelty claims have a clearer institutional home
 But without stated powers and budget, the offices are named rather than equipped
 
 Scenario: Factory farming and related practices phase out
-When debeaking, intensive winter grazing, factory farming, octopus farming, farrowing crates and rodeo are phased out
+When debeaking, intensive winter grazing, factory farming, octopus farming, farrowing crates and rodeos are phased out
 Then those practices end as lawful production methods over time
-Outcome animals leave the systems the policy calls harmful
+Outcome animals leave the systems the page calls harmful
 But without a timetable, the phase-out can stretch indefinitely
 
 Scenario: Imports must meet Aotearoa welfare standards

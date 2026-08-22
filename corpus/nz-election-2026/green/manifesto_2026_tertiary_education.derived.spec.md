@@ -16,7 +16,7 @@ clusters:
   - family-income
 money: no-figure
 sourcePath: corpus/nz-election-2026/green/manifesto_2026_tertiary_education.md
-sourceDigest: ""
+sourceDigest: "sha256-da990961e19873ed"
 derivesFrom: green-manifesto-2026-tertiary-education
 assumptions:
   - a universal student income without a stated rate is an entitlement whose fiscal size cannot be checked from the page

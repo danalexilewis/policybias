@@ -17,7 +17,7 @@ clusters:
   - tax-fiscal
 money: no-figure
 sourcePath: corpus/nz-election-2026/green/manifesto_2026_small_business.md
-sourceDigest: ""
+sourceDigest: "sha256-648c69585708dbb5"
 derivesFrom: green-manifesto-2026-small-business
 assumptions:
   - a procurement preference without a quantified share or mandatory rule can be met by guidance that buyers ignore; we treat the page's buy-more commitment as a demand signal without a floor

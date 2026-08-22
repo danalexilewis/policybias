@@ -4,7 +4,7 @@ id: green-manifesto-2026-food-fibre-and-forestry-derived
 title: "Food, fibre and forestry read as a system: transition finance and biodiversity credits without a unit"
 status: draft
 updated: 2026-08-21
-summary: Farmer transition loans and grants need amounts the policy omits; a biodiversity credits scheme without a unit, register or buyer cannot pay; a palm kernel ban shifts feed cost onto intensive dairying.
+summary: Farmer transition loans and grants need amounts the page omits; a biodiversity credits scheme without a unit, register or buyer cannot pay; a palm kernel ban shifts feed cost onto intensive dairying.
 jurisdiction: NZ
 sources:
   - title: Food, Fibre and Forestry
@@ -24,13 +24,13 @@ assumptions:
   - low-interest loans and grants without stated amounts or eligibility leave transition finance as a named tool, not a measured programme
   - a biodiversity credits scheme without a measurable unit, register, buyer and double-counting rule cannot pay landowners; we treat it as an intention until those exist
   - banning palm kernel expeller raises supplementary feed cost for intensive dairying unless a cheaper sustainable substitute is already available
-  - clear-fell controls without thresholds leave the harvesting limit unenforceable from the policy alone
-  - no fiscal cost appears in the policy, so none is invented here
+  - clear-fell controls without thresholds leave the harvesting limit unenforceable from the page alone
+  - no fiscal cost appears on the page, so none is invented here
 ---
 
-# Our understanding
+# Our reading
 
-> The policy finances a regenerative shift with loans and grants, bans palm kernel expeller, controls clear-fell, builds local wood processing and Māori-led forestry, and offers biodiversity credits as a voluntary ETS alternative. It states no loan sizes, credit unit, or clear-fell thresholds.
+> This is our systems reading of the source page, not the published claim. The page finances a regenerative shift with loans and grants, bans palm kernel expeller, controls clear-fell, builds local wood processing and Māori-led forestry, and offers biodiversity credits as a voluntary ETS alternative. It states no loan sizes, credit unit, or clear-fell thresholds. Those readings are ours. We invent no dollar figures.
 
 System: Regenerative transition without priced credits
 

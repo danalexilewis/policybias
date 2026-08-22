@@ -18,7 +18,7 @@ clusters:
   - family-income
 money: no-figure
 sourcePath: corpus/nz-election-2026/green/manifesto_2026_seniors.md
-sourceDigest: ""
+sourceDigest: "sha256-5d7fdde4ac884661"
 derivesFrom: green-manifesto-2026-seniors
 assumptions:
   - a state-owned not-for-profit retirement village scheme needs capital, entry rules and an occupancy model; without them it is a scheme name, not a build programme

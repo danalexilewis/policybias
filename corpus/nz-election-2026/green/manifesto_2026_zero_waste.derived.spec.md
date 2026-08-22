@@ -20,16 +20,16 @@ sourcePath: corpus/nz-election-2026/green/manifesto_2026_zero_waste.md
 sourceDigest: "sha256-6d792e3715117433"
 derivesFrom: green-manifesto-2026-zero-waste
 assumptions:
-  - mandatory product stewardship and a beverage container return scheme move recovery cost onto producers and then onto buyers; incidence is not named in the policy
+  - mandatory product stewardship and a beverage container return scheme move recovery cost onto producers and then onto buyers; incidence is not named on the page
   - increasing the waste levy to international best practice without stating the rate leaves the price signal unset
-  - binding measurable waste reduction targets without published numbers cannot be audited from the policy
+  - binding measurable waste reduction targets without published numbers cannot be audited from the page
   - a waste-to-energy moratorium blocks one disposal path; without diversion capacity, waste still needs somewhere to go
-  - no fiscal cost appears in the policy, so none is invented here
+  - no fiscal cost appears on the page, so none is invented here
 ---
 
-# Our understanding
+# Our reading
 
-> The policy builds a circular economy through mandatory stewardship, a container return scheme, right-to-repair, a higher and consistent waste levy funding minimisation, a waste-to-energy moratorium, and binding reduction targets under Te Tiriti-aware law. It states no levy rate or target numbers.
+> This is our systems reading of the source page, not the published claim. The page builds a circular economy through mandatory stewardship, a container return scheme, right-to-repair, a higher and consistent waste levy funding minimisation, a waste-to-energy moratorium, and binding reduction targets under Te Tiriti-aware law. It states no levy rate or target numbers. Those readings are ours. We invent no dollar figures.
 
 System: Producer responsibility without priced signals
 
@@ -50,4 +50,4 @@ Scenario: Binding waste reduction targets are set
 When binding, measurable and ambitious waste reduction targets are implemented under Waste Minimisation Act reform that gives effect to Te Tiriti
 Then agencies and producers face targets that can be enforced
 Outcome reduction can be checked against the law
-But without published target numbers, ambition cannot be audited from the policy
+But without published target numbers, ambition cannot be audited from the page

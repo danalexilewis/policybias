@@ -1,57 +1,126 @@
+:root {
+	--paper: #fffbe6;
+	--ink: #171717;
+	--accent: #1a0dab;
+	--on-accent: #fff;
+	--muted: #4a4740;
+	--shadow: 4px 4px 0 #171717;
+	--radius: 6px;
+	--font-ui: 'Bricolage Grotesque', system-ui, sans-serif;
+	--font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
 html,
 body {
 	margin: 0;
 	padding: 0;
-	background: #f4f1ea;
-	color: #1a1a1a;
-	font-family: 'Courier New', Courier, monospace;
-	font-size: 15px;
+	min-height: 100%;
+	background: var(--paper);
+	color: var(--ink);
+	font-family: var(--font-ui);
+	font-size: 16px;
 	line-height: 1.45;
 }
 
 body {
-	padding: 24px 28px 32px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
-h1 {
-	margin: 0 0 1.25em;
-	font-size: 15px;
-	font-weight: normal;
+.desktop {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 48px 28px 32px;
 }
 
-.row {
+.window {
+	width: min(42rem, 100%);
+	background: var(--paper);
+	border: 2px solid var(--ink);
+	border-radius: var(--radius);
+	box-shadow: var(--shadow);
+}
+
+.title-bar {
+	display: flex;
+	align-items: center;
+	min-height: 48px;
+	padding: 0 12px;
+	border-bottom: 2px solid var(--ink);
+}
+
+.title {
 	margin: 0;
+	font-family: var(--font-mono);
+	font-size: 0.85rem;
+	font-weight: 600;
+	letter-spacing: 0.04em;
 }
 
-.dir {
-	margin-right: 1.25em;
-	color: #5c574f;
+.window-body {
+	padding: 20px 16px 24px;
 }
 
-.comment {
-	margin-left: 1.5em;
-	color: #5c574f;
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-family: var(--font-mono);
+	font-size: 0.95rem;
 }
 
-a:link {
-	color: #0000ee;
+th,
+td {
+	padding: 0 1.5rem 0.35rem 0;
+	text-align: left;
+	font-weight: 400;
 }
 
+th {
+	padding-bottom: 0.7rem;
+	color: var(--muted);
+	font-weight: 600;
+}
+
+th:last-child,
+td:last-child {
+	padding-right: 0;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+	white-space: nowrap;
+}
+
+th:nth-child(3),
+th:nth-child(4),
+td:nth-child(3),
+td:nth-child(4) {
+	width: 8.5rem;
+	white-space: nowrap;
+}
+
+a:link,
 a:visited {
-	color: #551a8b;
+	color: var(--accent);
 }
 
-a:active {
-	color: #ff0000;
+a:focus-visible {
+	outline: 3px solid var(--ink);
+	outline-offset: 2px;
 }
 
 footer {
-	margin-top: 2.5em;
+	padding: 16px 28px 24px;
+	font-family: var(--font-mono);
 	font-size: 13px;
-	color: #6b645c;
+	color: var(--muted);
+	text-align: center;
 }
 
 footer a:link,
 footer a:visited {
-	color: #6b645c;
+	color: var(--accent);
 }

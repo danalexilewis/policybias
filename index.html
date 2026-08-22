@@ -3,21 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>\\POLICYBIAS</title>
+    <title>Policy Bias</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;600;700&family=IBM+Plex+Mono:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/directory.css" />
   </head>
   <body>
-    <main>
-      <h1>\\POLICYBIAS\</h1>
-      <p class="row">
-        <span class="dir">&lt;DIR&gt;</span>
-        <a href="/nz-election-2026/">nz-election-2026</a>
-        <span class="comment">Guess the party from the policy, not the colour.</span>
-      </p>
+    <main class="desktop">
+      <section class="window" aria-label="Policy Bias">
+        <div class="title-bar">
+          <p class="title">POLICYBIAS</p>
+        </div>
+        <div class="window-body">
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>llms.txt</th>
+                <th>Created</th>
+                <th>Updated</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="/nz-election-2026/">nz-election-2026</a></td>
+                <td><a href="/nz-election-2026/llms.txt">llms.txt</a></td>
+                <td><time datetime="2026-08-21">2026-08-21</time></td>
+                <td><time datetime="2026-08-22">2026-08-22</time></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
     </main>
     <footer>
-      Powered by <a href="https://github.com/danalexilewis/gurki">Gurki</a>
-      · <a href="/api/scores">Public scores</a>
+      Encoded in <a href="https://gurki.nz">Gurki</a>
     </footer>
   </body>
 </html>

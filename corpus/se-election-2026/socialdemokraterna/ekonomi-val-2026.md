@@ -1,16 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Ekonomi - Val 2026"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/ekonomi---val-2026"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/ekonomi---val-2026"
-fetchedAt: "2026-08-22T12:50:36.127Z"
-contentType: "html"
-via: "party-site"
-tags: [economy-tax]
+type: crawled-page
+party: socialdemokraterna
+title: Ekonomi - Val 2026
+sourceUrl: https://www.socialdemokraterna.se/var-politik/ekonomi---val-2026
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/ekonomi---val-2026
+fetchedAt: 2026-08-22T12:50:36.127Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - education
+  - employment
 money: no-figure
 stance: intervention
-licenseNote: "Party copyright; not Gurki MIT"
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 ![sverigekarta](./assets/2-sverigekarta_650-8004c39f.png)

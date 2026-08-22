@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Möt Cristina"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-cristina"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-cristina"
-fetchedAt: "2026-08-22T14:00:13.935Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Möt Cristina
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-cristina
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-cristina
+fetchedAt: 2026-08-22T14:00:13.935Z
+contentType: html
+via: party-site
+tags:
+  - cost-of-living
+  - education
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Hej! Jag heter Cristina.**

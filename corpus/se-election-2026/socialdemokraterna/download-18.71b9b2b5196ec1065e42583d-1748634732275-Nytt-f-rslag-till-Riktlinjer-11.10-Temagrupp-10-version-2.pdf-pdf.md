@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Nytt-f-rslag-till-Riktlinjer-11.10-Temagrupp-10-version-2-4c5afc14.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e42583d/1748634732275/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.10%20Temagrupp%2010%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e42583d/1748634732275/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.10%20Temagrupp%2010%20version%202.pdf"
-fetchedAt: "2026-08-22T13:59:59.419Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Nytt-f-rslag-till-Riktlinjer-11.10-Temagrupp-10-version-2-4c5afc14.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e42583d/1748634732275/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.10%20Temagrupp%2010%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e42583d/1748634732275/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.10%20Temagrupp%2010%20version%202.pdf
+fetchedAt: 2026-08-22T13:59:59.419Z
+contentType: pdf
+via: party-site
+tags:
+  - gender-equality
+  - climate
+  - culture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Nytt-f-rslag-till-Riktlinjer-11.10-Temagrupp-10-version-2-4c5afc14.pdf

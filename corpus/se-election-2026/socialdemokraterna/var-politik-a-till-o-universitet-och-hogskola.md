@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Universitet och högskola"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/universitet-och-hogskola"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/universitet-och-hogskola"
-fetchedAt: "2026-08-22T14:06:19.014Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Universitet och högskola
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/universitet-och-hogskola
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/universitet-och-hogskola
+fetchedAt: 2026-08-22T14:06:19.014Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Din chans att studera vidare på högskola eller universitet ska inte bero på var du bor eller vad dina föräldrar tjänar. Högre utbildning bidrar till utveckling, kunskap och tillväxt och ska vara tillgänglig för alla. Därför behöver utbildningar och forskning av hög kvalitet finnas i hela landet. För Socialdemokraterna är högskolepolitiken både en regional och nationell tillväxtmotor och helt avgörande för att säkra jobben och välfärden där människor bor.

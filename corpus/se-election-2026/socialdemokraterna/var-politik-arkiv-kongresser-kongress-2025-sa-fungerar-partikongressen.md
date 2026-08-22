@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Så fungerar partikongressen"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/sa-fungerar-partikongressen"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/sa-fungerar-partikongressen"
-fetchedAt: "2026-08-22T14:00:12.530Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Så fungerar partikongressen
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/sa-fungerar-partikongressen
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/sa-fungerar-partikongressen
+fetchedAt: 2026-08-22T14:00:12.530Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 #### Partikongressen – så fungerar det demokratiska systemet

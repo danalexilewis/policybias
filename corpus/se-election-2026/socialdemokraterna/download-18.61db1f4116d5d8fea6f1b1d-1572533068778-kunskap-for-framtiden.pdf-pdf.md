@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "kunskap-for-framtiden-6bb2f10e.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b1d/1572533068778/kunskap-for-framtiden.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b1d/1572533068778/kunskap-for-framtiden.pdf"
-fetchedAt: "2026-08-22T14:01:41.715Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: kunskap-for-framtiden-6bb2f10e.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b1d/1572533068778/kunskap-for-framtiden.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b1d/1572533068778/kunskap-for-framtiden.pdf
+fetchedAt: 2026-08-22T14:01:41.715Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # kunskap-for-framtiden-6bb2f10e.pdf

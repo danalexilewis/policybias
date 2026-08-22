@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Protokoll_Partikongressen_2025-6b2d03f1.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.22fa0a9519e3e9b08ba169f/1779265338204/Protokoll_Partikongressen_2025.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.22fa0a9519e3e9b08ba169f/1779265338204/Protokoll_Partikongressen_2025.pdf"
-fetchedAt: "2026-08-22T13:58:14.818Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Protokoll_Partikongressen_2025-6b2d03f1.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.22fa0a9519e3e9b08ba169f/1779265338204/Protokoll_Partikongressen_2025.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.22fa0a9519e3e9b08ba169f/1779265338204/Protokoll_Partikongressen_2025.pdf
+fetchedAt: 2026-08-22T13:58:14.818Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Protokoll_Partikongressen_2025-6b2d03f1.pdf

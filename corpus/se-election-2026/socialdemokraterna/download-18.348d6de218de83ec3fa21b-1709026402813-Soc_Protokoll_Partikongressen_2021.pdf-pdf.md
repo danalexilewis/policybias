@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Soc_Protokoll_Partikongressen_2021-c833fac8.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.348d6de218de83ec3fa21b/1709026402813/Soc_Protokoll_Partikongressen_2021.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.348d6de218de83ec3fa21b/1709026402813/Soc_Protokoll_Partikongressen_2021.pdf"
-fetchedAt: "2026-08-22T14:05:12.721Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Soc_Protokoll_Partikongressen_2021-c833fac8.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.348d6de218de83ec3fa21b/1709026402813/Soc_Protokoll_Partikongressen_2021.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.348d6de218de83ec3fa21b/1709026402813/Soc_Protokoll_Partikongressen_2021.pdf
+fetchedAt: 2026-08-22T14:05:12.721Z
+contentType: pdf
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Soc_Protokoll_Partikongressen_2021-c833fac8.pdf

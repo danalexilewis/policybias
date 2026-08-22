@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Vår politik"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/var-politik"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/var-politik"
-fetchedAt: "2026-08-22T13:57:39.941Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: socialdemokraterna
+title: Vår politik
+sourceUrl: https://www.socialdemokraterna.se/var-politik/var-politik
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/var-politik
+fetchedAt: 2026-08-22T13:57:39.941Z
+contentType: html
+via: party-site
 tags:
-  - "health-care"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - other
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 ## Du har ett val 13 september

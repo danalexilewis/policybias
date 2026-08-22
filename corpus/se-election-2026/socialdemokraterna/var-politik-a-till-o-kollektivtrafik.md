@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kollektivtrafik"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kollektivtrafik"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kollektivtrafik"
-fetchedAt: "2026-08-22T14:03:46.765Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kollektivtrafik
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kollektivtrafik
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kollektivtrafik
+fetchedAt: 2026-08-22T14:03:46.765Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - climate
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Socialdemokraterna anser att en väl utbyggd och välfungerande kollektivtrafik är grunden för en fungerande vardag och för att hela Sverige ska hålla ihop. I ett läge där regionerna tvingas till neddragningar vill Socialdemokraterna garantera att du kan resa tryggt, prisvärt och klimatsmart i hela landet.

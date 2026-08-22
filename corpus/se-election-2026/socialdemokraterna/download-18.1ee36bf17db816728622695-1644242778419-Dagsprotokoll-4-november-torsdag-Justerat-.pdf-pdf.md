@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Dagsprotokoll-4-november---torsdag-Justerat-fa0dccd8.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1ee36bf17db816728622695/1644242778419/Dagsprotokoll%204%20november%20-%20torsdag%20%20(Justerat).pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1ee36bf17db816728622695/1644242778419/Dagsprotokoll%204%20november%20-%20torsdag%20%20(Justerat).pdf"
-fetchedAt: "2026-08-22T14:05:19.665Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Dagsprotokoll-4-november---torsdag-Justerat-fa0dccd8.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1ee36bf17db816728622695/1644242778419/Dagsprotokoll%204%20november%20-%20torsdag%20%20(Justerat).pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1ee36bf17db816728622695/1644242778419/Dagsprotokoll%204%20november%20-%20torsdag%20%20(Justerat).pdf
+fetchedAt: 2026-08-22T14:05:19.665Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Dagsprotokoll-4-november---torsdag-Justerat-fa0dccd8.pdf

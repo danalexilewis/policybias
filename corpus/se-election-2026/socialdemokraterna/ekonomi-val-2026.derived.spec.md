@@ -1,21 +1,24 @@
 ---
 type: spec
 id: socialdemokraterna-ekonomi-val-2026-derived
-title: "Det är dags att ta Sverige på allvar (reading)"
+title: Det är dags att ta Sverige på allvar (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Det är dags att ta Sverige på allvar"
+summary: Our reading of Det är dags att ta Sverige på allvar
 jurisdiction: SE
 sources:
-  - title: "Det är dags att ta Sverige på allvar"
+  - title: Det är dags att ta Sverige på allvar
     url: https://www.socialdemokraterna.se/var-politik/ekonomi---val-2026
-tags: [economy-tax]
+tags:
+  - economy
+  - education
+  - employment
 party: socialdemokraterna
 clusters:
   - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/ekonomi-val-2026.md
-sourceDigest: "sha256-69945ea432fcfd74"
+sourceDigest: sha256-69945ea432fcfd74
 derivesFrom: socialdemokraterna-ekonomi-val-2026
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "4-Dagsprotokoll-31-maj---lo-rdag---justerat-18c8d20c.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b3f/1758634674710/4%20Dagsprotokoll%2031%20maj%20-%20lo%CC%88rdag%20-%20justerat.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b3f/1758634674710/4%20Dagsprotokoll%2031%20maj%20-%20lo%CC%88rdag%20-%20justerat.pdf"
-fetchedAt: "2026-08-22T13:58:08.949Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: 4-Dagsprotokoll-31-maj---lo-rdag---justerat-18c8d20c.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b3f/1758634674710/4%20Dagsprotokoll%2031%20maj%20-%20lo%CC%88rdag%20-%20justerat.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b3f/1758634674710/4%20Dagsprotokoll%2031%20maj%20-%20lo%CC%88rdag%20-%20justerat.pdf
+fetchedAt: 2026-08-22T13:58:08.949Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # 4-Dagsprotokoll-31-maj---lo-rdag---justerat-18c8d20c.pdf

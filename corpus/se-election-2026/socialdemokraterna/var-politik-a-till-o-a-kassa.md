@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "A-kassa"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/a-kassa"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/a-kassa"
-fetchedAt: "2026-08-22T14:06:53.700Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: A-kassa
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/a-kassa
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/a-kassa
+fetchedAt: 2026-08-22T14:06:53.700Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Känner du oro för din ekonomiska trygghet om du skulle bli av med jobbet? I en tid av hög arbetslöshet är det extra viktigt att din försäkring möjliggör att fortsatt ha råd med mat och boende. Den branta avtrappningen av a-kassan som regeringen och SD infört kan vi socialdemokrater aldrig acceptera.**

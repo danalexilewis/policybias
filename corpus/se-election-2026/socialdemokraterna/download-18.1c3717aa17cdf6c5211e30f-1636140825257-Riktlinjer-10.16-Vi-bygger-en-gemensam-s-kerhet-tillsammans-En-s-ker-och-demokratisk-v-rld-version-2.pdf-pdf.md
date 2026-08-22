@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.16-Vi-bygger-en-gemensam-s-kerhet-tillsammans-En-s-ker-och-demokratisk-v-rld-version-2-63719c8a.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e30f/1636140825257/Riktlinjer%2010.16%20Vi%20bygger%20en%20gemensam%20s%C3%A4kerhet%20tillsammans%20%E2%80%93%20En%20s%C3%A4ker%20och%20demokratisk%20v%C3%A4rld%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e30f/1636140825257/Riktlinjer%2010.16%20Vi%20bygger%20en%20gemensam%20s%C3%A4kerhet%20tillsammans%20%E2%80%93%20En%20s%C3%A4ker%20och%20demokratisk%20v%C3%A4rld%20version%202.pdf"
-fetchedAt: "2026-08-22T14:06:05.008Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.16-Vi-bygger-en-gemensam-s-kerhet-tillsammans-En-s-ker-och-demokratisk-v-rld-version-2-63719c8a.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e30f/1636140825257/Riktlinjer%2010.16%20Vi%20bygger%20en%20gemensam%20s%C3%A4kerhet%20tillsammans%20%E2%80%93%20En%20s%C3%A4ker%20och%20demokratisk%20v%C3%A4rld%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e30f/1636140825257/Riktlinjer%2010.16%20Vi%20bygger%20en%20gemensam%20s%C3%A4kerhet%20tillsammans%20%E2%80%93%20En%20s%C3%A4ker%20och%20demokratisk%20v%C3%A4rld%20version%202.pdf
+fetchedAt: 2026-08-22T14:06:05.008Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+  - employment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Riktlinjer-10.16-Vi-bygger-en-gemensam-s-kerhet-tillsammans-En-s-ker-och-demokratisk-v-rld-version-2-63719c8a.pdf

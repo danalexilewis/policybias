@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "security-in-a-new-era---political-guidelines_2017-3602c448.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bb5/1568881616693/security-in-a-new-era---political-guidelines_2017.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bb5/1568881616693/security-in-a-new-era---political-guidelines_2017.pdf"
-fetchedAt: "2026-08-22T14:01:44.413Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: security-in-a-new-era---political-guidelines_2017-3602c448.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bb5/1568881616693/security-in-a-new-era---political-guidelines_2017.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bb5/1568881616693/security-in-a-new-era---political-guidelines_2017.pdf
+fetchedAt: 2026-08-22T14:01:44.413Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # security-in-a-new-era---political-guidelines_2017-3602c448.pdf

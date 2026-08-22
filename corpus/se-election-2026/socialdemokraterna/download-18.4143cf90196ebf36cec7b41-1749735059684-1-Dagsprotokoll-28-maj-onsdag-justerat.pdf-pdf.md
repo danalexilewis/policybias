@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "1-Dagsprotokoll-28-maj---onsdag---justerat-2a263d0f.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b41/1749735059684/1%20Dagsprotokoll%20%2028%20maj%20-%20onsdag%20-%20justerat.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b41/1749735059684/1%20Dagsprotokoll%20%2028%20maj%20-%20onsdag%20-%20justerat.pdf"
-fetchedAt: "2026-08-22T13:58:10.604Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: 1-Dagsprotokoll-28-maj---onsdag---justerat-2a263d0f.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b41/1749735059684/1%20Dagsprotokoll%20%2028%20maj%20-%20onsdag%20-%20justerat.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b41/1749735059684/1%20Dagsprotokoll%20%2028%20maj%20-%20onsdag%20-%20justerat.pdf
+fetchedAt: 2026-08-22T13:58:10.604Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # 1-Dagsprotokoll-28-maj---onsdag---justerat-2a263d0f.pdf

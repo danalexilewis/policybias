@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Skog"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skog"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skog"
-fetchedAt: "2026-08-22T14:06:14.991Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Skog
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skog
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skog
+fetchedAt: 2026-08-22T14:06:14.991Z
+contentType: html
+via: party-site
+tags:
+  - climate
+  - economy
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Sveriges skog är grunden för landsbygdens ekonomi, en viktig resurs i klimatomställningen och ett hem för unik natur. Vill du se till att skogsägare får stabila villkor samtidigt som skogen skyddas för framtida generationer? Socialdemokraterna driver en politik som säkerställer att skogen fortsatt kan skapa jobb och tillväxt i hela landet, ha ett rikt djur- och växtliv och vara ett verktyg för ett fossilfritt Sverige.

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "G---Motioner-och-utla-tanden-a14e1818.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.7262afd919613b6eb33473e2/1744810988550/G%20-%20Motioner%20och%20utla%CC%8Atanden.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.7262afd919613b6eb33473e2/1744810988550/G%20-%20Motioner%20och%20utla%CC%8Atanden.pdf"
-fetchedAt: "2026-08-22T14:00:05.011Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: G---Motioner-och-utla-tanden-a14e1818.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.7262afd919613b6eb33473e2/1744810988550/G%20-%20Motioner%20och%20utla%CC%8Atanden.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.7262afd919613b6eb33473e2/1744810988550/G%20-%20Motioner%20och%20utla%CC%8Atanden.pdf
+fetchedAt: 2026-08-22T14:00:05.011Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - employment
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # G---Motioner-och-utla-tanden-a14e1818.pdf

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "a-jobb-och-tillvaxt-for-framtidstro-e1df0051.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c3f/1568881617650/a-jobb-och-tillvaxt-for-framtidstro.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c3f/1568881617650/a-jobb-och-tillvaxt-for-framtidstro.pdf"
-fetchedAt: "2026-08-22T14:01:50.731Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: a-jobb-och-tillvaxt-for-framtidstro-e1df0051.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c3f/1568881617650/a-jobb-och-tillvaxt-for-framtidstro.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c3f/1568881617650/a-jobb-och-tillvaxt-for-framtidstro.pdf
+fetchedAt: 2026-08-22T14:01:50.731Z
+contentType: pdf
+via: party-site
+tags:
+  - housing
+  - economy
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # a-jobb-och-tillvaxt-for-framtidstro-e1df0051.pdf

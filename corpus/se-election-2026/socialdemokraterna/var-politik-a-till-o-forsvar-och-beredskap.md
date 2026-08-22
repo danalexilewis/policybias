@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Försvar och beredskap"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/forsvar-och-beredskap"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/forsvar-och-beredskap"
-fetchedAt: "2026-08-22T14:02:26.207Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Försvar och beredskap
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/forsvar-och-beredskap
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/forsvar-och-beredskap
+fetchedAt: 2026-08-22T14:02:26.207Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Sverige ska vara tryggt – både i fredstid och i kris eller krig. I en osäker omvärld behöver försvaret stärkas samtidigt som samhället måste fungera även under påfrestningar.

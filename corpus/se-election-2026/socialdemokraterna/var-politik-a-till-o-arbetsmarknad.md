@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Arbetsmarknad"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsmarknad"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsmarknad"
-fetchedAt: "2026-08-22T14:06:57.324Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Arbetsmarknad
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsmarknad
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsmarknad
+fetchedAt: 2026-08-22T14:06:57.324Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Full sysselsättning är grunden för din frihet, din ekonomi och en stark välfärd. Men Sverige har idag en historiskt hög arbetslöshet****, med både lågutbildade och högutbildade som tvingas ut i arbetslöshet****.** **Socialdemokraternas driver politik som ska** **skapa fler bra jobb** **och öka tillväxten****. Om vi har en bra tillväxt och bra med jobb så kan du få en lön som du kan leva på.**

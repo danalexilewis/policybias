@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kongress-2021---PS-fo-rslag-till-Diskussionsordning-211014-0787cbfc.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1ee36bf17db81672862269c/1644243151966/Kongress%202021%20-%20PS%20fo%CC%88rslag%20till%20Diskussionsordning%20%20(211014).pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1ee36bf17db81672862269c/1644243151966/Kongress%202021%20-%20PS%20fo%CC%88rslag%20till%20Diskussionsordning%20%20(211014).pdf"
-fetchedAt: "2026-08-22T14:05:08.833Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kongress-2021---PS-fo-rslag-till-Diskussionsordning-211014-0787cbfc.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1ee36bf17db81672862269c/1644243151966/Kongress%202021%20-%20PS%20fo%CC%88rslag%20till%20Diskussionsordning%20%20(211014).pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1ee36bf17db81672862269c/1644243151966/Kongress%202021%20-%20PS%20fo%CC%88rslag%20till%20Diskussionsordning%20%20(211014).pdf
+fetchedAt: 2026-08-22T14:05:08.833Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Kongress-2021---PS-fo-rslag-till-Diskussionsordning-211014-0787cbfc.pdf

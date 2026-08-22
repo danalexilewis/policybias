@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kongresshandlingar"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021/kongresshandlingar"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021/kongresshandlingar"
-fetchedAt: "2026-08-22T14:05:06.579Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kongresshandlingar
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021/kongresshandlingar
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021/kongresshandlingar
+fetchedAt: 2026-08-22T14:05:06.579Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Arbetsordning, dagordning och diskussionsordning

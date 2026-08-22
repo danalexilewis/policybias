@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "kongressprotokoll_2019-17598c5a.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b18/1572532938222/kongressprotokoll_2019.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b18/1572532938222/kongressprotokoll_2019.pdf"
-fetchedAt: "2026-08-22T14:01:40.697Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: kongressprotokoll_2019-17598c5a.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b18/1572532938222/kongressprotokoll_2019.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b18/1572532938222/kongressprotokoll_2019.pdf
+fetchedAt: 2026-08-22T14:01:40.697Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # kongressprotokoll_2019-17598c5a.pdf

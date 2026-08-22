@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kongress 2021"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021"
-fetchedAt: "2026-08-22T14:00:18.378Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kongress 2021
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021
+fetchedAt: 2026-08-22T14:00:18.378Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Partikongressen - så fungerar det demokratiska systemet

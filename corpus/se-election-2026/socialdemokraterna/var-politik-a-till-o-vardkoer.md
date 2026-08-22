@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Vårdköer"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vardkoer"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vardkoer"
-fetchedAt: "2026-08-22T14:06:25.270Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Vårdköer
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vardkoer
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vardkoer
+fetchedAt: 2026-08-22T14:06:25.270Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 När du eller någon i din familj blir sjuk ska ni kunna lita på att hjälp finns nära och att ni får vård snabbt. Idag är vårdköerna till operationer och specialistvård oacceptabelt långa, vilket skapar en otrygghet i din vardag. Socialdemokrater arbetar för att korta väntetiderna i hela landet så att dina medicinska behov, och inte storleken på din plånbok, avgör hur snabbt du får hjälp.

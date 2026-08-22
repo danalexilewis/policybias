@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Partistyrelsens-fo-rslag-till-Diskussionsordning-d8e908b8.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1549e8661967fe786bb9ff/1746006555205/Partistyrelsens%20fo%CC%88rslag%20till%20Diskussionsordning.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1549e8661967fe786bb9ff/1746006555205/Partistyrelsens%20fo%CC%88rslag%20till%20Diskussionsordning.pdf"
-fetchedAt: "2026-08-22T13:58:03.422Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Partistyrelsens-fo-rslag-till-Diskussionsordning-d8e908b8.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1549e8661967fe786bb9ff/1746006555205/Partistyrelsens%20fo%CC%88rslag%20till%20Diskussionsordning.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1549e8661967fe786bb9ff/1746006555205/Partistyrelsens%20fo%CC%88rslag%20till%20Diskussionsordning.pdf
+fetchedAt: 2026-08-22T13:58:03.422Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Partistyrelsens-fo-rslag-till-Diskussionsordning-d8e908b8.pdf

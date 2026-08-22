@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Dagsprotokoll-Onsdag-den-3-november-Justerad-a0f3102b.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672666/1636061216856/Dagsprotokoll%20Onsdag%20den%203%20november%20Justerad.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672666/1636061216856/Dagsprotokoll%20Onsdag%20den%203%20november%20Justerad.pdf"
-fetchedAt: "2026-08-22T14:05:15.217Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Dagsprotokoll-Onsdag-den-3-november-Justerad-a0f3102b.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672666/1636061216856/Dagsprotokoll%20Onsdag%20den%203%20november%20Justerad.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672666/1636061216856/Dagsprotokoll%20Onsdag%20den%203%20november%20Justerad.pdf
+fetchedAt: 2026-08-22T14:05:15.217Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - elderly-care
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Dagsprotokoll-Onsdag-den-3-november-Justerad-a0f3102b.pdf

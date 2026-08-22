@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.7-Vi-bygger-ett-land-som-ha-ller-ihop-Barnen-a-r-va-rt-gemensamma-ansvar-ny-version-b7bb9f22.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672605/1636058901551/Riktlinjer%2010.7%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20Barnen%20a%CC%88r%20va%CC%8Art%20gemensamma%20ansvar%20ny%20version.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672605/1636058901551/Riktlinjer%2010.7%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20Barnen%20a%CC%88r%20va%CC%8Art%20gemensamma%20ansvar%20ny%20version.pdf"
-fetchedAt: "2026-08-22T14:05:40.822Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.7-Vi-bygger-ett-land-som-ha-ller-ihop-Barnen-a-r-va-rt-gemensamma-ansvar-ny-version-b7bb9f22.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672605/1636058901551/Riktlinjer%2010.7%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20Barnen%20a%CC%88r%20va%CC%8Art%20gemensamma%20ansvar%20ny%20version.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672605/1636058901551/Riktlinjer%2010.7%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20Barnen%20a%CC%88r%20va%CC%8Art%20gemensamma%20ansvar%20ny%20version.pdf
+fetchedAt: 2026-08-22T14:05:40.822Z
+contentType: pdf
+via: party-site
+tags:
+  - social-welfare
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Riktlinjer-10.7-Vi-bygger-ett-land-som-ha-ller-ihop-Barnen-a-r-va-rt-gemensamma-ansvar-ny-version-b7bb9f22.pdf

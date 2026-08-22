@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kemikalier"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kemikalier"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kemikalier"
-fetchedAt: "2026-08-22T14:03:44.321Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kemikalier
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kemikalier
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kemikalier
+fetchedAt: 2026-08-22T14:03:44.321Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Farliga kemikalier och gifter hotar inte bara den svenska naturen, utan även din hälsa och det vatten du dricker. Socialdemokraterna anser att kemikaliepolitiken måste ta en ny, kraftfull inriktning för att vända utvecklingen och skapa en giftfri miljö. Socialdemokraterna driver på för att hormonstörande ämnen som PFAS ska fasas ut snabbt, så att du och dina barn kan växa upp trygga.**

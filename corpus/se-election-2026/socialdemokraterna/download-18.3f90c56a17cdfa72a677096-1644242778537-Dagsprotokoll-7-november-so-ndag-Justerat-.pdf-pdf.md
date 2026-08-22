@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Dagsprotokoll-7-november---so-ndag-Justerat-9c08c831.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a677096/1644242778537/Dagsprotokoll%207%20november%20-%20so%CC%88ndag%20(Justerat).pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a677096/1644242778537/Dagsprotokoll%207%20november%20-%20so%CC%88ndag%20(Justerat).pdf"
-fetchedAt: "2026-08-22T14:05:18.070Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Dagsprotokoll-7-november---so-ndag-Justerat-9c08c831.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a677096/1644242778537/Dagsprotokoll%207%20november%20-%20so%CC%88ndag%20(Justerat).pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a677096/1644242778537/Dagsprotokoll%207%20november%20-%20so%CC%88ndag%20(Justerat).pdf
+fetchedAt: 2026-08-22T14:05:18.070Z
+contentType: pdf
+via: party-site
+tags:
+  - other
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Dagsprotokoll-7-november---so-ndag-Justerat-9c08c831.pdf

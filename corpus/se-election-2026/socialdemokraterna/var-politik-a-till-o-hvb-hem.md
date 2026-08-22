@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "HVB-hem"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/hvb-hem"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/hvb-hem"
-fetchedAt: "2026-08-22T14:03:40.224Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: HVB-hem
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/hvb-hem
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/hvb-hem
+fetchedAt: 2026-08-22T14:03:40.224Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Trots att HVB-hem ska erbjuda vård och trygghet har det blivit ett marknadsmisslyckande där gängkriminella driver HVB-hem, rekryterar unga in i gängvåld och dina skattepengar försvinner. Du ska kunna lita på att samhällets resurser går till barnen och deras välfärd, inte till oseriösa aktörer, gängkriminella och riskkapitalister. Samhället måste agera kraftfullt för att ta tillbaka kontrollen över HVB-hemmen.

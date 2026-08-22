@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.15-Vi-bygger-landet-starkt-och-h-llbart-Hela-landet-ska-byggas-version-2-89d236aa.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e489/1636150746114/Riktlinjer%2010.15%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20Hela%20landet%20ska%20byggas%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e489/1636150746114/Riktlinjer%2010.15%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20Hela%20landet%20ska%20byggas%20version%202.pdf"
-fetchedAt: "2026-08-22T14:05:31.497Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.15-Vi-bygger-landet-starkt-och-h-llbart-Hela-landet-ska-byggas-version-2-89d236aa.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e489/1636150746114/Riktlinjer%2010.15%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20Hela%20landet%20ska%20byggas%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e489/1636150746114/Riktlinjer%2010.15%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20Hela%20landet%20ska%20byggas%20version%202.pdf
+fetchedAt: 2026-08-22T14:05:31.497Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - social-welfare
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Riktlinjer-10.15-Vi-bygger-landet-starkt-och-h-llbart-Hela-landet-ska-byggas-version-2-89d236aa.pdf

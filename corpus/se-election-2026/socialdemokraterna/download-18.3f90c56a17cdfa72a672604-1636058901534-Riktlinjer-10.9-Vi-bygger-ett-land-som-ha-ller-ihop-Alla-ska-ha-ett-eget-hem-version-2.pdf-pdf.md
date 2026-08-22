@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.9-Vi-bygger-ett-land-som-ha-ller-ihop-Alla-ska-ha-ett-eget-hem-version-2-52bfe35e.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672604/1636058901534/Riktlinjer%2010.9%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20Alla%20ska%20ha%20ett%20eget%20hem%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672604/1636058901534/Riktlinjer%2010.9%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20Alla%20ska%20ha%20ett%20eget%20hem%20version%202.pdf"
-fetchedAt: "2026-08-22T14:05:42.378Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.9-Vi-bygger-ett-land-som-ha-ller-ihop-Alla-ska-ha-ett-eget-hem-version-2-52bfe35e.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672604/1636058901534/Riktlinjer%2010.9%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20Alla%20ska%20ha%20ett%20eget%20hem%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672604/1636058901534/Riktlinjer%2010.9%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20Alla%20ska%20ha%20ett%20eget%20hem%20version%202.pdf
+fetchedAt: 2026-08-22T14:05:42.378Z
+contentType: pdf
+via: party-site
+tags:
+  - housing
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Riktlinjer-10.9-Vi-bygger-ett-land-som-ha-ller-ihop-Alla-ska-ha-ett-eget-hem-version-2-52bfe35e.pdf

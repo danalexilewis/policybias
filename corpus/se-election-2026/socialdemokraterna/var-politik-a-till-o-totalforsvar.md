@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Totalförsvar"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/totalforsvar"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/totalforsvar"
-fetchedAt: "2026-08-22T14:06:18.257Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Totalförsvar
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/totalforsvar
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/totalforsvar
+fetchedAt: 2026-08-22T14:06:18.257Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Känner du dig orolig för det allvarliga säkerhetsläget i Europa och världen? Totalförsvaret är samhällets yttersta skydd för din trygghet, frihet och demokrati. Det handlar om att få ordning på hela Sveriges beredskap – från militär förmåga till skydd av civilbefolkningen – så att samhället finns där för dig när det behövs som mest. Socialdemokraterna driver på för en snabb utbyggnad av totalförsvaret.

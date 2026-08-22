@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Israel och Palestina"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/israel-och-palestina"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/israel-och-palestina"
-fetchedAt: "2026-08-22T14:03:42.026Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Israel och Palestina
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/israel-och-palestina
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/israel-och-palestina
+fetchedAt: 2026-08-22T14:03:42.026Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **För oss socialdemokrater är det självklart att Sverige ska ta en aktiv roll i Mellanöstern. Sverige har erkänt staten Palestina. När konfliktnivån i Mellanöstern höjs ska Sverige vara med och verka för avspänning och dialog i regionen. Sverige ska verka för långsiktig fred och en tvåstatslösning, där Israel och Palestina kan leva som två självständiga demokratiska stater med internationellt erkända gränser.**

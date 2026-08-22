@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Fo-rslag-till-stadgekommitte-8eb2616b.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4819/1744808484844/Fo%CC%88rslag%20till%20stadgekommitte%CC%81.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4819/1744808484844/Fo%CC%88rslag%20till%20stadgekommitte%CC%81.pdf"
-fetchedAt: "2026-08-22T14:00:11.448Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Fo-rslag-till-stadgekommitte-8eb2616b.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4819/1744808484844/Fo%CC%88rslag%20till%20stadgekommitte%CC%81.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4819/1744808484844/Fo%CC%88rslag%20till%20stadgekommitte%CC%81.pdf
+fetchedAt: 2026-08-22T14:00:11.448Z
+contentType: pdf
+via: party-site
+tags:
+  - other
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Fo-rslag-till-stadgekommitte-8eb2616b.pdf

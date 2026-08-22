@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Krisberedskap"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/krisberedskap"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/krisberedskap"
-fetchedAt: "2026-08-22T14:04:48.440Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Krisberedskap
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/krisberedskap
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/krisberedskap
+fetchedAt: 2026-08-22T14:04:48.440Z
+contentType: html
+via: party-site
+tags:
+  - defence
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Känner du dig förberedd om en allvarlig kris eller ett strömavbrott skulle slå ut viktiga samhällsfunktioner? Din trygghet beror på en fungerande krisberedskap – från vattenförsörjning till sjukhusvård. Socialdemokraterna vill få ordning på beredskapen genom att investera stort i Sveriges totalförsvar, så att samhället finns där för dig när det behövs som mest.

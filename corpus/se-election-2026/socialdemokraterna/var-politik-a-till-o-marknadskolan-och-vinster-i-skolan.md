@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Marknadskolan och vinster i skolan"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/marknadskolan-och-vinster-i-skolan"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/marknadskolan-och-vinster-i-skolan"
-fetchedAt: "2026-08-22T14:04:54.905Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Marknadskolan och vinster i skolan
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/marknadskolan-och-vinster-i-skolan
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/marknadskolan-och-vinster-i-skolan
+fetchedAt: 2026-08-22T14:04:54.905Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Idag är svensk skola unik i världen genom att tillåta obegränsad vinstjakt i den offentligt finansierade skolan. Marknadsskolan leder till enorma läckage av skattemedel, ökade klyftor och sämre kvalitet. Skolan har blivit Sveriges värsta marknadsmisslyckande. Socialdemokrater vill att samhället tar tillbaka kontrollen över skolan och att vinster förbjuds, så att skolans fokus blir fler lärare, kunskap och en bra utbildning för varje elev.**

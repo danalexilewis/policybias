@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Utrikes- och säkerhetspolitik"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/utrikes--och-sakerhetspolitik"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/utrikes--och-sakerhetspolitik"
-fetchedAt: "2026-08-22T14:06:19.308Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Utrikes- och säkerhetspolitik
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/utrikes--och-sakerhetspolitik
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/utrikes--och-sakerhetspolitik
+fetchedAt: 2026-08-22T14:06:19.308Z
+contentType: html
+via: party-site
+tags:
+  - defence
+  - foreign-policy
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 I en tid där krig och konflikter sprider osäkerhet globalt är det viktigare än någonsin att Sverige är en stark röst för fred och demokrati. Sveriges säkerhet behöver stärkas genom aktiv diplomati, starka allianser som EU och Nato, samt konsekvent internationell solidaritet.

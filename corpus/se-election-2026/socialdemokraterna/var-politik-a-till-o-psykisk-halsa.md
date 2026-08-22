@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Psykisk hälsa"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/psykisk-halsa"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/psykisk-halsa"
-fetchedAt: "2026-08-22T14:05:05.537Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Psykisk hälsa
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/psykisk-halsa
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/psykisk-halsa
+fetchedAt: 2026-08-22T14:05:05.537Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Mår du eller någon i din närhet dåligt ska vägen till hjälp vara kort och enkel. Psykisk hälsa handlar om din trygghet i vardagen, och Socialdemokrater vill att du ska kunna lita på att samhället finns där med rätt stöd i rätt tid. Genom att satsa på tidiga insatser och korta köerna till psykiatrin kan vi vända utvecklingen och skapa ett Sverige där alla mår bättre.**

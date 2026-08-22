@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Ungdomsarbetslöshet"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/ungdomsarbetsloshet"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/ungdomsarbetsloshet"
-fetchedAt: "2026-08-22T14:06:18.783Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Ungdomsarbetslöshet
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/ungdomsarbetsloshet
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/ungdomsarbetsloshet
+fetchedAt: 2026-08-22T14:06:18.783Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Ungdomsarbetslösheten i Sverige är på mycket höga nivåer. Vi ser allvarligt på den höga ungdomsarbetslösheten. Ingen ung ska börja sitt vuxenliv i långtidsarbetslöshet. Det krävs en offensiv politik som skapar fler vägar till jobb och ger ungahopp om framtiden.

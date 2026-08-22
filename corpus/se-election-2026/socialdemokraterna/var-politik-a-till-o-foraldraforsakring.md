@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Föräldraförsäkring"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/foraldraforsakring"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/foraldraforsakring"
-fetchedAt: "2026-08-22T14:02:26.520Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Föräldraförsäkring
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/foraldraforsakring
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/foraldraforsakring
+fetchedAt: 2026-08-22T14:02:26.520Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+  - crime-and-justice
+  - pensions
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Din föräldraförsäkring ska bidra till ekonomisk trygghet samtidigt som den främjar ett jämställt föräldraskap. Sverige har en av världens mest generösa försäkringar, men ojämlikheten i uttaget slår hårt mot kvinnors livslöner och pensioner. Socialdemokraterna vill se reformer som garanterar att alla barn får en nära relation till båda sina föräldrar och att systemet skyddas från fusk.**

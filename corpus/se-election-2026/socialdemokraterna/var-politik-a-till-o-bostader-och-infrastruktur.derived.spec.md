@@ -1,21 +1,22 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-a-till-o-bostader-och-infrastruktur-derived
-title: "Bostäder och infrastruktur (reading)"
+title: Bostäder och infrastruktur (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Bostäder och infrastruktur"
+summary: Our reading of Bostäder och infrastruktur
 jurisdiction: SE
 sources:
-  - title: "Bostäder och infrastruktur"
+  - title: Bostäder och infrastruktur
     url: https://www.socialdemokraterna.se/var-politik/a-till-o/bostader-och-infrastruktur
-tags: [defence-security]
+tags:
+  - housing
 party: socialdemokraterna
 clusters:
-  - defence-security
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-a-till-o-bostader-och-infrastruktur.md
-sourceDigest: "sha256-b002a4730413541f"
+sourceDigest: sha256-b002a4730413541f
 derivesFrom: socialdemokraterna-var-politik-a-till-o-bostader-och-infrastruktur
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

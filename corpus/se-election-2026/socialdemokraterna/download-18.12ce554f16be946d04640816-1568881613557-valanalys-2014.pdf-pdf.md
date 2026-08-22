@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "valanalys-2014-20625188.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640816/1568881613557/valanalys-2014.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640816/1568881613557/valanalys-2014.pdf"
-fetchedAt: "2026-08-22T13:57:53.127Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: valanalys-2014-20625188.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640816/1568881613557/valanalys-2014.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640816/1568881613557/valanalys-2014.pdf
+fetchedAt: 2026-08-22T13:57:53.127Z
+contentType: pdf
+via: party-site
+tags:
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # valanalys-2014-20625188.pdf

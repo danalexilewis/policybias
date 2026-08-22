@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "HBTQ+"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/hbtq-"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/hbtq-"
-fetchedAt: "2026-08-22T14:03:39.741Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: HBTQ+
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/hbtq-
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/hbtq-
+fetchedAt: 2026-08-22T14:03:39.741Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vi socialdemokrater slår fast att din sexuella läggning eller könsidentitet aldrig ska begränsa din möjlighet att växa och utvecklas. Vi kräver ett samhälle som kraftfullt bekämpar hatbrott och skyddar din rätt att älska vem du vill.**

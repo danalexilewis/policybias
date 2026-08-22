@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Nya-f-rslag-till-Riktlinjer-11.6-Temagrupp-6-version-2-c702a8c7.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.67e6455196ebe40566aca2/1748531031699/Nya%20f%3Frslag%20till%20Riktlinjer%2011.6%20Temagrupp%206%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.67e6455196ebe40566aca2/1748531031699/Nya%20f%3Frslag%20till%20Riktlinjer%2011.6%20Temagrupp%206%20version%202.pdf"
-fetchedAt: "2026-08-22T13:59:16.602Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Nya-f-rslag-till-Riktlinjer-11.6-Temagrupp-6-version-2-c702a8c7.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.67e6455196ebe40566aca2/1748531031699/Nya%20f%3Frslag%20till%20Riktlinjer%2011.6%20Temagrupp%206%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.67e6455196ebe40566aca2/1748531031699/Nya%20f%3Frslag%20till%20Riktlinjer%2011.6%20Temagrupp%206%20version%202.pdf
+fetchedAt: 2026-08-22T13:59:16.602Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Nya-f-rslag-till-Riktlinjer-11.6-Temagrupp-6-version-2-c702a8c7.pdf

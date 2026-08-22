@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "3-Dagsprotokoll-30-maj---fredag---justerat-2cec7b37.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e42af81/1758634674734/3%20Dagsprotokoll%2030%20maj%20-%20fredag%20-%20justerat.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e42af81/1758634674734/3%20Dagsprotokoll%2030%20maj%20-%20fredag%20-%20justerat.pdf"
-fetchedAt: "2026-08-22T13:58:07.947Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: 3-Dagsprotokoll-30-maj---fredag---justerat-2cec7b37.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e42af81/1758634674734/3%20Dagsprotokoll%2030%20maj%20-%20fredag%20-%20justerat.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e42af81/1758634674734/3%20Dagsprotokoll%2030%20maj%20-%20fredag%20-%20justerat.pdf
+fetchedAt: 2026-08-22T13:58:07.947Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # 3-Dagsprotokoll-30-maj---fredag---justerat-2cec7b37.pdf

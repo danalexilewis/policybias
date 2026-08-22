@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "valmanifest-tabell---180826-9c92e7c0.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04641323/1568881590643/valmanifest-tabell---180826.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04641323/1568881590643/valmanifest-tabell---180826.pdf"
-fetchedAt: "2026-08-22T13:57:59.393Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: valmanifest-tabell---180826-9c92e7c0.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04641323/1568881590643/valmanifest-tabell---180826.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04641323/1568881590643/valmanifest-tabell---180826.pdf
+fetchedAt: 2026-08-22T13:57:59.393Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # valmanifest-tabell---180826-9c92e7c0.pdf

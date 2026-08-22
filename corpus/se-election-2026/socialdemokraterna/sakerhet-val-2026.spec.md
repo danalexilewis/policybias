@@ -1,21 +1,26 @@
 ---
 type: spec
 id: socialdemokraterna-sakerhet-val-2026
-title: "Det är dags att ta Sverige på allvar"
+title: Det är dags att ta Sverige på allvar
 status: draft
 updated: 2026-08-22
-summary: "En unikt allvarlig situation kräver ett nytt angreppssätt. Gängens nyrekrytering ska hindras med ökad övervakning, punktmarkering av ungdomar i riskzon och ett riskfamiljsprogram. Arbetslivskriminaliteten ska bekämpas och fiffel med skatter, arbetsvillkor och utnyttjandet av arbe"
+summary: En unikt allvarlig situation kräver ett nytt angreppssätt. Gängens
+  nyrekrytering ska hindras med ökad övervakning, punktmarkering av ungdomar i riskzon
+  och ett riskfamiljsprogram. Arbetslivskriminaliteten ska bekämpas och fiffel med
+  skatter, arbetsvillkor och utnyttjandet av arbe
 jurisdiction: SE
 sources:
-  - title: "Det är dags att ta Sverige på allvar"
+  - title: Det är dags att ta Sverige på allvar
     url: https://www.socialdemokraterna.se/var-politik/sakerhet---val-2026
-tags: [crime-justice]
+tags:
+  - crime-and-justice
+  - defence
 party: socialdemokraterna
 clusters:
   - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/sakerhet-val-2026.md
-sourceDigest: "sha256-8360c9fca07ee39d"
+sourceDigest: sha256-8360c9fca07ee39d
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

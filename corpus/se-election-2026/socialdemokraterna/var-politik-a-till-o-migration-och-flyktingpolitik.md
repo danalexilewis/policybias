@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Migration och flyktingpolitik"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/migration-och-flyktingpolitik"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/migration-och-flyktingpolitik"
-fetchedAt: "2026-08-22T14:04:56.548Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Migration och flyktingpolitik
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/migration-och-flyktingpolitik
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/migration-och-flyktingpolitik
+fetchedAt: 2026-08-22T14:04:56.548Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sveriges migrationspolitik ska vara stram. Socialdemokraterna värnar asylrätten, men vill se ordning och reda i mottagandet och krafttag för att bryta segregationen i hela landet.**

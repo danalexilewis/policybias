@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Arbetslivskriminalitet"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetslivskriminalitet"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetslivskriminalitet"
-fetchedAt: "2026-08-22T14:06:56.439Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Arbetslivskriminalitet
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetslivskriminalitet
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetslivskriminalitet
+fetchedAt: 2026-08-22T14:06:56.439Z
+contentType: html
+via: party-site
+tags:
+  - employment
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Du som företagare ska kunna konkurrera på lika villkor och inte slås ut av skurkföretag som drivs med illegal arbetskraft, svartjobb eller bidragsbrott. Du som kund ska vara säker på att du köper en seriös och laglig tjänst med schyssta villkor som inte främjar organiserad brottslighet eller slavliknande människohandel. Det krävs krafttag för att få ordning och reda på svensk arbetsmarknad. Vi socialdemokrater tycker att det ska vara svårt att fuska, lätt att åka fast och kännbart att straffas.**

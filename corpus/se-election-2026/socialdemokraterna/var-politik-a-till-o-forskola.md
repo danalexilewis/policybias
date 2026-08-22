@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Förskola"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/forskola"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/forskola"
-fetchedAt: "2026-08-22T14:02:25.963Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Förskola
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/forskola
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/forskola
+fetchedAt: 2026-08-22T14:02:25.963Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Förskolan ska erbjuda alla barn en bra och lärorik start i livet. Idag bedrivs vinstjakt** **även bland våra minsta barn vilket leder till mindre personal och sämre** **förskolemiljö. Socialdemokraterna vill ta tillbaka kontrollen över förskolan.** **Vinstjakt och religiös påverkan ska förbjudas och vi vill reglera så att alla förskolor** **är väl bemannade. Så skapar vi en lärorik, trygg och stimulerande förskola där** **personalen har tid att se alla barn.**

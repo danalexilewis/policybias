@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Idrott"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/idrott"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/idrott"
-fetchedAt: "2026-08-22T14:03:40.478Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Idrott
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/idrott
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/idrott
+fetchedAt: 2026-08-22T14:03:40.478Z
+contentType: html
+via: party-site
+tags:
+  - culture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Om du idrottat eller har barn som idrottat i Sverige så vet du hur viktig de ideella idrottsföreningarna är för folkhälsan. Den ideellt drivna idrottsrörelsen är en viktig kraft för både integration och social gemenskap i hela landet. Vi vill garantera alla barn och unga rätten till rörelse, oavsett din bakgrund eller familjens ekonomi.**

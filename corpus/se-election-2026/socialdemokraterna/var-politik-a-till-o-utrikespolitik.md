@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Utrikespolitik"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/utrikespolitik"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/utrikespolitik"
-fetchedAt: "2026-08-22T14:06:19.544Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Utrikespolitik
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/utrikespolitik
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/utrikespolitik
+fetchedAt: 2026-08-22T14:06:19.544Z
+contentType: html
+via: party-site
+tags:
+  - foreign-policy
+  - defence
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Det som händer i världen påverkar din trygghet, ekonomi och framtid. Vi lever i en tid präglad av krig, konflikter, klimatförändringar och fattigdom globalt. Det som händer i omvärlden får direkta konsekvenser även i Sverige. Det nya omvärldsläget kräver en aktiv svensk utrikespolitik som står upp för fred, demokrati och svenska intressen.

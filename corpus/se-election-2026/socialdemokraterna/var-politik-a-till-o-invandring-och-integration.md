@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Invandring och integration"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/invandring-och-integration"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/invandring-och-integration"
-fetchedAt: "2026-08-22T14:03:41.286Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Invandring och integration
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/invandring-och-integration
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/invandring-och-integration
+fetchedAt: 2026-08-22T14:03:41.286Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Vill du att Sverige ska vara ett land som håller ihop, där alla som bor här kan prata svenska och har ett jobb att gå till? För att bryta segregationen och öka tryggheten i ditt bostadsområde krävs en stram och rimlig migrationspolitik med tydliga krav på den som är ny i landet. Genom att prioritera ordning och reda framför oordnat mottagande kan vi bygga en starkare samhällsgemenskap för alla.

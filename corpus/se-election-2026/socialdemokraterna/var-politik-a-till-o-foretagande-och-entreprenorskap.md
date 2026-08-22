@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Företagande och entreprenörskap"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/foretagande-och-entreprenorskap"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/foretagande-och-entreprenorskap"
-fetchedAt: "2026-08-22T14:02:25.670Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Företagande och entreprenörskap
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/foretagande-och-entreprenorskap
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/foretagande-och-entreprenorskap
+fetchedAt: 2026-08-22T14:02:25.670Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige har halkat efter i tillväxten och konkurserna har skenat sedan 2022. Framgångsrikt entreprenörskap är grunden för vår välfärd och din ekonomi. Socialdemokraterna vill se en offensiv politik som ger ditt företag långsiktiga förutsättningar att växa.**

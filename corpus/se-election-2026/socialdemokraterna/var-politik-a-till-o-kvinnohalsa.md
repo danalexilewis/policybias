@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kvinnohälsa"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kvinnohalsa"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kvinnohalsa"
-fetchedAt: "2026-08-22T14:04:51.524Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kvinnohälsa
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kvinnohalsa
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kvinnohalsa
+fetchedAt: 2026-08-22T14:04:51.524Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Du ska kunna lita på att vården finns där för dig genom hela livet, från den första mensen till klimakteriet och genom en trygg förlossning. Socialdemokrater arbetar för att stärka kvinnohälsan och se till att din kropp och dina behov prioriteras i varje möte med sjukvården. Genom att investera mer i förlossningsvården och kvinnosjukvården skapar vi en tryggare vardag för alla kvinnor i Sverige.**

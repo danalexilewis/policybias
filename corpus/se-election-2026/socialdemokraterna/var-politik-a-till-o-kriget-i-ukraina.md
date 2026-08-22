@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kriget i Ukraina"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kriget-i-ukraina"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kriget-i-ukraina"
-fetchedAt: "2026-08-22T14:04:47.721Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kriget i Ukraina
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kriget-i-ukraina
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kriget-i-ukraina
+fetchedAt: 2026-08-22T14:04:47.721Z
+contentType: html
+via: party-site
+tags:
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Ryssland har i och med sitt invasionskrig mot Ukraina lämnat den europeiska säkerhetsordningen, och därmed har Europa blivit en avsevärt farligare plats. För hela Europas stabilitet måste demokratierna i väst vara enade mot Rysslands imperialistiska politik, och stödja Ukraina i kampen för sitt oberoende och självständighet. Socialdemokraterna fortsätter att stå sida vid sida med Ukraina, för Ukrainas rätt till frihet och demokrati.**

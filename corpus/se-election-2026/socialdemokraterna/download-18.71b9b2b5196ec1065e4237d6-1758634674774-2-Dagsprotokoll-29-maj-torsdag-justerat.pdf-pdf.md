@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "2-Dagsprotokoll-29-maj---torsdag---justerat-c61f490a.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e4237d6/1758634674774/2%20Dagsprotokoll%2029%20maj%20-%20torsdag%20-%20justerat.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e4237d6/1758634674774/2%20Dagsprotokoll%2029%20maj%20-%20torsdag%20-%20justerat.pdf"
-fetchedAt: "2026-08-22T13:58:07.265Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: 2-Dagsprotokoll-29-maj---torsdag---justerat-c61f490a.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e4237d6/1758634674774/2%20Dagsprotokoll%2029%20maj%20-%20torsdag%20-%20justerat.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e4237d6/1758634674774/2%20Dagsprotokoll%2029%20maj%20-%20torsdag%20-%20justerat.pdf
+fetchedAt: 2026-08-22T13:58:07.265Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # 2-Dagsprotokoll-29-maj---torsdag---justerat-c61f490a.pdf

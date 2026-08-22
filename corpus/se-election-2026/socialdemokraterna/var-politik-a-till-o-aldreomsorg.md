@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Äldreomsorg"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/aldreomsorg"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/aldreomsorg"
-fetchedAt: "2026-08-22T14:06:33.292Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Äldreomsorg
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/aldreomsorg
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/aldreomsorg
+fetchedAt: 2026-08-22T14:06:33.292Z
+contentType: html
+via: party-site
+tags:
+  - elderly-care
+  - social-welfare
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Du som har varit med och byggt Sverige förtjänar en ålderdom präglad av trygghet, värdighet och valfrihet. Socialdemokraterna vill att äldreomsorgen ska vara en trygg hamn där dina behov alltid kommer i första rummet, oavsett var i landet du bor eller hur stor din plånbok är. Genom att investera i fler kollegor och bättre villkor för personalen säkras en hemtjänst och ett äldreboende som du och dina nära kan lita på.

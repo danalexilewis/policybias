@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Pension"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/pension"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/pension"
-fetchedAt: "2026-08-22T14:05:03.989Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Pension
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/pension
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/pension
+fetchedAt: 2026-08-22T14:05:03.989Z
+contentType: html
+via: party-site
+tags:
+  - pensions
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Många som har arbetat ett helt yrkesliv får för låg pension. Sverige skulle inte fungera en timme utan undersköterskor och byggnadsarbetare. Barnskötare och butiksanställda. Lastbilschaufförer och lagerarbetare. Industriarbetare och elektriker. Yrken där man ofta börjar jobba tidigt i livet och sliter ett långt arbetsliv. Många tvingas ta ut sin pension i förtid de sista åren för att de inte klarar av att jobba hela vägen till pensionsåldern, vilket sänker en redan för låg pension. Det här är en djup orättvisa.

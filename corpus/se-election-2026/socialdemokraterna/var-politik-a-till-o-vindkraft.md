@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Vindkraft"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vindkraft"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vindkraft"
-fetchedAt: "2026-08-22T14:06:20.595Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Vindkraft
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vindkraft
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vindkraft
+fetchedAt: 2026-08-22T14:06:20.595Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Vindkraften, både på land och till havs, har stor potential att snabbt bidra med mer el i Sverige. Vill du ha mer fossilfri el till låg kostnad i närtid? Regeringens förändrade villkor för anslutning av vindkraft till havs har försenat utbyggnaden. Socialdemokraterna vill också införa en Snabbhetsbonus för att vända trenden för vindkraft på land och få mer el på plats snabbt.

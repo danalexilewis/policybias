@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "E-Vi-bygger-gemensam-sa-kerhet-tillsammans-2021-1742b8b9.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.58f114e917c0725de62eab/1632306237591/E%20Vi%20bygger%20gemensam%20sa%CC%88kerhet%20tillsammans%202021.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.58f114e917c0725de62eab/1632306237591/E%20Vi%20bygger%20gemensam%20sa%CC%88kerhet%20tillsammans%202021.pdf"
-fetchedAt: "2026-08-22T14:06:04.510Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: E-Vi-bygger-gemensam-sa-kerhet-tillsammans-2021-1742b8b9.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.58f114e917c0725de62eab/1632306237591/E%20Vi%20bygger%20gemensam%20sa%CC%88kerhet%20tillsammans%202021.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.58f114e917c0725de62eab/1632306237591/E%20Vi%20bygger%20gemensam%20sa%CC%88kerhet%20tillsammans%202021.pdf
+fetchedAt: 2026-08-22T14:06:04.510Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # E-Vi-bygger-gemensam-sa-kerhet-tillsammans-2021-1742b8b9.pdf

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Mänskliga rättigheter"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/manskliga-rattigheter"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/manskliga-rattigheter"
-fetchedAt: "2026-08-22T14:04:59.124Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Mänskliga rättigheter
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/manskliga-rattigheter
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/manskliga-rattigheter
+fetchedAt: 2026-08-22T14:04:59.124Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Mänskliga rättigheter och lika värde är grunden för ett tryggt och jämlikt Sverige. Socialdemokraterna kämpar för att ditt kön, tro eller bakgrund aldrig ska avgöra dina möjligheter. Kampen för alla människors rättigheter är vår främsta politiska plikt, både i Sverige och internationellt.

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Tull"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/tull"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/tull"
-fetchedAt: "2026-08-22T14:06:18.508Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Tull
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/tull
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/tull
+fetchedAt: 2026-08-22T14:06:18.508Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 För att komma åt de kriminella gängen behöver flödet av narkotika, vapen och andra illegala varor strypas. Tullen har en avgörande roll i detta arbete. Tullverkets brottsbekämpande arbete behöver förstärkas och utvecklas, både vad gäller underrättelser och kontroll.

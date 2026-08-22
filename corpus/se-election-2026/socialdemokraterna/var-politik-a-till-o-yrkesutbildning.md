@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Yrkesutbildning"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/yrkesutbildning"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/yrkesutbildning"
-fetchedAt: "2026-08-22T14:06:31.964Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Yrkesutbildning
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/yrkesutbildning
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/yrkesutbildning
+fetchedAt: 2026-08-22T14:06:31.964Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Yrkesutbildning är avgörande både för att Sverige ska fungera och för att alla ska ha ett jobb att gå till. Välfärden, företagen och den gröna omställningen skapar behov av rätt kompetens. Socialdemokraterna anser att utbildningssystemet, från gymnasiet till vuxenutbildningen, måste vara anpassat för att säkra vår gemensamma välfärd och din möjlighet att utvecklas genom hela arbetslivet.

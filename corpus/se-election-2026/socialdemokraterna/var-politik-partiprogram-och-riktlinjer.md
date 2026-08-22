@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Partiprogram och riktlinjer"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/partiprogram-och-riktlinjer"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/partiprogram-och-riktlinjer"
-fetchedAt: "2026-08-22T14:06:34.661Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: socialdemokraterna
+title: Partiprogram och riktlinjer
+sourceUrl: https://www.socialdemokraterna.se/var-politik/partiprogram-och-riktlinjer
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/partiprogram-och-riktlinjer
+fetchedAt: 2026-08-22T14:06:34.661Z
+contentType: html
+via: party-site
 tags:
-  - "migration-integration"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - other
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 ### Politiska prioriteringar och riktlinjer äldre

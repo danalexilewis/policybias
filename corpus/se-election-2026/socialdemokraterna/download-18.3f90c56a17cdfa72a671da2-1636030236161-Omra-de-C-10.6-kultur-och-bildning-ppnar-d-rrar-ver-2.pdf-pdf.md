@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Omra-de-C-10.6-kultur-och-bildning-ppnar-d-rrar-ver-2-2c3ea8a7.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671da2/1636030236161/Omra%CC%8Ade%20C%2010.6%20kultur%20och%20bildning%20%C3%B6ppnar%20d%C3%B6rrar%20ver%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671da2/1636030236161/Omra%CC%8Ade%20C%2010.6%20kultur%20och%20bildning%20%C3%B6ppnar%20d%C3%B6rrar%20ver%202.pdf"
-fetchedAt: "2026-08-22T14:05:48.753Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Omra-de-C-10.6-kultur-och-bildning-ppnar-d-rrar-ver-2-2c3ea8a7.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671da2/1636030236161/Omra%CC%8Ade%20C%2010.6%20kultur%20och%20bildning%20%C3%B6ppnar%20d%C3%B6rrar%20ver%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671da2/1636030236161/Omra%CC%8Ade%20C%2010.6%20kultur%20och%20bildning%20%C3%B6ppnar%20d%C3%B6rrar%20ver%202.pdf
+fetchedAt: 2026-08-22T14:05:48.753Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Omra-de-C-10.6-kultur-och-bildning-ppnar-d-rrar-ver-2-2c3ea8a7.pdf

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Svenska modellen"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/svenska-modellen"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/svenska-modellen"
-fetchedAt: "2026-08-22T14:06:17.202Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Svenska modellen
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/svenska-modellen
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/svenska-modellen
+fetchedAt: 2026-08-22T14:06:17.202Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Den svenska modellen, där starka fackföreningar och arbetsgivare förhandlar om villkoren på arbetsmarknaden är grunden för din trygghet på jobbet. Vill du också se ordning och reda på arbetsmarknaden och schyssta villkor för alla? Socialdemokraterna kommer alltid stå upp för den svenska modellen.

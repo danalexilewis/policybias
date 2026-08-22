@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Klimat och miljö"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/klimat-och-miljo"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/klimat-och-miljo"
-fetchedAt: "2026-08-22T14:03:44.828Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Klimat och miljö
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/klimat-och-miljo
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/klimat-och-miljo
+fetchedAt: 2026-08-22T14:03:44.828Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Klimatförändringarna påverkar din vardag – genom väder, priser och framtida jobb. Samtidigt ska det vara möjligt att leva ett vanligt liv, oavsett var i landet du bor. Klimat- och miljöpolitiken måste vara både effektiv och rättvis. Därför behövs lösningar som minskar utsläppen och stärker Sverige, utan att lägga hela ansvaret på dig.

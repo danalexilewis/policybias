@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Stadgar-antagna-2021-e6d76e26.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a674896/1636295004211/Stadgar%20antagna%202021.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a674896/1636295004211/Stadgar%20antagna%202021.pdf"
-fetchedAt: "2026-08-22T14:06:10.800Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Stadgar-antagna-2021-e6d76e26.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a674896/1636295004211/Stadgar%20antagna%202021.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a674896/1636295004211/Stadgar%20antagna%202021.pdf
+fetchedAt: 2026-08-22T14:06:10.800Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Stadgar-antagna-2021-e6d76e26.pdf

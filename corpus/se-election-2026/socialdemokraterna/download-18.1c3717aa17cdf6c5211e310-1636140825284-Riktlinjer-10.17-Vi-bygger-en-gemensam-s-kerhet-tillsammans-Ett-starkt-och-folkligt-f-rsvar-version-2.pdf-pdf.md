@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.17-Vi-bygger-en-gemensam-s-kerhet-tillsammans-Ett-starkt-och-folkligt-f-rsvar-version-2-869cd02b.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e310/1636140825284/Riktlinjer%2010.17%20Vi%20bygger%20en%20gemensam%20s%C3%A4kerhet%20tillsammans%20%E2%80%93%20Ett%20starkt%20och%20folkligt%20f%C3%B6rsvar%20%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e310/1636140825284/Riktlinjer%2010.17%20Vi%20bygger%20en%20gemensam%20s%C3%A4kerhet%20tillsammans%20%E2%80%93%20Ett%20starkt%20och%20folkligt%20f%C3%B6rsvar%20%20version%202.pdf"
-fetchedAt: "2026-08-22T14:06:07.202Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.17-Vi-bygger-en-gemensam-s-kerhet-tillsammans-Ett-starkt-och-folkligt-f-rsvar-version-2-869cd02b.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e310/1636140825284/Riktlinjer%2010.17%20Vi%20bygger%20en%20gemensam%20s%C3%A4kerhet%20tillsammans%20%E2%80%93%20Ett%20starkt%20och%20folkligt%20f%C3%B6rsvar%20%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e310/1636140825284/Riktlinjer%2010.17%20Vi%20bygger%20en%20gemensam%20s%C3%A4kerhet%20tillsammans%20%E2%80%93%20Ett%20starkt%20och%20folkligt%20f%C3%B6rsvar%20%20version%202.pdf
+fetchedAt: 2026-08-22T14:06:07.202Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Riktlinjer-10.17-Vi-bygger-en-gemensam-s-kerhet-tillsammans-Ett-starkt-och-folkligt-f-rsvar-version-2-869cd02b.pdf

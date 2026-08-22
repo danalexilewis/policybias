@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Jordbruk och livsmedel"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/jordbruk-och-livsmedel"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/jordbruk-och-livsmedel"
-fetchedAt: "2026-08-22T14:03:42.795Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Jordbruk och livsmedel
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/jordbruk-och-livsmedel
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/jordbruk-och-livsmedel
+fetchedAt: 2026-08-22T14:03:42.795Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - employment
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 En stark svensk livsmedelsproduktion i Sverige är väldigt viktig. Den gör att du kan lita på att det finns mat på bordet även i oroliga tider, bidrar till rimliga priser och säkerställer att maten håller hög kvalitet. Samtidigt skapar den jobb, tillväxt och levande lokalsamhällen i hela landet, vilket i längden gynnar hela Sverige. Socialdemokraterna arbetar därför för mer svenskt på tallriken, trygg och hälsosam mat och ett modernt jordbruk som leder omställningen och stärker vår konkurrenskraft.

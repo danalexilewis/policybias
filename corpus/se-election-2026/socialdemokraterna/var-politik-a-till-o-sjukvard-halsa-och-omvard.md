@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Sjukvård, hälsa och omvård"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sjukvard-halsa-och-omvard"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sjukvard-halsa-och-omvard"
-fetchedAt: "2026-08-22T14:06:09.996Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Sjukvård, hälsa och omvård
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sjukvard-halsa-och-omvard
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sjukvard-halsa-och-omvard
+fetchedAt: 2026-08-22T14:06:09.996Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Du ska kunna lita på att du får vård när du behöver den. Vården ska ges efter behov, inte efter vem som kan betala mest. Men idag präglas delar av välfärden av långa köer, personalbrist och marknadsmisslyckanden med oseriösa aktörer. Därför behövs en starkare vård och omsorg där kvalitet, trygghet och rättvisa står i centrum. Och du.

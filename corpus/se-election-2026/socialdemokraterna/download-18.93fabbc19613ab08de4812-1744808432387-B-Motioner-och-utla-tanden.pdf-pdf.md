@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "B---Motioner-och-utla-tanden-20e834ad.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4812/1744808432387/B%20-%20Motioner%20och%20utla%CC%8Atanden.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4812/1744808432387/B%20-%20Motioner%20och%20utla%CC%8Atanden.pdf"
-fetchedAt: "2026-08-22T13:58:54.472Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: B---Motioner-och-utla-tanden-20e834ad.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4812/1744808432387/B%20-%20Motioner%20och%20utla%CC%8Atanden.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4812/1744808432387/B%20-%20Motioner%20och%20utla%CC%8Atanden.pdf
+fetchedAt: 2026-08-22T13:58:54.472Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+  - economy
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # B---Motioner-och-utla-tanden-20e834ad.pdf

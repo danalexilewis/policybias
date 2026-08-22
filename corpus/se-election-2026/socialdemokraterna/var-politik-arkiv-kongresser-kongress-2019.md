@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kongress 2019"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2019"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2019"
-fetchedAt: "2026-08-22T14:01:35.208Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kongress 2019
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2019
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2019
+fetchedAt: 2026-08-22T14:01:35.208Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Temat för Kongressen 2019 i Örebro var "Kunskap för framtiden" och "Det politiska samtalet utvecklar socialdemokratin".

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Klimatpolitik"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/klimatpolitik"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/klimatpolitik"
-fetchedAt: "2026-08-22T14:03:45.070Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Klimatpolitik
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/klimatpolitik
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/klimatpolitik
+fetchedAt: 2026-08-22T14:03:45.070Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Klimatförändringarna utgör ett av de största hoten mot vårt samhälle, men du ska inte behöva bära kostnaden ensam. För att klara klimatet och minska utsläppen måste Sverige återta sin ledande roll och påskynda omställningen till ett fossilfritt välfärdsland. Socialdemokraterna driver en kraftfull politik där ambitionen är att skapa nya gröna jobb och samtidigt se till att miljön och din vardag tryggas, oavsett om du bor i staden eller på landsbygden.**

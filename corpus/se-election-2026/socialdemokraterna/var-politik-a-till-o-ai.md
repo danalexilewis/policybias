@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "AI"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/ai"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/ai"
-fetchedAt: "2026-08-22T14:06:53.016Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: AI
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/ai
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/ai
+fetchedAt: 2026-08-22T14:06:53.016Z
+contentType: html
+via: party-site
+tags:
+  - defence
+  - infrastructure
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Teknikutvecklingen är nyckeln till Sveriges framtida välstånd – men den måste styras av demokratisk kontroll och etik. AI är ett av de mest omvälvande teknologiska sprången i vår absoluta närtid och påverkar både din personliga vardag och samhället i stort. För att Sverige ska vinna den globala teknikkapplöpningen krävs kraftiga investeringar.**

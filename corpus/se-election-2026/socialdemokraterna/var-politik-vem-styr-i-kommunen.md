@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Vem styr i kommunen"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/vem-styr-i-kommunen"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/vem-styr-i-kommunen"
-fetchedAt: "2026-08-22T14:02:25.152Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: socialdemokraterna
+title: Vem styr i kommunen
+sourceUrl: https://www.socialdemokraterna.se/var-politik/vem-styr-i-kommunen
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/vem-styr-i-kommunen
+fetchedAt: 2026-08-22T14:02:25.152Z
+contentType: html
+via: party-site
 tags:
-  - "energy-power"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - agriculture
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Denna lista redovisar de styrande partierna och partisamarbetena och koalitionerna i Sveriges kommuner för mandatperioden 2022–2026.  

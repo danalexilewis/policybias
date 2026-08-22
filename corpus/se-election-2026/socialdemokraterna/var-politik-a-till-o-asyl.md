@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Asyl"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/asyl"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/asyl"
-fetchedAt: "2026-08-22T14:06:59.740Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Asyl
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/asyl
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/asyl
+fetchedAt: 2026-08-22T14:06:59.740Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Asylrätten ska värnas. Sveriges migrationspolitik måste även vara stram och långsiktigt hållbar. Vårt lands sammanhållning kräver ordning och reda i det svenska mottagandet.**

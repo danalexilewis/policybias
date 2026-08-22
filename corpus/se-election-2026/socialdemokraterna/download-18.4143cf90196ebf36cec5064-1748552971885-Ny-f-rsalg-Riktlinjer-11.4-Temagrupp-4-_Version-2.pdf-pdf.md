@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Ny-f-rsalg-Riktlinjer-11.4-Temagrupp-4-_Version-2-b7838e29.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec5064/1748552971885/Ny%20f%3Frsalg%20Riktlinjer%2011.4%20%20(Temagrupp%204)_Version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec5064/1748552971885/Ny%20f%3Frsalg%20Riktlinjer%2011.4%20%20(Temagrupp%204)_Version%202.pdf"
-fetchedAt: "2026-08-22T13:59:18.322Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Ny-f-rsalg-Riktlinjer-11.4-Temagrupp-4-_Version-2-b7838e29.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec5064/1748552971885/Ny%20f%3Frsalg%20Riktlinjer%2011.4%20%20(Temagrupp%204)_Version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec5064/1748552971885/Ny%20f%3Frsalg%20Riktlinjer%2011.4%20%20(Temagrupp%204)_Version%202.pdf
+fetchedAt: 2026-08-22T13:59:18.322Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Ny-f-rsalg-Riktlinjer-11.4-Temagrupp-4-_Version-2-b7838e29.pdf

@@ -1,16 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Bostäder och infrastruktur"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/bostader-och-infrastruktur"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/bostader-och-infrastruktur"
-fetchedAt: "2026-08-22T12:50:48.232Z"
-contentType: "html"
-via: "party-site"
-tags: [defence-security]
+type: crawled-page
+party: socialdemokraterna
+title: Bostäder och infrastruktur
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/bostader-och-infrastruktur
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/bostader-och-infrastruktur
+fetchedAt: 2026-08-22T12:50:48.232Z
+contentType: html
+via: party-site
+tags:
+  - housing
 money: no-figure
 stance: intervention
-licenseNote: "Party copyright; not Gurki MIT"
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Du ska kunna bo bra och ta dig till jobbet, skolan och vardagen på ett enkelt och tryggt sätt. Men bostadsbrist, höga priser och brister i vägar, järnväg och kollektivtrafik gör livet svårare för många. Sverige behöver fler bostäder och en fungerande infrastruktur i hela landet. Därför krävs investeringar som gör det lättare att leva, arbeta och resa – oavsett var du bor.

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "valmanifest-2006-23ea017a.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464064b/1568881590499/valmanifest-2006.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464064b/1568881590499/valmanifest-2006.pdf"
-fetchedAt: "2026-08-22T13:57:42.189Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: valmanifest-2006-23ea017a.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464064b/1568881590499/valmanifest-2006.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464064b/1568881590499/valmanifest-2006.pdf
+fetchedAt: 2026-08-22T13:57:42.189Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - healthcare
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # valmanifest-2006-23ea017a.pdf

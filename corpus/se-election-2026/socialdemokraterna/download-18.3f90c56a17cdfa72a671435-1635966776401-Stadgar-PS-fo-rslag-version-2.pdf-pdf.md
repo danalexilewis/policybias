@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Stadgar---PS-fo-rslag-version-2-02c2daa0.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671435/1635966776401/Stadgar%20-%20PS%20fo%CC%88rslag%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671435/1635966776401/Stadgar%20-%20PS%20fo%CC%88rslag%20version%202.pdf"
-fetchedAt: "2026-08-22T14:06:09.934Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Stadgar---PS-fo-rslag-version-2-02c2daa0.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671435/1635966776401/Stadgar%20-%20PS%20fo%CC%88rslag%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671435/1635966776401/Stadgar%20-%20PS%20fo%CC%88rslag%20version%202.pdf
+fetchedAt: 2026-08-22T14:06:09.934Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Stadgar---PS-fo-rslag-version-2-02c2daa0.pdf

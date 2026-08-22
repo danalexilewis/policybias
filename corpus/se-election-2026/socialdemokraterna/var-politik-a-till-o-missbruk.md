@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Missbruk"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/missbruk"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/missbruk"
-fetchedAt: "2026-08-22T14:04:58.288Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Missbruk
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/missbruk
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/missbruk
+fetchedAt: 2026-08-22T14:04:58.288Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Ingen ska lämnas ensam när livet rasar på grund av missbruk eller beroende. Du och dina nära har rätt till en trygg beroendevård som sätter din hälsa och vägen till ett värdigt liv i första rummet. Socialdemokrater vill se en vård som hänger ihop, där du får professionell hjälp för både ditt beroende och din psykiska hälsa samtidigt.**

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.1-Vi-bygger-landet-tryggt-En-a-ldreomsorg-i-va-rldsklass-version-2-3bdf44b9.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6716ee/1635985758661/Riktlinjer%2010.1%20Vi%20bygger%20landet%20tryggt-En%20a%CC%88ldreomsorg%20i%20va%CC%88rldsklass%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6716ee/1635985758661/Riktlinjer%2010.1%20Vi%20bygger%20landet%20tryggt-En%20a%CC%88ldreomsorg%20i%20va%CC%88rldsklass%20version%202.pdf"
-fetchedAt: "2026-08-22T14:06:00.829Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.1-Vi-bygger-landet-tryggt-En-a-ldreomsorg-i-va-rldsklass-version-2-3bdf44b9.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6716ee/1635985758661/Riktlinjer%2010.1%20Vi%20bygger%20landet%20tryggt-En%20a%CC%88ldreomsorg%20i%20va%CC%88rldsklass%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6716ee/1635985758661/Riktlinjer%2010.1%20Vi%20bygger%20landet%20tryggt-En%20a%CC%88ldreomsorg%20i%20va%CC%88rldsklass%20version%202.pdf
+fetchedAt: 2026-08-22T14:06:00.829Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Riktlinjer-10.1-Vi-bygger-landet-tryggt-En-a-ldreomsorg-i-va-rldsklass-version-2-3bdf44b9.pdf

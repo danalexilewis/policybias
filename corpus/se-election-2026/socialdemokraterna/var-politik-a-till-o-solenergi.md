@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Solenergi"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/solenergi"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/solenergi"
-fetchedAt: "2026-08-22T14:06:16.374Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Solenergi
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/solenergi
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/solenergi
+fetchedAt: 2026-08-22T14:06:16.374Z
+contentType: html
+via: party-site
+tags:
+  - cost-of-living
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Solkraften är en kostnadseffektiv lösning för att snabbt öka den svenska elproduktionen. Den har stor potential, både på ditt hustak för att balansera höga elkostnader och i storskaliga parker. Men utvecklingen av storskaliga, markbaserade anläggningar hämmas av krångliga tillståndsprocesser och problem med nätanslutning.

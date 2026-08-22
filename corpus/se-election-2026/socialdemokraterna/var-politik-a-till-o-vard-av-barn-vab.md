@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Vård av barn (VAB)"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vard-av-barn-vab"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vard-av-barn-vab"
-fetchedAt: "2026-08-22T14:06:24.283Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Vård av barn (VAB)
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vard-av-barn-vab
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vard-av-barn-vab
+fetchedAt: 2026-08-22T14:06:24.283Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Rätten till VAB (tillfällig föräldrapenning) ska garantera att du kan stanna hemma med ditt barn utan att drabbas av ekonomisk utsatthet. Systemet ska vara rättvist, lättöverskådligt och säkerställa att välfärdens pengar inte går till fusk.

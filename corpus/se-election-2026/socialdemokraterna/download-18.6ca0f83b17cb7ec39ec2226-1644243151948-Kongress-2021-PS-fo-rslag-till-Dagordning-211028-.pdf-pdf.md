@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kongress-2021---PS-fo-rslag-till-Dagordning-211028-d470281c.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.6ca0f83b17cb7ec39ec2226/1644243151948/Kongress%202021%20-%20PS%20fo%CC%88rslag%20till%20Dagordning%20%20(211028).pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.6ca0f83b17cb7ec39ec2226/1644243151948/Kongress%202021%20-%20PS%20fo%CC%88rslag%20till%20Dagordning%20%20(211028).pdf"
-fetchedAt: "2026-08-22T14:05:07.181Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kongress-2021---PS-fo-rslag-till-Dagordning-211028-d470281c.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.6ca0f83b17cb7ec39ec2226/1644243151948/Kongress%202021%20-%20PS%20fo%CC%88rslag%20till%20Dagordning%20%20(211028).pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.6ca0f83b17cb7ec39ec2226/1644243151948/Kongress%202021%20-%20PS%20fo%CC%88rslag%20till%20Dagordning%20%20(211028).pdf
+fetchedAt: 2026-08-22T14:05:07.181Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - elderly-care
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Kongress-2021---PS-fo-rslag-till-Dagordning-211028-d470281c.pdf

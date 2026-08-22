@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Skolarbete"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/skolarbete"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/skolarbete"
-fetchedAt: "2026-08-22T14:06:46.754Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: socialdemokraterna
+title: Skolarbete
+sourceUrl: https://www.socialdemokraterna.se/var-politik/skolarbete
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/skolarbete
+fetchedAt: 2026-08-22T14:06:46.754Z
+contentType: html
+via: party-site
 tags:
-  - "climate-environment"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - education
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Denna sida är till för dig som gör ett skolarbete om Socialdemokraterna och vår politik.

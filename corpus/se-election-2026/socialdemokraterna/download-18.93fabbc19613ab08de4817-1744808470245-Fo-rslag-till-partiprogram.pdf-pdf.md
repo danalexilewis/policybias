@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Fo-rslag-till-partiprogram-74c9d186.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4817/1744808470245/Fo%CC%88rslag%20till%20partiprogram.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4817/1744808470245/Fo%CC%88rslag%20till%20partiprogram.pdf"
-fetchedAt: "2026-08-22T14:00:07.555Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Fo-rslag-till-partiprogram-74c9d186.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4817/1744808470245/Fo%CC%88rslag%20till%20partiprogram.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4817/1744808470245/Fo%CC%88rslag%20till%20partiprogram.pdf
+fetchedAt: 2026-08-22T14:00:07.555Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+  - economy
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Fo-rslag-till-partiprogram-74c9d186.pdf

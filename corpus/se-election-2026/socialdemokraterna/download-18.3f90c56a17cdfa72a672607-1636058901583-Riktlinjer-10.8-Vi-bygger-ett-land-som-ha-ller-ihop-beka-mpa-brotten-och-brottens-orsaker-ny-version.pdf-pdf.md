@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.8-Vi-bygger-ett-land-som-ha-ller-ihop-beka-mpa-brotten-och-brottens-orsaker-ny-version-b1ba6830.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672607/1636058901583/Riktlinjer%2010.8%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20beka%CC%88mpa%20brotten%20och%20brottens%20orsaker%20ny%20version.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672607/1636058901583/Riktlinjer%2010.8%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20beka%CC%88mpa%20brotten%20och%20brottens%20orsaker%20ny%20version.pdf"
-fetchedAt: "2026-08-22T14:05:41.420Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.8-Vi-bygger-ett-land-som-ha-ller-ihop-beka-mpa-brotten-och-brottens-orsaker-ny-version-b1ba6830.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672607/1636058901583/Riktlinjer%2010.8%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20beka%CC%88mpa%20brotten%20och%20brottens%20orsaker%20ny%20version.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672607/1636058901583/Riktlinjer%2010.8%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20beka%CC%88mpa%20brotten%20och%20brottens%20orsaker%20ny%20version.pdf
+fetchedAt: 2026-08-22T14:05:41.420Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Riktlinjer-10.8-Vi-bygger-ett-land-som-ha-ller-ihop-beka-mpa-brotten-och-brottens-orsaker-ny-version-b1ba6830.pdf

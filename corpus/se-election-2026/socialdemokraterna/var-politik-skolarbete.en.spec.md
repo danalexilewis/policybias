@@ -11,13 +11,13 @@ sources:
   - title: Skolarbete
     url: https://www.socialdemokraterna.se/var-politik/skolarbete
 tags:
-  - climate-environment
+  - education
 party: socialdemokraterna
 clusters:
-  - climate-environment
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-skolarbete.md
-sourceDigest: "sha256-53eeefb6764d322f"
+sourceDigest: sha256-53eeefb6764d322f
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -25,7 +25,7 @@ lang: en
 translationOf: socialdemokraterna-skolarbete
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-8c07d2f316838114"
+sourceSpecDigest: sha256-8c07d2f316838114
 ---
 
 # What the page states

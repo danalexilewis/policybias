@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Dagsprotokoll-5-november---fredag-Justerat-bb9a52c1.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a67c688/1644242778495/Dagsprotokoll%205%20november%20-%20fredag%20(Justerat).pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a67c688/1644242778495/Dagsprotokoll%205%20november%20-%20fredag%20(Justerat).pdf"
-fetchedAt: "2026-08-22T14:05:17.435Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Dagsprotokoll-5-november---fredag-Justerat-bb9a52c1.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a67c688/1644242778495/Dagsprotokoll%205%20november%20-%20fredag%20(Justerat).pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a67c688/1644242778495/Dagsprotokoll%205%20november%20-%20fredag%20(Justerat).pdf
+fetchedAt: 2026-08-22T14:05:17.435Z
+contentType: pdf
+via: party-site
+tags:
+  - social-welfare
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Dagsprotokoll-5-november---fredag-Justerat-bb9a52c1.pdf

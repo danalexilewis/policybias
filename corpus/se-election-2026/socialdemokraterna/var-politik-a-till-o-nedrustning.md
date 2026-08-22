@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Nedrustning"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/nedrustning"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/nedrustning"
-fetchedAt: "2026-08-22T14:05:01.179Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Nedrustning
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/nedrustning
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/nedrustning
+fetchedAt: 2026-08-22T14:05:01.179Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **När utvecklingen för global nedrustning går åt fel håll och länder rustar upp och moderniserar sina kärnvapenarsenaler måste arbetet med nedrustning ändå fortsätta. Nedrustning och icke-spridning av massförstörelsevapen är en central utrikes- och säkerhetspolitisk prioritering. Målet är en kärnvapenfri värld.**

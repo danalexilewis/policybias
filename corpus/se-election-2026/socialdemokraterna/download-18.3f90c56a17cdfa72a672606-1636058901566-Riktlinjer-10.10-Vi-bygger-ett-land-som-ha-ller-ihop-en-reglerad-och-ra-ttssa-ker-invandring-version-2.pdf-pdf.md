@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.10-Vi-bygger-ett-land-som-ha-ller-ihop-en-reglerad-och-ra-ttssa-ker-invandring-version-2-95259e90.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672606/1636058901566/Riktlinjer%2010.10%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20en%20reglerad%20och%20ra%CC%88ttssa%CC%88ker%20invandring%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672606/1636058901566/Riktlinjer%2010.10%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20en%20reglerad%20och%20ra%CC%88ttssa%CC%88ker%20invandring%20version%202.pdf"
-fetchedAt: "2026-08-22T14:05:43.392Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.10-Vi-bygger-ett-land-som-ha-ller-ihop-en-reglerad-och-ra-ttssa-ker-invandring-version-2-95259e90.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672606/1636058901566/Riktlinjer%2010.10%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20en%20reglerad%20och%20ra%CC%88ttssa%CC%88ker%20invandring%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a672606/1636058901566/Riktlinjer%2010.10%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%20%E2%80%93%20en%20reglerad%20och%20ra%CC%88ttssa%CC%88ker%20invandring%20version%202.pdf
+fetchedAt: 2026-08-22T14:05:43.392Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Riktlinjer-10.10-Vi-bygger-ett-land-som-ha-ller-ihop-en-reglerad-och-ra-ttssa-ker-invandring-version-2-95259e90.pdf

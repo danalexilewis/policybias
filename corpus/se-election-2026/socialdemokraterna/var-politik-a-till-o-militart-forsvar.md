@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Militärt försvar"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/militart-forsvar"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/militart-forsvar"
-fetchedAt: "2026-08-22T14:04:57.397Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Militärt försvar
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/militart-forsvar
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/militart-forsvar
+fetchedAt: 2026-08-22T14:04:57.397Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **När säkerhetsläget i Europa är allvarligt måste din trygghet garanteras av ett starkt militärt försvar. Socialdemokraterna sätter den nationella försvarsförmågan främst och vill se en snabb militär upprustning. Du ska veta att Sverige lever upp till sina NATO-åtaganden och har förmåga att försvara vårt territorium.**

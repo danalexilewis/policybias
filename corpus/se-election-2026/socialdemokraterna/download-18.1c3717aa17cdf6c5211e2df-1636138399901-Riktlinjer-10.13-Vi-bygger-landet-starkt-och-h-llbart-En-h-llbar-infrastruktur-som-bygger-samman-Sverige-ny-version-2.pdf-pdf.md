@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.13-Vi-bygger-landet-starkt-och-h-llbart-En-h-llbar-infrastruktur-som-bygger-samman-Sverige-ny-version-2-0f9895e2.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e2df/1636138399901/Riktlinjer%2010.13%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20En%20h%C3%A5llbar%20infrastruktur%20som%20bygger%20samman%20Sverige%20ny%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e2df/1636138399901/Riktlinjer%2010.13%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20En%20h%C3%A5llbar%20infrastruktur%20som%20bygger%20samman%20Sverige%20ny%20version%202.pdf"
-fetchedAt: "2026-08-22T14:05:29.609Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.13-Vi-bygger-landet-starkt-och-h-llbart-En-h-llbar-infrastruktur-som-bygger-samman-Sverige-ny-version-2-0f9895e2.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e2df/1636138399901/Riktlinjer%2010.13%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20En%20h%C3%A5llbar%20infrastruktur%20som%20bygger%20samman%20Sverige%20ny%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e2df/1636138399901/Riktlinjer%2010.13%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20En%20h%C3%A5llbar%20infrastruktur%20som%20bygger%20samman%20Sverige%20ny%20version%202.pdf
+fetchedAt: 2026-08-22T14:05:29.609Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Riktlinjer-10.13-Vi-bygger-landet-starkt-och-h-llbart-En-h-llbar-infrastruktur-som-bygger-samman-Sverige-ny-version-2-0f9895e2.pdf

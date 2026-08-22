@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Socialtjänst och stöd"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/socialtjanst-och-stod"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/socialtjanst-och-stod"
-fetchedAt: "2026-08-22T14:06:16.153Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Socialtjänst och stöd
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/socialtjanst-och-stod
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/socialtjanst-och-stod
+fetchedAt: 2026-08-22T14:06:16.153Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Du ska kunna få stöd när livet är som svårast – oavsett om det gäller barn som far illa, missbruk eller ekonomiska problem. Socialtjänsten ska finnas där tidigt, vara trygg och fungera i hela landet. Men idag brister systemet på flera håll, med för lite resurser och för stora skillnader. Därför behövs en starkare socialtjänst som både stöttar och ställer krav**.

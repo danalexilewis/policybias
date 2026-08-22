@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Partistyrelsens-fo-rslag-till-Arbetsordning-d4f505bf.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec4ff5/1748547136569/Partistyrelsens%20fo%CC%88rslag%20till%20Arbetsordning.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec4ff5/1748547136569/Partistyrelsens%20fo%CC%88rslag%20till%20Arbetsordning.pdf"
-fetchedAt: "2026-08-22T13:58:05.274Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Partistyrelsens-fo-rslag-till-Arbetsordning-d4f505bf.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec4ff5/1748547136569/Partistyrelsens%20fo%CC%88rslag%20till%20Arbetsordning.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec4ff5/1748547136569/Partistyrelsens%20fo%CC%88rslag%20till%20Arbetsordning.pdf
+fetchedAt: 2026-08-22T13:58:05.274Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Partistyrelsens-fo-rslag-till-Arbetsordning-d4f505bf.pdf

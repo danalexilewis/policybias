@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kongress 2013"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2013"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2013"
-fetchedAt: "2026-08-22T14:02:14.190Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kongress 2013
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2013
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2013
+fetchedAt: 2026-08-22T14:02:14.190Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Den socialdemokratiska partikongressen ägde rum den 3-7 april 2013 på Svenska Mässan, Göteborg.**

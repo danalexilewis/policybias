@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "ett-program-for-forandring_2013-275c6230.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b87/1568881590520/ett-program-for-forandring_2013.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b87/1568881590520/ett-program-for-forandring_2013.pdf"
-fetchedAt: "2026-08-22T14:06:42.440Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: ett-program-for-forandring_2013-275c6230.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b87/1568881590520/ett-program-for-forandring_2013.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b87/1568881590520/ett-program-for-forandring_2013.pdf
+fetchedAt: 2026-08-22T14:06:42.440Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - environment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # ett-program-for-forandring_2013-275c6230.pdf

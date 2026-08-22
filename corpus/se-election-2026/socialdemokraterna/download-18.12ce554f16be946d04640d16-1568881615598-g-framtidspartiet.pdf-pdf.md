@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "g-framtidspartiet-cf4427fb.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640d16/1568881615598/g-framtidspartiet.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640d16/1568881615598/g-framtidspartiet.pdf"
-fetchedAt: "2026-08-22T14:02:08.415Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: g-framtidspartiet-cf4427fb.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640d16/1568881615598/g-framtidspartiet.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640d16/1568881615598/g-framtidspartiet.pdf
+fetchedAt: 2026-08-22T14:02:08.415Z
+contentType: pdf
+via: party-site
+tags:
+  - culture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # g-framtidspartiet-cf4427fb.pdf

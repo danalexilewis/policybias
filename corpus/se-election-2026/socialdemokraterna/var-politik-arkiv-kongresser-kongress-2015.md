@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kongress 2015"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2015"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2015"
-fetchedAt: "2026-08-22T14:03:28.081Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kongress 2015
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2015
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2015
+fetchedAt: 2026-08-22T14:03:28.081Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Den 29-31 maj samlades Socialdemokraterna till kongress i Västerås. Temat var "framtidens jobb och framtidens folkrörelse".**

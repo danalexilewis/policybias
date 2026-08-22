@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Partistyrelsens-fo-rslag-till-Dagordning-69a63212.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca98b94/1747821447261/Partistyrelsens%20fo%CC%88rslag%20till%20Dagordning.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca98b94/1747821447261/Partistyrelsens%20fo%CC%88rslag%20till%20Dagordning.pdf"
-fetchedAt: "2026-08-22T13:58:04.329Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Partistyrelsens-fo-rslag-till-Dagordning-69a63212.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca98b94/1747821447261/Partistyrelsens%20fo%CC%88rslag%20till%20Dagordning.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca98b94/1747821447261/Partistyrelsens%20fo%CC%88rslag%20till%20Dagordning.pdf
+fetchedAt: 2026-08-22T13:58:04.329Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Partistyrelsens-fo-rslag-till-Dagordning-69a63212.pdf

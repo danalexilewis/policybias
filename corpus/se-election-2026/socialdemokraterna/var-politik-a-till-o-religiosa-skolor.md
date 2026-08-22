@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Religiösa skolor"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/religiosa-skolor"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/religiosa-skolor"
-fetchedAt: "2026-08-22T14:06:07.070Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Religiösa skolor
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/religiosa-skolor
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/religiosa-skolor
+fetchedAt: 2026-08-22T14:06:07.070Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Religiös påverkan hör inte hemma i skolan. Fokus ska ligga på kunskap och bildning. För Socialdemokraterna är det självklart att skolan ska vara en mötesplats som bygger sammanhållning, inte spär på segregation. Idag leder marknadsskolan och religiös påverkan till att huvudmän ägnar sig åt vinstjakt, extremism och indoktrinering snarare än kunskap och bildning. Därför vill vi förbjuda religiösa friskolor samtidigt som vi värnar och tar hänsyn till nationella minoriteters rättigheter.**

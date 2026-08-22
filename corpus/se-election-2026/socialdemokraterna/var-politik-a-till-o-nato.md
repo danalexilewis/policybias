@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Nato"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/nato"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/nato"
-fetchedAt: "2026-08-22T14:05:00.627Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Nato
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/nato
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/nato
+fetchedAt: 2026-08-22T14:05:00.627Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Känner du dig orolig över det allvarliga säkerhetsläget i Europa? Sveriges Natomedlemskap är en direkt följd av Rysslands aggression och garanterar kollektiv trygghet. Socialdemokraterna vill att du ska känna dig säker genom att Sverige är en trovärdig och stark partner som lever upp till sina åtaganden i alliansen.

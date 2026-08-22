@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Jämställdhet"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/jamstalldhet"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/jamstalldhet"
-fetchedAt: "2026-08-22T14:03:43.094Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Jämställdhet
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/jamstalldhet
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/jamstalldhet
+fetchedAt: 2026-08-22T14:03:43.094Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Jämställdhet är en fråga om lika värde och frihet för alla, oavsett kön. Socialdemokraterna slår fast att din ekonomi, din hälsa och ditt liv aldrig ska begränsas av ditt kön. Det är dags att bygga ett Sverige där alla har full makt över sitt eget liv.

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "riktlinjer_sveriges_nya_jobbagenda-6d2a4630.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640a11/1568881612910/riktlinjer_sveriges_nya_jobbagenda.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640a11/1568881612910/riktlinjer_sveriges_nya_jobbagenda.pdf"
-fetchedAt: "2026-08-22T14:03:29.352Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: riktlinjer_sveriges_nya_jobbagenda-6d2a4630.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640a11/1568881612910/riktlinjer_sveriges_nya_jobbagenda.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640a11/1568881612910/riktlinjer_sveriges_nya_jobbagenda.pdf
+fetchedAt: 2026-08-22T14:03:29.352Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - employment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # riktlinjer_sveriges_nya_jobbagenda-6d2a4630.pdf

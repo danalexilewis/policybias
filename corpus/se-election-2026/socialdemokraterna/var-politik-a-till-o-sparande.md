@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Sparande"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sparande"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sparande"
-fetchedAt: "2026-08-22T14:06:16.670Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Sparande
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sparande
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sparande
+fetchedAt: 2026-08-22T14:06:16.670Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Socialdemokraterna vill att det ska vara enkelt och förmånligt för dig att spara pengar. Så att du kan spara till din första bostad, en semesterresa eller till att ha en buffert i din ekonomi.

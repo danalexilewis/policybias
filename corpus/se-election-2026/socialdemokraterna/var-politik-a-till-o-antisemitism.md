@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Antisemitism"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/antisemitism"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/antisemitism"
-fetchedAt: "2026-08-22T14:06:54.335Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Antisemitism
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/antisemitism
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/antisemitism
+fetchedAt: 2026-08-22T14:06:54.335Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Antisemitism är ett gift som hotar vår demokrati och vår gemenskap. Judiskt liv i Sverige ska garanteras full trygghet. Nu krävs kraftfulla åtgärder för att trycka tillbaka hatet.

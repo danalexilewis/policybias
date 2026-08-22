@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Nytt-f-rslag-till-Riktlinjer-11.7-temagrupp-7-version-2-22965248.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca9843df2/1748614675730/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.7%20temagrupp%207%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca9843df2/1748614675730/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.7%20temagrupp%207%20version%202.pdf"
-fetchedAt: "2026-08-22T13:59:37.034Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Nytt-f-rslag-till-Riktlinjer-11.7-temagrupp-7-version-2-22965248.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca9843df2/1748614675730/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.7%20temagrupp%207%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca9843df2/1748614675730/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.7%20temagrupp%207%20version%202.pdf
+fetchedAt: 2026-08-22T13:59:37.034Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Nytt-f-rslag-till-Riktlinjer-11.7-temagrupp-7-version-2-22965248.pdf

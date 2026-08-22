@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "valstrategi-2014-74b0908b.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d046407e4/1568881617054/valstrategi-2014.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d046407e4/1568881617054/valstrategi-2014.pdf"
-fetchedAt: "2026-08-22T13:57:50.278Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: valstrategi-2014-74b0908b.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d046407e4/1568881617054/valstrategi-2014.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d046407e4/1568881617054/valstrategi-2014.pdf
+fetchedAt: 2026-08-22T13:57:50.278Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # valstrategi-2014-74b0908b.pdf

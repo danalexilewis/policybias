@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kongress 2011"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2011"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2011"
-fetchedAt: "2026-08-22T14:02:21.110Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kongress 2011
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2011
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2011
+fetchedAt: 2026-08-22T14:02:21.110Z
+contentType: html
+via: party-site
+tags:
+  - other
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Här hittar du handlingar och protokoll från partikongressen 2011.

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kongresser"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser"
-fetchedAt: "2026-08-22T13:57:59.956Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kongresser
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser
+fetchedAt: 2026-08-22T13:57:59.956Z
+contentType: html
+via: party-site
+tags:
+  - other
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Här hittar du information och material från våra tidigare kongresser:

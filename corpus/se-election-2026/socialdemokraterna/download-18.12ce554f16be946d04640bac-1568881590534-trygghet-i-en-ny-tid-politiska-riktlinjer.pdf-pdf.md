@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "trygghet-i-en-ny-tid---politiska-riktlinjer-fe910afb.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bac/1568881590534/trygghet-i-en-ny-tid---politiska-riktlinjer.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bac/1568881590534/trygghet-i-en-ny-tid---politiska-riktlinjer.pdf"
-fetchedAt: "2026-08-22T14:06:39.501Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: trygghet-i-en-ny-tid---politiska-riktlinjer-fe910afb.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bac/1568881590534/trygghet-i-en-ny-tid---politiska-riktlinjer.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bac/1568881590534/trygghet-i-en-ny-tid---politiska-riktlinjer.pdf
+fetchedAt: 2026-08-22T14:06:39.501Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # trygghet-i-en-ny-tid---politiska-riktlinjer-fe910afb.pdf

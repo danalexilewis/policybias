@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Personlig assistans och LSS"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/personlig-assistans-och-lss"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/personlig-assistans-och-lss"
-fetchedAt: "2026-08-22T14:05:04.894Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Personlig assistans och LSS
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/personlig-assistans-och-lss
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/personlig-assistans-och-lss
+fetchedAt: 2026-08-22T14:05:04.894Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Du ska ha samma möjligheter som alla andra att leva ett gott liv, oavsett funktionsnedsättning. Socialdemokrater arbetar för att stärka LSS och se till att den personliga assistansen fungerar för dig när du behöver den. Målet är ett tillgängligt samhälle där din delaktighet och dina rättigheter sätts före marknadens vinstintressen.**

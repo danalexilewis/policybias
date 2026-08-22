@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Polisen"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/polisen"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/polisen"
-fetchedAt: "2026-08-22T14:05:05.233Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Polisen
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/polisen
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/polisen
+fetchedAt: 2026-08-22T14:05:05.233Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **En stark och närvarande polis i hela landet är en bärande del av samhällskontraktet. Polismyndigheten behöver fortsätta växa och poliserna ges rätt verktyg att utföra sitt arbete. En viktig del i detta är att vända utvecklingen med nedläggningen av polisstationer. Sverige ska ha fler poliser i hela landet med rätt verktyg för att göra sitt jobb.**

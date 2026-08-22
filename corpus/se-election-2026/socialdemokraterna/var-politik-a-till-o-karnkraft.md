@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kärnkraft"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/karnkraft"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/karnkraft"
-fetchedAt: "2026-08-22T14:04:52.548Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kärnkraft
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/karnkraft
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/karnkraft
+fetchedAt: 2026-08-22T14:04:52.548Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Kärnkraft utgör en betydande del av Sveriges elsystem. Tillsammans med vattenkraft är den viktig för en leveranssäker elförsörjning och skapar stabilitet och balans i elsystemet. Socialdemokraterna bejakar kärnkraften, men menar att staten måste ha kontroll över säkerhet, ekonomi och lokalisering.**

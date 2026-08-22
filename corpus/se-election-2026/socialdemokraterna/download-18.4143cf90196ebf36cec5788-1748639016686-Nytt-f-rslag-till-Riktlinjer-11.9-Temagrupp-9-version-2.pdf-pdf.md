@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Nytt-f-rslag-till-Riktlinjer-11.9-Temagrupp-9-version-2-56f28931.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec5788/1748639016686/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.9%20Temagrupp%209%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec5788/1748639016686/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.9%20Temagrupp%209%20version%202.pdf"
-fetchedAt: "2026-08-22T14:00:00.521Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Nytt-f-rslag-till-Riktlinjer-11.9-Temagrupp-9-version-2-56f28931.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec5788/1748639016686/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.9%20Temagrupp%209%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec5788/1748639016686/Nytt%20f%3Frslag%20till%20Riktlinjer%2011.9%20Temagrupp%209%20version%202.pdf
+fetchedAt: 2026-08-22T14:00:00.521Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Nytt-f-rslag-till-Riktlinjer-11.9-Temagrupp-9-version-2-56f28931.pdf

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Klimatberedskap"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/klimatberedskap"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/klimatberedskap"
-fetchedAt: "2026-08-22T14:03:44.534Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Klimatberedskap
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/klimatberedskap
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/klimatberedskap
+fetchedAt: 2026-08-22T14:03:44.534Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Extremväder som skyfall, värmeböljor och översvämningar är redan en påtaglig del av vår vardag, och klimatriskerna ökar. Klimatberedskap handlar om att skydda det du värdesätter: ditt hem, din hälsa och samhällets infrastruktur. Socialdemokraterna vill rusta Sverige mot klimatförändringarnas konsekvenser och säkerställa trygghet i hela landet, oavsett var du bor.**

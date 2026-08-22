@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kongress 2017"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2017"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2017"
-fetchedAt: "2026-08-22T14:01:42.609Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kongress 2017
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2017
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2017
+fetchedAt: 2026-08-22T14:01:42.609Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - defence
+  - employment
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Den 8-12 april 2017 hade Socialdemokraterna partikongress på Svenska mässan i Göteborg. Kongressen är partiets högsta beslutande organ och på partikongress året före val behandlas samtliga politikområden.**

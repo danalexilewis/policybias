@@ -5,21 +5,22 @@ title: It is time to take Sweden seriously
 status: draft
 updated: 2026-08-22
 summary: A uniquely serious situation requires a new approach. The gang's new
-  recruitment must be prevented with increased surveillance, spot marking of
-  young people at risk and a risk family program. Workplace crime must be fought
-  and fiddling with taxes, working conditions and the exploitation of labor
+  recruitment must be prevented with increased surveillance, spot marking of young
+  people at risk and a risk family program. Workplace crime must be fought and fiddling
+  with taxes, working conditions and the exploitation of labor
 jurisdiction: SE
 sources:
   - title: Det är dags att ta Sverige på allvar
     url: https://www.socialdemokraterna.se/var-politik/sakerhet---val-2026
 tags:
-  - crime-justice
+  - crime-and-justice
+  - defence
 party: socialdemokraterna
 clusters:
   - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/sakerhet-val-2026.md
-sourceDigest: "sha256-8360c9fca07ee39d"
+sourceDigest: sha256-8360c9fca07ee39d
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -27,7 +28,7 @@ lang: en
 translationOf: sakerhet-val-2026
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-477fa471625bd743"
+sourceSpecDigest: sha256-477fa471625bd743
 ---
 
 # What the page states

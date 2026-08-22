@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Nyheter"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/nyheter"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/nyheter"
-fetchedAt: "2026-08-22T14:00:17.623Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Nyheter
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/nyheter
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/nyheter
+fetchedAt: 2026-08-22T14:00:17.623Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - crime-and-justice
+  - education
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 *   [Socialdemokraternas valberedning har nu slutfört sitt förslag till verkställande utskott och partistyrelse. Förslagen ska behandlas och förrättas på Socialdemokraternas 42:a partikongress i Göteborg s...](https://www.socialdemokraterna.se/nyheter/nyheter/2025-05-21-valberedningens-forslag-infor-socialdemokraternas-partikongress)

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Arbetsmiljö"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsmiljo"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsmiljo"
-fetchedAt: "2026-08-22T14:06:58.023Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Arbetsmiljö
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsmiljo
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsmiljo
+fetchedAt: 2026-08-22T14:06:58.023Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Din arbetsplats ska vara trygg och säker. Bra arbetsvillkor och en god arbetsmiljö skapar ett tryggare Sverige.**

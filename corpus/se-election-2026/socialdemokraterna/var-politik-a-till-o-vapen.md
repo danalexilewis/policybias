@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Vapen"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vapen"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vapen"
-fetchedAt: "2026-08-22T14:06:20.082Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Vapen
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vapen
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vapen
+fetchedAt: 2026-08-22T14:06:20.082Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Mängden skjutvapen, sprängmedel och ammunition måste minska. Tillgången till skjutvapen, sprängmedel och ammunition är viktiga anledningar bakom det grova gängvåldet. Mer behöver göras för att både stoppa den olagliga införseln i landet liksom att få bort vapnen från gatan. Att tillverka, anskaffa, bära, hantera, gömma och överlåta illegala vapen måste innebära en avskräckande risk för såväl upptäckt som lagföring. Polisen och andra myndigheterna behöver här ha större möjligheter att söka efter vapen och andra farliga föremål, identifiera gärningspersoner och lagföra brottsliga gärningar.

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "b-sammanhallning-for-okad-trygghet-fa25983b.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c50/1568881617593/b-sammanhallning-for-okad-trygghet.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c50/1568881617593/b-sammanhallning-for-okad-trygghet.pdf"
-fetchedAt: "2026-08-22T14:01:53.014Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: b-sammanhallning-for-okad-trygghet-fa25983b.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c50/1568881617593/b-sammanhallning-for-okad-trygghet.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c50/1568881617593/b-sammanhallning-for-okad-trygghet.pdf
+fetchedAt: 2026-08-22T14:01:53.014Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # b-sammanhallning-for-okad-trygghet-fa25983b.pdf

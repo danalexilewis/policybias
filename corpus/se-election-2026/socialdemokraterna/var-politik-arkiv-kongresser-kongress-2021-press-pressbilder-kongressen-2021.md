@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Pressbilder kongressen 2021"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021/press/pressbilder-kongressen-2021"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021/press/pressbilder-kongressen-2021"
-fetchedAt: "2026-08-22T14:01:26.412Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Pressbilder kongressen 2021
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021/press/pressbilder-kongressen-2021
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2021/press/pressbilder-kongressen-2021
+fetchedAt: 2026-08-22T14:01:26.412Z
+contentType: html
+via: party-site
+tags:
+  - other
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ![bilder från kongress 2021](./assets/8Y1A1424-b5e4bf19.JPG)

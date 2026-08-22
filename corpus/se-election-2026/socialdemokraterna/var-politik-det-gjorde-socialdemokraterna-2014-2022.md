@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Det gjorde Socialdemokraterna 2014-2022"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/det-gjorde-socialdemokraterna-2014-2022"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/det-gjorde-socialdemokraterna-2014-2022"
-fetchedAt: "2026-08-22T14:06:45.689Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Det gjorde Socialdemokraterna 2014-2022
+sourceUrl: https://www.socialdemokraterna.se/var-politik/det-gjorde-socialdemokraterna-2014-2022
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/det-gjorde-socialdemokraterna-2014-2022
+fetchedAt: 2026-08-22T14:06:45.689Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 300 exempel på vad Socialdemokraterna genomfört under de två mandatperioderna mellan 2014 och 2022 då S hade regeringsmakten.

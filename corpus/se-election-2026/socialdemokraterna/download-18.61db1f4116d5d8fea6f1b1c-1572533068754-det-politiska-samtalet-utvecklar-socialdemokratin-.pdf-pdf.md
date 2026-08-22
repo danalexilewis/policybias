@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "det-politiska-samtalet-utvecklar-socialdemokratin-36ec0f65.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b1c/1572533068754/det-politiska-samtalet-utvecklar-socialdemokratin--.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b1c/1572533068754/det-politiska-samtalet-utvecklar-socialdemokratin--.pdf"
-fetchedAt: "2026-08-22T14:01:42.295Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: det-politiska-samtalet-utvecklar-socialdemokratin-36ec0f65.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b1c/1572533068754/det-politiska-samtalet-utvecklar-socialdemokratin--.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.61db1f4116d5d8fea6f1b1c/1572533068754/det-politiska-samtalet-utvecklar-socialdemokratin--.pdf
+fetchedAt: 2026-08-22T14:01:42.295Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # det-politiska-samtalet-utvecklar-socialdemokratin-36ec0f65.pdf

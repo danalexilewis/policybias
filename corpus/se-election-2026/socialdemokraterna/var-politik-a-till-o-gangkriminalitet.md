@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Gängkriminalitet"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/gangkriminalitet"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/gangkriminalitet"
-fetchedAt: "2026-08-22T14:03:39.269Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Gängkriminalitet
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/gangkriminalitet
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/gangkriminalitet
+fetchedAt: 2026-08-22T14:03:39.269Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige befinner sig i en nationell kris med en brutal gängkriminalitet. Våldet kryper ner i åldrarna och äter sig in i hela samhället vilket gör att du idag kan möta gängkriminalitet på vårdcentralen liksom i ditt hemmakvarter. Allt fokus behöver nu vara på att vända utvecklingen och stoppa gängens nyrekryteringar. Det innebär också att tidigare oprövade förslag och reformer kommer att behöva genomföras.**

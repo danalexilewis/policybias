@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Hemtjänst"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/hemtjanst"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/hemtjanst"
-fetchedAt: "2026-08-22T14:03:39.968Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Hemtjänst
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/hemtjanst
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/hemtjanst
+fetchedAt: 2026-08-22T14:03:39.968Z
+contentType: html
+via: party-site
+tags:
+  - elderly-care
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Du ska kunna känna dig helt trygg i ditt hem och lita på att hemtjänsten ger dig det stöd och den omsorg du behöver för en värdig vardag. Socialdemokrater arbetar för en hemtjänst där personalen har tid för dig och där din trygghet alltid prioriteras före privata bolags vinstintressen. Genom att investera i fler kollegor och bättre villkor för personalen säkras en omsorg med hög kvalitet oavsett var i landet du bor.**

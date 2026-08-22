@@ -1,21 +1,25 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-vem-styr-i-kommunen
-title: "Vem styr i kommunen"
+title: Vem styr i kommunen
 status: draft
 updated: 2026-08-22
-summary: "Denna lista redovisar de styrande partierna och partisamarbetena och koalitionerna i Sveriges kommuner för mandatperioden 2022–2026. Listan är baserad på vilka partier som styr nu och inkluderar de politiska skiften som skett under perioden fram till källans senaste notering (4/3"
+summary: Denna lista redovisar de styrande partierna och partisamarbetena och
+  koalitionerna i Sveriges kommuner för mandatperioden 2022–2026. Listan är baserad på
+  vilka partier som styr nu och inkluderar de politiska skiften som skett under perioden
+  fram till källans senaste notering (4/3
 jurisdiction: SE
 sources:
-  - title: "Vem styr i kommunen"
+  - title: Vem styr i kommunen
     url: https://www.socialdemokraterna.se/var-politik/vem-styr-i-kommunen
-tags: [energy-power]
+tags:
+  - agriculture
 party: socialdemokraterna
 clusters:
-  - energy-power
+  - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-vem-styr-i-kommunen.md
-sourceDigest: "sha256-986173c23bc879c9"
+sourceDigest: sha256-986173c23bc879c9
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

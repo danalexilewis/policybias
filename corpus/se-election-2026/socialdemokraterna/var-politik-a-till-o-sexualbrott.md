@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Sexualbrott"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sexualbrott"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sexualbrott"
-fetchedAt: "2026-08-22T14:06:08.667Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Sexualbrott
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sexualbrott
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sexualbrott
+fetchedAt: 2026-08-22T14:06:08.667Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Sexualbrott är en särskild avskyvärd form av manligt våld. När någon utsätts måste samhället därför svara med full kraft och erbjuda skydd och upprättelse. Alla kvinnor och barn ska kunna känna sig trygga på stan, i hemmet och online.

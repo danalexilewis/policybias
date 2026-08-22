@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Banker"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/banker"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/banker"
-fetchedAt: "2026-08-22T14:07:16.380Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Banker
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/banker
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/banker
+fetchedAt: 2026-08-22T14:07:16.380Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Bankerna har gjort rekordvinster de senaste åren – och du betalar priset. Socialdemokraterna vill se en ny, rättvis politik som skärper bankernas ansvar och sätter din plånbok först genom att pressa kostnaderna.

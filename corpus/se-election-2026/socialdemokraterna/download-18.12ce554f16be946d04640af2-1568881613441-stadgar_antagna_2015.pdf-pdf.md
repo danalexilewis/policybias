@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "stadgar_antagna_2015-610467c0.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640af2/1568881613441/stadgar_antagna_2015.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640af2/1568881613441/stadgar_antagna_2015.pdf"
-fetchedAt: "2026-08-22T14:03:32.401Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: stadgar_antagna_2015-610467c0.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640af2/1568881613441/stadgar_antagna_2015.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640af2/1568881613441/stadgar_antagna_2015.pdf
+fetchedAt: 2026-08-22T14:03:32.401Z
+contentType: pdf
+via: party-site
+tags:
+  - gender-equality
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # stadgar_antagna_2015-610467c0.pdf

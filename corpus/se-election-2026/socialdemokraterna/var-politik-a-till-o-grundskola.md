@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Grundskola"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/grundskola"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/grundskola"
-fetchedAt: "2026-08-22T14:03:37.852Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Grundskola
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/grundskola
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/grundskola
+fetchedAt: 2026-08-22T14:03:37.852Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Svensk skola ska präglas av trygghet och studiero och fokusera på kunskap och bildning, inget annat. Du ska veta att ditt barn alltid går i en skola som använder pengarna för att ditt barn ska få en så bra skoltid som möjligt - inte för sportbilar och lyxskolor i andra länder. För att det ska vara möjligt måste också staten se till att mer pengar tillförs och sätta ett minimikrav på antal barn per lärare. Så säkerställer vi fler lärare och bättre stöd så att ditt barn kan mötas av höga förväntningar och tro på att de kan lyckas.

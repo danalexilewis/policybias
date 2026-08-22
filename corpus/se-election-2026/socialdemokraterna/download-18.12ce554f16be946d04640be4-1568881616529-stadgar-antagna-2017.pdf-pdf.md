@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "stadgar-antagna-2017-337345c2.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640be4/1568881616529/stadgar-antagna-2017.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640be4/1568881616529/stadgar-antagna-2017.pdf"
-fetchedAt: "2026-08-22T14:01:45.434Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: stadgar-antagna-2017-337345c2.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640be4/1568881616529/stadgar-antagna-2017.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640be4/1568881616529/stadgar-antagna-2017.pdf
+fetchedAt: 2026-08-22T14:01:45.434Z
+contentType: pdf
+via: party-site
+tags:
+  - culture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # stadgar-antagna-2017-337345c2.pdf

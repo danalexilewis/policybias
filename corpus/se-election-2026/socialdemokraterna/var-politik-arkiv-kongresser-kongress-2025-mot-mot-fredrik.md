@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Möt Fredrik"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-fredrik"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-fredrik"
-fetchedAt: "2026-08-22T14:00:14.595Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Möt Fredrik
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-fredrik
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-fredrik
+fetchedAt: 2026-08-22T14:00:14.595Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Hej! Jag heter Fredrik.**

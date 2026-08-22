@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "valanalys_2018-bc7944e1.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464084f/1568881613338/valanalys_2018.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464084f/1568881613338/valanalys_2018.pdf"
-fetchedAt: "2026-08-22T13:57:57.102Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: valanalys_2018-bc7944e1.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464084f/1568881613338/valanalys_2018.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464084f/1568881613338/valanalys_2018.pdf
+fetchedAt: 2026-08-22T13:57:57.102Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # valanalys_2018-bc7944e1.pdf

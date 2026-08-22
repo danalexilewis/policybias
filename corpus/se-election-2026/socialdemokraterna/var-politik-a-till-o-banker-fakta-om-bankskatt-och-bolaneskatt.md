@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Fakta om bankskatt och bolåneskatt"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/banker/fakta-om-bankskatt-och-bolaneskatt"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/banker/fakta-om-bankskatt-och-bolaneskatt"
-fetchedAt: "2026-08-22T14:07:17.216Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Fakta om bankskatt och bolåneskatt
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/banker/fakta-om-bankskatt-och-bolaneskatt
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/banker/fakta-om-bankskatt-och-bolaneskatt
+fetchedAt: 2026-08-22T14:07:17.216Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Det sprids just nu felaktiga påståenden om vår politik – därför reder vi här ut vad vi faktiskt vill, och vad vi inte vill.

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.11-Vi-bygger-landet-starkt-och-ha-llbart-full-sysselsa-ttning-version-2-6f6ead67.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6732cf/1636121973059/Riktlinjer%2010.11%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%20%E2%80%93%20full%20sysselsa%CC%88ttning%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6732cf/1636121973059/Riktlinjer%2010.11%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%20%E2%80%93%20full%20sysselsa%CC%88ttning%20version%202.pdf"
-fetchedAt: "2026-08-22T14:05:27.819Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.11-Vi-bygger-landet-starkt-och-ha-llbart-full-sysselsa-ttning-version-2-6f6ead67.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6732cf/1636121973059/Riktlinjer%2010.11%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%20%E2%80%93%20full%20sysselsa%CC%88ttning%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6732cf/1636121973059/Riktlinjer%2010.11%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%20%E2%80%93%20full%20sysselsa%CC%88ttning%20version%202.pdf
+fetchedAt: 2026-08-22T14:05:27.819Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Riktlinjer-10.11-Vi-bygger-landet-starkt-och-ha-llbart-full-sysselsa-ttning-version-2-6f6ead67.pdf

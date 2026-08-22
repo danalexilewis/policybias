@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Näringspolitik och konkurrenskraft"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/naringspolitik-och-konkurrenskraft"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/naringspolitik-och-konkurrenskraft"
-fetchedAt: "2026-08-22T14:05:03.101Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Näringspolitik och konkurrenskraft
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/naringspolitik-och-konkurrenskraft
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/naringspolitik-och-konkurrenskraft
+fetchedAt: 2026-08-22T14:05:03.101Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige ska ligga långt fram i teknikutvecklingen och stärka sin konkurrenskraft. En offensiv och framåtblickande näringspolitik är nödvändig för att skapa välbetalda jobb och leda nästa ekonomiska språng. För att Sverige ska bli en vinnare i den gröna och digitala omställningen krävs en politik som ger dig och svenska företag långsiktighet och trygghet.**

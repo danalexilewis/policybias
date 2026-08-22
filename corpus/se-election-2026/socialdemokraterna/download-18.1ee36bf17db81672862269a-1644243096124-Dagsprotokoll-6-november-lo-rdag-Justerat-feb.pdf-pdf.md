@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Dagsprotokoll-6-november---lo-rdag-Justerat-feb-cffbc70d.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1ee36bf17db81672862269a/1644243096124/Dagsprotokoll%206%20november%20-%20lo%CC%88rdag%20(Justerat)%20feb.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1ee36bf17db81672862269a/1644243096124/Dagsprotokoll%206%20november%20-%20lo%CC%88rdag%20(Justerat)%20feb.pdf"
-fetchedAt: "2026-08-22T14:05:20.252Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Dagsprotokoll-6-november---lo-rdag-Justerat-feb-cffbc70d.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1ee36bf17db81672862269a/1644243096124/Dagsprotokoll%206%20november%20-%20lo%CC%88rdag%20(Justerat)%20feb.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1ee36bf17db81672862269a/1644243096124/Dagsprotokoll%206%20november%20-%20lo%CC%88rdag%20(Justerat)%20feb.pdf
+fetchedAt: 2026-08-22T14:05:20.252Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Dagsprotokoll-6-november---lo-rdag-Justerat-feb-cffbc70d.pdf

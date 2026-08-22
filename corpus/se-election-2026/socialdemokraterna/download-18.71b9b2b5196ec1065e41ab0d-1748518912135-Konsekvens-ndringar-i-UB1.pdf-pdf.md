@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Konsekvens-ndringar-i-UB1-b4359727.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e41ab0d/1748518912135/Konsekvens%3Fndringar%20%20i%20UB1.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e41ab0d/1748518912135/Konsekvens%3Fndringar%20%20i%20UB1.pdf"
-fetchedAt: "2026-08-22T13:58:55.930Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Konsekvens-ndringar-i-UB1-b4359727.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e41ab0d/1748518912135/Konsekvens%3Fndringar%20%20i%20UB1.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e41ab0d/1748518912135/Konsekvens%3Fndringar%20%20i%20UB1.pdf
+fetchedAt: 2026-08-22T13:58:55.930Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Konsekvens-ndringar-i-UB1-b4359727.pdf

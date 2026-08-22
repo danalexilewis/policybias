@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Sveriges ekonomi"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sveriges-ekonomi"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sveriges-ekonomi"
-fetchedAt: "2026-08-22T14:06:17.723Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Sveriges ekonomi
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sveriges-ekonomi
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sveriges-ekonomi
+fetchedAt: 2026-08-22T14:06:17.723Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - education
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Känner du hur ekonomiska krisen slagit hårt mot din plånbok? Du är inte ensam. Med SD-regeringen har Sveriges ekonomi gått i fel riktning, med 100 000 fler arbetslösa och en tillväxt som legat i EU:s bottenliga. Vi socialdemokrater vill vända utvecklingen, så att Sveriges välstånd växer – och att det ska märkas i din plånbok.

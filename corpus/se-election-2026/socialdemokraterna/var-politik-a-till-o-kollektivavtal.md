@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kollektivavtal"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kollektivavtal"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kollektivavtal"
-fetchedAt: "2026-08-22T14:03:45.677Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kollektivavtal
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kollektivavtal
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kollektivavtal
+fetchedAt: 2026-08-22T14:03:45.677Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Den svenska modellen bygger på ett samarbete mellan fackförbund och arbetsgivare där de förhandlar och sluter kollektivavtal om löner och andra anställningsvillkor. Socialdemokraterna slår vakt om kollektivavtalen för din trygghet och för ordning och reda på arbetsmarknaden så att alla som jobbar i Sverige får schyssta villkor.**

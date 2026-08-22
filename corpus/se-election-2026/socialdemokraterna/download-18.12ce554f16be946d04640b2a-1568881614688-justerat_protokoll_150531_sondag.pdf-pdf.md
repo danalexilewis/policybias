@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "justerat_protokoll_150531_sondag-4692b5fa.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b2a/1568881614688/justerat_protokoll_150531_sondag.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b2a/1568881614688/justerat_protokoll_150531_sondag.pdf"
-fetchedAt: "2026-08-22T14:03:36.282Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: justerat_protokoll_150531_sondag-4692b5fa.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b2a/1568881614688/justerat_protokoll_150531_sondag.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b2a/1568881614688/justerat_protokoll_150531_sondag.pdf
+fetchedAt: 2026-08-22T14:03:36.282Z
+contentType: pdf
+via: party-site
+tags:
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # justerat_protokoll_150531_sondag-4692b5fa.pdf

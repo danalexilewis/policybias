@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "D---Motioner-och-utla-tanden-886a68eb.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4814/1744808439816/D%20-%20Motioner%20och%20utla%CC%8Atanden.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4814/1744808439816/D%20-%20Motioner%20och%20utla%CC%8Atanden.pdf"
-fetchedAt: "2026-08-22T13:59:34.831Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: D---Motioner-och-utla-tanden-886a68eb.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4814/1744808439816/D%20-%20Motioner%20och%20utla%CC%8Atanden.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4814/1744808439816/D%20-%20Motioner%20och%20utla%CC%8Atanden.pdf
+fetchedAt: 2026-08-22T13:59:34.831Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # D---Motioner-och-utla-tanden-886a68eb.pdf

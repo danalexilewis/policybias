@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "e-varldens-forsta-fossilfria-valfardsland-9b52e136.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640cbe/1568881602329/e-varldens-forsta-fossilfria-valfardsland.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640cbe/1568881602329/e-varldens-forsta-fossilfria-valfardsland.pdf"
-fetchedAt: "2026-08-22T14:02:04.645Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: e-varldens-forsta-fossilfria-valfardsland-9b52e136.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640cbe/1568881602329/e-varldens-forsta-fossilfria-valfardsland.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640cbe/1568881602329/e-varldens-forsta-fossilfria-valfardsland.pdf
+fetchedAt: 2026-08-22T14:02:04.645Z
+contentType: pdf
+via: party-site
+tags:
+  - transport
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # e-varldens-forsta-fossilfria-valfardsland-9b52e136.pdf

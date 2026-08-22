@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "beslut_handslag_for_ett_framtidsparti_typsatt-b78dcf4d.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640ae8/1568881613512/beslut_handslag_for_ett_framtidsparti_typsatt.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640ae8/1568881613512/beslut_handslag_for_ett_framtidsparti_typsatt.pdf"
-fetchedAt: "2026-08-22T14:03:30.017Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: beslut_handslag_for_ett_framtidsparti_typsatt-b78dcf4d.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640ae8/1568881613512/beslut_handslag_for_ett_framtidsparti_typsatt.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640ae8/1568881613512/beslut_handslag_for_ett_framtidsparti_typsatt.pdf
+fetchedAt: 2026-08-22T14:03:30.017Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # beslut_handslag_for_ett_framtidsparti_typsatt-b78dcf4d.pdf

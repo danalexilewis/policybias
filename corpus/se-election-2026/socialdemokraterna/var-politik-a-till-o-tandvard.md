@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Tandvård"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/tandvard"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/tandvard"
-fetchedAt: "2026-08-22T14:06:17.974Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Tandvård
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/tandvard
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/tandvard
+fetchedAt: 2026-08-22T14:06:17.974Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 När du behöver tandvård ska din plånbok inte avgöra din hälsa. Idag är tandvårdskostnaderna höga, vilket gör att många drar sig för att söka vård, trots att du har allvarliga besvär. Den ojämlikhet som vuxit fram är oacceptabel, och Socialdemokraterna vill göra tandvården behovsstyrd på lika villkor för hela befolkningen.

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Beslutad-organisatorisk-inriktning-till-2029-bba6e57c.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca983b6b1/1748523605086/Beslutad%20organisatorisk%20inriktning%20till%202029.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca983b6b1/1748523605086/Beslutad%20organisatorisk%20inriktning%20till%202029.pdf"
-fetchedAt: "2026-08-22T14:00:10.599Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Beslutad-organisatorisk-inriktning-till-2029-bba6e57c.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca983b6b1/1748523605086/Beslutad%20organisatorisk%20inriktning%20till%202029.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca983b6b1/1748523605086/Beslutad%20organisatorisk%20inriktning%20till%202029.pdf
+fetchedAt: 2026-08-22T14:00:10.599Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Beslutad-organisatorisk-inriktning-till-2029-bba6e57c.pdf

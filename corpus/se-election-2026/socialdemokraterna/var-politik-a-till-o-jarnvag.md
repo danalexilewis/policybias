@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Järnväg"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/jarnvag"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/jarnvag"
-fetchedAt: "2026-08-22T14:03:43.561Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Järnväg
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/jarnvag
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/jarnvag
+fetchedAt: 2026-08-22T14:03:43.561Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Är du trött på att ditt tåg är sent eller att järnvägen ständigt bjuder på strul? Du är inte ensam. Under lång tid har marknadsmisslyckanden fått råda på järnvägen, vilket lett till akut eftersatt underhåll och förseningar. Socialdemokraterna vill leda Sverige i en ny riktning – där vi får ordning på spåren och säkerställer att tågen går i tid för dig.

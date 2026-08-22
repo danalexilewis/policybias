@@ -1,21 +1,22 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-var-politik-derived
-title: "Vår politik (reading)"
+title: Vår politik (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Vår politik"
+summary: Our reading of Vår politik
 jurisdiction: SE
 sources:
-  - title: "Vår politik"
+  - title: Vår politik
     url: https://www.socialdemokraterna.se/var-politik/var-politik
-tags: [health-care]
+tags:
+  - other
 party: socialdemokraterna
 clusters:
-  - health-care
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-var-politik.md
-sourceDigest: "sha256-b2f896b3614792b5"
+sourceDigest: sha256-b2f896b3614792b5
 derivesFrom: socialdemokraterna-var-politik-var-politik
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

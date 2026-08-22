@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Räntor och bolån – så vill S pressa räntekostnaderna"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/banker/rantor-och-bolan---sa-vill-s-pressa-rantekostnaderna"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/banker/rantor-och-bolan---sa-vill-s-pressa-rantekostnaderna"
-fetchedAt: "2026-08-22T14:07:17.490Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Räntor och bolån – så vill S pressa räntekostnaderna
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/banker/rantor-och-bolan---sa-vill-s-pressa-rantekostnaderna
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/banker/rantor-och-bolan---sa-vill-s-pressa-rantekostnaderna
+fetchedAt: 2026-08-22T14:07:17.490Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Höga bolåneräntor slår hårt mot svenska familjer samtidigt som storbankerna gör rekordvinster. Socialdemokraterna går till val på ett prispressarpaket. Vi vill öka konkurrensen på bankmarknaden, förbjuda missvisande ränteupplägg och ge vanliga hushåll mer makt att förhandla ner sina bolån.**

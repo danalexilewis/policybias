@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "c-kunskap-gor-sverige-starkare-363d0742.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c75/1568881617527/c-kunskap-gor-sverige-starkare.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c75/1568881617527/c-kunskap-gor-sverige-starkare.pdf"
-fetchedAt: "2026-08-22T14:01:56.048Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: c-kunskap-gor-sverige-starkare-363d0742.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c75/1568881617527/c-kunskap-gor-sverige-starkare.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c75/1568881617527/c-kunskap-gor-sverige-starkare.pdf
+fetchedAt: 2026-08-22T14:01:56.048Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # c-kunskap-gor-sverige-starkare-363d0742.pdf

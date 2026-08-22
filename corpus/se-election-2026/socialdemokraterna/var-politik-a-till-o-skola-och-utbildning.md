@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Skola och utbildning"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skola-och-utbildning"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skola-och-utbildning"
-fetchedAt: "2026-08-22T14:06:15.606Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Skola och utbildning
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skola-och-utbildning
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skola-och-utbildning
+fetchedAt: 2026-08-22T14:06:15.606Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Skolan ska ge varje barn och elev en rättvis chans att lyckas – oavsett bakgrund. Men idag ser vi att vinstjakt, stök och stora klasser leder till att fler än någonsin slås ut från skolan. Du ska kunna lita på att skolan håller hög kvalitet och att resurserna går till undervisning, inte till vinster. Men idag finns stora skillnader mellan skolor och för många elever får inte det stöd de behöver. Därför behövs en skola där kunskap, trygghet och rättvisa står i centrum.

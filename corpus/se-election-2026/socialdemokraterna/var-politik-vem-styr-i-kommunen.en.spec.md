@@ -4,22 +4,22 @@ id: socialdemokraterna-var-politik-vem-styr-i-kommunen
 title: Who rules in the municipality
 status: draft
 updated: 2026-08-22
-summary: This list reports the governing parties and party collaborations and
-  coalitions in Sweden's municipalities for the mandate period 2022–2026. The
-  list is based on which parties are in power now and includes the political
-  shifts that occurred in the period up to the source's last listing (4/3
+summary: This list reports the governing parties and party collaborations and coalitions
+  in Sweden's municipalities for the mandate period 2022–2026. The list is based on
+  which parties are in power now and includes the political shifts that occurred in the
+  period up to the source's last listing (4/3
 jurisdiction: SE
 sources:
   - title: Vem styr i kommunen
     url: https://www.socialdemokraterna.se/var-politik/vem-styr-i-kommunen
 tags:
-  - energy-power
+  - agriculture
 party: socialdemokraterna
 clusters:
-  - energy-power
+  - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-vem-styr-i-kommunen.md
-sourceDigest: "sha256-986173c23bc879c9"
+sourceDigest: sha256-986173c23bc879c9
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -27,7 +27,7 @@ lang: en
 translationOf: socialdemokraterna-vem-styr-i-kommunen
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-87e0713dc27102bf"
+sourceSpecDigest: sha256-87e0713dc27102bf
 ---
 
 # What the page states

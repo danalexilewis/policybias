@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.3-ho-gre-pensioner-och-sta-rkt-trygghet-genom-livet-02fdfe32.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671b20/1636020695169/Riktlinjer%2010.3%20ho%CC%88gre%20pensioner%20och%20sta%CC%88rkt%20trygghet%20genom%20livet.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671b20/1636020695169/Riktlinjer%2010.3%20ho%CC%88gre%20pensioner%20och%20sta%CC%88rkt%20trygghet%20genom%20livet.pdf"
-fetchedAt: "2026-08-22T14:06:01.768Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.3-ho-gre-pensioner-och-sta-rkt-trygghet-genom-livet-02fdfe32.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671b20/1636020695169/Riktlinjer%2010.3%20ho%CC%88gre%20pensioner%20och%20sta%CC%88rkt%20trygghet%20genom%20livet.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671b20/1636020695169/Riktlinjer%2010.3%20ho%CC%88gre%20pensioner%20och%20sta%CC%88rkt%20trygghet%20genom%20livet.pdf
+fetchedAt: 2026-08-22T14:06:01.768Z
+contentType: pdf
+via: party-site
+tags:
+  - pensions
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Riktlinjer-10.3-ho-gre-pensioner-och-sta-rkt-trygghet-genom-livet-02fdfe32.pdf

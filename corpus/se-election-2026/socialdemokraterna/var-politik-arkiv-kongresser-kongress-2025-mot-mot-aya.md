@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Möt Aya"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-aya"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-aya"
-fetchedAt: "2026-08-22T14:00:13.385Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Möt Aya
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-aya
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/mot/mot-aya
+fetchedAt: 2026-08-22T14:00:13.385Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Hej! Jag heter Aya.**

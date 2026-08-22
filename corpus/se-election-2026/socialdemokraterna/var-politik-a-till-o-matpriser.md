@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Matpriser"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/matpriser"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/matpriser"
-fetchedAt: "2026-08-22T14:04:55.784Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Matpriser
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/matpriser
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/matpriser
+fetchedAt: 2026-08-22T14:04:55.784Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Märker du också att matpriserna är skyhöga och att plånboken töms snabbare än någonsin? Efter år av kostnadskris har vanligt folks köpkraft dränerats, och det är uppenbart att konkurrensen på livsmedelsmarknaden inte fungerar som den ska. Det krävs handlingskraft för att pressa priserna och stärka din ekonomi.

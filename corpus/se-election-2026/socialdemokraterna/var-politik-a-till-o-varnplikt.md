@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Värnplikt"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/varnplikt"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/varnplikt"
-fetchedAt: "2026-08-22T14:06:30.022Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Värnplikt
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/varnplikt
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/varnplikt
+fetchedAt: 2026-08-22T14:06:30.022Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 När säkerhetsläget är allvarligt är ett starkt militärt försvar din bästa garant för trygghet. Värnplikten är grunden för Försvarsmaktens personalförsörjning och den viktigaste resursen för att bygga ett robust militärt försvar. Framtidens försvar bygger på välutbildade soldater och en stark folklig förankring – därför driver Socialdemokraterna på för att återställa värnpliktens ställning.

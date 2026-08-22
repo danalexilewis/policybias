@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "kongressprotokoll_2011-b1139bd8.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d046409d2/1568881603702/kongressprotokoll_2011.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d046409d2/1568881603702/kongressprotokoll_2011.pdf"
-fetchedAt: "2026-08-22T14:02:24.883Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: kongressprotokoll_2011-b1139bd8.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d046409d2/1568881603702/kongressprotokoll_2011.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d046409d2/1568881603702/kongressprotokoll_2011.pdf
+fetchedAt: 2026-08-22T14:02:24.883Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # kongressprotokoll_2011-b1139bd8.pdf

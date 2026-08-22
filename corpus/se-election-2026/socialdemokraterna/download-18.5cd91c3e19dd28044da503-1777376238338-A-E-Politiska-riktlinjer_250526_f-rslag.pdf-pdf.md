@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "A-E-Politiska-riktlinjer_250526_f-rslag-d1b78143.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.5cd91c3e19dd28044da503/1777376238338/A-E%20Politiska%20riktlinjer_250526_f%C3%B6rslag.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.5cd91c3e19dd28044da503/1777376238338/A-E%20Politiska%20riktlinjer_250526_f%C3%B6rslag.pdf"
-fetchedAt: "2026-08-22T13:58:17.343Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: A-E-Politiska-riktlinjer_250526_f-rslag-d1b78143.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.5cd91c3e19dd28044da503/1777376238338/A-E%20Politiska%20riktlinjer_250526_f%C3%B6rslag.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.5cd91c3e19dd28044da503/1777376238338/A-E%20Politiska%20riktlinjer_250526_f%C3%B6rslag.pdf
+fetchedAt: 2026-08-22T13:58:17.343Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+  - employment
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # A-E-Politiska-riktlinjer_250526_f-rslag-d1b78143.pdf

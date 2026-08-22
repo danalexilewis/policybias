@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.2--Vi-bygger-landet-tryggt-Va-rd-efter-behov-version-2-14a55de2.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6716ed/1635985758643/Riktlinjer%2010.2%20-Vi%20bygger%20landet%20tryggt%20%E2%80%93%20Va%CC%8Ard%20efter%20behov%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6716ed/1635985758643/Riktlinjer%2010.2%20-Vi%20bygger%20landet%20tryggt%20%E2%80%93%20Va%CC%8Ard%20efter%20behov%20version%202.pdf"
-fetchedAt: "2026-08-22T14:06:00.002Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.2--Vi-bygger-landet-tryggt-Va-rd-efter-behov-version-2-14a55de2.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6716ed/1635985758643/Riktlinjer%2010.2%20-Vi%20bygger%20landet%20tryggt%20%E2%80%93%20Va%CC%8Ard%20efter%20behov%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6716ed/1635985758643/Riktlinjer%2010.2%20-Vi%20bygger%20landet%20tryggt%20%E2%80%93%20Va%CC%8Ard%20efter%20behov%20version%202.pdf
+fetchedAt: 2026-08-22T14:06:00.002Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Riktlinjer-10.2--Vi-bygger-landet-tryggt-Va-rd-efter-behov-version-2-14a55de2.pdf

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Europaparlamentsvalet 2009"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/val/europaparlamentsvalet-2009"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/val/europaparlamentsvalet-2009"
-fetchedAt: "2026-08-22T13:57:41.192Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Europaparlamentsvalet 2009
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/val/europaparlamentsvalet-2009
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/val/europaparlamentsvalet-2009
+fetchedAt: 2026-08-22T13:57:41.192Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Valmanifest - jobben först

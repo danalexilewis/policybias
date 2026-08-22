@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Ställ en fråga"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/stall-en-fraga"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/stall-en-fraga"
-fetchedAt: "2026-08-22T14:06:43.332Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: socialdemokraterna
+title: Ställ en fråga
+sourceUrl: https://www.socialdemokraterna.se/var-politik/stall-en-fraga
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/stall-en-fraga
+fetchedAt: 2026-08-22T14:06:43.332Z
+contentType: html
+via: party-site
 tags:
-  - "elderly-welfare"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - education
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Frågor om vår organisation, ditt medlemskap eller vår politik nationellt, regionalt eller lokalt?

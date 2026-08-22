@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "B-Vi-bygger-ett-land-som-ha-ller-ihop-2021-80563b46.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.58f114e917c0725de62edc/1632306808504/B%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%202021.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.58f114e917c0725de62edc/1632306808504/B%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%202021.pdf"
-fetchedAt: "2026-08-22T14:05:40.101Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: B-Vi-bygger-ett-land-som-ha-ller-ihop-2021-80563b46.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.58f114e917c0725de62edc/1632306808504/B%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%202021.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.58f114e917c0725de62edc/1632306808504/B%20Vi%20bygger%20ett%20land%20som%20ha%CC%8Aller%20ihop%202021.pdf
+fetchedAt: 2026-08-22T14:05:40.101Z
+contentType: pdf
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # B-Vi-bygger-ett-land-som-ha-ller-ihop-2021-80563b46.pdf

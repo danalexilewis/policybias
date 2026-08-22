@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Lag och ordning"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/lag-och-ordning"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/lag-och-ordning"
-fetchedAt: "2026-08-22T14:04:53.923Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Lag och ordning
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/lag-och-ordning
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/lag-och-ordning
+fetchedAt: 2026-08-22T14:04:53.923Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige ska vara ett tryggt land. Oavsett var man bor ska man kunna gå ut på kvällarna utan att känna sig rädd eller orolig. Det är en grundläggande del av samhällskontraktet att man som medborgare ges skydd från brott och upprättelse ifall man ändå utsätts. Här och nu behöver utvecklingen med den skenande gängkriminaliteten och mäns våld mot kvinnor vändas. Vi ska återupprätta tryggheten i Sverige.  

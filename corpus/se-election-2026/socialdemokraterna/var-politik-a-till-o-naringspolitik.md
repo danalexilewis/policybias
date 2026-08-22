@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Näringspolitik"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/naringspolitik"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/naringspolitik"
-fetchedAt: "2026-08-22T14:05:02.040Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Näringspolitik
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/naringspolitik
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/naringspolitik
+fetchedAt: 2026-08-22T14:05:02.040Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 När företag växer och skapar jobb märks det i din plånbok. Fler jobb, högre löner och en stark ekonomi gör vardagen och välfärden tryggare. Men idag bromsas investeringar och tillväxt av krångel och brist på rätt förutsättningar. Därför behövs en aktiv näringspolitik där staten tar ett större ansvar och som skapar jobb i hela landet och stärker din ekonomi.

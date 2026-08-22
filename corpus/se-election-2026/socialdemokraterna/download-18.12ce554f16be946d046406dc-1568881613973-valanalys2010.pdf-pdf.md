@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "valanalys2010-1147e5e7.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d046406dc/1568881613973/valanalys2010.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d046406dc/1568881613973/valanalys2010.pdf"
-fetchedAt: "2026-08-22T13:57:48.867Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: valanalys2010-1147e5e7.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d046406dc/1568881613973/valanalys2010.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d046406dc/1568881613973/valanalys2010.pdf
+fetchedAt: 2026-08-22T13:57:48.867Z
+contentType: pdf
+via: party-site
+tags:
+  - other
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # valanalys2010-1147e5e7.pdf

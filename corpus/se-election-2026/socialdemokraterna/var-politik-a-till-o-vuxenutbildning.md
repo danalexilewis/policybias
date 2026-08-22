@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Vuxenutbildning"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vuxenutbildning"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vuxenutbildning"
-fetchedAt: "2026-08-22T14:06:22.215Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Vuxenutbildning
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vuxenutbildning
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vuxenutbildning
+fetchedAt: 2026-08-22T14:06:22.215Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 I Sverige ökar arbetslösheten samtidigt som företag och välfärd skriker efter utbildad personal. Socialdemokraterna ser vuxenutbildningen som avgörande för att säkra Sveriges kompetensförsörjning, bryta segregationen och ge dig möjlighet att lära om och lära nytt genom hela livet.

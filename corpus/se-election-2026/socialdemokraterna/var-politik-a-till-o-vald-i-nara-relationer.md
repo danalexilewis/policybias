@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Våld i nära relationer"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vald-i-nara-relationer"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vald-i-nara-relationer"
-fetchedAt: "2026-08-22T14:06:23.143Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Våld i nära relationer
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vald-i-nara-relationer
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vald-i-nara-relationer
+fetchedAt: 2026-08-22T14:06:23.143Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Mäns våld mot kvinnor måste tas på större allvar. Förövaren ska straffas och stödet till såväl kvinnor som barn förstärkas. Varje dag utsätts flickor och kvinnor för trakasserier, våld och sexualbrott. Våldet orsakar stort lidande, det kränker och begränsar kvinnors frihet och ger livslånga konsekvenser. Ofta utsätts kvinnan av någon som hon känner eller lever i en relation med. Våldet drabbar då också barn som kan tvingas bevittna våld och övergrepp. Ingen ska behöva leva i rädsla eller känna sig otrygg i sitt eget hem.

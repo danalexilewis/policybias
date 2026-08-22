@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Abort"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/abort"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/abort"
-fetchedAt: "2026-08-22T14:06:51.821Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Abort
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/abort
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/abort
+fetchedAt: 2026-08-22T14:06:51.821Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Din rätt att bestämma över din egen kropp är en av de mest grundläggande friheterna i ett demokratiskt samhälle. Socialdemokrater arbetar för att du alltid ska ha tillgång till en trygg och säker abort, oavsett var i landet du bor. I en tid då aborträtten utmanas i vår omvärld vill vi stärka ditt skydd genom att skriva in rätten till abort i den svenska grundlagen.**

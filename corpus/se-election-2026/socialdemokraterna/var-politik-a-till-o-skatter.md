@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Skatter"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skatter"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skatter"
-fetchedAt: "2026-08-22T14:06:10.641Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Skatter
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skatter
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skatter
+fetchedAt: 2026-08-22T14:06:10.641Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Märker du hur dina pengar räcker till allt mindre samtidigt som de rikaste får stora skattesänkningar? Socialdemokraterna säger nej till en orättvis skattepolitik där de som redan har mest får mer. Det är dags att ta gemensamt ansvar och se till att varje skattekrona går dit den behövs: till vår gemensamma trygghet och välfärd.

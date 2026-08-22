@@ -1,21 +1,22 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-partiprogram-och-riktlinjer
-title: "Partiprogram och riktlinjer"
+title: Partiprogram och riktlinjer
 status: draft
 updated: 2026-08-22
-summary: "Här kan du läsa våra partiprogram och våra politiska riktlinjer."
+summary: Här kan du läsa våra partiprogram och våra politiska riktlinjer.
 jurisdiction: SE
 sources:
-  - title: "Partiprogram och riktlinjer"
+  - title: Partiprogram och riktlinjer
     url: https://www.socialdemokraterna.se/var-politik/partiprogram-och-riktlinjer
-tags: [migration-integration]
+tags:
+  - other
 party: socialdemokraterna
 clusters:
-  - migration-integration
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-partiprogram-och-riktlinjer.md
-sourceDigest: "sha256-48e995a407c52d37"
+sourceDigest: sha256-48e995a407c52d37
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

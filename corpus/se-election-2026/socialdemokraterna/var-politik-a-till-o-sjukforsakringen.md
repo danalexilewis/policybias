@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Sjukförsäkringen"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sjukforsakringen"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sjukforsakringen"
-fetchedAt: "2026-08-22T14:06:09.308Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Sjukförsäkringen
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sjukforsakringen
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sjukforsakringen
+fetchedAt: 2026-08-22T14:06:09.308Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Du ska känna ekonomisk trygghet när du blir sjuk. Sjukförsäkringen är en av välfärdssystemets starkaste pelare, men den måste vara generös och rättssäker. Sjukförsäkringen ska ses som en försäkring, inte ett bidrag, som garanterar ekonomisk trygghet vid nedsatt arbetsförmåga. Det orättvisa karensavdraget måste också avskaffas så att du kan vara trygg och vågar stanna hemma när du behöver det som mest.**

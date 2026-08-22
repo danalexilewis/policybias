@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Arbetskraftsinvandring"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetskraftsinvandring"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetskraftsinvandring"
-fetchedAt: "2026-08-22T14:06:55.134Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Arbetskraftsinvandring
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetskraftsinvandring
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetskraftsinvandring
+fetchedAt: 2026-08-22T14:06:55.134Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Den nuvarande ordningen för arbetskraftsinvandring skapar en okontrollerad situation. Socialdemokraterna vägrar acceptera ett system som göder arbetslivskriminalitet och tränger ut arbetslösa i Sverige. Det är dags att återinföra kontrollen och skydda den svenska modellen.**

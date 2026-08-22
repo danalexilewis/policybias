@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.14-Vi-bygger-landet-starkt-och-ha-llbart-Alla-jobb-ska-vara-trygga-jobb-Plikt-och-Ra-tt-version_2-9abc4ed7.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6732d2/1636122106499/Riktlinjer%20%2010.14%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%20%E2%80%93%20Alla%20jobb%20ska%20vara%20trygga%20jobb,%20Plikt%20och%20Ra%CC%88tt%20version_2.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6732d2/1636122106499/Riktlinjer%20%2010.14%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%20%E2%80%93%20Alla%20jobb%20ska%20vara%20trygga%20jobb,%20Plikt%20och%20Ra%CC%88tt%20version_2.pdf"
-fetchedAt: "2026-08-22T14:05:30.641Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.14-Vi-bygger-landet-starkt-och-ha-llbart-Alla-jobb-ska-vara-trygga-jobb-Plikt-och-Ra-tt-version_2-9abc4ed7.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6732d2/1636122106499/Riktlinjer%20%2010.14%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%20%E2%80%93%20Alla%20jobb%20ska%20vara%20trygga%20jobb,%20Plikt%20och%20Ra%CC%88tt%20version_2.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a6732d2/1636122106499/Riktlinjer%20%2010.14%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%20%E2%80%93%20Alla%20jobb%20ska%20vara%20trygga%20jobb,%20Plikt%20och%20Ra%CC%88tt%20version_2.pdf
+fetchedAt: 2026-08-22T14:05:30.641Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Riktlinjer-10.14-Vi-bygger-landet-starkt-och-ha-llbart-Alla-jobb-ska-vara-trygga-jobb-Plikt-och-Ra-tt-version_2-9abc4ed7.pdf

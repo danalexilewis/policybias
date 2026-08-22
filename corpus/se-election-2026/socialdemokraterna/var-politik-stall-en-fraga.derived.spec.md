@@ -1,21 +1,22 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-stall-en-fraga-derived
-title: "Ställ en fråga (reading)"
+title: Ställ en fråga (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Ställ en fråga"
+summary: Our reading of Ställ en fråga
 jurisdiction: SE
 sources:
-  - title: "Ställ en fråga"
+  - title: Ställ en fråga
     url: https://www.socialdemokraterna.se/var-politik/stall-en-fraga
-tags: [elderly-welfare]
+tags:
+  - education
 party: socialdemokraterna
 clusters:
-  - elderly-welfare
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-stall-en-fraga.md
-sourceDigest: "sha256-4e727edcd67812a9"
+sourceDigest: sha256-4e727edcd67812a9
 derivesFrom: socialdemokraterna-var-politik-stall-en-fraga
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

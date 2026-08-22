@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "A-Vi-bygger-landet-starkt-och-ha-llbart-2021-3a111ade.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.58f114e917c0725de62ea9/1632306186882/A%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%202021.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.58f114e917c0725de62ea9/1632306186882/A%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%202021.pdf"
-fetchedAt: "2026-08-22T14:05:27.218Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: A-Vi-bygger-landet-starkt-och-ha-llbart-2021-3a111ade.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.58f114e917c0725de62ea9/1632306186882/A%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%202021.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.58f114e917c0725de62ea9/1632306186882/A%20Vi%20bygger%20landet%20starkt%20och%20ha%CC%8Allbart%202021.pdf
+fetchedAt: 2026-08-22T14:05:27.218Z
+contentType: pdf
+via: party-site
+tags:
+  - agriculture
+  - environment
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # A-Vi-bygger-landet-starkt-och-ha-llbart-2021-3a111ade.pdf

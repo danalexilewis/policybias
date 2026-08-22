@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Organisation-och-stadgar_2014-7bc100d8.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b0e/1568881615279/Organisation%20och%20stadgar_2014.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b0e/1568881615279/Organisation%20och%20stadgar_2014.pdf"
-fetchedAt: "2026-08-22T14:02:16.381Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Organisation-och-stadgar_2014-7bc100d8.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b0e/1568881615279/Organisation%20och%20stadgar_2014.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b0e/1568881615279/Organisation%20och%20stadgar_2014.pdf
+fetchedAt: 2026-08-22T14:02:16.381Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Organisation-och-stadgar_2014-7bc100d8.pdf

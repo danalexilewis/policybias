@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Valmanifest 2018"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/val/val-2018/valmanifest-2018"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/val/val-2018/valmanifest-2018"
-fetchedAt: "2026-08-22T13:57:58.061Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Valmanifest 2018
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/val/val-2018/valmanifest-2018
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/val/val-2018/valmanifest-2018
+fetchedAt: 2026-08-22T13:57:58.061Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - crime-and-justice
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Socialdemokraterna har påbörjat lanseringen av det största trygghetsprogrammet i modern tid. Vi går till val på att bygga ett starkare samhälle och ett tryggare Sverige med mer resurser till skolan och sjukvården, högre pensioner och en kompromisslös kamp mot brotten och dess orsaker. Här kan du läsa Socialdemokraternas valmanifest i sin helhet.

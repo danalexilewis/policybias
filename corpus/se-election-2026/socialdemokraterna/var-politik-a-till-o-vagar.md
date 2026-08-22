@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Vägar"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vagar"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vagar"
-fetchedAt: "2026-08-22T14:06:26.722Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Vägar
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vagar
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vagar
+fetchedAt: 2026-08-22T14:06:26.722Z
+contentType: html
+via: party-site
+tags:
+  - defence
+  - employment
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Ett välfungerande vägnät är avgörande för jobb, näringsliv och din trygghet, särskilt i glesbygden. Socialdemokraterna vill leda Sverige i en ny riktning – där vi tar gemensamt ansvar för välskötta vägar och en trafiksäker vardag i hela landet.

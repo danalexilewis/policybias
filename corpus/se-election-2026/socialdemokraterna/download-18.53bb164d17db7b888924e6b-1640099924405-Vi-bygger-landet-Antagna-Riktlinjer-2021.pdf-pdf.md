@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Vi-bygger-landet-Antagna-Riktlinjer-2021-4f96b119.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.53bb164d17db7b888924e6b/1640099924405/Vi%20bygger%20landet%20Antagna%20Riktlinjer%202021.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.53bb164d17db7b888924e6b/1640099924405/Vi%20bygger%20landet%20Antagna%20Riktlinjer%202021.pdf"
-fetchedAt: "2026-08-22T14:06:37.841Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Vi-bygger-landet-Antagna-Riktlinjer-2021-4f96b119.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.53bb164d17db7b888924e6b/1640099924405/Vi%20bygger%20landet%20Antagna%20Riktlinjer%202021.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.53bb164d17db7b888924e6b/1640099924405/Vi%20bygger%20landet%20Antagna%20Riktlinjer%202021.pdf
+fetchedAt: 2026-08-22T14:06:37.841Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+  - education
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Vi-bygger-landet-Antagna-Riktlinjer-2021-4f96b119.pdf

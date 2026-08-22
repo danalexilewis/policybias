@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "f-samarbete-for-gemensam-sakerhet-1-e971060b.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640d05/1568881615653/f-samarbete-for-gemensam-sakerhet%20(1).pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640d05/1568881615653/f-samarbete-for-gemensam-sakerhet%20(1).pdf"
-fetchedAt: "2026-08-22T14:02:07.254Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: f-samarbete-for-gemensam-sakerhet-1-e971060b.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640d05/1568881615653/f-samarbete-for-gemensam-sakerhet%20(1).pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640d05/1568881615653/f-samarbete-for-gemensam-sakerhet%20(1).pdf
+fetchedAt: 2026-08-22T14:02:07.254Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+  - employment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # f-samarbete-for-gemensam-sakerhet-1-e971060b.pdf

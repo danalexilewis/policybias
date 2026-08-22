@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "F---Motioner-och-utla-tanden-c93d1ee7.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4816/1744808454455/F%20-%20Motioner%20och%20utla%CC%8Atanden.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4816/1744808454455/F%20-%20Motioner%20och%20utla%CC%8Atanden.pdf"
-fetchedAt: "2026-08-22T14:00:03.947Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: F---Motioner-och-utla-tanden-c93d1ee7.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4816/1744808454455/F%20-%20Motioner%20och%20utla%CC%8Atanden.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4816/1744808454455/F%20-%20Motioner%20och%20utla%CC%8Atanden.pdf
+fetchedAt: 2026-08-22T14:00:03.947Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # F---Motioner-och-utla-tanden-c93d1ee7.pdf

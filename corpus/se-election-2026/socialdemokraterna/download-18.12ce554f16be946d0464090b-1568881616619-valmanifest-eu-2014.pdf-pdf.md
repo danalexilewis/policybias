@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "valmanifest-eu-2014-7ecf5e70.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464090b/1568881616619/valmanifest-eu-2014.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464090b/1568881616619/valmanifest-eu-2014.pdf"
-fetchedAt: "2026-08-22T13:57:40.950Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: valmanifest-eu-2014-7ecf5e70.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464090b/1568881616619/valmanifest-eu-2014.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464090b/1568881616619/valmanifest-eu-2014.pdf
+fetchedAt: 2026-08-22T13:57:40.950Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # valmanifest-eu-2014-7ecf5e70.pdf

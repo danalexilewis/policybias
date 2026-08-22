@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Fakta om S politik skattepolitik"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skatter/fakta-om-s-politik-skattepolitik"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skatter/fakta-om-s-politik-skattepolitik"
-fetchedAt: "2026-08-22T14:06:14.677Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Fakta om S politik skattepolitik
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skatter/fakta-om-s-politik-skattepolitik
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skatter/fakta-om-s-politik-skattepolitik
+fetchedAt: 2026-08-22T14:06:14.677Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Det sprids ofta felaktiga påståenden om Socialdemokraternas skattepolitik. Här reder vi ut vad vi faktiskt vill – och vad vi inte vill. Socialdemokraternas mål är att svensk ekonomi ska växa så att fler svenskar kan få ett bra jobb med en högre lön. Vi vill ha en rättvisekonomi där folk med vanliga löner får det bättre. Vi prioriterar att barnfamiljer och pensionärer ska få mer pengar i plånboken framför stora skattesänkningar till de som tjänar allra mest.

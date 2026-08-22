@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Utsläpp"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/utslapp"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/utslapp"
-fetchedAt: "2026-08-22T14:06:19.838Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Utsläpp
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/utslapp
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/utslapp
+fetchedAt: 2026-08-22T14:06:19.838Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Utsläpp av växthusgaser driver på klimatförändringarna som hotar vår framtid. Sverige behöver snabbt återta sin ledande roll och minska sina utsläpp för att bli ett fossilfritt välfärdsland. Du ska kunna känna dig trygg med att omställningen går snabbt och fördelas rättvist; Socialdemokraterna driver på för att skapa tillväxt och nya gröna jobb samtidigt som vi skyddar miljön och tryggar din ekonomi.

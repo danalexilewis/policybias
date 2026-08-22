@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "E---Motioner-och-utla-tanden-e7cfca5e.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4815/1744808447378/E%20-%20Motioner%20och%20utla%CC%8Atanden.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4815/1744808447378/E%20-%20Motioner%20och%20utla%CC%8Atanden.pdf"
-fetchedAt: "2026-08-22T13:59:58.732Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: E---Motioner-och-utla-tanden-e7cfca5e.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4815/1744808447378/E%20-%20Motioner%20och%20utla%CC%8Atanden.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.93fabbc19613ab08de4815/1744808447378/E%20-%20Motioner%20och%20utla%CC%8Atanden.pdf
+fetchedAt: 2026-08-22T13:59:58.732Z
+contentType: pdf
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # E---Motioner-och-utla-tanden-e7cfca5e.pdf

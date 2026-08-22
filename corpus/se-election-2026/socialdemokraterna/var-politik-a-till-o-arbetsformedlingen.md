@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Arbetsförmedlingen"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsformedlingen"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsformedlingen"
-fetchedAt: "2026-08-22T14:06:54.870Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Arbetsförmedlingen
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsformedlingen
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsformedlingen
+fetchedAt: 2026-08-22T14:06:54.870Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Oavsett var i landet du bor så ska du snabbt kunna få stöd för att komma i jobb. Arbetsförmedlingen ska vara statligt finansierad, kommunalt förankrad, finnas i hela landet och samverka med relevanta aktörer.

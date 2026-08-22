@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Ny-version-Riktlinjer-11.5-Temagrupp5-ab1fe404.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e41ce99/1748541756255/Ny%20version%20Riktlinjer%2011.5%20(Temagrupp5).pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e41ce99/1748541756255/Ny%20version%20Riktlinjer%2011.5%20(Temagrupp5).pdf"
-fetchedAt: "2026-08-22T13:59:17.593Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Ny-version-Riktlinjer-11.5-Temagrupp5-ab1fe404.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e41ce99/1748541756255/Ny%20version%20Riktlinjer%2011.5%20(Temagrupp5).pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.71b9b2b5196ec1065e41ce99/1748541756255/Ny%20version%20Riktlinjer%2011.5%20(Temagrupp5).pdf
+fetchedAt: 2026-08-22T13:59:17.593Z
+contentType: pdf
+via: party-site
+tags:
+  - pensions
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Ny-version-Riktlinjer-11.5-Temagrupp5-ab1fe404.pdf

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Apotek"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/apotek"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/apotek"
-fetchedAt: "2026-08-22T14:06:54.631Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Apotek
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/apotek
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/apotek
+fetchedAt: 2026-08-22T14:06:54.631Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **När du eller någon i din familj blir sjuk ska du kunna lita på att medicinen finns på ditt närmaste apotek, oavsett om du bor i en storstad eller på landsbygden. Idag möts tyvärr allt fler av beskedet att läkemedel är slut, samtidigt som priserna stiger och tillgängligheten brister. Socialdemokrater vill prioritera din hälsa före stora bolags vinstintressen och se till att apoteken fungerar som den viktiga del av vården de faktiskt är.**

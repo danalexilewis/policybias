@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Narkotika"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/narkotika"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/narkotika"
-fetchedAt: "2026-08-22T14:04:59.957Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Narkotika
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/narkotika
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/narkotika
+fetchedAt: 2026-08-22T14:04:59.957Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige ska fortsatt ha en restriktiv narkotikapolitik. Narkotikahandeln är gängens huvudsakliga finansieringskälla, och försäljningen är en inkörsport till våld och nyrekrytering. Samtidigt behöver stödet och vården förbättras för personer med missbruk.**

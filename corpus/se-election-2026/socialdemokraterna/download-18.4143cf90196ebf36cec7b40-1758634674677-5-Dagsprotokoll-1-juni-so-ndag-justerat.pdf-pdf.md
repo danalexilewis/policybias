@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "5-Dagsprotokoll-1-juni---so-ndag---justerat-13819a53.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b40/1758634674677/5%20Dagsprotokoll%201%20juni%20-%20so%CC%88ndag%20-%20justerat.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b40/1758634674677/5%20Dagsprotokoll%201%20juni%20-%20so%CC%88ndag%20-%20justerat.pdf"
-fetchedAt: "2026-08-22T13:58:09.646Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: 5-Dagsprotokoll-1-juni---so-ndag---justerat-13819a53.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b40/1758634674677/5%20Dagsprotokoll%201%20juni%20-%20so%CC%88ndag%20-%20justerat.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.4143cf90196ebf36cec7b40/1758634674677/5%20Dagsprotokoll%201%20juni%20-%20so%CC%88ndag%20-%20justerat.pdf
+fetchedAt: 2026-08-22T13:58:09.646Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # 5-Dagsprotokoll-1-juni---so-ndag---justerat-13819a53.pdf

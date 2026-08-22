@@ -1,16 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Säkerhet - Val 2026"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/sakerhet---val-2026"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/sakerhet---val-2026"
-fetchedAt: "2026-08-22T12:50:38.131Z"
-contentType: "html"
-via: "party-site"
-tags: [crime-justice]
+type: crawled-page
+party: socialdemokraterna
+title: Säkerhet - Val 2026
+sourceUrl: https://www.socialdemokraterna.se/var-politik/sakerhet---val-2026
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/sakerhet---val-2026
+fetchedAt: 2026-08-22T12:50:38.131Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - defence
 money: no-figure
 stance: intervention
-licenseNote: "Party copyright; not Gurki MIT"
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 ![sverigekarta](./assets/2-sverigekarta_650-8004c39f.png)

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Arbetsplatsolyckor"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsplatsolyckor"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsplatsolyckor"
-fetchedAt: "2026-08-22T14:06:58.832Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Arbetsplatsolyckor
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsplatsolyckor
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/arbetsplatsolyckor
+fetchedAt: 2026-08-22T14:06:58.832Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Är din arbetsplats trygg? Varje år inträffar alldeles för många arbetsplatsolyckor och dödsfall på jobbet. Ingen ska behöva riskera sin hälsa eller sitt liv på jobbet.**

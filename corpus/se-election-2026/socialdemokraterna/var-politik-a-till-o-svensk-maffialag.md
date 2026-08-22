@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Svensk maffialag"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/svensk-maffialag"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/svensk-maffialag"
-fetchedAt: "2026-08-22T14:06:17.431Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Svensk maffialag
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/svensk-maffialag
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/svensk-maffialag
+fetchedAt: 2026-08-22T14:06:17.431Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige behöver en svensk maffialagstiftning, liknande vad som idag finns i länder som till exempel USA och Italien.**

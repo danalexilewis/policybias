@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "valstrategi-2010-cafb3a1d.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464068a/1568881610325/valstrategi-2010.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464068a/1568881610325/valstrategi-2010.pdf"
-fetchedAt: "2026-08-22T13:57:47.376Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: valstrategi-2010-cafb3a1d.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464068a/1568881610325/valstrategi-2010.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464068a/1568881610325/valstrategi-2010.pdf
+fetchedAt: 2026-08-22T13:57:47.376Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # valstrategi-2010-cafb3a1d.pdf

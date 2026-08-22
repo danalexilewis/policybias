@@ -1,21 +1,22 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-vem-styr-i-kommunen-derived
-title: "Vem styr i kommunen (reading)"
+title: Vem styr i kommunen (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Vem styr i kommunen"
+summary: Our reading of Vem styr i kommunen
 jurisdiction: SE
 sources:
-  - title: "Vem styr i kommunen"
+  - title: Vem styr i kommunen
     url: https://www.socialdemokraterna.se/var-politik/vem-styr-i-kommunen
-tags: [energy-power]
+tags:
+  - agriculture
 party: socialdemokraterna
 clusters:
-  - energy-power
+  - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-vem-styr-i-kommunen.md
-sourceDigest: "sha256-986173c23bc879c9"
+sourceDigest: sha256-986173c23bc879c9
 derivesFrom: socialdemokraterna-var-politik-vem-styr-i-kommunen
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

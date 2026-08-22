@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Valberedningens förslag för verkställande utskott (VU)"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/kongresshandlingar/valberedningens-forslag-for-verkstallande-utskott-vu"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/kongresshandlingar/valberedningens-forslag-for-verkstallande-utskott-vu"
-fetchedAt: "2026-08-22T14:00:11.921Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Valberedningens förslag för verkställande utskott (VU)
+sourceUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/kongresshandlingar/valberedningens-forslag-for-verkstallande-utskott-vu
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/arkiv/kongresser/kongress-2025/kongresshandlingar/valberedningens-forslag-for-verkstallande-utskott-vu
+fetchedAt: 2026-08-22T14:00:11.921Z
+contentType: html
+via: party-site
+tags:
+  - other
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Verkställande utskottet (VU) består av sju ordinarie ledamöter inklusive partiordförande och partisekreterare samt sju ersättare.

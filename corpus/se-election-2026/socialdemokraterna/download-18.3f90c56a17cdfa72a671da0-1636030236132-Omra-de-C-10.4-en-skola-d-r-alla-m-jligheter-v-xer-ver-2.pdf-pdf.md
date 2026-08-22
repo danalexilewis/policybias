@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Omra-de-C-10.4-en-skola-d-r-alla-m-jligheter-v-xer-ver-2-69eb26dc.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671da0/1636030236132/Omra%CC%8Ade%20C%2010.4%20en%20skola%20d%C3%A4r%20alla%20m%C3%B6jligheter%20v%C3%A4xer%20ver%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671da0/1636030236132/Omra%CC%8Ade%20C%2010.4%20en%20skola%20d%C3%A4r%20alla%20m%C3%B6jligheter%20v%C3%A4xer%20ver%202.pdf"
-fetchedAt: "2026-08-22T14:05:46.926Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Omra-de-C-10.4-en-skola-d-r-alla-m-jligheter-v-xer-ver-2-69eb26dc.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671da0/1636030236132/Omra%CC%8Ade%20C%2010.4%20en%20skola%20d%C3%A4r%20alla%20m%C3%B6jligheter%20v%C3%A4xer%20ver%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.3f90c56a17cdfa72a671da0/1636030236132/Omra%CC%8Ade%20C%2010.4%20en%20skola%20d%C3%A4r%20alla%20m%C3%B6jligheter%20v%C3%A4xer%20ver%202.pdf
+fetchedAt: 2026-08-22T14:05:46.926Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Omra-de-C-10.4-en-skola-d-r-alla-m-jligheter-v-xer-ver-2-69eb26dc.pdf

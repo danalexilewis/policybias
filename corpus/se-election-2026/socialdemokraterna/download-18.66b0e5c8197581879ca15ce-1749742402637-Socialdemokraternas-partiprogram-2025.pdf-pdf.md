@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Socialdemokraternas-partiprogram-2025-12bb7ee8.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.66b0e5c8197581879ca15ce/1749742402637/Socialdemokraternas%20partiprogram%202025.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.66b0e5c8197581879ca15ce/1749742402637/Socialdemokraternas%20partiprogram%202025.pdf"
-fetchedAt: "2026-08-22T14:06:37.047Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Socialdemokraternas-partiprogram-2025-12bb7ee8.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.66b0e5c8197581879ca15ce/1749742402637/Socialdemokraternas%20partiprogram%202025.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.66b0e5c8197581879ca15ce/1749742402637/Socialdemokraternas%20partiprogram%202025.pdf
+fetchedAt: 2026-08-22T14:06:37.047Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+  - economy
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Socialdemokraternas-partiprogram-2025-12bb7ee8.pdf

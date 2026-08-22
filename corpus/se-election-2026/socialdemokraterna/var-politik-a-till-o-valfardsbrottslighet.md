@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Välfärdsbrottslighet"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/valfardsbrottslighet"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/valfardsbrottslighet"
-fetchedAt: "2026-08-22T14:06:28.538Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Välfärdsbrottslighet
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/valfardsbrottslighet
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/valfardsbrottslighet
+fetchedAt: 2026-08-22T14:06:28.538Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Socialdemokraterna vill göra upp med marknadsmisslyckanden där kriminella och oseriösa aktörer använder företag som brottsverktyg. Det gäller för alla sektorer i stort, men kanske allra tydligast inom välfärden. Genom fusk och olika, ofta avancerade, upplägg lurar idag kriminella till sig miljardbelopp. Den här utvecklingen måste stoppas.

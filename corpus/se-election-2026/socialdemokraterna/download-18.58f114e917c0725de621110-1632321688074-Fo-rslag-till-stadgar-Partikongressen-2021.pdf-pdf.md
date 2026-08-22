@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Fo-rslag-till-stadgar-Partikongressen-2021-483b99e6.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.58f114e917c0725de621110/1632321688074/Fo%CC%88rslag%20till%20stadgar%20Partikongressen%202021.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.58f114e917c0725de621110/1632321688074/Fo%CC%88rslag%20till%20stadgar%20Partikongressen%202021.pdf"
-fetchedAt: "2026-08-22T14:06:09.250Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Fo-rslag-till-stadgar-Partikongressen-2021-483b99e6.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.58f114e917c0725de621110/1632321688074/Fo%CC%88rslag%20till%20stadgar%20Partikongressen%202021.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.58f114e917c0725de621110/1632321688074/Fo%CC%88rslag%20till%20stadgar%20Partikongressen%202021.pdf
+fetchedAt: 2026-08-22T14:06:09.250Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Fo-rslag-till-stadgar-Partikongressen-2021-483b99e6.pdf

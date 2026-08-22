@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Nytt-f-rslag-til-Riktlinjer-11.8-Temagrupp-8-version-2-ebe7e2cb.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca9842dbb/1748603239498/Nytt%20f%3Frslag%20til%20Riktlinjer%2011.8%20Temagrupp%208%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca9842dbb/1748603239498/Nytt%20f%3Frslag%20til%20Riktlinjer%2011.8%20Temagrupp%208%20version%202.pdf"
-fetchedAt: "2026-08-22T13:59:36.663Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Nytt-f-rslag-til-Riktlinjer-11.8-Temagrupp-8-version-2-ebe7e2cb.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca9842dbb/1748603239498/Nytt%20f%3Frslag%20til%20Riktlinjer%2011.8%20Temagrupp%208%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1b25ab47196ec02ca9842dbb/1748603239498/Nytt%20f%3Frslag%20til%20Riktlinjer%2011.8%20Temagrupp%208%20version%202.pdf
+fetchedAt: 2026-08-22T13:59:36.663Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+  - defence
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Nytt-f-rslag-til-Riktlinjer-11.8-Temagrupp-8-version-2-ebe7e2cb.pdf

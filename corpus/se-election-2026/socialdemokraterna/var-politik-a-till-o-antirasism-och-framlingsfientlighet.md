@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Antirasism och främlingsfientlighet"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/antirasism-och-framlingsfientlighet"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/antirasism-och-framlingsfientlighet"
-fetchedAt: "2026-08-22T14:06:54.119Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Antirasism och främlingsfientlighet
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/antirasism-och-framlingsfientlighet
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/antirasism-och-framlingsfientlighet
+fetchedAt: 2026-08-22T14:06:54.119Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - defence
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Antirasism är grunden för ett tryggt och jämlikt Sverige. Rasism och diskriminering skapar farliga klyftor i samhället som drabbar alla. Socialdemokraterna kräver att alla människors lika värde respekteras, och nu är det dags att kraftsamla för att stoppa hatbrotten och skydda vår demokrati.**

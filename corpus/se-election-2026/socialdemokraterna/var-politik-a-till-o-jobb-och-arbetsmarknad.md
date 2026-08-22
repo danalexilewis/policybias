@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Jobb och arbetsmarknad"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/jobb-och-arbetsmarknad"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/jobb-och-arbetsmarknad"
-fetchedAt: "2026-08-22T14:03:42.553Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Jobb och arbetsmarknad
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/jobb-och-arbetsmarknad
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/jobb-och-arbetsmarknad
+fetchedAt: 2026-08-22T14:03:42.553Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Att människor vill och kan arbeta är vårt samhälles största tillgång. Genom sitt arbete kan man skapa sig en bättre tillvaro samtidigt som man är med och gör vårt land rikare.

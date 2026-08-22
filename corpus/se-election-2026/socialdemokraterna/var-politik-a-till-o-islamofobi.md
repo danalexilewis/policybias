@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Islamofobi"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/islamofobi"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/islamofobi"
-fetchedAt: "2026-08-22T14:03:41.724Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Islamofobi
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/islamofobi
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/islamofobi
+fetchedAt: 2026-08-22T14:03:41.724Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - democracy
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Islamofobi och diskriminering hotar vår samhällsgemenskap och skapar farliga klyftor. Socialdemokraterna vägrar att acceptera att du begränsas på grund av din tro eller bakgrund. Vi kräver kraftfulla åtgärder för att skydda alla medborgares rättigheter.**

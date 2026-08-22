@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Språkkrav"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sprakkrav"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sprakkrav"
-fetchedAt: "2026-08-22T14:06:16.918Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Språkkrav
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sprakkrav
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sprakkrav
+fetchedAt: 2026-08-22T14:06:16.918Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+  - elderly-care
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Vill du att Sverige ska hålla ihop och att alla som bor här ska ha goda chanser till ett jobb? Språkkrav är avgörande för att bryta segregation och skapa en stark samhällsgemenskap. Socialdemokraterna anser att du ska ha alla förutsättningar att förstå, delta i och bidra till det svenska samhället. Därför driver Socialdemokraterna på för tydliga krav på kunskaper i svenska.

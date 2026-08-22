@@ -1,21 +1,23 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-stall-en-fraga
-title: "Ställ en fråga"
+title: Ställ en fråga
 status: draft
 updated: 2026-08-22
-summary: "Frågor om vår organisation, ditt medlemskap eller vår politik nationellt, regionalt eller lokalt?"
+summary: Frågor om vår organisation, ditt medlemskap eller vår politik nationellt,
+  regionalt eller lokalt?
 jurisdiction: SE
 sources:
-  - title: "Ställ en fråga"
+  - title: Ställ en fråga
     url: https://www.socialdemokraterna.se/var-politik/stall-en-fraga
-tags: [elderly-welfare]
+tags:
+  - education
 party: socialdemokraterna
 clusters:
-  - elderly-welfare
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-stall-en-fraga.md
-sourceDigest: "sha256-4e727edcd67812a9"
+sourceDigest: sha256-4e727edcd67812a9
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

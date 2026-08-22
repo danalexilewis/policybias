@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Riktlinjer-10.12-Vi-bygger-landet-starkt-och-h-llbart-fler-jobb-ska-vara-gr-na-jobb-version-2-90055f26.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e2de/1636138399881/Riktlinjer%2010.12%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20fler%20jobb%20ska%20vara%20gr%C3%B6na%20jobb%20version%202.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e2de/1636138399881/Riktlinjer%2010.12%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20fler%20jobb%20ska%20vara%20gr%C3%B6na%20jobb%20version%202.pdf"
-fetchedAt: "2026-08-22T14:05:28.583Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Riktlinjer-10.12-Vi-bygger-landet-starkt-och-h-llbart-fler-jobb-ska-vara-gr-na-jobb-version-2-90055f26.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e2de/1636138399881/Riktlinjer%2010.12%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20fler%20jobb%20ska%20vara%20gr%C3%B6na%20jobb%20version%202.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.1c3717aa17cdf6c5211e2de/1636138399881/Riktlinjer%2010.12%20Vi%20bygger%20landet%20starkt%20och%20h%C3%A5llbart%20%E2%80%93%20fler%20jobb%20ska%20vara%20gr%C3%B6na%20jobb%20version%202.pdf
+fetchedAt: 2026-08-22T14:05:28.583Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Riktlinjer-10.12-Vi-bygger-landet-starkt-och-h-llbart-fler-jobb-ska-vara-gr-na-jobb-version-2-90055f26.pdf

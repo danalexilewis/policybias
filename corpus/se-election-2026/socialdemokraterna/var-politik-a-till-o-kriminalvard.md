@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Kriminalvård"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kriminalvard"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/kriminalvard"
-fetchedAt: "2026-08-22T14:04:47.976Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Kriminalvård
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kriminalvard
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/kriminalvard
+fetchedAt: 2026-08-22T14:04:47.976Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kriminalvården är en avgörande del av tryggheten i Sverige. När någon döms för brott ska det få tydliga konsekvenser – men det är lika viktigt att den som avtjänat sitt straff inte återfaller i brott. Därför handlar kriminalvård både om att verkställa straff och att ge människor en chans att komma tillbaka till ett laglydigt liv. Kriminalvården behöver växa snabbare.

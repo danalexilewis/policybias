@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Sociala medier"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sociala-medier"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sociala-medier"
-fetchedAt: "2026-08-22T14:06:15.844Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Sociala medier
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sociala-medier
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sociala-medier
+fetchedAt: 2026-08-22T14:06:15.844Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Användandet av sociala medier och digitala plattformar har exploderat de senaste decennierna. Det har förändrat hur vi kommunicerar, möts och lever våra dagliga liv. Även om utvecklingen skapat nya möjligheter så har de negativa konsekvenserna av den oreglerade användningen av sociala medier, inte minst bland barn och unga, blivit alltmer uppenbara med psykisk ohälsa, ökad risk för övergrepp och mindre rörelse. Unga läser och lär sig mindre. Det behövs en ny riktning där barnens hälsa prioriteras före techjättarnas vinster.**

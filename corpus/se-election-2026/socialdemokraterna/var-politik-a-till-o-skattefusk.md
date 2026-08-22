@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Skattefusk"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skattefusk"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skattefusk"
-fetchedAt: "2026-08-22T14:06:10.392Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Skattefusk
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skattefusk
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skattefusk
+fetchedAt: 2026-08-22T14:06:10.392Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Skattepengar som är avsedda för vår gemensamma välfärd ska gå dit. Socialdemokraterna vill stoppa de som fifflar och smiter från att betala skatt. Det ska vara svårt att fuska, lätt att åka fast och kännbart att straffas.

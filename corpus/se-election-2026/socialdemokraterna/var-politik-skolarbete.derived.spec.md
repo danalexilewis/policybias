@@ -1,21 +1,22 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-skolarbete-derived
-title: "Skolarbete (reading)"
+title: Skolarbete (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Skolarbete"
+summary: Our reading of Skolarbete
 jurisdiction: SE
 sources:
-  - title: "Skolarbete"
+  - title: Skolarbete
     url: https://www.socialdemokraterna.se/var-politik/skolarbete
-tags: [climate-environment]
+tags:
+  - education
 party: socialdemokraterna
 clusters:
-  - climate-environment
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-skolarbete.md
-sourceDigest: "sha256-53eeefb6764d322f"
+sourceDigest: sha256-53eeefb6764d322f
 derivesFrom: socialdemokraterna-var-politik-skolarbete
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

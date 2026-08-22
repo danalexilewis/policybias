@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Fakta om Socialdemokraternas politik kring fastighetsskatt"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skatter/fakta-om-socialdemokraternas-politik-kring-fastighetsskatt"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/skatter/fakta-om-socialdemokraternas-politik-kring-fastighetsskatt"
-fetchedAt: "2026-08-22T14:06:14.384Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Fakta om Socialdemokraternas politik kring fastighetsskatt
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skatter/fakta-om-socialdemokraternas-politik-kring-fastighetsskatt
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/skatter/fakta-om-socialdemokraternas-politik-kring-fastighetsskatt
+fetchedAt: 2026-08-22T14:06:14.384Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Vill Socialdemokraterna återinföra fastighetsskatten?

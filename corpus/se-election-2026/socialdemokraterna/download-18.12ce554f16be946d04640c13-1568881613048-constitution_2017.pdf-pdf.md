@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "constitution_2017-ee227810.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c13/1568881613048/constitution_2017.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c13/1568881613048/constitution_2017.pdf"
-fetchedAt: "2026-08-22T14:01:46.546Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: constitution_2017-ee227810.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c13/1568881613048/constitution_2017.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640c13/1568881613048/constitution_2017.pdf
+fetchedAt: 2026-08-22T14:01:46.546Z
+contentType: pdf
+via: party-site
+tags:
+  - other
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # constitution_2017-ee227810.pdf

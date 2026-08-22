@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "justerat_protokoll_150529_fredag-d957c4d5.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b13/1568881615307/justerat_protokoll_150529_fredag.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b13/1568881615307/justerat_protokoll_150529_fredag.pdf"
-fetchedAt: "2026-08-22T14:03:33.834Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: justerat_protokoll_150529_fredag-d957c4d5.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b13/1568881615307/justerat_protokoll_150529_fredag.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640b13/1568881615307/justerat_protokoll_150529_fredag.pdf
+fetchedAt: 2026-08-22T14:03:33.834Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # justerat_protokoll_150529_fredag-d957c4d5.pdf

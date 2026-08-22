@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "C-Vi-bygger-landet-med-kunskap-2021-bd3a4026.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.58f114e917c0725de62eaa/1632306224956/C%20Vi%20bygger%20landet%20med%20kunskap%202021.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.58f114e917c0725de62eaa/1632306224956/C%20Vi%20bygger%20landet%20med%20kunskap%202021.pdf"
-fetchedAt: "2026-08-22T14:05:46.420Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: C-Vi-bygger-landet-med-kunskap-2021-bd3a4026.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.58f114e917c0725de62eaa/1632306224956/C%20Vi%20bygger%20landet%20med%20kunskap%202021.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.58f114e917c0725de62eaa/1632306224956/C%20Vi%20bygger%20landet%20med%20kunskap%202021.pdf
+fetchedAt: 2026-08-22T14:05:46.420Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # C-Vi-bygger-landet-med-kunskap-2021-bd3a4026.pdf

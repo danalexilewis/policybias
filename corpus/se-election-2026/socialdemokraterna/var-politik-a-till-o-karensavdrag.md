@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Karensavdrag"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/karensavdrag"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/karensavdrag"
-fetchedAt: "2026-08-22T14:03:44.018Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Karensavdrag
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/karensavdrag
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/karensavdrag
+fetchedAt: 2026-08-22T14:03:44.018Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Känner du dig orättvist behandlad när du förlorar tusentals kronor vid en vanlig förkylning? Det orättvisa karensavdraget slår hårt mot dig som inte kan arbeta hemifrån och måste göra jobbet på jobbet. Socialdemokraterna vill slopa karensavdraget och ge dig ekonomisk trygghet redan från första sjukdagen.**

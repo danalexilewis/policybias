@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "valanalys-2006-6478b7d8.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464064c/1568881590386/valanalys-2006.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464064c/1568881590386/valanalys-2006.pdf"
-fetchedAt: "2026-08-22T13:57:45.950Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: valanalys-2006-6478b7d8.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464064c/1568881590386/valanalys-2006.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d0464064c/1568881590386/valanalys-2006.pdf
+fetchedAt: 2026-08-22T13:57:45.950Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # valanalys-2006-6478b7d8.pdf

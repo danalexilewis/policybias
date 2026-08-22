@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Public Service"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/public-service"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/public-service"
-fetchedAt: "2026-08-22T14:05:05.789Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Public Service
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/public-service
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/public-service
+fetchedAt: 2026-08-22T14:05:05.789Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Oberoende nyheter och ett starkt public service är viktigt för vår demokrati – inte minst i tider av ökad desinformation. I ett allt allvarligare säkerhetspolitiskt läge är dessutom oberoende medier avgörande för Sveriges beredskap. Socialdemokraterna vill stärka public services roll och säkerställa att Sveriges Television (SVT), Sveriges Radio (SR) och Utbildningsradion (UR) har trygga förutsättningar.**

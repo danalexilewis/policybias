@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Sjukvård"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sjukvard"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/sjukvard"
-fetchedAt: "2026-08-22T14:06:09.603Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Sjukvård
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sjukvard
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/sjukvard
+fetchedAt: 2026-08-22T14:06:09.603Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Sjukvården ska finnas där för dig när du behöver den, oavsett var du bor eller hur mycket du tjänar. Idag skapar oacceptabelt långa vårdköer och svårigheten att få träffa sin egen läkare en stor otrygghet för både patienter och personal. Socialdemokrater vill städa upp i sjukvården och ta tillbaka den demokratiska kontrollen så att dina medicinska behov alltid går före privata vinstintressen.

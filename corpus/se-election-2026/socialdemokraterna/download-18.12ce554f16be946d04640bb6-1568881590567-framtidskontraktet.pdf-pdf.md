@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "framtidskontraktet-a0d9614d.pdf"
-sourceUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bb6/1568881590567/framtidskontraktet.pdf"
-canonicalUrl: "https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bb6/1568881590567/framtidskontraktet.pdf"
-fetchedAt: "2026-08-22T14:06:41.503Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: framtidskontraktet-a0d9614d.pdf
+sourceUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bb6/1568881590567/framtidskontraktet.pdf
+canonicalUrl: https://www.socialdemokraterna.se/download/18.12ce554f16be946d04640bb6/1568881590567/framtidskontraktet.pdf
+fetchedAt: 2026-08-22T14:06:41.503Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - education
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # framtidskontraktet-a0d9614d.pdf

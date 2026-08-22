@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Vattenkraft"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vattenkraft"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/vattenkraft"
-fetchedAt: "2026-08-22T14:06:20.345Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Vattenkraft
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vattenkraft
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/vattenkraft
+fetchedAt: 2026-08-22T14:06:20.345Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Vattenkraften är betydande i det svenska elsystemet och en grundförutsättning för vår energitrygghet då den både är planerbar och reglerbar. Den är unik i sin förmåga att snabbt kunna reglera effektuttaget, vilket blir allt viktigare i takt med att vi bygger ut mer väderberoende el som vind- och solenergi. Osäkerheten till följd av pågående miljöprövningar måste nu snarast hanteras.

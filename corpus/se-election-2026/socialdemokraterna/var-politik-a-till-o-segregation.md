@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "socialdemokraterna"
-title: "Segregation"
-sourceUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/segregation"
-canonicalUrl: "https://www.socialdemokraterna.se/var-politik/a-till-o/segregation"
-fetchedAt: "2026-08-22T14:06:08.017Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: socialdemokraterna
+title: Segregation
+sourceUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/segregation
+canonicalUrl: https://www.socialdemokraterna.se/var-politik/a-till-o/segregation
+fetchedAt: 2026-08-22T14:06:08.017Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige ska inte ha några utsatta områden. För att nå dit måste vi ta tillbaka kontrollen och vända utvecklingen.** **Segregationen i vårt land drabbar alla när otryggheten ökar och kriminaliteten växer.**

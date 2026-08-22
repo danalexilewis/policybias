@@ -236,6 +236,23 @@ function CardScroll(props: {
 	);
 }
 
+/** Left or right chevron for the phone deck pager. */
+function DeckChevron(props: { direction: 'left' | 'right' }): JSX.Element {
+	const d = props.direction === 'left' ? 'M14 6l-6 6 6 6' : 'M10 6l6 6-6 6';
+	return (
+		<svg viewBox='0 0 24 24' aria-hidden='true' focusable='false'>
+			<path
+				d={d}
+				fill='none'
+				stroke='currentColor'
+				strokeWidth='2.4'
+				strokeLinecap='round'
+				strokeLinejoin='round'
+			/>
+		</svg>
+	);
+}
+
 function GuessMark(props: { correct: boolean }): JSX.Element {
 	const { t } = useLang();
 	return (
@@ -560,6 +577,15 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 
 	function dismissSwipeHint(): void {
 		setShowSwipeHint(false);
+	}
+
+	/** Move the front card without locking a guess. */
+	function browseDeck(index: DeckIndex): void {
+		setFocusIndex(index);
+		setKeyboardActive(true);
+		if (phase === 'playing') {
+			setPicked(false);
+		}
 	}
 
 	const { onPointerDown, onPointerMove, onPointerUp } = useDeckSwipe({
@@ -991,28 +1017,40 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 				{isCarousel && !trivia ? (
 					<div className='game-deck-chrome'>
 						<div
-							className='game-deck-dots'
+							className='game-deck-pager'
 							role='group'
 							aria-label={t('whichPolicy')}
 						>
-							{([0, 1, 2] as const).map((index) => (
-								<button
-									key={index}
-									type='button'
-									className='game-deck-dot'
-									aria-label={`${t('showPolicy')} ${index + 1}`}
-									aria-current={focusIndex === index ? 'true' : undefined}
-									onClick={() => {
-										setFocusIndex(index);
-										setKeyboardActive(true);
-										if (phase === 'playing') {
-											setPicked(false);
-										}
-									}}
-								>
-									<span className='game-deck-dot__mark' />
-								</button>
-							))}
+							<button
+								type='button'
+								className='game-deck-arrow'
+								aria-label={t('previousPolicy')}
+								onClick={() => browseDeck(stepDeckIndex(focusIndex, -1))}
+							>
+								<DeckChevron direction='left' />
+							</button>
+							<div className='game-deck-dots'>
+								{([0, 1, 2] as const).map((index) => (
+									<button
+										key={index}
+										type='button'
+										className='game-deck-dot'
+										aria-label={`${t('showPolicy')} ${index + 1}`}
+										aria-current={focusIndex === index ? 'true' : undefined}
+										onClick={() => browseDeck(index)}
+									>
+										<span className='game-deck-dot__mark' />
+									</button>
+								))}
+							</div>
+							<button
+								type='button'
+								className='game-deck-arrow'
+								aria-label={t('nextPolicy')}
+								onClick={() => browseDeck(stepDeckIndex(focusIndex, 1))}
+							>
+								<DeckChevron direction='right' />
+							</button>
 						</div>
 						<p className='game-deck-status' aria-live='polite'>
 							{t('policyN')} {focusIndex + 1} {t('policyOf')} 3

@@ -402,7 +402,7 @@ describe('GameOverlay', () => {
 			const last = index === rounds.length - 1;
 			fireEvent.click(
 				screen.getByRole('button', {
-					name: last ? 'See results' : 'Next'
+					name: last ? 'See results' : /^Next$/
 				})
 			);
 		}
@@ -521,7 +521,7 @@ describe('GameOverlay', () => {
 
 		expect(screen.queryByRole('button', { name: 'Submit' })).toBeNull();
 		expect(screen.queryByRole('button', { name: 'Back' })).toBeNull();
-		expect(screen.getByRole('button', { name: 'Next' })).toBeTruthy();
+		expect(screen.getByRole('button', { name: /^Next$/ })).toBeTruthy();
 		expect(onGuess).toHaveBeenCalledOnce();
 	});
 
@@ -536,7 +536,7 @@ describe('GameOverlay', () => {
 
 		submitPhonePolicy(first.targetIndex);
 
-		fireEvent.click(screen.getByRole('button', { name: 'Next' }));
+		fireEvent.click(screen.getByRole('button', { name: /^Next$/ }));
 
 		expect(
 			screen.getByRole('main', {
@@ -556,7 +556,7 @@ describe('GameOverlay', () => {
 		).toBeTruthy();
 		expect(onGuess).toHaveBeenCalledTimes(2);
 
-		fireEvent.click(screen.getByRole('button', { name: 'Next' }));
+		fireEvent.click(screen.getByRole('button', { name: /^Next$/ }));
 
 		expect(
 			screen.getByRole('main', {
@@ -795,6 +795,29 @@ describe('GameOverlay', () => {
 		fireEvent.click(screen.getByRole('button', { name: 'Show policy 3' }));
 
 		expect(onGuess).not.toHaveBeenCalled();
+		expect(policyButton(2).getAttribute('aria-current')).toBe('true');
+	});
+
+	it('on a phone, the policy arrows move the front card', () => {
+		stubCarousel(true);
+		const { onGuess } = renderGame();
+
+		fireEvent.click(screen.getByRole('button', { name: 'Next policy' }));
+
+		expect(onGuess).not.toHaveBeenCalled();
+		expect(policyButton(1).getAttribute('aria-current')).toBe('true');
+
+		fireEvent.click(screen.getByRole('button', { name: 'Previous policy' }));
+
+		expect(policyButton(0).getAttribute('aria-current')).toBe('true');
+	});
+
+	it('on a phone, previous policy wraps to the last card', () => {
+		stubCarousel(true);
+		renderGame();
+
+		fireEvent.click(screen.getByRole('button', { name: 'Previous policy' }));
+
 		expect(policyButton(2).getAttribute('aria-current')).toBe('true');
 	});
 

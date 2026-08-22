@@ -371,11 +371,34 @@
 	width: 100%;
 }
 
+.game-deck-pager {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+}
+
 .game-deck-dots {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 8px;
+}
+
+.game-deck-arrow {
+	display: grid;
+	place-items: center;
+	width: 48px;
+	height: 48px;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: var(--ink);
+}
+
+.game-deck-arrow svg {
+	width: 22px;
+	height: 22px;
 }
 
 .game-deck-dot {

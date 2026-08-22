@@ -1,6 +1,13 @@
 import { describe, expect, it } from 'vitest'
 
-import { cleanMarkdown, loadSeeds } from '../scripts/dump.ts'
+import { digestOf } from '../scripts/check-policy.ts'
+import {
+  cleanMarkdown,
+  contentDigest,
+  loadSeeds,
+  parseSitemapEntries,
+  shouldSkipWrite,
+} from '../scripts/dump.ts'
 
 describe('cleanMarkdown', () => {
   it('strips ACT Framer menus and donate footer', () => {
@@ -155,9 +162,63 @@ Find out today!
   })
 })
 
+describe('contentDigest', () => {
+  it('matches digestOf from check-policy', () => {
+    const fixture = 'Labour policy body text for digest parity.\n'
+    expect(contentDigest(fixture)).toBe(digestOf(fixture))
+  })
+})
+
+describe('parseSitemapEntries', () => {
+  it('reads url and lastmod from sitemap url blocks', () => {
+    const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.org/policy/one</loc>
+    <lastmod>2026-08-18T10:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.org/policy/two</loc>
+  </url>
+</urlset>`
+    expect(parseSitemapEntries(xml)).toEqual([
+      { url: 'https://example.org/policy/one', lastmod: '2026-08-18T10:00:00+00:00' },
+      { url: 'https://example.org/policy/two' },
+    ])
+  })
+})
+
+describe('shouldSkipWrite', () => {
+  const existingBody = '# Policy\n\nUnchanged markdown body.'
+
+  it('skips when the body digest matches', () => {
+    const existingRaw = `---
+contentDigest: "sha256-deadbeef"
+---
+${existingBody}
+`
+    expect(shouldSkipWrite(existingRaw, existingBody)).toBe(true)
+  })
+
+  it('writes when the body changed', () => {
+    const existingRaw = `---
+contentDigest: "sha256-deadbeef"
+---
+${existingBody}
+`
+    expect(shouldSkipWrite(existingRaw, '# Policy\n\nUpdated body.')).toBe(false)
+  })
+
+  it('writes when no existing file content', () => {
+    expect(shouldSkipWrite(null, existingBody)).toBe(false)
+    expect(shouldSkipWrite(undefined, existingBody)).toBe(false)
+    expect(shouldSkipWrite('', existingBody)).toBe(false)
+  })
+})
+
 describe('loadSeeds', () => {
   it('loads Opportunity with the policy CDN as a PDF origin', () => {
-    const [seed] = loadSeeds('opportunity')
+    const [seed] = loadSeeds('nz-election-2026', 'opportunity')
     expect(seed?.id).toBe('opportunity')
     expect(seed?.origin).toBe('https://www.opportunity.org.nz')
     expect(seed?.pdfOrigins).toEqual(['https://cdn.opportunity.org.nz'])

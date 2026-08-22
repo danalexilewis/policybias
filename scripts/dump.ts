@@ -15,13 +15,12 @@ import * as cheerio from 'cheerio'
 import { CheerioCrawler, Configuration, RobotsTxtFile } from 'crawlee'
 import { JSDOM } from 'jsdom'
 import TurndownService from 'turndown'
+import { gunzipSync } from 'node:zlib'
 import YAML from 'yaml'
 
-const USER_AGENT = 'PolicyBiasNZPartyPolicyDump/1.0 (local NZ party policy research)'
+const USER_AGENT = 'PolicyBiasPartyPolicyDump/1.0 (local party policy research)'
 const FETCH_DELAY_MS = 1000
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
-const SEEDS_DIR = join(REPO_ROOT, 'corpus/nz-election-2026/_seeds')
-export const CORPUS_DIR = join(REPO_ROOT, 'corpus/nz-election-2026')
 
 export interface Seed {
   id: string
@@ -32,7 +31,21 @@ export interface Seed {
   maxPages: number
   /** Extra origins whose PDFs may be downloaded when linked from a crawled page. */
   pdfOrigins?: string[]
+  sitemapUrls?: string[]
+  crawlDelayMs?: number
+  userAgent?: string
+  maxDepth?: number
 }
+
+export function corpusDirFor(eventId: string): string {
+  return join(REPO_ROOT, 'corpus', eventId)
+}
+
+export function seedsDirFor(eventId: string): string {
+  return join(corpusDirFor(eventId), '_seeds')
+}
+
+export const CORPUS_DIR = corpusDirFor('nz-election-2026')
 
 export type CatalogueFields = {
   tags?: string[]
@@ -48,10 +61,63 @@ interface PageMeta {
 
 let lastFetchAt = 0
 
-function parseArgs(argv: string[]): { partyId?: string; dryRun: boolean; reprocess: boolean } {
+export function contentDigest(text: string): string {
+  return `sha256-${createHash('sha256').update(text).digest('hex').slice(0, 16)}`
+}
+
+export function parseSitemapEntries(xml: string): { url: string; lastmod?: string }[] {
+  const entries: { url: string; lastmod?: string }[] = []
+  const urlBlocks = [...xml.matchAll(/<url>([\s\S]*?)<\/url>/gi)]
+
+  if (urlBlocks.length > 0) {
+    for (const block of urlBlocks) {
+      const inner = block[1] ?? ''
+      const locMatch = inner.match(/<loc>\s*([^<]+)\s*<\/loc>/i)
+      const url = locMatch?.[1]?.trim()
+      if (!url) {
+        continue
+      }
+      const lastmodMatch = inner.match(/<lastmod>\s*([^<]+)\s*<\/lastmod>/i)
+      const lastmod = lastmodMatch?.[1]?.trim()
+      entries.push(lastmod ? { url, lastmod } : { url })
+    }
+    return entries
+  }
+
+  for (const match of xml.matchAll(/<loc>\s*([^<]+)\s*<\/loc>/gi)) {
+    const url = match[1]?.trim()
+    if (url) {
+      entries.push({ url })
+    }
+  }
+  return entries
+}
+
+export function shouldSkipWrite(existingRaw: string | null | undefined, newBody: string): boolean {
+  if (!existingRaw?.trim()) {
+    return false
+  }
+  const split = splitFrontMatter(existingRaw)
+  if (!split) {
+    return false
+  }
+  const existingBody = split.body.replace(/\n+$/, '')
+  const normalisedNewBody = newBody.replace(/\n+$/, '')
+  return contentDigest(existingBody) === contentDigest(normalisedNewBody)
+}
+
+function parseArgs(argv: string[]): {
+  eventId: string
+  partyId?: string
+  dryRun: boolean
+  reprocess: boolean
+  force: boolean
+} {
+  let eventId = 'nz-election-2026'
   let partyId: string | undefined
   let dryRun = false
   let reprocess = false
+  let force = false
 
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index]
@@ -59,8 +125,21 @@ function parseArgs(argv: string[]): { partyId?: string; dryRun: boolean; reproce
       dryRun = true
       continue
     }
+    if (arg === '--force') {
+      force = true
+      continue
+    }
     if (arg === '--reprocess') {
       reprocess = true
+      continue
+    }
+    if (arg === '--event') {
+      eventId = argv[index + 1] ?? eventId
+      index += 1
+      continue
+    }
+    if (arg?.startsWith('--event=')) {
+      eventId = arg.slice('--event='.length)
       continue
     }
     if (arg === '--party') {
@@ -73,13 +152,14 @@ function parseArgs(argv: string[]): { partyId?: string; dryRun: boolean; reproce
     }
   }
 
-  return { partyId, dryRun, reprocess }
+  return { eventId, partyId, dryRun, reprocess, force }
 }
 
-export function loadSeeds(partyId?: string): Seed[] {
-  const files = readdirSync(SEEDS_DIR).filter((name) => name.endsWith('.yaml'))
+export function loadSeeds(eventId: string, partyId?: string): Seed[] {
+  const seedsDir = seedsDirFor(eventId)
+  const files = readdirSync(seedsDir).filter((name) => name.endsWith('.yaml'))
   const seeds = files.map((name) => {
-    const raw = readFileSync(join(SEEDS_DIR, name), 'utf8')
+    const raw = readFileSync(join(seedsDir, name), 'utf8')
     return YAML.parse(raw) as Seed
   })
 
@@ -167,7 +247,14 @@ function originAllowedForPdf(url: string, seed: Seed): boolean {
 }
 
 function pathAllowed(pathname: string, prefixes: string[]): boolean {
-  return prefixes.some((prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`))
+  return prefixes.some((prefix) => {
+    const normalised = prefix.endsWith('/') ? prefix.slice(0, -1) : prefix
+    return (
+      pathname === normalised ||
+      pathname === `${normalised}/` ||
+      pathname.startsWith(`${normalised}/`)
+    )
+  })
 }
 
 function shouldSkipNavOnly(pathname: string): boolean {
@@ -617,7 +704,12 @@ export function splitFrontMatter(raw: string): { envelope: string; body: string 
   return { envelope: match[0], body: raw.slice(match[0].length) }
 }
 
-function catalogueFromExisting(filePath: string): CatalogueFields {
+type EnvelopeFields = CatalogueFields & {
+  contentDigest?: string
+  sourceLastmod?: string
+}
+
+function envelopeFromExisting(filePath: string): EnvelopeFields {
   if (!existsSync(filePath)) {
     return {}
   }
@@ -633,7 +725,29 @@ function catalogueFromExisting(filePath: string): CatalogueFields {
   const stance =
     typeof parsed.stance === 'string' || parsed.stance === null ? parsed.stance : undefined
   const money = typeof parsed.money === 'string' ? parsed.money : undefined
+  const contentDigestValue =
+    typeof parsed.contentDigest === 'string' ? parsed.contentDigest : undefined
+  const sourceLastmod =
+    typeof parsed.sourceLastmod === 'string' ? parsed.sourceLastmod : undefined
+  return { tags, stance, money, contentDigest: contentDigestValue, sourceLastmod }
+}
+
+function catalogueFromExisting(filePath: string): CatalogueFields {
+  const { tags, stance, money } = envelopeFromExisting(filePath)
   return { tags, stance, money }
+}
+
+function sourceLastmodField(
+  existing: EnvelopeFields,
+  sourceLastmod?: string,
+): Record<string, string> {
+  if (sourceLastmod !== undefined) {
+    return { sourceLastmod }
+  }
+  if (existing.sourceLastmod !== undefined) {
+    return { sourceLastmod: existing.sourceLastmod }
+  }
+  return {}
 }
 
 function isPdfLink(href: string): boolean {
@@ -652,15 +766,29 @@ export async function processHtmlPage(
   html: string,
   dryRun: boolean,
   catalogue: CatalogueFields = {},
+  force = false,
+  sourceLastmod?: string,
 ): Promise<string> {
   const meta = extractPageMeta(html, pageUrl)
   const assetsDir = join(partyDir, 'assets')
   const htmlWithAssets = await rewriteImages(meta.html, pageUrl, seed.origin, assetsDir, dryRun)
   const markdown = htmlToMarkdown(htmlWithAssets)
   const slug = slugFromPathname(new URL(pageUrl).pathname)
-  const fetchedAt = new Date().toISOString()
-  const existing = catalogueFromExisting(join(partyDir, `${slug}.md`))
+  const filePath = join(partyDir, `${slug}.md`)
+  const existingRaw = existsSync(filePath) ? readFileSync(filePath, 'utf8') : null
+  const existing = envelopeFromExisting(filePath)
 
+  if (!force && shouldSkipWrite(existingRaw, markdown)) {
+    console.log(`  skip ${pageUrl} (unchanged)`)
+    return slug
+  }
+
+  if (dryRun) {
+    console.log(`  would write ${pageUrl}`)
+    return slug
+  }
+
+  console.log(`  ${pageUrl}`)
   writePageMarkdown(
     slug,
     {
@@ -669,9 +797,11 @@ export async function processHtmlPage(
       title: meta.title,
       sourceUrl: pageUrl,
       canonicalUrl: meta.canonicalUrl,
-      fetchedAt,
+      fetchedAt: new Date().toISOString(),
       contentType: 'html',
       via: 'party-site',
+      contentDigest: contentDigest(markdown),
+      ...sourceLastmodField(existing, sourceLastmod),
       tags: existing.tags ?? catalogue.tags ?? [],
       stance: existing.stance !== undefined ? existing.stance : (catalogue.stance ?? null),
       ...(existing.money || catalogue.money
@@ -703,7 +833,7 @@ export async function processHtmlPage(
 
   for (const pdfUrl of pdfLinks) {
     try {
-      await processPdf(seed, pdfUrl, partyDir, dryRun)
+      await processPdf(seed, pdfUrl, partyDir, dryRun, force)
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error)
       console.warn(`warn: failed PDF ${pdfUrl}: ${message}`)
@@ -729,6 +859,7 @@ export async function processPdf(
   pdfUrl: string,
   partyDir: string,
   dryRun: boolean,
+  force = false,
 ): Promise<{ slug: string; text: string }> {
   const assetsDir = join(partyDir, 'assets')
   const localPath = await downloadAsset(pdfUrl, assetsDir, dryRun)
@@ -742,11 +873,23 @@ export async function processPdf(
     .replace(/[^a-zA-Z0-9._-]+/g, '-')
     .replace(/-+/g, '-')
     .replace(/^-+|-+$/g, '')}-pdf`
-  const existing = catalogueFromExisting(join(partyDir, `${slug}.md`))
+  const filePath = join(partyDir, `${slug}.md`)
+  const existingRaw = existsSync(filePath) ? readFileSync(filePath, 'utf8') : null
+  const existing = envelopeFromExisting(filePath)
   const extracted = dryRun ? '' : extractPdfText(join(assetsDir, fileName))
   const body = extracted
     ? `# ${fileName}\n\nDownloaded policy PDF: [${fileName}](${localPath})\n\n${extracted}`
     : `# PDF\n\nDownloaded policy PDF: [${fileName}](${localPath})`
+
+  if (!force && shouldSkipWrite(existingRaw, body)) {
+    console.log(`  skip ${pdfUrl} (unchanged)`)
+    return { slug, text: extracted }
+  }
+
+  if (dryRun) {
+    console.log(`  would write ${pdfUrl}`)
+    return { slug, text: extracted }
+  }
 
   writePageMarkdown(
     slug,
@@ -759,6 +902,7 @@ export async function processPdf(
       fetchedAt: new Date().toISOString(),
       contentType: 'pdf',
       via: 'party-site',
+      contentDigest: contentDigest(body),
       tags: existing.tags ?? [],
       stance: existing.stance !== undefined ? existing.stance : 'not-policy',
       ...(existing.money ? { money: existing.money } : {}),
@@ -786,13 +930,13 @@ function shouldEnqueueUrl(url: string, origin: string, allowPathPrefixes: string
   return true
 }
 
-function partyDumpDirs(partyId?: string): string[] {
+function partyDumpDirs(corpusDir: string, partyId?: string): string[] {
   if (partyId) {
-    return [join(CORPUS_DIR, partyId)]
+    return [join(corpusDir, partyId)]
   }
-  return readdirSync(CORPUS_DIR)
+  return readdirSync(corpusDir)
     .filter((name) => !name.startsWith('_') && !name.startsWith('.'))
-    .map((name) => join(CORPUS_DIR, name))
+    .map((name) => join(corpusDir, name))
     .filter((dir) => {
       try {
         return statSync(dir).isDirectory()
@@ -802,11 +946,11 @@ function partyDumpDirs(partyId?: string): string[] {
     })
 }
 
-function reprocessDumpMarkdown(partyId: string | undefined, dryRun: boolean): void {
+function reprocessDumpMarkdown(partyId: string | undefined, dryRun: boolean, corpusDir: string): void {
   let changed = 0
   let scanned = 0
 
-  for (const partyDir of partyDumpDirs(partyId)) {
+  for (const partyDir of partyDumpDirs(corpusDir, partyId)) {
     if (!existsSync(partyDir)) {
       throw new Error(`Party dump directory not found: ${partyDir}`)
     }
@@ -841,36 +985,129 @@ function reprocessDumpMarkdown(partyId: string | undefined, dryRun: boolean): vo
   )
 }
 
-async function dumpParty(seed: Seed, dryRun: boolean): Promise<void> {
-  console.log(`\n== ${seed.name} (${seed.id}) ==`)
-  await printRobotsStatus(seed.origin, seed.startUrls)
+function shouldSkipSitemapFetch(
+  url: string,
+  sitemapLastmod: string | undefined,
+  partyDir: string,
+): boolean {
+  if (!sitemapLastmod) {
+    return false
+  }
+  const slug = slugFromPathname(new URL(url).pathname)
+  const filePath = join(partyDir, `${slug}.md`)
+  if (!existsSync(filePath)) {
+    return false
+  }
+  const { sourceLastmod } = envelopeFromExisting(filePath)
+  if (!sourceLastmod) {
+    return false
+  }
+  const storedMs = Date.parse(sourceLastmod)
+  const sitemapMs = Date.parse(sitemapLastmod)
+  if (Number.isNaN(storedMs) || Number.isNaN(sitemapMs)) {
+    return false
+  }
+  return storedMs >= sitemapMs
+}
 
-  const partyDir = join(CORPUS_DIR, seed.id)
+async function sitemapEntriesFromSeed(seed: Seed): Promise<{ url: string; lastmod?: string }[]> {
+  const collected: { url: string; lastmod?: string }[] = []
+  for (const sitemapUrl of seed.sitemapUrls ?? []) {
+    try {
+      const { body, contentType } = await fetchBuffer(sitemapUrl)
+      const xml =
+        contentType.includes('gzip') || sitemapUrl.endsWith('.gz')
+          ? gunzipSync(body).toString('utf8')
+          : body.toString('utf8')
+      collected.push(...parseSitemapEntries(xml))
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error)
+      console.warn(`warn: sitemap ${sitemapUrl}: ${message}`)
+    }
+  }
+  return collected.filter((entry) => {
+    try {
+      const parsed = new URL(entry.url)
+      return seed.allowPathPrefixes.some((prefix) => parsed.pathname.startsWith(prefix))
+    } catch {
+      return false
+    }
+  })
+}
+
+function filterSitemapStartUrls(
+  entries: { url: string; lastmod?: string }[],
+  partyDir: string,
+  force: boolean,
+): { fetchUrls: string[]; lastmodByUrl: Map<string, string | undefined>; skipped: string[] } {
+  const fetchUrls: string[] = []
+  const lastmodByUrl = new Map<string, string | undefined>()
+  const skipped: string[] = []
+
+  for (const entry of entries) {
+    if (!force && shouldSkipSitemapFetch(entry.url, entry.lastmod, partyDir)) {
+      skipped.push(entry.url)
+      continue
+    }
+    fetchUrls.push(entry.url)
+    lastmodByUrl.set(entry.url, entry.lastmod)
+  }
+
+  return { fetchUrls, lastmodByUrl, skipped }
+}
+
+async function dumpParty(
+  seed: Seed,
+  dryRun: boolean,
+  corpusDir: string,
+  force: boolean,
+): Promise<void> {
+  console.log(`\n== ${seed.name} (${seed.id}) ==`)
+  const partyDir = join(corpusDir, seed.id)
+  const sitemapEntries = await sitemapEntriesFromSeed(seed)
+  const { fetchUrls, lastmodByUrl, skipped } = filterSitemapStartUrls(
+    sitemapEntries,
+    partyDir,
+    force,
+  )
+  const startUrls = [...new Set([...seed.startUrls, ...fetchUrls])]
+  await printRobotsStatus(seed.origin, startUrls)
+
   if (!dryRun) {
     mkdirSync(partyDir, { recursive: true })
+  }
+
+  for (const url of skipped) {
+    console.log(`  skip fetch ${url} (sitemap unchanged)`)
   }
 
   const crawledUrls: string[] = []
   const config = new Configuration({ persistStorage: false })
 
+  const userAgent = seed.userAgent ?? USER_AGENT
+  const delayMs = seed.crawlDelayMs ?? FETCH_DELAY_MS
+  const perMinute = Math.max(1, Math.floor(60000 / delayMs))
+
   const crawler = new CheerioCrawler(
     {
       maxRequestsPerCrawl: seed.maxPages,
       maxConcurrency: 1,
-      maxRequestsPerMinute: 60,
-      respectRobotsTxtFile: { userAgent: USER_AGENT },
+      maxRequestsPerMinute: perMinute,
+      respectRobotsTxtFile: { userAgent },
       useSessionPool: false,
       preNavigationHooks: [
         async (_context, gotOptions) => {
           gotOptions.headers = {
             ...gotOptions.headers,
-            'User-Agent': USER_AGENT,
+            'User-Agent': userAgent,
           }
         },
       ],
       async requestHandler({ request, body, contentType, enqueueLinks }) {
         const pageUrl = request.url
         const html = typeof body === 'string' ? body : body.toString('utf8')
+        const depth =
+          typeof request.userData.depth === 'number' ? request.userData.depth : 0
 
         if (!contentType.type.includes('text/html')) {
           return
@@ -882,14 +1119,21 @@ async function dumpParty(seed: Seed, dryRun: boolean): Promise<void> {
 
         crawledUrls.push(pageUrl)
 
-        if (!dryRun) {
-          console.log(`  ${pageUrl}`)
-          try {
-            await processHtmlPage(seed, pageUrl, partyDir, html, dryRun)
-          } catch (error) {
-            const message = error instanceof Error ? error.message : String(error)
-            console.warn(`warn: failed ${pageUrl}: ${message}`)
-          }
+        try {
+          const sourceLastmod = lastmodByUrl.get(pageUrl)
+          await processHtmlPage(
+            seed,
+            pageUrl,
+            partyDir,
+            html,
+            dryRun,
+            {},
+            force,
+            sourceLastmod,
+          )
+        } catch (error) {
+          const message = error instanceof Error ? error.message : String(error)
+          console.warn(`warn: failed ${pageUrl}: ${message}`)
         }
 
         await enqueueLinks({
@@ -902,7 +1146,11 @@ async function dumpParty(seed: Seed, dryRun: boolean): Promise<void> {
             if (!shouldEnqueueUrl(normalized, seed.origin, seed.allowPathPrefixes)) {
               return null
             }
-            return { ...req, url: normalized }
+            const nextDepth = depth + 1
+            if (seed.maxDepth !== undefined && nextDepth > seed.maxDepth) {
+              return null
+            }
+            return { ...req, url: normalized, userData: { ...req.userData, depth: nextDepth } }
           },
         })
       },
@@ -910,7 +1158,9 @@ async function dumpParty(seed: Seed, dryRun: boolean): Promise<void> {
     config,
   )
 
-  await crawler.run(seed.startUrls)
+  await crawler.run(
+    startUrls.map((url) => ({ url, userData: { depth: 0 } })),
+  )
 
   console.log(`${dryRun ? 'would fetch' : 'fetched'} ${crawledUrls.length} page(s)`)
   if (dryRun) {
@@ -921,23 +1171,25 @@ async function dumpParty(seed: Seed, dryRun: boolean): Promise<void> {
 }
 
 async function main(): Promise<void> {
-  const { partyId, dryRun, reprocess } = parseArgs(process.argv.slice(2))
+  const { eventId, partyId, dryRun, reprocess, force } = parseArgs(process.argv.slice(2))
+  const seedsDir = seedsDirFor(eventId)
+  const corpusDir = corpusDirFor(eventId)
 
-  if (!existsSync(SEEDS_DIR)) {
-    throw new Error(`Seeds directory not found: ${SEEDS_DIR}`)
+  if (!existsSync(seedsDir)) {
+    throw new Error(`Seeds directory not found: ${seedsDir}`)
   }
 
   if (reprocess) {
     if (partyId) {
-      loadSeeds(partyId)
+      loadSeeds(eventId, partyId)
     }
-    reprocessDumpMarkdown(partyId, dryRun)
+    reprocessDumpMarkdown(partyId, dryRun, corpusDir)
     return
   }
 
-  const seeds = loadSeeds(partyId)
+  const seeds = loadSeeds(eventId, partyId)
   for (const seed of seeds) {
-    await dumpParty(seed, dryRun)
+    await dumpParty(seed, dryRun, corpusDir, force)
   }
 }
 

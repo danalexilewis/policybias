@@ -1,0 +1,70 @@
+name: Party policy dump
+
+on:
+  workflow_dispatch:
+  # Uncomment after operator yes:
+  # schedule:
+  #   - cron: '0 3 * * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.19.0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install Poppler
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Dump NZ election corpus
+        run: pnpm dump:party-policy --event nz-election-2026
+
+      - name: Dump SE election corpus
+        run: pnpm dump:party-policy --event se-election-2026
+
+      - name: Open PR for corpus changes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          if ! git status --porcelain corpus/ | grep -q .; then
+            echo "No corpus changes to commit."
+            exit 0
+          fi
+
+          BRANCH="automated/party-policy-dump-$(date -u +%Y%m%d-%H%M%S)"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add corpus/
+
+          git commit -m "chore(corpus): party policy dump"
+
+          git push -u origin "$BRANCH"
+
+          gh pr create \
+            --title "chore(corpus): party policy dump" \
+            --body $'## Summary\n\nAutomated crawl of party policy pages for NZ and SE 2026 elections.\n\n## Notes\n\n- Party policy text is **not MIT** — it remains party copyright (`licenseNote` in front matter).\n- Changed pages may leave related `*.spec.md` files as **`digest_stale`** until a human re-reads the page and updates specs.\n- Do **not** run `pnpm check:policy --fix` until party text has been reviewed.\n\n## Test plan\n\n- [ ] Review changed `.md` crawled pages under `corpus/*/`\n- [ ] Re-read changed policy text against specs\n- [ ] Run `pnpm check:policy --event <event-id>` after review if needed'

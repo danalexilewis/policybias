@@ -63,7 +63,7 @@ async function harvestPdf(seed: Seed, partyDir: string, item: HarvestItem): Prom
 /** Fetch listed party URLs without crawling hubs, and attach PDF text to the HTML page they belong to. */
 async function harvest(filePath: string): Promise<void> {
   const list = YAML.parse(readFileSync(filePath, 'utf8')) as HarvestFile
-  const seeds = new Map(loadSeeds().map((seed) => [seed.id, seed]))
+  const seeds = new Map(loadSeeds('nz-election-2026').map((seed) => [seed.id, seed]))
 
   for (const item of list.items) {
     const seed = seeds.get(item.party)

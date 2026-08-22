@@ -13,6 +13,22 @@
   ],
   "rewrites": [
     {
+      "source": "/terms",
+      "destination": "/terms/index.html"
+    },
+    {
+      "source": "/terms/",
+      "destination": "/terms/index.html"
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy/index.html"
+    },
+    {
+      "source": "/privacy/",
+      "destination": "/privacy/index.html"
+    },
+    {
       "source": "/:event/scores",
       "destination": "/api/scores?event=:event"
     },
@@ -35,6 +51,54 @@
     {
       "source": "/nz-election-2026/game/",
       "destination": "/nz-election-2026/index.html"
+    },
+    {
+      "source": "/nz-election-2026/questions",
+      "destination": "/nz-election-2026/index.html"
+    },
+    {
+      "source": "/nz-election-2026/questions/",
+      "destination": "/nz-election-2026/index.html"
+    },
+    {
+      "source": "/nz-election-2026/results",
+      "destination": "/nz-election-2026/index.html"
+    },
+    {
+      "source": "/nz-election-2026/results/",
+      "destination": "/nz-election-2026/index.html"
+    },
+    {
+      "source": "/se-election-2026",
+      "destination": "/se-election-2026/index.html"
+    },
+    {
+      "source": "/se-election-2026/",
+      "destination": "/se-election-2026/index.html"
+    },
+    {
+      "source": "/se-election-2026/game",
+      "destination": "/se-election-2026/index.html"
+    },
+    {
+      "source": "/se-election-2026/game/",
+      "destination": "/se-election-2026/index.html"
+    },
+    {
+      "source": "/se-election-2026/questions",
+      "destination": "/se-election-2026/index.html"
+    },
+    {
+      "source": "/se-election-2026/questions/",
+      "destination": "/se-election-2026/index.html"
+    },
+    {
+      "source": "/se-election-2026/results",
+      "destination": "/se-election-2026/index.html"
+    },
+    {
+      "source": "/se-election-2026/results/",
+      "destination": "/se-election-2026/index.html"
     }
   ]
 }

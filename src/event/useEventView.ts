@@ -2,8 +2,10 @@ import { useEffect, useState } from 'react'
 import {
   CURRENT_EVENT_ID,
   eventGamePath,
+  eventIdFromPathname,
   eventPath,
   eventViewFromPath,
+  type EventId,
   type EventView,
 } from './events'
 
@@ -13,25 +15,32 @@ function readView(): EventView {
   return eventViewFromPath(window.location.pathname)
 }
 
+function readEventId(): EventId {
+  return eventIdFromPathname(window.location.pathname) ?? CURRENT_EVENT_ID
+}
+
 function withCurrentSearch(path: string): string {
   return `${path}${window.location.search}`
 }
 
 /**
- * Board vs game screens for this event, driven by the URL.
- * Play pushes `/<event>/game`; `/questions` and `/results` skip to those screens.
- * Exit returns to the board. Filter query params stay on the URL.
+ * Board vs game for this event, driven by the URL.
+ * Play pushes `/<event>/game`; exit returns to the board.
+ * Filter query params stay on the URL so a shared board survives the game round-trip.
  */
 export function useEventView(): {
   view: EventView
+  eventId: EventId
   openGame: () => void
   exitGame: () => void
 } {
   const [view, setView] = useState(readView)
+  const [eventId, setEventId] = useState(readEventId)
 
   useEffect(() => {
     function onPopState(): void {
       setView(readView())
+      setEventId(readEventId())
     }
     window.addEventListener('popstate', onPopState)
     return () => window.removeEventListener('popstate', onPopState)
@@ -41,7 +50,7 @@ export function useEventView(): {
     window.history.pushState(
       GAME_HISTORY_STATE,
       '',
-      withCurrentSearch(eventGamePath(CURRENT_EVENT_ID)),
+      withCurrentSearch(eventGamePath(eventId)),
     )
     setView('game')
   }
@@ -50,10 +59,10 @@ export function useEventView(): {
     window.history.pushState(
       {},
       '',
-      withCurrentSearch(eventPath(CURRENT_EVENT_ID)),
+      withCurrentSearch(eventPath(eventId)),
     )
     setView('board')
   }
 
-  return { view, openGame, exitGame }
+  return { view, eventId, openGame, exitGame }
 }

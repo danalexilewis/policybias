@@ -1,15 +1,58 @@
-export const EVENT_IDS = ['nz-election-2026'] as const
+export const EVENT_IDS = ['nz-election-2026', 'se-election-2026'] as const
 
 export type EventId = (typeof EVENT_IDS)[number]
 
+export const EVENT_STATUSES = [
+  'Researching Policies',
+  'Review',
+  'Live',
+] as const
+
+export type EventStatus = (typeof EVENT_STATUSES)[number]
+
+export type Lang = 'en' | 'sv' | 'mi'
+
+/** Fallback when the path is not an event (tests, `/scores` redirect). */
 export const CURRENT_EVENT_ID: EventId = 'nz-election-2026'
 
 const EVENT_LABELS: Record<EventId, string> = {
   'nz-election-2026': 'NZ 2026',
+  'se-election-2026': 'SE 2026',
+}
+
+const EVENT_STATUS: Record<EventId, EventStatus> = {
+  'nz-election-2026': 'Review',
+  'se-election-2026': 'Researching Policies',
+}
+
+export const EVENT_LANGS: Record<
+  EventId,
+  { canonical: Lang; available: readonly Lang[] }
+> = {
+  'nz-election-2026': { canonical: 'en', available: ['en'] },
+  'se-election-2026': { canonical: 'sv', available: ['sv', 'en'] },
 }
 
 export function eventLabel(eventId: EventId): string {
   return EVENT_LABELS[eventId]
+}
+
+export function eventStatus(eventId: EventId): EventStatus {
+  return EVENT_STATUS[eventId]
+}
+
+export function eventLangs(eventId: EventId): {
+  canonical: Lang
+  available: readonly Lang[]
+} {
+  return EVENT_LANGS[eventId]
+}
+
+export function parseLang(value: string | null | undefined): Lang | null {
+  if (value === 'en' || value === 'sv' || value === 'mi') {
+    return value
+  }
+  return null
 }
 
 export function eventPath(eventId: EventId): string {
@@ -22,6 +65,10 @@ export function eventScoresPath(eventId: EventId): string {
 
 export function eventLlmsPath(eventId: EventId): string {
   return `/${eventId}/llms.txt`
+}
+
+export function eventCardsPath(eventId: EventId, lang: Lang): string {
+  return `/${eventId}/cards.${lang}.json`
 }
 
 /** Root llms.txt for the directory; event shells point at that event's file. */
@@ -74,6 +121,12 @@ export function parseEventId(value: string | null | undefined): EventId | null {
     : null
 }
 
+export function eventIdFromPathname(pathname: string): EventId | null {
+  const match = pathname.match(/^\/([^/]+)/)
+  return parseEventId(match?.[1])
+}
+
+/** Event id when the path is the SPA (board is not an app sub-route). */
 export function eventIdFromAppPath(pathname: string): EventId | null {
   const match = pathname.match(/^\/([^/]+)\/(game|questions|results)\/?$/)
   return parseEventId(match?.[1])
@@ -104,4 +157,8 @@ export function redisKeyForEvent(eventId: EventId): string {
 
 export function localScoreRecordsPath(eventId: EventId): string {
   return `data/${eventId}/score-records.jsonl`
+}
+
+export function corpusDirForEvent(eventId: EventId): string {
+  return `corpus/${eventId}`
 }

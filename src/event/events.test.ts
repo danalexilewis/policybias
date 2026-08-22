@@ -5,6 +5,7 @@ import { describe, expect, it } from 'vitest'
 import {
   CURRENT_EVENT_ID,
   EVENT_IDS,
+  eventCardsPath,
   eventGamePath,
   eventIdFromAppPath,
   eventIdFromGamePath,
@@ -13,11 +14,13 @@ import {
   eventIdFromScoresPath,
   eventLlmsPath,
   eventLlmsPolicyPath,
+  eventLabel,
   llmsHrefForHtmlPath,
   eventPath,
   eventQuestionsPath,
   eventResultsPath,
   eventScoresPath,
+  eventStatus,
   specIdFromLlmsPath,
   eventViewFromPath,
   parseEventId,
@@ -28,6 +31,28 @@ const DIRECTORY_HTML = join(
   dirname(fileURLToPath(import.meta.url)),
   '../../index.html',
 )
+
+describe('event labels and status', () => {
+  it('assigns a label and status to each event', () => {
+    expect(eventLabel('nz-election-2026')).toBe('NZ 2026')
+    expect(eventStatus('nz-election-2026')).toBe('Review')
+    expect(eventStatus('se-election-2026')).toBe('Researching Policies')
+  })
+})
+
+describe('event cards paths', () => {
+  it('scopes the generated dataset under the event url and language', () => {
+    expect(eventCardsPath('nz-election-2026', 'en')).toBe(
+      '/nz-election-2026/cards.en.json',
+    )
+    expect(eventCardsPath('se-election-2026', 'sv')).toBe(
+      '/se-election-2026/cards.sv.json',
+    )
+    expect(eventCardsPath('se-election-2026', 'en')).toBe(
+      '/se-election-2026/cards.en.json',
+    )
+  })
+})
 
 describe('event scores paths', () => {
   it('scopes the public dataset under the event url', () => {
@@ -133,5 +158,29 @@ describe('home directory', () => {
       expect(html).not.toContain(`href="${eventLlmsPath(eventId)}"`)
     }
     expect(html).not.toMatch(/<th>\s*llms\.txt\s*<\/th>/)
+  })
+
+  it('links the title back to the home page', () => {
+    const html = readFileSync(DIRECTORY_HTML, 'utf8')
+    expect(html).toMatch(/<a href="\/">POLICYBIAS<\/a>/)
+  })
+
+  it('puts terms and privacy next to Gurki in the footer', () => {
+    const html = readFileSync(DIRECTORY_HTML, 'utf8')
+    expect(html).toContain('href="/terms/"')
+    expect(html).toContain('href="/privacy/"')
+  })
+
+  it('lists each event status on the home directory', () => {
+    const html = readFileSync(DIRECTORY_HTML, 'utf8')
+    expect(html).toMatch(/<th>\s*Status\s*<\/th>/)
+    for (const eventId of EVENT_IDS) {
+      const status = eventStatus(eventId)
+      expect(html).toMatch(
+        new RegExp(
+          `${eventId}[\\s\\S]*?<td class="event-status">${status}</td>`,
+        ),
+      )
+    }
   })
 })

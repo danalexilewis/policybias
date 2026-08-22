@@ -2,6 +2,7 @@ import type { IncomingMessage, ServerResponse } from 'node:http'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import react from '@vitejs/plugin-react'
+import { serwist } from '@serwist/vite'
 import { defineConfig, type Plugin } from 'vite'
 import { fileScoreRecordStore } from './src/game/fileScoreRecordStore'
 import { handleScoreRecordsRequest } from './src/game/handleScoreRecords'
@@ -58,13 +59,48 @@ function localScoresApi(): Plugin {
   }
 }
 
-function eventGameSpa(): Plugin {
-  function rewriteGamePath(req: IncomingMessage): void {
+const LEGAL_PAGES = ['/terms', '/privacy'] as const
+
+function legalPages(): Plugin {
+  function rewriteLegalPath(req: IncomingMessage): void {
     const path = req.url?.split('?')[0] ?? ''
-    if (!eventIdFromAppPath(path)) {
+    const page = LEGAL_PAGES.find(
+      (entry) => path === entry || path === `${entry}/`,
+    )
+    if (!page) {
       return
     }
-    req.url = '/nz-election-2026/index.html'
+    req.url = `${page}/index.html`
+  }
+
+  return {
+    name: 'legal-pages',
+    configureServer(server) {
+      server.middlewares.use((req, _res, next) => {
+        rewriteLegalPath(req)
+        next()
+      })
+    },
+    configurePreviewServer(server) {
+      server.middlewares.use((req, _res, next) => {
+        rewriteLegalPath(req)
+        next()
+      })
+    },
+  }
+}
+
+function eventGameSpa(): Plugin {
+  function rewriteGamePath(req: IncomingMessage): void {
+    const raw = req.url ?? ''
+    const qIndex = raw.indexOf('?')
+    const path = qIndex === -1 ? raw : raw.slice(0, qIndex)
+    const query = qIndex === -1 ? '' : raw.slice(qIndex)
+    const eventId = eventIdFromAppPath(path)
+    if (!eventId) {
+      return
+    }
+    req.url = `/${eventId}/index.html${query}`
   }
 
   return {
@@ -131,14 +167,37 @@ function readBody(req: IncomingMessage): Promise<string> {
   })
 }
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   base: '/',
-  plugins: [react(), eventGameSpa(), localScoresApi(), agentTrapPlugin()],
+  plugins: [
+    react(),
+    legalPages(),
+    eventGameSpa(),
+    localScoresApi(),
+    agentTrapPlugin(),
+    serwist({
+      disable: command !== 'build',
+      swSrc: 'src/sw.ts',
+      swDest: 'sw.js',
+      globDirectory: 'dist',
+      injectionPoint: 'self.__SW_MANIFEST',
+      rollupFormat: 'iife',
+      globPatterns: [
+        '**/*.{js,css,html,svg,png,webmanifest,ico}',
+        '**/cards.*.json',
+      ],
+      globIgnores: ['**/*.map'],
+      maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+    }),
+  ],
   build: {
     rollupOptions: {
       input: {
         main: resolve(rootDir, 'index.html'),
         nzElection2026: resolve(rootDir, 'nz-election-2026/index.html'),
+        seElection2026: resolve(rootDir, 'se-election-2026/index.html'),
+        terms: resolve(rootDir, 'terms/index.html'),
+        privacy: resolve(rootDir, 'privacy/index.html'),
       },
     },
   },
@@ -146,4 +205,4 @@ export default defineConfig({
     environment: 'node',
     include: ['src/**/*.test.ts', 'src/**/*.test.tsx', 'test/**/*.test.ts'],
   },
-})
+}))

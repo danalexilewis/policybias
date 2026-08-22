@@ -505,8 +505,9 @@ export function pickClusterTrivia(args: {
   cluster: string
   usedIds: readonly string[]
   seed: number
+  bank?: ClusterTrivia[]
 }): ClusterTrivia | null {
-  const pool = CLUSTER_TRIVIA.filter((item) => item.cluster === args.cluster)
+  const pool = (args.bank ?? CLUSTER_TRIVIA).filter((item) => item.cluster === args.cluster)
   if (pool.length === 0) {
     return null
   }

@@ -1,6 +1,9 @@
 import { useState, type JSX } from 'react';
+import type { PartyMeta } from '../data/types';
 import { PARTY_LABELS } from '../card/anonymise';
 import { ALL_PARTIES } from './dealRound';
+import { useLang } from '../i18n/useLang';
+import { useOnlineStatus } from '../offline/useOnlineStatus';
 import {
 	AGE_RANGE_OPTIONS,
 	ETHNICITY_OPTIONS,
@@ -15,9 +18,16 @@ import {
 
 type GameCensusProps = {
 	onContinue: (answers: BackgroundAnswers) => void;
+	parties?: PartyMeta[];
 };
 
 export function GameCensus(props: GameCensusProps): JSX.Element {
+	const { t } = useLang();
+	const online = useOnlineStatus();
+	const voteParties =
+		props.parties && props.parties.length > 0
+			? props.parties.map((party) => party.id)
+			: [...ALL_PARTIES];
 	const [answers, setAnswers] = useState(() => emptyBackground());
 	const [submitted, setSubmitted] = useState(false);
 
@@ -40,13 +50,12 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 	return (
 		<div className='game-census'>
 			<header className='game-heading'>
-				<p className='game-heading__kicker'>Before your score</p>
-				<h2 className='game-census__title'>Optional questions</h2>
+				<p className='game-heading__kicker'>{t('beforeYourScore')}</p>
+				<h2 className='game-census__title'>{t('optionalQuestions')}</h2>
 			</header>
 
 			<p className='game-census__lede'>
-				Your score goes into a public dataset. There are no accounts, and we do
-				not store a name, cookie, or IP address. Every question is optional.
+				{online ? t('censusLede') : t('offlineCensus')}
 			</p>
 
 			<form
@@ -56,8 +65,8 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 					finish(answers);
 				}}
 			>
-				<fieldset>
-					<legend>Age range</legend>
+				<fieldset disabled={!online}>
+					<legend>{t('ageRange')}</legend>
 					<div className='game-census__options game-census__options--wrap'>
 						{AGE_RANGE_OPTIONS.map((option) => (
 							<label key={option.id}>
@@ -79,9 +88,9 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 					</div>
 				</fieldset>
 
-				<fieldset>
-					<legend>Ethnicity</legend>
-					<p className='game-census__hint'>Select all that apply.</p>
+				<fieldset disabled={!online}>
+					<legend>{t('ethnicity')}</legend>
+					<p className='game-census__hint'>{t('selectAll')}</p>
 					<div className='game-census__options'>
 						{ETHNICITY_OPTIONS.map((option) => {
 							const checked = answers.ethnicities.includes(option.id);
@@ -109,10 +118,10 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 					</div>
 				</fieldset>
 
-				<fieldset>
-					<legend>Party you plan to vote for</legend>
+				<fieldset disabled={!online}>
+					<legend>{t('intendedVote')}</legend>
 					<div className='game-census__options game-census__options--wrap'>
-						{ALL_PARTIES.map((party) => (
+						{voteParties.map((party) => (
 							<label key={party}>
 								<input
 									type='radio'
@@ -126,7 +135,9 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 										}))
 									}
 								/>
-								{PARTY_LABELS[party]}
+								{props.parties?.find((item) => item.id === party)?.label ??
+									PARTY_LABELS[party] ??
+									party}
 							</label>
 						))}
 						{INTENDED_VOTE_EXTRA_OPTIONS.map((option) => (
@@ -149,13 +160,9 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 					</div>
 				</fieldset>
 
-				<fieldset>
-					<legend id='felt-wealth-legend'>
-						How wealthy do you feel you are?
-					</legend>
-					<p className='game-census__hint'>
-						1 is not wealthy. 10 is very wealthy.
-					</p>
+				<fieldset disabled={!online}>
+					<legend id='felt-wealth-legend'>{t('feltWealthLegend')}</legend>
+					<p className='game-census__hint'>{t('feltWealthHint')}</p>
 					<div
 						className={
 							answers.feltWealth === null
@@ -172,7 +179,7 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 							aria-labelledby='felt-wealth-legend'
 							aria-valuetext={
 								answers.feltWealth === null
-									? 'Not answered'
+									? t('notAnswered')
 									: String(answers.feltWealth)
 							}
 							value={answers.feltWealth ?? 5}
@@ -186,7 +193,9 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 						<span aria-hidden='true'>{FELT_WEALTH_MAX}</span>
 					</div>
 					<p className='game-census__slider-value'>
-						{answers.feltWealth === null ? 'Not answered' : answers.feltWealth}
+						{answers.feltWealth === null
+							? t('notAnswered')
+							: answers.feltWealth}
 					</p>
 				</fieldset>
 
@@ -196,10 +205,10 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 						className='game-text-button'
 						onClick={() => finish(emptyBackground())}
 					>
-						Skip
+						{t('skipQuestions')}
 					</button>
 					<button type='submit' className='game-next'>
-						See my score
+						{t('seeMyScore')}
 					</button>
 				</div>
 			</form>

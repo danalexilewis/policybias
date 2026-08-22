@@ -11,6 +11,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { CardFace, PartyId, PolicyCard } from '../data/types';
 import { PARTY_COLOURS, PARTY_LABELS } from '../card/anonymise';
 import { CURRENT_EVENT_ID, eventScoresPath } from '../event/events';
+import { NuqsAdapter } from 'nuqs/adapters/react';
 import { dealAllRounds } from './dealRound';
 import { GameOverlay } from './GameOverlay';
 import { SWIPE_HINT_MS } from './SwipeHint';
@@ -90,12 +91,14 @@ function renderGame() {
 	const rounds = dealAllRounds(cards, SEED);
 	const onGuess = vi.fn();
 	const view = render(
-		<GameOverlay
-			cards={cards}
-			seed={SEED}
-			onExit={() => undefined}
-			onGuess={onGuess}
-		/>
+		<NuqsAdapter>
+			<GameOverlay
+				cards={cards}
+				seed={SEED}
+				onExit={() => undefined}
+				onGuess={onGuess}
+			/>
+		</NuqsAdapter>
 	);
 
 	return { cards, rounds, onGuess, ...view };
@@ -288,27 +291,55 @@ describe('GameOverlay', () => {
 
 	it('opens on the optional questions when started there', () => {
 		render(
-			<GameOverlay
-				cards={buildFixtureCards()}
-				seed={SEED}
-				onExit={() => undefined}
-				startAt='questions'
-			/>
+			<NuqsAdapter>
+				<GameOverlay
+					cards={buildFixtureCards()}
+					seed={SEED}
+					onExit={() => undefined}
+					startAt='questions'
+				/>
+			</NuqsAdapter>
 		);
 
 		expect(screen.getByText('Optional questions')).toBeTruthy();
+	});
+
+	it('does not post a score when the census is skipped offline', () => {
+		vi.stubGlobal('navigator', { ...navigator, onLine: false });
+		render(
+			<NuqsAdapter>
+				<GameOverlay
+					cards={buildFixtureCards()}
+					seed={SEED}
+					onExit={() => undefined}
+					startAt='questions'
+				/>
+			</NuqsAdapter>
+		);
+
+		fireEvent.click(screen.getByRole('button', { name: 'Skip' }));
+
+		expect(fetchMock).not.toHaveBeenCalled();
+		expect(
+			screen.getByText(
+				"You're offline. This score cannot be added to the public dataset until you are back online."
+			)
+		).toBeTruthy();
+		expect(screen.queryByRole('link', { name: 'public dataset' })).toBeNull();
 	});
 
 	it('opens on results when started there, then play again starts a game', () => {
 		const cards = buildFixtureCards();
 		const rounds = dealAllRounds(cards, SEED);
 		render(
-			<GameOverlay
-				cards={cards}
-				seed={SEED}
-				onExit={() => undefined}
-				startAt='results'
-			/>
+			<NuqsAdapter>
+				<GameOverlay
+					cards={cards}
+					seed={SEED}
+					onExit={() => undefined}
+					startAt='results'
+				/>
+			</NuqsAdapter>
 		);
 
 		expect(screen.getByText('Results')).toBeTruthy();
@@ -401,6 +432,9 @@ describe('GameOverlay', () => {
 		expect(onGuess).not.toHaveBeenCalled();
 		expect(policyButton(1).getAttribute('aria-current')).toBe('true');
 		expect(policyButton(0).getAttribute('aria-current')).toBeNull();
+		expect(policyButton(1).className).not.toContain('game-card--stroked');
+		expect(policyButton(0).className).toContain('game-card--stroked');
+		expect(policyButton(2).className).toContain('game-card--stroked');
 	});
 
 	it('on a phone, tapping the front policy shows Submit without guessing', () => {
@@ -559,7 +593,10 @@ describe('GameOverlay', () => {
 				continue;
 			}
 			expect(card.style.getPropertyValue('--game-ring-colour')).toBe('');
+			expect(card.className).toContain('game-card--stroked');
 		}
+
+		expect(front?.className).not.toContain('game-card--stroked');
 	});
 
 	it('on a phone, submit paints each card with its real party colour', () => {
@@ -584,6 +621,7 @@ describe('GameOverlay', () => {
 		}
 
 		expect(container.querySelectorAll('.game-card--selected')).toHaveLength(3);
+		expect(container.querySelector('.game-card--stroked')).toBeNull();
 	});
 
 	it('on a phone, a tick floats on the card after a correct submit', () => {
@@ -658,7 +696,11 @@ describe('GameOverlay', () => {
 		}
 		expect(rounds[0]?.targetParty).toBe('opportunity');
 
-		render(<GameOverlay cards={cards} seed={seed} onExit={() => undefined} />);
+		render(
+			<NuqsAdapter>
+				<GameOverlay cards={cards} seed={seed} onExit={() => undefined} />
+			</NuqsAdapter>
+		);
 
 		expect(
 			screen.getByRole('heading', { name: 'Opportunity' }).style.color
@@ -685,12 +727,13 @@ describe('GameOverlay', () => {
 	});
 
 	it('on desktop, choosing a policy does not show Submit', () => {
-		const { rounds } = renderGame();
+		const { container, rounds } = renderGame();
 		const first = rounds[0];
 		if (!first) {
 			throw new Error('expected a first round');
 		}
 
+		expect(container.querySelector('.game-card--stroked')).toBeNull();
 		expect(screen.getByText('Tap a policy to choose it')).toBeTruthy();
 		fireEvent.click(policyButton(first.targetIndex));
 

@@ -20,7 +20,8 @@ export type Ethnicity =
   | 'melaa'
   | 'other'
 
-export type IntendedVote = PartyId | 'undecided' | 'will-not-vote' | 'another-party'
+export type IntendedVoteExtra = 'undecided' | 'will-not-vote' | 'another-party'
+export type IntendedVote = PartyId | IntendedVoteExtra
 
 /** How wealthy the player feels, from 1 (not wealthy) to 10 (very wealthy). */
 export type FeltWealth = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
@@ -83,7 +84,7 @@ export const ETHNICITY_OPTIONS: { id: Ethnicity; label: string }[] = [
 ]
 
 export const INTENDED_VOTE_EXTRA_OPTIONS: {
-  id: Exclude<IntendedVote, PartyId>
+  id: IntendedVoteExtra
   label: string
 }[] = [
   { id: 'undecided', label: 'Undecided' },
@@ -127,22 +128,29 @@ export function backgroundFromAnswers(
 
 export function scoresByGuessedParty(
   guesses: StoredGuess[] | null,
+  parties: PartyId[] = ALL_PARTIES,
 ): PartyGuessScore[] {
-  const buckets = Object.fromEntries(
-    ALL_PARTIES.map((party) => [party, { correct: 0, attempted: 0 }]),
-  ) as Record<PartyId, { correct: number; attempted: number }>
+  const list = parties.length > 0 ? [...parties] : [...ALL_PARTIES]
+  const buckets: Record<string, { correct: number; attempted: number }> = {}
+  for (const party of list) {
+    buckets[party] = { correct: 0, attempted: 0 }
+  }
 
   for (const guess of guesses ?? []) {
-    buckets[guess.guessedParty].attempted += 1
+    if (!buckets[guess.guessedParty]) {
+      buckets[guess.guessedParty] = { correct: 0, attempted: 0 }
+      list.push(guess.guessedParty)
+    }
+    buckets[guess.guessedParty]!.attempted += 1
     if (guess.correct) {
-      buckets[guess.guessedParty].correct += 1
+      buckets[guess.guessedParty]!.correct += 1
     }
   }
 
-  return ALL_PARTIES.map((party) => ({
+  return list.map((party) => ({
     party,
-    correct: buckets[party].correct,
-    attempted: buckets[party].attempted,
+    correct: buckets[party]?.correct ?? 0,
+    attempted: buckets[party]?.attempted ?? 0,
   }))
 }
 
@@ -272,7 +280,7 @@ export function scoreRecordsToCsv(records: ScoreRecord[]): string {
       record.recordedOn,
       String(record.correct),
       String(record.attempted),
-      ...ALL_PARTIES.map((party) => partyScores[party]),
+      ...ALL_PARTIES.map((party) => partyScores[party] ?? ''),
       record.ageRange ?? '',
       record.ethnicities?.join(';') ?? '',
       record.intendedVote ?? '',

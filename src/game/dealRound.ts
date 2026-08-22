@@ -114,7 +114,7 @@ function pickPartiesForRound(
   }
 
   const orderedParties = [...eligibleParties].sort((left, right) => {
-    const appearanceGap = appearances[left] - appearances[right]
+const appearanceGap = (appearances[left] ?? 0) - (appearances[right] ?? 0)
     if (appearanceGap !== 0) {
       return appearanceGap
     }
@@ -182,9 +182,13 @@ function pickTargetParty(
 
 export function createDealState(cards: PolicyCard[], seed: number): DealState {
   void seed
+  const appearances: Record<PartyId, number> = {}
+  for (const card of cards) {
+    appearances[card.party] = 0
+  }
   return {
     remaining: [...cards],
-    appearances: emptyAppearances(),
+    appearances,
     round: 0,
   }
 }
@@ -216,7 +220,7 @@ export function dealRound(
     const nextAppearances = { ...state.appearances }
 
     for (const card of cards) {
-      nextAppearances[card.party] += 1
+      nextAppearances[card.party] = (nextAppearances[card.party] ?? 0) + 1
     }
 
     return {
@@ -255,6 +259,10 @@ export function dealAllRounds(
   }
 
   return rounds
+}
+
+export function partiesInDeck(cards: PolicyCard[]): PartyId[] {
+  return [...new Set(cards.map((card) => card.party))].sort()
 }
 
 export { ALL_PARTIES }

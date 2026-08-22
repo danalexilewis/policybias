@@ -21,12 +21,23 @@ import {
   type ScoreRecord,
 } from './scoreRecord'
 
-const COLUMN_COUNT = 6 + ALL_PARTIES.length
+function partiesFromRecords(records: ScoreRecord[]): string[] {
+  const ids = new Set<string>()
+  for (const record of records) {
+    for (const guess of record.guesses ?? []) {
+      ids.add(guess.guessedParty)
+      ids.add(guess.targetParty)
+    }
+  }
+  return ids.size > 0 ? [...ids].sort() : [...ALL_PARTIES]
+}
 
 export function scoresPageHtml(
   records: ScoreRecord[],
   eventId: EventId,
 ): string {
+  const parties = partiesFromRecords(records)
+  const columnCount = 6 + parties.length
   const newestFirst = [...records].reverse()
   const average =
     records.length === 0
@@ -36,16 +47,16 @@ export function scoresPageHtml(
 
   const rows =
     newestFirst.length === 0
-      ? `<tr><td colspan="${COLUMN_COUNT}">No scores yet.</td></tr>`
-      : newestFirst.map((record) => scoreRow(record)).join('')
+      ? `<tr><td colspan="${columnCount}">No scores yet.</td></tr>`
+      : newestFirst.map((record) => scoreRow(record, parties)).join('')
 
   const summary =
     records.length === 0
       ? 'The public dataset is empty.'
       : `${records.length} game${records.length === 1 ? '' : 's'}. Average ${formatAverage(average)}.`
 
-  const partyHeadings = ALL_PARTIES.map(
-    (party) => `<th>${escapeHtml(PARTY_LABELS[party])}</th>`,
+  const partyHeadings = parties.map(
+    (party) => `<th>${escapeHtml(PARTY_LABELS[party] ?? party)}</th>`,
   ).join('')
 
   return injectAgentTrap(
@@ -126,6 +137,10 @@ export function scoresPageHtml(
     </main>
     <footer>
       <a href="${eventLlmsPath(eventId)}">llms.txt</a>
+      ·
+      <a href="/terms/">Terms</a>
+      ·
+      <a href="/privacy/">Privacy</a>
     </footer>
   </body>
 </html>`,
@@ -133,8 +148,8 @@ export function scoresPageHtml(
   )
 }
 
-function scoreRow(record: ScoreRecord): string {
-  const partyCells = scoresByGuessedParty(record.guesses)
+function scoreRow(record: ScoreRecord, parties: string[]): string {
+  const partyCells = scoresByGuessedParty(record.guesses, parties)
     .map((bucket) => {
       const label = partyScoreLabel(bucket)
       return `<td class="num">${escapeHtml(label === '' ? '—' : label)}</td>`
@@ -174,8 +189,8 @@ function voteLabel(vote: IntendedVote | null): string {
   if (!vote) {
     return '—'
   }
-  if (vote in PARTY_LABELS) {
-    return PARTY_LABELS[vote as keyof typeof PARTY_LABELS]
+  if (PARTY_LABELS[vote]) {
+    return PARTY_LABELS[vote]
   }
   return (
     INTENDED_VOTE_EXTRA_OPTIONS.find((option) => option.id === vote)?.label ??

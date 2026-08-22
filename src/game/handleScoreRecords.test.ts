@@ -121,6 +121,8 @@ describe('handleScoreRecordsRequest', () => {
     expect(html).toMatch(
       /<footer>\s*<a href="\/nz-election-2026\/llms\.txt">llms\.txt<\/a>/,
     )
+    expect(html).toContain('href="/terms/"')
+    expect(html).toContain('href="/privacy/"')
     expect(html).toContain('Total')
     expect(html).toContain('3 / 10')
     expect(html).toContain('<th>Green</th>')

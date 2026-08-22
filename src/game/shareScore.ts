@@ -1,4 +1,4 @@
-import { CURRENT_EVENT_ID, eventGamePath, eventLabel } from '../event/events'
+import { CURRENT_EVENT_ID, eventGamePath, eventLabel, type EventId } from '../event/events'
 
 export type ScoreSharePayload = {
   title: string
@@ -11,12 +11,14 @@ export function scoreSharePayload(args: {
   correct: number
   attempted: number
   origin: string
+  eventId?: EventId
 }): ScoreSharePayload {
-  const label = eventLabel(CURRENT_EVENT_ID)
+  const eventId = args.eventId ?? CURRENT_EVENT_ID
+  const label = eventLabel(eventId)
   return {
     title: `Policy Bias — ${label}`,
     text: `I scored ${args.correct}/${args.attempted} on Policy Bias — ${label}. Guess the party from the policy.`,
-    url: `${args.origin}${eventGamePath(CURRENT_EVENT_ID)}`,
+    url: `${args.origin}${eventGamePath(eventId)}`,
   }
 }
 

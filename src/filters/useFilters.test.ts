@@ -1,9 +1,22 @@
 // @vitest-environment jsdom
 import { renderHook, act } from '@testing-library/react'
+import { withNuqsTestingAdapter } from 'nuqs/adapters/testing'
 import { describe, expect, it } from 'vitest'
 import type { PolicyCard } from '../data/types'
 import { ALL_VISIBLE } from '../card/CardDisplay'
 import { useFilters } from './useFilters'
+
+function renderFilters(
+  cards: PolicyCard[],
+  searchParams?: string,
+) {
+  return renderHook(() => useFilters(cards), {
+    wrapper: withNuqsTestingAdapter({
+      searchParams,
+      hasMemory: true,
+    }),
+  })
+}
 
 const ANONYMISED_DISPLAY = { ...ALL_VISIBLE, party: false }
 
@@ -61,14 +74,14 @@ describe('useFilters', () => {
   ]
 
   it('returns all cards when no filters are active', () => {
-    const { result } = renderHook(() => useFilters(cards))
+    const { result } = renderFilters(cards)
     expect(result.current.filtered).toHaveLength(2)
     expect(result.current.anonymise).toBe(true)
     expect(result.current.display).toEqual(ANONYMISED_DISPLAY)
   })
 
   it('filters by cluster', () => {
-    const { result } = renderHook(() => useFilters(cards))
+    const { result } = renderFilters(cards)
     act(() => {
       result.current.toggleCluster('tax-fiscal')
     })
@@ -77,8 +90,9 @@ describe('useFilters', () => {
   })
 
   it('filters by party', () => {
-    const { result } = renderHook(() => useFilters(cards))
+    const { result } = renderFilters(cards)
     act(() => {
+      result.current.setAnonymise(false)
       result.current.toggleParty('labour')
     })
     expect(result.current.filtered).toHaveLength(1)
@@ -86,7 +100,7 @@ describe('useFilters', () => {
   })
 
   it('filters by has-output', () => {
-    const { result } = renderHook(() => useFilters(cards))
+    const { result } = renderFilters(cards)
     act(() => {
       result.current.setHasOutput(true)
     })
@@ -95,7 +109,7 @@ describe('useFilters', () => {
   })
 
   it('filters by has-derived', () => {
-    const { result } = renderHook(() => useFilters(cards))
+    const { result } = renderFilters(cards)
     act(() => {
       result.current.setHasDerived(true)
     })
@@ -104,7 +118,7 @@ describe('useFilters', () => {
   })
 
   it('anonymise can be turned off to show party', () => {
-    const { result } = renderHook(() => useFilters(cards))
+    const { result } = renderFilters(cards)
     act(() => {
       result.current.setAnonymise(false)
     })
@@ -113,7 +127,7 @@ describe('useFilters', () => {
   })
 
   it('starts ungrouped and can group by cluster or party', () => {
-    const { result } = renderHook(() => useFilters(cards))
+    const { result } = renderFilters(cards)
     expect(result.current.groupBy).toBe('none')
     act(() => {
       result.current.setGroupBy('cluster')
@@ -127,7 +141,7 @@ describe('useFilters', () => {
   })
 
   it('clears party filters and party grouping when anonymise turns on', () => {
-    const { result } = renderHook(() => useFilters(cards))
+    const { result } = renderFilters(cards)
     act(() => {
       result.current.setAnonymise(false)
       result.current.setGroupBy('party')
@@ -143,12 +157,24 @@ describe('useFilters', () => {
   })
 
   it('keeps cluster grouping when anonymise turns on', () => {
-    const { result } = renderHook(() => useFilters(cards))
+    const { result } = renderFilters(cards)
     act(() => {
       result.current.setGroupBy('cluster')
       result.current.setAnonymise(false)
       result.current.setAnonymise(true)
     })
     expect(result.current.groupBy).toBe('cluster')
+  })
+
+  it('reads filters from the url so a shared board opens the same way', () => {
+    const { result } = renderFilters(
+      cards,
+      '?anonymise=false&group=cluster&clusters=tax-fiscal&parties=act&output=true',
+    )
+    expect(result.current.anonymise).toBe(false)
+    expect(result.current.groupBy).toBe('cluster')
+    expect(result.current.filtered).toHaveLength(1)
+    expect(result.current.filtered[0]?.id).toBe('act-1')
+    expect(result.current.hasOutput).toBe(true)
   })
 })

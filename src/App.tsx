@@ -1,5 +1,6 @@
 import { Analytics } from '@vercel/analytics/react';
 import { useEffect, useState, type JSX, type MouseEvent } from 'react';
+import { NuqsAdapter } from 'nuqs/adapters/react';
 import { CardInspectOverlay } from './card/CardInspectOverlay';
 import { useCards } from './data/useCards';
 import type { PolicyCard } from './data/types';
@@ -23,6 +24,14 @@ const BOARD_TITLE = `Policy Bias — ${eventLabel(CURRENT_EVENT_ID)}`;
 const GAME_TITLE = `Play — ${eventLabel(CURRENT_EVENT_ID)}`;
 
 export default function App(): JSX.Element {
+	return (
+		<NuqsAdapter>
+			<AppShell />
+		</NuqsAdapter>
+	);
+}
+
+function AppShell(): JSX.Element {
 	const { data, error, loading } = useCards();
 	const [shuffleSeed] = useState(() => Math.floor(Math.random() * 0xffffffff));
 	const wallCards = data ? shuffleCards(data.cards, shuffleSeed) : [];

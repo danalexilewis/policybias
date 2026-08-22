@@ -10,7 +10,7 @@ import type { ClusterMeta, PartyMeta } from '../data/types';
 import type { GroupBy } from '../grid/sortCards';
 import type { UseFiltersResult } from './useFilters';
 import { clusterColour } from '../theme/clusterColours';
-import { contrastingText } from '../theme/contrast';
+import { chipText, contrastingText } from '../theme/contrast';
 import styles from './FilterBar.module.css';
 
 type FilterBarProps = {
@@ -116,17 +116,15 @@ export function FilterBar({
 		setGroupBy,
 		selectedClusters,
 		toggleCluster,
-		clearClusters,
 		selectedParties,
 		toggleParty,
-		clearParties,
 		selectedMoney,
 		toggleMoney,
-		clearMoney,
 		hasOutput,
 		setHasOutput,
 		hasDerived,
-		setHasDerived
+		setHasDerived,
+		clearAppliedFilters
 	} = filters;
 
 	const barRef = useRef<HTMLDivElement>(null);
@@ -166,14 +164,6 @@ export function FilterBar({
 			window.removeEventListener('pointerdown', onPointerDown, true);
 		};
 	}, [menuOpen]);
-
-	function clearAppliedFilters(): void {
-		clearClusters();
-		clearParties();
-		clearMoney();
-		setHasOutput(null);
-		setHasDerived(null);
-	}
 
 	return (
 		<div
@@ -277,7 +267,7 @@ export function FilterBar({
 											invertChecked={false}
 											style={{
 												backgroundColor: colour,
-												color: contrastingText(colour)
+												color: chipText(colour)
 											}}
 										/>
 									);

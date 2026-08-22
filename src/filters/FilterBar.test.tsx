@@ -39,6 +39,7 @@ function makeFilters(
 		selectedMoney: new Set(),
 		toggleMoney: vi.fn(),
 		clearMoney: vi.fn(),
+		clearAppliedFilters: vi.fn(),
 		hasOutput: null,
 		setHasOutput: vi.fn(),
 		hasDerived: null,
@@ -106,7 +107,7 @@ describe('FilterBar', () => {
 		const health = screen.getByRole('checkbox', { name: 'Health' });
 		const pill = health.closest('label');
 		expect(pill?.style.backgroundColor).toBe('rgb(184, 77, 92)');
-		expect(pill?.style.color).toBe('rgb(255, 255, 255)');
+		expect(pill?.style.color).toBe('rgb(255, 251, 230)');
 	});
 
 	it('fills a selected party pill with the solid party colour', () => {

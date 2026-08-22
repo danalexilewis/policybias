@@ -1,16 +1,14 @@
-import { useCallback, useMemo, useState } from 'react'
-import type { MoneyClass, PartyId, PolicyCard } from '../data/types'
+import { useQueryStates } from 'nuqs'
 import { ALL_VISIBLE, type CardDisplay } from '../card/CardDisplay'
+import type { MoneyClass, PartyId, PolicyCard } from '../data/types'
 import type { GroupBy } from '../grid/sortCards'
+import { filterSearchParams } from './filterQuery'
 
-function toggleInSet<T>(set: Set<T>, value: T): Set<T> {
-  const next = new Set(set)
-  if (next.has(value)) {
-    next.delete(value)
-  } else {
-    next.add(value)
+function toggleInList<T>(list: T[], value: T): T[] {
+  if (list.includes(value)) {
+    return list.filter((entry) => entry !== value)
   }
-  return next
+  return [...list, value]
 }
 
 export type UseFiltersResult = {
@@ -33,89 +31,123 @@ export type UseFiltersResult = {
   setHasOutput: (value: boolean | null) => void
   hasDerived: boolean | null
   setHasDerived: (value: boolean | null) => void
+  clearAppliedFilters: () => void
 }
 
-/** Filter policy cards and derive the {@link CardDisplay} flags for rendering. */
+/** Filter policy cards from the URL, and derive {@link CardDisplay} flags. */
 export function useFilters(cards: PolicyCard[]): UseFiltersResult {
-  const [anonymise, setAnonymiseState] = useState(true)
-  const [groupBy, setGroupBy] = useState<GroupBy>('none')
-  const [selectedClusters, setSelectedClusters] = useState<Set<string>>(new Set())
-  const [selectedParties, setSelectedParties] = useState<Set<PartyId>>(new Set())
-  const [selectedMoney, setSelectedMoney] = useState<Set<MoneyClass>>(new Set())
-  const [hasOutput, setHasOutput] = useState<boolean | null>(null)
-  const [hasDerived, setHasDerived] = useState<boolean | null>(null)
+  const [query, setQuery] = useQueryStates(filterSearchParams)
 
-  const display = useMemo<CardDisplay>(
-    () => (anonymise ? { ...ALL_VISIBLE, party: false } : ALL_VISIBLE),
-    [anonymise],
-  )
+  const anonymise = query.anonymise
+  const groupBy: GroupBy =
+    anonymise && query.group === 'party' ? 'none' : query.group
+  const selectedClusters = new Set(query.clusters)
+  const selectedParties = new Set<PartyId>(anonymise ? [] : query.parties)
+  const selectedMoney = new Set(query.money)
+  const hasOutput = query.output
+  const hasDerived = query.derived
 
-  const filtered = useMemo(() => {
-    return cards.filter((card) => {
-      if (
-        selectedClusters.size > 0 &&
-        !card.clusters.some((clusterId) => selectedClusters.has(clusterId))
-      ) {
-        return false
-      }
+  const display: CardDisplay = anonymise
+    ? { ...ALL_VISIBLE, party: false }
+    : ALL_VISIBLE
 
-      if (selectedParties.size > 0 && !selectedParties.has(card.party)) {
-        return false
-      }
+  const filtered = cards.filter((card) => {
+    if (
+      selectedClusters.size > 0 &&
+      !card.clusters.some((clusterId) => selectedClusters.has(clusterId))
+    ) {
+      return false
+    }
 
-      if (selectedMoney.size > 0 && !selectedMoney.has(card.money)) {
-        return false
-      }
+    if (selectedParties.size > 0 && !selectedParties.has(card.party)) {
+      return false
+    }
 
-      const outputCount = card.stated.counts.outputs
-      if (hasOutput === true && outputCount === 0) {
-        return false
-      }
-      if (hasOutput === false && outputCount > 0) {
-        return false
-      }
+    if (selectedMoney.size > 0 && !selectedMoney.has(card.money)) {
+      return false
+    }
 
-      if (hasDerived === true && !card.derived) {
-        return false
-      }
-      if (hasDerived === false && card.derived) {
-        return false
-      }
+    const outputCount = card.stated.counts.outputs
+    if (hasOutput === true && outputCount === 0) {
+      return false
+    }
+    if (hasOutput === false && outputCount > 0) {
+      return false
+    }
 
-      return true
-    })
-  }, [cards, selectedClusters, selectedParties, selectedMoney, hasOutput, hasDerived])
+    if (hasDerived === true && !card.derived) {
+      return false
+    }
+    if (hasDerived === false && card.derived) {
+      return false
+    }
 
-  const toggleCluster = useCallback((clusterId: string) => {
-    setSelectedClusters((current) => toggleInSet(current, clusterId))
-  }, [])
-
-  const clearClusters = useCallback(() => {
-    setSelectedClusters(new Set())
-  }, [])
-
-  const toggleParty = useCallback((partyId: PartyId) => {
-    setSelectedParties((current) => toggleInSet(current, partyId))
-  }, [])
-
-  const clearParties = useCallback(() => {
-    setSelectedParties(new Set())
-  }, [])
-
-  const toggleMoney = useCallback((money: MoneyClass) => {
-    setSelectedMoney((current) => toggleInSet(current, money))
-  }, [])
-
-  const clearMoney = useCallback(() => {
-    setSelectedMoney(new Set())
-  }, [])
+    return true
+  })
 
   function setAnonymise(value: boolean): void {
-    setAnonymiseState(value)
-    if (value) {
-      setGroupBy((current) => (current === 'party' ? 'none' : current))
-      setSelectedParties(new Set())
-    }
+    void setQuery((current) => {
+      if (value) {
+        return {
+          anonymise: true,
+          parties: [],
+          group: current.group === 'party' ? 'none' : current.group,
+        }
+      }
+      return { anonymise: false }
+    })
+  }
+
+  function setGroupBy(value: GroupBy): void {
+    void setQuery({ group: value })
+  }
+
+  function toggleCluster(clusterId: string): void {
+    void setQuery((current) => ({
+      clusters: toggleInList(current.clusters, clusterId),
+    }))
+  }
+
+  function clearClusters(): void {
+    void setQuery({ clusters: [] })
+  }
+
+  function toggleParty(partyId: PartyId): void {
+    void setQuery((current) => ({
+      parties: toggleInList(current.parties, partyId),
+    }))
+  }
+
+  function clearParties(): void {
+    void setQuery({ parties: [] })
+  }
+
+  function toggleMoney(money: MoneyClass): void {
+    void setQuery((current) => ({
+      money: toggleInList(current.money, money),
+    }))
+  }
+
+  function clearMoney(): void {
+    void setQuery({ money: [] })
+  }
+
+  function setHasOutput(value: boolean | null): void {
+    void setQuery({ output: value })
+  }
+
+  function setHasDerived(value: boolean | null): void {
+    void setQuery({ derived: value })
+  }
+
+  function clearAppliedFilters(): void {
+    void setQuery({
+      clusters: [],
+      parties: [],
+      money: [],
+      output: null,
+      derived: null,
+    })
   }
 
   return {
@@ -138,5 +170,6 @@ export function useFilters(cards: PolicyCard[]): UseFiltersResult {
     setHasOutput,
     hasDerived,
     setHasDerived,
+    clearAppliedFilters,
   }
 }

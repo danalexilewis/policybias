@@ -154,6 +154,14 @@ export function partyScoreLabel(bucket: PartyGuessScore): string {
   return `${bucket.correct}/${bucket.attempted}`
 }
 
+/** Share of a party bar that is filled. 2/2 is a full bar. */
+export function partyBarFill(bucket: PartyGuessScore): number {
+  if (bucket.attempted < 1) {
+    return 0
+  }
+  return (bucket.correct / bucket.attempted) * 100
+}
+
 export function formatRecordedOn(now: Date): string {
   return now.toISOString().slice(0, 10)
 }

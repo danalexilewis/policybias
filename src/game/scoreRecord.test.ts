@@ -7,6 +7,7 @@ import {
   scoreRecordsToCsv,
   scoresByGuessedParty,
   partyScoreLabel,
+  partyBarFill,
   stampScoreRecord,
 } from './scoreRecord'
 
@@ -204,6 +205,13 @@ describe('scoresByGuessedParty', () => {
       '1/2',
     )
     expect(partyScoreLabel({ party: 'act', correct: 0, attempted: 0 })).toBe('')
+  })
+
+  it('fills the bar completely when every guess of that party was right', () => {
+    expect(partyBarFill({ party: 'green', correct: 2, attempted: 2 })).toBe(100)
+    expect(partyBarFill({ party: 'labour', correct: 1, attempted: 2 })).toBe(50)
+    expect(partyBarFill({ party: 'act', correct: 0, attempted: 1 })).toBe(0)
+    expect(partyBarFill({ party: 'national', correct: 0, attempted: 0 })).toBe(0)
   })
 })
 

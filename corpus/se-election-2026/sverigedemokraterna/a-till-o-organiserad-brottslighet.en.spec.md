@@ -4,10 +4,7 @@ id: sverigedemokraterna-a-till-o-organiserad-brottslighet
 title: Organized crime
 status: draft
 updated: 2026-08-22
-summary: Organized crime is a threat to both society and ordinary people. The fight
-  against the gangs has therefore been particularly important to us. Before the next
-  election we will have introduced double sentencing for crimes committed by gangs and
-  passed the first of two constitutional decisions needed
+summary: The fight against the gangs has therefore been particularly important to us.
 jurisdiction: SE
 sources:
   - title: Organiserad brottslighet
@@ -19,25 +16,26 @@ clusters:
   - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-organiserad-brottslighet.md
-sourceDigest: sha256-390d2659e28dc07d
+sourceDigest: sha256-b2b172f20e64eac5
 gaps:
   - cost is not stated on the page
+  - timetable is not stated on the page
 lang: en
-translationOf: sverigedemokraterna-organiserad-brottslighet
+translationOf: sverigedemokraterna-a-till-o-organiserad-brottslighet
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: sha256-67a692d2813ff354
+sourceSpecDigest: sha256-f68845f58fbbfb65
 ---
 
 # What the page states
 
-> Organized crime is a threat to both society and ordinary people. The fight against the gangs has therefore been particularly important to us. Before the next election we will have introduced double sentencing for crimes committed by gangs and passed the first of two constitutional decisions needed
+> Organized crime is a threat to both society and ordinary people.
 
 System: Organiserad brottslighet
 
 Scenario: Party states this policy
-Given the 2026 Swedish general election is contested
+Given a Swedish general election is contested
 When the party publishes this policy
-Then the page names the intervention
-Output Organized crime is a threat to both society and ordinary people. The fight against the gangs has therefore been particularly important to us. Before the next election, we will have introduced
+Then Organized crime is a threat to both society and ordinary people.
+Output The fight against the gangs has therefore been particularly important to us.
 Outcome the claim is the party's stated position

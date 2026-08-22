@@ -53,6 +53,7 @@ type SpecFile = {
   party: string
   slug: string
   kind: SpecKind
+  lang: string | null
   absolutePath: string
   repoPath: string
   raw: string
@@ -207,7 +208,9 @@ function loadSpecFiles(parties: string[]): { specs: SpecFile[]; problems: Proble
         kind = 'derived'
         slugParts = parts.slice(0, -1)
       }
+      let lang: string | null = null
       if (['en', 'sv', 'mi'].includes(slugParts.at(-1) ?? '') && slugParts.length > 1) {
+        lang = slugParts.at(-1) ?? null
         slugParts = slugParts.slice(0, -1)
       }
 
@@ -215,6 +218,7 @@ function loadSpecFiles(parties: string[]): { specs: SpecFile[]; problems: Proble
         party,
         slug: slugParts.join('.'),
         kind,
+        lang,
         absolutePath,
         repoPath,
         raw: readFileSync(absolutePath, 'utf8'),
@@ -276,6 +280,87 @@ export function sourceUrlsOf(document: GurkiDocument): string[] {
 /** Keeper page plus any other dump pages whose URL is listed in `sources`. */
 export function combinedSourceBody(keeperBody: string, extraBodies: string[]): string {
   return [keeperBody, ...extraBodies.filter((body) => body.length > 0)].join('\n\n')
+}
+
+const MARKUP_MARKERS = ['<!DOCTYPE', '<html', '<meta ', '<script', '<link ', 'sv-no-js']
+
+export function findMarkupInSpec(raw: string): string[] {
+  return MARKUP_MARKERS.filter((marker) => raw.includes(marker))
+}
+
+function collapseWhitespace(text: string): string {
+  return text.replace(/\s+/g, ' ').trim()
+}
+
+export function normaliseProse(text: string): string {
+  return collapseWhitespace(
+    text
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+      .replace(/[*_`]+/g, '')
+      .replace(/^>\s?/, ''),
+  )
+}
+
+const FRAME_PROSE = [
+  'the 2026 swedish general election is contested',
+  'a swedish general election is contested',
+  'the 2026 new zealand general election is contested',
+  'the party publishes this policy',
+]
+
+export function isFrameProse(text: string): boolean {
+  const normalised = normaliseProse(text).toLowerCase()
+  return FRAME_PROSE.some((frame) => normalised === frame || normalised.includes(frame))
+}
+
+export function quotedLinesOf(raw: string): string[] {
+  return bodyAfterFrontmatter(raw)
+    .split(/\r?\n/)
+    .filter((line) => line.trimStart().startsWith('>'))
+    .map((line) => line.trimStart().replace(/^>\s?/, '').trim())
+    .filter((line) => line.length > 0)
+}
+
+export type UnsourcedProse = { line?: number; text: string }
+
+/** Blockquotes and stated Given/When/Then/Output lines must appear on the page. */
+export function findUnsourcedProse(
+  document: GurkiDocument,
+  raw: string,
+  pageBody: string,
+): UnsourcedProse[] {
+  const haystack = normaliseProse(pageBody).toLowerCase()
+  const found: UnsourcedProse[] = []
+
+  for (const quoted of quotedLinesOf(raw)) {
+    const needle = normaliseProse(quoted).toLowerCase()
+    if (needle.length < 12) {
+      continue
+    }
+    if (!haystack.includes(needle)) {
+      found.push({ text: quoted.slice(0, 120) })
+    }
+  }
+
+  for (const scenario of document.scenarios) {
+    for (const step of scenario.steps) {
+      if (!['given', 'when', 'then', 'output'].includes(step.kind)) {
+        continue
+      }
+      if (isFrameProse(step.text)) {
+        continue
+      }
+      const needle = normaliseProse(step.text).toLowerCase()
+      if (needle.length < 12) {
+        continue
+      }
+      if (!haystack.includes(needle)) {
+        found.push({ line: step.line, text: step.text.slice(0, 120) })
+      }
+    }
+  }
+
+  return found
 }
 
 export type UnsourcedFigure = { line: number; value: string }
@@ -587,6 +672,36 @@ function checkFigures(spec: SpecFile, page: DumpPage, pages: DumpPage[]): Proble
   return problems
 }
 
+function checkFaithfulness(spec: SpecFile, page: DumpPage, pages: DumpPage[]): Problem[] {
+  const problems: Problem[] = []
+
+  for (const marker of findMarkupInSpec(spec.raw)) {
+    problems.push({
+      level: 'error',
+      code: 'markup_in_spec',
+      message: `Spec contains page markup "${marker}". Quote policy prose, not HTML.`,
+      path: spec.repoPath
+    })
+  }
+
+  if (spec.kind !== 'stated' || spec.lang) {
+    return problems
+  }
+
+  const haystack = combinedSourceBody(page.body, extraBodiesForSpec(spec, pages, page))
+  for (const prose of findUnsourcedProse(spec.document, spec.raw, haystack)) {
+    problems.push({
+      level: 'error',
+      code: 'unsourced_prose',
+      message: `Quoted text is not on ${page.repoPath}: "${prose.text}"`,
+      path: spec.repoPath,
+      line: prose.line
+    })
+  }
+
+  return problems
+}
+
 type Coverage = {
   party: string
   pages: number
@@ -640,6 +755,7 @@ function main(): void {
     }
     problems.push(...checkDigest(spec, page, options.fix))
     problems.push(...checkFigures(spec, page, pages))
+    problems.push(...checkFaithfulness(spec, page, pages))
   }
 
   const modelled = new Set(

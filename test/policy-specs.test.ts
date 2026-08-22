@@ -13,7 +13,10 @@ import {
   findMarkersInStatedSpec,
   findMisplacedMeasures,
   findUnsourcedFigures,
+  findUnsourcedProse,
+  findMarkupInSpec,
   hasNumber,
+  isFrameProse,
   normaliseHaystack,
   sourceUrlsOf
 } from '../scripts/check-policy.ts'
@@ -90,6 +93,50 @@ describe('figure extraction', () => {
     expect(hasNumber('280 departments', '28')).toBe(false)
     expect(hasNumber('a rate of 1.28 percent', '28')).toBe(false)
     expect(hasNumber('a rate of 28 percent', '28')).toBe(true)
+  })
+})
+
+describe('findMarkupInSpec', () => {
+  it('flags leftover HTML from a broken dump', () => {
+    expect(findMarkupInSpec('> <html lang="sv" class="sv-no-js">')).toEqual(['<html', 'sv-no-js'])
+  })
+
+  it('passes ordinary Gurki prose', () => {
+    expect(findMarkupInSpec('Then more hospital beds')).toEqual([])
+  })
+})
+
+describe('findUnsourcedProse', () => {
+  it('allows a quote that is on the page and the election frame', () => {
+    const raw = spec(`# What the page states
+
+> Sjukvården behöver inte bara resurser
+
+Scenario: Party states this policy
+Given a Swedish general election is contested
+When the party publishes this policy
+Then Sjukvården behöver inte bara resurser
+Output Pengar ska gå till vård
+`)
+    const document = parse(raw)
+    expect(
+      findUnsourcedProse(
+        document,
+        raw,
+        'Sjukvården behöver inte bara resurser. Pengar ska gå till vård, personal och patientmöten.',
+      ),
+    ).toEqual([])
+  })
+
+  it('catches a Then step that is not on the page', () => {
+    const raw = spec(`Scenario: Party states this policy
+Given a Swedish general election is contested
+When the party publishes this policy
+Then <script nonce="abc">void 0</script>
+`)
+    const document = parse(raw)
+    expect(isFrameProse('the 2026 Swedish general election is contested')).toBe(true)
+    expect(findUnsourcedProse(document, raw, 'Sjukvården behöver inte bara resurser').length).toBeGreaterThan(0)
   })
 })
 

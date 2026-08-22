@@ -1,0 +1,17 @@
+---
+type: "crawled-page"
+party: "kristdemokraterna"
+title: "Folkhälsa"
+sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/folkhalsa"
+canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/folkhalsa"
+fetchedAt: "2026-08-22T13:28:05.144Z"
+contentType: "html"
+via: "party-site"
+tags: []
+stance: null
+licenseNote: "Party copyright; not Gurki MIT"
+---
+
+Kort info om KD:s politik rörande folkhälsan.
+
+Folkhälsan påverkas av en lång rad politiska åtgärder inom exempelvis arbetsmarknad, miljö, ekonomi och den enskildes möjligheter att påverka sin egen vardag. Ett stort ansvar för hälsan ligger på den enskilde, men vården, liksom skolan och andra myndigheter, måste i större utsträckning stötta enskilda till bättre levnadsvanor som att sluta röka, minska sitt alkoholintag, äta nyttigare och röra sig mer.

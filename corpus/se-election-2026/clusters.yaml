@@ -1,0 +1,108 @@
+# Cluster vocabulary for the 2026 Swedish general election.
+#
+# Ranked from Novus June 2026 and Verian August 2026 issue salience.
+# A spec's `clusters:` frontmatter must draw from these ids.
+
+clusters:
+  - id: health-care
+    labels:
+      sv: Vård och köer
+      en: Healthcare and waiting lists
+    descriptions:
+      sv: >-
+        Sjukvård, vårdköer, förstatligande av vården, läkemedel och
+        privat sjukvårdsförsäkring.
+      en: >-
+        Healthcare, waiting lists, nationalising regional care, medicines,
+        and private health insurance.
+    tagHints: [sjukvard, halsa, vard]
+
+  - id: schools-education
+    labels:
+      sv: Skola och utbildning
+      en: Schools and education
+    descriptions:
+      sv: >-
+        Grundskola, gymnasium, friskolor, lärare och högre utbildning.
+      en: >-
+        Compulsory school, upper secondary, independent schools, teachers,
+        and higher education.
+    tagHints: [skola, utbildning]
+
+  - id: crime-justice
+    labels:
+      sv: Brott och straff
+      en: Crime, justice and public safety
+    descriptions:
+      sv: >-
+        Gängkriminalitet, straff, mängdrabatt, polis och rättsväsende.
+      en: >-
+        Gang crime, sentencing, the multiple-offence discount, police and
+        the courts.
+    tagHints: [brott, rattvisa, gang]
+
+  - id: migration-integration
+    labels:
+      sv: Migration och integration
+      en: Immigration and integration
+    descriptions:
+      sv: >-
+        Asyl, invandring, återvändande, medborgarskap och etablering.
+      en: >-
+        Asylum, immigration, returns, citizenship and settlement.
+    tagHints: [migration, integration, asyl]
+
+  - id: elderly-welfare
+    labels:
+      sv: Äldreomsorg och välfärd
+      en: Elderly care and welfare
+    descriptions:
+      sv: >-
+        Äldreomsorg, pensioner, socialförsäkring och kommunal välfärd.
+      en: >-
+        Elderly care, pensions, social insurance and municipal welfare.
+    tagHints: [aldreomsorg, pension, valfard]
+
+  - id: climate-environment
+    labels:
+      sv: Klimat och miljö
+      en: Climate and environment
+    descriptions:
+      sv: >-
+        Klimatmål, natur, utsläpp och miljöregler.
+      en: >-
+        Climate targets, nature, emissions and environmental rules.
+    tagHints: [klimat, miljo]
+
+  - id: economy-tax
+    labels:
+      sv: Ekonomi och skatt
+      en: Economy and tax
+    descriptions:
+      sv: >-
+        Skatter, tillväxt, jobb, budgetregler och fördelning.
+      en: >-
+        Tax, growth, jobs, fiscal rules and distribution.
+    tagHints: [ekonomi, skatt, jobb]
+
+  - id: energy-power
+    labels:
+      sv: Energi och el
+      en: Energy and electricity
+    descriptions:
+      sv: >-
+        Elpriser, kärnkraft, elnät och energiförsörjning.
+      en: >-
+        Electricity prices, nuclear power, the grid and energy security.
+    tagHints: [energi, el, karnkraft]
+
+  - id: defence-security
+    labels:
+      sv: Försvar och säkerhet
+      en: Defence and security
+    descriptions:
+      sv: >-
+        Försvar, Nato, totalförsvar och civil beredskap.
+      en: >-
+        Defence, NATO, total defence and civil preparedness.
+    tagHints: [forsvar, nato, sakerhet]

@@ -1,0 +1,9 @@
+id: centerpartiet
+name: Centerpartiet
+origin: https://www.centerpartiet.se
+startUrls:
+  - https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o
+allowPathPrefixes:
+  - /centerpartiets-politik/
+maxPages: 220
+maxDepth: 2

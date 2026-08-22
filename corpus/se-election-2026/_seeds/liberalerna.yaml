@@ -1,0 +1,8 @@
+id: liberalerna
+name: Liberalerna
+origin: https://www.liberalerna.se
+startUrls:
+  - https://www.liberalerna.se/politik
+allowPathPrefixes:
+  - /politik/
+maxPages: 140

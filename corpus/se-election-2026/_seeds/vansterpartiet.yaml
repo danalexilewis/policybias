@@ -1,0 +1,8 @@
+id: vansterpartiet
+name: Vänsterpartiet
+origin: https://www.vansterpartiet.se
+startUrls:
+  - https://www.vansterpartiet.se/var-politik/politik-a-o/
+allowPathPrefixes:
+  - /var-politik/
+maxPages: 120

@@ -1,0 +1,8 @@
+id: moderaterna
+name: Moderaterna
+origin: https://moderaterna.se
+startUrls:
+  - https://moderaterna.se/var-politik/
+allowPathPrefixes:
+  - /var-politik/
+maxPages: 100

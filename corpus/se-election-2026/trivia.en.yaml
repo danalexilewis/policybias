@@ -1,0 +1,361 @@
+trivia:
+  - id: health-care-1946-0
+    cluster: health-care
+    category: Healthcare and waiting lists
+    headline: Folktandvården 1938, sjukförsäkring 1955
+    body: Landstingen drev vården. 2026 står förstatligande mot regionmodell.
+  - id: health-care-1995-1
+    cluster: health-care
+    category: Healthcare and waiting lists
+    headline: Husläkarreformen 1993–94
+    body: Valfrihet i primärvården blev en strid om köer.
+  - id: health-care-2009-2
+    cluster: health-care
+    category: Healthcare and waiting lists
+    headline: Vårdval i primärvården
+    body: Kömiljarden formade hur regionerna mätte tillgänglighet.
+  - id: health-care-2015-3
+    cluster: health-care
+    category: Healthcare and waiting lists
+    headline: Kömiljarden avskaffades och återkom
+    body: Väntetider är väljarnas högst rankade fråga 2026.
+  - id: health-care-2020-4
+    cluster: health-care
+    category: Healthcare and waiting lists
+    headline: COVID visade regionernas skillnader
+    body: Nationell styrning av vård blev ett Tidö-tema.
+  - id: health-care-2022-5
+    cluster: health-care
+    category: Healthcare and waiting lists
+    headline: Rekord i privata sjukvårdsförsäkringar
+    body: Försäkringar är en valfråga.
+  - id: health-care-2023-6
+    cluster: health-care
+    category: Healthcare and waiting lists
+    headline: Läkemedelsbrist och beredskap
+    body: Apotek kopplas till krisberedskap.
+  - id: health-care-2026-7
+    cluster: health-care
+    category: Healthcare and waiting lists
+    headline: KD vill förstatliga vården
+    body: V stödjer principen men varnar för privatisering.
+  - id: schools-education-1842-0
+    cluster: schools-education
+    category: Schools and education
+    headline: Folkskolestadgan
+    body: Allmän skola blev en statlig plikt.
+  - id: schools-education-1962-1
+    cluster: schools-education
+    category: Schools and education
+    headline: Grundskolan infördes
+    body: Enhetsskolan ersatte parallella linjer.
+  - id: schools-education-1992-2
+    cluster: schools-education
+    category: Schools and education
+    headline: Friskolereformen
+    body: Skolpeng öppnade för aktiebolag.
+  - id: schools-education-2011-3
+    cluster: schools-education
+    category: Schools and education
+    headline: Lärarlegitimation
+    body: Behörighet blev lagkrav.
+  - id: schools-education-2013-4
+    cluster: schools-education
+    category: Schools and education
+    headline: Betyg från årskurs 6
+    body: Tidigare betyg som styrmedel.
+  - id: schools-education-2018-5
+    cluster: schools-education
+    category: Schools and education
+    headline: Digitalisering i klassrummet
+    body: Skärmar blev en strid.
+  - id: schools-education-2023-6
+    cluster: schools-education
+    category: Schools and education
+    headline: Vinst i välfärden i skolan
+    body: Aktiebolagsskolor är öppna.
+  - id: schools-education-2026-7
+    cluster: schools-education
+    category: Schools and education
+    headline: Kunskap och ordning
+    body: Skolan är tvåa i Novus sakfrågeindex.
+  - id: crime-justice-1965-0
+    cluster: crime-justice
+    category: Crime, justice and public safety
+    headline: Straffrättsreformen
+    body: Påföljder skulle individualiseras.
+  - id: crime-justice-1994-1
+    cluster: crime-justice
+    category: Crime, justice and public safety
+    headline: Mängdrabatt i praxis
+    body: Flera brott ger nedsättning — 2026 vill M slopa den.
+  - id: crime-justice-2015-2
+    cluster: crime-justice
+    category: Crime, justice and public safety
+    headline: Gängskjutningar i statistiken
+    body: Särskilt i utsatta områden.
+  - id: crime-justice-2018-3
+    cluster: crime-justice
+    category: Crime, justice and public safety
+    headline: Visitationszoner
+    body: Polisiära befogenheter mot gäng.
+  - id: crime-justice-2022-4
+    cluster: crime-justice
+    category: Crime, justice and public safety
+    headline: Tidö om gängkriminalitet
+    body: Straffskärpningar blev linje.
+  - id: crime-justice-2023-5
+    cluster: crime-justice
+    category: Crime, justice and public safety
+    headline: Anonyma vittnen
+    body: Processrättsliga undantag.
+  - id: crime-justice-2025-6
+    cluster: crime-justice
+    category: Crime, justice and public safety
+    headline: Dubbla straff för gäng
+    body: Skärpningar i flera steg.
+  - id: crime-justice-2026-7
+    cluster: crime-justice
+    category: Crime, justice and public safety
+    headline: Mängdrabatten i valet
+    body: M och S bråkar om avskaffande.
+  - id: migration-integration-1975-0
+    cluster: migration-integration
+    category: Immigration and integration
+    headline: Mångkulturella riktlinjer
+    body: Riksdagen antog valfrihet och samverkan.
+  - id: migration-integration-1989-1
+    cluster: migration-integration
+    category: Immigration and integration
+    headline: Luciabeslutet
+    body: Tillfälliga tillstånd mot asyltryck.
+  - id: migration-integration-1994-2
+    cluster: migration-integration
+    category: Immigration and integration
+    headline: Bosnienflyktingar
+    body: Stort mottagande satte kommunerna.
+  - id: migration-integration-2015-3
+    cluster: migration-integration
+    category: Immigration and integration
+    headline: Rekordasyl
+    body: Tillfälliga lagen 2016 skärpte rätten att stanna.
+  - id: migration-integration-2016-4
+    cluster: migration-integration
+    category: Immigration and integration
+    headline: Begränsningslagen
+    body: Familjeåterförening stramades åt.
+  - id: migration-integration-2022-5
+    cluster: migration-integration
+    category: Immigration and integration
+    headline: Tidö volymmål
+    body: SD:s toppfråga bland egna väljare.
+  - id: migration-integration-2024-6
+    cluster: migration-integration
+    category: Immigration and integration
+    headline: Återvändande
+    body: Fler avvisningar som mått.
+  - id: migration-integration-2026-7
+    cluster: migration-integration
+    category: Immigration and integration
+    headline: Polariserad sak
+    body: Bloc-klyfta i mätningarna.
+  - id: elderly-welfare-1948-0
+    cluster: elderly-welfare
+    category: Elderly care and welfare
+    headline: Folkpensionen
+    body: Allmän pension oberoende av arbete.
+  - id: elderly-welfare-1960-1
+    cluster: elderly-welfare
+    category: Elderly care and welfare
+    headline: ATP
+    body: Inkomstrelaterad tilläggspension.
+  - id: elderly-welfare-1994-2
+    cluster: elderly-welfare
+    category: Elderly care and welfare
+    headline: Pensionsöverenskommelsen
+    body: Premiepension och inkomstpension.
+  - id: elderly-welfare-1992-3
+    cluster: elderly-welfare
+    category: Elderly care and welfare
+    headline: Ädelreformen
+    body: Kommunerna tog över äldreomsorgen.
+  - id: elderly-welfare-2009-4
+    cluster: elderly-welfare
+    category: Elderly care and welfare
+    headline: LOV i hemtjänst
+    body: Valfrihetssystem i omsorgen.
+  - id: elderly-welfare-2020-5
+    cluster: elderly-welfare
+    category: Elderly care and welfare
+    headline: COVID på äldreboenden
+    body: Medicinskt ansvar granskades.
+  - id: elderly-welfare-2023-6
+    cluster: elderly-welfare
+    category: Elderly care and welfare
+    headline: Kompetensbrist
+    body: Undersköterskor som flaskhals.
+  - id: elderly-welfare-2026-7
+    cluster: elderly-welfare
+    category: Elderly care and welfare
+    headline: Snabbaste klättraren
+    body: "Verian: 38 % i augusti."
+  - id: climate-environment-1967-0
+    cluster: climate-environment
+    category: Climate and environment
+    headline: Naturvårdsverket
+    body: Statlig miljömyndighet.
+  - id: climate-environment-1981-1
+    cluster: climate-environment
+    category: Climate and environment
+    headline: Kärnkraftsomröstningen
+    body: Avvecklingslinje vann.
+  - id: climate-environment-1991-2
+    cluster: climate-environment
+    category: Climate and environment
+    headline: Koldioxidskatt
+    body: Tidig prissättning.
+  - id: climate-environment-2003-3
+    cluster: climate-environment
+    category: Climate and environment
+    headline: Elcertifikat
+    body: Stöd till förnybart.
+  - id: climate-environment-2017-4
+    cluster: climate-environment
+    category: Climate and environment
+    headline: Klimatlagen
+    body: Nettonoll 2045.
+  - id: climate-environment-2022-5
+    cluster: climate-environment
+    category: Climate and environment
+    headline: Energikrisen
+    body: Klimat och elpriser kopplades.
+  - id: climate-environment-2024-6
+    cluster: climate-environment
+    category: Climate and environment
+    headline: Reduktionsplikt sänktes
+    body: Inblandningskrav ändrades.
+  - id: climate-environment-2026-7
+    cluster: climate-environment
+    category: Climate and environment
+    headline: Klimat sexa hos Novus
+    body: 38 %, upp från nionde plats.
+  - id: economy-tax-1971-0
+    cluster: economy-tax
+    category: Economy and tax
+    headline: Särbeskattning
+    body: Giftas skattades var för sig.
+  - id: economy-tax-1990-1
+    cluster: economy-tax
+    category: Economy and tax
+    headline: Skattereformen
+    body: Bred bas, lägre satser.
+  - id: economy-tax-1997-2
+    cluster: economy-tax
+    category: Economy and tax
+    headline: Överskottsmålet
+    body: Finanspolitiskt ramverk.
+  - id: economy-tax-2007-3
+    cluster: economy-tax
+    category: Economy and tax
+    headline: Jobbskatteavdraget
+    body: Alliansens profilreform.
+  - id: economy-tax-2013-4
+    cluster: economy-tax
+    category: Economy and tax
+    headline: Bolagsskatt sänkt
+    body: Konkurrenskraft.
+  - id: economy-tax-2022-5
+    cluster: economy-tax
+    category: Economy and tax
+    headline: Elprisstöd
+    body: Statliga stöd mot prischock.
+  - id: economy-tax-2025-6
+    cluster: economy-tax
+    category: Economy and tax
+    headline: Bankskatt mot sänkningar
+    body: Vänster-högeraxeln.
+  - id: economy-tax-2026-7
+    cluster: economy-tax
+    category: Economy and tax
+    headline: Ekonomisk konflikt
+    body: M och S vill slåss här.
+  - id: energy-power-1970-0
+    cluster: energy-power
+    category: Energy and electricity
+    headline: Kärnkraftsutbyggnad
+    body: Barsebäck, Forsmark, Oskarshamn, Ringhals.
+  - id: energy-power-1980-1
+    cluster: energy-power
+    category: Energy and electricity
+    headline: Folkomröstning
+    body: Tre linjer.
+  - id: energy-power-1999-2
+    cluster: energy-power
+    category: Energy and electricity
+    headline: Barsebäck 1 stängs
+    body: Politik och grannkrav.
+  - id: energy-power-2005-3
+    cluster: energy-power
+    category: Energy and electricity
+    headline: Barsebäck 2
+    body: Sista skånska reaktorn.
+  - id: energy-power-2015-4
+    cluster: energy-power
+    category: Energy and electricity
+    headline: Elområden
+    body: Fyra prisområden.
+  - id: energy-power-2022-5
+    cluster: energy-power
+    category: Energy and electricity
+    headline: Elprischock
+    body: Största sak 2022, nia 2026.
+  - id: energy-power-2023-6
+    cluster: energy-power
+    category: Energy and electricity
+    headline: Ny kärnkraft
+    body: Tidö-löfte om tillstånd.
+  - id: energy-power-2026-7
+    cluster: energy-power
+    category: Energy and electricity
+    headline: Energi svalnat
+    body: Fortfarande attacklinje.
+  - id: defence-security-1814-0
+    cluster: defence-security
+    category: Defence and security
+    headline: Fredsberättelsen
+    body: Lång fred som självbild.
+  - id: defence-security-1994-1
+    cluster: defence-security
+    category: Defence and security
+    headline: Partnerskap för fred
+    body: NATO utan medlemskap.
+  - id: defence-security-2009-2
+    cluster: defence-security
+    category: Defence and security
+    headline: Vilande värnplikt
+    body: Yrkesförsvar.
+  - id: defence-security-2017-3
+    cluster: defence-security
+    category: Defence and security
+    headline: Värnplikt åter
+    body: Könsneutral plikt.
+  - id: defence-security-2022-4
+    cluster: defence-security
+    category: Defence and security
+    headline: NATO-ansökan
+    body: Efter Ukraina.
+  - id: defence-security-2024-5
+    cluster: defence-security
+    category: Defence and security
+    headline: NATO-medlemskap
+    body: Sverige i alliansen.
+  - id: defence-security-2025-6
+    cluster: defence-security
+    category: Defence and security
+    headline: Totalförsvar
+    body: Beredskapslager igen.
+  - id: defence-security-2026-7
+    cluster: defence-security
+    category: Defence and security
+    headline: Försvar elfte hos Novus
+    body: Signifikant fall från vintern.

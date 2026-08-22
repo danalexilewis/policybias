@@ -1,0 +1,10 @@
+id: socialdemokraterna
+name: Socialdemokraterna
+origin: https://www.socialdemokraterna.se
+startUrls:
+  - https://www.socialdemokraterna.se/var-politik
+sitemapUrls:
+  - https://www.socialdemokraterna.se/rest-api/sitemapXml
+allowPathPrefixes:
+  - /var-politik/
+maxPages: 160

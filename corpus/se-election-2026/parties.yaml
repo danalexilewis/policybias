@@ -1,0 +1,143 @@
+# Display metadata for Swedish 2026 Riksdag parties.
+#
+# Liberalerna is included as a sitting party contesting the election, even
+# though August 2026 polling (Verian and Novus) puts it under the 4% threshold.
+# No ninth party is close enough to add.
+
+parties:
+  - id: centerpartiet
+    label: C
+    name: Centerpartiet
+    colour: "#114838"
+    logo: centerpartiet.svg
+    anonymise:
+      caseInsensitive:
+        - Centerpartiet
+        - Center Party
+      caseSensitive:
+        - "C's"
+      uniqueTitle:
+        - Centerpartiet
+        - Center Party
+      shortTitle: []
+
+  - id: kristdemokraterna
+    label: KD
+    name: Kristdemokraterna
+    colour: "#0B5EA1"
+    logo: kristdemokraterna.svg
+    anonymise:
+      caseInsensitive:
+        - Kristdemokraterna
+        - Christian Democrats
+      caseSensitive:
+        - KD
+      uniqueTitle:
+        - Kristdemokraterna
+        - Christian Democrats
+      shortTitle:
+        - KD
+
+  - id: liberalerna
+    label: L
+    name: Liberalerna
+    colour: "#006AB3"
+    logo: liberalerna.svg
+    anonymise:
+      caseInsensitive:
+        - Liberalerna
+        - The Liberals
+      caseSensitive: []
+      uniqueTitle:
+        - Liberalerna
+        - The Liberals
+      shortTitle: []
+
+  - id: miljopartiet
+    label: MP
+    name: Miljöpartiet de gröna
+    colour: "#005630"
+    logo: miljopartiet.svg
+    anonymise:
+      caseInsensitive:
+        - Miljöpartiet de gröna
+        - Miljöpartiet
+        - Green Party
+        - The Greens
+      caseSensitive:
+        - MP
+      uniqueTitle:
+        - Miljöpartiet de gröna
+        - Miljöpartiet
+        - Green Party
+        - The Greens
+      shortTitle:
+        - MP
+
+  - id: moderaterna
+    label: M
+    name: Moderaterna
+    colour: "#213A8F"
+    logo: moderaterna.png
+    anonymise:
+      caseInsensitive:
+        - Moderaterna
+        - The Moderates
+        - Moderate Party
+      caseSensitive: []
+      uniqueTitle:
+        - Moderaterna
+        - The Moderates
+        - Moderate Party
+      shortTitle: []
+
+  - id: socialdemokraterna
+    label: S
+    name: Socialdemokraterna
+    colour: "#ED1B34"
+    logo: socialdemokraterna.svg
+    anonymise:
+      caseInsensitive:
+        - Socialdemokraterna
+        - Social Democrats
+        - The Social Democrats
+      caseSensitive: []
+      uniqueTitle:
+        - Socialdemokraterna
+        - Social Democrats
+        - The Social Democrats
+      shortTitle: []
+
+  - id: sverigedemokraterna
+    label: SD
+    name: Sverigedemokraterna
+    colour: "#141B4D"
+    logo: sverigedemokraterna.png
+    anonymise:
+      caseInsensitive:
+        - Sverigedemokraterna
+        - Sweden Democrats
+      caseSensitive:
+        - SD
+      uniqueTitle:
+        - Sverigedemokraterna
+        - Sweden Democrats
+      shortTitle:
+        - SD
+
+  - id: vansterpartiet
+    label: V
+    name: Vänsterpartiet
+    colour: "#ED1C24"
+    logo: vansterpartiet.svg
+    anonymise:
+      caseInsensitive:
+        - Vänsterpartiet
+        - Left Party
+        - The Left
+      caseSensitive: []
+      uniqueTitle:
+        - Vänsterpartiet
+        - Left Party
+        - The Left
+      shortTitle: []

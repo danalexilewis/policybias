@@ -1,0 +1,8 @@
+id: kristdemokraterna
+name: Kristdemokraterna
+origin: https://kristdemokraterna.se
+startUrls:
+  - https://kristdemokraterna.se/var-politik/politik-a-till-o
+allowPathPrefixes:
+  - /var-politik/
+maxPages: 260

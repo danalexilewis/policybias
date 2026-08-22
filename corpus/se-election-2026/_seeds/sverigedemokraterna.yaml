@@ -1,0 +1,20 @@
+id: sverigedemokraterna
+name: Sverigedemokraterna
+origin: https://www.sd.se
+startUrls:
+  - https://www.sd.se/a-till-o/sjukvard/
+  - https://www.sd.se/a-till-o/pliktskola/
+  - https://www.sd.se/a-till-o/organiserad-brottslighet/
+  - https://www.sd.se/a-till-o/asylinvandring/
+  - https://www.sd.se/a-till-o/aldrevard/
+  - https://www.sd.se/a-till-o/energipolitik/
+  - https://www.sd.se/a-till-o/skattetransparens/
+  - https://www.sd.se/a-till-o/karnkraft/
+  - https://www.sd.se/a-till-o/nato/
+sitemapUrls:
+  - https://www.sd.se/a-o-matters-sitemap.xml
+allowPathPrefixes:
+  - /a-till-o/
+maxPages: 250
+crawlDelayMs: 10000
+userAgent: PolicyBiasPartyPolicyDump/1.0 (local party policy research)

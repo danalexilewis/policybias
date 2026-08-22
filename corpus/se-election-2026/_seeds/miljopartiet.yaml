@@ -1,0 +1,8 @@
+id: miljopartiet
+name: Miljöpartiet de gröna
+origin: https://www.mp.se
+startUrls:
+  - https://www.mp.se/politik/
+allowPathPrefixes:
+  - /politik/
+maxPages: 70

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Mobbning"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/mobbning"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/mobbning"
-fetchedAt: "2026-08-22T13:29:57.463Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Mobbning
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/mobbning
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/mobbning
+fetchedAt: 2026-08-22T13:29:57.463Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande mobbning.

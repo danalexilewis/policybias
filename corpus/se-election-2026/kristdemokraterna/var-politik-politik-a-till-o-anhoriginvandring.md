@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Anhöriginvandring"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/anhoriginvandring?open.12_72d9f8c817e8ce3de028d5b=true"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/anhoriginvandring"
-fetchedAt: "2026-08-22T13:34:52.149Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: kristdemokraterna
+title: Anhöriginvandring
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhoriginvandring?open.12_72d9f8c817e8ce3de028d5b=true
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhoriginvandring
+fetchedAt: 2026-08-22T13:34:52.149Z
+contentType: html
+via: party-site
 tags:
-  - "energy-power"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - immigration
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Kort info angående KDs politik rörande anhöriginvandring.

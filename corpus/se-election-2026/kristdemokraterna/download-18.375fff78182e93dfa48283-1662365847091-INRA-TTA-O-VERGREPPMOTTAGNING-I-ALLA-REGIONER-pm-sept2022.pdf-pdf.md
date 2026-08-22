@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "INRA-TTA-O-VERGREPPMOTTAGNING-I-ALLA-REGIONER-pm-sept2022-86ff6781.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.375fff78182e93dfa48283/1662365847091/INRA%CC%88TTA%20O%CC%88VERGREPPMOTTAGNING%20I%20ALLA%20REGIONER-pm-sept2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.375fff78182e93dfa48283/1662365847091/INRA%CC%88TTA%20O%CC%88VERGREPPMOTTAGNING%20I%20ALLA%20REGIONER-pm-sept2022.pdf"
-fetchedAt: "2026-08-22T13:34:08.868Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: INRA-TTA-O-VERGREPPMOTTAGNING-I-ALLA-REGIONER-pm-sept2022-86ff6781.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.375fff78182e93dfa48283/1662365847091/INRA%CC%88TTA%20O%CC%88VERGREPPMOTTAGNING%20I%20ALLA%20REGIONER-pm-sept2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.375fff78182e93dfa48283/1662365847091/INRA%CC%88TTA%20O%CC%88VERGREPPMOTTAGNING%20I%20ALLA%20REGIONER-pm-sept2022.pdf
+fetchedAt: 2026-08-22T13:34:08.868Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # INRA-TTA-O-VERGREPPMOTTAGNING-I-ALLA-REGIONER-pm-sept2022-86ff6781.pdf

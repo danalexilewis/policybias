@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Bist-ndsrapport_2022-0d749717.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b4c9/1656920559465/Bist%C3%A5ndsrapport_2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b4c9/1656920559465/Bist%C3%A5ndsrapport_2022.pdf"
-fetchedAt: "2026-08-22T13:34:19.599Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Bist-ndsrapport_2022-0d749717.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b4c9/1656920559465/Bist%C3%A5ndsrapport_2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b4c9/1656920559465/Bist%C3%A5ndsrapport_2022.pdf
+fetchedAt: 2026-08-22T13:34:19.599Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - education
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Bist-ndsrapport_2022-0d749717.pdf

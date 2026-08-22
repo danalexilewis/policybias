@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Hyrköp"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hyrkop"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hyrkop"
-fetchedAt: "2026-08-22T13:28:53.107Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Hyrköp
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hyrkop
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hyrkop
+fetchedAt: 2026-08-22T13:28:53.107Z
+contentType: html
+via: party-site
+tags:
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande hyrköp

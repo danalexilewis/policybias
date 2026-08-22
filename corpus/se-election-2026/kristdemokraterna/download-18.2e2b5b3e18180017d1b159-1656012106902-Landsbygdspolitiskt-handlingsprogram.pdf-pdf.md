@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Landsbygdspolitiskt-handlingsprogram-37505452.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b159/1656012106902/Landsbygdspolitiskt-handlingsprogram.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b159/1656012106902/Landsbygdspolitiskt-handlingsprogram.pdf"
-fetchedAt: "2026-08-22T13:34:20.285Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Landsbygdspolitiskt-handlingsprogram-37505452.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b159/1656012106902/Landsbygdspolitiskt-handlingsprogram.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b159/1656012106902/Landsbygdspolitiskt-handlingsprogram.pdf
+fetchedAt: 2026-08-22T13:34:20.285Z
+contentType: pdf
+via: party-site
+tags:
+  - environment
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Landsbygdspolitiskt-handlingsprogram-37505452.pdf

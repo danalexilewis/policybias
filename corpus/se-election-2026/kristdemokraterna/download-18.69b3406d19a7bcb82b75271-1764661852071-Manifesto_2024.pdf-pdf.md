@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Manifesto_2024-ac8e5a91.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.69b3406d19a7bcb82b75271/1764661852071/Manifesto_2024.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.69b3406d19a7bcb82b75271/1764661852071/Manifesto_2024.pdf"
-fetchedAt: "2026-08-22T13:35:04.009Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Manifesto_2024-ac8e5a91.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.69b3406d19a7bcb82b75271/1764661852071/Manifesto_2024.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.69b3406d19a7bcb82b75271/1764661852071/Manifesto_2024.pdf
+fetchedAt: 2026-08-22T13:35:04.009Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Manifesto_2024-ac8e5a91.pdf

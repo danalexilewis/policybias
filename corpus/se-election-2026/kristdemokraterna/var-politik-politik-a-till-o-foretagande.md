@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Företagande"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/foretagande"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/foretagande"
-fetchedAt: "2026-08-22T13:28:20.863Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Företagande
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/foretagande
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/foretagande
+fetchedAt: 2026-08-22T13:28:20.863Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande företagande

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "PressPM-en-ba-ttre-munha-lsa-fo-r-a-ldre2022-c9974082.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bc3/1655822975440/PressPM%20en%20ba%CC%88ttre%20munha%CC%88lsa%20fo%CC%88r%20a%CC%88ldre2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bc3/1655822975440/PressPM%20en%20ba%CC%88ttre%20munha%CC%88lsa%20fo%CC%88r%20a%CC%88ldre2022.pdf"
-fetchedAt: "2026-08-22T13:34:18.594Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: PressPM-en-ba-ttre-munha-lsa-fo-r-a-ldre2022-c9974082.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bc3/1655822975440/PressPM%20en%20ba%CC%88ttre%20munha%CC%88lsa%20fo%CC%88r%20a%CC%88ldre2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bc3/1655822975440/PressPM%20en%20ba%CC%88ttre%20munha%CC%88lsa%20fo%CC%88r%20a%CC%88ldre2022.pdf
+fetchedAt: 2026-08-22T13:34:18.594Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # PressPM-en-ba-ttre-munha-lsa-fo-r-a-ldre2022-c9974082.pdf

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Barnfattigdom"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/barnfattigdom"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/barnfattigdom"
-fetchedAt: "2026-08-22T13:26:57.068Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Barnfattigdom
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/barnfattigdom
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/barnfattigdom
+fetchedAt: 2026-08-22T13:26:57.068Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande barnfattigdom

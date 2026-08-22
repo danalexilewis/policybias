@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Demokrati"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/demokrati"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/demokrati"
-fetchedAt: "2026-08-22T13:27:27.672Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Demokrati
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/demokrati
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/demokrati
+fetchedAt: 2026-08-22T13:27:27.672Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande demokrati.

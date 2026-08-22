@@ -4,20 +4,20 @@ id: kristdemokraterna-var-politik-politik-a-till-o-andts
 title: OTHERS
 status: draft
 updated: 2026-08-22
-summary: Brief information regarding KD's policy regarding alcohol, drugs,
-  doping, tobacco and gambling for money.
+summary: Brief information regarding KD's policy regarding alcohol, drugs, doping,
+  tobacco and gambling for money.
 jurisdiction: SE
 sources:
   - title: ANDTS
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/andts
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/andts?open.12_72d9f8c817e8ce3de028d5b=true
 tags:
-  - economy-tax
+  - crime-and-justice
 party: kristdemokraterna
 clusters:
-  - economy-tax
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-andts.md
-sourceDigest: "sha256-d69b28e6f3bbf452"
+sourceDigest: sha256-d69b28e6f3bbf452
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -25,7 +25,7 @@ lang: en
 translationOf: kristdemokraterna-andts
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-4df128d01b52de72"
+sourceSpecDigest: sha256-4df128d01b52de72
 ---
 
 # What the page states

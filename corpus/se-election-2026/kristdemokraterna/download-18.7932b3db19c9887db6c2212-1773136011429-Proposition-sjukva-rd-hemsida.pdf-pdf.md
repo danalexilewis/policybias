@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Proposition-sjukva-rd-hemsida-9be17f7b.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.7932b3db19c9887db6c2212/1773136011429/Proposition%20sjukva%CC%8Ard%20hemsida.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.7932b3db19c9887db6c2212/1773136011429/Proposition%20sjukva%CC%8Ard%20hemsida.pdf"
-fetchedAt: "2026-08-22T13:33:54.486Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Proposition-sjukva-rd-hemsida-9be17f7b.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.7932b3db19c9887db6c2212/1773136011429/Proposition%20sjukva%CC%8Ard%20hemsida.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.7932b3db19c9887db6c2212/1773136011429/Proposition%20sjukva%CC%8Ard%20hemsida.pdf
+fetchedAt: 2026-08-22T13:33:54.486Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Proposition-sjukva-rd-hemsida-9be17f7b.pdf

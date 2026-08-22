@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Ukraina"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/ukraina"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/ukraina"
-fetchedAt: "2026-08-22T13:31:48.131Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Ukraina
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/ukraina
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/ukraina
+fetchedAt: 2026-08-22T13:31:48.131Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande Ukraina

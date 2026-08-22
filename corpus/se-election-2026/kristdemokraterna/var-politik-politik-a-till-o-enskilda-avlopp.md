@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Enskilda avlopp"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/enskilda-avlopp"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/enskilda-avlopp"
-fetchedAt: "2026-08-22T13:27:51.005Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Enskilda avlopp
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/enskilda-avlopp
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/enskilda-avlopp
+fetchedAt: 2026-08-22T13:27:51.005Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande enskilda avlopp

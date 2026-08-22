@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Antisemitism"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/antisemitism?open.12_72d9f8c817e8ce3de028d5b=true"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/antisemitism"
-fetchedAt: "2026-08-22T13:34:58.204Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Antisemitism
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/antisemitism?open.12_72d9f8c817e8ce3de028d5b=true
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/antisemitism
+fetchedAt: 2026-08-22T13:34:58.204Z
+contentType: html
+via: party-site
+tags:
+  - culture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info angående KDs politik rörande antisemitism.

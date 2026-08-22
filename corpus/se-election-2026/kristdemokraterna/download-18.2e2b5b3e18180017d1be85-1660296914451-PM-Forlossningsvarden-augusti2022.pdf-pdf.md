@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "PM-Forlossningsvarden-augusti2022-35b3da7e.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1be85/1660296914451/PM-Forlossningsvarden-augusti2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1be85/1660296914451/PM-Forlossningsvarden-augusti2022.pdf"
-fetchedAt: "2026-08-22T13:34:14.767Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: PM-Forlossningsvarden-augusti2022-35b3da7e.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1be85/1660296914451/PM-Forlossningsvarden-augusti2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1be85/1660296914451/PM-Forlossningsvarden-augusti2022.pdf
+fetchedAt: 2026-08-22T13:34:14.767Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # PM-Forlossningsvarden-augusti2022-35b3da7e.pdf

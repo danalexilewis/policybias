@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Betyg"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/betyg"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/betyg"
-fetchedAt: "2026-08-22T13:27:07.548Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Betyg
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/betyg
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/betyg
+fetchedAt: 2026-08-22T13:27:07.548Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande betyg.

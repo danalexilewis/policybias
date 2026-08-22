@@ -1,21 +1,22 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-anhoriginvandring-derived
-title: "Anhöriginvandring (reading)"
+title: Anhöriginvandring (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Anhöriginvandring"
+summary: Our reading of Anhöriginvandring
 jurisdiction: SE
 sources:
-  - title: "Anhöriginvandring"
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhoriginvandring
-tags: [energy-power]
+  - title: Anhöriginvandring
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhoriginvandring?open.12_72d9f8c817e8ce3de028d5b=true
+tags:
+  - immigration
 party: kristdemokraterna
 clusters:
-  - energy-power
+  - migration-integration
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-anhoriginvandring.md
-sourceDigest: "sha256-0160292e80002230"
+sourceDigest: sha256-0160292e80002230
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-anhoriginvandring
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

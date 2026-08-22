@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Stoppa-v-lf-rdsbrottsligheten-09d47956.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122c/1653653229034/Stoppa%20v%C3%A4lf%C3%A4rdsbrottsligheten.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122c/1653653229034/Stoppa%20v%C3%A4lf%C3%A4rdsbrottsligheten.pdf"
-fetchedAt: "2026-08-22T13:34:28.281Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Stoppa-v-lf-rdsbrottsligheten-09d47956.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122c/1653653229034/Stoppa%20v%C3%A4lf%C3%A4rdsbrottsligheten.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122c/1653653229034/Stoppa%20v%C3%A4lf%C3%A4rdsbrottsligheten.pdf
+fetchedAt: 2026-08-22T13:34:28.281Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+  - social-welfare
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Stoppa-v-lf-rdsbrottsligheten-09d47956.pdf

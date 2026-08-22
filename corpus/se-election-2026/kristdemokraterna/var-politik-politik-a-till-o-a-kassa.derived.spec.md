@@ -1,21 +1,22 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-a-kassa-derived
-title: "A-kassa (reading)"
+title: A-kassa (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of A-kassa"
+summary: Our reading of A-kassa
 jurisdiction: SE
 sources:
-  - title: "A-kassa"
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/a-kassa
-tags: [elderly-welfare]
+  - title: A-kassa
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/a-kassa?open.12_72d9f8c817e8ce3de028d5b=true
+tags:
+  - economy
 party: kristdemokraterna
 clusters:
-  - elderly-welfare
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-a-kassa.md
-sourceDigest: "sha256-7ec3e86924d393d2"
+sourceDigest: sha256-7ec3e86924d393d2
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-a-kassa
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Vindkraft"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vindkraft"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vindkraft"
-fetchedAt: "2026-08-22T13:32:05.164Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Vindkraft
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vindkraft
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vindkraft
+fetchedAt: 2026-08-22T13:32:05.164Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande vindkraft

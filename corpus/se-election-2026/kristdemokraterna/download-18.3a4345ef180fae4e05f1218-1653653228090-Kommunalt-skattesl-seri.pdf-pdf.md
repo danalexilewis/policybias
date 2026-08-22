@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Kommunalt-skattesl-seri-20d9e755.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1218/1653653228090/Kommunalt%20skattesl%C3%B6seri.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1218/1653653228090/Kommunalt%20skattesl%C3%B6seri.pdf"
-fetchedAt: "2026-08-22T13:34:40.040Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Kommunalt-skattesl-seri-20d9e755.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1218/1653653228090/Kommunalt%20skattesl%C3%B6seri.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1218/1653653228090/Kommunalt%20skattesl%C3%B6seri.pdf
+fetchedAt: 2026-08-22T13:34:40.040Z
+contentType: pdf
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Kommunalt-skattesl-seri-20d9e755.pdf

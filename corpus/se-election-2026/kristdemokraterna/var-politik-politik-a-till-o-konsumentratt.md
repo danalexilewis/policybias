@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Konsumenträtt"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/konsumentratt"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/konsumentratt"
-fetchedAt: "2026-08-22T13:29:32.945Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Konsumenträtt
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/konsumentratt
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/konsumentratt
+fetchedAt: 2026-08-22T13:29:32.945Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande konsumenträtt

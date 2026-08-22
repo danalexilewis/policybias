@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Familjepolitiskt_program-d6b3d633.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.f8efd6818d54c0e06d1ca6/1706694351520/Familjepolitiskt_program.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.f8efd6818d54c0e06d1ca6/1706694351520/Familjepolitiskt_program.pdf"
-fetchedAt: "2026-08-22T13:34:04.430Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Familjepolitiskt_program-d6b3d633.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.f8efd6818d54c0e06d1ca6/1706694351520/Familjepolitiskt_program.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.f8efd6818d54c0e06d1ca6/1706694351520/Familjepolitiskt_program.pdf
+fetchedAt: 2026-08-22T13:34:04.430Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Familjepolitiskt_program-d6b3d633.pdf

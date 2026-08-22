@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Lättläst"
-sourceUrl: "https://kristdemokraterna.se/var-politik/lattlast"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/lattlast"
-fetchedAt: "2026-08-22T13:32:26.395Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Lättläst
+sourceUrl: https://kristdemokraterna.se/var-politik/lattlast
+canonicalUrl: https://kristdemokraterna.se/var-politik/lattlast
+fetchedAt: 2026-08-22T13:32:26.395Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - healthcare
+  - social-welfare
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Lättläst om Kristdemokraternas politik  

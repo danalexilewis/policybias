@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Psykisk-ha-lsa-program-9571fc8b.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.60f956ae19e48ddef3a2d85/1779783047094/Psykisk%20ha%CC%88lsa%20program.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.60f956ae19e48ddef3a2d85/1779783047094/Psykisk%20ha%CC%88lsa%20program.pdf"
-fetchedAt: "2026-08-22T13:33:48.632Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Psykisk-ha-lsa-program-9571fc8b.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.60f956ae19e48ddef3a2d85/1779783047094/Psykisk%20ha%CC%88lsa%20program.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.60f956ae19e48ddef3a2d85/1779783047094/Psykisk%20ha%CC%88lsa%20program.pdf
+fetchedAt: 2026-08-22T13:33:48.632Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Psykisk-ha-lsa-program-9571fc8b.pdf

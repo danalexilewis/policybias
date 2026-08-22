@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Medicinsketisktprogram-2009-f2b432e4.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f120b/1653653169657/Medicinsketisktprogram%202009.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f120b/1653653169657/Medicinsketisktprogram%202009.pdf"
-fetchedAt: "2026-08-22T13:34:41.176Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Medicinsketisktprogram-2009-f2b432e4.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f120b/1653653169657/Medicinsketisktprogram%202009.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f120b/1653653169657/Medicinsketisktprogram%202009.pdf
+fetchedAt: 2026-08-22T13:34:41.176Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Medicinsketisktprogram-2009-f2b432e4.pdf

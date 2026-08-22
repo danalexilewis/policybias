@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Kultur"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/kultur"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/kultur"
-fetchedAt: "2026-08-22T13:29:37.268Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Kultur
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/kultur
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/kultur
+fetchedAt: 2026-08-22T13:29:37.268Z
+contentType: html
+via: party-site
+tags:
+  - culture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande kultur.

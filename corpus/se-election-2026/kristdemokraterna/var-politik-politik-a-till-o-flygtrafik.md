@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Flygtrafik"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/flygtrafik"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/flygtrafik"
-fetchedAt: "2026-08-22T13:28:03.009Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Flygtrafik
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/flygtrafik
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/flygtrafik
+fetchedAt: 2026-08-22T13:28:03.009Z
+contentType: html
+via: party-site
+tags:
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Kort info om KDs politik rörande flygtrafik

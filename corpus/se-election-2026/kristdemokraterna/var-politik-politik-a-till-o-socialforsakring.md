@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Socialförsäkring"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/socialforsakring"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/socialforsakring"
-fetchedAt: "2026-08-22T13:31:22.117Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Socialförsäkring
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/socialforsakring
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/socialforsakring
+fetchedAt: 2026-08-22T13:31:22.117Z
+contentType: html
+via: party-site
+tags:
+  - pensions
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande socialförsäkring

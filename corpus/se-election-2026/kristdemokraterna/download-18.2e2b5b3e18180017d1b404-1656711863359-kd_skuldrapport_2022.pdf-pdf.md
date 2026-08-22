@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "kd_skuldrapport_2022-b9bf0b91.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b404/1656711863359/kd_skuldrapport_2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b404/1656711863359/kd_skuldrapport_2022.pdf"
-fetchedAt: "2026-08-22T13:34:20.941Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: kd_skuldrapport_2022-b9bf0b91.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b404/1656711863359/kd_skuldrapport_2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b404/1656711863359/kd_skuldrapport_2022.pdf
+fetchedAt: 2026-08-22T13:34:20.941Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # kd_skuldrapport_2022-b9bf0b91.pdf

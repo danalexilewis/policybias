@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Sex- och samlevnadsundervisning"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/sex--och-samlevnadsundervisning"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/sex--och-samlevnadsundervisning"
-fetchedAt: "2026-08-22T13:30:54.437Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Sex- och samlevnadsundervisning
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/sex--och-samlevnadsundervisning
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/sex--och-samlevnadsundervisning
+fetchedAt: 2026-08-22T13:30:54.437Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande sex- och samlevnadsundervisning.

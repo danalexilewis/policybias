@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "klimatrapport-2022-5266c71c.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb14bd/1661506128826/klimatrapport-2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb14bd/1661506128826/klimatrapport-2022.pdf"
-fetchedAt: "2026-08-22T13:34:23.724Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: klimatrapport-2022-5266c71c.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb14bd/1661506128826/klimatrapport-2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb14bd/1661506128826/klimatrapport-2022.pdf
+fetchedAt: 2026-08-22T13:34:23.724Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # klimatrapport-2022-5266c71c.pdf

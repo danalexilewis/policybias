@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "kd_pm_forsvar_2022-83b48559.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1230/1653653229139/kd_pm_forsvar_2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1230/1653653229139/kd_pm_forsvar_2022.pdf"
-fetchedAt: "2026-08-22T13:34:22.202Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: kd_pm_forsvar_2022-83b48559.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1230/1653653229139/kd_pm_forsvar_2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1230/1653653229139/kd_pm_forsvar_2022.pdf
+fetchedAt: 2026-08-22T13:34:22.202Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # kd_pm_forsvar_2022-83b48559.pdf

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Matprogramet-KLAR-57617dcb.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.40bf80a719ed466e65c9635/1782908605852/Matprogramet%20KLAR.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.40bf80a719ed466e65c9635/1782908605852/Matprogramet%20KLAR.pdf"
-fetchedAt: "2026-08-22T13:33:46.388Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Matprogramet-KLAR-57617dcb.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.40bf80a719ed466e65c9635/1782908605852/Matprogramet%20KLAR.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.40bf80a719ed466e65c9635/1782908605852/Matprogramet%20KLAR.pdf
+fetchedAt: 2026-08-22T13:33:46.388Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - elderly-care
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Matprogramet-KLAR-57617dcb.pdf

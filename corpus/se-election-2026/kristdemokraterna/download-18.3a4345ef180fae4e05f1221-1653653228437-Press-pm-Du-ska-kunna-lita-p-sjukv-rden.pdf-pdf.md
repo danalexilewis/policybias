@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Press-pm-Du-ska-kunna-lita-p-sjukv-rden-5f432c15.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1221/1653653228437/Press-pm%20Du%20ska%20kunna%20lita%20p%C3%A5%20sjukv%C3%A5rden.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1221/1653653228437/Press-pm%20Du%20ska%20kunna%20lita%20p%C3%A5%20sjukv%C3%A5rden.pdf"
-fetchedAt: "2026-08-22T13:34:38.086Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Press-pm-Du-ska-kunna-lita-p-sjukv-rden-5f432c15.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1221/1653653228437/Press-pm%20Du%20ska%20kunna%20lita%20p%C3%A5%20sjukv%C3%A5rden.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1221/1653653228437/Press-pm%20Du%20ska%20kunna%20lita%20p%C3%A5%20sjukv%C3%A5rden.pdf
+fetchedAt: 2026-08-22T13:34:38.086Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Press-pm-Du-ska-kunna-lita-p-sjukv-rden-5f432c15.pdf

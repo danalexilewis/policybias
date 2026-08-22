@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Pension"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/pension"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/pension"
-fetchedAt: "2026-08-22T13:30:13.118Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Pension
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/pension
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/pension
+fetchedAt: 2026-08-22T13:30:13.118Z
+contentType: html
+via: party-site
+tags:
+  - pensions
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande pension.

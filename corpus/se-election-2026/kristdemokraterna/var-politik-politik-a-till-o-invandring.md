@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Invandring"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/invandring"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/invandring"
-fetchedAt: "2026-08-22T13:29:05.080Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Invandring
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/invandring
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/invandring
+fetchedAt: 2026-08-22T13:29:05.080Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande invandring

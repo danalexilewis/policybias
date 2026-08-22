@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "En budget för familjen"
-sourceUrl: "https://kristdemokraterna.se/var-politik/en-budget-for-familjen"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/en-budget-for-familjen"
-fetchedAt: "2026-08-22T13:33:39.789Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: En budget för familjen
+sourceUrl: https://kristdemokraterna.se/var-politik/en-budget-for-familjen
+canonicalUrl: https://kristdemokraterna.se/var-politik/en-budget-for-familjen
+fetchedAt: 2026-08-22T13:33:39.789Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Här hittar du de samlade budgetutspelen som presenteras inför budgetpropositionen 2026. Syftet är att ge en överblick över det material och budskap som Kristedemokraterna och regeringen går fram med för 2026 års budget.

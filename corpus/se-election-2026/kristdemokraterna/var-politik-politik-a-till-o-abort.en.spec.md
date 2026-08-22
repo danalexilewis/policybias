@@ -8,15 +8,15 @@ summary: Brief information about KD's policy regarding abortion.
 jurisdiction: SE
 sources:
   - title: Abort
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/abort
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/abort?open.12_72d9f8c817e8ce3de028d5b=true
 tags:
-  - schools-education
+  - healthcare
 party: kristdemokraterna
 clusters:
-  - schools-education
+  - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-abort.md
-sourceDigest: "sha256-aefdf06e0e05508b"
+sourceDigest: sha256-aefdf06e0e05508b
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +24,7 @@ lang: en
 translationOf: kristdemokraterna-abort
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-87d9ca985c0ad7e1"
+sourceSpecDigest: sha256-87d9ca985c0ad7e1
 ---
 
 # What the page states

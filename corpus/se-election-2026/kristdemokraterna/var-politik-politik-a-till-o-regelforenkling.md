@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Regelförenkling"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/regelforenkling"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/regelforenkling"
-fetchedAt: "2026-08-22T13:30:33.666Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Regelförenkling
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/regelforenkling
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/regelforenkling
+fetchedAt: 2026-08-22T13:30:33.666Z
+contentType: html
+via: party-site
+tags:
+  - cost-of-living
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande regelförenkling

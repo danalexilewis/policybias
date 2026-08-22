@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Ny era för samhällsbyggande"
-sourceUrl: "https://kristdemokraterna.se/var-politik/ny-era-for-samhallsbyggande"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/ny-era-for-samhallsbyggande"
-fetchedAt: "2026-08-22T13:33:33.676Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Ny era för samhällsbyggande
+sourceUrl: https://kristdemokraterna.se/var-politik/ny-era-for-samhallsbyggande
+canonicalUrl: https://kristdemokraterna.se/var-politik/ny-era-for-samhallsbyggande
+fetchedAt: 2026-08-22T13:33:33.676Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Som Sveriges samhällsbyggarparti har vi tillsatt en kommitté som arbetar med att ta fram förslag för att möta framtidens stora utmaningar och driva på för en tillväxtagenda. Samhällsbyggarkommittén som ska presentera sina förslag under våren 2025, arbetar utifrån fokusområdena _bostäder, infrastruktur, kompetensförsörjning, välfärd_ och _energi_.

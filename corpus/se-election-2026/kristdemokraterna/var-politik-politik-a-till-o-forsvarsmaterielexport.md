@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Försvarsmaterielexport"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/forsvarsmaterielexport"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/forsvarsmaterielexport"
-fetchedAt: "2026-08-22T13:28:29.279Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Försvarsmaterielexport
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/forsvarsmaterielexport
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/forsvarsmaterielexport
+fetchedAt: 2026-08-22T13:28:29.279Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande försvarsmaterielexport

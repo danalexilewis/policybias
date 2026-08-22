@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Rapporter och dokument"
-sourceUrl: "https://kristdemokraterna.se/var-politik/rapporter-och-dokument"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/rapporter-och-dokument"
-fetchedAt: "2026-08-22T13:33:42.987Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Rapporter och dokument
+sourceUrl: https://kristdemokraterna.se/var-politik/rapporter-och-dokument
+canonicalUrl: https://kristdemokraterna.se/var-politik/rapporter-och-dokument
+fetchedAt: 2026-08-22T13:33:42.987Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Här hittar du PM och rapporter om Kristdemokraternas politik.

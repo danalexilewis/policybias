@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Bryt-den-ofrivilliga-ensamheten-3bdffd43.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1223/1653653228651/Bryt%20den%20ofrivilliga%20ensamheten.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1223/1653653228651/Bryt%20den%20ofrivilliga%20ensamheten.pdf"
-fetchedAt: "2026-08-22T13:34:37.320Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Bryt-den-ofrivilliga-ensamheten-3bdffd43.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1223/1653653228651/Bryt%20den%20ofrivilliga%20ensamheten.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1223/1653653228651/Bryt%20den%20ofrivilliga%20ensamheten.pdf
+fetchedAt: 2026-08-22T13:34:37.320Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - elderly-care
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Bryt-den-ofrivilliga-ensamheten-3bdffd43.pdf

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Kvinnojourer"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/kvinnojourer"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/kvinnojourer"
-fetchedAt: "2026-08-22T13:29:39.501Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Kvinnojourer
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/kvinnojourer
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/kvinnojourer
+fetchedAt: 2026-08-22T13:29:39.501Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande kvinnojourer.

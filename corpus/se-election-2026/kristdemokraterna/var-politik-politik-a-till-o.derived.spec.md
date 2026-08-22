@@ -1,21 +1,22 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-derived
-title: "Politik A till Ö (reading)"
+title: Politik A till Ö (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Politik A till Ö"
+summary: Our reading of Politik A till Ö
 jurisdiction: SE
 sources:
-  - title: "Politik A till Ö"
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o
-tags: [health-care]
+  - title: Politik A till Ö
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o?open.12_72d9f8c817e8ce3de028d5b=true
+tags:
+  - other
 party: kristdemokraterna
 clusters:
-  - health-care
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o.md
-sourceDigest: "sha256-f7189bbf3814295e"
+sourceDigest: sha256-f7189bbf3814295e
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

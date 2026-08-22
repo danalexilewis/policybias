@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Dödsstraff"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/dodsstraff"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/dodsstraff"
-fetchedAt: "2026-08-22T13:27:38.026Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Dödsstraff
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/dodsstraff
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/dodsstraff
+fetchedAt: 2026-08-22T13:27:38.026Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande dödsstraff.

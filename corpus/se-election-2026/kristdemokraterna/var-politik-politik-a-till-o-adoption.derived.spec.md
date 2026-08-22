@@ -1,21 +1,22 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-adoption-derived
-title: "Adoption (reading)"
+title: Adoption (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Adoption"
+summary: Our reading of Adoption
 jurisdiction: SE
 sources:
-  - title: "Adoption"
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/adoption
-tags: [crime-justice]
+  - title: Adoption
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/adoption?open.12_72d9f8c817e8ce3de028d5b=true
+tags:
+  - other
 party: kristdemokraterna
 clusters:
-  - crime-justice
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-adoption.md
-sourceDigest: "sha256-1f1074088fec9f10"
+sourceDigest: sha256-1f1074088fec9f10
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-adoption
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

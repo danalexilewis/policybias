@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Adoption"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/adoption?open.12_72d9f8c817e8ce3de028d5b=true"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/adoption"
-fetchedAt: "2026-08-22T13:34:43.691Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: kristdemokraterna
+title: Adoption
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/adoption?open.12_72d9f8c817e8ce3de028d5b=true
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/adoption
+fetchedAt: 2026-08-22T13:34:43.691Z
+contentType: html
+via: party-site
 tags:
-  - "crime-justice"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - other
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Kort info om KDs politik rörande adoption

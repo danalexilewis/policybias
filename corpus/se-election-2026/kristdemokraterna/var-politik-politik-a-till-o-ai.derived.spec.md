@@ -1,21 +1,22 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-ai-derived
-title: "AI (reading)"
+title: AI (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of AI"
+summary: Our reading of AI
 jurisdiction: SE
 sources:
-  - title: "AI"
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/ai
-tags: [migration-integration]
+  - title: AI
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/ai?open.12_72d9f8c817e8ce3de028d5b=true
+tags:
+  - economy
 party: kristdemokraterna
 clusters:
-  - migration-integration
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-ai.md
-sourceDigest: "sha256-aa90ed4dc090e464"
+sourceDigest: sha256-aa90ed4dc090e464
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-ai
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

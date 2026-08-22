@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Principprogram-hemsida-bbf44431.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.7932b3db19c9887db6c221c/1773136182639/Principprogram%20hemsida.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.7932b3db19c9887db6c221c/1773136182639/Principprogram%20hemsida.pdf"
-fetchedAt: "2026-08-22T13:32:31.832Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Principprogram-hemsida-bbf44431.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.7932b3db19c9887db6c221c/1773136182639/Principprogram%20hemsida.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.7932b3db19c9887db6c221c/1773136182639/Principprogram%20hemsida.pdf
+fetchedAt: 2026-08-22T13:32:31.832Z
+contentType: pdf
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Principprogram-hemsida-bbf44431.pdf

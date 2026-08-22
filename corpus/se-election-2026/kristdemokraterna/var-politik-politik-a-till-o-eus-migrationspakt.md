@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "EU:s migrationspakt"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/eus-migrationspakt"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/eus-migrationspakt"
-fetchedAt: "2026-08-22T13:27:55.414Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: EU:s migrationspakt
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/eus-migrationspakt
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/eus-migrationspakt
+fetchedAt: 2026-08-22T13:27:55.414Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande EU:s migrationspakt

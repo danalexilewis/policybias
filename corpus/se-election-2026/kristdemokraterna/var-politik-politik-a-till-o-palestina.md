@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Palestina"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/palestina"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/palestina"
-fetchedAt: "2026-08-22T13:30:09.962Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Palestina
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/palestina
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/palestina
+fetchedAt: 2026-08-22T13:30:09.962Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande Palestina

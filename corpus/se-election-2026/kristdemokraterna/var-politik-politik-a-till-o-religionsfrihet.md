@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Religionsfrihet"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/religionsfrihet"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/religionsfrihet"
-fetchedAt: "2026-08-22T13:30:36.889Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Religionsfrihet
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/religionsfrihet
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/religionsfrihet
+fetchedAt: 2026-08-22T13:30:36.889Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande religionsfrihet.

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Gängkriminalitet"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/gangkriminalitet"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/gangkriminalitet"
-fetchedAt: "2026-08-22T13:28:40.094Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Gängkriminalitet
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/gangkriminalitet
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/gangkriminalitet
+fetchedAt: 2026-08-22T13:28:40.094Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande gängkriminalitet.

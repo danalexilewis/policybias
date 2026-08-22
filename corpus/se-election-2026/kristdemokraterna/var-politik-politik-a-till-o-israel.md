@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Israel"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/israel"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/israel"
-fetchedAt: "2026-08-22T13:29:09.261Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Israel
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/israel
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/israel
+fetchedAt: 2026-08-22T13:29:09.261Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande Israel

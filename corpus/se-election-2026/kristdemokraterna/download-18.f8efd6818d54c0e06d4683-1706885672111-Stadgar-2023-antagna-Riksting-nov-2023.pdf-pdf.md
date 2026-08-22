@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Stadgar-2023---antagna-Riksting-nov-2023-11684774.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.f8efd6818d54c0e06d4683/1706885672111/Stadgar%202023%20-%20antagna%20Riksting%20nov%202023.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.f8efd6818d54c0e06d4683/1706885672111/Stadgar%202023%20-%20antagna%20Riksting%20nov%202023.pdf"
-fetchedAt: "2026-08-22T13:34:05.209Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Stadgar-2023---antagna-Riksting-nov-2023-11684774.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.f8efd6818d54c0e06d4683/1706885672111/Stadgar%202023%20-%20antagna%20Riksting%20nov%202023.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.f8efd6818d54c0e06d4683/1706885672111/Stadgar%202023%20-%20antagna%20Riksting%20nov%202023.pdf
+fetchedAt: 2026-08-22T13:34:05.209Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Stadgar-2023---antagna-Riksting-nov-2023-11684774.pdf

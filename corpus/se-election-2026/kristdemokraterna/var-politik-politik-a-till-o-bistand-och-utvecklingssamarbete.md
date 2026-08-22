@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Bistånd och utvecklingssamarbete"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/bistand-och-utvecklingssamarbete"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/bistand-och-utvecklingssamarbete"
-fetchedAt: "2026-08-22T13:27:13.674Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Bistånd och utvecklingssamarbete
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/bistand-och-utvecklingssamarbete
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/bistand-och-utvecklingssamarbete
+fetchedAt: 2026-08-22T13:27:13.674Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande bistånd

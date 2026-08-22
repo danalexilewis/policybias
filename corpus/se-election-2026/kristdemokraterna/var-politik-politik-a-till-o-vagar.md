@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Vägar"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vagar"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vagar"
-fetchedAt: "2026-08-22T13:32:10.473Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Vägar
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vagar
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vagar
+fetchedAt: 2026-08-22T13:32:10.473Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande vägar

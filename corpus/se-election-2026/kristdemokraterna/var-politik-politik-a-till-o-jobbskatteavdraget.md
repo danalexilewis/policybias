@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Jobbskatteavdraget"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/jobbskatteavdraget"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/jobbskatteavdraget"
-fetchedAt: "2026-08-22T13:29:14.206Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Jobbskatteavdraget
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/jobbskatteavdraget
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/jobbskatteavdraget
+fetchedAt: 2026-08-22T13:29:14.206Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Kort info om KD:s politik rörande jobbskatteavdraget.

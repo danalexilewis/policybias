@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Elevhälsa"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/elevhalsa"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/elevhalsa"
-fetchedAt: "2026-08-22T13:27:43.375Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Elevhälsa
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/elevhalsa
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/elevhalsa
+fetchedAt: 2026-08-22T13:27:43.375Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande elevhälsa.

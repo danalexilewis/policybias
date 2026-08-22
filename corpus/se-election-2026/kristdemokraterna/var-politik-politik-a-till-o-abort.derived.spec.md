@@ -1,21 +1,22 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-abort-derived
-title: "Abort (reading)"
+title: Abort (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Abort"
+summary: Our reading of Abort
 jurisdiction: SE
 sources:
-  - title: "Abort"
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/abort
-tags: [schools-education]
+  - title: Abort
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/abort?open.12_72d9f8c817e8ce3de028d5b=true
+tags:
+  - healthcare
 party: kristdemokraterna
 clusters:
-  - schools-education
+  - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-abort.md
-sourceDigest: "sha256-aefdf06e0e05508b"
+sourceDigest: sha256-aefdf06e0e05508b
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-abort
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

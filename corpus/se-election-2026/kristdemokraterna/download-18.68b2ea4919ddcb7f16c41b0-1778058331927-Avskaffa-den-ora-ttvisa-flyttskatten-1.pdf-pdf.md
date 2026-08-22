@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Avskaffa-den-ora-ttvisa-flyttskatten-1-9f68d0d9.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.68b2ea4919ddcb7f16c41b0/1778058331927/Avskaffa%20den%20ora%CC%88ttvisa%20flyttskatten%201.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.68b2ea4919ddcb7f16c41b0/1778058331927/Avskaffa%20den%20ora%CC%88ttvisa%20flyttskatten%201.pdf"
-fetchedAt: "2026-08-22T13:33:50.316Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Avskaffa-den-ora-ttvisa-flyttskatten-1-9f68d0d9.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.68b2ea4919ddcb7f16c41b0/1778058331927/Avskaffa%20den%20ora%CC%88ttvisa%20flyttskatten%201.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.68b2ea4919ddcb7f16c41b0/1778058331927/Avskaffa%20den%20ora%CC%88ttvisa%20flyttskatten%201.pdf
+fetchedAt: 2026-08-22T13:33:50.316Z
+contentType: pdf
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Avskaffa-den-ora-ttvisa-flyttskatten-1-9f68d0d9.pdf

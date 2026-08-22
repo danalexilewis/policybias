@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Ekonomisk politik"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/ekonomisk-politik"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/ekonomisk-politik"
-fetchedAt: "2026-08-22T13:27:41.675Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Ekonomisk politik
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/ekonomisk-politik
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/ekonomisk-politik
+fetchedAt: 2026-08-22T13:27:41.675Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande ekonomisk politik

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Sjöfart"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/sjofart"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/sjofart"
-fetchedAt: "2026-08-22T13:31:02.494Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Sjöfart
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/sjofart
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/sjofart
+fetchedAt: 2026-08-22T13:31:02.494Z
+contentType: html
+via: party-site
+tags:
+  - defence
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande sjöfart

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Statligt ägande/statliga bolag"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/statligt-agande-statliga-bolag"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/statligt-agande-statliga-bolag"
-fetchedAt: "2026-08-22T13:31:25.374Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Statligt ägande/statliga bolag
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/statligt-agande-statliga-bolag
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/statligt-agande-statliga-bolag
+fetchedAt: 2026-08-22T13:31:25.374Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande statligt ägande/statliga bolag

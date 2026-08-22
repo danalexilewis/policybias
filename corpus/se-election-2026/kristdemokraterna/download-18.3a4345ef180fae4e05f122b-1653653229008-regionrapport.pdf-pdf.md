@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "regionrapport-42b82941.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122b/1653653229008/regionrapport.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122b/1653653229008/regionrapport.pdf"
-fetchedAt: "2026-08-22T13:34:29.295Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: regionrapport-42b82941.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122b/1653653229008/regionrapport.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122b/1653653229008/regionrapport.pdf
+fetchedAt: 2026-08-22T13:34:29.295Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # regionrapport-42b82941.pdf

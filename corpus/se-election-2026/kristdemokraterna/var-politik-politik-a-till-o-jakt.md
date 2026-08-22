@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Jakt"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/jakt"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/jakt"
-fetchedAt: "2026-08-22T13:29:11.922Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Jakt
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/jakt
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/jakt
+fetchedAt: 2026-08-22T13:29:11.922Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - elderly-care
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande jakt

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Proposition-om-sjukv-rd-beslutad-65efc51a.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122f/1653653229119/Proposition%20om%20sjukv%C3%A5rd%20beslutad.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122f/1653653229119/Proposition%20om%20sjukv%C3%A5rd%20beslutad.pdf"
-fetchedAt: "2026-08-22T13:34:24.608Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Proposition-om-sjukv-rd-beslutad-65efc51a.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122f/1653653229119/Proposition%20om%20sjukv%C3%A5rd%20beslutad.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122f/1653653229119/Proposition%20om%20sjukv%C3%A5rd%20beslutad.pdf
+fetchedAt: 2026-08-22T13:34:24.608Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+  - defence
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Proposition-om-sjukv-rd-beslutad-65efc51a.pdf

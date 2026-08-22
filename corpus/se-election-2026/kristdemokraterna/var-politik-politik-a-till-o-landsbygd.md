@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Landsbygd"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/landsbygd"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/landsbygd"
-fetchedAt: "2026-08-22T13:29:45.425Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Landsbygd
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/landsbygd
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/landsbygd
+fetchedAt: 2026-08-22T13:29:45.425Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande landsbygd

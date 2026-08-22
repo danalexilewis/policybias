@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Handlingsprogram-Seniorer-70331a7f.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.4148d11f19a7bbdf542399d/1764583850528/Handlingsprogram%20Seniorer.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.4148d11f19a7bbdf542399d/1764583850528/Handlingsprogram%20Seniorer.pdf"
-fetchedAt: "2026-08-22T13:33:57.967Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Handlingsprogram-Seniorer-70331a7f.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.4148d11f19a7bbdf542399d/1764583850528/Handlingsprogram%20Seniorer.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.4148d11f19a7bbdf542399d/1764583850528/Handlingsprogram%20Seniorer.pdf
+fetchedAt: 2026-08-22T13:33:57.967Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Handlingsprogram-Seniorer-70331a7f.pdf

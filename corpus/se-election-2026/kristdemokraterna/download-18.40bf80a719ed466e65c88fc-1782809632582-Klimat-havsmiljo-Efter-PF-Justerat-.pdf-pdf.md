@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Klimat-havsmiljo-Efter-PF-Justerat-c8086aee.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.40bf80a719ed466e65c88fc/1782809632582/Klimat%20havsmiljo%CC%88%20Efter%20PF%20Justerat%20.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.40bf80a719ed466e65c88fc/1782809632582/Klimat%20havsmiljo%CC%88%20Efter%20PF%20Justerat%20.pdf"
-fetchedAt: "2026-08-22T13:33:57.047Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Klimat-havsmiljo-Efter-PF-Justerat-c8086aee.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.40bf80a719ed466e65c88fc/1782809632582/Klimat%20havsmiljo%CC%88%20Efter%20PF%20Justerat%20.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.40bf80a719ed466e65c88fc/1782809632582/Klimat%20havsmiljo%CC%88%20Efter%20PF%20Justerat%20.pdf
+fetchedAt: 2026-08-22T13:33:57.047Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Klimat-havsmiljo-Efter-PF-Justerat-c8086aee.pdf

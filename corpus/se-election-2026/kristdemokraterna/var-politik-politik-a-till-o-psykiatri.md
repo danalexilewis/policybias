@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Psykiatri"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/psykiatri"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/psykiatri"
-fetchedAt: "2026-08-22T13:30:27.538Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Psykiatri
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/psykiatri
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/psykiatri
+fetchedAt: 2026-08-22T13:30:27.538Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande psykiatri.

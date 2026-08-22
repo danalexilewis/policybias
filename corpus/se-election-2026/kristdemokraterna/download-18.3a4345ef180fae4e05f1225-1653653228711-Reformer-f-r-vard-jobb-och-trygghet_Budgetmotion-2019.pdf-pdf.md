@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Reformer-f-r-vard-jobb-och-trygghet_Budgetmotion-2019-c7f4ebab.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1225/1653653228711/Reformer%20f%C3%B6r%20vard%20jobb%20och%20trygghet_Budgetmotion%202019.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1225/1653653228711/Reformer%20f%C3%B6r%20vard%20jobb%20och%20trygghet_Budgetmotion%202019.pdf"
-fetchedAt: "2026-08-22T13:34:36.713Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Reformer-f-r-vard-jobb-och-trygghet_Budgetmotion-2019-c7f4ebab.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1225/1653653228711/Reformer%20f%C3%B6r%20vard%20jobb%20och%20trygghet_Budgetmotion%202019.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1225/1653653228711/Reformer%20f%C3%B6r%20vard%20jobb%20och%20trygghet_Budgetmotion%202019.pdf
+fetchedAt: 2026-08-22T13:34:36.713Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Reformer-f-r-vard-jobb-och-trygghet_Budgetmotion-2019-c7f4ebab.pdf

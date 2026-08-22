@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Vildsvin"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vildsvin"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vildsvin"
-fetchedAt: "2026-08-22T13:32:03.410Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Vildsvin
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vildsvin
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vildsvin
+fetchedAt: 2026-08-22T13:32:03.410Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande vildsvin

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Kriminalpolitiskt-Handlingsprogram-cb9b8132.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122e/1653653229086/Kriminalpolitiskt%20Handlingsprogram.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122e/1653653229086/Kriminalpolitiskt%20Handlingsprogram.pdf"
-fetchedAt: "2026-08-22T13:34:25.895Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Kriminalpolitiskt-Handlingsprogram-cb9b8132.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122e/1653653229086/Kriminalpolitiskt%20Handlingsprogram.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122e/1653653229086/Kriminalpolitiskt%20Handlingsprogram.pdf
+fetchedAt: 2026-08-22T13:34:25.895Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Kriminalpolitiskt-Handlingsprogram-cb9b8132.pdf

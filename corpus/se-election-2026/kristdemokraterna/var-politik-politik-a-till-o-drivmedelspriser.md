@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Drivmedelspriser"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/drivmedelspriser"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/drivmedelspriser"
-fetchedAt: "2026-08-22T13:27:34.475Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Drivmedelspriser
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/drivmedelspriser
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/drivmedelspriser
+fetchedAt: 2026-08-22T13:27:34.475Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande drivmedelspriser.

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Hushållstjänster"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hushallstjanster"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hushallstjanster"
-fetchedAt: "2026-08-22T13:28:49.829Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Hushållstjänster
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hushallstjanster
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hushallstjanster
+fetchedAt: 2026-08-22T13:28:49.829Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande hushållstjänster

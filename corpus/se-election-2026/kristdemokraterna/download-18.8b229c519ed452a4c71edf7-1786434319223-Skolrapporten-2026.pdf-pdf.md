@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Skolrapporten-2026-f4a29293.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.8b229c519ed452a4c71edf7/1786434319223/Skolrapporten%202026.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.8b229c519ed452a4c71edf7/1786434319223/Skolrapporten%202026.pdf"
-fetchedAt: "2026-08-22T13:33:44.843Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Skolrapporten-2026-f4a29293.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.8b229c519ed452a4c71edf7/1786434319223/Skolrapporten%202026.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.8b229c519ed452a4c71edf7/1786434319223/Skolrapporten%202026.pdf
+fetchedAt: 2026-08-22T13:33:44.843Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Skolrapporten-2026-f4a29293.pdf

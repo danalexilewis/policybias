@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Fritidskort"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/fritidskort"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/fritidskort"
-fetchedAt: "2026-08-22T13:28:12.887Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Fritidskort
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/fritidskort
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/fritidskort
+fetchedAt: 2026-08-22T13:28:12.887Z
+contentType: html
+via: party-site
+tags:
+  - culture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Kort info om KD:s politik rörande fritidskort.

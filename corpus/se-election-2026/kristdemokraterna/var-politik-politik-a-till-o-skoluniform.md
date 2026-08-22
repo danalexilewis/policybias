@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Skoluniform"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/skoluniform"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/skoluniform"
-fetchedAt: "2026-08-22T13:31:09.867Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Skoluniform
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/skoluniform
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/skoluniform
+fetchedAt: 2026-08-22T13:31:09.867Z
+contentType: html
+via: party-site
+tags:
+  - other
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande skoluniform

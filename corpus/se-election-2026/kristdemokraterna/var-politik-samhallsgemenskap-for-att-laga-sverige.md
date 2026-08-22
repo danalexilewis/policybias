@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Samhällsgemenskap för att laga Sverige"
-sourceUrl: "https://kristdemokraterna.se/var-politik/samhallsgemenskap-for-att-laga-sverige"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/samhallsgemenskap-for-att-laga-sverige"
-fetchedAt: "2026-08-22T13:33:36.475Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Samhällsgemenskap för att laga Sverige
+sourceUrl: https://kristdemokraterna.se/var-politik/samhallsgemenskap-for-att-laga-sverige
+canonicalUrl: https://kristdemokraterna.se/var-politik/samhallsgemenskap-for-att-laga-sverige
+fetchedAt: 2026-08-22T13:33:36.475Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Något har gått sönder i Sverige. De gemensamma värderingar som en gång byggt vårt öppna samhälle, som är byggt på frihet, ansvar och tillit har utmanats av auktoritära strömningar och parallellsamhällen. Ungefär en halv miljon personer bor i ett av Sveriges 59 utsatta områden. Den segregation som präglar stora delar av Sverige idag och som bidragit till ett svårbrutet ekonomiskt och socialt utanförskap, till språklig isolering, främlingskap och systemhotande kriminalitet har inte uppstått över en natt. Den har byggts upp under decennier präglade av missriktad välvilja, tafatthet och bristande integration.

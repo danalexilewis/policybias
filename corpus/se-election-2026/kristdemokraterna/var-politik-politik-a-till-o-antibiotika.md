@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Antibiotika"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/antibiotika?open.12_72d9f8c817e8ce3de028d5b=true"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/antibiotika"
-fetchedAt: "2026-08-22T13:34:56.827Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Antibiotika
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/antibiotika?open.12_72d9f8c817e8ce3de028d5b=true
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/antibiotika
+fetchedAt: 2026-08-22T13:34:56.827Z
+contentType: html
+via: party-site
+tags:
+  - elderly-care
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info angående KD:s politik rörande antibiotika

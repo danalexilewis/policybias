@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Anhörigvård"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/anhorigvard?open.12_72d9f8c817e8ce3de028d5b=true"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/anhorigvard"
-fetchedAt: "2026-08-22T13:34:53.733Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: kristdemokraterna
+title: Anhörigvård
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhorigvard?open.12_72d9f8c817e8ce3de028d5b=true
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhorigvard
+fetchedAt: 2026-08-22T13:34:53.733Z
+contentType: html
+via: party-site
 tags:
-  - "defence-security"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - elderly-care
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Kort info angående KD:s politik rörande anhörigvård.

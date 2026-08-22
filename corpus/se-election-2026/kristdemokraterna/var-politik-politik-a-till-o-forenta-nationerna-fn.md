@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Förenta Nationerna (FN)"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/forenta-nationerna-fn"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/forenta-nationerna-fn"
-fetchedAt: "2026-08-22T13:28:18.944Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Förenta Nationerna (FN)
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/forenta-nationerna-fn
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/forenta-nationerna-fn
+fetchedAt: 2026-08-22T13:28:18.944Z
+contentType: html
+via: party-site
+tags:
+  - defence
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande Förenta Nationerna (FN)

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Vattenkraft"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vattenkraft"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vattenkraft"
-fetchedAt: "2026-08-22T13:32:01.717Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Vattenkraft
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vattenkraft
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vattenkraft
+fetchedAt: 2026-08-22T13:32:01.717Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande vattenkraft:

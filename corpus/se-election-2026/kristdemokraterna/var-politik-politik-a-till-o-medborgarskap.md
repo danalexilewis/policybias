@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Medborgarskap"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/medborgarskap"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/medborgarskap"
-fetchedAt: "2026-08-22T13:29:53.374Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Medborgarskap
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/medborgarskap
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/medborgarskap
+fetchedAt: 2026-08-22T13:29:53.374Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande medborgarskap.

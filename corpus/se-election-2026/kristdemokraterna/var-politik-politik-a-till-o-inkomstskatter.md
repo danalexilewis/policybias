@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Inkomstskatter"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/inkomstskatter"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/inkomstskatter"
-fetchedAt: "2026-08-22T13:28:59.751Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Inkomstskatter
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/inkomstskatter
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/inkomstskatter
+fetchedAt: 2026-08-22T13:28:59.751Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande inkomstskatter.

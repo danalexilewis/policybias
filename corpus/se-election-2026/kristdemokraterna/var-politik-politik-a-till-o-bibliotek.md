@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Bibliotek"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/bibliotek"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/bibliotek"
-fetchedAt: "2026-08-22T13:27:09.018Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Bibliotek
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/bibliotek
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/bibliotek
+fetchedAt: 2026-08-22T13:27:09.018Z
+contentType: html
+via: party-site
+tags:
+  - culture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande avlyssning och bibliotek

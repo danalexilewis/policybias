@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Teckenspråk"
-sourceUrl: "https://kristdemokraterna.se/var-politik/teckensprak"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/teckensprak"
-fetchedAt: "2026-08-22T13:32:27.689Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Teckenspråk
+sourceUrl: https://kristdemokraterna.se/var-politik/teckensprak
+canonicalUrl: https://kristdemokraterna.se/var-politik/teckensprak
+fetchedAt: 2026-08-22T13:32:27.689Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - healthcare
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Viktiga frågor för Kristdemokraterna - vården, äldre, trygghet

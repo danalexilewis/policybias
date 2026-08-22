@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Kärnkraft"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/karnkraft"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/karnkraft"
-fetchedAt: "2026-08-22T13:29:43.988Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Kärnkraft
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/karnkraft
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/karnkraft
+fetchedAt: 2026-08-22T13:29:43.988Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande kärnkraft

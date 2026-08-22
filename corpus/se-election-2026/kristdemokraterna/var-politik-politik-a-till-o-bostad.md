@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Bostad"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/bostad"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/bostad"
-fetchedAt: "2026-08-22T13:27:14.663Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Bostad
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/bostad
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/bostad
+fetchedAt: 2026-08-22T13:27:14.663Z
+contentType: html
+via: party-site
+tags:
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande bostad.

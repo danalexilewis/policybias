@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Seniorrapport_juni-2022-315b3898.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb14a2/1661502307446/Seniorrapport_juni%202022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb14a2/1661502307446/Seniorrapport_juni%202022.pdf"
-fetchedAt: "2026-08-22T13:34:11.109Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Seniorrapport_juni-2022-315b3898.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb14a2/1661502307446/Seniorrapport_juni%202022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb14a2/1661502307446/Seniorrapport_juni%202022.pdf
+fetchedAt: 2026-08-22T13:34:11.109Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+  - elderly-care
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Seniorrapport_juni-2022-315b3898.pdf

@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Abort"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/abort?open.12_72d9f8c817e8ce3de028d5b=true"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/abort"
-fetchedAt: "2026-08-22T13:33:41.179Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: kristdemokraterna
+title: Abort
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/abort?open.12_72d9f8c817e8ce3de028d5b=true
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/abort
+fetchedAt: 2026-08-22T13:33:41.179Z
+contentType: html
+via: party-site
 tags:
-  - "schools-education"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - healthcare
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Kort info om KD:s politik angående abort.

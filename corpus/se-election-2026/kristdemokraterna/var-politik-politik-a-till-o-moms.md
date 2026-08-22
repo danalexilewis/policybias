@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Moms"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/moms"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/moms"
-fetchedAt: "2026-08-22T13:29:59.410Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Moms
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/moms
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/moms
+fetchedAt: 2026-08-22T13:29:59.410Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Kort info om KD:s politik rörande moms.

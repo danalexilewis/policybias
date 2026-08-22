@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "kd_etttryggaresverige_2021-1e1d5c1b.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.439e1dbc181623ea97d223/1655216791912/kd_etttryggaresverige_2021.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.439e1dbc181623ea97d223/1655216791912/kd_etttryggaresverige_2021.pdf"
-fetchedAt: "2026-08-22T13:34:26.278Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: kd_etttryggaresverige_2021-1e1d5c1b.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.439e1dbc181623ea97d223/1655216791912/kd_etttryggaresverige_2021.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.439e1dbc181623ea97d223/1655216791912/kd_etttryggaresverige_2021.pdf
+fetchedAt: 2026-08-22T13:34:26.278Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # kd_etttryggaresverige_2021-1e1d5c1b.pdf

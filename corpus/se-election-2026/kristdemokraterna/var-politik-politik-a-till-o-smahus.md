@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Småhus"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/smahus"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/smahus"
-fetchedAt: "2026-08-22T13:31:18.736Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Småhus
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/smahus
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/smahus
+fetchedAt: 2026-08-22T13:31:18.736Z
+contentType: html
+via: party-site
+tags:
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande småhus

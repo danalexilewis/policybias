@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Nato"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/nato"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/nato"
-fetchedAt: "2026-08-22T13:30:05.622Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Nato
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/nato
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/nato
+fetchedAt: 2026-08-22T13:30:05.622Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande Nato

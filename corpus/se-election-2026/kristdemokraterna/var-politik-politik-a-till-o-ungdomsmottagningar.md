@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Ungdomsmottagningar"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/ungdomsmottagningar"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/ungdomsmottagningar"
-fetchedAt: "2026-08-22T13:31:51.245Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Ungdomsmottagningar
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/ungdomsmottagningar
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/ungdomsmottagningar
+fetchedAt: 2026-08-22T13:31:51.245Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande ungdomsmottagningar

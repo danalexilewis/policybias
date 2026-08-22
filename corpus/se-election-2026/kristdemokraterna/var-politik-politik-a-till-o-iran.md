@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Iran"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/iran"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/iran"
-fetchedAt: "2026-08-22T13:29:06.409Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Iran
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/iran
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/iran
+fetchedAt: 2026-08-22T13:29:06.409Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande Iran

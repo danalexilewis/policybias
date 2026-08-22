@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Europapolitiskt-handlingsprogram-5cae2f34.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.6a233af818d1d05850e1703/1705739256406/Europapolitiskt%20handlingsprogram.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.6a233af818d1d05850e1703/1705739256406/Europapolitiskt%20handlingsprogram.pdf"
-fetchedAt: "2026-08-22T13:34:02.896Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Europapolitiskt-handlingsprogram-5cae2f34.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.6a233af818d1d05850e1703/1705739256406/Europapolitiskt%20handlingsprogram.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.6a233af818d1d05850e1703/1705739256406/Europapolitiskt%20handlingsprogram.pdf
+fetchedAt: 2026-08-22T13:34:02.896Z
+contentType: pdf
+via: party-site
+tags:
+  - agriculture
+  - eu
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Europapolitiskt-handlingsprogram-5cae2f34.pdf

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Rapport---fo-rsvarsutbildning-fo-r-unga-fd2f4929.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.53936d5319e63a11197752b/1780657167461/Rapport%20-%20fo%CC%88rsvarsutbildning%20fo%CC%88r%20unga.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.53936d5319e63a11197752b/1780657167461/Rapport%20-%20fo%CC%88rsvarsutbildning%20fo%CC%88r%20unga.pdf"
-fetchedAt: "2026-08-22T13:33:47.348Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Rapport---fo-rsvarsutbildning-fo-r-unga-fd2f4929.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.53936d5319e63a11197752b/1780657167461/Rapport%20-%20fo%CC%88rsvarsutbildning%20fo%CC%88r%20unga.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.53936d5319e63a11197752b/1780657167461/Rapport%20-%20fo%CC%88rsvarsutbildning%20fo%CC%88r%20unga.pdf
+fetchedAt: 2026-08-22T13:33:47.348Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Rapport---fo-rsvarsutbildning-fo-r-unga-fd2f4929.pdf

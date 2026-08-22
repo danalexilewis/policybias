@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Integration-kr-ver-lag-och-ordning-3173c4e9.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f121d/1653653228290/Integration%20kr%C3%A4ver%20lag%20och%20ordning.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f121d/1653653228290/Integration%20kr%C3%A4ver%20lag%20och%20ordning.pdf"
-fetchedAt: "2026-08-22T13:34:38.928Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Integration-kr-ver-lag-och-ordning-3173c4e9.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f121d/1653653228290/Integration%20kr%C3%A4ver%20lag%20och%20ordning.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f121d/1653653228290/Integration%20kr%C3%A4ver%20lag%20och%20ordning.pdf
+fetchedAt: 2026-08-22T13:34:38.928Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Integration-kr-ver-lag-och-ordning-3173c4e9.pdf

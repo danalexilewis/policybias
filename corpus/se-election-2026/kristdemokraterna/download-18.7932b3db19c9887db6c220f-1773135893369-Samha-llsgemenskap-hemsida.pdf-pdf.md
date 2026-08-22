@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Samha-llsgemenskap-hemsida-fc4585d7.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.7932b3db19c9887db6c220f/1773135893369/Samha%CC%88llsgemenskap%20hemsida.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.7932b3db19c9887db6c220f/1773135893369/Samha%CC%88llsgemenskap%20hemsida.pdf"
-fetchedAt: "2026-08-22T13:33:53.349Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Samha-llsgemenskap-hemsida-fc4585d7.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.7932b3db19c9887db6c220f/1773135893369/Samha%CC%88llsgemenskap%20hemsida.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.7932b3db19c9887db6c220f/1773135893369/Samha%CC%88llsgemenskap%20hemsida.pdf
+fetchedAt: 2026-08-22T13:33:53.349Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+  - economy
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Samha-llsgemenskap-hemsida-fc4585d7.pdf

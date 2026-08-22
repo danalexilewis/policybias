@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "NyStartForKarnkraften-PMaug2022-98bde00f.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.375fff78182e93dfa48d6/1661943819889/NyStartForKarnkraften-PMaug2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.375fff78182e93dfa48d6/1661943819889/NyStartForKarnkraften-PMaug2022.pdf"
-fetchedAt: "2026-08-22T13:34:10.164Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: NyStartForKarnkraften-PMaug2022-98bde00f.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.375fff78182e93dfa48d6/1661943819889/NyStartForKarnkraften-PMaug2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.375fff78182e93dfa48d6/1661943819889/NyStartForKarnkraften-PMaug2022.pdf
+fetchedAt: 2026-08-22T13:34:10.164Z
+contentType: pdf
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # NyStartForKarnkraften-PMaug2022-98bde00f.pdf

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Barnbidrag"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/barnbidrag"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/barnbidrag"
-fetchedAt: "2026-08-22T13:26:55.940Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Barnbidrag
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/barnbidrag
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/barnbidrag
+fetchedAt: 2026-08-22T13:26:55.940Z
+contentType: html
+via: party-site
+tags:
+  - cost-of-living
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Kort info om KDs politik rörande barnbidrag

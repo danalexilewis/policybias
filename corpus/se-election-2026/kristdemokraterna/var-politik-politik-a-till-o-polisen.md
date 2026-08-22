@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Polisen"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/polisen"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/polisen"
-fetchedAt: "2026-08-22T13:30:15.192Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Polisen
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/polisen
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/polisen
+fetchedAt: 2026-08-22T13:30:15.192Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande polisen.

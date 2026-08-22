@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "PM-Sto-tta-elpristyngda-husha-ll-2022-ad2fec37.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bfbd/1660855252527/PM%20Sto%CC%88tta%20elpristyngda%20husha%CC%8All-2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bfbd/1660855252527/PM%20Sto%CC%88tta%20elpristyngda%20husha%CC%8All-2022.pdf"
-fetchedAt: "2026-08-22T13:34:13.213Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: PM-Sto-tta-elpristyngda-husha-ll-2022-ad2fec37.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bfbd/1660855252527/PM%20Sto%CC%88tta%20elpristyngda%20husha%CC%8All-2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bfbd/1660855252527/PM%20Sto%CC%88tta%20elpristyngda%20husha%CC%8All-2022.pdf
+fetchedAt: 2026-08-22T13:34:13.213Z
+contentType: pdf
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # PM-Sto-tta-elpristyngda-husha-ll-2022-ad2fec37.pdf

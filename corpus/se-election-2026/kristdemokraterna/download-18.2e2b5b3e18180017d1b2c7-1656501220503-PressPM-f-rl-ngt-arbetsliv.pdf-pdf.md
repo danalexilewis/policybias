@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "PressPM-f-rl-ngt-arbetsliv-e49a8e54.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b2c7/1656501220503/PressPM%20f%C3%B6rl%C3%A4ngt%20arbetsliv.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b2c7/1656501220503/PressPM%20f%C3%B6rl%C3%A4ngt%20arbetsliv.pdf"
-fetchedAt: "2026-08-22T13:34:16.874Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: PressPM-f-rl-ngt-arbetsliv-e49a8e54.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b2c7/1656501220503/PressPM%20f%C3%B6rl%C3%A4ngt%20arbetsliv.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b2c7/1656501220503/PressPM%20f%C3%B6rl%C3%A4ngt%20arbetsliv.pdf
+fetchedAt: 2026-08-22T13:34:16.874Z
+contentType: pdf
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # PressPM-f-rl-ngt-arbetsliv-e49a8e54.pdf

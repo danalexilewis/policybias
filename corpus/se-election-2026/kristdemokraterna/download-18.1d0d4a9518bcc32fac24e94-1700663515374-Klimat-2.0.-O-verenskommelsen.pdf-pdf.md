@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Klimat-2.0.-O-verenskommelsen-a205e4b4.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.1d0d4a9518bcc32fac24e94/1700663515374/Klimat%202.0.%20O%CC%88verenskommelsen.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.1d0d4a9518bcc32fac24e94/1700663515374/Klimat%202.0.%20O%CC%88verenskommelsen.pdf"
-fetchedAt: "2026-08-22T13:34:06.696Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Klimat-2.0.-O-verenskommelsen-a205e4b4.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.1d0d4a9518bcc32fac24e94/1700663515374/Klimat%202.0.%20O%CC%88verenskommelsen.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.1d0d4a9518bcc32fac24e94/1700663515374/Klimat%202.0.%20O%CC%88verenskommelsen.pdf
+fetchedAt: 2026-08-22T13:34:06.696Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Klimat-2.0.-O-verenskommelsen-a205e4b4.pdf

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Direktiv-samha-llsbyggande-6d640afb.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.776173b5188bdbd15421595a/1687855513519/Direktiv%20samha%CC%88llsbyggande.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.776173b5188bdbd15421595a/1687855513519/Direktiv%20samha%CC%88llsbyggande.pdf"
-fetchedAt: "2026-08-22T13:34:05.880Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Direktiv-samha-llsbyggande-6d640afb.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.776173b5188bdbd15421595a/1687855513519/Direktiv%20samha%CC%88llsbyggande.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.776173b5188bdbd15421595a/1687855513519/Direktiv%20samha%CC%88llsbyggande.pdf
+fetchedAt: 2026-08-22T13:34:05.880Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - education
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Direktiv-samha-llsbyggande-6d640afb.pdf

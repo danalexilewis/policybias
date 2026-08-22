@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Straffmyndighetsålder"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/straffmyndighetsalder"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/straffmyndighetsalder"
-fetchedAt: "2026-08-22T13:31:26.400Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Straffmyndighetsålder
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/straffmyndighetsalder
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/straffmyndighetsalder
+fetchedAt: 2026-08-22T13:31:26.400Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande straffmyndighetsålder

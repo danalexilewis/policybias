@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Mammabonus-i-PPM-systemet-575283c3.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.8b229c519ed452a4c71d418/1786188465541/Mammabonus%20i%20PPM-systemet.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.8b229c519ed452a4c71d418/1786188465541/Mammabonus%20i%20PPM-systemet.pdf"
-fetchedAt: "2026-08-22T13:33:45.297Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Mammabonus-i-PPM-systemet-575283c3.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.8b229c519ed452a4c71d418/1786188465541/Mammabonus%20i%20PPM-systemet.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.8b229c519ed452a4c71d418/1786188465541/Mammabonus%20i%20PPM-systemet.pdf
+fetchedAt: 2026-08-22T13:33:45.297Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - education
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Mammabonus-i-PPM-systemet-575283c3.pdf

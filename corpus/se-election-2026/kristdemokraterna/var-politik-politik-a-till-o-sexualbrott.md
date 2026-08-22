@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Sexualbrott"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/sexualbrott"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/sexualbrott"
-fetchedAt: "2026-08-22T13:30:56.095Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Sexualbrott
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/sexualbrott
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/sexualbrott
+fetchedAt: 2026-08-22T13:30:56.095Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande sexualbrott.

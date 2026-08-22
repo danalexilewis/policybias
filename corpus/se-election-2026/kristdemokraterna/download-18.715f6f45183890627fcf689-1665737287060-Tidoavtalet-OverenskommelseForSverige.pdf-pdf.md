@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Tidoavtalet-OverenskommelseForSverige-dea57a62.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.715f6f45183890627fcf689/1665737287060/Tidoavtalet-OverenskommelseForSverige.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.715f6f45183890627fcf689/1665737287060/Tidoavtalet-OverenskommelseForSverige.pdf"
-fetchedAt: "2026-08-22T13:33:44.011Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Tidoavtalet-OverenskommelseForSverige-dea57a62.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.715f6f45183890627fcf689/1665737287060/Tidoavtalet-OverenskommelseForSverige.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.715f6f45183890627fcf689/1665737287060/Tidoavtalet-OverenskommelseForSverige.pdf
+fetchedAt: 2026-08-22T13:33:44.011Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - education
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Tidoavtalet-OverenskommelseForSverige-dea57a62.pdf

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Samha-llsbyggarkommitterapport-251022-208dc1b3.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.226014ea19a154a9e25c81/1762937139823/Samha%CC%88llsbyggarkommitterapport%20251022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.226014ea19a154a9e25c81/1762937139823/Samha%CC%88llsbyggarkommitterapport%20251022.pdf"
-fetchedAt: "2026-08-22T13:33:56.217Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Samha-llsbyggarkommitterapport-251022-208dc1b3.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.226014ea19a154a9e25c81/1762937139823/Samha%CC%88llsbyggarkommitterapport%20251022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.226014ea19a154a9e25c81/1762937139823/Samha%CC%88llsbyggarkommitterapport%20251022.pdf
+fetchedAt: 2026-08-22T13:33:56.217Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Samha-llsbyggarkommitterapport-251022-208dc1b3.pdf

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Bana-f-r-bist-ndet---Uppg-relse-Tid-1f338dee.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.1b71982c18529d736e7213b7/1675669657007/Bana%20f%C3%B6r%20bist%C3%A5ndet%20-%20Uppg%C3%B6relse%20Tid%C3%B6.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.1b71982c18529d736e7213b7/1675669657007/Bana%20f%C3%B6r%20bist%C3%A5ndet%20-%20Uppg%C3%B6relse%20Tid%C3%B6.pdf"
-fetchedAt: "2026-08-22T13:34:07.659Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Bana-f-r-bist-ndet---Uppg-relse-Tid-1f338dee.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.1b71982c18529d736e7213b7/1675669657007/Bana%20f%C3%B6r%20bist%C3%A5ndet%20-%20Uppg%C3%B6relse%20Tid%C3%B6.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.1b71982c18529d736e7213b7/1675669657007/Bana%20f%C3%B6r%20bist%C3%A5ndet%20-%20Uppg%C3%B6relse%20Tid%C3%B6.pdf
+fetchedAt: 2026-08-22T13:34:07.659Z
+contentType: pdf
+via: party-site
+tags:
+  - democracy
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Bana-f-r-bist-ndet---Uppg-relse-Tid-1f338dee.pdf

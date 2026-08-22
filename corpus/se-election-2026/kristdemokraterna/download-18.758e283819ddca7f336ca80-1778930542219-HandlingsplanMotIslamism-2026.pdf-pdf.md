@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "HandlingsplanMotIslamism-2026-87177d94.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.758e283819ddca7f336ca80/1778930542219/HandlingsplanMotIslamism-2026.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.758e283819ddca7f336ca80/1778930542219/HandlingsplanMotIslamism-2026.pdf"
-fetchedAt: "2026-08-22T13:33:49.225Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: HandlingsplanMotIslamism-2026-87177d94.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.758e283819ddca7f336ca80/1778930542219/HandlingsplanMotIslamism-2026.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.758e283819ddca7f336ca80/1778930542219/HandlingsplanMotIslamism-2026.pdf
+fetchedAt: 2026-08-22T13:33:49.225Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # HandlingsplanMotIslamism-2026-87177d94.pdf

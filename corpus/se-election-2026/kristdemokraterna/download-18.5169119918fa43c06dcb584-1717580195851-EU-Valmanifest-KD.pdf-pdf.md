@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "EU-Valmanifest-KD-25c9930f.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.5169119918fa43c06dcb584/1717580195851/EU%20Valmanifest-KD.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.5169119918fa43c06dcb584/1717580195851/EU%20Valmanifest-KD.pdf"
-fetchedAt: "2026-08-22T13:34:01.946Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: EU-Valmanifest-KD-25c9930f.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.5169119918fa43c06dcb584/1717580195851/EU%20Valmanifest-KD.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.5169119918fa43c06dcb584/1717580195851/EU%20Valmanifest-KD.pdf
+fetchedAt: 2026-08-22T13:34:01.946Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+  - economy
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # EU-Valmanifest-KD-25c9930f.pdf

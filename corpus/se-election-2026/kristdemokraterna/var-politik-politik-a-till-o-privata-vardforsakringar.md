@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Privata vårdförsäkringar"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/privata-vardforsakringar"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/privata-vardforsakringar"
-fetchedAt: "2026-08-22T13:30:24.116Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Privata vårdförsäkringar
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/privata-vardforsakringar
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/privata-vardforsakringar
+fetchedAt: 2026-08-22T13:30:24.116Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande privata vårdförsäkringar.

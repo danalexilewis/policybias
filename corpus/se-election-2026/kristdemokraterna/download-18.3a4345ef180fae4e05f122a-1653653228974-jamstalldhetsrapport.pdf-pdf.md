@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "jamstalldhetsrapport-ff0de3b3.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122a/1653653228974/jamstalldhetsrapport.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122a/1653653228974/jamstalldhetsrapport.pdf"
-fetchedAt: "2026-08-22T13:34:30.712Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: jamstalldhetsrapport-ff0de3b3.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122a/1653653228974/jamstalldhetsrapport.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122a/1653653228974/jamstalldhetsrapport.pdf
+fetchedAt: 2026-08-22T13:34:30.712Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # jamstalldhetsrapport-ff0de3b3.pdf

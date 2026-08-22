@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Järnväg"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/jarnvag"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/jarnvag"
-fetchedAt: "2026-08-22T13:29:20.723Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Järnväg
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/jarnvag
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/jarnvag
+fetchedAt: 2026-08-22T13:29:20.723Z
+contentType: html
+via: party-site
+tags:
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande järnväg

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Parboendegaranti"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/parboendegaranti"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/parboendegaranti"
-fetchedAt: "2026-08-22T13:30:11.581Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Parboendegaranti
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/parboendegaranti
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/parboendegaranti
+fetchedAt: 2026-08-22T13:30:11.581Z
+contentType: html
+via: party-site
+tags:
+  - elderly-care
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande parboendegaranti

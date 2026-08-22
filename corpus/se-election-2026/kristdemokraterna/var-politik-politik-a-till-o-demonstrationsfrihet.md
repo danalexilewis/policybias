@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Demonstrationsfrihet"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/demonstrationsfrihet"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/demonstrationsfrihet"
-fetchedAt: "2026-08-22T13:27:29.198Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Demonstrationsfrihet
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/demonstrationsfrihet
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/demonstrationsfrihet
+fetchedAt: 2026-08-22T13:27:29.198Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande demonstrationsfrihet

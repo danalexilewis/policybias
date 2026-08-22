@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Tullar"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/tullar"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/tullar"
-fetchedAt: "2026-08-22T13:31:42.704Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Tullar
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/tullar
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/tullar
+fetchedAt: 2026-08-22T13:31:42.704Z
+contentType: html
+via: party-site
+tags:
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande tullar

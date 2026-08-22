@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Turism"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/turism"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/turism"
-fetchedAt: "2026-08-22T13:31:46.274Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Turism
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/turism
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/turism
+fetchedAt: 2026-08-22T13:31:46.274Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande turism

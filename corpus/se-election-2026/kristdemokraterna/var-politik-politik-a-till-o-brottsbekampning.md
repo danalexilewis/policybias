@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Brottsbekämpning"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/brottsbekampning"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/brottsbekampning"
-fetchedAt: "2026-08-22T13:27:17.888Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Brottsbekämpning
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/brottsbekampning
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/brottsbekampning
+fetchedAt: 2026-08-22T13:27:17.888Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande brottsbekämpning.

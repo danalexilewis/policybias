@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Vinster i välfärden"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vinster-i-valfarden"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vinster-i-valfarden"
-fetchedAt: "2026-08-22T13:32:06.873Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Vinster i välfärden
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vinster-i-valfarden
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vinster-i-valfarden
+fetchedAt: 2026-08-22T13:32:06.873Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande vinster i välfärden.

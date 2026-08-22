@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "PM-Buschkortet-2022-d16d90ed.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb146e/1661420594811/PM-Buschkortet-2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb146e/1661420594811/PM-Buschkortet-2022.pdf"
-fetchedAt: "2026-08-22T13:34:11.790Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: PM-Buschkortet-2022-d16d90ed.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb146e/1661420594811/PM-Buschkortet-2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.5f5685e31817fdfeceb146e/1661420594811/PM-Buschkortet-2022.pdf
+fetchedAt: 2026-08-22T13:34:11.790Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - employment
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # PM-Buschkortet-2022-d16d90ed.pdf

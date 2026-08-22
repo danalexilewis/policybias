@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Höghastighetståg"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hoghastighetstag"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hoghastighetstag"
-fetchedAt: "2026-08-22T13:28:55.911Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Höghastighetståg
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hoghastighetstag
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hoghastighetstag
+fetchedAt: 2026-08-22T13:28:55.911Z
+contentType: html
+via: party-site
+tags:
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande höghastighetståg

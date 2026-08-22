@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Barnäktenskap"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/barnaktenskap"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/barnaktenskap"
-fetchedAt: "2026-08-22T13:27:00.527Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Barnäktenskap
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/barnaktenskap
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/barnaktenskap
+fetchedAt: 2026-08-22T13:27:00.527Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande barnäktenskap.

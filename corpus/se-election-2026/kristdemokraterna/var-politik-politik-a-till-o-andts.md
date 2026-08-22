@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "ANDTS"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/andts?open.12_72d9f8c817e8ce3de028d5b=true"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/andts"
-fetchedAt: "2026-08-22T13:34:50.493Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: kristdemokraterna
+title: ANDTS
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/andts?open.12_72d9f8c817e8ce3de028d5b=true
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/andts
+fetchedAt: 2026-08-22T13:34:50.493Z
+contentType: html
+via: party-site
 tags:
-  - "economy-tax"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - crime-and-justice
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Kort info angående KD:s politik rörande alkohol, narkotika, doping, tobak och spel om pengar.

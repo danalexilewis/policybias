@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Reseavdrag"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/reseavdrag"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/reseavdrag"
-fetchedAt: "2026-08-22T13:30:38.443Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Reseavdrag
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/reseavdrag
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/reseavdrag
+fetchedAt: 2026-08-22T13:30:38.443Z
+contentType: html
+via: party-site
+tags:
+  - other
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Kort info om KD:s politik rörande reseavdrag.

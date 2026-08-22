@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Högre utbildning"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hogre-utbildning"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hogre-utbildning"
-fetchedAt: "2026-08-22T13:28:56.722Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Högre utbildning
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hogre-utbildning
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hogre-utbildning
+fetchedAt: 2026-08-22T13:28:56.722Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande högre utbildning

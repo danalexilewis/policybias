@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Valfrihet"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/valfrihet"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/valfrihet"
-fetchedAt: "2026-08-22T13:31:57.392Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Valfrihet
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/valfrihet
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/valfrihet
+fetchedAt: 2026-08-22T13:31:57.392Z
+contentType: html
+via: party-site
+tags:
+  - elderly-care
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande valfrihet.

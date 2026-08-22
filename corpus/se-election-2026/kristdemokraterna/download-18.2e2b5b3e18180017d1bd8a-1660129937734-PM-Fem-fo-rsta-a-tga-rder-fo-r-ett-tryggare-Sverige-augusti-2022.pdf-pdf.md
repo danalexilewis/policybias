@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "PM-Fem-fo-rsta-a-tga-rder-fo-r-ett-tryggare-Sverige-augusti-2022-dfa8b1a8.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bd8a/1660129937734/PM%20Fem%20fo%CC%88rsta%20a%CC%8Atga%CC%88rder%20fo%CC%88r%20ett%20tryggare%20Sverige-augusti-2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bd8a/1660129937734/PM%20Fem%20fo%CC%88rsta%20a%CC%8Atga%CC%88rder%20fo%CC%88r%20ett%20tryggare%20Sverige-augusti-2022.pdf"
-fetchedAt: "2026-08-22T13:34:13.667Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: PM-Fem-fo-rsta-a-tga-rder-fo-r-ett-tryggare-Sverige-augusti-2022-dfa8b1a8.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bd8a/1660129937734/PM%20Fem%20fo%CC%88rsta%20a%CC%8Atga%CC%88rder%20fo%CC%88r%20ett%20tryggare%20Sverige-augusti-2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1bd8a/1660129937734/PM%20Fem%20fo%CC%88rsta%20a%CC%8Atga%CC%88rder%20fo%CC%88r%20ett%20tryggare%20Sverige-augusti-2022.pdf
+fetchedAt: 2026-08-22T13:34:13.667Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # PM-Fem-fo-rsta-a-tga-rder-fo-r-ett-tryggare-Sverige-augusti-2022-dfa8b1a8.pdf

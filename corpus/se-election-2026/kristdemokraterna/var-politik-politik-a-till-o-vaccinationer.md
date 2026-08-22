@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Vaccinationer"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vaccinationer"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vaccinationer"
-fetchedAt: "2026-08-22T13:31:56.165Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Vaccinationer
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vaccinationer
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vaccinationer
+fetchedAt: 2026-08-22T13:31:56.165Z
+contentType: html
+via: party-site
+tags:
+  - elderly-care
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande vaccinationer.

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Jordbruk"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/jordbruk"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/jordbruk"
-fetchedAt: "2026-08-22T13:29:16.659Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Jordbruk
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/jordbruk
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/jordbruk
+fetchedAt: 2026-08-22T13:29:16.659Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande jordbruk

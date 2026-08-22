@@ -8,15 +8,15 @@ summary: Brief information about KD's policy regarding the A-kassan.
 jurisdiction: SE
 sources:
   - title: A-kassa
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/a-kassa
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/a-kassa?open.12_72d9f8c817e8ce3de028d5b=true
 tags:
-  - elderly-welfare
+  - economy
 party: kristdemokraterna
 clusters:
-  - elderly-welfare
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-a-kassa.md
-sourceDigest: "sha256-7ec3e86924d393d2"
+sourceDigest: sha256-7ec3e86924d393d2
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +24,7 @@ lang: en
 translationOf: kristdemokraterna-a-kassa
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-23d8f7e6c4f8f362"
+sourceSpecDigest: sha256-23d8f7e6c4f8f362
 ---
 
 # What the page states

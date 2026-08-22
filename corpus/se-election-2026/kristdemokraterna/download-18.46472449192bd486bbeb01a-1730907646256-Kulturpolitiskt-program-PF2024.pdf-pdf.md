@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Kulturpolitiskt-program-PF2024-b38a853c.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.46472449192bd486bbeb01a/1730907646256/Kulturpolitiskt%20program%20PF2024.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.46472449192bd486bbeb01a/1730907646256/Kulturpolitiskt%20program%20PF2024.pdf"
-fetchedAt: "2026-08-22T13:33:58.757Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Kulturpolitiskt-program-PF2024-b38a853c.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.46472449192bd486bbeb01a/1730907646256/Kulturpolitiskt%20program%20PF2024.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.46472449192bd486bbeb01a/1730907646256/Kulturpolitiskt%20program%20PF2024.pdf
+fetchedAt: 2026-08-22T13:33:58.757Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - culture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Kulturpolitiskt-program-PF2024-b38a853c.pdf

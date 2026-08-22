@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Värnplikt"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/varnplikt"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/varnplikt"
-fetchedAt: "2026-08-22T13:32:13.046Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Värnplikt
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/varnplikt
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/varnplikt
+fetchedAt: 2026-08-22T13:32:13.046Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande värnplikt

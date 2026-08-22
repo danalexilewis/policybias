@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "europapolitiskt-program-beslutad-av-PF-slutversion-0385d28c.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b407/1656711984033/europapolitiskt%20program%20beslutad%20av%20PF%20slutversion.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b407/1656711984033/europapolitiskt%20program%20beslutad%20av%20PF%20slutversion.pdf"
-fetchedAt: "2026-08-22T13:34:34.596Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: europapolitiskt-program-beslutad-av-PF-slutversion-0385d28c.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b407/1656711984033/europapolitiskt%20program%20beslutad%20av%20PF%20slutversion.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b407/1656711984033/europapolitiskt%20program%20beslutad%20av%20PF%20slutversion.pdf
+fetchedAt: 2026-08-22T13:34:34.596Z
+contentType: pdf
+via: party-site
+tags:
+  - agriculture
+  - defence
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # europapolitiskt-program-beslutad-av-PF-slutversion-0385d28c.pdf

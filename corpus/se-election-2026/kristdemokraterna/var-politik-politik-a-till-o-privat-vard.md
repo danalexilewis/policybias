@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Privat vård"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/privat-vard"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/privat-vard"
-fetchedAt: "2026-08-22T13:30:25.935Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Privat vård
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/privat-vard
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/privat-vard
+fetchedAt: 2026-08-22T13:30:25.935Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande privat vård.

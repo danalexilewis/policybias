@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "SFI/Svenska för invandrare"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/sfi-svenska-for-invandrare"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/sfi-svenska-for-invandrare"
-fetchedAt: "2026-08-22T13:30:57.984Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: SFI/Svenska för invandrare
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/sfi-svenska-for-invandrare
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/sfi-svenska-for-invandrare
+fetchedAt: 2026-08-22T13:30:57.984Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande SFI/Svenska för invandrare.

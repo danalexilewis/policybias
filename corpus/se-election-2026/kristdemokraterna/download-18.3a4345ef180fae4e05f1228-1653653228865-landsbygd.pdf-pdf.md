@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "landsbygd-6a80aa58.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1228/1653653228865/landsbygd.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1228/1653653228865/landsbygd.pdf"
-fetchedAt: "2026-08-22T13:34:33.110Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: landsbygd-6a80aa58.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1228/1653653228865/landsbygd.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1228/1653653228865/landsbygd.pdf
+fetchedAt: 2026-08-22T13:34:33.110Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+  - economy
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # landsbygd-6a80aa58.pdf

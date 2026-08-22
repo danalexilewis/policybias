@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Ett-starkare-Sverige-efter-krisen-45b5106b.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122d/1653653229057/Ett%20starkare%20Sverige%20efter%20krisen.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122d/1653653229057/Ett%20starkare%20Sverige%20efter%20krisen.pdf"
-fetchedAt: "2026-08-22T13:34:27.549Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Ett-starkare-Sverige-efter-krisen-45b5106b.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122d/1653653229057/Ett%20starkare%20Sverige%20efter%20krisen.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f122d/1653653229057/Ett%20starkare%20Sverige%20efter%20krisen.pdf
+fetchedAt: 2026-08-22T13:34:27.549Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Ett-starkare-Sverige-efter-krisen-45b5106b.pdf

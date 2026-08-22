@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Varg"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/varg"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/varg"
-fetchedAt: "2026-08-22T13:32:00.192Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Varg
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/varg
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/varg
+fetchedAt: 2026-08-22T13:32:00.192Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande varg

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Biologisk mångfald"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/biologisk-mangfald"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/biologisk-mangfald"
-fetchedAt: "2026-08-22T13:27:12.406Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Biologisk mångfald
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/biologisk-mangfald
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/biologisk-mangfald
+fetchedAt: 2026-08-22T13:27:12.406Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande biologisk mångfald

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Barnomsorg"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/barnomsorg"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/barnomsorg"
-fetchedAt: "2026-08-22T13:26:59.003Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Barnomsorg
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/barnomsorg
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/barnomsorg
+fetchedAt: 2026-08-22T13:26:59.003Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande barnomsorg.

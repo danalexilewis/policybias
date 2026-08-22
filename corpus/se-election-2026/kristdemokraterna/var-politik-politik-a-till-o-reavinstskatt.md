@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Reavinstskatt"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/reavinstskatt"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/reavinstskatt"
-fetchedAt: "2026-08-22T13:30:32.100Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Reavinstskatt
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/reavinstskatt
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/reavinstskatt
+fetchedAt: 2026-08-22T13:30:32.100Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande reavinstskatt

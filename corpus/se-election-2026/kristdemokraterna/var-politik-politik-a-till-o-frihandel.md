@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Frihandel"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/frihandel"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/frihandel"
-fetchedAt: "2026-08-22T13:28:08.873Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Frihandel
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/frihandel
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/frihandel
+fetchedAt: 2026-08-22T13:28:08.873Z
+contentType: html
+via: party-site
+tags:
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande frihandel

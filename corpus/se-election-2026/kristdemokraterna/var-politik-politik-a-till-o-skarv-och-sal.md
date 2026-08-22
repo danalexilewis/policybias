@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Skarv och säl"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/skarv-och-sal"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/skarv-och-sal"
-fetchedAt: "2026-08-22T13:31:03.605Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Skarv och säl
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/skarv-och-sal
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/skarv-och-sal
+fetchedAt: 2026-08-22T13:31:03.605Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande skarv och säl

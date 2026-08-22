@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Primärvård"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/primarvard"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/primarvard"
-fetchedAt: "2026-08-22T13:30:21.436Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Primärvård
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/primarvard
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/primarvard
+fetchedAt: 2026-08-22T13:30:21.436Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande primärvård.

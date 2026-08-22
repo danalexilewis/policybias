@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Sociala medier"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/sociala-medier"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/sociala-medier"
-fetchedAt: "2026-08-22T13:31:20.408Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Sociala medier
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/sociala-medier
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/sociala-medier
+fetchedAt: 2026-08-22T13:31:20.408Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande sociala medier

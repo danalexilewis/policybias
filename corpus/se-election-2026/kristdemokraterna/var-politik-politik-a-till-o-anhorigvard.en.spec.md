@@ -8,15 +8,15 @@ summary: Brief information regarding KD's policy regarding family care.
 jurisdiction: SE
 sources:
   - title: Anhörigvård
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhorigvard
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhorigvard?open.12_72d9f8c817e8ce3de028d5b=true
 tags:
-  - defence-security
+  - elderly-care
 party: kristdemokraterna
 clusters:
-  - defence-security
+  - elderly-welfare
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-anhorigvard.md
-sourceDigest: "sha256-3e07cbae465af784"
+sourceDigest: sha256-3e07cbae465af784
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +24,7 @@ lang: en
 translationOf: kristdemokraterna-anhorigvard
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-6284ce6be88fa8c7"
+sourceSpecDigest: sha256-6284ce6be88fa8c7
 ---
 
 # What the page states

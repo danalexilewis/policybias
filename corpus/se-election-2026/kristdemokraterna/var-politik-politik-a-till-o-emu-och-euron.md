@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "EMU och Euron"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/emu-och-euron"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/emu-och-euron"
-fetchedAt: "2026-08-22T13:27:45.898Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: EMU och Euron
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/emu-och-euron
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/emu-och-euron
+fetchedAt: 2026-08-22T13:27:45.898Z
+contentType: html
+via: party-site
+tags:
+  - other
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande EMU och Euron.

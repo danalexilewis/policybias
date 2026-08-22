@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Samhällsplanering och byggande"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/samhallsplanering-och-byggande"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/samhallsplanering-och-byggande"
-fetchedAt: "2026-08-22T13:30:50.186Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Samhällsplanering och byggande
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/samhallsplanering-och-byggande
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/samhallsplanering-och-byggande
+fetchedAt: 2026-08-22T13:30:50.186Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande samhällsplanering och byggande

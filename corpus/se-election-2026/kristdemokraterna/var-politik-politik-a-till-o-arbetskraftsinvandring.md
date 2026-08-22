@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Arbetskraftsinvandring"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/arbetskraftsinvandring?open.12_72d9f8c817e8ce3de028d5b=true"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/arbetskraftsinvandring"
-fetchedAt: "2026-08-22T13:35:01.459Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Arbetskraftsinvandring
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/arbetskraftsinvandring?open.12_72d9f8c817e8ce3de028d5b=true
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/arbetskraftsinvandring
+fetchedAt: 2026-08-22T13:35:01.459Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande arbetskraftsinvandring

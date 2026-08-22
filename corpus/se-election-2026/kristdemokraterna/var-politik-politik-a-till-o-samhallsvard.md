@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Samhällsvård"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/samhallsvard"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/samhallsvard"
-fetchedAt: "2026-08-22T13:30:51.608Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Samhällsvård
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/samhallsvard
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/samhallsvard
+fetchedAt: 2026-08-22T13:30:51.608Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande samhällsvård.

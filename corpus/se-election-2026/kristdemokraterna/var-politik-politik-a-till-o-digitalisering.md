@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Digitalisering"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/digitalisering"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/digitalisering"
-fetchedAt: "2026-08-22T13:27:31.251Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Digitalisering
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/digitalisering
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/digitalisering
+fetchedAt: 2026-08-22T13:27:31.251Z
+contentType: html
+via: party-site
+tags:
+  - infrastructure
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande digitalisering

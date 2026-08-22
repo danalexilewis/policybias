@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Offentlig upphandling"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/offentlig-upphandling"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/offentlig-upphandling"
-fetchedAt: "2026-08-22T13:30:08.529Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Offentlig upphandling
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/offentlig-upphandling
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/offentlig-upphandling
+fetchedAt: 2026-08-22T13:30:08.529Z
+contentType: html
+via: party-site
+tags:
+  - cost-of-living
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande offentlig upphandling:

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Rapport-Kvoteringssmockan-9e4a31ae.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.4763c86a19d9a64329a571/1776435608200/Rapport%20Kvoteringssmockan.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.4763c86a19d9a64329a571/1776435608200/Rapport%20Kvoteringssmockan.pdf"
-fetchedAt: "2026-08-22T13:33:51.373Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Rapport-Kvoteringssmockan-9e4a31ae.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.4763c86a19d9a64329a571/1776435608200/Rapport%20Kvoteringssmockan.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.4763c86a19d9a64329a571/1776435608200/Rapport%20Kvoteringssmockan.pdf
+fetchedAt: 2026-08-22T13:33:51.373Z
+contentType: pdf
+via: party-site
+tags:
+  - social-welfare
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Rapport-Kvoteringssmockan-9e4a31ae.pdf

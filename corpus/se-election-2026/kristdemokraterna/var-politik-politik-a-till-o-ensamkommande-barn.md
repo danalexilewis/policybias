@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Ensamkommande barn"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/ensamkommande-barn"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/ensamkommande-barn"
-fetchedAt: "2026-08-22T13:27:49.588Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Ensamkommande barn
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/ensamkommande-barn
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/ensamkommande-barn
+fetchedAt: 2026-08-22T13:27:49.588Z
+contentType: html
+via: party-site
+tags:
+  - defence
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande ensamkommande barn

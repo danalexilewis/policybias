@@ -1,21 +1,22 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-anhoriginvandring
-title: "Anhöriginvandring"
+title: Anhöriginvandring
 status: draft
 updated: 2026-08-22
-summary: "Kort info angående KDs politik rörande anhöriginvandring."
+summary: Kort info angående KDs politik rörande anhöriginvandring.
 jurisdiction: SE
 sources:
-  - title: "Anhöriginvandring"
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhoriginvandring
-tags: [energy-power]
+  - title: Anhöriginvandring
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhoriginvandring?open.12_72d9f8c817e8ce3de028d5b=true
+tags:
+  - immigration
 party: kristdemokraterna
 clusters:
-  - energy-power
+  - migration-integration
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-anhoriginvandring.md
-sourceDigest: "sha256-0160292e80002230"
+sourceDigest: sha256-0160292e80002230
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Strandskydd"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/strandskydd"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/strandskydd"
-fetchedAt: "2026-08-22T13:31:27.633Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Strandskydd
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/strandskydd
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/strandskydd
+fetchedAt: 2026-08-22T13:31:27.633Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande strandskydd

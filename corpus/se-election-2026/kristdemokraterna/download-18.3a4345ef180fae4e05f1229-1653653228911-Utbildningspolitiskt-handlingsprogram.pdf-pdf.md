@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Utbildningspolitiskt-handlingsprogram-68551e4d.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1229/1653653228911/Utbildningspolitiskt%20handlingsprogram.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1229/1653653228911/Utbildningspolitiskt%20handlingsprogram.pdf"
-fetchedAt: "2026-08-22T13:34:31.791Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Utbildningspolitiskt-handlingsprogram-68551e4d.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1229/1653653228911/Utbildningspolitiskt%20handlingsprogram.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.3a4345ef180fae4e05f1229/1653653228911/Utbildningspolitiskt%20handlingsprogram.pdf
+fetchedAt: 2026-08-22T13:34:31.791Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Utbildningspolitiskt-handlingsprogram-68551e4d.pdf

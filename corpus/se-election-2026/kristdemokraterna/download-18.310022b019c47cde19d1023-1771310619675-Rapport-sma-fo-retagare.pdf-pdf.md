@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Rapport-sma-fo-retagare-e6343257.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.310022b019c47cde19d1023/1771310619675/Rapport%20sma%CC%8Afo%CC%88retagare.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.310022b019c47cde19d1023/1771310619675/Rapport%20sma%CC%8Afo%CC%88retagare.pdf"
-fetchedAt: "2026-08-22T13:33:52.732Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Rapport-sma-fo-retagare-e6343257.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.310022b019c47cde19d1023/1771310619675/Rapport%20sma%CC%8Afo%CC%88retagare.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.310022b019c47cde19d1023/1771310619675/Rapport%20sma%CC%8Afo%CC%88retagare.pdf
+fetchedAt: 2026-08-22T13:33:52.732Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+  - education
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Rapport-sma-fo-retagare-e6343257.pdf

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Familjen"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/familjen"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/familjen"
-fetchedAt: "2026-08-22T13:27:58.097Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Familjen
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/familjen
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/familjen
+fetchedAt: 2026-08-22T13:27:58.097Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande familjen.

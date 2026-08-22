@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Arbetsmarknad"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/arbetsmarknad?open.12_72d9f8c817e8ce3de028d5b=true"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/arbetsmarknad"
-fetchedAt: "2026-08-22T13:35:02.611Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Arbetsmarknad
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/arbetsmarknad?open.12_72d9f8c817e8ce3de028d5b=true
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/arbetsmarknad
+fetchedAt: 2026-08-22T13:35:02.611Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Kort info om KD:s politik rörande arbetsmarknaden.**

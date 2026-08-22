@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Brottsoffer"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/brottsoffer"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/brottsoffer"
-fetchedAt: "2026-08-22T13:27:21.398Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Brottsoffer
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/brottsoffer
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/brottsoffer
+fetchedAt: 2026-08-22T13:27:21.398Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande brottsoffer.

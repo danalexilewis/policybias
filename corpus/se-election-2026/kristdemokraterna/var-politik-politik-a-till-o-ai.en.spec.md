@@ -8,15 +8,15 @@ summary: Brief information about KD's policy regarding AI.
 jurisdiction: SE
 sources:
   - title: AI
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/ai
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/ai?open.12_72d9f8c817e8ce3de028d5b=true
 tags:
-  - migration-integration
+  - economy
 party: kristdemokraterna
 clusters:
-  - migration-integration
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-ai.md
-sourceDigest: "sha256-aa90ed4dc090e464"
+sourceDigest: sha256-aa90ed4dc090e464
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +24,7 @@ lang: en
 translationOf: kristdemokraterna-ai
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-6e5288cc6f2ae28d"
+sourceSpecDigest: sha256-6e5288cc6f2ae28d
 ---
 
 # What the page states

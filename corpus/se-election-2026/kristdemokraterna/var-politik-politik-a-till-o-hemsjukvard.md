@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Hemsjukvård"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hemsjukvard"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hemsjukvard"
-fetchedAt: "2026-08-22T13:28:46.745Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Hemsjukvård
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hemsjukvard
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hemsjukvard
+fetchedAt: 2026-08-22T13:28:46.745Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande hemsjukvård.

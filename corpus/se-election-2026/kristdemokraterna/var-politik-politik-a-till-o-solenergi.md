@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Solenergi"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/solenergi"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/solenergi"
-fetchedAt: "2026-08-22T13:31:23.456Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Solenergi
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/solenergi
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/solenergi
+fetchedAt: 2026-08-22T13:31:23.456Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande solenergi

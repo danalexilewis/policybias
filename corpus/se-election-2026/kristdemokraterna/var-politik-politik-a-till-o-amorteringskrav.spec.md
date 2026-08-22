@@ -1,21 +1,22 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-amorteringskrav
-title: "Amorteringskrav"
+title: Amorteringskrav
 status: draft
 updated: 2026-08-22
-summary: "Kort info angående KD:s politik rörande amorteringskrav."
+summary: Kort info angående KD:s politik rörande amorteringskrav.
 jurisdiction: SE
 sources:
-  - title: "Amorteringskrav"
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/amorteringskrav
-tags: [climate-environment]
+  - title: Amorteringskrav
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/amorteringskrav?open.12_72d9f8c817e8ce3de028d5b=true
+tags:
+  - other
 party: kristdemokraterna
 clusters:
-  - climate-environment
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-amorteringskrav.md
-sourceDigest: "sha256-4349dbf1cff00d86"
+sourceDigest: sha256-4349dbf1cff00d86
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

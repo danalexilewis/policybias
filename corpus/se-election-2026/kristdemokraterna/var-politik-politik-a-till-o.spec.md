@@ -1,21 +1,23 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o
-title: "Politik A till Ö"
+title: Politik A till Ö
 status: draft
 updated: 2026-08-22
-summary: "På denna sida hittar du Kristdemokraternas politik på en stor mängd områden, sorterade i alfabetisk ordning."
+summary: På denna sida hittar du Kristdemokraternas politik på en stor mängd områden,
+  sorterade i alfabetisk ordning.
 jurisdiction: SE
 sources:
-  - title: "Politik A till Ö"
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o
-tags: [health-care]
+  - title: Politik A till Ö
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o?open.12_72d9f8c817e8ce3de028d5b=true
+tags:
+  - other
 party: kristdemokraterna
 clusters:
-  - health-care
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o.md
-sourceDigest: "sha256-f7189bbf3814295e"
+sourceDigest: sha256-f7189bbf3814295e
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

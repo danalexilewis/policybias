@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Tiggeri"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/tiggeri"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/tiggeri"
-fetchedAt: "2026-08-22T13:31:36.482Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Tiggeri
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/tiggeri
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/tiggeri
+fetchedAt: 2026-08-22T13:31:36.482Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande tiggeri.

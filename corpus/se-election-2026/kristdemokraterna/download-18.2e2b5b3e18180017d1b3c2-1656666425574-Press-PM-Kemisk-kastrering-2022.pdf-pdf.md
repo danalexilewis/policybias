@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Press-PM-Kemisk-kastrering-2022-2410cbd3.pdf"
-sourceUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b3c2/1656666425574/Press-PM%20Kemisk%20kastrering-2022.pdf"
-canonicalUrl: "https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b3c2/1656666425574/Press-PM%20Kemisk%20kastrering-2022.pdf"
-fetchedAt: "2026-08-22T13:34:15.661Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Press-PM-Kemisk-kastrering-2022-2410cbd3.pdf
+sourceUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b3c2/1656666425574/Press-PM%20Kemisk%20kastrering-2022.pdf
+canonicalUrl: https://kristdemokraterna.se/download/18.2e2b5b3e18180017d1b3c2/1656666425574/Press-PM%20Kemisk%20kastrering-2022.pdf
+fetchedAt: 2026-08-22T13:34:15.661Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Press-PM-Kemisk-kastrering-2022-2410cbd3.pdf

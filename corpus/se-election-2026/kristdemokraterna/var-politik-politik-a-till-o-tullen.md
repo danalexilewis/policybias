@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Tullen"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/tullen"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/tullen"
-fetchedAt: "2026-08-22T13:31:44.441Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Tullen
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/tullen
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/tullen
+fetchedAt: 2026-08-22T13:31:44.441Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande tullen.

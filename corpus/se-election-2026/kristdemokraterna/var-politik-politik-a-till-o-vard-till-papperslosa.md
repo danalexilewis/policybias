@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Vård till papperslösa"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vard-till-papperslosa"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/vard-till-papperslosa"
-fetchedAt: "2026-08-22T13:32:09.472Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Vård till papperslösa
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vard-till-papperslosa
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/vard-till-papperslosa
+fetchedAt: 2026-08-22T13:32:09.472Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande vård till papperslösa.

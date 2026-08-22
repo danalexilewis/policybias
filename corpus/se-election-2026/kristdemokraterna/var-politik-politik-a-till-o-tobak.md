@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Tobak"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/tobak"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/tobak"
-fetchedAt: "2026-08-22T13:31:38.342Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Tobak
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/tobak
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/tobak
+fetchedAt: 2026-08-22T13:31:38.342Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande tobak.

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Mänskliga fri- och rättigheter"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/manskliga-fri--och-rattigheter"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/manskliga-fri--och-rattigheter"
-fetchedAt: "2026-08-22T13:30:02.023Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Mänskliga fri- och rättigheter
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/manskliga-fri--och-rattigheter
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/manskliga-fri--och-rattigheter
+fetchedAt: 2026-08-22T13:30:02.023Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande mänskliga fri- och rättigheter.

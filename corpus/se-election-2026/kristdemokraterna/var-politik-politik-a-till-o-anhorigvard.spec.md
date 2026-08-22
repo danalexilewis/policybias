@@ -1,21 +1,22 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-anhorigvard
-title: "Anhörigvård"
+title: Anhörigvård
 status: draft
 updated: 2026-08-22
-summary: "Kort info angående KD:s politik rörande anhörigvård."
+summary: Kort info angående KD:s politik rörande anhörigvård.
 jurisdiction: SE
 sources:
-  - title: "Anhörigvård"
-    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhorigvard
-tags: [defence-security]
+  - title: Anhörigvård
+    url: https://kristdemokraterna.se/var-politik/politik-a-till-o/anhorigvard?open.12_72d9f8c817e8ce3de028d5b=true
+tags:
+  - elderly-care
 party: kristdemokraterna
 clusters:
-  - defence-security
+  - elderly-welfare
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-anhorigvard.md
-sourceDigest: "sha256-3e07cbae465af784"
+sourceDigest: sha256-3e07cbae465af784
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

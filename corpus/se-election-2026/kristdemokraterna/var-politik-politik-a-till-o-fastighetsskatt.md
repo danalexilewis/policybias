@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Fastighetsskatt"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/fastighetsskatt"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/fastighetsskatt"
-fetchedAt: "2026-08-22T13:27:59.429Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Fastighetsskatt
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/fastighetsskatt
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/fastighetsskatt
+fetchedAt: 2026-08-22T13:27:59.429Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande fastighetsskatt

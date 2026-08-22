@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Kollektivtrafik"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/kollektivtrafik"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/kollektivtrafik"
-fetchedAt: "2026-08-22T13:29:26.975Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Kollektivtrafik
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/kollektivtrafik
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/kollektivtrafik
+fetchedAt: 2026-08-22T13:29:26.975Z
+contentType: html
+via: party-site
+tags:
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KDs politik rörande kollektivtrafik

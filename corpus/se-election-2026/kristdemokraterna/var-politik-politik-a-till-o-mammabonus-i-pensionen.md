@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Mammabonus i pensionen"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/mammabonus-i-pensionen"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/mammabonus-i-pensionen"
-fetchedAt: "2026-08-22T13:29:50.280Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Mammabonus i pensionen
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/mammabonus-i-pensionen
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/mammabonus-i-pensionen
+fetchedAt: 2026-08-22T13:29:50.280Z
+contentType: html
+via: party-site
+tags:
+  - pensions
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Kort info om KDs politik rörande mammabonus i pensionen

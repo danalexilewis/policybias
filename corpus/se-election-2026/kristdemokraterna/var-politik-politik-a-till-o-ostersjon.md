@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Östersjön"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/ostersjon"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/ostersjon"
-fetchedAt: "2026-08-22T13:32:25.303Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Östersjön
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/ostersjon
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/ostersjon
+fetchedAt: 2026-08-22T13:32:25.303Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande Östersjön.

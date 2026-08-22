@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Skogsbruk"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/skogsbruk"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/skogsbruk"
-fetchedAt: "2026-08-22T13:31:05.677Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Skogsbruk
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/skogsbruk
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/skogsbruk
+fetchedAt: 2026-08-22T13:31:05.677Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande skogsbruk:

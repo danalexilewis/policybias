@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "kristdemokraterna"
-title: "Hemlöshet"
-sourceUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hemloshet"
-canonicalUrl: "https://kristdemokraterna.se/var-politik/politik-a-till-o/hemloshet"
-fetchedAt: "2026-08-22T13:28:45.158Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: kristdemokraterna
+title: Hemlöshet
+sourceUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hemloshet
+canonicalUrl: https://kristdemokraterna.se/var-politik/politik-a-till-o/hemloshet
+fetchedAt: 2026-08-22T13:28:45.158Z
+contentType: html
+via: party-site
+tags:
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kort info om KD:s politik rörande hemlöshet.

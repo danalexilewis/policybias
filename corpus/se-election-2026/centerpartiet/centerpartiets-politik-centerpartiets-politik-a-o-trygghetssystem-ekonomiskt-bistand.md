@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Ekonomiskt bistånd"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem/ekonomiskt-bistand"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem/ekonomiskt-bistand"
-fetchedAt: "2026-08-22T13:16:17.585Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Ekonomiskt bistånd
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem/ekonomiskt-bistand
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem/ekonomiskt-bistand
+fetchedAt: 2026-08-22T13:16:17.585Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Från bidrag till egen försörjning

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Sjöfart och hamnar"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter/sjofart-och-hamnar"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter/sjofart-och-hamnar"
-fetchedAt: "2026-08-22T13:15:15.930Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Sjöfart och hamnar
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter/sjofart-och-hamnar
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter/sjofart-och-hamnar
+fetchedAt: 2026-08-22T13:15:15.930Z
+contentType: html
+via: party-site
+tags:
+  - climate
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## En livsviktig näring med dubbla utmaningar

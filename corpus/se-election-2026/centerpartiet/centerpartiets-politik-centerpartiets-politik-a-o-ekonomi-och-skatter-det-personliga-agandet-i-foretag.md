@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Det personliga ägandet i företag"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter/det-personliga-agandet-i-foretag"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter/det-personliga-agandet-i-foretag"
-fetchedAt: "2026-08-22T13:14:06.330Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Det personliga ägandet i företag
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter/det-personliga-agandet-i-foretag
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter/det-personliga-agandet-i-foretag
+fetchedAt: 2026-08-22T13:14:06.330Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## När du får äga en del av företaget växer ni tillsammans

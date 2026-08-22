@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Offentlig sektor och klimatet"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/offentlig-sektor-och-klimatet"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/offentlig-sektor-och-klimatet"
-fetchedAt: "2026-08-22T13:16:14.151Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Offentlig sektor och klimatet
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/offentlig-sektor-och-klimatet
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/offentlig-sektor-och-klimatet
+fetchedAt: 2026-08-22T13:16:14.151Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## **När det offentliga inte lever som de lär – varför vi måste agera**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Ekonomisk politik"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter/ekonomisk-politik"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter/ekonomisk-politik"
-fetchedAt: "2026-08-22T13:14:11.392Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Ekonomisk politik
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter/ekonomisk-politik
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter/ekonomisk-politik
+fetchedAt: 2026-08-22T13:14:11.392Z
+contentType: html
+via: party-site
+tags:
+  - taxation
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Fler måste få känna tryggheten av ett jobb

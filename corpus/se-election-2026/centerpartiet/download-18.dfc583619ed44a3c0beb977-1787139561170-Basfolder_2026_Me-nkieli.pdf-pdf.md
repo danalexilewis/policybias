@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_Me-nkieli-063a66b6.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb977/1787139561170/Basfolder_2026_Me%C3%A4nkieli.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb977/1787139561170/Basfolder_2026_Me%C3%A4nkieli.pdf"
-fetchedAt: "2026-08-22T13:13:51.072Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_Me-nkieli-063a66b6.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb977/1787139561170/Basfolder_2026_Me%C3%A4nkieli.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb977/1787139561170/Basfolder_2026_Me%C3%A4nkieli.pdf
+fetchedAt: 2026-08-22T13:13:51.072Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_Me-nkieli-063a66b6.pdf

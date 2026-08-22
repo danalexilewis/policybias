@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "EU:s jordbrukspolitik"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/europa-och-eu/eus-jordbrukspolitik"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/europa-och-eu/eus-jordbrukspolitik"
-fetchedAt: "2026-08-22T13:14:22.980Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: EU:s jordbrukspolitik
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/europa-och-eu/eus-jordbrukspolitik
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/europa-och-eu/eus-jordbrukspolitik
+fetchedAt: 2026-08-22T13:14:22.980Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - eu
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Rättvisa villkor för svenska bönder – och varför EU-politiken måste bli enklare

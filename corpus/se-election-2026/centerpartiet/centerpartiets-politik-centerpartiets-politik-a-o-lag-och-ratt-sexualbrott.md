@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Sexualbrott"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/sexualbrott"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/sexualbrott"
-fetchedAt: "2026-08-22T13:16:00.464Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Sexualbrott
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/sexualbrott
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/sexualbrott
+fetchedAt: 2026-08-22T13:16:00.464Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ### **Sexuella övergrepp är ett samhällsproblem**

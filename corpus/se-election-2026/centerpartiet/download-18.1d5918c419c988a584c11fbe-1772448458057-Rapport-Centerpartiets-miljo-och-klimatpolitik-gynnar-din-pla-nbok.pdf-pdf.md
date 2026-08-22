@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Rapport-Centerpartiets-miljo-och-klimatpolitik-gynnar-din-pla-nbok-0b18cc85.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.1d5918c419c988a584c11fbe/1772448458057/Rapport%20Centerpartiets%20miljo%CC%88%20och%20klimatpolitik%20gynnar%20din%20pla%CC%8Anbok.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.1d5918c419c988a584c11fbe/1772448458057/Rapport%20Centerpartiets%20miljo%CC%88%20och%20klimatpolitik%20gynnar%20din%20pla%CC%8Anbok.pdf"
-fetchedAt: "2026-08-22T13:16:02.683Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Rapport-Centerpartiets-miljo-och-klimatpolitik-gynnar-din-pla-nbok-0b18cc85.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.1d5918c419c988a584c11fbe/1772448458057/Rapport%20Centerpartiets%20miljo%CC%88%20och%20klimatpolitik%20gynnar%20din%20pla%CC%8Anbok.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.1d5918c419c988a584c11fbe/1772448458057/Rapport%20Centerpartiets%20miljo%CC%88%20och%20klimatpolitik%20gynnar%20din%20pla%CC%8Anbok.pdf
+fetchedAt: 2026-08-22T13:16:02.683Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # Rapport-Centerpartiets-miljo-och-klimatpolitik-gynnar-din-pla-nbok-0b18cc85.pdf

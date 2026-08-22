@@ -4,20 +4,21 @@ id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-diskrimineri
 title: We use cookies
 status: draft
 updated: 2026-08-22
-summary: We use cookies to improve the functionality of the website. You decide
-  yourself how cookies may be used.
+summary: We use cookies to improve the functionality of the website. You decide yourself
+  how cookies may be used.
 jurisdiction: SE
 sources:
   - title: Vi använder kakor (cookies)
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/diskriminering
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/diskriminering?open.12_46b9bcc319684ded02b1159=true
 tags:
-  - elderly-welfare
+  - crime-and-justice
+  - gender-equality
 party: centerpartiet
 clusters:
-  - elderly-welfare
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-diskriminering.md
-sourceDigest: "sha256-f33dab03b04cfac6"
+sourceDigest: sha256-f33dab03b04cfac6
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -25,7 +26,7 @@ lang: en
 translationOf: centerpartiet-diskriminering
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-dcdafe824693b96b"
+sourceSpecDigest: sha256-dcdafe824693b96b
 ---
 
 # What the page states

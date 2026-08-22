@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_Somaliska-e7f7ad8c.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb97a/1787139561576/Basfolder_2026_Somaliska.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb97a/1787139561576/Basfolder_2026_Somaliska.pdf"
-fetchedAt: "2026-08-22T13:13:53.956Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_Somaliska-e7f7ad8c.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb97a/1787139561576/Basfolder_2026_Somaliska.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb97a/1787139561576/Basfolder_2026_Somaliska.pdf
+fetchedAt: 2026-08-22T13:13:53.956Z
+contentType: pdf
+via: party-site
+tags:
+  - other
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_Somaliska-e7f7ad8c.pdf

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Utbildning"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning?open.12_46b9bcc319684ded02b1159=true"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning"
-fetchedAt: "2026-08-22T13:16:18.127Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Utbildning
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning?open.12_46b9bcc319684ded02b1159=true
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning
+fetchedAt: 2026-08-22T13:16:18.127Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Svensk skola fungerar överlag bra. Eleverna presterar exempelvis bättre än OECD-snittet i kunskapsmätningar som Pisa och i stora delar av landet finns goda förutsättningarna för en bra och trygg skolgång. Men det finns också utmaningar som vi behöver ta tag i.

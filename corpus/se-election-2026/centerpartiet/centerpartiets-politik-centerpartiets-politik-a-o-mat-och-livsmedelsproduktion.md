@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Mat och livsmedelsproduktion"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion?open.12_46b9bcc319684ded02b1159=true"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion"
-fetchedAt: "2026-08-22T13:16:05.175Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Mat och livsmedelsproduktion
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion?open.12_46b9bcc319684ded02b1159=true
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion
+fetchedAt: 2026-08-22T13:16:05.175Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Trygg mat från svenska gårdar – och varför tydliga regler behövs

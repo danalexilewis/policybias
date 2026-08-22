@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Fråga C"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/fraga-c"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/fraga-c"
-fetchedAt: "2026-08-22T13:13:42.924Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Fråga C
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/fraga-c
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/fraga-c
+fetchedAt: 2026-08-22T13:13:42.924Z
+contentType: html
+via: party-site
+tags:
+  - other
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Vi använder kakor (cookies)

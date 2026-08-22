@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Funktionsrätt"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/diskriminering/funktionsratt"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/diskriminering/funktionsratt"
-fetchedAt: "2026-08-22T13:14:04.214Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Funktionsrätt
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/diskriminering/funktionsratt
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/diskriminering/funktionsratt
+fetchedAt: 2026-08-22T13:14:04.214Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Ett samhälle för alla – inte för några få

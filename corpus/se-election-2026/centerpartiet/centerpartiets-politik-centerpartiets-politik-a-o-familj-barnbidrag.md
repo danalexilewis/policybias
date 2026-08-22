@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Barnbidrag"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/familj/barnbidrag"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/familj/barnbidrag"
-fetchedAt: "2026-08-22T13:14:31.084Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Barnbidrag
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/familj/barnbidrag
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/familj/barnbidrag
+fetchedAt: 2026-08-22T13:14:31.084Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## En trygghet i vardagen – och varför den ska finnas där för alla

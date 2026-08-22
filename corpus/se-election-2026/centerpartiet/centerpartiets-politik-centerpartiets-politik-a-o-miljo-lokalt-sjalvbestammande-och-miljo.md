@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Lokalt självbestämmande och miljö"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/lokalt-sjalvbestammande-och-miljo"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/lokalt-sjalvbestammande-och-miljo"
-fetchedAt: "2026-08-22T13:16:12.499Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Lokalt självbestämmande och miljö
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/lokalt-sjalvbestammande-och-miljo
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/lokalt-sjalvbestammande-och-miljo
+fetchedAt: 2026-08-22T13:16:12.499Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## **När den lokala kunskapen tystnar – varför vi måste lita på de som känner platserna**

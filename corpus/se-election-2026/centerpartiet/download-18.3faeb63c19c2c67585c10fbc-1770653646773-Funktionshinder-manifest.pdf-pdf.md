@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Funktionshinder-manifest-79f23ebe.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.3faeb63c19c2c67585c10fbc/1770653646773/Funktionshinder%20manifest.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.3faeb63c19c2c67585c10fbc/1770653646773/Funktionshinder%20manifest.pdf"
-fetchedAt: "2026-08-22T13:14:03.965Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Funktionshinder-manifest-79f23ebe.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.3faeb63c19c2c67585c10fbc/1770653646773/Funktionshinder%20manifest.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.3faeb63c19c2c67585c10fbc/1770653646773/Funktionshinder%20manifest.pdf
+fetchedAt: 2026-08-22T13:14:03.965Z
+contentType: pdf
+via: party-site
+tags:
+  - gender-equality
+  - social-welfare
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Funktionshinder-manifest-79f23ebe.pdf

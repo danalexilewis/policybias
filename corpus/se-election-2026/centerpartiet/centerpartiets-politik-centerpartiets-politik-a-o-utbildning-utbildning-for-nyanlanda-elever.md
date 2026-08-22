@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Utbildning för nyanlända elever"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/utbildning-for-nyanlanda-elever"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/utbildning-for-nyanlanda-elever"
-fetchedAt: "2026-08-22T13:16:42.067Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Utbildning för nyanlända elever
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/utbildning-for-nyanlanda-elever
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/utbildning-for-nyanlanda-elever
+fetchedAt: 2026-08-22T13:16:42.067Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## **Språket är avgörande för att lyckas i skolan och samhället i stort**

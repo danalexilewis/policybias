@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Ekonomisk jämställdhet"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/jamstalldhet/ekonomisk-jamstalldhet"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/jamstalldhet/ekonomisk-jamstalldhet"
-fetchedAt: "2026-08-22T13:14:11.148Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Ekonomisk jämställdhet
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/jamstalldhet/ekonomisk-jamstalldhet
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/jamstalldhet/ekonomisk-jamstalldhet
+fetchedAt: 2026-08-22T13:14:11.148Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Varför ekonomisk ojämlikhet är en frihetsfråga

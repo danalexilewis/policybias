@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_Arabiska-d87e6347.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb970/1787139560230/Basfolder_2026_Arabiska.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb970/1787139560230/Basfolder_2026_Arabiska.pdf"
-fetchedAt: "2026-08-22T13:13:45.190Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_Arabiska-d87e6347.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb970/1787139560230/Basfolder_2026_Arabiska.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb970/1787139560230/Basfolder_2026_Arabiska.pdf
+fetchedAt: 2026-08-22T13:13:45.190Z
+contentType: pdf
+via: party-site
+tags:
+  - other
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_Arabiska-d87e6347.pdf

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Studiemedel"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/studiemedel"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/studiemedel"
-fetchedAt: "2026-08-22T13:16:41.335Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Studiemedel
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/studiemedel
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/studiemedel
+fetchedAt: 2026-08-22T13:16:41.335Z
+contentType: html
+via: party-site
+tags:
+  - employment
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## **Ett studiemedel som öppnar dörrar till jobb och studier genom hela livet**

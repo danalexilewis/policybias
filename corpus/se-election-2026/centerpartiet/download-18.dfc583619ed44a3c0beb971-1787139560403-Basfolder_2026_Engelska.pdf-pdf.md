@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_Engelska-69e97d29.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb971/1787139560403/Basfolder_2026_Engelska.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb971/1787139560403/Basfolder_2026_Engelska.pdf"
-fetchedAt: "2026-08-22T13:13:45.962Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_Engelska-69e97d29.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb971/1787139560403/Basfolder_2026_Engelska.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb971/1787139560403/Basfolder_2026_Engelska.pdf
+fetchedAt: 2026-08-22T13:13:45.962Z
+contentType: pdf
+via: party-site
+tags:
+  - immigration
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_Engelska-69e97d29.pdf

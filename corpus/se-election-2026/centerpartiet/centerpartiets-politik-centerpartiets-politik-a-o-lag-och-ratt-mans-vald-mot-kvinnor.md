@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Mäns våld mot kvinnor"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/mans-vald-mot-kvinnor"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/mans-vald-mot-kvinnor"
-fetchedAt: "2026-08-22T13:16:00.101Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Mäns våld mot kvinnor
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/mans-vald-mot-kvinnor
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/mans-vald-mot-kvinnor
+fetchedAt: 2026-08-22T13:16:00.101Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ### **Att vara rädd i sitt eget hem är en oacceptabel frihetskränkning**

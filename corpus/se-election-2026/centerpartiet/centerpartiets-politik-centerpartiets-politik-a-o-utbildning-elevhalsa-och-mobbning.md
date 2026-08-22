@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Elevhälsa och mobbning"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/elevhalsa-och-mobbning"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/elevhalsa-och-mobbning"
-fetchedAt: "2026-08-22T13:16:18.840Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Elevhälsa och mobbning
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/elevhalsa-och-mobbning
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning/elevhalsa-och-mobbning
+fetchedAt: 2026-08-22T13:16:18.840Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - healthcare
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## **Alla elever har rätt till en trygg skola**

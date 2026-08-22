@@ -1,17 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Familj"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/familj?open.12_46b9bcc319684ded02b1159=true"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/familj"
-fetchedAt: "2026-08-22T13:14:28.155Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: centerpartiet
+title: Familj
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/familj?open.12_46b9bcc319684ded02b1159=true
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/familj
+fetchedAt: 2026-08-22T13:14:28.155Z
+contentType: html
+via: party-site
 tags:
-  - "defence-security"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - economy
+  - healthcare
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Centerpartiet vill att alla barn ska få en så trygg uppväxt som möjligt. Därför behövs det en modern familjerätt som tar hänsyn till barnets bästa och till att familjer är olika. För Centerpartiet ska familjepolitiken ge människor stor frihet att leva det liv som de själva vill.

@@ -1,17 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Energi"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi?open.12_46b9bcc319684ded02b1159=true"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi"
-fetchedAt: "2026-08-22T13:14:13.904Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: centerpartiet
+title: Energi
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi?open.12_46b9bcc319684ded02b1159=true
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi
+fetchedAt: 2026-08-22T13:14:13.904Z
+contentType: html
+via: party-site
 tags:
-  - "energy-power"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - climate
+  - energy
+  - economy
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 ## Varför behövs en ny energipolitik?

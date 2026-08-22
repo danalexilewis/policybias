@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Sveriges elförsörjning"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi/sveriges-elforsorjning"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi/sveriges-elforsorjning"
-fetchedAt: "2026-08-22T13:14:17.439Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Sveriges elförsörjning
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi/sveriges-elforsorjning
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi/sveriges-elforsorjning
+fetchedAt: 2026-08-22T13:14:17.439Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Centerpartiet har en strategi för Sveriges energiförsörjning. Vi vill kraftigt bygga ut produktionen av fossilfri elproduktion, för vår säkerhet, för sänkta elräkningar, för att växla upp klimatarbetet och för att se till att Sverige kan fortsätta växa och skapa nya gröna jobb i hela landet. För att lyckas med omställningen till ett hållbart samhälle måste vi ställa om från smutsig olja till grön energi.

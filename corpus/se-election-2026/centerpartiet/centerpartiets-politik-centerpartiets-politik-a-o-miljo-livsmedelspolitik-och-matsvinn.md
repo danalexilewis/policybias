@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Livsmedelspolitik och matsvinn"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/livsmedelspolitik-och-matsvinn"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/livsmedelspolitik-och-matsvinn"
-fetchedAt: "2026-08-22T13:16:12.276Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Livsmedelspolitik och matsvinn
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/livsmedelspolitik-och-matsvinn
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/livsmedelspolitik-och-matsvinn
+fetchedAt: 2026-08-22T13:16:12.276Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## **När maten slängs i onödan – varför vi måste tänka om**

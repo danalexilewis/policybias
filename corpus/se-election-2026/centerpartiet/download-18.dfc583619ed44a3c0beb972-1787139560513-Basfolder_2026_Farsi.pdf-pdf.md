@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_Farsi-67b559db.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb972/1787139560513/Basfolder_2026_Farsi.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb972/1787139560513/Basfolder_2026_Farsi.pdf"
-fetchedAt: "2026-08-22T13:13:47.091Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_Farsi-67b559db.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb972/1787139560513/Basfolder_2026_Farsi.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb972/1787139560513/Basfolder_2026_Farsi.pdf
+fetchedAt: 2026-08-22T13:13:47.091Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_Farsi-67b559db.pdf

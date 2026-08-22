@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_Finska-b401c900.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb973/1787139560656/Basfolder_2026_Finska.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb973/1787139560656/Basfolder_2026_Finska.pdf"
-fetchedAt: "2026-08-22T13:13:47.986Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_Finska-b401c900.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb973/1787139560656/Basfolder_2026_Finska.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb973/1787139560656/Basfolder_2026_Finska.pdf
+fetchedAt: 2026-08-22T13:13:47.986Z
+contentType: pdf
+via: party-site
+tags:
+  - energy
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_Finska-b401c900.pdf

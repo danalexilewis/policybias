@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Trygghet och brottsförebyggande arbete"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/trygghet-och-brottsforebyggande-arbete"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/trygghet-och-brottsforebyggande-arbete"
-fetchedAt: "2026-08-22T13:16:04.399Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Trygghet och brottsförebyggande arbete
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/trygghet-och-brottsforebyggande-arbete
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/trygghet-och-brottsforebyggande-arbete
+fetchedAt: 2026-08-22T13:16:04.399Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## **Trygghet är en frihetsfråga – därför måste vi stoppa brotten innan de sker**

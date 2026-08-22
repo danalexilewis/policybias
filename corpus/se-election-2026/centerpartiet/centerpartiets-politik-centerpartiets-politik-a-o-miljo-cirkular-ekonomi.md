@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Cirkulär ekonomi"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/cirkular-ekonomi"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/cirkular-ekonomi"
-fetchedAt: "2026-08-22T13:16:11.234Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Cirkulär ekonomi
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/cirkular-ekonomi
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/miljo/cirkular-ekonomi
+fetchedAt: 2026-08-22T13:16:11.234Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## **Från slit och släng till smarta kretslopp – varför vi måste ändra kurs**

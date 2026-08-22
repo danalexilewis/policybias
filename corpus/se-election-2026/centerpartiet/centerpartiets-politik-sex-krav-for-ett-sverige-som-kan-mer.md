@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Sex krav för ett Sverige som kan mer"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/sex-krav-for-ett-sverige-som-kan-mer"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/sex-krav-for-ett-sverige-som-kan-mer"
-fetchedAt: "2026-08-22T13:13:43.234Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Sex krav för ett Sverige som kan mer
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/sex-krav-for-ett-sverige-som-kan-mer
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/sex-krav-for-ett-sverige-som-kan-mer
+fetchedAt: 2026-08-22T13:13:43.234Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - healthcare
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Sverige står inför stora utmaningar. Arbetslösheten är hög, klimatomställningen behöver få ny fart och alltför många upplever att vården och skolan inte räcker till. Samtidigt blir debatten allt mer polariserad, där enkla svar får ersätta långsiktiga lösningar.

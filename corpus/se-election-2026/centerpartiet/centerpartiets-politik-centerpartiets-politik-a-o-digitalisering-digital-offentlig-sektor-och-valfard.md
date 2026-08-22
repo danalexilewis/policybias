@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Digital offentlig sektor och välfärd"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering/digital-offentlig-sektor-och-valfard"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering/digital-offentlig-sektor-och-valfard"
-fetchedAt: "2026-08-22T13:14:00.199Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Digital offentlig sektor och välfärd
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering/digital-offentlig-sektor-och-valfard
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering/digital-offentlig-sektor-och-valfard
+fetchedAt: 2026-08-22T13:14:00.199Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - healthcare
+  - infrastructure
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## En offentlig sektor som är fast i det förflutna

@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Demokrati"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/demokrati?open.12_46b9bcc319684ded02b1159=true"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/demokrati"
-fetchedAt: "2026-08-22T13:14:03.016Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: centerpartiet
+title: Demokrati
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/demokrati?open.12_46b9bcc319684ded02b1159=true
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/demokrati
+fetchedAt: 2026-08-22T13:14:03.016Z
+contentType: html
+via: party-site
 tags:
-  - "migration-integration"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - democracy
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 ## Demokratin är hotad – och måste försvaras aktivt

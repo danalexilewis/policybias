@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_Nordsamiska-949588c9.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb978/1787139561305/Basfolder_2026_Nordsamiska.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb978/1787139561305/Basfolder_2026_Nordsamiska.pdf"
-fetchedAt: "2026-08-22T13:13:52.092Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_Nordsamiska-949588c9.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb978/1787139561305/Basfolder_2026_Nordsamiska.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb978/1787139561305/Basfolder_2026_Nordsamiska.pdf
+fetchedAt: 2026-08-22T13:13:52.092Z
+contentType: pdf
+via: party-site
+tags:
+  - economy
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_Nordsamiska-949588c9.pdf

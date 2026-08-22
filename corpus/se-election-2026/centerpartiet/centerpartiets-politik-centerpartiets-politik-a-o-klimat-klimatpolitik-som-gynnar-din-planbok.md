@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Klimatpolitik som gynnar din plånbok"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat/klimatpolitik-som-gynnar-din-planbok"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat/klimatpolitik-som-gynnar-din-planbok"
-fetchedAt: "2026-08-22T13:16:01.707Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Klimatpolitik som gynnar din plånbok
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat/klimatpolitik-som-gynnar-din-planbok
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat/klimatpolitik-som-gynnar-din-planbok
+fetchedAt: 2026-08-22T13:16:01.707Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Det ska vara billigt att göra rätt för klimatet. Centerpartiets miljö- och klimatpolitik sänker hushållens kostnader här och nu. Med våra reformer blir gröna alternativ billigare än de fossila, samtidigt som vi tar ansvar för kommande generationer. Med Centerpartiets miljö- och klimatpolitik sparar ett hushåll mellan 62 000 och 97 000 kronor per år, samtidigt som de minskar sina utsläpp.

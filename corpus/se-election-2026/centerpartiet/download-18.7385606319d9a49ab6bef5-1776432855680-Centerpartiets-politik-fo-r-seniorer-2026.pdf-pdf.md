@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Centerpartiets-politik-fo-r-seniorer-2026-9e98537c.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.7385606319d9a49ab6bef5/1776432855680/Centerpartiets%20politik%20fo%CC%88r%20seniorer%202026.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.7385606319d9a49ab6bef5/1776432855680/Centerpartiets%20politik%20fo%CC%88r%20seniorer%202026.pdf"
-fetchedAt: "2026-08-22T13:16:16.607Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Centerpartiets-politik-fo-r-seniorer-2026-9e98537c.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.7385606319d9a49ab6bef5/1776432855680/Centerpartiets%20politik%20fo%CC%88r%20seniorer%202026.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.7385606319d9a49ab6bef5/1776432855680/Centerpartiets%20politik%20fo%CC%88r%20seniorer%202026.pdf
+fetchedAt: 2026-08-22T13:16:16.607Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Centerpartiets-politik-fo-r-seniorer-2026-9e98537c.pdf

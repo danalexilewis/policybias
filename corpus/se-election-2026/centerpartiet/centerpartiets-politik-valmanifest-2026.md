@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Valmanifest 2026"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/valmanifest-2026"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/valmanifest-2026"
-fetchedAt: "2026-08-22T13:13:43.094Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Valmanifest 2026
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/valmanifest-2026
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/valmanifest-2026
+fetchedAt: 2026-08-22T13:13:43.094Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - economy
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## Centerpartiets valmanifest 2026: Sverige kan mer

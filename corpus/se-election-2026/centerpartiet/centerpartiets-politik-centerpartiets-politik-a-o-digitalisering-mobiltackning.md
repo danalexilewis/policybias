@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Mobiltäckning"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering/mobiltackning"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering/mobiltackning"
-fetchedAt: "2026-08-22T13:14:01.218Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Mobiltäckning
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering/mobiltackning
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering/mobiltackning
+fetchedAt: 2026-08-22T13:14:01.218Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - infrastructure
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Staten måste bidra för fungerande mobiltelefoni i hela landet

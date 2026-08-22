@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_Franska-076ac95a.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb974/1787139560770/Basfolder_2026_Franska.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb974/1787139560770/Basfolder_2026_Franska.pdf"
-fetchedAt: "2026-08-22T13:13:48.999Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_Franska-076ac95a.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb974/1787139560770/Basfolder_2026_Franska.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb974/1787139560770/Basfolder_2026_Franska.pdf
+fetchedAt: 2026-08-22T13:13:48.999Z
+contentType: pdf
+via: party-site
+tags:
+  - energy
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_Franska-076ac95a.pdf

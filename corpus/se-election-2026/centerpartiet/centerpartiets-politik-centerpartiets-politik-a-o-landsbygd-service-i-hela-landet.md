@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Service i hela landet"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/landsbygd/service-i-hela-landet"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/landsbygd/service-i-hela-landet"
-fetchedAt: "2026-08-22T13:16:04.968Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Service i hela landet
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/landsbygd/service-i-hela-landet
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/landsbygd/service-i-hela-landet
+fetchedAt: 2026-08-22T13:16:04.968Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 ## Statens närvaro minskar och landsbygden drabbas hårdast

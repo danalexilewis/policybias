@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Funktionsrätt"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/funktionsratt?open.12_46b9bcc319684ded02b1159=true"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/funktionsratt"
-fetchedAt: "2026-08-22T13:15:01.726Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Funktionsrätt
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/funktionsratt?open.12_46b9bcc319684ded02b1159=true
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/funktionsratt
+fetchedAt: 2026-08-22T13:15:01.726Z
+contentType: html
+via: party-site
+tags:
+  - culture
+  - education
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Centerpartiet vill bygga ett samhälle där alla människor kan leva självständiga liv och delta fullt ut – oavsett funktionsförmåga. Idag möter många personer med funktionsnedsättning hinder i vardagen, bristande stöd och ett samhälle som alltför ofta inte är tillgängligt. Så ska det inte vara.

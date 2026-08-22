@@ -1,17 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Diskriminering"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/diskriminering?open.12_46b9bcc319684ded02b1159=true"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/diskriminering"
-fetchedAt: "2026-08-22T13:14:03.383Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: centerpartiet
+title: Diskriminering
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/diskriminering?open.12_46b9bcc319684ded02b1159=true
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/diskriminering
+fetchedAt: 2026-08-22T13:14:03.383Z
+contentType: html
+via: party-site
 tags:
-  - "elderly-welfare"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - crime-and-justice
+  - gender-equality
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 ## Rätten att vara sig själv är en frihetsfråga

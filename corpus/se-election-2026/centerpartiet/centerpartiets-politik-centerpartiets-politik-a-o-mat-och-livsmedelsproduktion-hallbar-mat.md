@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Hållbar mat"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion/hallbar-mat"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion/hallbar-mat"
-fetchedAt: "2026-08-22T13:16:06.017Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Hållbar mat
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion/hallbar-mat
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion/hallbar-mat
+fetchedAt: 2026-08-22T13:16:06.017Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ### **Ett slöseri vi inte har råd med – och en outnyttjad potential**

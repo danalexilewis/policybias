@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_Jiddisch-5edda52d.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb975/1787139560884/Basfolder_2026_Jiddisch.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb975/1787139560884/Basfolder_2026_Jiddisch.pdf"
-fetchedAt: "2026-08-22T13:13:50.063Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_Jiddisch-5edda52d.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb975/1787139560884/Basfolder_2026_Jiddisch.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb975/1787139560884/Basfolder_2026_Jiddisch.pdf
+fetchedAt: 2026-08-22T13:13:50.063Z
+contentType: pdf
+via: party-site
+tags:
+  - other
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_Jiddisch-5edda52d.pdf

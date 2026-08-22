@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_Romani-514b0b11.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb979/1787139561438/Basfolder_2026_Romani.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb979/1787139561438/Basfolder_2026_Romani.pdf"
-fetchedAt: "2026-08-22T13:13:53.066Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_Romani-514b0b11.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb979/1787139561438/Basfolder_2026_Romani.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb979/1787139561438/Basfolder_2026_Romani.pdf
+fetchedAt: 2026-08-22T13:13:53.066Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_Romani-514b0b11.pdf

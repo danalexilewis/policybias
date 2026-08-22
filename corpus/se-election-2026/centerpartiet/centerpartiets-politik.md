@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Centerpartiets politik"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik?open.12_46b9bcc319684ded02b1159=true"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik"
-fetchedAt: "2026-08-22T13:13:59.712Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Centerpartiets politik
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik?open.12_46b9bcc319684ded02b1159=true
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik
+fetchedAt: 2026-08-22T13:13:59.712Z
+contentType: html
+via: party-site
+tags:
+  - other
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Vår vision för framtiden är hoppfull. Alla ska kunna bestämma över sitt liv genom egna och fria val. Du ska kunna skapa din egen framtid, oavsett var i landet du väljer att bo. Centerpartiet arbetar för att jobben ska bli fler, utsläppen ska ner och välfärden ska fungera i hela landet.

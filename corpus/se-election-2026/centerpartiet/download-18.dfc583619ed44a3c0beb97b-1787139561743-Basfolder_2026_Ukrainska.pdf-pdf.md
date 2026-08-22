@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_Ukrainska-27000b7a.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb97b/1787139561743/Basfolder_2026_Ukrainska.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb97b/1787139561743/Basfolder_2026_Ukrainska.pdf"
-fetchedAt: "2026-08-22T13:13:55.151Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_Ukrainska-27000b7a.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb97b/1787139561743/Basfolder_2026_Ukrainska.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb97b/1787139561743/Basfolder_2026_Ukrainska.pdf
+fetchedAt: 2026-08-22T13:13:55.151Z
+contentType: pdf
+via: party-site
+tags:
+  - other
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_Ukrainska-27000b7a.pdf

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Sjukförsäkring"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem/sjukforsakring"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem/sjukforsakring"
-fetchedAt: "2026-08-22T13:16:17.901Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Sjukförsäkring
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem/sjukforsakring
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem/sjukforsakring
+fetchedAt: 2026-08-22T13:16:17.901Z
+contentType: html
+via: party-site
+tags:
+  - employment
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## **När livet förändras måste tryggheten finnas där**

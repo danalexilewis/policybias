@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Långtidsarbetslöshet och etablering"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/jobb/langtidsarbetsloshet-och-etablering"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/jobb/langtidsarbetsloshet-och-etablering"
-fetchedAt: "2026-08-22T13:15:41.796Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Långtidsarbetslöshet och etablering
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/jobb/langtidsarbetsloshet-och-etablering
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/jobb/langtidsarbetsloshet-och-etablering
+fetchedAt: 2026-08-22T13:15:41.796Z
+contentType: html
+via: party-site
+tags:
+  - employment
+  - immigration
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## **En fälla av passivitet och utanförskap**

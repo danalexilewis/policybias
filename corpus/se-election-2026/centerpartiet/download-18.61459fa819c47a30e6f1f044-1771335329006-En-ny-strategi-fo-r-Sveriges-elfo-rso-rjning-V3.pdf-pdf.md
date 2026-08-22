@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "En-ny-strategi-fo-r-Sveriges-elfo-rso-rjning-V3-b8708023.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.61459fa819c47a30e6f1f044/1771335329006/En%20ny%20strategi%20fo%CC%88r%20Sveriges%20elfo%CC%88rso%CC%88rjning%20V3.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.61459fa819c47a30e6f1f044/1771335329006/En%20ny%20strategi%20fo%CC%88r%20Sveriges%20elfo%CC%88rso%CC%88rjning%20V3.pdf"
-fetchedAt: "2026-08-22T13:14:18.652Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: En-ny-strategi-fo-r-Sveriges-elfo-rso-rjning-V3-b8708023.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.61459fa819c47a30e6f1f044/1771335329006/En%20ny%20strategi%20fo%CC%88r%20Sveriges%20elfo%CC%88rso%CC%88rjning%20V3.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.61459fa819c47a30e6f1f044/1771335329006/En%20ny%20strategi%20fo%CC%88r%20Sveriges%20elfo%CC%88rso%CC%88rjning%20V3.pdf
+fetchedAt: 2026-08-22T13:14:18.652Z
+contentType: pdf
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # En-ny-strategi-fo-r-Sveriges-elfo-rso-rjning-V3-b8708023.pdf

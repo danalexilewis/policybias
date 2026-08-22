@@ -1,17 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Digitalisering"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering?open.12_46b9bcc319684ded02b1159=true"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering"
-fetchedAt: "2026-08-22T13:13:59.979Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: centerpartiet
+title: Digitalisering
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering?open.12_46b9bcc319684ded02b1159=true
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/digitalisering
+fetchedAt: 2026-08-22T13:13:59.979Z
+contentType: html
+via: party-site
 tags:
-  - "schools-education"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - defence
+  - economy
+  - infrastructure
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 ## Enorm potential – men krångel och hot står i vägen

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Bil"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter/bil"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter/bil"
-fetchedAt: "2026-08-22T13:15:12.058Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Bil
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter/bil
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter/bil
+fetchedAt: 2026-08-22T13:15:12.058Z
+contentType: html
+via: party-site
+tags:
+  - climate
+  - defence
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 För många är bilen en livlina för att få ihop vardagspusslet, handla mat och skjutsa barnen. Samtidigt måste utsläppen minska. Dagens politik skapar ofta osäkerhet och straffar bilister istället för att uppmuntra till klimatsmarta val.

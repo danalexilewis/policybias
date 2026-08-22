@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Krisberedskap och civilt försvar"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar/krisberedskap-och-civilt-forsvar"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar/krisberedskap-och-civilt-forsvar"
-fetchedAt: "2026-08-22T13:15:03.975Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Krisberedskap och civilt försvar
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar/krisberedskap-och-civilt-forsvar
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar/krisberedskap-och-civilt-forsvar
+fetchedAt: 2026-08-22T13:15:03.975Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## En osäker värld kräver ett tryggt och förberett Sverige

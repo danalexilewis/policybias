@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Sänk kostnaden för att anställa"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/foretagande/sank-kostnaden-for-att-anstalla"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/foretagande/sank-kostnaden-for-att-anstalla"
-fetchedAt: "2026-08-22T13:15:03.302Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Sänk kostnaden för att anställa
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/foretagande/sank-kostnaden-for-att-anstalla
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/foretagande/sank-kostnaden-for-att-anstalla
+fetchedAt: 2026-08-22T13:15:03.302Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Dörren till det första jobbet står på glänt – vi vill öppna den helt

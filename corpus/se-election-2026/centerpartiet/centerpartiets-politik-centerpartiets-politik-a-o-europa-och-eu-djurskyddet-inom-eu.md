@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Djurskyddet inom EU"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/europa-och-eu/djurskyddet-inom-eu"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/europa-och-eu/djurskyddet-inom-eu"
-fetchedAt: "2026-08-22T13:14:21.005Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Djurskyddet inom EU
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/europa-och-eu/djurskyddet-inom-eu
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/europa-och-eu/djurskyddet-inom-eu
+fetchedAt: 2026-08-22T13:14:21.005Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - agriculture
+  - eu
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Ett värdigt djurliv i hela EU – och varför reglerna måste fungera i praktiken

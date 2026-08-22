@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Funkismanifest-2.0.Centerpartiets-politik-fo-r-funktionsra-ttsfra-gor.final-daa60a6b.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.54250d0219e6349dfa33f454/1780914921257/Funkismanifest%202.0.Centerpartiets%20politik%20fo%CC%88r%20funktionsra%CC%88ttsfra%CC%8Agor.final.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.54250d0219e6349dfa33f454/1780914921257/Funkismanifest%202.0.Centerpartiets%20politik%20fo%CC%88r%20funktionsra%CC%88ttsfra%CC%8Agor.final.pdf"
-fetchedAt: "2026-08-22T13:15:02.182Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Funkismanifest-2.0.Centerpartiets-politik-fo-r-funktionsra-ttsfra-gor.final-daa60a6b.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.54250d0219e6349dfa33f454/1780914921257/Funkismanifest%202.0.Centerpartiets%20politik%20fo%CC%88r%20funktionsra%CC%88ttsfra%CC%8Agor.final.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.54250d0219e6349dfa33f454/1780914921257/Funkismanifest%202.0.Centerpartiets%20politik%20fo%CC%88r%20funktionsra%CC%88ttsfra%CC%8Agor.final.pdf
+fetchedAt: 2026-08-22T13:15:02.182Z
+contentType: pdf
+via: party-site
+tags:
+  - culture
+  - education
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Funkismanifest-2.0.Centerpartiets-politik-fo-r-funktionsra-ttsfra-gor.final-daa60a6b.pdf

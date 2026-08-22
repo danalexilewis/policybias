@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Hedersrelaterat våld och förtryck"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/hedersrelaterat-vald-och-fortryck"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/hedersrelaterat-vald-och-fortryck"
-fetchedAt: "2026-08-22T13:15:45.459Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Hedersrelaterat våld och förtryck
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/hedersrelaterat-vald-och-fortryck
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/lag-och-ratt/hedersrelaterat-vald-och-fortryck
+fetchedAt: 2026-08-22T13:15:45.459Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+  - crime-and-justice
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ### **Din frihet att bestämma över ditt eget liv är inte förhandlingsbar**

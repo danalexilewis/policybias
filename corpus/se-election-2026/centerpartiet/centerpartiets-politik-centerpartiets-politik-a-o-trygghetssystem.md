@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Trygghetssystem"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem?open.12_46b9bcc319684ded02b1159=true"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem"
-fetchedAt: "2026-08-22T13:16:17.371Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Trygghetssystem
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem?open.12_46b9bcc319684ded02b1159=true
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/trygghetssystem
+fetchedAt: 2026-08-22T13:16:17.371Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 När livet förändras kan du behöva hjälp från samhället. Du kanske får barn, förlorar jobbet, blir sjuk eller inte klarar av att försörja dig av någon anledning. Då ska det finnas ett hållbart trygghetssystem som hjälper dig både i stunden och att komma vidare.

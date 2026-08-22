@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Infrastruktur och transporter"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter?open.12_46b9bcc319684ded02b1159=true"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter"
-fetchedAt: "2026-08-22T13:15:11.909Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Infrastruktur och transporter
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter?open.12_46b9bcc319684ded02b1159=true
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/infrastruktur-och-transporter
+fetchedAt: 2026-08-22T13:15:11.909Z
+contentType: html
+via: party-site
+tags:
+  - transport
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Centerpartiet vill genomföra ett Sverigelyft för att bygga ett modernt och hållbart transportsystem i hela landet. Genom massiva investeringar i både upprustning och nybyggnation av järnväg, vägar och digitala nät vill vi knyta ihop Sverige. Målet är ett land där det är enkelt att resa, arbeta och leva klimatsmart, oavsett var man bor.

@@ -1,21 +1,22 @@
 ---
 type: spec
 id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-demokrati-derived
-title: "Vi använder kakor (cookies) (reading)"
+title: Vi använder kakor (cookies) (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Vi använder kakor (cookies)"
+summary: Our reading of Vi använder kakor (cookies)
 jurisdiction: SE
 sources:
-  - title: "Vi använder kakor (cookies)"
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/demokrati
-tags: [migration-integration]
+  - title: Vi använder kakor (cookies)
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/demokrati?open.12_46b9bcc319684ded02b1159=true
+tags:
+  - democracy
 party: centerpartiet
 clusters:
-  - migration-integration
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-demokrati.md
-sourceDigest: "sha256-00506058e51fe9d3"
+sourceDigest: sha256-00506058e51fe9d3
 derivesFrom: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-demokrati
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

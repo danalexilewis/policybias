@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Livsmedelsproduktion"
-sourceUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion/livsmedelsproduktion"
-canonicalUrl: "https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion/livsmedelsproduktion"
-fetchedAt: "2026-08-22T13:16:06.208Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Livsmedelsproduktion
+sourceUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion/livsmedelsproduktion
+canonicalUrl: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/mat-och-livsmedelsproduktion/livsmedelsproduktion
+fetchedAt: 2026-08-22T13:16:06.208Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - agriculture
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ### **Världens bästa mat – men till ett orättvist pris**

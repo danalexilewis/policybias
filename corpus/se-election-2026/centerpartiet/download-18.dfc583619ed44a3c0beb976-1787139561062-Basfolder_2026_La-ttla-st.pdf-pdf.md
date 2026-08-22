@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "centerpartiet"
-title: "Basfolder_2026_La-ttla-st-40bcd460.pdf"
-sourceUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb976/1787139561062/Basfolder_2026_La%CC%88ttla%CC%88st.pdf"
-canonicalUrl: "https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb976/1787139561062/Basfolder_2026_La%CC%88ttla%CC%88st.pdf"
-fetchedAt: "2026-08-22T13:13:44.310Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: centerpartiet
+title: Basfolder_2026_La-ttla-st-40bcd460.pdf
+sourceUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb976/1787139561062/Basfolder_2026_La%CC%88ttla%CC%88st.pdf
+canonicalUrl: https://www.centerpartiet.se/download/18.dfc583619ed44a3c0beb976/1787139561062/Basfolder_2026_La%CC%88ttla%CC%88st.pdf
+fetchedAt: 2026-08-22T13:13:44.310Z
+contentType: pdf
+via: party-site
+tags:
+  - crime-and-justice
+  - healthcare
+  - social-welfare
+stance: not-policy
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # Basfolder_2026_La-ttla-st-40bcd460.pdf

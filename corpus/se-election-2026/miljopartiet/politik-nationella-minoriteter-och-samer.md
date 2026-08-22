@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för nationella minorteter"
-sourceUrl: "https://www.mp.se/politik/nationella-minoriteter-och-samer"
-canonicalUrl: "https://www.mp.se/politik/nationella-minoriteter-och-samer"
-fetchedAt: "2026-08-22T13:49:12.219Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för nationella minorteter
+sourceUrl: https://www.mp.se/politik/nationella-minoriteter-och-samer
+canonicalUrl: https://www.mp.se/politik/nationella-minoriteter-och-samer
+fetchedAt: 2026-08-22T13:49:12.219Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+  - elderly-care
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka de nationella minoriteternas och urfolket samernas rättigheter till språk, kultur, inflytande och självbestämmande. Nationella minoriteter och samer har också rätt till upprättelse för historiska övergrepp från den svenska staten.

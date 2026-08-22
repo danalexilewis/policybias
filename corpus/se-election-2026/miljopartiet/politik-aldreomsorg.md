@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiet politik för äldreomsorg"
-sourceUrl: "https://www.mp.se/politik/aldreomsorg"
-canonicalUrl: "https://www.mp.se/politik/aldreomsorg"
-fetchedAt: "2026-08-22T13:49:22.326Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiet politik för äldreomsorg
+sourceUrl: https://www.mp.se/politik/aldreomsorg
+canonicalUrl: https://www.mp.se/politik/aldreomsorg
+fetchedAt: 2026-08-22T13:49:22.326Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka äldreomsorgen så att människor kan åldras med trygghet, värdighet och livsglädje.

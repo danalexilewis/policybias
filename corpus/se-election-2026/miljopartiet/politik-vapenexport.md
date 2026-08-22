@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Sverige ska inte beväpna diktaturer | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/vapenexport"
-canonicalUrl: "https://www.mp.se/politik/vapenexport"
-fetchedAt: "2026-08-22T13:49:20.645Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Sverige ska inte beväpna diktaturer | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/vapenexport
+canonicalUrl: https://www.mp.se/politik/vapenexport
+fetchedAt: 2026-08-22T13:49:20.645Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stoppa Sveriges vapenhandel med diktaturer och stärka arbetet för fred, demokrati och mänskliga rättigheter.

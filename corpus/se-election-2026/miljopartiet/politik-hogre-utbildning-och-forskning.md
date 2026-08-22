@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiet politik för forskning och högre utbildning"
-sourceUrl: "https://www.mp.se/politik/hogre-utbildning-och-forskning"
-canonicalUrl: "https://www.mp.se/politik/hogre-utbildning-och-forskning"
-fetchedAt: "2026-08-22T13:46:30.607Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiet politik för forskning och högre utbildning
+sourceUrl: https://www.mp.se/politik/hogre-utbildning-och-forskning
+canonicalUrl: https://www.mp.se/politik/hogre-utbildning-och-forskning
+fetchedAt: 2026-08-22T13:46:30.607Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill att Sverige ska vara en stark kunskapsnation med hög kvalitet i högre utbildning och fri, oberoende forskning.

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiet förskola och fritidshem"
-sourceUrl: "https://www.mp.se/politik/forskola-och-fritidshem"
-canonicalUrl: "https://www.mp.se/politik/forskola-och-fritidshem"
-fetchedAt: "2026-08-22T13:44:29.595Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiet förskola och fritidshem
+sourceUrl: https://www.mp.se/politik/forskola-och-fritidshem
+canonicalUrl: https://www.mp.se/politik/forskola-och-fritidshem
+fetchedAt: 2026-08-22T13:44:29.595Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill ge alla barn en trygg start med mindre barngrupper, starkare förskola och rätt till fritidshem.

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets kulturpolitik"
-sourceUrl: "https://www.mp.se/politik/kultur"
-canonicalUrl: "https://www.mp.se/politik/kultur"
-fetchedAt: "2026-08-22T13:49:09.080Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets kulturpolitik
+sourceUrl: https://www.mp.se/politik/kultur
+canonicalUrl: https://www.mp.se/politik/kultur
+fetchedAt: 2026-08-22T13:49:09.080Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka den fria kulturen, öka allas tillgång till kultur och ge kulturskapare bättre villkor i hela landet.

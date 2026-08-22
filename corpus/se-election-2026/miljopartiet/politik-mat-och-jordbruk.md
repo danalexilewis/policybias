@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets jordbrukspolitik"
-sourceUrl: "https://www.mp.se/politik/mat-och-jordbruk"
-canonicalUrl: "https://www.mp.se/politik/mat-och-jordbruk"
-fetchedAt: "2026-08-22T13:48:16.476Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets jordbrukspolitik
+sourceUrl: https://www.mp.se/politik/mat-och-jordbruk
+canonicalUrl: https://www.mp.se/politik/mat-och-jordbruk
+fetchedAt: 2026-08-22T13:48:16.476Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka ett levande och hållbart jordbruk i hela Sverige med hög beredskap, fossilfri matproduktion, rik biologisk mångfald och god djurvälfärd.

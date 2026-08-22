@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Satsningar mot hedersvåld och stärkt arbete mot mäns våld mot kvinnor i budgeten för 2021 | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/satsningar-mot-hedersvald-och-starkt-arbete-mot-mans-vald-mot-kvinnor-i"
-canonicalUrl: "https://www.mp.se/politik/satsningar-mot-hedersvald-och-starkt-arbete-mot-mans-vald-mot-kvinnor-i"
-fetchedAt: "2026-08-22T13:49:43.909Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Satsningar mot hedersvåld och stärkt arbete mot mäns våld mot kvinnor i budgeten
+  för 2021 | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/satsningar-mot-hedersvald-och-starkt-arbete-mot-mans-vald-mot-kvinnor-i
+canonicalUrl: https://www.mp.se/politik/satsningar-mot-hedersvald-och-starkt-arbete-mot-mans-vald-mot-kvinnor-i
+fetchedAt: 2026-08-22T13:49:43.909Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Alla har rätt att välja hur man vill leva sitt liv utan hot och våld från familj eller släktingar. I budgeten för 2021 stärker vi arbetet mot hedersvåld och fortsätter arbetet för att stoppa mäns våld mot kvinnor.

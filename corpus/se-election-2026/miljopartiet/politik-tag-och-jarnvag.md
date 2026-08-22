@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för tåg och järnväg"
-sourceUrl: "https://www.mp.se/politik/tag-och-jarnvag"
-canonicalUrl: "https://www.mp.se/politik/tag-och-jarnvag"
-fetchedAt: "2026-08-22T13:49:18.398Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för tåg och järnväg
+sourceUrl: https://www.mp.se/politik/tag-och-jarnvag
+canonicalUrl: https://www.mp.se/politik/tag-och-jarnvag
+fetchedAt: 2026-08-22T13:49:18.398Z
+contentType: html
+via: party-site
+tags:
+  - transport
+  - climate
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill bygga ut och rusta upp järnvägen så att tågen kan gå oftare, komma fram i tid. Järnvägen ska knyta ihop Sverige med resten av Europa.

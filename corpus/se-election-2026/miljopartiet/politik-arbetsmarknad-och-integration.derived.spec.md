@@ -1,21 +1,22 @@
 ---
 type: spec
 id: miljopartiet-politik-arbetsmarknad-och-integration-derived
-title: "Arbetsmarknad (reading)"
+title: Arbetsmarknad (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Arbetsmarknad"
+summary: Our reading of Arbetsmarknad
 jurisdiction: SE
 sources:
-  - title: "Arbetsmarknad"
-    url: https://www.mp.se/politik/arbetsmarknad-och-integration/
-tags: [economy-tax]
+  - title: Arbetsmarknad
+    url: https://www.mp.se/politik/arbetsmarknad-och-integration
+tags:
+  - employment
 party: miljopartiet
 clusters:
   - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-arbetsmarknad-och-integration.md
-sourceDigest: "sha256-fe5d31592eec2129"
+sourceDigest: sha256-fe5d31592eec2129
 derivesFrom: miljopartiet-politik-arbetsmarknad-och-integration
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

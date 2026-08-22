@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets skogspolitik"
-sourceUrl: "https://www.mp.se/politik/skog-och-biologisk-mangfald"
-canonicalUrl: "https://www.mp.se/politik/skog-och-biologisk-mangfald"
-fetchedAt: "2026-08-22T13:49:13.723Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets skogspolitik
+sourceUrl: https://www.mp.se/politik/skog-och-biologisk-mangfald
+canonicalUrl: https://www.mp.se/politik/skog-och-biologisk-mangfald
+fetchedAt: 2026-08-22T13:49:13.723Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill skydda värdefulla skogar och slå vakt om skogens roll för biologisk mångfald, klimat, friluftsliv och rennäring. Vi vill se en ny inriktning för skogsbruket med mer varierade, naturnära och hyggesfria metoder.

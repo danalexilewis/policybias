@@ -1,21 +1,22 @@
 ---
 type: spec
 id: miljopartiet-politik
-title: "Sverige vinner på grön politik"
+title: Sverige vinner på grön politik
 status: draft
 updated: 2026-08-22
-summary: "Gå direkt till innehållGå direkt till menyn"
+summary: Gå direkt till innehållGå direkt till menyn
 jurisdiction: SE
 sources:
-  - title: "Sverige vinner på grön politik"
+  - title: Sverige vinner på grön politik
     url: https://www.mp.se/politik/
-tags: [health-care]
+tags:
+  - other
 party: miljopartiet
 clusters:
-  - health-care
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik.md
-sourceDigest: "sha256-7d4f24c58485fcb1"
+sourceDigest: sha256-7d4f24c58485fcb1
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

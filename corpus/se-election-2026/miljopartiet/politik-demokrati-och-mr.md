@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för demokrati och mänskliga rättigheter 2026"
-sourceUrl: "https://www.mp.se/politik/demokrati-och-mr"
-canonicalUrl: "https://www.mp.se/politik/demokrati-och-mr"
-fetchedAt: "2026-08-22T13:42:37.134Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för demokrati och mänskliga rättigheter 2026
+sourceUrl: https://www.mp.se/politik/demokrati-och-mr
+canonicalUrl: https://www.mp.se/politik/demokrati-och-mr
+fetchedAt: 2026-08-22T13:42:37.134Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - democracy
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka demokratin, skydda mänskliga rättigheter och säkra fria medier för att skapa ett öppet samhälle som alla människor kan delta i.

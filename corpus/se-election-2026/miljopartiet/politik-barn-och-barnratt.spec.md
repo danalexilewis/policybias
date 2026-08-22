@@ -1,21 +1,23 @@
 ---
 type: spec
 id: miljopartiet-politik-barn-och-barnratt
-title: "Barn har egna rättigheter, det ska märkas."
+title: Barn har egna rättigheter, det ska märkas.
 status: draft
 updated: 2026-08-22
-summary: "Gå direkt till innehållGå direkt till menyn"
+summary: Gå direkt till innehållGå direkt till menyn
 jurisdiction: SE
 sources:
-  - title: "Barn har egna rättigheter, det ska märkas."
-    url: https://www.mp.se/politik/barn-och-barnratt/
-tags: [defence-security]
+  - title: Barn har egna rättigheter, det ska märkas.
+    url: https://www.mp.se/politik/barn-och-barnratt
+tags:
+  - crime-and-justice
+  - education
 party: miljopartiet
 clusters:
-  - defence-security
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-barn-och-barnratt.md
-sourceDigest: "sha256-239f444ac11dbb12"
+sourceDigest: sha256-239f444ac11dbb12
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

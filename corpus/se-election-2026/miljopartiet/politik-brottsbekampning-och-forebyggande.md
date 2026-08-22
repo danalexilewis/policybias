@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiet brottsförebyggande och brottsbekämpande"
-sourceUrl: "https://www.mp.se/politik/brottsbekampning-och-forebyggande"
-canonicalUrl: "https://www.mp.se/politik/brottsbekampning-och-forebyggande"
-fetchedAt: "2026-08-22T13:42:07.165Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiet brottsförebyggande och brottsbekämpande
+sourceUrl: https://www.mp.se/politik/brottsbekampning-och-forebyggande
+canonicalUrl: https://www.mp.se/politik/brottsbekampning-och-forebyggande
+fetchedAt: 2026-08-22T13:42:07.165Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill öka tryggheten, utöka de förebyggande insatserna, bryta nyrekryteringen till gängen och ge brottsoffer starkare stöd och upprättelse.

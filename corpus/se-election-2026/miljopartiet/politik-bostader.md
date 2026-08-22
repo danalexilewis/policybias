@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets bostadspolitik"
-sourceUrl: "https://www.mp.se/politik/bostader"
-canonicalUrl: "https://www.mp.se/politik/bostader"
-fetchedAt: "2026-08-22T13:41:57.978Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets bostadspolitik
+sourceUrl: https://www.mp.se/politik/bostader
+canonicalUrl: https://www.mp.se/politik/bostader
+fetchedAt: 2026-08-22T13:41:57.978Z
+contentType: html
+via: party-site
+tags:
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill minska bostadsbristen, göra boendet tryggare och bygga fler klimatsmarta bostäder med rimliga hyror.

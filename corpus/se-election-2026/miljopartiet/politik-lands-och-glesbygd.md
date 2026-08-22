@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för landsbygd och glesbygd"
-sourceUrl: "https://www.mp.se/politik/lands-och-glesbygd"
-canonicalUrl: "https://www.mp.se/politik/lands-och-glesbygd"
-fetchedAt: "2026-08-22T13:49:10.688Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för landsbygd och glesbygd
+sourceUrl: https://www.mp.se/politik/lands-och-glesbygd
+canonicalUrl: https://www.mp.se/politik/lands-och-glesbygd
+fetchedAt: 2026-08-22T13:49:10.688Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - employment
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka landsbygderna med bättre välfärd, service, arbetstillfällen, hållbara transporter och lokal återbäring av energiproduktion och mineralutvinning.

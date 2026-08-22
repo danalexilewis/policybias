@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "klimatfardplan2021_kortversion_webb-be941c29.pdf"
-sourceUrl: "https://www.mp.se/wp-content/uploads/2022/04/klimatfardplan2021_kortversion_webb.pdf"
-canonicalUrl: "https://www.mp.se/wp-content/uploads/2022/04/klimatfardplan2021_kortversion_webb.pdf"
-fetchedAt: "2026-08-22T13:49:28.308Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: klimatfardplan2021_kortversion_webb-be941c29.pdf
+sourceUrl: https://www.mp.se/wp-content/uploads/2022/04/klimatfardplan2021_kortversion_webb.pdf
+canonicalUrl: https://www.mp.se/wp-content/uploads/2022/04/klimatfardplan2021_kortversion_webb.pdf
+fetchedAt: 2026-08-22T13:49:28.308Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # klimatfardplan2021_kortversion_webb-be941c29.pdf

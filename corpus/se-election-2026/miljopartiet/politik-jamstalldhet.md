@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets jämställdhetspolitik"
-sourceUrl: "https://www.mp.se/politik/jamstalldhet"
-canonicalUrl: "https://www.mp.se/politik/jamstalldhet"
-fetchedAt: "2026-08-22T13:48:42.035Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets jämställdhetspolitik
+sourceUrl: https://www.mp.se/politik/jamstalldhet
+canonicalUrl: https://www.mp.se/politik/jamstalldhet
+fetchedAt: 2026-08-22T13:48:42.035Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka jämställdheten, förbättra kvinnors ekonomiska trygghet och hälsa samt bekämpa mäns våld mot kvinnor, sexuellt våld och hedersförtryck.

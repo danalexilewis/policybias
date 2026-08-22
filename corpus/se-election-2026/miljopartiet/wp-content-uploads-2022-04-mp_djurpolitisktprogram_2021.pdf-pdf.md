@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "mp_djurpolitisktprogram_2021-8f7cf143.pdf"
-sourceUrl: "https://www.mp.se/wp-content/uploads/2022/04/mp_djurpolitisktprogram_2021.pdf"
-canonicalUrl: "https://www.mp.se/wp-content/uploads/2022/04/mp_djurpolitisktprogram_2021.pdf"
-fetchedAt: "2026-08-22T13:49:35.683Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: mp_djurpolitisktprogram_2021-8f7cf143.pdf
+sourceUrl: https://www.mp.se/wp-content/uploads/2022/04/mp_djurpolitisktprogram_2021.pdf
+canonicalUrl: https://www.mp.se/wp-content/uploads/2022/04/mp_djurpolitisktprogram_2021.pdf
+fetchedAt: 2026-08-22T13:49:35.683Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # mp_djurpolitisktprogram_2021-8f7cf143.pdf

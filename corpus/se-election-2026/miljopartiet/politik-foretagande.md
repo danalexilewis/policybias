@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Grön företagarpolitik skapar jobb | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/foretagande"
-canonicalUrl: "https://www.mp.se/politik/foretagande"
-fetchedAt: "2026-08-22T13:49:41.382Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Grön företagarpolitik skapar jobb | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/foretagande
+canonicalUrl: https://www.mp.se/politik/foretagande
+fetchedAt: 2026-08-22T13:49:41.382Z
+contentType: html
+via: party-site
+tags:
+  - employment
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 1.  [Hem](https://www.mp.se/) 

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets gruv- och mineralpolitik"
-sourceUrl: "https://www.mp.se/politik/gruvor-och-mineraler"
-canonicalUrl: "https://www.mp.se/politik/gruvor-och-mineraler"
-fetchedAt: "2026-08-22T13:45:30.012Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets gruv- och mineralpolitik
+sourceUrl: https://www.mp.se/politik/gruvor-och-mineraler
+canonicalUrl: https://www.mp.se/politik/gruvor-och-mineraler
+fetchedAt: 2026-08-22T13:45:30.012Z
+contentType: html
+via: party-site
+tags:
+  - energy
+  - agriculture
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill säkra en mer hållbar mineralpolitik med mer återvinning och starkare skydd för miljön, människor och samiska rättigheter.

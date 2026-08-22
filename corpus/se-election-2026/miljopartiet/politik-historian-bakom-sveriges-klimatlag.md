@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Historien bakom Sveriges klimatlag | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/historian-bakom-sveriges-klimatlag"
-canonicalUrl: "https://www.mp.se/politik/historian-bakom-sveriges-klimatlag"
-fetchedAt: "2026-08-22T13:49:30.055Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Historien bakom Sveriges klimatlag | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/historian-bakom-sveriges-klimatlag
+canonicalUrl: https://www.mp.se/politik/historian-bakom-sveriges-klimatlag
+fetchedAt: 2026-08-22T13:49:30.055Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet har länge drivit frågan om en klimatlag. År 2012 presenterade Åsa Romson idén och sommaren 2017 klubbas lagen i Sveriges riksdag.

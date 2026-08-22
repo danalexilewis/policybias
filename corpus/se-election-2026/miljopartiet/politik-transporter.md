@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för hållbara transporter"
-sourceUrl: "https://www.mp.se/politik/transporter"
-canonicalUrl: "https://www.mp.se/politik/transporter"
-fetchedAt: "2026-08-22T13:49:17.448Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för hållbara transporter
+sourceUrl: https://www.mp.se/politik/transporter
+canonicalUrl: https://www.mp.se/politik/transporter
+fetchedAt: 2026-08-22T13:49:17.448Z
+contentType: html
+via: party-site
+tags:
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Miljöpartiet vill ställa om transporterna så att fler kan resa hållbart, utsläppen minskar och hela landet får bättre tåg, kollektivtrafik och laddinfrastruktur.

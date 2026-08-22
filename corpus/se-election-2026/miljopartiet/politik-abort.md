@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Abort | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/abort"
-canonicalUrl: "https://www.mp.se/politik/abort"
-fetchedAt: "2026-08-22T13:49:42.239Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Abort | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/abort
+canonicalUrl: https://www.mp.se/politik/abort
+fetchedAt: 2026-08-22T13:49:42.239Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Kvinnor ska ha rätt att bestämma över sin kropp. Det borde vara en självklarhet  men det är det tyvärr inte i världen i dag. I Sverige har det länge rått en samsyn runt rätten till abort, men även här blir den ibland ifrågasatt. Rätten till abort behöver bevakas så att den ej försämras. 

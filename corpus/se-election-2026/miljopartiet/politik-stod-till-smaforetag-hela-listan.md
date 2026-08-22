@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för företagande och näringsliv"
-sourceUrl: "https://www.mp.se/politik/stod-till-smaforetag-hela-listan"
-canonicalUrl: "https://www.mp.se/politik/stod-till-smaforetag-hela-listan"
-fetchedAt: "2026-08-22T13:44:14.025Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för företagande och näringsliv
+sourceUrl: https://www.mp.se/politik/stod-till-smaforetag-hela-listan
+canonicalUrl: https://www.mp.se/politik/stod-till-smaforetag-hela-listan
+fetchedAt: 2026-08-22T13:44:14.025Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill göra det enklare att starta och driva företag, stärka Sveriges konkurrenskraft och se till att  den gröna omställningen skapar nya jobb och investeringar.

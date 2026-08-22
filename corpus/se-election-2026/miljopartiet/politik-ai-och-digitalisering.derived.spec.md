@@ -1,21 +1,23 @@
 ---
 type: spec
 id: miljopartiet-politik-ai-och-digitalisering-derived
-title: "AI och digitalisering (reading)"
+title: AI och digitalisering (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of AI och digitalisering"
+summary: Our reading of AI och digitalisering
 jurisdiction: SE
 sources:
-  - title: "AI och digitalisering"
-    url: https://www.mp.se/politik/ai-och-digitalisering/
-tags: [migration-integration]
+  - title: AI och digitalisering
+    url: https://www.mp.se/politik/ai-och-digitalisering
+tags:
+  - infrastructure
+  - education
 party: miljopartiet
 clusters:
-  - migration-integration
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-ai-och-digitalisering.md
-sourceDigest: "sha256-fae95f30caa82017"
+sourceDigest: sha256-fae95f30caa82017
 derivesFrom: miljopartiet-politik-ai-och-digitalisering
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

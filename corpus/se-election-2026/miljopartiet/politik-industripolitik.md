@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets industripolitik"
-sourceUrl: "https://www.mp.se/politik/industripolitik"
-canonicalUrl: "https://www.mp.se/politik/industripolitik"
-fetchedAt: "2026-08-22T13:47:23.486Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets industripolitik
+sourceUrl: https://www.mp.se/politik/industripolitik
+canonicalUrl: https://www.mp.se/politik/industripolitik
+fetchedAt: 2026-08-22T13:47:23.486Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill påskynda industrins klimatomställning, stärka Sveriges konkurrenskraft och säkerställa att industriinvesteringar bidrar till hållbar utveckling i hela landet och resten av världen.

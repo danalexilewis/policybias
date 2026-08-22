@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets försvars- och säkerhetspolitik"
-sourceUrl: "https://www.mp.se/politik/forsvar-och-sakerhet"
-canonicalUrl: "https://www.mp.se/politik/forsvar-och-sakerhet"
-fetchedAt: "2026-08-22T13:44:50.409Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets försvars- och säkerhetspolitik
+sourceUrl: https://www.mp.se/politik/forsvar-och-sakerhet
+canonicalUrl: https://www.mp.se/politik/forsvar-och-sakerhet
+fetchedAt: 2026-08-22T13:44:50.409Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka Sveriges motståndskraft, försvara demokratin och öka vår säkerhet genom ett starkt totalförsvar.

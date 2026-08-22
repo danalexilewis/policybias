@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Klimatklivet | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/klimatklivet"
-canonicalUrl: "https://www.mp.se/politik/klimatklivet"
-fetchedAt: "2026-08-22T13:49:31.443Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Klimatklivet | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/klimatklivet
+canonicalUrl: https://www.mp.se/politik/klimatklivet
+fetchedAt: 2026-08-22T13:49:31.443Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 För att minska klimatutsläppen har regeringen investerat i Klimatklivet. En satsning där kommuner, företag och organisationer kan ansöka om investeringsstöd för att minska sin klimatpåverkan.  

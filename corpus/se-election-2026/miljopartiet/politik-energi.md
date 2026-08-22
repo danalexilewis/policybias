@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiet energi och energieffektivisering"
-sourceUrl: "https://www.mp.se/politik/energi"
-canonicalUrl: "https://www.mp.se/politik/energi"
-fetchedAt: "2026-08-22T13:43:20.249Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiet energi och energieffektivisering
+sourceUrl: https://www.mp.se/politik/energi
+canonicalUrl: https://www.mp.se/politik/energi
+fetchedAt: 2026-08-22T13:43:20.249Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill bygga ett helt förnybart energisystem som ger fossilfri energi, stabil elförsörjning och låga elkostnader för hushåll och företag.

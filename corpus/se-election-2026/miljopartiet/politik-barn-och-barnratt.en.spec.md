@@ -8,15 +8,16 @@ summary: Go directly to contentGo directly to the menu
 jurisdiction: SE
 sources:
   - title: Barn har egna rättigheter, det ska märkas.
-    url: https://www.mp.se/politik/barn-och-barnratt/
+    url: https://www.mp.se/politik/barn-och-barnratt
 tags:
-  - defence-security
+  - crime-and-justice
+  - education
 party: miljopartiet
 clusters:
-  - defence-security
+  - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-barn-och-barnratt.md
-sourceDigest: "sha256-239f444ac11dbb12"
+sourceDigest: sha256-239f444ac11dbb12
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +25,7 @@ lang: en
 translationOf: miljopartiet-barn-och-barnratt
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-11b9637cd7875dcd"
+sourceSpecDigest: sha256-11b9637cd7875dcd
 ---
 
 # What the page states

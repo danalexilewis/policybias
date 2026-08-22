@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiet de grönas klimatpolitik inför valet 2026"
-sourceUrl: "https://www.mp.se/politik/klimat"
-canonicalUrl: "https://www.mp.se/politik/klimat"
-fetchedAt: "2026-08-22T13:40:06.573Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiet de grönas klimatpolitik inför valet 2026
+sourceUrl: https://www.mp.se/politik/klimat
+canonicalUrl: https://www.mp.se/politik/klimat
+fetchedAt: 2026-08-22T13:40:06.573Z
+contentType: html
+via: party-site
 tags:
-  - "climate-environment"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - climate
+stance: intervention
+money: named-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Miljöpartiet vill minska utsläppen snabbt och rättvist, klimatanpassa Sverige och skapa jämlika möjligheter till hållbara val i vardagen. 

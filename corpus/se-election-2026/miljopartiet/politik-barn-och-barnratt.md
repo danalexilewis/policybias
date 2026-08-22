@@ -1,17 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets barnrättspolitik"
-sourceUrl: "https://www.mp.se/politik/barn-och-barnratt"
-canonicalUrl: "https://www.mp.se/politik/barn-och-barnratt"
-fetchedAt: "2026-08-22T13:41:19.245Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets barnrättspolitik
+sourceUrl: https://www.mp.se/politik/barn-och-barnratt
+canonicalUrl: https://www.mp.se/politik/barn-och-barnratt
+fetchedAt: 2026-08-22T13:41:19.245Z
+contentType: html
+via: party-site
 tags:
-  - "defence-security"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - crime-and-justice
+  - education
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Miljöpartiet var drivande i att göra barnkonventionen till svensk lag. Nu måste arbetet växlas upp så att barns rättigheter stärks i praktiken. Miljöpartiet vill ge alla barn en trygg uppväxt, skydda barn från utsatthet och kriminalitet och se till att inget barn växer upp i fattigdom.

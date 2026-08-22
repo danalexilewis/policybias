@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets hälso- och sjukvårdspolitik"
-sourceUrl: "https://www.mp.se/politik/halso-och-sjukvard"
-canonicalUrl: "https://www.mp.se/politik/halso-och-sjukvard"
-fetchedAt: "2026-08-22T13:46:11.160Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets hälso- och sjukvårdspolitik
+sourceUrl: https://www.mp.se/politik/halso-och-sjukvard
+canonicalUrl: https://www.mp.se/politik/halso-och-sjukvard
+fetchedAt: 2026-08-22T13:46:11.160Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill främja jämlik hälsa och en tillgänglig vård med kortare köer, starkare primärvård och bättre stöd vid psykisk ohälsa.

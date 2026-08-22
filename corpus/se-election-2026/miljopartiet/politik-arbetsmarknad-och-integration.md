@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets arbetsmarknadspolitik"
-sourceUrl: "https://www.mp.se/politik/arbetsmarknad-och-integration"
-canonicalUrl: "https://www.mp.se/politik/arbetsmarknad-och-integration"
-fetchedAt: "2026-08-22T13:40:58.657Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets arbetsmarknadspolitik
+sourceUrl: https://www.mp.se/politik/arbetsmarknad-och-integration
+canonicalUrl: https://www.mp.se/politik/arbetsmarknad-och-integration
+fetchedAt: 2026-08-22T13:40:58.657Z
+contentType: html
+via: party-site
 tags:
-  - "economy-tax"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - employment
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Miljöpartiet vill skapa fler och bättre jobb, stärka tryggheten vid arbetslöshet och ge människor mer makt över sin tid.

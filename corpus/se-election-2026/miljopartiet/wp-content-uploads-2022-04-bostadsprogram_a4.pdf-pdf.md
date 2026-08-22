@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "bostadsprogram_a4-229a598f.pdf"
-sourceUrl: "https://www.mp.se/wp-content/uploads/2022/04/bostadsprogram_a4.pdf"
-canonicalUrl: "https://www.mp.se/wp-content/uploads/2022/04/bostadsprogram_a4.pdf"
-fetchedAt: "2026-08-22T13:49:32.944Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: bostadsprogram_a4-229a598f.pdf
+sourceUrl: https://www.mp.se/wp-content/uploads/2022/04/bostadsprogram_a4.pdf
+canonicalUrl: https://www.mp.se/wp-content/uploads/2022/04/bostadsprogram_a4.pdf
+fetchedAt: 2026-08-22T13:49:32.944Z
+contentType: pdf
+via: party-site
+tags:
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # bostadsprogram_a4-229a598f.pdf

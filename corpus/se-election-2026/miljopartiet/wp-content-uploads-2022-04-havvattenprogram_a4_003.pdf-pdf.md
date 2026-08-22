@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "havvattenprogram_a4_003-7d356863.pdf"
-sourceUrl: "https://www.mp.se/wp-content/uploads/2022/04/havvattenprogram_a4_003.pdf"
-canonicalUrl: "https://www.mp.se/wp-content/uploads/2022/04/havvattenprogram_a4_003.pdf"
-fetchedAt: "2026-08-22T13:49:39.339Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: havvattenprogram_a4_003-7d356863.pdf
+sourceUrl: https://www.mp.se/wp-content/uploads/2022/04/havvattenprogram_a4_003.pdf
+canonicalUrl: https://www.mp.se/wp-content/uploads/2022/04/havvattenprogram_a4_003.pdf
+fetchedAt: 2026-08-22T13:49:39.339Z
+contentType: pdf
+via: party-site
+tags:
+  - agriculture
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # havvattenprogram_a4_003-7d356863.pdf

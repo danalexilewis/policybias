@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Civilt försvar och krisberedskap – Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/civilt-forsvar-och-krisberedskap"
-canonicalUrl: "https://www.mp.se/politik/civilt-forsvar-och-krisberedskap"
-fetchedAt: "2026-08-22T13:42:27.209Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Civilt försvar och krisberedskap – Miljöpartiet
+sourceUrl: https://www.mp.se/politik/civilt-forsvar-och-krisberedskap
+canonicalUrl: https://www.mp.se/politik/civilt-forsvar-och-krisberedskap
+fetchedAt: 2026-08-22T13:42:27.209Z
+contentType: html
+via: party-site
+tags:
+  - defence
+  - democracy
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka det civila försvaret, skydda civilbefolkningen och göra Sverige bättre rustat för kriser, krig och klimatförändringar.

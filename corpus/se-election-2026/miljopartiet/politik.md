@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik inför valet 2026"
-sourceUrl: "https://www.mp.se/politik/"
-canonicalUrl: "https://www.mp.se/politik"
-fetchedAt: "2026-08-22T13:40:05.178Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik inför valet 2026
+sourceUrl: https://www.mp.se/politik/
+canonicalUrl: https://www.mp.se/politik
+fetchedAt: 2026-08-22T13:40:05.178Z
+contentType: html
+via: party-site
 tags:
-  - "health-care"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - other
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 ## Sverige vinner   

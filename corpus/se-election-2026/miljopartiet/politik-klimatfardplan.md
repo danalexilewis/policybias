@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Klimatfärdplan | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/klimatfardplan"
-canonicalUrl: "https://www.mp.se/politik/klimatfardplan"
-fetchedAt: "2026-08-22T13:49:27.036Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Klimatfärdplan | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/klimatfardplan
+canonicalUrl: https://www.mp.se/politik/klimatfardplan
+fetchedAt: 2026-08-22T13:49:27.036Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Klimatfärdplanen

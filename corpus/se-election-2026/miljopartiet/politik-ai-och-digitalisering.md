@@ -1,17 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för AI och digitalisering"
-sourceUrl: "https://www.mp.se/politik/ai-och-digitalisering"
-canonicalUrl: "https://www.mp.se/politik/ai-och-digitalisering"
-fetchedAt: "2026-08-22T13:40:37.731Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för AI och digitalisering
+sourceUrl: https://www.mp.se/politik/ai-och-digitalisering
+canonicalUrl: https://www.mp.se/politik/ai-och-digitalisering
+fetchedAt: 2026-08-22T13:40:37.731Z
+contentType: html
+via: party-site
 tags:
-  - "migration-integration"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - infrastructure
+  - education
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Miljöpartiet vill att den tekniska utvecklingen ska komma alla människor till del. AI och digitalisering ska stärka demokratin, välfärden och klimatomställningen i hela landet.

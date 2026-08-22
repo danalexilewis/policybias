@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets - Vinster i välfärden"
-sourceUrl: "https://www.mp.se/politik/vinster-i-valfarden"
-canonicalUrl: "https://www.mp.se/politik/vinster-i-valfarden"
-fetchedAt: "2026-08-22T13:49:21.430Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets - Vinster i välfärden
+sourceUrl: https://www.mp.se/politik/vinster-i-valfarden
+canonicalUrl: https://www.mp.se/politik/vinster-i-valfarden
+fetchedAt: 2026-08-22T13:49:21.430Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill avskaffa marknadsskolan, låta vinster från skattefinansierad välfärd stanna i välfärden och ge alla en jämlik välfärd.

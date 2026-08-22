@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets äldrepolitik"
-sourceUrl: "https://www.mp.se/politik/aldrepolitik"
-canonicalUrl: "https://www.mp.se/politik/aldrepolitik"
-fetchedAt: "2026-08-22T13:49:23.257Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets äldrepolitik
+sourceUrl: https://www.mp.se/politik/aldrepolitik
+canonicalUrl: https://www.mp.se/politik/aldrepolitik
+fetchedAt: 2026-08-22T13:49:23.257Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill höja pensionerna, stärka äldreomsorgen och skapa bättre möjligheter för äldre att leva ett tryggt, aktivt och självständigt liv.

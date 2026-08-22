@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets migrationspolitik"
-sourceUrl: "https://www.mp.se/politik/migration-och-lika-ratt"
-canonicalUrl: "https://www.mp.se/politik/migration-och-lika-ratt"
-fetchedAt: "2026-08-22T13:49:11.398Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets migrationspolitik
+sourceUrl: https://www.mp.se/politik/migration-och-lika-ratt
+canonicalUrl: https://www.mp.se/politik/migration-och-lika-ratt
+fetchedAt: 2026-08-22T13:49:11.398Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill ha en human, solidarisk och rättssäker migrationspolitik. Asylrätten ska värnas i Sverige, i EU och globalt, och varje människa ska ha rätt att få sin ansökan individuellt prövad. Den som kommer till Sverige ska mötas av öppenhet, trygghet och goda möjligheter att snabbt bli en del av samhället.

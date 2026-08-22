@@ -1,21 +1,22 @@
 ---
 type: spec
 id: miljopartiet-politik-miljo
-title: "Miljö och natur"
+title: Miljö och natur
 status: draft
 updated: 2026-08-22
-summary: "Gå direkt till innehållGå direkt till menyn"
+summary: Gå direkt till innehållGå direkt till menyn
 jurisdiction: SE
 sources:
-  - title: "Miljö och natur"
-    url: https://www.mp.se/politik/miljo/
-tags: [schools-education]
+  - title: Miljö och natur
+    url: https://www.mp.se/politik/miljo
+tags:
+  - environment
 party: miljopartiet
 clusters:
-  - schools-education
+  - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-miljo.md
-sourceDigest: "sha256-38c628575c596519"
+sourceDigest: sha256-38c628575c596519
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

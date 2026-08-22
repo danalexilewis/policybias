@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "En grön rivstart för klimatet – hela listan | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/en-gron-rivstart-klimatet-hela-listan"
-canonicalUrl: "https://www.mp.se/politik/en-gron-rivstart-klimatet-hela-listan"
-fetchedAt: "2026-08-22T13:49:29.332Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: En grön rivstart för klimatet – hela listan | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/en-gron-rivstart-klimatet-hela-listan
+canonicalUrl: https://www.mp.se/politik/en-gron-rivstart-klimatet-hela-listan
+fetchedAt: 2026-08-22T13:49:29.332Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Vi ska inte återgå till gamla hjulspår utan bygga nytt, smartare och bättre. Miljöpartiet presenterar en grön rivstart för både ekonomin och klimatomställningen i budgeten för 2021.

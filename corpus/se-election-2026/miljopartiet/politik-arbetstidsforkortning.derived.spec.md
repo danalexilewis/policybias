@@ -1,21 +1,22 @@
 ---
 type: spec
 id: miljopartiet-politik-arbetstidsforkortning-derived
-title: "Arbetstidsförkortning (reading)"
+title: Arbetstidsförkortning (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Arbetstidsförkortning"
+summary: Our reading of Arbetstidsförkortning
 jurisdiction: SE
 sources:
-  - title: "Arbetstidsförkortning"
-    url: https://www.mp.se/politik/arbetstidsforkortning/
-tags: [energy-power]
+  - title: Arbetstidsförkortning
+    url: https://www.mp.se/politik/arbetstidsforkortning
+tags:
+  - employment
 party: miljopartiet
 clusters:
-  - energy-power
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-arbetstidsforkortning.md
-sourceDigest: "sha256-daafc60f2597d827"
+sourceDigest: sha256-daafc60f2597d827
 derivesFrom: miljopartiet-politik-arbetstidsforkortning
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

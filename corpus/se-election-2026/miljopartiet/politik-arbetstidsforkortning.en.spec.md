@@ -8,15 +8,15 @@ summary: Go directly to contentGo directly to the menu
 jurisdiction: SE
 sources:
   - title: Arbetstidsförkortning
-    url: https://www.mp.se/politik/arbetstidsforkortning/
+    url: https://www.mp.se/politik/arbetstidsforkortning
 tags:
-  - energy-power
+  - employment
 party: miljopartiet
 clusters:
-  - energy-power
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-arbetstidsforkortning.md
-sourceDigest: "sha256-daafc60f2597d827"
+sourceDigest: sha256-daafc60f2597d827
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +24,7 @@ lang: en
 translationOf: miljopartiet-arbetstidsforkortning
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-a29dcafedbb8af26"
+sourceSpecDigest: sha256-a29dcafedbb8af26
 ---
 
 # What the page states

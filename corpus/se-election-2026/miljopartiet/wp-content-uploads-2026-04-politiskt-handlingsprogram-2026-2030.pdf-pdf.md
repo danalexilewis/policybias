@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "politiskt-handlingsprogram-2026-2030-e93dacc1.pdf"
-sourceUrl: "https://www.mp.se/wp-content/uploads/2026/04/politiskt-handlingsprogram-2026-2030.pdf"
-canonicalUrl: "https://www.mp.se/wp-content/uploads/2026/04/politiskt-handlingsprogram-2026-2030.pdf"
-fetchedAt: "2026-08-22T13:49:26.758Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: politiskt-handlingsprogram-2026-2030-e93dacc1.pdf
+sourceUrl: https://www.mp.se/wp-content/uploads/2026/04/politiskt-handlingsprogram-2026-2030.pdf
+canonicalUrl: https://www.mp.se/wp-content/uploads/2026/04/politiskt-handlingsprogram-2026-2030.pdf
+fetchedAt: 2026-08-22T13:49:26.758Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - gender-equality
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # politiskt-handlingsprogram-2026-2030-e93dacc1.pdf

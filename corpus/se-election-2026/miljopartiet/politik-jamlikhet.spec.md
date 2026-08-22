@@ -1,21 +1,24 @@
 ---
 type: spec
 id: miljopartiet-politik-jamlikhet
-title: "Jämlikhet"
+title: Jämlikhet
 status: draft
 updated: 2026-08-22
-summary: "Gå direkt till innehållGå direkt till menyn"
+summary: Gå direkt till innehållGå direkt till menyn
 jurisdiction: SE
 sources:
-  - title: "Jämlikhet"
-    url: https://www.mp.se/politik/jamlikhet/
-tags: [crime-justice]
+  - title: Jämlikhet
+    url: https://www.mp.se/politik/jamlikhet
+tags:
+  - social-welfare
+  - education
+  - elderly-care
 party: miljopartiet
 clusters:
-  - crime-justice
+  - elderly-welfare
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-jamlikhet.md
-sourceDigest: "sha256-83f4f00cb9f664b5"
+sourceDigest: sha256-83f4f00cb9f664b5
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

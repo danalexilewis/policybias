@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiet kemikalier och gifter"
-sourceUrl: "https://www.mp.se/politik/kemikalier"
-canonicalUrl: "https://www.mp.se/politik/kemikalier"
-fetchedAt: "2026-08-22T13:45:10.449Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiet kemikalier och gifter
+sourceUrl: https://www.mp.se/politik/kemikalier
+canonicalUrl: https://www.mp.se/politik/kemikalier
+fetchedAt: 2026-08-22T13:45:10.449Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - agriculture
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill skärpa kemikalielagstiftningen och skydda djur, natur och människor mot gifter.

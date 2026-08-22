@@ -1,21 +1,24 @@
 ---
 type: spec
 id: miljopartiet-politik-antidiskriminering-och-antirasism-derived
-title: "Antidiskriminering och antirasism (reading)"
+title: Antidiskriminering och antirasism (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Antidiskriminering och antirasism"
+summary: Our reading of Antidiskriminering och antirasism
 jurisdiction: SE
 sources:
-  - title: "Antidiskriminering och antirasism"
-    url: https://www.mp.se/politik/antidiskriminering-och-antirasism/
-tags: [elderly-welfare]
+  - title: Antidiskriminering och antirasism
+    url: https://www.mp.se/politik/antidiskriminering-och-antirasism
+tags:
+  - education
+  - crime-and-justice
+  - democracy
 party: miljopartiet
 clusters:
-  - elderly-welfare
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-antidiskriminering-och-antirasism.md
-sourceDigest: "sha256-adc8fdf221262bc6"
+sourceDigest: sha256-adc8fdf221262bc6
 derivesFrom: miljopartiet-politik-antidiskriminering-och-antirasism
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Djurpolitiskt program | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/djurpolitiskt-program"
-canonicalUrl: "https://www.mp.se/politik/djurpolitiskt-program"
-fetchedAt: "2026-08-22T13:49:34.299Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Djurpolitiskt program | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/djurpolitiskt-program
+canonicalUrl: https://www.mp.se/politik/djurpolitiskt-program
+fetchedAt: 2026-08-22T13:49:34.299Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Introduktion

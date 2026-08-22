@@ -8,15 +8,17 @@ summary: Go directly to contentGo directly to the menu
 jurisdiction: SE
 sources:
   - title: Antidiskriminering och antirasism
-    url: https://www.mp.se/politik/antidiskriminering-och-antirasism/
+    url: https://www.mp.se/politik/antidiskriminering-och-antirasism
 tags:
-  - elderly-welfare
+  - education
+  - crime-and-justice
+  - democracy
 party: miljopartiet
 clusters:
-  - elderly-welfare
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-antidiskriminering-och-antirasism.md
-sourceDigest: "sha256-adc8fdf221262bc6"
+sourceDigest: sha256-adc8fdf221262bc6
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +26,7 @@ lang: en
 translationOf: miljopartiet-antidiskriminering-och-antirasism
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-c1c21707dab5ee6d"
+sourceSpecDigest: sha256-c1c21707dab5ee6d
 ---
 
 # What the page states

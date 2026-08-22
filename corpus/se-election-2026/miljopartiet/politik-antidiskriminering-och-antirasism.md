@@ -1,17 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiet antidiskriminering och antirasism"
-sourceUrl: "https://www.mp.se/politik/antidiskriminering-och-antirasism"
-canonicalUrl: "https://www.mp.se/politik/antidiskriminering-och-antirasism"
-fetchedAt: "2026-08-22T13:40:48.295Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiet antidiskriminering och antirasism
+sourceUrl: https://www.mp.se/politik/antidiskriminering-och-antirasism
+canonicalUrl: https://www.mp.se/politik/antidiskriminering-och-antirasism
+fetchedAt: 2026-08-22T13:40:48.295Z
+contentType: html
+via: party-site
 tags:
-  - "elderly-welfare"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - education
+  - crime-and-justice
+  - democracy
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Miljöpartiet vill skapa ett Sverige fritt från diskriminering och rasism där alla har lika rättigheter, trygghet och möjlighet att delta fullt ut i samhället.

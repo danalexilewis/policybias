@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för psykisk hälsa"
-sourceUrl: "https://www.mp.se/politik/ratt-att-ma-bra"
-canonicalUrl: "https://www.mp.se/politik/ratt-att-ma-bra"
-fetchedAt: "2026-08-22T13:49:13.097Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för psykisk hälsa
+sourceUrl: https://www.mp.se/politik/ratt-att-ma-bra
+canonicalUrl: https://www.mp.se/politik/ratt-att-ma-bra
+fetchedAt: 2026-08-22T13:49:13.097Z
+contentType: html
+via: party-site
+tags:
+  - culture
+  - healthcare
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill att psykisk hälsa prioriteras lika högt som fysisk hälsa och att barn, unga och vuxna får stöd i tid.

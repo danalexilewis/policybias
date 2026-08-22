@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets idrottspolitik"
-sourceUrl: "https://www.mp.se/politik/idrott"
-canonicalUrl: "https://www.mp.se/politik/idrott"
-fetchedAt: "2026-08-22T13:46:56.897Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets idrottspolitik
+sourceUrl: https://www.mp.se/politik/idrott
+canonicalUrl: https://www.mp.se/politik/idrott
+fetchedAt: 2026-08-22T13:46:56.897Z
+contentType: html
+via: party-site
+tags:
+  - culture
+  - economy
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill göra idrott och rörelse tillgängligt för fler genom jämlika villkor, fler hållbara anläggningar och starkare stöd till föreningslivet.

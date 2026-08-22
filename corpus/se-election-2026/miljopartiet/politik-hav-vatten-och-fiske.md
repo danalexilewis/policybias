@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för hav, vatten och fiske"
-sourceUrl: "https://www.mp.se/politik/hav-vatten-och-fiske"
-canonicalUrl: "https://www.mp.se/politik/hav-vatten-och-fiske"
-fetchedAt: "2026-08-22T13:43:45.296Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för hav, vatten och fiske
+sourceUrl: https://www.mp.se/politik/hav-vatten-och-fiske
+canonicalUrl: https://www.mp.se/politik/hav-vatten-och-fiske
+fetchedAt: 2026-08-22T13:43:45.296Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - climate
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stoppa överfisket, säkra havens återhämtning och stärka skyddet för vattenlevande arter och ekosystem.

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets tandsvårdspolitik"
-sourceUrl: "https://www.mp.se/politik/tandvard"
-canonicalUrl: "https://www.mp.se/politik/tandvard"
-fetchedAt: "2026-08-22T13:49:16.562Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets tandsvårdspolitik
+sourceUrl: https://www.mp.se/politik/tandvard
+canonicalUrl: https://www.mp.se/politik/tandvard
+fetchedAt: 2026-08-22T13:49:16.562Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill göra tandvården mer jämlik, stärka skyddet mot höga kostnader och ge unga upp till 23 år gratis tandvård.

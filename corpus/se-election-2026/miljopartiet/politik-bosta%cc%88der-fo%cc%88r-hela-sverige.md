@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Bostäder för hela Sverige | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/bosta%cc%88der-fo%cc%88r-hela-sverige"
-canonicalUrl: "https://www.mp.se/politik/bosta%cc%88der-fo%cc%88r-hela-sverige"
-fetchedAt: "2026-08-22T13:49:32.677Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Bostäder för hela Sverige | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/bosta%cc%88der-fo%cc%88r-hela-sverige
+canonicalUrl: https://www.mp.se/politik/bosta%cc%88der-fo%cc%88r-hela-sverige
+fetchedAt: 2026-08-22T13:49:32.677Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Programfördjupning:   

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiet bilar och bränslen"
-sourceUrl: "https://www.mp.se/politik/bilar-och-bransle"
-canonicalUrl: "https://www.mp.se/politik/bilar-och-bransle"
-fetchedAt: "2026-08-22T13:41:29.338Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiet bilar och bränslen
+sourceUrl: https://www.mp.se/politik/bilar-och-bransle
+canonicalUrl: https://www.mp.se/politik/bilar-och-bransle
+fetchedAt: 2026-08-22T13:41:29.338Z
+contentType: html
+via: party-site
+tags:
+  - climate
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill fasa ut fossila bränslen och göra elbilar tillgängliga för alla.

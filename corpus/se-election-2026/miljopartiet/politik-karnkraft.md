@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets energipolitik"
-sourceUrl: "https://www.mp.se/politik/karnkraft"
-canonicalUrl: "https://www.mp.se/politik/karnkraft"
-fetchedAt: "2026-08-22T13:49:10.001Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets energipolitik
+sourceUrl: https://www.mp.se/politik/karnkraft
+canonicalUrl: https://www.mp.se/politik/karnkraft
+fetchedAt: 2026-08-22T13:49:10.001Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill fasa ut det fossila och snabba på elektrifieringen utan att bygga ny kärnkraft.

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets ekonomiska politik"
-sourceUrl: "https://www.mp.se/politik/gron-ekonomi"
-canonicalUrl: "https://www.mp.se/politik/gron-ekonomi"
-fetchedAt: "2026-08-22T13:42:57.065Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets ekonomiska politik
+sourceUrl: https://www.mp.se/politik/gron-ekonomi
+canonicalUrl: https://www.mp.se/politik/gron-ekonomi
+fetchedAt: 2026-08-22T13:42:57.065Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - climate
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Miljöpartiet vill bygga en grön ekonomi som sänker utsläppen, minskar klyftorna och stärker tryggheten i vardagen. 

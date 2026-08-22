@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Bistånd och klimaträttvisa – Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/bistandochutrikespolitik"
-canonicalUrl: "https://www.mp.se/politik/bistandochutrikespolitik"
-fetchedAt: "2026-08-22T13:41:48.899Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Bistånd och klimaträttvisa – Miljöpartiet
+sourceUrl: https://www.mp.se/politik/bistandochutrikespolitik
+canonicalUrl: https://www.mp.se/politik/bistandochutrikespolitik
+fetchedAt: 2026-08-22T13:41:48.899Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka Sveriges globala arbete för fred, demokrati, mänskliga rättigheter och klimaträttvisa.

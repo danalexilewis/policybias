@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för studenter"
-sourceUrl: "https://www.mp.se/politik/studentpolitik"
-canonicalUrl: "https://www.mp.se/politik/studentpolitik"
-fetchedAt: "2026-08-22T13:49:15.837Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för studenter
+sourceUrl: https://www.mp.se/politik/studentpolitik
+canonicalUrl: https://www.mp.se/politik/studentpolitik
+fetchedAt: 2026-08-22T13:49:15.837Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka studenters ekonomi, förbättra den psykiska hälsan och ge studenter större trygghet och inflytande under studietiden.

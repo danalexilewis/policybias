@@ -8,15 +8,17 @@ summary: Go directly to contentGo directly to the menu
 jurisdiction: SE
 sources:
   - title: Jämlikhet
-    url: https://www.mp.se/politik/jamlikhet/
+    url: https://www.mp.se/politik/jamlikhet
 tags:
-  - crime-justice
+  - social-welfare
+  - education
+  - elderly-care
 party: miljopartiet
 clusters:
-  - crime-justice
+  - elderly-welfare
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-jamlikhet.md
-sourceDigest: "sha256-83f4f00cb9f664b5"
+sourceDigest: sha256-83f4f00cb9f664b5
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +26,7 @@ lang: en
 translationOf: miljopartiet-jamlikhet
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-ad0355394f6b8593"
+sourceSpecDigest: sha256-ad0355394f6b8593
 ---
 
 # What the page states

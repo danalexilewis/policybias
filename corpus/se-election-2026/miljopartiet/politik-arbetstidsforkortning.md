@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiet vill korta arbetstiden"
-sourceUrl: "https://www.mp.se/politik/arbetstidsforkortning"
-canonicalUrl: "https://www.mp.se/politik/arbetstidsforkortning"
-fetchedAt: "2026-08-22T13:41:08.674Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiet vill korta arbetstiden
+sourceUrl: https://www.mp.se/politik/arbetstidsforkortning
+canonicalUrl: https://www.mp.se/politik/arbetstidsforkortning
+fetchedAt: 2026-08-22T13:41:08.674Z
+contentType: html
+via: party-site
 tags:
-  - "energy-power"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - employment
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Miljöpartiet vill sänka arbetstiden till 35 timmar i veckan som steg mot fyradagarsvecka och ett arbetsliv där fler orkar hela livet.

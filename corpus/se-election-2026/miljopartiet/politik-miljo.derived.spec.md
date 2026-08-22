@@ -1,21 +1,22 @@
 ---
 type: spec
 id: miljopartiet-politik-miljo-derived
-title: "Miljö och natur (reading)"
+title: Miljö och natur (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Miljö och natur"
+summary: Our reading of Miljö och natur
 jurisdiction: SE
 sources:
-  - title: "Miljö och natur"
-    url: https://www.mp.se/politik/miljo/
-tags: [schools-education]
+  - title: Miljö och natur
+    url: https://www.mp.se/politik/miljo
+tags:
+  - environment
 party: miljopartiet
 clusters:
-  - schools-education
+  - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-miljo.md
-sourceDigest: "sha256-38c628575c596519"
+sourceDigest: sha256-38c628575c596519
 derivesFrom: miljopartiet-politik-miljo
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "100_fornybar_energi_program-c4170d71.pdf"
-sourceUrl: "https://www.mp.se/sites/default/files/100_fornybar_energi_program.pdf"
-canonicalUrl: "https://www.mp.se/sites/default/files/100_fornybar_energi_program.pdf"
-fetchedAt: "2026-08-22T13:49:37.652Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: 100_fornybar_energi_program-c4170d71.pdf
+sourceUrl: https://www.mp.se/sites/default/files/100_fornybar_energi_program.pdf
+canonicalUrl: https://www.mp.se/sites/default/files/100_fornybar_energi_program.pdf
+fetchedAt: 2026-08-22T13:49:37.652Z
+contentType: pdf
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # 100_fornybar_energi_program-c4170d71.pdf

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets djurpolitik"
-sourceUrl: "https://www.mp.se/politik/djur"
-canonicalUrl: "https://www.mp.se/politik/djur"
-fetchedAt: "2026-08-22T13:42:47.338Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets djurpolitik
+sourceUrl: https://www.mp.se/politik/djur
+canonicalUrl: https://www.mp.se/politik/djur
+fetchedAt: 2026-08-22T13:42:47.338Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka djurvälfärden och ge djur möjlighet till fullvärdiga liv.

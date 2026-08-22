@@ -8,15 +8,15 @@ summary: Go directly to contentGo directly to the menu
 jurisdiction: SE
 sources:
   - title: Miljö och natur
-    url: https://www.mp.se/politik/miljo/
+    url: https://www.mp.se/politik/miljo
 tags:
-  - schools-education
+  - environment
 party: miljopartiet
 clusters:
-  - schools-education
+  - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-miljo.md
-sourceDigest: "sha256-38c628575c596519"
+sourceDigest: sha256-38c628575c596519
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +24,7 @@ lang: en
 translationOf: miljopartiet-miljo
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-e0fb2064f08d5812"
+sourceSpecDigest: sha256-e0fb2064f08d5812
 ---
 
 # What the page states

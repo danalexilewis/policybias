@@ -1,21 +1,24 @@
 ---
 type: spec
 id: miljopartiet-politik-jamlikhet-derived
-title: "Jämlikhet (reading)"
+title: Jämlikhet (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Jämlikhet"
+summary: Our reading of Jämlikhet
 jurisdiction: SE
 sources:
-  - title: "Jämlikhet"
-    url: https://www.mp.se/politik/jamlikhet/
-tags: [crime-justice]
+  - title: Jämlikhet
+    url: https://www.mp.se/politik/jamlikhet
+tags:
+  - social-welfare
+  - education
+  - elderly-care
 party: miljopartiet
 clusters:
-  - crime-justice
+  - elderly-welfare
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-jamlikhet.md
-sourceDigest: "sha256-83f4f00cb9f664b5"
+sourceDigest: sha256-83f4f00cb9f664b5
 derivesFrom: miljopartiet-politik-jamlikhet
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

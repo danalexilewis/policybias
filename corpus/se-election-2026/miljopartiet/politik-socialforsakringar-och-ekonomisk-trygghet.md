@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets välfärdspolitik"
-sourceUrl: "https://www.mp.se/politik/socialforsakringar-och-ekonomisk-trygghet"
-canonicalUrl: "https://www.mp.se/politik/socialforsakringar-och-ekonomisk-trygghet"
-fetchedAt: "2026-08-22T13:43:08.191Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets välfärdspolitik
+sourceUrl: https://www.mp.se/politik/socialforsakringar-och-ekonomisk-trygghet
+canonicalUrl: https://www.mp.se/politik/socialforsakringar-och-ekonomisk-trygghet
+fetchedAt: 2026-08-22T13:43:08.191Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Miljöpartiet vill stärka den ekonomiska grundtryggheten och välfärdens skyddsnät så att färre barn och vuxna lever i utsatthet. 

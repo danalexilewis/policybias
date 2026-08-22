@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för minskad segregation och ökad integration"
-sourceUrl: "https://www.mp.se/politik/minskad-segregation"
-canonicalUrl: "https://www.mp.se/politik/minskad-segregation"
-fetchedAt: "2026-08-22T13:47:49.750Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för minskad segregation och ökad integration
+sourceUrl: https://www.mp.se/politik/minskad-segregation
+canonicalUrl: https://www.mp.se/politik/minskad-segregation
+fetchedAt: 2026-08-22T13:47:49.750Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - culture
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill minska segregationen, stärka integrationen och skapa trygga områden där människor med olika bakgrund kan leva, mötas och utvecklas tillsammans.

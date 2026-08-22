@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för civilsamhälle och föreningsliv"
-sourceUrl: "https://www.mp.se/politik/civilsamhalle-och-foreningsliv"
-canonicalUrl: "https://www.mp.se/politik/civilsamhalle-och-foreningsliv"
-fetchedAt: "2026-08-22T13:42:17.227Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för civilsamhälle och föreningsliv
+sourceUrl: https://www.mp.se/politik/civilsamhalle-och-foreningsliv
+canonicalUrl: https://www.mp.se/politik/civilsamhalle-och-foreningsliv
+fetchedAt: 2026-08-22T13:42:17.227Z
+contentType: html
+via: party-site
+tags:
+  - culture
+  - democracy
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka civilsamhället, den ideella kulturen och folkbildningen så att fler kan delta, mötas och bidra i hela landet.

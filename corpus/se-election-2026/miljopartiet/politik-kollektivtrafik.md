@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för kollektivtrafik"
-sourceUrl: "https://www.mp.se/politik/kollektivtrafik"
-canonicalUrl: "https://www.mp.se/politik/kollektivtrafik"
-fetchedAt: "2026-08-22T13:49:08.378Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för kollektivtrafik
+sourceUrl: https://www.mp.se/politik/kollektivtrafik
+canonicalUrl: https://www.mp.se/politik/kollektivtrafik
+fetchedAt: 2026-08-22T13:49:08.378Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 Miljöpartiet vill göra kollektivtrafiken billigare, mer pålitlig och tillgänglig i hela landet.

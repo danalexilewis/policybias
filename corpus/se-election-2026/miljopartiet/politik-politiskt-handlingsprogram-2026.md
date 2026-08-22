@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politiska handlingsprogram 2026"
-sourceUrl: "https://www.mp.se/politik/politiskt-handlingsprogram-2026"
-canonicalUrl: "https://www.mp.se/politik/politiskt-handlingsprogram-2026"
-fetchedAt: "2026-08-22T13:49:24.307Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politiska handlingsprogram 2026
+sourceUrl: https://www.mp.se/politik/politiskt-handlingsprogram-2026
+canonicalUrl: https://www.mp.se/politik/politiskt-handlingsprogram-2026
+fetchedAt: 2026-08-22T13:49:24.307Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Sverige behöver en ny riktning

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiet och EU"
-sourceUrl: "https://www.mp.se/politik/eu"
-canonicalUrl: "https://www.mp.se/politik/eu"
-fetchedAt: "2026-08-22T13:43:32.396Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiet och EU
+sourceUrl: https://www.mp.se/politik/eu
+canonicalUrl: https://www.mp.se/politik/eu
+fetchedAt: 2026-08-22T13:43:32.396Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - climate
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet arbetar för att EU ska vara en ledande kraft i klimatomställningen och för en demokratisk och rättvis värld. 

@@ -8,15 +8,15 @@ summary: Go directly to contentGo directly to the menu
 jurisdiction: SE
 sources:
   - title: Klimatkrisen kräver kraftfull klimatpolitik
-    url: https://www.mp.se/politik/klimat/
+    url: https://www.mp.se/politik/klimat
 tags:
-  - climate-environment
+  - climate
 party: miljopartiet
 clusters:
   - climate-environment
-money: no-figure
+money: named-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-klimat.md
-sourceDigest: "sha256-9bfbc38dc6c8460a"
+sourceDigest: sha256-9bfbc38dc6c8460a
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +24,7 @@ lang: en
 translationOf: miljopartiet-klimat
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-ca2a9afc3214f8db"
+sourceSpecDigest: sha256-ca2a9afc3214f8db
 ---
 
 # What the page states

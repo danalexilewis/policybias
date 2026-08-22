@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Programfördjupning hav och vatten | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/programfordjupning-hav-och-vatten"
-canonicalUrl: "https://www.mp.se/politik/programfordjupning-hav-och-vatten"
-fetchedAt: "2026-08-22T13:49:38.929Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Programfördjupning hav och vatten | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/programfordjupning-hav-och-vatten
+canonicalUrl: https://www.mp.se/politik/programfordjupning-hav-och-vatten
+fetchedAt: 2026-08-22T13:49:38.929Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Vatten är livsviktigt

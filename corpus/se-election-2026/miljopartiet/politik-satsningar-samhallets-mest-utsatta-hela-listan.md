@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Satsningar för samhällets mest utsatta – hela listan | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/satsningar-samhallets-mest-utsatta-hela-listan"
-canonicalUrl: "https://www.mp.se/politik/satsningar-samhallets-mest-utsatta-hela-listan"
-fetchedAt: "2026-08-22T13:49:41.943Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Satsningar för samhällets mest utsatta – hela listan | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/satsningar-samhallets-mest-utsatta-hela-listan
+canonicalUrl: https://www.mp.se/politik/satsningar-samhallets-mest-utsatta-hela-listan
+fetchedAt: 2026-08-22T13:49:41.943Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 I budgeten för 2021 har Miljöpartiet fått igenom viktiga satsningar för vården, äldreomsorgen, pensionärer och ensamstående föräldrar.

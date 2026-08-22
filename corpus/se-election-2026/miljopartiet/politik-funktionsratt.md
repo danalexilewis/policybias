@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets funktionsrättspolitik"
-sourceUrl: "https://www.mp.se/politik/funktionsratt"
-canonicalUrl: "https://www.mp.se/politik/funktionsratt"
-fetchedAt: "2026-08-22T13:43:57.958Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets funktionsrättspolitik
+sourceUrl: https://www.mp.se/politik/funktionsratt
+canonicalUrl: https://www.mp.se/politik/funktionsratt
+fetchedAt: 2026-08-22T13:43:57.958Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka funktionsrätten, återupprätta rätten till stöd och skapa ett samhälle där alla kan delta på lika villkor.

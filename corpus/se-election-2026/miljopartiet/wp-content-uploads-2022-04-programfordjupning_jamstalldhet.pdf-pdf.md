@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "programfordjupning_jamstalldhet-6304bec2.pdf"
-sourceUrl: "https://www.mp.se/wp-content/uploads/2022/04/programfordjupning_jamstalldhet.pdf"
-canonicalUrl: "https://www.mp.se/wp-content/uploads/2022/04/programfordjupning_jamstalldhet.pdf"
-fetchedAt: "2026-08-22T13:49:42.904Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: programfordjupning_jamstalldhet-6304bec2.pdf
+sourceUrl: https://www.mp.se/wp-content/uploads/2022/04/programfordjupning_jamstalldhet.pdf
+canonicalUrl: https://www.mp.se/wp-content/uploads/2022/04/programfordjupning_jamstalldhet.pdf
+fetchedAt: 2026-08-22T13:49:42.904Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - gender-equality
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # programfordjupning_jamstalldhet-6304bec2.pdf

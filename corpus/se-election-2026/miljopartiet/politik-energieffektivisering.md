@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Energieffektivisering | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/energieffektivisering"
-canonicalUrl: "https://www.mp.se/politik/energieffektivisering"
-fetchedAt: "2026-08-22T13:49:36.887Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Energieffektivisering | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/energieffektivisering
+canonicalUrl: https://www.mp.se/politik/energieffektivisering
+fetchedAt: 2026-08-22T13:49:36.887Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Energieffektiviseringar – att använda elen smartare – är det snabbaste, billigaste och mest miljövänliga sättet att minska energikostnaderna för hushåll och företag, minska energiproduktionens miljöpåverkan och tillgängliggöra mer el för klimatomställningen.

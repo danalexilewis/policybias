@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för biologisk mångfald"
-sourceUrl: "https://www.mp.se/politik/biologisk-mangfald"
-canonicalUrl: "https://www.mp.se/politik/biologisk-mangfald"
-fetchedAt: "2026-08-22T13:41:38.790Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för biologisk mångfald
+sourceUrl: https://www.mp.se/politik/biologisk-mangfald
+canonicalUrl: https://www.mp.se/politik/biologisk-mangfald
+fetchedAt: 2026-08-22T13:41:38.790Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stoppa förlusten av biologisk mångfald och säkra livskraftiga arter och ekosystem.

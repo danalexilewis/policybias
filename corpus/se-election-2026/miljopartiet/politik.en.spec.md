@@ -10,13 +10,13 @@ sources:
   - title: Sverige vinner på grön politik
     url: https://www.mp.se/politik/
 tags:
-  - health-care
+  - other
 party: miljopartiet
 clusters:
-  - health-care
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik.md
-sourceDigest: "sha256-7d4f24c58485fcb1"
+sourceDigest: sha256-7d4f24c58485fcb1
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -24,7 +24,7 @@ lang: en
 translationOf: miljopartiet-politik
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-58145302c81ca9aa"
+sourceSpecDigest: sha256-58145302c81ca9aa
 ---
 
 # What the page states

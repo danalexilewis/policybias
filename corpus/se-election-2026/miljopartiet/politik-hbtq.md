@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets politik för hbtqi-personers rättigheter"
-sourceUrl: "https://www.mp.se/politik/hbtq"
-canonicalUrl: "https://www.mp.se/politik/hbtq"
-fetchedAt: "2026-08-22T13:45:50.648Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets politik för hbtqi-personers rättigheter
+sourceUrl: https://www.mp.se/politik/hbtq
+canonicalUrl: https://www.mp.se/politik/hbtq
+fetchedAt: 2026-08-22T13:45:50.648Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+  - social-welfare
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill stärka hbtqi-personers rättigheter, trygghet och hälsa i Sverige och globalt, och ge alla barn samma rätt till sina familjer.

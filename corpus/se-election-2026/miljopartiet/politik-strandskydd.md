@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets vill bevara strandskyddet"
-sourceUrl: "https://www.mp.se/politik/strandskydd"
-canonicalUrl: "https://www.mp.se/politik/strandskydd"
-fetchedAt: "2026-08-22T13:49:15.160Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets vill bevara strandskyddet
+sourceUrl: https://www.mp.se/politik/strandskydd
+canonicalUrl: https://www.mp.se/politik/strandskydd
+fetchedAt: 2026-08-22T13:49:15.160Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill bevara strandskyddet för att skydda djur- och växtliv och för att alla människor ska ha fortsatt tillgång till stränder.

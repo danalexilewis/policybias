@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Programfördjupning jämställdhet | Miljöpartiet"
-sourceUrl: "https://www.mp.se/politik/programfordjupning-jamstalldhet"
-canonicalUrl: "https://www.mp.se/politik/programfordjupning-jamstalldhet"
-fetchedAt: "2026-08-22T13:49:42.528Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Programfördjupning jämställdhet | Miljöpartiet
+sourceUrl: https://www.mp.se/politik/programfordjupning-jamstalldhet
+canonicalUrl: https://www.mp.se/politik/programfordjupning-jamstalldhet
+fetchedAt: 2026-08-22T13:49:42.528Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ## Miljöpartiets programfördjupning: jämställdhet

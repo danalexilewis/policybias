@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets miljö- och naturpolitik inför valet 2026"
-sourceUrl: "https://www.mp.se/politik/miljo"
-canonicalUrl: "https://www.mp.se/politik/miljo"
-fetchedAt: "2026-08-22T13:40:15.359Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets miljö- och naturpolitik inför valet 2026
+sourceUrl: https://www.mp.se/politik/miljo
+canonicalUrl: https://www.mp.se/politik/miljo
+fetchedAt: 2026-08-22T13:40:15.359Z
+contentType: html
+via: party-site
 tags:
-  - "schools-education"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - environment
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 Miljöpartiet vill skydda naturen och ekosystemen, säkra rent vatten och mat för människor och djur, och se till att människor och andra arter kan leva tillsammans på jorden under lång tid framöver. 

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "miljopartiet"
-title: "Miljöpartiets skol- och utbildningspolitik"
-sourceUrl: "https://www.mp.se/politik/skola"
-canonicalUrl: "https://www.mp.se/politik/skola"
-fetchedAt: "2026-08-22T13:49:14.299Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: miljopartiet
+title: Miljöpartiets skol- och utbildningspolitik
+sourceUrl: https://www.mp.se/politik/skola
+canonicalUrl: https://www.mp.se/politik/skola
+fetchedAt: 2026-08-22T13:49:14.299Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 Miljöpartiet vill ge alla barn och elever en trygg och likvärdig utbildning med mindre grupper, starkare stöd och skolor där resurserna går till lärande.

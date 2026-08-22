@@ -11,9 +11,15 @@ importers:
       '@vercel/analytics':
         specifier: ^2.0.1
         version: 2.0.1(react@19.2.8)
+      gsap:
+        specifier: ^3.15.0
+        version: 3.15.0
       gurki:
         specifier: github:danalexilewis/gurki
         version: https://codeload.github.com/danalexilewis/gurki/tar.gz/f536b018f6732a9ba870be0b8f8ae84a8390fa48
+      nuqs:
+        specifier: ^2.10.0
+        version: 2.10.0(react@19.2.8)
       react:
         specifier: ^19.1.0
         version: 19.2.8
@@ -1482,6 +1488,9 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
+  gsap@3.15.0:
+    resolution: {integrity: sha512-dMW4CWBTUK1AEEDeZc1g4xpPGIrSf9fJF960qbTZmN/QwZIWY5wgliS6JWl9/25fpTGJrMRtSjGtOmPnfjZB+A==}
+
   gurki@https://codeload.github.com/danalexilewis/gurki/tar.gz/f536b018f6732a9ba870be0b8f8ae84a8390fa48:
     resolution: {tarball: https://codeload.github.com/danalexilewis/gurki/tar.gz/f536b018f6732a9ba870be0b8f8ae84a8390fa48}
     version: 0.1.0
@@ -1756,6 +1765,27 @@ packages:
   nth-check@3.0.1:
     resolution: {integrity: sha512-GX0gsdbGVCgnRgbeGaubfjpBXyYRWOOCVeYh08bSQvDZqxz5ndXs1OTfAt/h36G1xvI94YIspsI0sVFqAV9+RQ==}
     engines: {node: '>=20.19.0'}
+
+  nuqs@2.10.0:
+    resolution: {integrity: sha512-uy62jWCXiU1mcGfoClUFNTfrbaxfPQ8WuiomYlkXw5llVdN8kRZVYxOQ2LD70k3DzVQz5bZczE9ClVXwOC22Dw==}
+    peerDependencies:
+      '@remix-run/react': '>=2'
+      '@tanstack/react-router': ^1
+      next: '>=14.2.0'
+      react: '>=18.2.0 || ^19.0.0-0'
+      react-router: ^5 || ^6 || ^7 || ^8
+      react-router-dom: ^5 || ^6 || ^7
+    peerDependenciesMeta:
+      '@remix-run/react':
+        optional: true
+      '@tanstack/react-router':
+        optional: true
+      next:
+        optional: true
+      react-router:
+        optional: true
+      react-router-dom:
+        optional: true
 
   nwsapi@2.2.24:
     resolution: {integrity: sha512-7YRhZ3jS45LwmSCT4b2sVFHt/WuovaktDU07QrtOBY2PXskss5a9jfmR9jptyumwXST+rFjrmppMY1KT/yn35A==}
@@ -3751,6 +3781,8 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
+  gsap@3.15.0: {}
+
   gurki@https://codeload.github.com/danalexilewis/gurki/tar.gz/f536b018f6732a9ba870be0b8f8ae84a8390fa48:
     dependencies:
       yaml: 2.9.0
@@ -4067,6 +4099,11 @@ snapshots:
   nth-check@3.0.1:
     dependencies:
       boolbase: 2.0.0
+
+  nuqs@2.10.0(react@19.2.8):
+    dependencies:
+      '@standard-schema/spec': 1.1.0
+      react: 19.2.8
 
   nwsapi@2.2.24: {}
 

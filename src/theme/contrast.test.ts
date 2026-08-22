@@ -2,10 +2,12 @@ import { describe, expect, it } from 'vitest'
 import { PARTY_COLOURS } from '../card/anonymise'
 import { CLUSTER_COLOURS, clusterColour } from './clusterColours'
 import {
+  chipText,
   contrastRatio,
   contrastingText,
   INK,
   meetsAaBody,
+  PAPER,
   WHITE,
 } from './contrast'
 
@@ -31,6 +33,13 @@ describe('contrastingText', () => {
     }
     const fallback = clusterColour('unknown-cluster')
     expect(meetsAaBody(contrastingText(fallback), fallback)).toBe(true)
+  })
+
+  it('puts cream type on every named category fill', () => {
+    for (const [id, fill] of Object.entries(CLUSTER_COLOURS)) {
+      expect(chipText(fill), id).toBe(PAPER)
+      expect(meetsAaBody(PAPER, fill), `${id} cream on ${fill}`).toBe(true)
+    }
   })
 
   it('gives every party fill a 4.5:1 text colour', () => {

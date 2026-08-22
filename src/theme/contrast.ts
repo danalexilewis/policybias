@@ -9,6 +9,9 @@ export const INK = '#171717'
 /** White text on dark fills. Stronger than cream `--paper` on mid tones. */
 export const WHITE = '#ffffff'
 
+/** Matches `--paper`. Cream type on strong category fills. */
+export const PAPER = '#fffbe6'
+
 const AA_BODY = 4.5
 
 function channel(value: number): number {
@@ -63,6 +66,17 @@ export function contrastingText(background: string): string {
   const ink = contrastRatio(INK, background)
   const white = contrastRatio(WHITE, background)
   return ink >= white ? INK : WHITE
+}
+
+/**
+ * Cream paper on a strong fill when it still meets AA.
+ * Falls back to ink or white when cream would wash out.
+ */
+export function chipText(background: string): string {
+  if (meetsAaBody(PAPER, background)) {
+    return PAPER
+  }
+  return contrastingText(background)
 }
 
 /** True when the pair meets WCAG AA for body text. */

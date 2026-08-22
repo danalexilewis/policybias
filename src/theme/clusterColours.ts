@@ -4,12 +4,12 @@
  */
 export const CLUSTER_COLOURS: Record<string, string> = {
   'health-access': '#b84d5c',
-  'energy-power': '#d9783a',
+  'energy-power': '#b05c2e',
   'tax-fiscal': '#4a6fa5',
   'crime-justice': '#6b4c7a',
-  'immigration': '#3d8b8f',
-  'family-income': '#c47a4a',
-  'environment-rural': '#5a8f5a',
+  'immigration': '#2f7579',
+  'family-income': '#9e5c36',
+  'environment-rural': '#487448',
   'maori-affairs': '#a15c7a',
 }
 

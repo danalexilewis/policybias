@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6046696d48da9ea7
+contentLength: 979
 ---
 
 Kort info om KD:s politik rörande vaccinationer.

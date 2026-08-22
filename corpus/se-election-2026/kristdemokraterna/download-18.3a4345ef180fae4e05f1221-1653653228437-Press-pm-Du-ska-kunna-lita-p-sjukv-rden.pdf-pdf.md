@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-a66df629360cf50d
+contentLength: 22407
 ---
 
 # Press-pm-Du-ska-kunna-lita-p-sjukv-rden-5f432c15.pdf

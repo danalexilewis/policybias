@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-32266dd937be2664
+contentLength: 53660
 ---
 
 # Europapolitiskt-handlingsprogram-5cae2f34.pdf

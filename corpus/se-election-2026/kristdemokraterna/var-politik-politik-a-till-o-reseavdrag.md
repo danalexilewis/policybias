@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-69855b237d097c7f
+contentLength: 259
 ---
 
 Kort info om KD:s politik rörande reseavdrag.

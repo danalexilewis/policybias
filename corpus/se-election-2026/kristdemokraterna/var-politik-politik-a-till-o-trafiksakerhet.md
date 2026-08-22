@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2fd8fe0409586016
+contentLength: 575
 ---
 
 Kort info om KDs politik rörande trafiksäkerhet

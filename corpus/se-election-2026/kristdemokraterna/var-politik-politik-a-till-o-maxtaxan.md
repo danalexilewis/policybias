@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b1e64a5c2174c9fa
+contentLength: 558
 ---
 
 Kort info om KD:s politik rörande maxtaxan.

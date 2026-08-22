@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7087a038137f0547
+contentLength: 21103
 ---
 
 # Rapport---fo-rsvarsutbildning-fo-r-unga-fd2f4929.pdf

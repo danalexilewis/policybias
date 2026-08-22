@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9164d2fbb8577eae
+contentLength: 772
 ---
 
 Kort info om KD:s politik rörande friskolor.

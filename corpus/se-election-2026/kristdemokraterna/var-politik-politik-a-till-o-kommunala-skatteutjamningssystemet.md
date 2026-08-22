@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2f17cef61f805037
+contentLength: 414
 ---
 
 Kort info om KD:s politik rörande kommunala skatteutjämningssystemet.

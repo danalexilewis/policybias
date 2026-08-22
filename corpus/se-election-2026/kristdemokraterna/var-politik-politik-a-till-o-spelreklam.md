@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-76e16abc26bee121
+contentLength: 459
 ---
 
 Kort info om KD:s politik rörande spelreklam.

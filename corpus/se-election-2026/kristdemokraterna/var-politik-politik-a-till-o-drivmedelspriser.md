@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-db8e61c3ffb1e509
+contentLength: 657
 ---
 
 Kort info om KD:s politik rörande drivmedelspriser.

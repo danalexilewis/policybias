@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f0e8890bfded679b
+contentLength: 532
 ---
 
 Kort info om KDs politik rörande energieffektivisering

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3a68f2acf622518c
+contentLength: 18372
 ---
 
 # Klimat-2.0.-O-verenskommelsen-a205e4b4.pdf

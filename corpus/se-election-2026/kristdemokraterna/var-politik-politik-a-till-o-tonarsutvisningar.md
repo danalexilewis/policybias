@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c8d9608a9b7e8354
+contentLength: 552
 ---
 
 Kort info om KDs politik rörande tonårsutvisningar

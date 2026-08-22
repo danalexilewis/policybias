@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-d10df27a121c3153
+contentLength: 733
 ---
 
 Kort info angående KD:s politik rörande anhörigvård.

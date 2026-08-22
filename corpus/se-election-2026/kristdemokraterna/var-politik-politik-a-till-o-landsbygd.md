@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3a4a88d22dd20bc6
+contentLength: 539
 ---
 
 Kort info om KDs politik rörande landsbygd

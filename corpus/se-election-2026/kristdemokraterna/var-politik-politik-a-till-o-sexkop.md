@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7accf0762d9442fa
+contentLength: 862
 ---
 
 Kort info om KD:s politik rörande sexköp.

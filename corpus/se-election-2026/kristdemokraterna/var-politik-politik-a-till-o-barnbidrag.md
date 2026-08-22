@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-a38ac2d2e2521d71
+contentLength: 661
 ---
 
 Kort info om KDs politik rörande barnbidrag

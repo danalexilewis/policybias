@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-85226f8b44d5f84e
+contentLength: 798
 ---
 
 Kort info om KD:s politik rörande vård till papperslösa.

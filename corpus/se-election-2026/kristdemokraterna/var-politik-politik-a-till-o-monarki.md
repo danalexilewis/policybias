@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fc89fd6e40733cce
+contentLength: 417
 ---
 
 Kort info om KD:s politik rörande monarki.

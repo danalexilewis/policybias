@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-750aece582b6c80d
+contentLength: 740
 ---
 
 Kort info om KD:s politik rörande religionsfrihet.

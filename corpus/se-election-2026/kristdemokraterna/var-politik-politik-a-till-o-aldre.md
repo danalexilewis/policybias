@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b0292497457c3d52
+contentLength: 1001
 ---
 
 Kort info om KD:s politik rörande äldre.

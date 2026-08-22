@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b37b218f62e15590
+contentLength: 811
 ---
 
 Kort info om KD:s politik rörande våld i nära relationer.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-32d39a54923d0198
+contentLength: 562
 ---
 
 Kort info om KD:s politik gällande den gröna omställningen.

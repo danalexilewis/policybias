@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-0213680e4224888d
+contentLength: 13970
 ---
 
 # Avskaffa-den-ora-ttvisa-flyttskatten-1-9f68d0d9.pdf

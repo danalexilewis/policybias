@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-983b8262170c0de6
+contentLength: 665
 ---
 
 Kort info om KDs politik rörande smittskydd

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3afd7619dc94c353
+contentLength: 998
 ---
 
 Kort info om KDs politik rörande Israel

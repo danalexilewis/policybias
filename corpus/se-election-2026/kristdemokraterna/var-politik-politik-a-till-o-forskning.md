@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c6b5148510a66e61
+contentLength: 367
 ---
 
 Kort info om KD:s politik rörande forskning.

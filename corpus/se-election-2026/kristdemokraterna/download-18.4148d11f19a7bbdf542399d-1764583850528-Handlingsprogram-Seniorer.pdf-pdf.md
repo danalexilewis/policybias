@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-ca633ee1c6a7cd4a
+contentLength: 26645
 ---
 
 # Handlingsprogram-Seniorer-70331a7f.pdf

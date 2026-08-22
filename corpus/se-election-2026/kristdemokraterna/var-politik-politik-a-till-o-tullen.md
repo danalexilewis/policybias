@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-deade652feda5593
+contentLength: 561
 ---
 
 Kort info om KD:s politik rörande tullen.

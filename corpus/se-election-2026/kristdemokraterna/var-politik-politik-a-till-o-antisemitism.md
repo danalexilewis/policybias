@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-71e31a7437f37703
+contentLength: 600
 ---
 
 Kort info angående KDs politik rörande antisemitism.

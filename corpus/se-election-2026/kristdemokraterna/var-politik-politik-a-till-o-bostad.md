@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-696639723e1564f2
+contentLength: 1058
 ---
 
 Kort info om KD:s politik rörande bostad.

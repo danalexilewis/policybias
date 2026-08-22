@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6668a86f2f6e4f6a
+contentLength: 733
 ---
 
 Kort info om KDs politik rörande vildsvin

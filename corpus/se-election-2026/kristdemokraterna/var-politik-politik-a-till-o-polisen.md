@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f78ccaa2322d6443
+contentLength: 1192
 ---
 
 Kort info om KD:s politik rörande polisen.

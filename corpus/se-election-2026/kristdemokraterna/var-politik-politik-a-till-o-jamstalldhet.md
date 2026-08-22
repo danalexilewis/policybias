@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9c7fa8df7edaec9f
+contentLength: 778
 ---
 
 Kort info om KD:s politik rörande jämställdhet.

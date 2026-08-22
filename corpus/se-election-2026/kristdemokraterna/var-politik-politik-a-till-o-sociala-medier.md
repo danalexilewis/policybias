@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6874b02b5ec3d635
+contentLength: 651
 ---
 
 Kort info om KDs politik rörande sociala medier

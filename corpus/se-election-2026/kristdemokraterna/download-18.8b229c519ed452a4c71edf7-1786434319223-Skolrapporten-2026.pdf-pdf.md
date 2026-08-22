@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6061ee6f4be46078
+contentLength: 14885
 ---
 
 # Skolrapporten-2026-f4a29293.pdf

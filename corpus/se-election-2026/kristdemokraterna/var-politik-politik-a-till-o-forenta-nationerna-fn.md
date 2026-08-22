@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-46c4567a8bac8d76
+contentLength: 1176
 ---
 
 Kort info om KDs politik rörande Förenta Nationerna (FN)

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8b295f657a141ca6
+contentLength: 642
 ---
 
 Kort info om KDs politik rörande skuldsanering

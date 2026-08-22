@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6887757e74e5efe9
+contentLength: 743
 ---
 
 Kort info om KD:s politik rörande tobak.

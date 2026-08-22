@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1f5570657f7117b6
+contentLength: 482
 ---
 
 Kort info om KD:s politik rörande funktionsnedsättning.

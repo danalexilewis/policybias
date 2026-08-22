@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f2eb6e4b2426a41a
+contentLength: 504
 ---
 
 Kort info om KDs politik rörande biologisk mångfald

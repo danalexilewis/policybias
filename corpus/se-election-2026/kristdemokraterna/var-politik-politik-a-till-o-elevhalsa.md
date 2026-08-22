@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2d7ec7093225b9b2
+contentLength: 810
 ---
 
 Kort info om KD:s politik rörande elevhälsa.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-320c24460eae5af4
+contentLength: 662
 ---
 
 Kort info om KD:s politik rörande fiske:

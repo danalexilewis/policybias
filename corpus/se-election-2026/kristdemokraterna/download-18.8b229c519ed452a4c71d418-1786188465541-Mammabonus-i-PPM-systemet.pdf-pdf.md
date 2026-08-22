@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-e1b33d711dbe2bc3
+contentLength: 11004
 ---
 
 # Mammabonus-i-PPM-systemet-575283c3.pdf

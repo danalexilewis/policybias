@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-f163304c536e5fe7
+contentLength: 58591
 ---
 
 # Stoppa-v-lf-rdsbrottsligheten-09d47956.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2dfffe64f1e2af09
+contentLength: 5211
 ---
 
 # PM-Forlossningsvarden-augusti2022-35b3da7e.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-02def6768ff161d1
+contentLength: 1103
 ---
 
 Kort info om KDs politik rörande Iran

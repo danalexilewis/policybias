@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-185de7bde97a9b39
+contentLength: 501
 ---
 
 Kort info om KDs politik rörande högre utbildning

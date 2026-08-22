@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-91b5c5868bafc5cc
+contentLength: 874
 ---
 
 Kort info om KD:s politik angående civilt försvar och beredskap

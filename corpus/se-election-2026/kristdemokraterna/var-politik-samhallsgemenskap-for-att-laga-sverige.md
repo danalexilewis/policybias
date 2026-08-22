@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ba267760a48363f8
+contentLength: 2011
 ---
 
 Något har gått sönder i Sverige. De gemensamma värderingar som en gång byggt vårt öppna samhälle, som är byggt på frihet, ansvar och tillit har utmanats av auktoritära strömningar och parallellsamhällen. Ungefär en halv miljon personer bor i ett av Sveriges 59 utsatta områden. Den segregation som präglar stora delar av Sverige idag och som bidragit till ett svårbrutet ekonomiskt och socialt utanförskap, till språklig isolering, främlingskap och systemhotande kriminalitet har inte uppstått över en natt. Den har byggts upp under decennier präglade av missriktad välvilja, tafatthet och bristande integration.

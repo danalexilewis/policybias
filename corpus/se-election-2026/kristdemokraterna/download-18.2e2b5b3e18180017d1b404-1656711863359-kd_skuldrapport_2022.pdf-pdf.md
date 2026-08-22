@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-12ea9bf6a36ab131
+contentLength: 25513
 ---
 
 # kd_skuldrapport_2022-b9bf0b91.pdf

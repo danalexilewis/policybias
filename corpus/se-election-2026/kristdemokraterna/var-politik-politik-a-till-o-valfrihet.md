@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9627c27a79b15ab1
+contentLength: 805
 ---
 
 Kort info om KD:s politik rörande valfrihet.

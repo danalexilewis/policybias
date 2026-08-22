@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f507770979810aaa
+contentLength: 726
 ---
 
 Kort info om KD:s politik rörande skolan.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-ab4f783c11e81d9b
+contentLength: 602
 ---
 
 Kort info om KD:s politik rörande fritidskort.

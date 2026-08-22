@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-178780fcc0be6679
+contentLength: 520
 ---
 
 Kort info om KD:s politik rörande dödsstraff.

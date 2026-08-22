@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-12ee4362f4757ef8
+contentLength: 533
 ---
 
 Kort info om KDs politik rörande sjöfart

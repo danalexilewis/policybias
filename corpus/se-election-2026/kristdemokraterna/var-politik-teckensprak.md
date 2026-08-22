@@ -13,6 +13,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6c24059ffb64c2b5
+contentLength: 1862
 ---
 
 Viktiga frågor för Kristdemokraterna - vården, äldre, trygghet

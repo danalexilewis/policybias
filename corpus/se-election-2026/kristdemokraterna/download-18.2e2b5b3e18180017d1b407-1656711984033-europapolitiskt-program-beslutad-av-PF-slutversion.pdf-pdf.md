@@ -11,9 +11,11 @@ tags:
   - agriculture
   - defence
   - economy
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-be98f2f62cff254e
+contentLength: 80055
 ---
 
 # europapolitiskt-program-beslutad-av-PF-slutversion-0385d28c.pdf
@@ -1226,30 +1228,6 @@ rollen som råvaruproducenter. Här finns inget utrymme för protektionism från
 bör även lägga mer kraft på att verka för minskade handelshinder utvecklingsländer emellan
 – hinder som ofta kan vara högre än mellan dessa länder och EU.
 
-I ett försök att undergräva frihandeln ifrågasätter nu allt fler politiker EU:s exklusiva
-handelskompetens. Vi såg under förhandlingarna om ett handelsavtal med Kanada hur ett
-regionparlament i praktiken kunde kidnappa en hel avtalsprocess. Kristdemokraterna vill
-värna och förtydliga EU:s kompetens på handelsområdet.
+I ett försök att unde
 
-Kristdemokraterna vill:
-
-• Att mänskliga- fri och rättigheter står i centrum för EU:s gemensamma utrikespolitik. Särskilt
-fokus ska ägnas åt religions- och trosfriheten.
-
-• Att Sverige i högre grad prioriterar EU-samarbetet som utrikespolitisk plattform.
-
-• Att utvidgningsinstrumentet används för att främja och försvara mänskliga rättigheter och
-rättsstatsutveckling i vårt närområde.
-
-• Att EU tjänar som ett kompletterande verktyg för mellanstatligt försvarssamarbete, i
-synnerhet på det försvarsindustriella området.
-
-• Att Sverige i sin bistånds- och EU-politik verka för att fler EU-länder höjer sina
-biståndsnivåer.
-
-• Att Sverige spelar en konstruktiv roll i arbetet med att sluta handelsavtal mellan EU och
-omvärlden.
-
-• Att EU:s exklusiva kompetens på handelsområdet ska försvaras.
-
-                                              29
+[truncated: original dump exceeded 80000 characters]

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-83829b40f3742017
+contentLength: 711
 ---
 
 Kort info om KD:s politik rörande EU:s migrationspakt

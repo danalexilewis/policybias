@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-1895ee940a7f0e78
+contentLength: 464
 ---
 
 Kort info om KDs politik rörande mammabonus i pensionen

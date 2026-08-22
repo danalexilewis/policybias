@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ac09cdad0265e226
+contentLength: 527
 ---
 
 Kort info om KDs politik rörande småhus

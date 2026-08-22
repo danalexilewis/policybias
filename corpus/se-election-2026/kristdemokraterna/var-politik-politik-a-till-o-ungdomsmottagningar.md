@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-86495c926d96670a
+contentLength: 574
 ---
 
 Kort info om KDs politik rörande ungdomsmottagningar

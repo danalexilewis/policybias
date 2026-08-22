@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-acc9db92c12d87fc
+contentLength: 519
 ---
 
 Kort info om KD:s politik rörande värdighetsgaranti.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d3b3159214c13609
+contentLength: 36240
 ---
 
 # Psykisk-ha-lsa-program-9571fc8b.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-cecb40b8b949668f
+contentLength: 897
 ---
 
 Kort info om KD:s politik rörande modersmålsundervisning.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2f5bd27ea74a8bf8
+contentLength: 423
 ---
 
 Kort info om KDs politik rörande skoluniform

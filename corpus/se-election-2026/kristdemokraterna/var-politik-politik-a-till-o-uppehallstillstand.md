@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-69c5668cb4c1208f
+contentLength: 781
 ---
 
 Kort info om KD:s politik rörande uppehållstillstånd.

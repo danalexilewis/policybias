@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fc9766e2f842b9cf
+contentLength: 977
 ---
 
 Kort info angående KD:s politik rörande antibiotika

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3267f5877c38f3fb
+contentLength: 4095
 ---
 
 # Press-PM-Kemisk-kastrering-2022-2410cbd3.pdf

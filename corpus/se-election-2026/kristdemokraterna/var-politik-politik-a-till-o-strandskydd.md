@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5ae85da7c5a804aa
+contentLength: 717
 ---
 
 Kort info om KDs politik rörande strandskydd

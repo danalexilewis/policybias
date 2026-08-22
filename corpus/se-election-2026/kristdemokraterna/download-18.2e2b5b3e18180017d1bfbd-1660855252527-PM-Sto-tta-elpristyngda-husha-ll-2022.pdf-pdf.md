@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-596f6c085b2693a2
+contentLength: 5887
 ---
 
 # PM-Sto-tta-elpristyngda-husha-ll-2022-ad2fec37.pdf

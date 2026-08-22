@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-34026b72094498af
+contentLength: 506
 ---
 
 Kort info om KDs politik rörande hushållstjänster

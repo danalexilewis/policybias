@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a623d16f9ee8579f
+contentLength: 438
 ---
 
 Halvvägs i mandatperioden är vi i full gång och arbetar målmedvetet med att rusta Sverige för framtiden – med rätt värderingar och rätt investeringar. Med KD i regeringen gör vi skillnad.

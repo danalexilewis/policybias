@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-21c3f0104db40dc1
+contentLength: 688
 ---
 
 Kort info om KD:s politik rörande kvinnojourer.

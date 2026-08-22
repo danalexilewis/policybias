@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-e4034bc60b7fff2a
+contentLength: 22012
 ---
 
 # PressPM-en-ba-ttre-munha-lsa-fo-r-a-ldre2022-c9974082.pdf

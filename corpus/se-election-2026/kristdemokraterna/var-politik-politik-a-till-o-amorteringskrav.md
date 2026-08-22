@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-871812d9b21fa931
+contentLength: 660
 ---
 
 Kort info angående KD:s politik rörande amorteringskrav.

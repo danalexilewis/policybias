@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a2cefca2aab863ec
+contentLength: 890
 ---
 
 Kort info angående KD:s politik om anonyma vittnen.

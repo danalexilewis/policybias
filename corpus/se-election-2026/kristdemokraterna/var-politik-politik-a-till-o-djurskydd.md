@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-517d2f6b2223314f
+contentLength: 727
 ---
 
 Kort info om KD:s politik rörande djurskydd.

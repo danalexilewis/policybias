@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-b661b549e509d773
+contentLength: 357
 ---
 
 Kort info om KD:s politik angående A-kassan.

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-14a3c0a351f70e07
+contentLength: 10283
 ---
 
 # Matprogramet-KLAR-57617dcb.pdf

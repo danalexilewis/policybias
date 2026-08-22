@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8726363f2d63ae48
+contentLength: 644
 ---
 
 Kort info om KDs politik rörande enskilda vägar

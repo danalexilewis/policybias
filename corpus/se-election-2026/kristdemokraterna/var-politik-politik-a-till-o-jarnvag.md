@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0f382400ed23e1da
+contentLength: 544
 ---
 
 Kort info om KDs politik rörande järnväg

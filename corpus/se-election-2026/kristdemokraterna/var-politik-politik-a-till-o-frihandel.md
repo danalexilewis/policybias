@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4f4a18f815091888
+contentLength: 533
 ---
 
 Kort info om KDs politik rörande frihandel

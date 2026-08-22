@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-baf3f5579d30eba1
+contentLength: 757
 ---
 
 Kort info om KDs politik rörande ensamkommande barn

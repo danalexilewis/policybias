@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a43828592c4d4b2f
+contentLength: 678
 ---
 
 Kort info om KDs politik rörande äktenskap

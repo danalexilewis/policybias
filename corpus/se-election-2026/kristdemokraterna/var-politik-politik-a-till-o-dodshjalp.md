@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fe6d3bda1cf81d24
+contentLength: 508
 ---
 
 Kort info om KD:s politik rörande dödshjälp.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-bce9f8cb8e91fa9b
+contentLength: 24354
 ---
 
 # Integration-kr-ver-lag-och-ordning-3173c4e9.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a41f92efa9bc3c0a
+contentLength: 788
 ---
 
 Kort info om KD:s politik rörande terrorbekämpning.

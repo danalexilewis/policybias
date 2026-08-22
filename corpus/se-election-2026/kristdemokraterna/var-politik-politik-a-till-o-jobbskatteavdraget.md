@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-0ef08c4f70c67568
+contentLength: 1609
 ---
 
 Kort info om KD:s politik rörande jobbskatteavdraget.

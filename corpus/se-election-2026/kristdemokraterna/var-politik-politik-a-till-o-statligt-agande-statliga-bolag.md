@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0f154e06aecb40a4
+contentLength: 533
 ---
 
 Kort info om KDs politik rörande statligt ägande/statliga bolag

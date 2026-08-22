@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-5c5afa760b2dd26e
+contentLength: 33236
 ---
 
 # kd_pm_forsvar_2022-83b48559.pdf

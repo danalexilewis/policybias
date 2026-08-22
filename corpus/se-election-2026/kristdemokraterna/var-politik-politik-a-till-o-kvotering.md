@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f1178bc5be9b9cf8
+contentLength: 580
 ---
 
 Kort info om KD:s politik rörande kvotering.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c58ebbc791f3664e
+contentLength: 783
 ---
 
 Kort info om KDs politik rörande skärmtid

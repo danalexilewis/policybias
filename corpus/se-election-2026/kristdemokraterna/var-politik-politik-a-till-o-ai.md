@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-d8cc0a078e19820b
+contentLength: 598
 ---
 
 Kort info om KD:s politik rörande AI.

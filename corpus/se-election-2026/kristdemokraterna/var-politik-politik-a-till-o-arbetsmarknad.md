@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0f2e88119b0e7792
+contentLength: 538
 ---
 
 **Kort info om KD:s politik rörande arbetsmarknaden.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-76446a72bae1ab00
+contentLength: 1166
 ---
 
 Kort info om KD:s politik rörande inkomstskatter.

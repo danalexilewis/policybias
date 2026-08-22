@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-263c71dc744745d3
+contentLength: 26540
 ---
 
 # Rapport-sma-fo-retagare-e6343257.pdf

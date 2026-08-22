@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b07992d4bd53a443
+contentLength: 1020
 ---
 
 Kort info om KD:s politik rörande psykisk ohälsa hos unga.

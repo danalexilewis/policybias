@@ -9,9 +9,11 @@ contentType: pdf
 via: party-site
 tags:
   - climate
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-7f1f73bbfb4732b7
+contentLength: 80055
 ---
 
 # klimatrapport-2022-5266c71c.pdf
@@ -1155,4 +1157,6 @@ toxic-aftermath-of-rare-earth-mining
 problems in heat and power generation plants – A state of the art report. Luleå: Luleå Tekniska
 universitet. ISSN 1402-1528.
 
-                                                29
+                 
+
+[truncated: original dump exceeded 80000 characters]

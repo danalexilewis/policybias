@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1d4439538983cffe
+contentLength: 441
 ---
 
 Kort info om KDs politik rörande bostadbidrag

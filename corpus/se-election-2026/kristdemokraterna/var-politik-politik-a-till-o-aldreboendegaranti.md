@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e43f768beff39066
+contentLength: 844
 ---
 
 Kort info om KD:s politik rörande äldreboendegaranti.

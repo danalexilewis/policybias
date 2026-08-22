@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-fa4c1312e88a84b0
+contentLength: 892
 ---
 
 Kort info angående KD:s politik rörande alkohol, narkotika, doping, tobak och spel om pengar.

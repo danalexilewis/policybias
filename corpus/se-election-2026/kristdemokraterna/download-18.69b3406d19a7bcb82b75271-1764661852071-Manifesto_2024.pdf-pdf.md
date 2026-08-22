@@ -9,9 +9,11 @@ contentType: pdf
 via: party-site
 tags:
   - defence
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b2e372f1ee09b9ca
+contentLength: 80055
 ---
 
 # Manifesto_2024-ac8e5a91.pdf
@@ -973,25 +975,6 @@ be able to enter the European path of peace and prosperity.
 
    IV.     Let’s build Europe together
 Europe is our home. We, Europeans, have a long history of standing together. From the
-devastation caused by authoritarian regimes, we rolled up our sleeves, rebuilt our freedom
-and united Europe. Together, we have made our incredible success possible. But nothing is
-perfect and everything can be improved. And that’s what the next European elections are
-about - what Europe will look like in 2030. As the EPP, we have a clear vision of what Europe
-should look like in 2030. We want more unity, security and prosperity. To get there, we need
-values and leadership. This is what the EPP, under the leadership of European Commission
-President Ursula von der Leyen, the EPP Commission Vice-Presidents and Commissioners, the
-EPP Group in the European Parliament and the EPP members of the Council, has shown over
-the past five years. EPP leadership has united Europe by forging a common vaccine, a common
-economic recovery and common sanctions against Russia and by giving hope to Ukraine
-together. We build bridges where others only create divisions. We have a plan for a Europe
-that takes responsibility for all citizens, our economies, our families, our women, our youth
-and our elderly. For a Europe that safeguards our planet, competes boldly in the world,
-protects its citizens and always puts people first. Let's make Europe a safe and good home for
-the people!
-Rue du Commerce 10
-1000 Brussels
-T +32-2-2854140
-E connect@epp.eu
+devastation caused by authoritarian 
 
-If you have any question you
-would like to ask please contact us.
+[truncated: original dump exceeded 80000 characters]

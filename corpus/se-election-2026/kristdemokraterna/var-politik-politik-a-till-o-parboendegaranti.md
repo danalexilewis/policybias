@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d241869e514de410
+contentLength: 298
 ---
 
 Kort info om KDs politik rörande parboendegaranti

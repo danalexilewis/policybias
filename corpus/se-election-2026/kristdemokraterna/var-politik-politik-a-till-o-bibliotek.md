@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8ff4c89be491ba17
+contentLength: 583
 ---
 
 Kort info om KDs politik rörande avlyssning och bibliotek

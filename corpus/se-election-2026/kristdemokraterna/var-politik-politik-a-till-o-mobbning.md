@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f2751ac3ce611be1
+contentLength: 642
 ---
 
 Kort info om KD:s politik rörande mobbning.

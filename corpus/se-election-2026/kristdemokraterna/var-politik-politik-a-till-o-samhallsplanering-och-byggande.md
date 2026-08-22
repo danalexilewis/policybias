@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-37c258d8a354eda5
+contentLength: 580
 ---
 
 Kort info om KDs politik rörande samhällsplanering och byggande

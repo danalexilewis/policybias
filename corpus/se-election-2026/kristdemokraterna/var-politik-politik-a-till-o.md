@@ -9,9 +9,11 @@ contentType: html
 via: party-site
 tags:
   - other
-stance: intervention
+stance: not-policy
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-e3eaffd20abc96bb
+contentLength: 109
 ---
 
 På denna sida hittar du Kristdemokraternas politik på en stor mängd områden, sorterade i alfabetisk ordning.

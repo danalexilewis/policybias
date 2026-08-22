@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fea3856c6d93f1a6
+contentLength: 77437
 ---
 
 # Medicinsketisktprogram-2009-f2b432e4.pdf

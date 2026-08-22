@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3e9f1c5cd349a4d6
+contentLength: 126
 ---
 
 Här kan du läsa mer om vad Kristdemokraterna tycker i olika frågor. Du kan leta upp ett mer specifikt ämne i A till Ö-listan.

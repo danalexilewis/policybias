@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-de819169718b4cd3
+contentLength: 20186
 ---
 
 # HandlingsplanMotIslamism-2026-87177d94.pdf

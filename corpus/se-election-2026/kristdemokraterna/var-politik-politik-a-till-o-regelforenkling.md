@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-bae55a1f34127503
+contentLength: 619
 ---
 
 Kort info om KDs politik rörande regelförenkling

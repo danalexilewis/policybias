@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5404b2b103212151
+contentLength: 793
 ---
 
 Kort info om KD:s politik rörande tiggeri.

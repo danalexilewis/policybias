@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-96578aebbfa9dbbd
+contentLength: 495
 ---
 
 Kort info om KD:s politik rörande HBT+.

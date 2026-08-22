@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-966f4103e62d1ef1
+contentLength: 496
 ---
 
 Kort info om KDs politik rörande digitalisering

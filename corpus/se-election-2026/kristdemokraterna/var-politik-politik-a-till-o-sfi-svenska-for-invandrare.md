@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1de180d8a7d278d7
+contentLength: 667
 ---
 
 Kort info om KD:s politik rörande SFI/Svenska för invandrare.

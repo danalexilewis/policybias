@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-79ac571e6b05b580
+contentLength: 572
 ---
 
 Kort info om KDs politik rörande sjukförsäkring

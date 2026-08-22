@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5d19a6fbb04492a8
+contentLength: 928
 ---
 
 Kort info om KD:s politik rörande gängkriminalitet.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-6233b901f6fbabbf
+contentLength: 544
 ---
 
 Kort info angående KDs politik rörande anhöriginvandring.

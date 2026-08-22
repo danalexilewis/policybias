@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3ac8b0a9396fac77
+contentLength: 586
 ---
 
 Kort info om KD:s politik rörande barnkonventionen.

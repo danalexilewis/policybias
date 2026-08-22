@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8b97b9a74e20d9ac
+contentLength: 806
 ---
 
 Kort info om KDs politik rörande vindkraft

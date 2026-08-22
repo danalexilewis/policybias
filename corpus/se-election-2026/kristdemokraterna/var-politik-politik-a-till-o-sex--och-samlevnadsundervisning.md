@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ca22f25285ca7c69
+contentLength: 954
 ---
 
 Kort info om KD:s politik rörande sex- och samlevnadsundervisning.

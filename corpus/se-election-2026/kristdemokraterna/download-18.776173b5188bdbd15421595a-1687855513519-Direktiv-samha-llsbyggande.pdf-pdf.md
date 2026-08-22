@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4085989162107f7c
+contentLength: 11389
 ---
 
 # Direktiv-samha-llsbyggande-6d640afb.pdf

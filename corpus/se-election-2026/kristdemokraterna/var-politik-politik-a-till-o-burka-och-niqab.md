@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c5f2a7c2b99f5d11
+contentLength: 717
 ---
 
 Kort info om KDs politik rörande burka och niqab

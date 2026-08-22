@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-c8c68ca4c09260c5
+contentLength: 75283
 ---
 
 # Proposition-om-sjukv-rd-beslutad-65efc51a.pdf

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-8ef3989349ec4e38
+contentLength: 2760
 ---
 
 Som Sveriges samhällsbyggarparti har vi tillsatt en kommitté som arbetar med att ta fram förslag för att möta framtidens stora utmaningar och driva på för en tillväxtagenda. Samhällsbyggarkommittén som ska presentera sina förslag under våren 2025, arbetar utifrån fokusområdena _bostäder, infrastruktur, kompetensförsörjning, välfärd_ och _energi_.

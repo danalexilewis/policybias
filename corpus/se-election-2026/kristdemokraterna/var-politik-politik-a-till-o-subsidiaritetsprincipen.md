@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-296cd5ce99fb2251
+contentLength: 586
 ---
 
 Kort info om KDs politik rörande subsidiaritetsprincipen

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-949cc28a7cb3c309
+contentLength: 547
 ---
 
 Kort info om KD:s politik rörande kamerabevakning.

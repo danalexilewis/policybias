@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-d3b8db8db07c2de8
+contentLength: 1956
 ---
 
 # Bana-f-r-bist-ndet---Uppg-relse-Tid-1f338dee.pdf

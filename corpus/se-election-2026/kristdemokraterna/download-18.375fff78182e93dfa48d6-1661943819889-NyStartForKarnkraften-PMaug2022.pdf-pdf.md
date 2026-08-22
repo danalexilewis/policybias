@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-adb98504f97d136c
+contentLength: 3863
 ---
 
 # NyStartForKarnkraften-PMaug2022-98bde00f.pdf

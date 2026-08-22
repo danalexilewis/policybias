@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-69d4cc857a68d1ef
+contentLength: 433
 ---
 
 Kort info om KDs politik rörande turism

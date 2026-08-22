@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-344750f7fba0ae03
+contentLength: 628
 ---
 
 Kort info om KDs politik rörande fastighetsskatt

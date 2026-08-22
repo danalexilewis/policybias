@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-419afda7ce84f5f0
+contentLength: 369
 ---
 
 Kort info om KDs politik rörande höghastighetståg

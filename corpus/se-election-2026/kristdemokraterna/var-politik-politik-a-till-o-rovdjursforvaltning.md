@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-883354189fe8d1a7
+contentLength: 487
 ---
 
 Kort info om KDs politik rörande rovdjursförvaltning

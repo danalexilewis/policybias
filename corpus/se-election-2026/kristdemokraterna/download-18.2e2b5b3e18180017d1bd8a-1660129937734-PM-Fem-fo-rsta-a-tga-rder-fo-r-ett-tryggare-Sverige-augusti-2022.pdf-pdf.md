@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-642267b0f9877b93
+contentLength: 12020
 ---
 
 # PM-Fem-fo-rsta-a-tga-rder-fo-r-ett-tryggare-Sverige-augusti-2022-dfa8b1a8.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-628047869a810f25
+contentLength: 555
 ---
 
 Kort info om KD:s politik rörande ränteavdrag.

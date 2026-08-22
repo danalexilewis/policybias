@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9d65732e7145bfea
+contentLength: 397
 ---
 
 Kort info om KD:s politik rörande EMU och Euron.

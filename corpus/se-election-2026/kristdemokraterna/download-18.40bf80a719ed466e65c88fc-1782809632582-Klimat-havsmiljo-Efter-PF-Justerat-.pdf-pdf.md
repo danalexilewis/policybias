@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-62350cd73d0bef18
+contentLength: 43732
 ---
 
 # Klimat-havsmiljo-Efter-PF-Justerat-c8086aee.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-41d959b87be498e1
+contentLength: 494
 ---
 
 Kort info om KDs politik rörande hyrköp

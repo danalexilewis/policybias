@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-949ab273b5a6193d
+contentLength: 833
 ---
 
 Kort info om KDs politik rörande Ukraina

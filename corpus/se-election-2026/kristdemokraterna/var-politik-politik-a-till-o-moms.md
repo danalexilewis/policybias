@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-961e87a4d46bb5d8
+contentLength: 1020
 ---
 
 Kort info om KD:s politik rörande moms.

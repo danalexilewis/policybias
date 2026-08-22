@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d77b4f174d6ae161
+contentLength: 711
 ---
 
 Kort info om KDs politik rörande Nato

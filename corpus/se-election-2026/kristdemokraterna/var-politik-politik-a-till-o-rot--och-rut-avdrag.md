@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0faf18e288e695bc
+contentLength: 774
 ---
 
 Kort info om KD:s politik rörande ROT- och RUT-avdrag.

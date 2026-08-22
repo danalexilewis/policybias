@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-f65c4f94740794a6
+contentLength: 23544
 ---
 
 # kd_etttryggaresverige_2021-1e1d5c1b.pdf

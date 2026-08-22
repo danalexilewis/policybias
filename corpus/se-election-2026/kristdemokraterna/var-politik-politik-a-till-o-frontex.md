@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9af2169086ed2055
+contentLength: 496
 ---
 
 Kort info om KD:s politik rörande Frontex

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-15da314f11488189
+contentLength: 608
 ---
 
 Kort info om KDs politik rörande gåvoskatteavdrag

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5fe77119cc7474c6
+contentLength: 579
 ---
 
 Kort info om KD:s politik rörande ungdomsarbetslöshet.

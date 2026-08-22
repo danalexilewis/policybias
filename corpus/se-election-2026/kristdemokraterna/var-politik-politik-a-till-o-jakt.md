@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e548a77247a0f32c
+contentLength: 542
 ---
 
 Kort info om KDs politik rörande jakt

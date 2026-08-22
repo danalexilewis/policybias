@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7131d4cf68aff5b3
+contentLength: 722
 ---
 
 Kort info om KDs politik rörande enskilda avlopp

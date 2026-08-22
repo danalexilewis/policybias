@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-51b8ae712d2e873c
+contentLength: 969
 ---
 
 Kort info om KD:s politik angående valsystem.

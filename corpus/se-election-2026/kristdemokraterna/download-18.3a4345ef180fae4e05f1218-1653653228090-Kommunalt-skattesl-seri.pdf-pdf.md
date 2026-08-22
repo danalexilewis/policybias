@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-5e62977263108123
+contentLength: 30352
 ---
 
 # Kommunalt-skattesl-seri-20d9e755.pdf

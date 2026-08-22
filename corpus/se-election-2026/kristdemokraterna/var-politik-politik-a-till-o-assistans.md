@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e4bbd48830a5157d
+contentLength: 1092
 ---
 
 Kort info om KD:s politik rörande assistans/LSS.

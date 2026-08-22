@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b4d611ef19799e2b
+contentLength: 390
 ---
 
 Kort info om KDs politik rörande nordiskt samarbete

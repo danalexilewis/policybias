@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-faa943dd21b15ed4
+contentLength: 833
 ---
 
 Kort info om KDs politik rörande adoption

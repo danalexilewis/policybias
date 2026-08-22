@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-198273c2be07b801
+contentLength: 1009
 ---
 
 Kort info om KD:s politik rörande brottsoffer.

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f06fa4f7459dca27
+contentLength: 3113
 ---
 
 Här hittar du de samlade budgetutspelen som presenteras inför budgetpropositionen 2026. Syftet är att ge en överblick över det material och budskap som Kristedemokraterna och regeringen går fram med för 2026 års budget.

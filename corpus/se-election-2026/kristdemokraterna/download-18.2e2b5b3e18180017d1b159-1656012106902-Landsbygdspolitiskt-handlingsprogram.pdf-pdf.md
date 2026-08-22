@@ -10,9 +10,11 @@ via: party-site
 tags:
   - environment
   - agriculture
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-4f4b6d2f294f588e
+contentLength: 80055
 ---
 
 # Landsbygdspolitiskt-handlingsprogram-37505452.pdf
@@ -1284,20 +1286,6 @@ många år för att förändra medarbetarnas syn på sitt uppdrag.
        länge amnestin ska gälla.
 
                                                      28
-•   Oordningen i skogen: Den svenska artskyddsförordningen skiljer sig från EU:s
-    direktiv (art- och habitatdirektivet samt fågeldirektivet), eftersom Sverige slagit ihop
-    bestämmelserna om arter och fåglar. Artskyddet gäller hotade arter medan
-    fågeldirektivet omfattar alla fåglar. Enligt fågeldirektivet ska samtliga fågelarter
-    bevaras på populationsnivå (alltså inte på ”individnivå”). Med den nya svenska
-    tolkningen, där alla fåglar behandlas som om de vore hotade, innebär detta att man
-    inte avsiktligt får störa någon vild fågel ej heller skada enskilda fåglars viloplatser.
+•   Oordningen i skogen: Den svenska artskyddsförordningen s
 
-•   Skärpt miljökontroll vid fordonsbesiktning: I februari 2022 gav regeringen
-    Transportstyrelsen i uppdrag att se över förutsättningarna för skärpt miljökontroll
-    vid besiktning. Bakgrunden till uppdraget är bland annat att moderna bilar har så låga
-    utsläpp att dagens mätmetoder inte kan mäta dem. Förbränningsmotorerna blir allt
-    bättre så det finns en stor tveksamhet i miljönyttan att utreda och sedan sannolikt
-    alla besiktningsstationer skulle tvingas byta mätutrustning när nuvarande utrustning
-    redan fångar upp de motorer som av en eller annan anledning avviker från kraven.
-
-                                           29
+[truncated: original dump exceeded 80000 characters]

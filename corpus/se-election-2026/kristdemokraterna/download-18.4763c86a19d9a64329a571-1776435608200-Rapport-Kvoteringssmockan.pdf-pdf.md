@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-fc3d5ee8e19d9c60
+contentLength: 27956
 ---
 
 # Rapport-Kvoteringssmockan-9e4a31ae.pdf

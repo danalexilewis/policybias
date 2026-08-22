@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-22e6a69c760dffc0
+contentLength: 743
 ---
 
 Kort info om KDs politik rörande värnplikt

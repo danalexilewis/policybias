@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-92480d09aac37c45
+contentLength: 23200
 ---
 
 # PressPM-f-rl-ngt-arbetsliv-e49a8e54.pdf

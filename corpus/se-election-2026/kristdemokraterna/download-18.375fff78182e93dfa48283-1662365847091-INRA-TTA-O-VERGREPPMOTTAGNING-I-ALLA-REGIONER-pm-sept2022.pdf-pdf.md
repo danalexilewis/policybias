@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-be8b54d15ada3a5e
+contentLength: 4599
 ---
 
 # INRA-TTA-O-VERGREPPMOTTAGNING-I-ALLA-REGIONER-pm-sept2022-86ff6781.pdf

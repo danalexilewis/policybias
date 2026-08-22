@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-78ff65ebcfdea812
+contentLength: 787
 ---
 
 Kort info om KDs politik rörande reavinstskatt

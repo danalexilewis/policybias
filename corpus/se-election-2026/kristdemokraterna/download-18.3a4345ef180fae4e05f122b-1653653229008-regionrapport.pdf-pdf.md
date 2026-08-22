@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-44edd37153fec9d5
+contentLength: 79099
 ---
 
 # regionrapport-42b82941.pdf

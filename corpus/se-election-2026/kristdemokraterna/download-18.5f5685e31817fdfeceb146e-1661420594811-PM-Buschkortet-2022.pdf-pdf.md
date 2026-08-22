@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d9548210d9210053
+contentLength: 5698
 ---
 
 # PM-Buschkortet-2022-d16d90ed.pdf

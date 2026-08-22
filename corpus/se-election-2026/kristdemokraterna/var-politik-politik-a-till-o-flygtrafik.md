@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-98f6cbdff29214fa
+contentLength: 572
 ---
 
 Kort info om KDs politik rörande flygtrafik

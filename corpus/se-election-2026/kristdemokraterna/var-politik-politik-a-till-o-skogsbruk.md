@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4e4bce9458d48eaa
+contentLength: 886
 ---
 
 Kort info om KD:s politik rörande skogsbruk:

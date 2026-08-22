@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-71c48f1e13cd537b
+contentLength: 657
 ---
 
 Kort info om KDs politik rörande småföretag

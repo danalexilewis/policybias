@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f2b183ae4f129ede
+contentLength: 816
 ---
 
 Kort info om KD:s politik rörande asyl

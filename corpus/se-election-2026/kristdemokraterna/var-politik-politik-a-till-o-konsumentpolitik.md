@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-60f58fee1c6a4c5c
+contentLength: 589
 ---
 
 Kort info om KDs politik rörande konsumentpolitik

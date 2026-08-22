@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-fa6d00ace879b385
+contentLength: 39399
 ---
 
 # Bryt-den-ofrivilliga-ensamheten-3bdffd43.pdf

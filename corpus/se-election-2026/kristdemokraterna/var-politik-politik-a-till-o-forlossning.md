@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f01f234ebada5864
+contentLength: 789
 ---
 
 Kort info om KDs politik rörande förlossning

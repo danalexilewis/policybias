@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0e86a84258276745
+contentLength: 357
 ---
 
 Kort info om KDs politik rörande nationella prov

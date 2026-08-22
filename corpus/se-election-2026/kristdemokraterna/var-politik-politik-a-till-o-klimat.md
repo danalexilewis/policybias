@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-386286e3de9486fc
+contentLength: 467
 ---
 
 Kort info om KD:s politik rörande klimat:

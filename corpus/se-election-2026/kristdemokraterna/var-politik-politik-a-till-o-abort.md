@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-66af9c53a8a87872
+contentLength: 837
 ---
 
 Kort info om KD:s politik angående abort.

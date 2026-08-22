@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d480359243ea5fc1
+contentLength: 1014
 ---
 
 Kort info om KDs politik rörande invandring

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-df831e2f918433fd
+contentLength: 949
 ---
 
 Kort info om KD:s politik rörande vattenkraft:

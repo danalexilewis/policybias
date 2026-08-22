@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a9c06af82cee4748
+contentLength: 1042
 ---
 
 Kort info om KDs politik rörande straffmyndighetsålder

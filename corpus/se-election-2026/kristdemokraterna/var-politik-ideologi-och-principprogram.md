@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7b9f4c5641cfcc3d
+contentLength: 3314
 ---
 
 Kristdemokraterna är en del av den stora internationella kristdemokratin, världens näst största politiska rörelse. Kristdemokrati står för demokrati byggd på kristen människosyn och värdegrund. Vi sätter människovärdet och familjen högt, och motarbetar alla former av totalitarism. Alla som delar våra idéer är välkomna i partiet.

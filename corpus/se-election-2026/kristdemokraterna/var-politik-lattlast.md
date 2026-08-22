@@ -14,6 +14,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7bd1b3cad13eadaa
+contentLength: 6459
 ---
 
 ## Lättläst om Kristdemokraternas politik  

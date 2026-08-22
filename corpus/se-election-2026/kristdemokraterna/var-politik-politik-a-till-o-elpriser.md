@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-df2eb2c7b4204683
+contentLength: 880
 ---
 
 Kort info om KDs politik rörande elpriser

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-59a0a94742d7de01
+contentLength: 374
 ---
 
 Kort info om KD:s politik rörande kvotflyktingsystem

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-45f8b72ae6f61e89
+contentLength: 388
 ---
 
 Kort info om KDs politik rörande skarv och säl

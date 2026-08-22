@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d4862769eabbcdc9
+contentLength: 633
 ---
 
 Kort info om KD:s politik rörande riskkapital.

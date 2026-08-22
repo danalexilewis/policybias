@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4a3976d72a851329
+contentLength: 1181
 ---
 
 Kort info om KD:s politik rörande pension.

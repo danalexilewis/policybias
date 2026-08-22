@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-50bcb45ab144864a
+contentLength: 732
 ---
 
 Kort info om KDs politik rörande försvarsmaterielexport

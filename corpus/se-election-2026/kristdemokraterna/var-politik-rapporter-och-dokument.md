@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-672db0d842adbfaf
+contentLength: 11150
 ---
 
 Här hittar du PM och rapporter om Kristdemokraternas politik.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-232a0b34752fb925
+contentLength: 420
 ---
 
 Kort info om KD:s politik rörande hemlöshet.

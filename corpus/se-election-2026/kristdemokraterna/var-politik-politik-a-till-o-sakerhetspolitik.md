@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-99730b8aa7950dab
+contentLength: 846
 ---
 
 Kort info om KDs politik rörande säkerhetspolitiken

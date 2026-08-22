@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c5d4d91102cdd033
+contentLength: 1770
 ---
 
 **Alla ska känna sig trygga med sin pension. Pensionssystemet ska vara stabilt och vila på långsiktiga överenskommelser. Du ska kunna påverka och ta ansvar för större del av din pension.**

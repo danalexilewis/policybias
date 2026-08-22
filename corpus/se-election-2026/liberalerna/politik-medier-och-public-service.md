@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9d69ad3fc19a32af
+contentLength: 1888
 ---
 
 **Mediernas oberoende roll och kritiska granskning är grunden i varje demokrati. Public service har en viktig roll i detta arbete, oberoende och kvalitet ska värnas och främjas.**

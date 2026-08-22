@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-a25b0fb0954e61f8
+contentLength: 77939
 ---
 
 # grocc88n-liberal-politik-1-1-1b08ac9a.pdf

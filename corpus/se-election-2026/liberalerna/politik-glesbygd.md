@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3e2e8c4d93eb86d8
+contentLength: 5102
 ---
 
 **Hela Sveriges utvecklingskraft, tillväxtpotential och jobbmöjligheter måste tas till vara. I dag möter företagare och familjer i glesbygd hinder som bromsar utvecklingen. Villkoren skiljer sig åt beroende på var i landet man bor. Därför vill Liberalerna vill skapa bättre förutsättningar att bo, arbeta och driva företag i hela Sverige.**

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b883e2d300369946
+contentLength: 45345
 ---
 
 # frihet-och-internationalism1-ac1f503e.pdf

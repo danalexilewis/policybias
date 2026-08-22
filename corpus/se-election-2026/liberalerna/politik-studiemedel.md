@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-37c7d99285988901
+contentLength: 1997
 ---
 
 **Generösa studiemedel och ett högt fribelopp för den arbetar och samtidigt studerar är en viktig förutsättning för att alla ska kunna läsa vidare – studiestödssystemet behöver förändras.**

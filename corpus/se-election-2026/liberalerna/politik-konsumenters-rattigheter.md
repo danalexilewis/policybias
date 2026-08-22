@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-66db2913fe3c1bfb
+contentLength: 2243
 ---
 
 **För oss liberaler handlar konsumenters rättigheter om makt och möjlighet att göra aktiva val. Du ska kunna känna dig trygg när du handlar. Mer kunskap ger dig möjligheten att både välja till och välja bort.**

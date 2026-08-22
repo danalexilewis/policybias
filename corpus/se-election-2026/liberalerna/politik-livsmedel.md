@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-43abe122f7128d56
+contentLength: 3264
 ---
 
 **Livsmedelsmärkningar och kontroller ska vara att lita på. Maten vi äter ska vara säker och hållbar. Men politiker ska inte pilla i maten i onödan, du vet bäst vad du vill äta.**

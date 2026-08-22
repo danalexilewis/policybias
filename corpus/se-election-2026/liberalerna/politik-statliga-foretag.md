@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0fbb6548379b1687
+contentLength: 2154
 ---
 
 **Staten ska bara äga företag i undantagsfall. Det statliga ägandet ska minskas och i vissa fall helt avvecklas. Endast statliga bolag med ett särskilt samhällsuppdrag bibehålls.**

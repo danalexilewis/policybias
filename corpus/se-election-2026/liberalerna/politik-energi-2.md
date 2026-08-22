@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-13b9af87dd32834f
+contentLength: 3073
 ---
 
 **Från samma pris i hela Sverige till orimligt höga eller kraftigt svängande elpriser. Elmarknaden fungerar inte och det behövs en energipolitik där alla fossilfria energislag har sin funktion.**

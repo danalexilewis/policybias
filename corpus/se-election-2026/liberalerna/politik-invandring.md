@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0d50056ceee5fa01
+contentLength: 2128
 ---
 
 **Människor som flyr krig och förföljelse ska få skydd. Asylrätten ska värnas. Det är individens skyddsskäl som avgör om man får stanna. EU behöver en gemensam asylpolitik.**

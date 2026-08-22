@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-383090422277d2ad
+contentLength: 3872
 ---
 
 **Rysslands brutala anfallskrig mot Ukraina har kastat in Europa i den värsta säkerhetspolitiska krisen sedan andra världskriget. Samtidigt befinner sig Sveriges försvar i en historisk omställning.**

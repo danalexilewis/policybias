@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-626d665c0d1cd0ae
+contentLength: 1912
 ---
 
 **Psykisk ohälsa måste tas seriöst. Det ska vara lätt att få hjälp med sin psykiska hälsa. Människor ska få hjälp tidigt, och kunna vara trygga i att vården finns där också om behoven blir större.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-05fac7158b9800e7
+contentLength: 2013
 ---
 
 **Kunskaper i svenska handlar om frihet och självbestämmande. Att få ett jobb, klara skolan, kunna gå till läkaren själv eller att prata med barnens lärare – att ta del av det svenska samhället.**

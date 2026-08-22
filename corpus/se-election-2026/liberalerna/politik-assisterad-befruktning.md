@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-e03381eec718d75b
+contentLength: 1788
 ---
 
 **Fler kvinnor ska vilja och våga skaffa barn. Samtidigt är politikens uppgift inte att pressa fram födslar, utan att ge fler kvinnor trygga förutsättningar att kunna välja om, när och hur de vill bli föräldrar.**

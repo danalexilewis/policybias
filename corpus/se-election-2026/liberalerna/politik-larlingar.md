@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-db81314f986bcf06
+contentLength: 1975
 ---
 
 **Svenska företag skriker efter duktiga hantverkare. Med ett system för lärlingsutbildningar kan fler lära sig sitt yrke i verkligheten istället för vid skolbänken.**

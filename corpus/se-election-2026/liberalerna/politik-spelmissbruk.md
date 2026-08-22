@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-622d11a2482cb5d6
+contentLength: 1652
 ---
 
 **Liberalerna anser att spelmarknaden behöver vara reglerad i syfte att motverka missbruk och spelberoende. Eftersom spelmarknaden med nätcasinon är internationell behövs också fler initiativ på EU-nivå.**

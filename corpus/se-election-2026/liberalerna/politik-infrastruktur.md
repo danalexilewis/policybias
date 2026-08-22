@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5ce40020575d6279
+contentLength: 2082
 ---
 
 **Rusta och bygg ut vägar och järnvägar för ökad trafiksäkerhet och för att möjliggöra längre, tyngre, tåg och lastbilar. Det ger färre transporter och goda miljöeffekter.**

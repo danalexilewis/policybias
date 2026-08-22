@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5d8a16c6b1d38ced
+contentLength: 2263
 ---
 
 **Oavsett skolsystemets utformning så är det lärarens undervisning i klassrummet som är avgörande. Därför vill Liberalerna stärka läraryrkets attraktivitet och status. I klassrummet är det läraren som bestämmer.**

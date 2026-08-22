@@ -13,6 +13,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-278e42b0592c7777
+contentLength: 4764
 ---
 
 **Arbetskraftsinvandring stärker Sveriges ekonomi, välfärd och konkurrenskraft. Därför vill Liberalerna göra det enklare för företag att rekrytera internationell kompetens och stoppa orimliga kompetensutvisningar.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7763a2e55d3ef432
+contentLength: 3853
 ---
 
 ### Diskriminering begränsar människors frihet

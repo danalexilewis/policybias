@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6b26aeb8359684a0
+contentLength: 5538
 ---
 
 **Fiske ska vara långsiktigt hållbart och bygga på vetenskapliga bedömningar. När kortsiktiga intressen tillåts styra och för mycket fisk tas upp förlorar både miljön och näringen. Liberalerna vill därför säkra livskraftiga fiskbestånd, stärka skyddet för Östersjön och skapa långsiktiga villkor för ett hållbart och konkurrenskraftigt fiske.**

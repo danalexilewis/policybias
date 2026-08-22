@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-881f91737434ddf1
+contentLength: 3640
 ---
 
 **Skolan ska styras av kunskap och kvalitet – inte av kortsiktiga vinstintressen. Liberalerna vill begränsa vinstintresset genom att omvandla friskolor som i dag drivs som vinstdrivande aktiebolag till en särskild driftsform utan vinstsyfte.** **Elevernas utbildning måste alltid gå före ägarnas avkastning.**

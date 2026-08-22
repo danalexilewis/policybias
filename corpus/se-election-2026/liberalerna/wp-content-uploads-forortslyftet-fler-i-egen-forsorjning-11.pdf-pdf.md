@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-acf5e36b202083b0
+contentLength: 58594
 ---
 
 # forortslyftet-fler-i-egen-forsorjning-11-a6fd5021.pdf

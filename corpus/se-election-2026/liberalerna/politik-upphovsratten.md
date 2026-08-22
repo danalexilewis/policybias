@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e30e7b29ae0eda21
+contentLength: 2219
 ---
 
 **Upphovsrätten måste moderniseras, men också värnas eftersom den är en förutsättning för att kulturskapare ska kunna få betalt för sina verk och behålla sin kulturella frihet.**

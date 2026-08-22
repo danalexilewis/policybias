@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d904f0dc3360b76f
+contentLength: 7454
 ---
 
 # charter-of-values-vf-17f88c05.pdf

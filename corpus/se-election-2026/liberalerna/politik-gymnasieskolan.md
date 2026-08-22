@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e97ad103c2983074
+contentLength: 2068
 ---
 
 **En gymnasieskola av hög kvalitet, oavsett om den ger högskolebehörighet eller yrkesutbildning, ger alla elever en chans att utvecklas och öppnar nya vägar i livet.**

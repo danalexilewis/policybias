@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-85a82dedb4e49578
+contentLength: 650
 ---
 
 **Förlossningsvården ska vara tillgänglig, jämlik och utgå från kvinnans behov och önskemål – oavsett var i landet man bor. Alla kvinnor ska kunna känna trygghet genom hela graviditeten och förlossningen.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1bc90eb7c4414938
+contentLength: 2115
 ---
 
 **Mindre byråkrati och krångel för företagare. Vi vill göra det enklare att starta och driva företag. När företagen växer skapas jobb och intäkterna till välfärden ökar.**

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-fd0d7f301b7cb4e0
+contentLength: 5404
 ---
 
 **Artificiell intelligens förändrar samhället i snabb takt. Liberalerna vill att Sverige ska vara ett ledande land för AI, innovation och teknisk utveckling. Samtidigt måste individens frihet, integritet och säkerhet skyddas när ny teknik får allt större betydelse i människors vardag.**

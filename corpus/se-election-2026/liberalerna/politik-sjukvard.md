@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ea3f97914b734d17
+contentLength: 2278
 ---
 
 **Rätt vård i rätt tid för varje patient, det är grunden i liberal sjukvårdspolitik. Vi vill att varje individ får hjälp, tröst och stöd, och att alla som arbetar inom vården har en god arbetsmiljö. Därför har vi satsat mycket, och fortsätter satsa mer, på svensk sjukvård.**

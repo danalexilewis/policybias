@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-cc6d5f21d00aeb43
+contentLength: 2046
 ---
 
 **Sverige slösar bort erfarenhet. Ålderism gör att äldre kompetenta personer blir bortsorterade trots arbetskraftsbrist. Det måste vi ändra på. Äldre som vill fortsätta arbeta ska få göra det.**

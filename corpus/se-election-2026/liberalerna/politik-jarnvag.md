@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3f36e770be52b456
+contentLength: 2263
 ---
 
 **Att resa med tåg är klimatsmart. Liberalerna bidrar nu till en upprusning av Sveriges järnvägar, ökad kapacitet och mer pålitliga tågresor i hela Sverige.**

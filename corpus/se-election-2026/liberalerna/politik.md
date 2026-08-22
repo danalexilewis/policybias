@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-38fb873de5bd26a8
+contentLength: 368
 ---
 
 Liberalerna finns till för att ge varje människa friheten och möjligheten att forma sitt liv, ta ansvar och förverkliga sina drömmar. Vi tror på ett Sverige där framtiden börjar i skolan och där friheten märks i vardagen – i tryggheten, i ekonomin och i livets alla val.

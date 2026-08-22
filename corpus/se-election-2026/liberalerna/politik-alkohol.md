@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-05a8fc2e8718e817
+contentLength: 5032
 ---
 
 **Liberal alkoholpolitik bygger på frihet under ansvar. Vuxna människor med fungerande alkoholvanor ska kunna fatta egna beslut om sitt liv och sin konsumtion. Samtidigt behöver samhället arbeta aktivt för att förebygga missbruk, skydda barn och unga samt hjälpa människor som utvecklar ett beroende.**

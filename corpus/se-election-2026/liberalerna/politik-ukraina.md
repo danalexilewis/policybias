@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4edc4fd51cc95cda
+contentLength: 2110
 ---
 
 **Den ryska invasionen av Ukraina är ett vedervärdigt övergrepp mot ett Ukraina vars enda önskan är att vara en fri och demokratisk stat i Europa. Liberalerna kommer alltid stå upp för ett fritt Europa och mot den ryska regimens maktambitioner. Ukraina behöver nu vårt stöd, i handling. Vi står med Ukraina.**

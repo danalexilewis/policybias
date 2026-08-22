@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-150562028c2b6372
+contentLength: 6778
 ---
 
 **Du valde friheten att leva utanför Sverige. Det är just den friheten vi kämpar för: friheten att forma sitt eget liv, att söka sig dit möjligheterna finns, att studera, arbeta, älska, bygga företag, bilda familj och knyta Sverige närmare världen. Sverige är som bäst när vi är öppna mot omvärlden. När idéer, handel och kunskap får röra sig över gränser.**

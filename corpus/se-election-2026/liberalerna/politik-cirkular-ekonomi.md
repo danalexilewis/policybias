@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-828c7fbfeff6aa9b
+contentLength: 5517
 ---
 
 **Cirkulär ekonomi handlar om att skapa större värden med mindre resurser. Samtidigt behöver vi minska slöseriet och använda jordens resurser smartare. Liberalerna vill därför göra det enklare att leva hållbart, reparera produkter och återvinna material – utan att människor behöver välja bort frihet, utveckling eller välstånd.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-91ef56fb9df779a5
+contentLength: 4308
 ---
 
 **Elever med intellektuell funktionsnedsättning ska få undervisning som utgår från deras egna förutsättningar. Därför vill Liberalerna utveckla den anpassade skolan – inte avveckla den.**

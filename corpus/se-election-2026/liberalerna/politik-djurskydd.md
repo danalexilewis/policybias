@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-049746dbc20551e7
+contentLength: 3703
 ---
 
 **Sverige ska ha ett starkt djurskydd. Djurhållning innebär ett stort ansvar, och därför måste all djurhållning garantera djuren ett värdigt liv och en anständig död. Liberalerna vill skärpa kontrollen av att lagar och EU-regler följs samt driva på för högre djurskydd i hela Europa.**

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-dbd3b5a8c2e3346c
+contentLength: 2063
 ---
 
 **Barnäktenskap kan aldrig accepteras. Barn har rätt till sin frihet och svensk lag ska aldrig erkänna minderåriga som gifta, oavsett var äktenskapet instiftats.**

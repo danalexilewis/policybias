@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b6e67d53e91119dc
+contentLength: 2047
 ---
 
 **Haven är vårt ansvar och vi ska ta hand om dem. Stora områden ska skyddas. Fisket ska bedrivas långsiktig hållbart baserat på vetenskapliga bedömningar.**

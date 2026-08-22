@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-973ef90ba62799b9
+contentLength: 60211
 ---
 
 # forortslyftet-demokrati-och-jamstalldhet-11-874f51d5.pdf

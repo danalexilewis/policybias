@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c1786478a7b5127f
+contentLength: 1678
 ---
 
 **Rasism och intolerans hör inte hemma i ett demokratiskt samhälle. Varje människa är unik och ingen ska klumpas ihop utifrån sitt ursprung.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-916e30433eaaa3dd
+contentLength: 4300
 ---
 
 **Förskolan ska vara en trygg plats för lek och lärande med det svenska språket i fokus. Liberalerna vill att förskolan ska erbjuda fler barn en pedagogisk och trygg miljö.**

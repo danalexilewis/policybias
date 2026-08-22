@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-634adfdcc6c4e434
+contentLength: 3449
 ---
 
 I en tid av klimatförändringar, ekonomisk lågkonjunktur och krig i Europa är det lätt att bli pessimistisk om framtiden. 

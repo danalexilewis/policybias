@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-815509992d2ae978
+contentLength: 1953
 ---
 
 **Det är ett problem att många politiker förblir okända för väljarna. Vi vill stärka banden mellan väljare och valda genom mer personval, och skilda valdagar för lokalvalen.**

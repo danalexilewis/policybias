@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8f43061f8d3c26ac
+contentLength: 3388
 ---
 
 **Kunskap är avgörande för att fler elever ska kunna forma sin egen framtid. Därför vill Liberalerna ha tydliga kunskapskrav, betyg och nationella prov tidigt i skolan. Genom att följa elevernas kunskapsutveckling kan stöd sättas in i tid och fler få möjlighet att nå sin fulla potential.**

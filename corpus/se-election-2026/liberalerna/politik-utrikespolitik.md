@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9f8e546ed0068a08
+contentLength: 2174
 ---
 
 **Liberalernas frihetskamp börjar i Sverige – men sträcker sig över hela världen. Målet med vår utrikespolitik är en friare värld för alla.**

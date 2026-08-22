@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f1067a48a3fb196c
+contentLength: 3581
 ---
 
 **Sverige behöver en fungerande bostadsmarknad. I dag är det dyrare att bygga bostäder här än i våra grannländer, samtidigt som det är svårare för unga, studenter och barnfamiljer att ta sig in på marknaden. Det visar att systemet inte fungerar.**

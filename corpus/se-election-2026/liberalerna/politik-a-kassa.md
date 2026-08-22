@@ -14,6 +14,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-078ab95514faa6a6
+contentLength: 4261
 ---
 
 **Det måste alltid löna sig att gå från bidrag till arbete. Samtidigt behöver människor känna trygghet när arbetsmarknaden förändras. Liberalerna vill därför ha en stark och modern a-kassa som ger ekonomisk säkerhet vid arbetslöshet och samtidigt uppmuntrar till omställning och nya jobb.**

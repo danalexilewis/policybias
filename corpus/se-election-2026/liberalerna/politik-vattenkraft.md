@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e58d75c5dff54840
+contentLength: 2085
 ---
 
 **Vattenkraften är kronan i energisystemet. Den är fossilfri och kan snabbt öka eller minska produktionen. Samtidigt har den orsakat stora skador i miljön som vi behöver reparera.**

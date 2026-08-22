@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f8e6f829c084a9d3
+contentLength: 1542
 ---
 
 **Alla som kan arbeta ska ha ett jobb. Det är grunden för vår gemensamma välfärd och individens egenmakt.**

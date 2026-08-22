@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b8c5b69f5c4dceef
+contentLength: 2097
 ---
 
 **Yttrandefrihet är lika viktigt som luften vi andas. Men i dag är den på tillbakagång i många länder. Liberalerna vill att mer bistånd ska gå till yttrande- och pressfrihet.**

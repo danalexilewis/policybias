@@ -9,9 +9,11 @@ contentType: pdf
 via: party-site
 tags:
   - crime-and-justice
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-7e51e4b960a23aab
+contentLength: 80055
 ---
 
 # forortslyftet-trygghet-21-acb5807f.pdf
@@ -1091,103 +1093,6 @@ tion eller religion får aldrig användas som ursäkt för att upprätthålla f�
 Det är av största vikt att ha en tydlig analys av hedersrelaterat våld och förtryck. Av ideologiska skäl eller av
 missriktad välvilja förekommer det fortfarande – särskilt på politikens vänsterkant – att mekanismerna bakom
 denna form av våld osynliggörs eller att det öppet förnekas att hedersrelaterat våld och förtryck ens existerar
-som en särskild företeelse.
+som en särskild före
 
-54. Förbjud uppfostringsresor
-Uppfostringsresor är ett sätt att bestraffa minderåriga genom att skicka dem till släktingar i ett annat land.
-Det kan handla minderåriga som har en annan sexuell läggning än vad släkten anser önskvärt, som upprät-
-thåller familjens föreställningar om heder eller som lever ett liv oförenligt med familjens värderingar. Nyligen
-larmade UD om att antalet unga svenskar som skickas utomlands till ”uppfostringsanstalter” stiger. De luras
-av familjen till att tro att de ska på semester, men lämnas i själva verket över till släktingar eller blir i värsta
-fall inlåsta på någon institution där de hålls fängslade och utsätts för psykiska och fysiska övergrepp. De som
-återvänder har ofta problem med psykisk ohälsa och missbruk, och de är ofta traumatiserade. Utrikesdepar-
-tementet hanterade 2019 25 ärenden som rörde så kallade uppfostringsresor med barn och unga vuxna. Det
-rörde sig då främst om resor till Kenya och Somalia. Liberalerna har fått igenom nya regler för utreseförbud
-kopplat till tvångsäktenskap och könsstympning, men det omfattar inte minderåriga som skickas utomlands
-för att bestraffas för deras livsstil. Det bör införas ett förbud mot att skicka minderåriga på uppfostringsresor
-eller andra form av resor utomlands där syftet är att bestraffa.
-
-55. Utred förbud mot kusingiften
-Ett förbud mot kusingiften bör utredas, i kombination med att relevanta myndigheter får i uppdrag att ge-
-nomföra en upplysningskampanj om riskerna med att ingå kusinäktenskap. Kusingifte är en del av heder-
-skulturen, där giftermål inom släkten anses gynnsamt för familjens rykte och heder. Risken för sjukdomar på
-grund av inavel är överhängande i släkter med kusingiften i flera led. Men bruket att gifta sig inom sin släkt
-har även sociala konsekvenser som många gånger handlar om att behålla förtryckande hedersnormer.
-
-56. Kriminalisera oskuldskontroller och oskuldsoperationer
-Media har gång på gång rapporterat att religiösa grupper och familjer med hedersnormer pressar unga till
-att genomföra oskuldskontroller vilket genomförs av vården, trots att det inte är förenligt med svensk lag.
-
-                                                       27
-Verksamheter som uppmanar till oskuldskontroller och oskuldsoperationer ska inte erhålla offentliga bidrag.
-Legitimerad personal som vilseleder genom ovetenskaplig, felaktig information och genomför dessa ingrepp
-bör förlora sin legitimation. Ett särskilt brott bör även införas för oskuldskontroll för såväl den som utför kon-
-trollen och den som begär kontrollen om det är en annan person än den som utsätts. Den som genomför eller
-medverkar till oskuldsoperation av minderårig ska dömas till fängelse.
-
-57. Rätt till målsägandebiträde för samtliga hedersbrott
-Alla som utsätts för brott med hedersmotiv ska ha rätt till målsägandebiträde som besitter kunskap om områ-
-det så fort en utredning har tillsatts. Tydliga riktlinjer för detta måste tas fram för att domstolen ska förordna
-målsägarbiträden med rätt kompetens.
-
-58. Stängda dörrar i mål om hedersrelaterade brott för att skydda offer och vittnen. Domstols-
-förhandlingar rörande minderåriga eller i sexualbrott eller migrationsmål sker oftast bakom stängda dörrar.
-Men i flera fall som rör hedersrelaterat våld och förtryck nekas förfrågan om detta. Vid en domstolsförhan-
-dling som gäller hedersrelaterade brott ska huvudregeln vara att dessa behandlas bakom stängda dörrar.
-Känsligheten i denna typ av fall och offer och vittnens behov av skydd och säkerhet överväger allmänhetens
-rätt till öppna rättegångar.
-
-59. Sanktioner mot föräldrar som inte hjälper bortförda barn tillbaka till Sverige
-Socialtjänsten ska kunna begära att domstol ska döma ut viten till föräldrarna och skadestånd till barnet
-så länge föräldrarna inte medverkar till att barnet förs hem. För att det ska bli effektivt måste rutiner för
-samverkan mellan socialtjänst, skola, polis och Försäkringskassan förbättras.
-
-60. Tillfälliga vårdnadshavare ska ges till bortförda barn.
-I lagstiftningen bör det framkomma att vid särskilda skäl ska en särskild förordnad vårdnadshavare kunna
-utses utan vårdnadshavares samtycke. Barn som är bortförda och som inte kan komma hem till Sverige eft-
-ersom föräldrarna inte deltar i utredningen ska få tillfälliga vårdnadshavare som har möjlighet att hjälpa att
-föra barnets talan.
-
-61. Skydda ensamkommande flickor från övergrepp
-I Socialstyrelsens lägesrapport 2020 framkommer att andelen ensamkommande flickor har ökat från 8%
-till 28% och många placeras i familjehem, oftast hos släktingar. Det framkommer i rapporten att finns risk-
-er när ensamkommande flickor placeras i nätverkshem som bland annat hedersrelaterat våld och förtryck,
-människohandel samt utnyttjande och exploatering i hushållsslaveri (sexuellt eller annat). I ett ärende har JO
-riktat kritik mot en socialnämnd för att nämnden placerade en flicka, som var under 15 år, i ett familjehem
-trots att det hade kommit fram uppgifter om att flickan var gift med en vuxen son till familjehemsföräldrar-
-na. Socialstyrelsen bör skärpa riktlinjerna så att ensamkommande barn aldrig placeras i familjehem när det
-föreligger risk för övergrepp.
-
-62. Skolan ska motverka hederskultur
-Skolans läroplan innehåller exempelvis skrivningar om att ingen ska utsättas för diskriminering och att främ-
-lingsfientlighet ska motverkas. Liberalerna vill även införa en skrivning i skolans styrdokument om att skolan
-ska ”motverka hedersrelaterade normer, och säkerställa att alla elever vet att ingen får utsättas för förtryck
-eller våld av hedersskäl och informera alla elever om deras rättigheter.”
-
-                                                      28
-63. Nationellt kompetenslyft
-Räcker inte med ny lag Det behövs ett statligt finansierat kompetenslyft för som säkerställer att all personal
-som möter barn under 18 år – även de som arbetar med yngre barn – får utbildning i frågor som handlar om
-hedersrelaterat våld och förtryck. Kompetenslyftet ska nå ut till personal vid bland annat barnavårdscentraler,
-förskolor, grundskolan och gymnasiet, fritidsverksamheter, socialtjänst samt Migrationsverket.
-
-64. Utrikesdepartementet ska göra allt för att få hem svenska barn
-Utrikesdepartementet bör prioritera frågor som rör hedersrelaterat våld och förtryck. UD bör arbeta proak-
-tivt för att nyttja alla diplomatiska möjligheter att få hem barn som förts ut ur landet mot sin vilja. Dessutom
-bör Socialtjänsten få i uppdrag att utveckla socialtjänsternas möjligheter att samverka effektivt med bl.a.
-utrikesförvaltningen och ta fram metodstöd för hanteringen av dessa ärenden.
-
-65. Inrätta särskilda enheter inom polisen mot hedersbrott
-I varje polisområde finns det en uttalad enhet som ska omhänderta ärenden som rör brott i nära relationer
-eller narkotikabrott. Det bör finnas motsvarande för arbete mot hedersbrott i utsatta områden. För att för-
-bättra kunskapen om hedersrelaterat våld och förtryck inom åklagarkåren bör heder vara ett obligatoriskt
-moment på grundutbildningen för åklagare.
-
-66. Skolplikten måste upprätthållas när barn försvinner utomlands
-Såväl Riksrevisionen som Länsstyrelsen Östergötland har uppmärksammat att det saknas tydliga rutiner och
-tillsyn när det gäller barn som inte är i skolan för att de befinner sig utomlands. Det kan handla om barn
-som inte är motiverade att gå i skolan, som har förts utomlands för uppfostringsresor eller för att giftas bort.
-Skolpersonal måste ges glasklara riktlinjer för att alltid hävda skolplikten och utfärda viten till vårdnadshavare
-som inte säkerställer barnens skolnärvaro.
-
-                                                      29
+[truncated: original dump exceeded 80000 characters]

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-5f1147a2bbb783d0
+contentLength: 4748
 ---
 
 **Arbetsförmedlingen behöver reformeras i grunden. Liberalerna vill skapa en effektiv myndighet som fokuserar på sitt kärnuppdrag – att hjälpa människor som står längst från arbetsmarknaden att få riktiga jobb.**

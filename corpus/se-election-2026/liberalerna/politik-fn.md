@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5c1b876287935b0f
+contentLength: 2303
 ---
 
 **Den liberala kampen för alla människors frihet har alltid varit, och kommer alltid att vara, ett globalt projekt. Förenta Nationerna, FN, är en viktig samarbetspartner i detta arbete.**

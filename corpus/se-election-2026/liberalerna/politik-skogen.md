@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1c590e659613541d
+contentLength: 3880
 ---
 
 **Sverige behöver en hållbar och konkurrenskraftig skogspolitik. Skogen spelar nämligen en avgörande roll för både vår ekonomi och den biologiska mångfalden. Samtidigt visar utvecklingen att balansen mellan produktion och miljö inte alltid fungerar optimalt. Liberalerna vill att skogspolitiken ska kombinera produktion och miljöhänsyn, inte ställa dem mot varandra.**

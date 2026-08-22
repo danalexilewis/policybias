@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c65b00f35badcb27
+contentLength: 2281
 ---
 
 **Cykel är ett smidigt och miljövänligt sätt att resa. Vi vill bygga fler cykelvägar och anpassa trafiksystemet så att det blir trafiksäkert för cyklister, bilister och fotgängare.** 

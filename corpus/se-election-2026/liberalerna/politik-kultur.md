@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4c5d5babc0d3e572
+contentLength: 2059
 ---
 
 I en liberal kulturpolitik är yttrandefriheten grundläggande. Vår uppgift är inte att styra kulturens innehåll – utan att ge goda förutsättningar för konstnärligt skapande.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-414536574bfc98d4
+contentLength: 3165
 ---
 
 **RUT- och ROT-avdragen gör det enklare och billigare att få vardagen att fungera. De skapar jobb, minskar svartarbete och stärker integrationen genom att fler arbeten blir vita och trygga. Samtidigt bidrar de till ökad tillväxt och ett mer robust samhälle där fler människor kommer i arbete.**

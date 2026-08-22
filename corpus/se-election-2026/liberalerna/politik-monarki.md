@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-08fd31ad4267931d
+contentLength: 1622
 ---
 
 **Vi vill behålla monarkin som den är i dag. Det betyder att kungen bara ska ha representativa uppgifter, inte någon politisk makt.**

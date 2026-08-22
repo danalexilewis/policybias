@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-cb43155efb8f6184
+contentLength: 2080
 ---
 
 **Alla ska kunna motionera och idrotta. Det ska gälla oavsett var du kommer ifrån eller hur mycket pengar du har. Därför behöver den ideella idrottsrörelsen stabil statsfinansiering.**

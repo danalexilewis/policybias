@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f525ad442f3ffebc
+contentLength: 3482
 ---
 
 **Vi står upp för föräldrars och elevers rätt att få välja skola – men dagens friskolesystem har stora problem som behöver bli åtgärdade. Liberalerna anser att friskolesystemet behöver göras om i grunden. Elevers rätt till en god utbildning måste alltid komma** **först.**

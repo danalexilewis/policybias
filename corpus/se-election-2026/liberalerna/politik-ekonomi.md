@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-83f9b7f6c9ff37fc
+contentLength: 5143
 ---
 
 **Det ska löna sig att arbeta, utbilda sig och starta företag. Samtidigt behöver fler människor få möjlighet att ta ansvar för sin egen försörjning och bygga en trygg framtid. Därför vill Liberalerna föra en ansvarstagande finanspolitik som stärker tillväxten, uppmuntrar arbete och skapar fler vägar till ekonomisk frihet.**

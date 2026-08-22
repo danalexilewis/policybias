@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ac6f9dbcbed3e72f
+contentLength: 4612
 ---
 
 **Sverige behöver fler poliser i hela landet. I dag är polistätheten lägre än i många andra europeiska länder, samtidigt som den grova brottsligheten har blivit mer organiserad och våldsam. Därför måste vi stärka rättsstaten, öka tryggheten och säkerställa att brott klaras upp.**

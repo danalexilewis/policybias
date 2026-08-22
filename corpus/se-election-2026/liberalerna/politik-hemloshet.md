@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f91de08f745a016f
+contentLength: 3781
 ---
 
 **Hemlöshet innebär att människor saknar ett tryggt och stabilt hem, vilket försvårar möjligheten att hantera andra problem som psykisk ohälsa, missbruk eller skuldsättning. Alla människor har rätt till ett tryggt boende, och arbetet mot hemlöshet måste därför utgå från helhetssyn och samordning mellan sociala insatser, vård och bostadspolitik.**

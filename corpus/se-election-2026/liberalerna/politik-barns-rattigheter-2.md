@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-75d4a3abf32e25d3
+contentLength: 2040
 ---
 
 **Varje barn har rätt till en trygg barndom för att kunna bli precis den de vill vara. Olika barn har olika behov och förutsättningar men alla har samma fri- och rättigheter. Det vill vi värna om.**

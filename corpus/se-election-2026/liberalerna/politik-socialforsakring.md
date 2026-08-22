@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0f427a85b6533207
+contentLength: 1825
 ---
 
 **Alla har rätt till grundläggande ekonomisk trygghet – därför ska samhället ha ett starkt skyddsnät. Socialförsäkringar finns till för dig som är funktionsnedsatt, sjuk, arbetslös, föräldraledig eller i ekonomisk utsatthet.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d8541727c82f9d94
+contentLength: 2085
 ---
 
 **Vindkraften växer snabbt och är nu en viktig del av vår fossilfria elmix. Den kräver stora ytor och konkurrerar med andra intressen. Mer vindkraft behövs men inte överallt.**

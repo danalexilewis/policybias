@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8c795b483e92c62b
+contentLength: 3441
 ---
 
 **Skolan är Sveriges viktigaste frihetsfråga. Därför är skolan Liberalernas viktigaste fråga. Vi tror på kunskap, höga förväntningar och ordning i klassrummet. När svensk skola fungerar som bäst kan den förändra liv och öppna dörrar för varje barn, oavsett bakgrund eller postkod.**

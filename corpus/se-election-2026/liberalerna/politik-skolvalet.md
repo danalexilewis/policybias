@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f05a6629d5dc3eb9
+contentLength: 2259
 ---
 
 **Det fria skolvalet ger frihet och egenmakt. Liberalerna vill att fler elever ska få möjlighet att göra ett val av skola. För att lyckas med det behövs bättre information till elever och föräldrar.**

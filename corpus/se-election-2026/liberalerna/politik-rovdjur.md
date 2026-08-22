@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-816109d0011f0c9a
+contentLength: 1633
 ---
 
 **Sverige ska ha livskraftiga stammar av björn, järv, lo, varg och kungsörn. Både skyddsjakt och licensjakt – baserad på en vetenskaplig bedömning – behövs.**

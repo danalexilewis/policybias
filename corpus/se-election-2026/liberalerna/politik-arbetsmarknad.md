@@ -13,6 +13,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-3f915a3e6b8959f9
+contentLength: 5093
 ---
 
 **Fler människor måste få möjlighet att försörja sig själva och bygga ett självständigt liv. Därför vill Liberalerna sänka trösklarna till arbetsmarknaden och göra det enklare att få det första jobbet.**

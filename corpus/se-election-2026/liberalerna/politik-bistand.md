@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7b5fe9edf8cc182d
+contentLength: 4598
 ---
 
 **Liberalernas Sverige bekämpar ofriheten var den än är. Svenskt bistånd ska gå till att säkra de mänskliga fri- och rättigheterna och fria val världen över.**

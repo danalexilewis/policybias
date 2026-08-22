@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-76e3a2e8aeea19dd
+contentLength: 2123
 ---
 
 **Din rätt till integritet och privatliv ska vara stark – gentemot både staten och privata företag. Därför måste integritetsfrågorna alltid finnas med när nya lagar tas fram.**

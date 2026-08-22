@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9977a1003f6a93b8
+contentLength: 1603
 ---
 
 **Sverige behöver en väl utbyggd vuxenutbildning för de som vill förbättra sina grundkunskaper, specialisera sig inom ett yrke eller förbereda sig för högskolestudier.**

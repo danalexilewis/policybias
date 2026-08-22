@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ea77615be7808573
+contentLength: 2260
 ---
 
 **Hederskulturens normer och värderingar tar ifrån flickor och pojkar deras grundläggande rättigheter. Det handlar om rätten att äga sitt liv och bestämma över sin kropp. Vi liberaler tänker aldrig ge upp kampen för varje människas frihet.**

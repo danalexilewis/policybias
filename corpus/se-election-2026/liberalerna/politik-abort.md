@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-64d416fa86f21fdc
+contentLength: 4583
 ---
 
 **Det ska aldrig vara någon annan än kvinnan själv som bestämmer om hon vill göra abort. Aborträtten är en grundläggande frihetsfråga och en mänsklig rättighet. Liberalerna vill därför försvara den svenska abortlagen, stärka kvinnors självbestämmande och skydda aborträtten både i Sverige och internationellt.**

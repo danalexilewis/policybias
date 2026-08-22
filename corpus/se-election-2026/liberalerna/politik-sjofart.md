@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9b0eb35ba062ffe5
+contentLength: 2080
 ---
 
 **Sjöfarten har stor betydelse för det svenska transportsystemet och det behövs en konkurrenskraftig handelsflotta. Våra inre och kustnära vattenvägar är viktiga för att öka andelen hållbara transporter.**

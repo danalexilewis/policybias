@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fe30928b362e5d10
+contentLength: 2119
 ---
 
 **Liberalernas tobakspolitik ställer höga krav på försäljning, och för att hjälpa människor bli fria från tobaksberoende. Preventivt arbete i skolan är viktigt för att skydda den kommande generationen.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-68d28d70c7f4d7a4
+contentLength: 1988
 ---
 
 **Liberalismen föddes ur arbetet för demokrati och frihet världen över. Vi ger oss inte förrän den sista diktaturen har fallit. Skyddet för demokratin i EU och Sverige ska stärkas.**

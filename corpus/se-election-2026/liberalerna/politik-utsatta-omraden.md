@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7e0fb98c70f3334d
+contentLength: 2048
 ---
 
 **Vi accepterar inte att vissa medborgare bor i bostadsområden där livschanserna är färre. Vi har en plan för att vända utvecklingen.**

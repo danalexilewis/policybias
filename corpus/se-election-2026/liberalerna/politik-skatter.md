@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-7bbd50e173d0d2c9
+contentLength: 3949
 ---
 
 **Skatter behövs för att finansiera skolan, vården och tryggheten. Samtidigt måste skattesystemet utformas så att det lönar sig att arbeta, utbilda sig, spara och starta företag. Liberalerna vill ha ett skattesystem som stärker människors frihet och gör att fler kan försörja sig själva.**

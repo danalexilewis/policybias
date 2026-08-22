@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-860429af1c9d83b9
+contentLength: 5011
 ---
 
 **Människor som lider av obotliga och dödliga sjukdomar ska mötas med värdighet, respekt och medmänsklighet. Samtidigt saknar svårt sjuka patienter i dag möjlighet att själva bestämma över livets slutskede i Sverige. Därför vill Liberalerna att frågan om frivillig dödshjälp utreds genom en statlig utredning med tydligt fokus på rättssäkerhet, självbestämmande och skydd för individen.**

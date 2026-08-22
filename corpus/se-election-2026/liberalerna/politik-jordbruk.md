@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-cd5e4cae4005a2e8
+contentLength: 2242
 ---
 
 **Jordbruket ger oss vår mat och är samtidigt viktigt i miljö- och klimatarbetet. Det finns en stor potential att utveckla jordbruket genom växtförädling och smartare stöd.**

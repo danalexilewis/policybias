@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a7d563a08c04044b
+contentLength: 1542
 ---
 
 **Vi är alla olika, även när vi är årsrika. Därför ska alla som behöver hemtjänst själva få välja utförare, och få mer makt över innehållet.**

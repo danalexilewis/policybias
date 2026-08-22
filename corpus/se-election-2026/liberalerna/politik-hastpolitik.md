@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-8f4f77ad15284d20
+contentLength: 2063
 ---
 
 **Hästsporten glöms ofta bort då den av en del partier ses som ett nöje för välbärgade. Vi måste ta hästsporten på allvar.**

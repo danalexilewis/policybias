@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-928d740f3a87474b
+contentLength: 1993
 ---
 
 **Alla ska ha råd att laga sina tänder. Därför satsar vi både på förebyggande tandvård och på dem med allra störst behov. Tandvårdens finansiering ska bli mer lik sjukvårdens.**

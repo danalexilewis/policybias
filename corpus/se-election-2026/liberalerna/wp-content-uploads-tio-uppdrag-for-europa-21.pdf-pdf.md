@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a2790ab9390f8837
+contentLength: 51900
 ---
 
 # tio-uppdrag-for-europa-21-10c0595b.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-c201138291bd91f7
+contentLength: 27201
 ---
 
 # hela-vagen-till-noll1-97258fab.pdf

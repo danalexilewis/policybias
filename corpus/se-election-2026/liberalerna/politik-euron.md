@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9a27c209fd198537
+contentLength: 2236
 ---
 
 **I en oförutsägbar omvärld finns inte längre något utrymme för tvekan. Europas säkerhet, framtid och sammanhållning avgörs gemensamt – och då måste vi hålla ihop. Det handlar om ekonomi, men framför allt om trygghet, lojalitet och vilken gemenskap vi vill tillhöra. Därför är det självklart för Liberalerna att vi vill ha ett komplett EU-medlemskap – och införa euron i Sverige.**

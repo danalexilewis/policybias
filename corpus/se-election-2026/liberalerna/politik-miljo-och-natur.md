@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a32d06dba087a8cf
+contentLength: 2063
 ---
 
 **Miljöförstöring och klimathot påverkar förutsättningarna för allt liv på jorden. Skyddet av naturen kräver reglering. Marknadsekonomin klarar inte av det på egen hand.**

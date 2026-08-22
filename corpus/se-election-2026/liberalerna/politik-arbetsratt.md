@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-08fe7857d8f32dc0
+contentLength: 5188
 ---
 
 **En modern arbetsrätt ska kombinera trygghet med flexibilitet. Liberalerna vill skapa regler som skyddar arbetstagare samtidigt som fler företag vågar anställa och skapa nya jobb.**

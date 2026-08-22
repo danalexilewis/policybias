@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-52e6cc19780c7f81
+contentLength: 3174
 ---
 
 **Det kommer att behövas storskalig koldioxidinfångning för att vi ska klara klimatarbetet. Sverige har goda möjligheter och bör snarast bygga upp stor kapacitet.**

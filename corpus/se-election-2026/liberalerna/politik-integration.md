@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f41f77e2c6840590
+contentLength: 2217
 ---
 
 **Varje människa ska ha en ärlig chans att komma in i vårt samhälle. Vi ska ha en integrationspolitik som skapar möjligheter och ställer tydliga krav.**

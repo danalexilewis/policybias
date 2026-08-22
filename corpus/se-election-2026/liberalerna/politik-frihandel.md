@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-88d5c91b0d84915e
+contentLength: 5919
 ---
 
 **Global frihandel stärker Sveriges och Europas konkurrenskraft och utvecklar vårt välstånd. Samtidigt ökar protektionismen i världen och risken för handelskonflikter blir allt större. Liberalerna vill därför stärka frihandeln, fördjupa EU:s inre marknad och sluta fler frihandelsavtal med demokratiska länder världen över.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b9445795a68c85bb
+contentLength: 2151
 ---
 
 **På biblioteken får vi alla, på lika villkor, möjlighet till bildning och förströelse. Liberalerna anser att kunskap är makt, och biblioteken är därmed bärande i vår demokrati.**

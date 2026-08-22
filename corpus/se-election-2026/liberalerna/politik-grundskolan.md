@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-48e160e598795cff
+contentLength: 4990
 ---
 
 **Grundskolan ska ge alla elever kunskap, framtidstro och möjligheten att forma sina egna liv. Liberalerna vill därför stärka kunskapsfokus, trygghet och studiero i skolan. Alla elever ska möta skickliga lärare och få rätt stöd i tid – oavsett bakgrund eller behov.**

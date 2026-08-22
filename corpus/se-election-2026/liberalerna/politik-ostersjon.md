@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-daa2d84d4a1c859e
+contentLength: 4543
 ---
 
 **Östersjön är ett av världens mest känsliga hav. Samtidigt är vi människor beroende av friska hav för mat, biologisk mångfald och levande kustsamhällen. Det visar att arbetet för Östersjön inte bara är en miljöfråga, utan också en frihets- och framtidsfråga.**

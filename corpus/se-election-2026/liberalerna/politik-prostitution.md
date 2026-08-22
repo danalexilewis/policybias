@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6dcc5a81b12882ce
+contentLength: 1928
 ---
 
 **En människas kropp kan inte köpas. Det internationella arbetet mot sexhandel måste öka, och prostituerade måste få mer skydd och stöd.**

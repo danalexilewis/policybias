@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6fe653a9cb9af470
+contentLength: 2074
 ---
 
 **Vi kräver lika lön för lika arbete. Ingen ska på grund av sitt kön få mindre lönehöjningar eller färre befordringar. Lönegapet mellan män och kvinnor måste upphöra.**

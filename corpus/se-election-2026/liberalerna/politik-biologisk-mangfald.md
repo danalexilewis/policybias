@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6ab4b2195cf614e9
+contentLength: 4500
 ---
 
 **Allt fler arter hotas. Samtidigt är vi människor beroende av fungerande ekosystem för mat, rent vatten och ett stabilt klimat. Det visar att biologisk mångfald inte bara är en miljöfråga, utan också en frihets- och framtidsfråga.**

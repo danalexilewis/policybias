@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e1d80e140fa992a8
+contentLength: 56028
 ---
 
 # det-glomda-sverige-11-88145308.pdf

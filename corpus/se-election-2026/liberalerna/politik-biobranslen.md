@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-390347f79f165952
+contentLength: 2018
 ---
 
 **Biobränslen dominerade länge fullständigt vår energianvändning. Nu är de tillbaka och ersätter oljan. För att de ska räcka måste vi börja använda dem smartare.**

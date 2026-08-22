@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a5a5a06f9ab793e3
+contentLength: 1175
 ---
 
 **Att bli äldre får aldrig innebära att man förlorar sin frihet. Liberalerna vill se en äldreomsorg präglad av valfrihet, respekt och människovärde. Varje äldre person ska få leva ett liv i gemenskap, med möjlighet att fatta beslut om sin egen vardag.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ea03af1f438962f7
+contentLength: 2050
 ---
 
 **Energi måste alltid finnas när, och där, människor behöver den. Bara kärnkraften är planerbar, fossilfri och kan byggas ut i stor skala. Vi behöver den.**

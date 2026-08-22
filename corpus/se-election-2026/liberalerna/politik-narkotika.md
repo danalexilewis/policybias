@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0a8a23758d903763
+contentLength: 2352
 ---
 
 **Narkotikaberoende är en sjukdom. Därför måste missbruksvården förbättras, och hanteringen av narkotika ska bekämpas i alla led.**

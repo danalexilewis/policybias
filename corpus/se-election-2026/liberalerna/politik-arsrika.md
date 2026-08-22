@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9aeb24b8ad696069
+contentLength: 2160
 ---
 
 **Alla ska kunna forma sitt eget liv, och det gäller genom hela livet. Alla ska bli bemötta för vilka de är, inte utifrån vilket år vi är födda.**

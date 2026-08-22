@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-31cbfebbade9320a
+contentLength: 72729
 ---
 
 # sjukvardspolitisk-rapport1-23173b02.pdf

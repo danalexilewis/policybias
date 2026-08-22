@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-388d113775a528df
+contentLength: 2006
 ---
 
 **Det spelar ingen roll hur bra lektionen är för en elev som mår dåligt. Elevhälsan måste förbättras. Fler elever ska få hjälp så att de också kan nå kunskapsmålen.**

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2e43caf39b0c4f49
+contentLength: 4736
 ---
 
 **Extremism hotar både människors trygghet och det öppna samhället. Samtidigt behöver demokratin stå stark även när antidemokratiska krafter försöker splittra människor och sprida hat. Därför vill Liberalerna försvara friheten, stärka rättsstaten och bekämpa extremism inom demokratins och grundlagens ramar.**

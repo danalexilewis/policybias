@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fe0ebe3cfd7f31ba
+contentLength: 2105
 ---
 
 **Vägnätet ska vara säkert och modernt då bilen är avgörande för att hela landet ska leva där det inte finns andra realistiska alternativ. Vägnätet måste rustas och förstärkas rejält.**

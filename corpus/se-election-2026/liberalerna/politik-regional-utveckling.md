@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-891b55fbb782bd0f
+contentLength: 2168
 ---
 
 **Alla ska ha möjlighet att verka i hela landet och ha tillgång till grundläggande samhällsservice. Vi ska ta vara på alla individers och företags utvecklingskraft i Sverige.**

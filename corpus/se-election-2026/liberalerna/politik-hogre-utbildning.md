@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3f9555f1d6ce5201
+contentLength: 1966
 ---
 
 **Sverige ska vara en framstående kunskapsnation, där högre utbildning, forskning och innovation bedrivs med hög kvalitet. Det bidrar till samhällsutveckling och konkurrenskraft.**

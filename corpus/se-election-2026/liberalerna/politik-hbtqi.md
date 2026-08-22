@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fb3573f8c297638e
+contentLength: 4286
 ---
 
 ****Att få älska den man vill är sann frihet. Oavsett kön, könsidentitet eller sexuell läggning ska denna rättighet garanteras för alla, och det fortsätter Liberalerna kämpa för.**** **Trots stora framsteg vågar många hbtqi-personer fortfarande inte leva öppet, och alltför många blir utsatta för hatbrott, diskriminering och hedersförtryck.**

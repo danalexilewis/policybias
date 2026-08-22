@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-13385591af02f006
+contentLength: 5545
 ---
 
 **Personlig assistans och LSS handlar om frihet, självbestämmande och människovärde. Samtidigt har stödet urholkats under lång tid och många människor får inte det stöd de behöver för att leva självständigt. Därför vill Liberalerna stärka rättigheterna inom LSS, öka rättssäkerheten och skapa ett system som utgår från individens behov i stället för byråkratins begränsningar.**

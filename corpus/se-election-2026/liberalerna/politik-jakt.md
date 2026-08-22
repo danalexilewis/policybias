@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-96f28694ba905bb4
+contentLength: 1805
 ---
 
 **Jakten är en viktig del av förvaltningen av starka viltstammar. Den ger människor en möjlighet att komma nära naturen samtidigt som de gör en viktig insats för naturvården.**

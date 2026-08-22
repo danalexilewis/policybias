@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d4e663cf847b518d
+contentLength: 5044
 ---
 
 **Alla skolor ska sätta kunskap i första rummet. Skolans uppdrag är att förmedla kunskap, stärka elevernas frihet och ge varje barn möjlighet att utvecklas självständigt. Liberalerna vill därför stoppa religiösa friskolor och säkerställa att all undervisning i det svenska skolväsendet är icke-konfessionell.**

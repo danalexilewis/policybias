@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-eb3708574aa07d29
+contentLength: 2110
 ---
 
 **Solenergin kan byggas ut närmast obegränsat. Den har fallit i pris och är nu ett av de verktyg som på allvar kan bidra till att göra oss kvitt fossila bränslen.**

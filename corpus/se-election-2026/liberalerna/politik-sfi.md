@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-12a6106ca1a8cdf7
+contentLength: 2011
 ---
 
 **Att kunna svenska handlar om frihet och självbestämmande och på svenska för invandrare, SFI, ska nyanlända snabbt lära sig svenska.**

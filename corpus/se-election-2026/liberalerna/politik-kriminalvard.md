@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6675331c66d79a38
+contentLength: 5626
 ---
 
 **Kriminalvården har dubbla uppdrag. Den som dömts för brott ska avtjäna sitt straff, men också få bättre möjligheter att lämna kriminaliteten bakom sig. Liberalerna vill därför stärka både tryggheten och rehabiliteringen inom kriminalvården för att förebygga framtida brott och minska återfallen i kriminalitet.**

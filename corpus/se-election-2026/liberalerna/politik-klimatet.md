@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ed1fb31ff98723a6
+contentLength: 2088
 ---
 
 **Sverige ska nå klimatmålen. Utsläppen ska bort. De fossila bränslena ska bort. Klimatomställningen kan bara lyckas när den genomförs av fria människor i en växande ekonomi.**

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1c226efab5b23f67
+contentLength: 5697
 ---
 
 **När världen blir osäkrare blir ett starkt EU viktigare. Liberalerna vill därför fördjupa Europasamarbetet och stärka Europas förmåga att försvara frihet, demokrati och säkerhet. Sverige ska vara en fullvärdig medlem i EU – med euron som valuta.**

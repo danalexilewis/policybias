@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-28186d17e8ab35ea
+contentLength: 2024
 ---
 
 **Grundlagarna är det viktigaste skyddet för allas fri- och rättigheter. Vi vill ha en författningsdomstol som ser till att inga beslut i riksdag eller regering strider mot grundlagen.**

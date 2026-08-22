@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-016decdde9d99b4d
+contentLength: 33317
 ---
 
 # konkurrenskraft1-0e29239b.pdf

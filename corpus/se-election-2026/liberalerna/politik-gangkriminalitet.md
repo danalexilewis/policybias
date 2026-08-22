@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8873df5c57e81bc7
+contentLength: 5094
 ---
 
 **Gängkriminaliteten hotar människors trygghet och tilliten i samhället. Samtidigt dras allt yngre barn in i kriminalitet och våld. Det visar att kampen mot gängen inte bara handlar om hårdare straff, utan också om att skydda barn och ge fler unga en väg bort från kriminalitet.**

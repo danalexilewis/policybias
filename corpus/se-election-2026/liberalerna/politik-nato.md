@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-892c574bd0dcf2d6
+contentLength: 3154
 ---
 
 **Tillsammans med andra är vi tryggare. Liberalerna har arbetat för ett svenskt Natomedlemskap långt före andra partier. Nu är Sverige en fullvärdig medlem i alliansen, och det gör Sverige starkare och säkrare.**

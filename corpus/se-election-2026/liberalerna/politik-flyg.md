@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-59f21679e693324d
+contentLength: 2310
 ---
 
 **Flyget är viktigt för individens rörlighet och företagandet, särskilt i ett avlångt land som Sverige. Bromma flygplats bör behållas och Arlanda utvecklas, vilket gynnar hela landet.**

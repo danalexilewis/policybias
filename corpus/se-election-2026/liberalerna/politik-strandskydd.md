@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-bbedc8fa6356c283
+contentLength: 2249
 ---
 
 **Strandskyddet behöver moderniseras samtidigt som känsliga kustområden skyddas, men människors frihet ska inte begränsas i onödan. Strandskyddet behöver därför bli mer flexibelt.**

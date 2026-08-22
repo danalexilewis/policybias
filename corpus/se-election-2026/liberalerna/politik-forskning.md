@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-ae839efc65dc6517
+contentLength: 2377
 ---
 
 **Sverige ska inte vara landet Lagom – vi ska konkurrera med de bästa i världen när det gäller forskning och teknikutveckling. Liberalerna vill prioritera kvalitet och långsiktighet i forskningspolitiken.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ef274b66db77a9cd
+contentLength: 1915
 ---
 
 **Människohandel är vår tids slaveri. Kampen mot människohandel visar hur viktigt det är att stärka Europas samarbete mot brott.**

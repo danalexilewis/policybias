@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-5eebb52594c2b50b
+contentLength: 3378
 ---
 
 **Liberal feminism utgår från individen. Det är du som ska bestämma över ditt liv, fri från könsorättvisor och förlegade normer. Vi menar att varenda människa ska ha möjlighet att styra sitt eget liv.**

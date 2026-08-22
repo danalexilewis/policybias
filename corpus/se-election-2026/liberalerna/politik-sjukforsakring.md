@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-52b4ef393ecf3478
+contentLength: 2363
 ---
 
 **Den som blir sjuk ska ha en trygg försörjning. Sjukförsäkringen ska vara anpassad efter den som behöver sjukskriva sig, så att fler kan komma tillbaka till arbetslivet så snabbt som möjligt.**

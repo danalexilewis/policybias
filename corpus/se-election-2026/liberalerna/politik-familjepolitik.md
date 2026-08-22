@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-bfefda88d59ba673
+contentLength: 5960
 ---
 
 **Sverige ska vara ett jämställt och familjevänligt land där alla familjer ska ges förutsättningar att få ihop vardagen. I dag är uttaget av föräldraledighet fortfarande ojämnt och många föräldrar upplever att det är svårt att kombinera arbete och familjeliv. Liberalerna vill därför stärka både jämställdheten och valfriheten i familjepolitiken.**

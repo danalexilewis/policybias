@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-4e8ffdb8aff98e9d
+contentLength: 8666
 ---
 
 # starkframtidensaldreomsorg1-391f22aa.pdf

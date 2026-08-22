@@ -1,21 +1,22 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-pliktskola-derived
-title: "Pliktskola (reading)"
+title: Pliktskola (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Pliktskola"
+summary: Our reading of Pliktskola
 jurisdiction: SE
 sources:
-  - title: "Pliktskola"
+  - title: Pliktskola
     url: https://www.sd.se/a-till-o/pliktskola/
-tags: [schools-education]
+tags:
+  - education
 party: sverigedemokraterna
 clusters:
   - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-pliktskola.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 derivesFrom: sverigedemokraterna-a-till-o-pliktskola
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

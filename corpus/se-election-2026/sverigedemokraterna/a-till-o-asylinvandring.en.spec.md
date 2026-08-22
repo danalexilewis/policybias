@@ -4,29 +4,29 @@ id: sverigedemokraterna-a-till-o-asylinvandring
 title: Asylum immigration
 status: draft
 updated: 2026-08-22
-summary: The Sweden Democrats believe that asylum immigration should be as low
-  as possible. To reduce the attraction to Sweden, i.e. that one chooses Sweden
-  or other countries within the EU with favorable conditions, we want to apply
-  the principle of asylum in the first safe country. Normally this is
+summary: The Sweden Democrats believe that asylum immigration should be as low as
+  possible. To reduce the attraction to Sweden, i.e. that one chooses Sweden or other
+  countries within the EU with favorable conditions, we want to apply the principle of
+  asylum in the first safe country. Normally this is
 jurisdiction: SE
 sources:
   - title: Asylinvandring
     url: https://www.sd.se/a-till-o/asylinvandring/
 tags:
-  - migration-integration
+  - immigration
 party: sverigedemokraterna
 clusters:
   - migration-integration
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-asylinvandring.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 gaps:
   - cost is not stated on the page
 lang: en
 translationOf: sverigedemokraterna-asylinvandring
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-a5fe0a1550282966"
+sourceSpecDigest: sha256-a5fe0a1550282966
 ---
 
 # What the page states

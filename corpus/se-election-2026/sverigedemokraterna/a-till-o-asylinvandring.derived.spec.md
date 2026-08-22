@@ -1,21 +1,22 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-asylinvandring-derived
-title: "Asylinvandring (reading)"
+title: Asylinvandring (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Asylinvandring"
+summary: Our reading of Asylinvandring
 jurisdiction: SE
 sources:
-  - title: "Asylinvandring"
+  - title: Asylinvandring
     url: https://www.sd.se/a-till-o/asylinvandring/
-tags: [migration-integration]
+tags:
+  - immigration
 party: sverigedemokraterna
 clusters:
   - migration-integration
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-asylinvandring.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 derivesFrom: sverigedemokraterna-a-till-o-asylinvandring
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

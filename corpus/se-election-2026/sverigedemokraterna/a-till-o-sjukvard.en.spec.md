@@ -4,29 +4,29 @@ id: sverigedemokraterna-a-till-o-sjukvard
 title: Healthcare
 status: draft
 updated: 2026-08-22
-summary: Healthcare not only needs resources, it also needs clear
-  responsibility, governance and follow-up that actually have an effect. For a
-  long time, a divided leadership and unclear priorities have led to long care
-  queues and unacceptable differences between the regions. Sweden
+summary: Healthcare not only needs resources, it also needs clear responsibility,
+  governance and follow-up that actually have an effect. For a long time, a divided
+  leadership and unclear priorities have led to long care queues and unacceptable
+  differences between the regions. Sweden
 jurisdiction: SE
 sources:
   - title: Sjukvård
     url: https://www.sd.se/a-till-o/sjukvard/
 tags:
-  - health-care
+  - healthcare
 party: sverigedemokraterna
 clusters:
   - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-sjukvard.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 gaps:
   - cost is not stated on the page
 lang: en
 translationOf: sverigedemokraterna-sjukvard
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-998ffa56590c21ae"
+sourceSpecDigest: sha256-998ffa56590c21ae
 ---
 
 # What the page states

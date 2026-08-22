@@ -1,21 +1,25 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-aldrevard
-title: "Äldrevård"
+title: Äldrevård
 status: draft
 updated: 2026-08-22
-summary: "Tyvärr har vi nåtts av många rapporter om vanvård av äldre. Sexuella övergrepp tystas ned, misstänkta förövare tillåts arbeta kvar. Här har kommunerna mycket kvar att göra, men Sverigedemokraterna och regeringen har inte varit passiv. Vi har tillsammans med regeringen fortsatt sa"
+summary: Tyvärr har vi nåtts av många rapporter om vanvård av äldre. Sexuella övergrepp
+  tystas ned, misstänkta förövare tillåts arbeta kvar. Här har kommunerna mycket kvar
+  att göra, men Sverigedemokraterna och regeringen har inte varit passiv. Vi har
+  tillsammans med regeringen fortsatt sa
 jurisdiction: SE
 sources:
-  - title: "Äldrevård"
+  - title: Äldrevård
     url: https://www.sd.se/a-till-o/aldrevard/
-tags: [elderly-welfare]
+tags:
+  - elderly-care
 party: sverigedemokraterna
 clusters:
   - elderly-welfare
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-aldrevard.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 gaps:
   - cost is not stated on the page
 ---

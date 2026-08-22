@@ -1,21 +1,22 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-aldrevard-derived
-title: "Äldrevård (reading)"
+title: Äldrevård (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Äldrevård"
+summary: Our reading of Äldrevård
 jurisdiction: SE
 sources:
-  - title: "Äldrevård"
+  - title: Äldrevård
     url: https://www.sd.se/a-till-o/aldrevard/
-tags: [elderly-welfare]
+tags:
+  - elderly-care
 party: sverigedemokraterna
 clusters:
   - elderly-welfare
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-aldrevard.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 derivesFrom: sverigedemokraterna-a-till-o-aldrevard
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

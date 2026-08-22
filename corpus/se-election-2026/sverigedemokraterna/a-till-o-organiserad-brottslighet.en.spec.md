@@ -4,29 +4,29 @@ id: sverigedemokraterna-a-till-o-organiserad-brottslighet
 title: Organized crime
 status: draft
 updated: 2026-08-22
-summary: Organized crime is a threat to both society and ordinary people. The
-  fight against the gangs has therefore been particularly important to us.
-  Before the next election we will have introduced double sentencing for crimes
-  committed by gangs and passed the first of two constitutional decisions needed
+summary: Organized crime is a threat to both society and ordinary people. The fight
+  against the gangs has therefore been particularly important to us. Before the next
+  election we will have introduced double sentencing for crimes committed by gangs and
+  passed the first of two constitutional decisions needed
 jurisdiction: SE
 sources:
   - title: Organiserad brottslighet
     url: https://www.sd.se/a-till-o/organiserad-brottslighet/
 tags:
-  - crime-justice
+  - crime-and-justice
 party: sverigedemokraterna
 clusters:
   - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-organiserad-brottslighet.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 gaps:
   - cost is not stated on the page
 lang: en
 translationOf: sverigedemokraterna-organiserad-brottslighet
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-67a692d2813ff354"
+sourceSpecDigest: sha256-67a692d2813ff354
 ---
 
 # What the page states

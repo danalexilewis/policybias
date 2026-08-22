@@ -1,21 +1,22 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-nato-derived
-title: "Nato (reading)"
+title: Nato (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Nato"
+summary: Our reading of Nato
 jurisdiction: SE
 sources:
-  - title: "Nato"
+  - title: Nato
     url: https://www.sd.se/a-till-o/nato/
-tags: [defence-security]
+tags:
+  - defence
 party: sverigedemokraterna
 clusters:
   - defence-security
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-nato.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 derivesFrom: sverigedemokraterna-a-till-o-nato
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "sverigedemokraterna"
-title: "Yttrandefrihet"
-sourceUrl: "https://www.sd.se/a-till-o/yttrandefrihet/"
-canonicalUrl: "https://www.sd.se/a-till-o/yttrandefrihet"
-fetchedAt: "2026-08-22T14:13:22.460Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: sverigedemokraterna
+title: Yttrandefrihet
+sourceUrl: https://www.sd.se/a-till-o/yttrandefrihet/
+canonicalUrl: https://www.sd.se/a-till-o/yttrandefrihet
+fetchedAt: 2026-08-22T14:13:22.460Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.

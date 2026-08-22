@@ -1,21 +1,22 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-skattetransparens-derived
-title: "Skattetransparens (reading)"
+title: Skattetransparens (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Skattetransparens"
+summary: Our reading of Skattetransparens
 jurisdiction: SE
 sources:
-  - title: "Skattetransparens"
+  - title: Skattetransparens
     url: https://www.sd.se/a-till-o/skattetransparens/
-tags: [economy-tax]
+tags:
+  - taxation
 party: sverigedemokraterna
 clusters:
   - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-skattetransparens.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 derivesFrom: sverigedemokraterna-a-till-o-skattetransparens
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

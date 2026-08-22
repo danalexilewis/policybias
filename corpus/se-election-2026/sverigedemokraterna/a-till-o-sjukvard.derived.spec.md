@@ -1,21 +1,22 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-sjukvard-derived
-title: "Sjukvård (reading)"
+title: Sjukvård (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Sjukvård"
+summary: Our reading of Sjukvård
 jurisdiction: SE
 sources:
-  - title: "Sjukvård"
+  - title: Sjukvård
     url: https://www.sd.se/a-till-o/sjukvard/
-tags: [health-care]
+tags:
+  - healthcare
 party: sverigedemokraterna
 clusters:
   - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-sjukvard.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 derivesFrom: sverigedemokraterna-a-till-o-sjukvard
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

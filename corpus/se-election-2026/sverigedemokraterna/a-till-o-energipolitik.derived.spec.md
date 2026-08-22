@@ -1,21 +1,22 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-energipolitik-derived
-title: "Energipolitik (reading)"
+title: Energipolitik (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Energipolitik"
+summary: Our reading of Energipolitik
 jurisdiction: SE
 sources:
-  - title: "Energipolitik"
+  - title: Energipolitik
     url: https://www.sd.se/a-till-o/energipolitik/
-tags: [climate-environment]
+tags:
+  - energy
 party: sverigedemokraterna
 clusters:
-  - climate-environment
+  - energy-power
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-energipolitik.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 derivesFrom: sverigedemokraterna-a-till-o-energipolitik
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

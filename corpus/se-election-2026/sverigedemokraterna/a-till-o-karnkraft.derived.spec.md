@@ -1,21 +1,22 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-karnkraft-derived
-title: "Kärnkraft (reading)"
+title: Kärnkraft (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Kärnkraft"
+summary: Our reading of Kärnkraft
 jurisdiction: SE
 sources:
-  - title: "Kärnkraft"
+  - title: Kärnkraft
     url: https://www.sd.se/a-till-o/karnkraft/
-tags: [energy-power]
+tags:
+  - energy
 party: sverigedemokraterna
 clusters:
   - energy-power
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-karnkraft.md
-sourceDigest: "sha256-390d2659e28dc07d"
+sourceDigest: sha256-390d2659e28dc07d
 derivesFrom: sverigedemokraterna-a-till-o-karnkraft
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

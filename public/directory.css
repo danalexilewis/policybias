@@ -90,14 +90,9 @@ td:last-child {
 }
 
 th:nth-child(2),
-td:nth-child(2) {
-	white-space: nowrap;
-}
-
 th:nth-child(3),
-th:nth-child(4),
-td:nth-child(3),
-td:nth-child(4) {
+td:nth-child(2),
+td:nth-child(3) {
 	width: 8.5rem;
 	white-space: nowrap;
 }

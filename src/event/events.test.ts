@@ -96,11 +96,12 @@ describe('event game path', () => {
 })
 
 describe('home directory', () => {
-  it('lists each event llms.txt next to the event url', () => {
+  it('lists each event without a visible llms.txt link', () => {
     const html = readFileSync(DIRECTORY_HTML, 'utf8')
     for (const eventId of EVENT_IDS) {
       expect(html).toContain(`href="${eventPath(eventId)}"`)
-      expect(html).toContain(`href="${eventLlmsPath(eventId)}"`)
+      expect(html).not.toContain(`href="${eventLlmsPath(eventId)}"`)
     }
+    expect(html).not.toMatch(/<th>\s*llms\.txt\s*<\/th>/)
   })
 })

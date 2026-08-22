@@ -1,21 +1,22 @@
 ---
 type: spec
 id: liberalerna-politik-assisterad-befruktning-derived
-title: "Assisterad befruktning (reading)"
+title: Assisterad befruktning (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Assisterad befruktning"
+summary: Our reading of Assisterad befruktning
 jurisdiction: SE
 sources:
-  - title: "Assisterad befruktning"
+  - title: Assisterad befruktning
     url: https://www.liberalerna.se/politik/assisterad-befruktning
-tags: [economy-tax]
+tags:
+  - healthcare
 party: liberalerna
 clusters:
-  - economy-tax
+  - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-assisterad-befruktning.md
-sourceDigest: "sha256-b8480c7a218599d8"
+sourceDigest: sha256-b8480c7a218599d8
 derivesFrom: liberalerna-politik-assisterad-befruktning
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

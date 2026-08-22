@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Lärlingar – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/larlingar"
-canonicalUrl: "https://www.liberalerna.se/politik/larlingar"
-fetchedAt: "2026-08-22T13:37:51.160Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Lärlingar – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/larlingar
+canonicalUrl: https://www.liberalerna.se/politik/larlingar
+fetchedAt: 2026-08-22T13:37:51.160Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Svenska företag skriker efter duktiga hantverkare. Med ett system för lärlingsutbildningar kan fler lära sig sitt yrke i verkligheten istället för vid skolbänken.**

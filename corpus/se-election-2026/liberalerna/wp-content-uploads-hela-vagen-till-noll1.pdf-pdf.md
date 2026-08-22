@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "hela-vagen-till-noll1-97258fab.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/hela-vagen-till-noll1.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/hela-vagen-till-noll1.pdf"
-fetchedAt: "2026-08-22T13:38:54.192Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: hela-vagen-till-noll1-97258fab.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/hela-vagen-till-noll1.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/hela-vagen-till-noll1.pdf
+fetchedAt: 2026-08-22T13:38:54.192Z
+contentType: pdf
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # hela-vagen-till-noll1-97258fab.pdf

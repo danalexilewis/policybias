@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Vinstintresset i skolan – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/vinstintresset-i-skolan"
-canonicalUrl: "https://www.liberalerna.se/politik/vinstintresset-i-skolan"
-fetchedAt: "2026-08-22T13:39:51.917Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Vinstintresset i skolan – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/vinstintresset-i-skolan
+canonicalUrl: https://www.liberalerna.se/politik/vinstintresset-i-skolan
+fetchedAt: 2026-08-22T13:39:51.917Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Skolan ska styras av kunskap och kvalitet – inte av kortsiktiga vinstintressen. Liberalerna vill begränsa vinstintresset genom att omvandla friskolor som i dag drivs som vinstdrivande aktiebolag till en särskild driftsform utan vinstsyfte.** **Elevernas utbildning måste alltid gå före ägarnas avkastning.**

@@ -1,17 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "AI och teknikutveckling – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/ai"
-canonicalUrl: "https://www.liberalerna.se/politik/ai"
-fetchedAt: "2026-08-22T13:35:22.537Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: liberalerna
+title: AI och teknikutveckling – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/ai
+canonicalUrl: https://www.liberalerna.se/politik/ai
+fetchedAt: 2026-08-22T13:35:22.537Z
+contentType: html
+via: party-site
 tags:
-  - "energy-power"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - infrastructure
+  - defence
+  - economy
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Artificiell intelligens förändrar samhället i snabb takt. Liberalerna vill att Sverige ska vara ett ledande land för AI, innovation och teknisk utveckling. Samtidigt måste individens frihet, integritet och säkerhet skyddas när ny teknik får allt större betydelse i människors vardag.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Energi – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/energi-2"
-canonicalUrl: "https://www.liberalerna.se/politik/energi-2"
-fetchedAt: "2026-08-22T13:36:09.023Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Energi – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/energi-2
+canonicalUrl: https://www.liberalerna.se/politik/energi-2
+fetchedAt: 2026-08-22T13:36:09.023Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Från samma pris i hela Sverige till orimligt höga eller kraftigt svängande elpriser. Elmarknaden fungerar inte och det behövs en energipolitik där alla fossilfria energislag har sin funktion.**

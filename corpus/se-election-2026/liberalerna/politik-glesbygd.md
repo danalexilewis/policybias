@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Glesbygd – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/glesbygd"
-canonicalUrl: "https://www.liberalerna.se/politik/glesbygd"
-fetchedAt: "2026-08-22T13:36:46.990Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Glesbygd – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/glesbygd
+canonicalUrl: https://www.liberalerna.se/politik/glesbygd
+fetchedAt: 2026-08-22T13:36:46.990Z
+contentType: html
+via: party-site
+tags:
+  - climate
+  - economy
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Hela Sveriges utvecklingskraft, tillväxtpotential och jobbmöjligheter måste tas till vara. I dag möter företagare och familjer i glesbygd hinder som bromsar utvecklingen. Villkoren skiljer sig åt beroende på var i landet man bor. Därför vill Liberalerna vill skapa bättre förutsättningar att bo, arbeta och driva företag i hela Sverige.**

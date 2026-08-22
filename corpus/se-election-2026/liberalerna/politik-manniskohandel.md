@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Människohandel – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/manniskohandel"
-canonicalUrl: "https://www.liberalerna.se/politik/manniskohandel"
-fetchedAt: "2026-08-22T13:38:04.475Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Människohandel – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/manniskohandel
+canonicalUrl: https://www.liberalerna.se/politik/manniskohandel
+fetchedAt: 2026-08-22T13:38:04.475Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Människohandel är vår tids slaveri. Kampen mot människohandel visar hur viktigt det är att stärka Europas samarbete mot brott.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Upphovsrätt – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/upphovsratten"
-canonicalUrl: "https://www.liberalerna.se/politik/upphovsratten"
-fetchedAt: "2026-08-22T13:39:28.748Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Upphovsrätt – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/upphovsratten
+canonicalUrl: https://www.liberalerna.se/politik/upphovsratten
+fetchedAt: 2026-08-22T13:39:28.748Z
+contentType: html
+via: party-site
+tags:
+  - culture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Upphovsrätten måste moderniseras, men också värnas eftersom den är en förutsättning för att kulturskapare ska kunna få betalt för sina verk och behålla sin kulturella frihet.**

@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Alkohol – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/alkohol"
-canonicalUrl: "https://www.liberalerna.se/politik/alkohol"
-fetchedAt: "2026-08-22T13:35:10.819Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: liberalerna
+title: Alkohol – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/alkohol
+canonicalUrl: https://www.liberalerna.se/politik/alkohol
+fetchedAt: 2026-08-22T13:35:10.819Z
+contentType: html
+via: party-site
 tags:
-  - "schools-education"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - healthcare
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Liberal alkoholpolitik bygger på frihet under ansvar. Vuxna människor med fungerande alkoholvanor ska kunna fatta egna beslut om sitt liv och sin konsumtion. Samtidigt behöver samhället arbeta aktivt för att förebygga missbruk, skydda barn och unga samt hjälpa människor som utvecklar ett beroende.**

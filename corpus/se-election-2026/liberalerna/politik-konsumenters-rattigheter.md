@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Konsumenters rättigheter – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/konsumenters-rattigheter"
-canonicalUrl: "https://www.liberalerna.se/politik/konsumenters-rattigheter"
-fetchedAt: "2026-08-22T13:37:35.164Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Konsumenters rättigheter – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/konsumenters-rattigheter
+canonicalUrl: https://www.liberalerna.se/politik/konsumenters-rattigheter
+fetchedAt: 2026-08-22T13:37:35.164Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **För oss liberaler handlar konsumenters rättigheter om makt och möjlighet att göra aktiva val. Du ska kunna känna dig trygg när du handlar. Mer kunskap ger dig möjligheten att både välja till och välja bort.**

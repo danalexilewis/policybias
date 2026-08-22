@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Järnväg – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/jarnvag"
-canonicalUrl: "https://www.liberalerna.se/politik/jarnvag"
-fetchedAt: "2026-08-22T13:37:23.722Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Järnväg – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/jarnvag
+canonicalUrl: https://www.liberalerna.se/politik/jarnvag
+fetchedAt: 2026-08-22T13:37:23.722Z
+contentType: html
+via: party-site
+tags:
+  - transport
+  - climate
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Att resa med tåg är klimatsmart. Liberalerna bidrar nu till en upprusning av Sveriges järnvägar, ökad kapacitet och mer pålitliga tågresor i hela Sverige.**

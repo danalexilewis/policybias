@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Psykiatri – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/psykiatri"
-canonicalUrl: "https://www.liberalerna.se/politik/psykiatri"
-fetchedAt: "2026-08-22T13:38:21.083Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Psykiatri – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/psykiatri
+canonicalUrl: https://www.liberalerna.se/politik/psykiatri
+fetchedAt: 2026-08-22T13:38:21.083Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Psykisk ohälsa måste tas seriöst. Det ska vara lätt att få hjälp med sin psykiska hälsa. Människor ska få hjälp tidigt, och kunna vara trygga i att vården finns där också om behoven blir större.**

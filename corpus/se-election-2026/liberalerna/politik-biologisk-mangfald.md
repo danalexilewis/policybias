@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Biologisk mångfald"
-sourceUrl: "https://www.liberalerna.se/politik/biologisk-mangfald"
-canonicalUrl: "https://www.liberalerna.se/politik/biologisk-mangfald"
-fetchedAt: "2026-08-22T13:35:33.078Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Biologisk mångfald
+sourceUrl: https://www.liberalerna.se/politik/biologisk-mangfald
+canonicalUrl: https://www.liberalerna.se/politik/biologisk-mangfald
+fetchedAt: 2026-08-22T13:35:33.078Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - climate
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Allt fler arter hotas. Samtidigt är vi människor beroende av fungerande ekosystem för mat, rent vatten och ett stabilt klimat. Det visar att biologisk mångfald inte bara är en miljöfråga, utan också en frihets- och framtidsfråga.**

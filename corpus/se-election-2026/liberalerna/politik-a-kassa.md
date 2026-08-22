@@ -1,17 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "A-kassa – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/a-kassa"
-canonicalUrl: "https://www.liberalerna.se/politik/a-kassa"
-fetchedAt: "2026-08-22T13:35:17.589Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: liberalerna
+title: A-kassa – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/a-kassa
+canonicalUrl: https://www.liberalerna.se/politik/a-kassa
+fetchedAt: 2026-08-22T13:35:17.589Z
+contentType: html
+via: party-site
 tags:
-  - "elderly-welfare"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - employment
+  - social-welfare
+  - economy
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Det måste alltid löna sig att gå från bidrag till arbete. Samtidigt behöver människor känna trygghet när arbetsmarknaden förändras. Liberalerna vill därför ha en stark och modern a-kassa som ger ekonomisk säkerhet vid arbetslöshet och samtidigt uppmuntrar till omställning och nya jobb.**

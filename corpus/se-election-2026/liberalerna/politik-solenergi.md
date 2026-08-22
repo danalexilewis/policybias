@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Solenergi – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/solenergi"
-canonicalUrl: "https://www.liberalerna.se/politik/solenergi"
-fetchedAt: "2026-08-22T13:39:14.438Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Solenergi – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/solenergi
+canonicalUrl: https://www.liberalerna.se/politik/solenergi
+fetchedAt: 2026-08-22T13:39:14.438Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Solenergin kan byggas ut närmast obegränsat. Den har fallit i pris och är nu ett av de verktyg som på allvar kan bidra till att göra oss kvitt fossila bränslen.**

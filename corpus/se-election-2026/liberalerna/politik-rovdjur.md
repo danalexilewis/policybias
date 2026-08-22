@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Rovdjur – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/rovdjur"
-canonicalUrl: "https://www.liberalerna.se/politik/rovdjur"
-fetchedAt: "2026-08-22T13:38:29.728Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Rovdjur – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/rovdjur
+canonicalUrl: https://www.liberalerna.se/politik/rovdjur
+fetchedAt: 2026-08-22T13:38:29.728Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige ska ha livskraftiga stammar av björn, järv, lo, varg och kungsörn. Både skyddsjakt och licensjakt – baserad på en vetenskaplig bedömning – behövs.**

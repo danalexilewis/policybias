@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "SFI – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/sfi"
-canonicalUrl: "https://www.liberalerna.se/politik/sfi"
-fetchedAt: "2026-08-22T13:39:05.522Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: SFI – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/sfi
+canonicalUrl: https://www.liberalerna.se/politik/sfi
+fetchedAt: 2026-08-22T13:39:05.522Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Att kunna svenska handlar om frihet och självbestämmande och på svenska för invandrare, SFI, ska nyanlända snabbt lära sig svenska.**

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Skogen – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/skogen"
-canonicalUrl: "https://www.liberalerna.se/politik/skogen"
-fetchedAt: "2026-08-22T13:38:53.783Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Skogen – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/skogen
+canonicalUrl: https://www.liberalerna.se/politik/skogen
+fetchedAt: 2026-08-22T13:38:53.783Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - climate
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige behöver en hållbar och konkurrenskraftig skogspolitik. Skogen spelar nämligen en avgörande roll för både vår ekonomi och den biologiska mångfalden. Samtidigt visar utvecklingen att balansen mellan produktion och miljö inte alltid fungerar optimalt. Liberalerna vill att skogspolitiken ska kombinera produktion och miljöhänsyn, inte ställa dem mot varandra.**

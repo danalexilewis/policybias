@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Kärnkraft – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/karnkraft"
-canonicalUrl: "https://www.liberalerna.se/politik/karnkraft"
-fetchedAt: "2026-08-22T13:37:41.323Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Kärnkraft – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/karnkraft
+canonicalUrl: https://www.liberalerna.se/politik/karnkraft
+fetchedAt: 2026-08-22T13:37:41.323Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Energi måste alltid finnas när, och där, människor behöver den. Bara kärnkraften är planerbar, fossilfri och kan byggas ut i stor skala. Vi behöver den.**

@@ -1,21 +1,25 @@
 ---
 type: spec
 id: liberalerna-politik-alkohol
-title: "Alkohol"
+title: Alkohol
 status: draft
 updated: 2026-08-22
-summary: "Liberal alkoholpolitik bygger på frihet under ansvar. Vuxna människor med fungerande alkoholvanor ska kunna fatta egna beslut om sitt liv och sin konsumtion. Samtidigt behöver samhället arbeta aktivt för att förebygga missbruk, skydda barn och unga samt hjälpa människor som utvec"
+summary: Liberal alkoholpolitik bygger på frihet under ansvar. Vuxna människor med
+  fungerande alkoholvanor ska kunna fatta egna beslut om sitt liv och sin konsumtion.
+  Samtidigt behöver samhället arbeta aktivt för att förebygga missbruk, skydda barn och
+  unga samt hjälpa människor som utvec
 jurisdiction: SE
 sources:
-  - title: "Alkohol"
+  - title: Alkohol
     url: https://www.liberalerna.se/politik/alkohol
-tags: [schools-education]
+tags:
+  - healthcare
 party: liberalerna
 clusters:
-  - schools-education
+  - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-alkohol.md
-sourceDigest: "sha256-f45ff3879115bb03"
+sourceDigest: sha256-f45ff3879115bb03
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

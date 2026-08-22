@@ -4,23 +4,24 @@ id: liberalerna-politik-ai
 title: AI and technology development
 status: draft
 updated: 2026-08-22
-summary: Artificial intelligence is changing society at a rapid pace. The
-  liberals want Sweden to be a leading country for AI, innovation and
-  technological development. At the same time, the individual's freedom, privacy
-  and security must be protected when new technology becomes increasingly
-  important in people's lives
+summary: Artificial intelligence is changing society at a rapid pace. The liberals want
+  Sweden to be a leading country for AI, innovation and technological development. At
+  the same time, the individual's freedom, privacy and security must be protected when
+  new technology becomes increasingly important in people's lives
 jurisdiction: SE
 sources:
   - title: AI och teknikutveckling
     url: https://www.liberalerna.se/politik/ai
 tags:
-  - energy-power
+  - infrastructure
+  - defence
+  - economy
 party: liberalerna
 clusters:
-  - energy-power
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-ai.md
-sourceDigest: "sha256-81e7557e8868ee3a"
+sourceDigest: sha256-81e7557e8868ee3a
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -28,7 +29,7 @@ lang: en
 translationOf: liberalerna-ai
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-7511d9392a648ba3"
+sourceSpecDigest: sha256-7511d9392a648ba3
 ---
 
 # What the page states

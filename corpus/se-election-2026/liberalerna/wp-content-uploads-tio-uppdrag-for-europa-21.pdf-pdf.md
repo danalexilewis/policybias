@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "tio-uppdrag-for-europa-21-10c0595b.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/tio-uppdrag-for-europa-21.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/tio-uppdrag-for-europa-21.pdf"
-fetchedAt: "2026-08-22T13:35:57.933Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: tio-uppdrag-for-europa-21-10c0595b.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/tio-uppdrag-for-europa-21.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/tio-uppdrag-for-europa-21.pdf
+fetchedAt: 2026-08-22T13:35:57.933Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+  - immigration
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # tio-uppdrag-for-europa-21-10c0595b.pdf

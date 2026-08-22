@@ -1,17 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Arbetsmarknad – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/arbetsmarknad"
-canonicalUrl: "https://www.liberalerna.se/politik/arbetsmarknad"
-fetchedAt: "2026-08-22T13:35:12.421Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: liberalerna
+title: Arbetsmarknad – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/arbetsmarknad
+canonicalUrl: https://www.liberalerna.se/politik/arbetsmarknad
+fetchedAt: 2026-08-22T13:35:12.421Z
+contentType: html
+via: party-site
 tags:
-  - "crime-justice"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - employment
+  - economy
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Fler människor måste få möjlighet att försörja sig själva och bygga ett självständigt liv. Därför vill Liberalerna sänka trösklarna till arbetsmarknaden och göra det enklare att få det första jobbet.**

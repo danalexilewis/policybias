@@ -1,21 +1,25 @@
 ---
 type: spec
 id: liberalerna-politik-arbetskraftsinvandring
-title: "Arbetskraftsinvandring"
+title: Arbetskraftsinvandring
 status: draft
 updated: 2026-08-22
-summary: "Arbetskraftsinvandring stärker Sveriges ekonomi, välfärd och konkurrenskraft. Därför vill Liberalerna göra det enklare för företag att rekrytera internationell kompetens och stoppa orimliga kompetensutvisningar."
+summary: Arbetskraftsinvandring stärker Sveriges ekonomi, välfärd och konkurrenskraft.
+  Därför vill Liberalerna göra det enklare för företag att rekrytera internationell
+  kompetens och stoppa orimliga kompetensutvisningar.
 jurisdiction: SE
 sources:
-  - title: "Arbetskraftsinvandring"
+  - title: Arbetskraftsinvandring
     url: https://www.liberalerna.se/politik/arbetskraftsinvandring
-tags: [migration-integration]
+tags:
+  - employment
+  - economy
 party: liberalerna
 clusters:
-  - migration-integration
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-arbetskraftsinvandring.md
-sourceDigest: "sha256-0ff89a24b04eb96e"
+sourceDigest: sha256-0ff89a24b04eb96e
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

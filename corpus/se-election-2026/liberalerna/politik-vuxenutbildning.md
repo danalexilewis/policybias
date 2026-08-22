@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Vuxenutbildning – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/vuxenutbildning"
-canonicalUrl: "https://www.liberalerna.se/politik/vuxenutbildning"
-fetchedAt: "2026-08-22T13:39:44.707Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Vuxenutbildning – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/vuxenutbildning
+canonicalUrl: https://www.liberalerna.se/politik/vuxenutbildning
+fetchedAt: 2026-08-22T13:39:44.707Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige behöver en väl utbyggd vuxenutbildning för de som vill förbättra sina grundkunskaper, specialisera sig inom ett yrke eller förbereda sig för högskolestudier.**

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Europeiska unionen – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/europeiska-unionen"
-canonicalUrl: "https://www.liberalerna.se/politik/europeiska-unionen"
-fetchedAt: "2026-08-22T13:35:56.557Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Europeiska unionen – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/europeiska-unionen
+canonicalUrl: https://www.liberalerna.se/politik/europeiska-unionen
+fetchedAt: 2026-08-22T13:35:56.557Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **När världen blir osäkrare blir ett starkt EU viktigare. Liberalerna vill därför fördjupa Europasamarbetet och stärka Europas förmåga att försvara frihet, demokrati och säkerhet. Sverige ska vara en fullvärdig medlem i EU – med euron som valuta.**

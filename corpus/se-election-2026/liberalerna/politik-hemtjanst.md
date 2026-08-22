@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Hemtjänst – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/hemtjanst"
-canonicalUrl: "https://www.liberalerna.se/politik/hemtjanst"
-fetchedAt: "2026-08-22T13:37:02.066Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Hemtjänst – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/hemtjanst
+canonicalUrl: https://www.liberalerna.se/politik/hemtjanst
+fetchedAt: 2026-08-22T13:37:02.066Z
+contentType: html
+via: party-site
+tags:
+  - elderly-care
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vi är alla olika, även när vi är årsrika. Därför ska alla som behöver hemtjänst själva få välja utförare, och få mer makt över innehållet.**

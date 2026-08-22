@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Regelförenkling – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/politikregelforenklingar"
-canonicalUrl: "https://www.liberalerna.se/politik/politikregelforenklingar"
-fetchedAt: "2026-08-22T13:38:26.995Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Regelförenkling – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/politikregelforenklingar
+canonicalUrl: https://www.liberalerna.se/politik/politikregelforenklingar
+fetchedAt: 2026-08-22T13:38:26.995Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Mindre byråkrati och krångel för företagare. Vi vill göra det enklare att starta och driva företag. När företagen växer skapas jobb och intäkterna till välfärden ökar.**

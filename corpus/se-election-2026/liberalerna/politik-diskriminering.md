@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Diskriminering – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/diskriminering"
-canonicalUrl: "https://www.liberalerna.se/politik/diskriminering"
-fetchedAt: "2026-08-22T13:35:52.575Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Diskriminering – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/diskriminering
+canonicalUrl: https://www.liberalerna.se/politik/diskriminering
+fetchedAt: 2026-08-22T13:35:52.575Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ### Diskriminering begränsar människors frihet

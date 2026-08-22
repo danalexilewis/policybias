@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Miljö och natur – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/miljo-och-natur"
-canonicalUrl: "https://www.liberalerna.se/politik/miljo-och-natur"
-fetchedAt: "2026-08-22T13:37:59.431Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Miljö och natur – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/miljo-och-natur
+canonicalUrl: https://www.liberalerna.se/politik/miljo-och-natur
+fetchedAt: 2026-08-22T13:37:59.431Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Miljöförstöring och klimathot påverkar förutsättningarna för allt liv på jorden. Skyddet av naturen kräver reglering. Marknadsekonomin klarar inte av det på egen hand.**

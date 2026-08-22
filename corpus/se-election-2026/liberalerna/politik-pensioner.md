@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Pensioner – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/pensioner"
-canonicalUrl: "https://www.liberalerna.se/politik/pensioner"
-fetchedAt: "2026-08-22T13:38:13.976Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Pensioner – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/pensioner
+canonicalUrl: https://www.liberalerna.se/politik/pensioner
+fetchedAt: 2026-08-22T13:38:13.976Z
+contentType: html
+via: party-site
+tags:
+  - pensions
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla ska känna sig trygga med sin pension. Pensionssystemet ska vara stabilt och vila på långsiktiga överenskommelser. Du ska kunna påverka och ta ansvar för större del av din pension.**

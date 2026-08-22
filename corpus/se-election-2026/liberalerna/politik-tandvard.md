@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Tandvård – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/tandvard"
-canonicalUrl: "https://www.liberalerna.se/politik/tandvard"
-fetchedAt: "2026-08-22T13:39:22.786Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Tandvård – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/tandvard
+canonicalUrl: https://www.liberalerna.se/politik/tandvard
+fetchedAt: 2026-08-22T13:39:22.786Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla ska ha råd att laga sina tänder. Därför satsar vi både på förebyggande tandvård och på dem med allra störst behov. Tandvårdens finansiering ska bli mer lik sjukvårdens.**

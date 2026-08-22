@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Familjepolitik – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/familjepolitik"
-canonicalUrl: "https://www.liberalerna.se/politik/familjepolitik"
-fetchedAt: "2026-08-22T13:36:13.906Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Familjepolitik – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/familjepolitik
+canonicalUrl: https://www.liberalerna.se/politik/familjepolitik
+fetchedAt: 2026-08-22T13:36:13.906Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Sverige ska vara ett jämställt och familjevänligt land där alla familjer ska ges förutsättningar att få ihop vardagen. I dag är uttaget av föräldraledighet fortfarande ojämnt och många föräldrar upplever att det är svårt att kombinera arbete och familjeliv. Liberalerna vill därför stärka både jämställdheten och valfriheten i familjepolitiken.**

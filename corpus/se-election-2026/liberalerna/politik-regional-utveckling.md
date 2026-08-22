@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Regional utveckling – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/regional-utveckling"
-canonicalUrl: "https://www.liberalerna.se/politik/regional-utveckling"
-fetchedAt: "2026-08-22T13:38:31.452Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Regional utveckling – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/regional-utveckling
+canonicalUrl: https://www.liberalerna.se/politik/regional-utveckling
+fetchedAt: 2026-08-22T13:38:31.452Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla ska ha möjlighet att verka i hela landet och ha tillgång till grundläggande samhällsservice. Vi ska ta vara på alla individers och företags utvecklingskraft i Sverige.**

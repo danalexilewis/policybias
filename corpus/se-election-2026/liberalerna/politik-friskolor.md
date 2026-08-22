@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Friskolor – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/friskolor"
-canonicalUrl: "https://www.liberalerna.se/politik/friskolor"
-fetchedAt: "2026-08-22T13:36:11.496Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Friskolor – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/friskolor
+canonicalUrl: https://www.liberalerna.se/politik/friskolor
+fetchedAt: 2026-08-22T13:36:11.496Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vi står upp för föräldrars och elevers rätt att få välja skola – men dagens friskolesystem har stora problem som behöver bli åtgärdade. Liberalerna anser att friskolesystemet behöver göras om i grunden. Elevers rätt till en god utbildning måste alltid komma** **först.**

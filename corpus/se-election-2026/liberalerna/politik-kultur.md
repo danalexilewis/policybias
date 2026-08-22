@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Kultur – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/kultur"
-canonicalUrl: "https://www.liberalerna.se/politik/kultur"
-fetchedAt: "2026-08-22T13:37:43.518Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Kultur – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/kultur
+canonicalUrl: https://www.liberalerna.se/politik/kultur
+fetchedAt: 2026-08-22T13:37:43.518Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 I en liberal kulturpolitik är yttrandefriheten grundläggande. Vår uppgift är inte att styra kulturens innehåll – utan att ge goda förutsättningar för konstnärligt skapande.

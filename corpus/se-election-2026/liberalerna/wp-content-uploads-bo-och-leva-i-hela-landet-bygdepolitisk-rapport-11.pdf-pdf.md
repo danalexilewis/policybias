@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "bo-och-leva-i-hela-landet-bygdepolitisk-rapport-11-0d1ce5c7.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/bo-och-leva-i-hela-landet-bygdepolitisk-rapport-11.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/bo-och-leva-i-hela-landet-bygdepolitisk-rapport-11.pdf"
-fetchedAt: "2026-08-22T13:39:21.182Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: bo-och-leva-i-hela-landet-bygdepolitisk-rapport-11-0d1ce5c7.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/bo-och-leva-i-hela-landet-bygdepolitisk-rapport-11.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/bo-och-leva-i-hela-landet-bygdepolitisk-rapport-11.pdf
+fetchedAt: 2026-08-22T13:39:21.182Z
+contentType: pdf
+via: party-site
+tags:
+  - social-welfare
+  - economy
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # bo-och-leva-i-hela-landet-bygdepolitisk-rapport-11-0d1ce5c7.pdf

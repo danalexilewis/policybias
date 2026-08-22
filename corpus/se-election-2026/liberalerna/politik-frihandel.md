@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Frihandel – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/frihandel"
-canonicalUrl: "https://www.liberalerna.se/politik/frihandel"
-fetchedAt: "2026-08-22T13:36:22.538Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Frihandel – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/frihandel
+canonicalUrl: https://www.liberalerna.se/politik/frihandel
+fetchedAt: 2026-08-22T13:36:22.538Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - defence
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Global frihandel stärker Sveriges och Europas konkurrenskraft och utvecklar vårt välstånd. Samtidigt ökar protektionismen i världen och risken för handelskonflikter blir allt större. Liberalerna vill därför stärka frihandeln, fördjupa EU:s inre marknad och sluta fler frihandelsavtal med demokratiska länder världen över.**

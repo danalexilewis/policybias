@@ -4,21 +4,21 @@ id: liberalerna-politik-arbetsratt
 title: Labor law
 status: draft
 updated: 2026-08-22
-summary: A modern labor law must combine security with flexibility. The Liberals
-  want to create rules that protect workers at the same time that more companies
-  dare to hire and create new jobs.
+summary: A modern labor law must combine security with flexibility. The Liberals want to
+  create rules that protect workers at the same time that more companies dare to hire
+  and create new jobs.
 jurisdiction: SE
 sources:
   - title: Arbetsrätt
     url: https://www.liberalerna.se/politik/arbetsratt
 tags:
-  - climate-environment
+  - employment
 party: liberalerna
 clusters:
-  - climate-environment
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-arbetsratt.md
-sourceDigest: "sha256-38160585232fb309"
+sourceDigest: sha256-38160585232fb309
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -26,7 +26,7 @@ lang: en
 translationOf: liberalerna-arbetsratt
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-28a4fb4fd54d434c"
+sourceSpecDigest: sha256-28a4fb4fd54d434c
 ---
 
 # What the page states

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "2009-fl-skola-efter-partirad1-505b2bb9.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/2009-fl-skola-efter-partirad1.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/2009-fl-skola-efter-partirad1.pdf"
-fetchedAt: "2026-08-22T13:38:48.139Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: 2009-fl-skola-efter-partirad1-505b2bb9.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/2009-fl-skola-efter-partirad1.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/2009-fl-skola-efter-partirad1.pdf
+fetchedAt: 2026-08-22T13:38:48.139Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # 2009-fl-skola-efter-partirad1-505b2bb9.pdf

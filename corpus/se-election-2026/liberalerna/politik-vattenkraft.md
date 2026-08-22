@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Vattenkraft – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/vattenkraft"
-canonicalUrl: "https://www.liberalerna.se/politik/vattenkraft"
-fetchedAt: "2026-08-22T13:39:48.583Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Vattenkraft – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/vattenkraft
+canonicalUrl: https://www.liberalerna.se/politik/vattenkraft
+fetchedAt: 2026-08-22T13:39:48.583Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vattenkraften är kronan i energisystemet. Den är fossilfri och kan snabbt öka eller minska produktionen. Samtidigt har den orsakat stora skador i miljön som vi behöver reparera.**

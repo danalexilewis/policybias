@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "skolpolitisk-rapport1-komprimerad-ddf7902a.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/skolpolitisk-rapport1-komprimerad.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/skolpolitisk-rapport1-komprimerad.pdf"
-fetchedAt: "2026-08-22T13:39:25.371Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: skolpolitisk-rapport1-komprimerad-ddf7902a.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/skolpolitisk-rapport1-komprimerad.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/skolpolitisk-rapport1-komprimerad.pdf
+fetchedAt: 2026-08-22T13:39:25.371Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # skolpolitisk-rapport1-komprimerad-ddf7902a.pdf

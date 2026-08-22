@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Hemlöshet – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/hemloshet"
-canonicalUrl: "https://www.liberalerna.se/politik/hemloshet"
-fetchedAt: "2026-08-22T13:36:58.573Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Hemlöshet – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/hemloshet
+canonicalUrl: https://www.liberalerna.se/politik/hemloshet
+fetchedAt: 2026-08-22T13:36:58.573Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+  - housing
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Hemlöshet innebär att människor saknar ett tryggt och stabilt hem, vilket försvårar möjligheten att hantera andra problem som psykisk ohälsa, missbruk eller skuldsättning. Alla människor har rätt till ett tryggt boende, och arbetet mot hemlöshet måste därför utgå från helhetssyn och samordning mellan sociala insatser, vård och bostadspolitik.**

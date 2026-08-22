@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Djurskydd – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/djurskydd"
-canonicalUrl: "https://www.liberalerna.se/politik/djurskydd"
-fetchedAt: "2026-08-22T13:35:53.820Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Djurskydd – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/djurskydd
+canonicalUrl: https://www.liberalerna.se/politik/djurskydd
+fetchedAt: 2026-08-22T13:35:53.820Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige ska ha ett starkt djurskydd. Djurhållning innebär ett stort ansvar, och därför måste all djurhållning garantera djuren ett värdigt liv och en anständig död. Liberalerna vill skärpa kontrollen av att lagar och EU-regler följs samt driva på för högre djurskydd i hela Europa.**

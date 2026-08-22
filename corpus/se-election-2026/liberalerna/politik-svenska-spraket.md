@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Svenska språket – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/svenska-spraket"
-canonicalUrl: "https://www.liberalerna.se/politik/svenska-spraket"
-fetchedAt: "2026-08-22T13:39:08.703Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Svenska språket – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/svenska-spraket
+canonicalUrl: https://www.liberalerna.se/politik/svenska-spraket
+fetchedAt: 2026-08-22T13:39:08.703Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Kunskaper i svenska handlar om frihet och självbestämmande. Att få ett jobb, klara skolan, kunna gå till läkaren själv eller att prata med barnens lärare – att ta del av det svenska samhället.**

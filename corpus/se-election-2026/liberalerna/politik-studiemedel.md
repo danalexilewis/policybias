@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Studiemedel – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/studiemedel"
-canonicalUrl: "https://www.liberalerna.se/politik/studiemedel"
-fetchedAt: "2026-08-22T13:39:00.860Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Studiemedel – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/studiemedel
+canonicalUrl: https://www.liberalerna.se/politik/studiemedel
+fetchedAt: 2026-08-22T13:39:00.860Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Generösa studiemedel och ett högt fribelopp för den arbetar och samtidigt studerar är en viktig förutsättning för att alla ska kunna läsa vidare – studiestödssystemet behöver förändras.**

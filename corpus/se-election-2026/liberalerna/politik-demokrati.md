@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Demokrati – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/demokrati"
-canonicalUrl: "https://www.liberalerna.se/politik/demokrati"
-fetchedAt: "2026-08-22T13:35:50.241Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Demokrati – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/demokrati
+canonicalUrl: https://www.liberalerna.se/politik/demokrati
+fetchedAt: 2026-08-22T13:35:50.241Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Liberalismen föddes ur arbetet för demokrati och frihet världen över. Vi ger oss inte förrän den sista diktaturen har fallit. Skyddet för demokratin i EU och Sverige ska stärkas.**

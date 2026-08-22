@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Grundskolan – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/grundskolan"
-canonicalUrl: "https://www.liberalerna.se/politik/grundskolan"
-fetchedAt: "2026-08-22T13:36:43.087Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Grundskolan – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/grundskolan
+canonicalUrl: https://www.liberalerna.se/politik/grundskolan
+fetchedAt: 2026-08-22T13:36:43.087Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Grundskolan ska ge alla elever kunskap, framtidstro och möjligheten att forma sina egna liv. Liberalerna vill därför stärka kunskapsfokus, trygghet och studiero i skolan. Alla elever ska möta skickliga lärare och få rätt stöd i tid – oavsett bakgrund eller behov.**

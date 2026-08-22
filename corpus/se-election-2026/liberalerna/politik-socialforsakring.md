@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Socialförsäkringar – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/socialforsakring"
-canonicalUrl: "https://www.liberalerna.se/politik/socialforsakring"
-fetchedAt: "2026-08-22T13:38:58.339Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Socialförsäkringar – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/socialforsakring
+canonicalUrl: https://www.liberalerna.se/politik/socialforsakring
+fetchedAt: 2026-08-22T13:38:58.339Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla har rätt till grundläggande ekonomisk trygghet – därför ska samhället ha ett starkt skyddsnät. Socialförsäkringar finns till för dig som är funktionsnedsatt, sjuk, arbetslös, föräldraledig eller i ekonomisk utsatthet.**

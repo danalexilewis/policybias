@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Nato – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/nato"
-canonicalUrl: "https://www.liberalerna.se/politik/nato"
-fetchedAt: "2026-08-22T13:38:11.079Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Nato – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/nato
+canonicalUrl: https://www.liberalerna.se/politik/nato
+fetchedAt: 2026-08-22T13:38:11.079Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Tillsammans med andra är vi tryggare. Liberalerna har arbetat för ett svenskt Natomedlemskap långt före andra partier. Nu är Sverige en fullvärdig medlem i alliansen, och det gör Sverige starkare och säkrare.**

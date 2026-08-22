@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Barnäktenskap"
-sourceUrl: "https://www.liberalerna.se/politik/barnaktenskap"
-canonicalUrl: "https://www.liberalerna.se/politik/barnaktenskap"
-fetchedAt: "2026-08-22T13:35:30.413Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Barnäktenskap
+sourceUrl: https://www.liberalerna.se/politik/barnaktenskap
+canonicalUrl: https://www.liberalerna.se/politik/barnaktenskap
+fetchedAt: 2026-08-22T13:35:30.413Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Barnäktenskap kan aldrig accepteras. Barn har rätt till sin frihet och svensk lag ska aldrig erkänna minderåriga som gifta, oavsett var äktenskapet instiftats.**

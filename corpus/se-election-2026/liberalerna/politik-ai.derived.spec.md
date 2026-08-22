@@ -1,21 +1,24 @@
 ---
 type: spec
 id: liberalerna-politik-ai-derived
-title: "AI och teknikutveckling (reading)"
+title: AI och teknikutveckling (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of AI och teknikutveckling"
+summary: Our reading of AI och teknikutveckling
 jurisdiction: SE
 sources:
-  - title: "AI och teknikutveckling"
+  - title: AI och teknikutveckling
     url: https://www.liberalerna.se/politik/ai
-tags: [energy-power]
+tags:
+  - infrastructure
+  - defence
+  - economy
 party: liberalerna
 clusters:
-  - energy-power
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-ai.md
-sourceDigest: "sha256-81e7557e8868ee3a"
+sourceDigest: sha256-81e7557e8868ee3a
 derivesFrom: liberalerna-politik-ai
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

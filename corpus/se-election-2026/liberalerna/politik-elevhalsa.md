@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Elevhälsa – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/elevhalsa"
-canonicalUrl: "https://www.liberalerna.se/politik/elevhalsa"
-fetchedAt: "2026-08-22T13:35:59.989Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Elevhälsa – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/elevhalsa
+canonicalUrl: https://www.liberalerna.se/politik/elevhalsa
+fetchedAt: 2026-08-22T13:35:59.989Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Det spelar ingen roll hur bra lektionen är för en elev som mår dåligt. Elevhälsan måste förbättras. Fler elever ska få hjälp så att de också kan nå kunskapsmålen.**

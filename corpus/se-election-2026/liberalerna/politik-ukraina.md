@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Ukraina – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/ukraina"
-canonicalUrl: "https://www.liberalerna.se/politik/ukraina"
-fetchedAt: "2026-08-22T13:39:40.843Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Ukraina – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/ukraina
+canonicalUrl: https://www.liberalerna.se/politik/ukraina
+fetchedAt: 2026-08-22T13:39:40.843Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Den ryska invasionen av Ukraina är ett vedervärdigt övergrepp mot ett Ukraina vars enda önskan är att vara en fri och demokratisk stat i Europa. Liberalerna kommer alltid stå upp för ett fritt Europa och mot den ryska regimens maktambitioner. Ukraina behöver nu vårt stöd, i handling. Vi står med Ukraina.**

@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Rasism – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/rasism"
-canonicalUrl: "https://www.liberalerna.se/politik/rasism"
-fetchedAt: "2026-08-22T13:38:34.428Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Rasism – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/rasism
+canonicalUrl: https://www.liberalerna.se/politik/rasism
+fetchedAt: 2026-08-22T13:38:34.428Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Rasism och intolerans hör inte hemma i ett demokratiskt samhälle. Varje människa är unik och ingen ska klumpas ihop utifrån sitt ursprung.**

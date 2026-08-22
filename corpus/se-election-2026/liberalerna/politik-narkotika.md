@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Narkotika – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/narkotika"
-canonicalUrl: "https://www.liberalerna.se/politik/narkotika"
-fetchedAt: "2026-08-22T13:38:08.785Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Narkotika – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/narkotika
+canonicalUrl: https://www.liberalerna.se/politik/narkotika
+fetchedAt: 2026-08-22T13:38:08.785Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Narkotikaberoende är en sjukdom. Därför måste missbruksvården förbättras, och hanteringen av narkotika ska bekämpas i alla led.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Trygghet och studiero – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/trygghet-och-studiero"
-canonicalUrl: "https://www.liberalerna.se/politik/trygghet-och-studiero"
-fetchedAt: "2026-08-22T13:39:25.114Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Trygghet och studiero – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/trygghet-och-studiero
+canonicalUrl: https://www.liberalerna.se/politik/trygghet-och-studiero
+fetchedAt: 2026-08-22T13:39:25.114Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Skolan ska vara en trygg plats där elever kan fokusera på lärande och där lärare har mandat att leda undervisningen. I dag brister studieron i många klassrum, och det påverkar både kunskapsresultat och elevernas trygghet. Liberalerna vill därför stärka ordning, trygghet och arbetsro i hela skolan.**

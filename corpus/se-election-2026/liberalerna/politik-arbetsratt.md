@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Arbetsrätt – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/arbetsratt"
-canonicalUrl: "https://www.liberalerna.se/politik/arbetsratt"
-fetchedAt: "2026-08-22T13:35:19.165Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: liberalerna
+title: Arbetsrätt – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/arbetsratt
+canonicalUrl: https://www.liberalerna.se/politik/arbetsratt
+fetchedAt: 2026-08-22T13:35:19.165Z
+contentType: html
+via: party-site
 tags:
-  - "climate-environment"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - employment
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **En modern arbetsrätt ska kombinera trygghet med flexibilitet. Liberalerna vill skapa regler som skyddar arbetstagare samtidigt som fler företag vågar anställa och skapa nya jobb.**

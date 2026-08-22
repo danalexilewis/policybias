@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Ålderism – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/alderism"
-canonicalUrl: "https://www.liberalerna.se/politik/alderism"
-fetchedAt: "2026-08-22T13:39:55.960Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Ålderism – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/alderism
+canonicalUrl: https://www.liberalerna.se/politik/alderism
+fetchedAt: 2026-08-22T13:39:55.960Z
+contentType: html
+via: party-site
+tags:
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige slösar bort erfarenhet. Ålderism gör att äldre kompetenta personer blir bortsorterade trots arbetskraftsbrist. Det måste vi ändra på. Äldre som vill fortsätta arbeta ska få göra det.**

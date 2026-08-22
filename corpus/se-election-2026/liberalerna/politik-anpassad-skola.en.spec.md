@@ -4,21 +4,21 @@ id: liberalerna-politik-anpassad-skola
 title: Adapted school
 status: draft
 updated: 2026-08-22
-summary: Pupils with intellectual disabilities must receive teaching that is
-  based on their own conditions. That is why the Liberals want to develop the
-  adapted school - not dismantle it.
+summary: Pupils with intellectual disabilities must receive teaching that is based on
+  their own conditions. That is why the Liberals want to develop the adapted school -
+  not dismantle it.
 jurisdiction: SE
 sources:
   - title: Anpassad skola
     url: https://www.liberalerna.se/politik/anpassad-skola
 tags:
-  - defence-security
+  - education
 party: liberalerna
 clusters:
-  - defence-security
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-anpassad-skola.md
-sourceDigest: "sha256-ad3c944ec25c2335"
+sourceDigest: sha256-ad3c944ec25c2335
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -26,7 +26,7 @@ lang: en
 translationOf: liberalerna-anpassad-skola
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-4cfbfd69130e7e41"
+sourceSpecDigest: sha256-4cfbfd69130e7e41
 ---
 
 # What the page states

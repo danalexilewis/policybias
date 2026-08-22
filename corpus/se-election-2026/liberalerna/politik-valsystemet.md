@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Valsystemet – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/valsystemet"
-canonicalUrl: "https://www.liberalerna.se/politik/valsystemet"
-fetchedAt: "2026-08-22T13:39:42.559Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Valsystemet – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/valsystemet
+canonicalUrl: https://www.liberalerna.se/politik/valsystemet
+fetchedAt: 2026-08-22T13:39:42.559Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Det är ett problem att många politiker förblir okända för väljarna. Vi vill stärka banden mellan väljare och valda genom mer personval, och skilda valdagar för lokalvalen.**

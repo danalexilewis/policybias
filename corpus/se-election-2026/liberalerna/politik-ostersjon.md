@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Östersjön – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/ostersjon"
-canonicalUrl: "https://www.liberalerna.se/politik/ostersjon"
-fetchedAt: "2026-08-22T13:40:01.949Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Östersjön – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/ostersjon
+canonicalUrl: https://www.liberalerna.se/politik/ostersjon
+fetchedAt: 2026-08-22T13:40:01.949Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - climate
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Östersjön är ett av världens mest känsliga hav. Samtidigt är vi människor beroende av friska hav för mat, biologisk mångfald och levande kustsamhällen. Det visar att arbetet för Östersjön inte bara är en miljöfråga, utan också en frihets- och framtidsfråga.**

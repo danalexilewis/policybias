@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Gängkriminalitet – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/gangkriminalitet"
-canonicalUrl: "https://www.liberalerna.se/politik/gangkriminalitet"
-fetchedAt: "2026-08-22T13:36:49.356Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Gängkriminalitet – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/gangkriminalitet
+canonicalUrl: https://www.liberalerna.se/politik/gangkriminalitet
+fetchedAt: 2026-08-22T13:36:49.356Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Gängkriminaliteten hotar människors trygghet och tilliten i samhället. Samtidigt dras allt yngre barn in i kriminalitet och våld. Det visar att kampen mot gängen inte bara handlar om hårdare straff, utan också om att skydda barn och ge fler unga en väg bort från kriminalitet.**

@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Flyg – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/flyg"
-canonicalUrl: "https://www.liberalerna.se/politik/flyg"
-fetchedAt: "2026-08-22T13:36:26.611Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Flyg – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/flyg
+canonicalUrl: https://www.liberalerna.se/politik/flyg
+fetchedAt: 2026-08-22T13:36:26.611Z
+contentType: html
+via: party-site
+tags:
+  - transport
+  - climate
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Flyget är viktigt för individens rörlighet och företagandet, särskilt i ett avlångt land som Sverige. Bromma flygplats bör behållas och Arlanda utvecklas, vilket gynnar hela landet.**

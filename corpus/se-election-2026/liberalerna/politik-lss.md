@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Personlig assistans"
-sourceUrl: "https://www.liberalerna.se/politik/lss"
-canonicalUrl: "https://www.liberalerna.se/politik/personlig-assistans"
-fetchedAt: "2026-08-22T13:37:56.835Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Personlig assistans
+sourceUrl: https://www.liberalerna.se/politik/lss
+canonicalUrl: https://www.liberalerna.se/politik/personlig-assistans
+fetchedAt: 2026-08-22T13:37:56.835Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Personlig assistans och LSS handlar om frihet, självbestämmande och människovärde. Samtidigt har stödet urholkats under lång tid och många människor får inte det stöd de behöver för att leva självständigt. Därför vill Liberalerna stärka rättigheterna inom LSS, öka rättssäkerheten och skapa ett system som utgår från individens behov i stället för byråkratins begränsningar.**

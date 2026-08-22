@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Infrastruktur och trafik – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/infrastruktur"
-canonicalUrl: "https://www.liberalerna.se/politik/infrastruktur"
-fetchedAt: "2026-08-22T13:37:10.179Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Infrastruktur och trafik – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/infrastruktur
+canonicalUrl: https://www.liberalerna.se/politik/infrastruktur
+fetchedAt: 2026-08-22T13:37:10.179Z
+contentType: html
+via: party-site
+tags:
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Rusta och bygg ut vägar och järnvägar för ökad trafiksäkerhet och för att möjliggöra längre, tyngre, tåg och lastbilar. Det ger färre transporter och goda miljöeffekter.**

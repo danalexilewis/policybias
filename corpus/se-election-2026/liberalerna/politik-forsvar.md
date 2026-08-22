@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Försvar – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/forsvar"
-canonicalUrl: "https://www.liberalerna.se/politik/forsvar"
-fetchedAt: "2026-08-22T13:36:32.338Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Försvar – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/forsvar
+canonicalUrl: https://www.liberalerna.se/politik/forsvar
+fetchedAt: 2026-08-22T13:36:32.338Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Rysslands brutala anfallskrig mot Ukraina har kastat in Europa i den värsta säkerhetspolitiska krisen sedan andra världskriget. Samtidigt befinner sig Sveriges försvar i en historisk omställning.**

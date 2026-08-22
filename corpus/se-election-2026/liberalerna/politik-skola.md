@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Skola – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/skola"
-canonicalUrl: "https://www.liberalerna.se/politik/skola"
-fetchedAt: "2026-08-22T13:38:46.469Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Skola – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/skola
+canonicalUrl: https://www.liberalerna.se/politik/skola
+fetchedAt: 2026-08-22T13:38:46.469Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Skolan är Sveriges viktigaste frihetsfråga. Därför är skolan Liberalernas viktigaste fråga. Vi tror på kunskap, höga förväntningar och ordning i klassrummet. När svensk skola fungerar som bäst kan den förändra liv och öppna dörrar för varje barn, oavsett bakgrund eller postkod.**

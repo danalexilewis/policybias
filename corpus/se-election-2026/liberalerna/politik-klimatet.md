@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Klimatet behöver en effektiv politik. Liberalerna är alliansens grönaste röst!"
-sourceUrl: "https://www.liberalerna.se/politik/klimatet"
-canonicalUrl: "https://www.liberalerna.se/politik/klimatet"
-fetchedAt: "2026-08-22T13:37:32.717Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Klimatet behöver en effektiv politik. Liberalerna är alliansens grönaste röst!
+sourceUrl: https://www.liberalerna.se/politik/klimatet
+canonicalUrl: https://www.liberalerna.se/politik/klimatet
+fetchedAt: 2026-08-22T13:37:32.717Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige ska nå klimatmålen. Utsläppen ska bort. De fossila bränslena ska bort. Klimatomställningen kan bara lyckas när den genomförs av fria människor i en växande ekonomi.**

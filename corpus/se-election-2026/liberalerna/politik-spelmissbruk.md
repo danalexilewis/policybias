@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Spelmissbruk – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/spelmissbruk"
-canonicalUrl: "https://www.liberalerna.se/politik/spelmissbruk"
-fetchedAt: "2026-08-22T13:39:12.634Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Spelmissbruk – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/spelmissbruk
+canonicalUrl: https://www.liberalerna.se/politik/spelmissbruk
+fetchedAt: 2026-08-22T13:39:12.634Z
+contentType: html
+via: party-site
+tags:
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Liberalerna anser att spelmarknaden behöver vara reglerad i syfte att motverka missbruk och spelberoende. Eftersom spelmarknaden med nätcasinon är internationell behövs också fler initiativ på EU-nivå.**

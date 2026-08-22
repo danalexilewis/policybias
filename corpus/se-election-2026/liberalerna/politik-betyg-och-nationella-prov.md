@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Betyg och nationella prov – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/betyg-och-nationella-prov"
-canonicalUrl: "https://www.liberalerna.se/politik/betyg-och-nationella-prov"
-fetchedAt: "2026-08-22T13:35:36.308Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Betyg och nationella prov – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/betyg-och-nationella-prov
+canonicalUrl: https://www.liberalerna.se/politik/betyg-och-nationella-prov
+fetchedAt: 2026-08-22T13:35:36.308Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Kunskap är avgörande för att fler elever ska kunna forma sin egen framtid. Därför vill Liberalerna ha tydliga kunskapskrav, betyg och nationella prov tidigt i skolan. Genom att följa elevernas kunskapsutveckling kan stöd sättas in i tid och fler få möjlighet att nå sin fulla potential.**

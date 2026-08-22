@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Hästpolitik – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/hastpolitik"
-canonicalUrl: "https://www.liberalerna.se/politik/hastpolitik"
-fetchedAt: "2026-08-22T13:37:07.243Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Hästpolitik – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/hastpolitik
+canonicalUrl: https://www.liberalerna.se/politik/hastpolitik
+fetchedAt: 2026-08-22T13:37:07.243Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Hästsporten glöms ofta bort då den av en del partier ses som ett nöje för välbärgade. Vi måste ta hästsporten på allvar.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Statliga företag – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/statliga-foretag"
-canonicalUrl: "https://www.liberalerna.se/politik/statliga-foretag"
-fetchedAt: "2026-08-22T13:39:03.444Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Statliga företag – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/statliga-foretag
+canonicalUrl: https://www.liberalerna.se/politik/statliga-foretag
+fetchedAt: 2026-08-22T13:39:03.444Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Staten ska bara äga företag i undantagsfall. Det statliga ägandet ska minskas och i vissa fall helt avvecklas. Endast statliga bolag med ett särskilt samhällsuppdrag bibehålls.**

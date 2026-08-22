@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Utlandssvenskar – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/utlandssvenskar"
-canonicalUrl: "https://www.liberalerna.se/politik/utlandssvenskar"
-fetchedAt: "2026-08-22T13:39:38.978Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Utlandssvenskar – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/utlandssvenskar
+canonicalUrl: https://www.liberalerna.se/politik/utlandssvenskar
+fetchedAt: 2026-08-22T13:39:38.978Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Du valde friheten att leva utanför Sverige. Det är just den friheten vi kämpar för: friheten att forma sitt eget liv, att söka sig dit möjligheterna finns, att studera, arbeta, älska, bygga företag, bilda familj och knyta Sverige närmare världen. Sverige är som bäst när vi är öppna mot omvärlden. När idéer, handel och kunskap får röra sig över gränser.**

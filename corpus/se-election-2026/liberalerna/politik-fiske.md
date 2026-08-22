@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Fiske – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/fiske"
-canonicalUrl: "https://www.liberalerna.se/politik/fiske"
-fetchedAt: "2026-08-22T13:36:15.628Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Fiske – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/fiske
+canonicalUrl: https://www.liberalerna.se/politik/fiske
+fetchedAt: 2026-08-22T13:36:15.628Z
+contentType: html
+via: party-site
+tags:
+  - eu
+  - agriculture
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Fiske ska vara långsiktigt hållbart och bygga på vetenskapliga bedömningar. När kortsiktiga intressen tillåts styra och för mycket fisk tas upp förlorar både miljön och näringen. Liberalerna vill därför säkra livskraftiga fiskbestånd, stärka skyddet för Östersjön och skapa långsiktiga villkor för ett hållbart och konkurrenskraftigt fiske.**

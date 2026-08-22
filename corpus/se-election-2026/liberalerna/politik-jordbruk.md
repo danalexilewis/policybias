@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Jordbruk – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/jordbruk"
-canonicalUrl: "https://www.liberalerna.se/politik/jordbruk"
-fetchedAt: "2026-08-22T13:37:31.456Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Jordbruk – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/jordbruk
+canonicalUrl: https://www.liberalerna.se/politik/jordbruk
+fetchedAt: 2026-08-22T13:37:31.456Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - agriculture
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Jordbruket ger oss vår mat och är samtidigt viktigt i miljö- och klimatarbetet. Det finns en stor potential att utveckla jordbruket genom växtförädling och smartare stöd.**

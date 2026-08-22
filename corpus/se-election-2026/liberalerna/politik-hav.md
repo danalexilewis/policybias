@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Havsmiljö – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/hav"
-canonicalUrl: "https://www.liberalerna.se/politik/hav"
-fetchedAt: "2026-08-22T13:36:51.682Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Havsmiljö – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/hav
+canonicalUrl: https://www.liberalerna.se/politik/hav
+fetchedAt: 2026-08-22T13:36:51.682Z
+contentType: html
+via: party-site
+tags:
+  - climate
+  - agriculture
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Haven är vårt ansvar och vi ska ta hand om dem. Stora områden ska skyddas. Fisket ska bedrivas långsiktig hållbart baserat på vetenskapliga bedömningar.**

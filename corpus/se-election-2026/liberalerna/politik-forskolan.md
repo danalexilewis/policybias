@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Förskolan – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/forskolan"
-canonicalUrl: "https://www.liberalerna.se/politik/forskolan"
-fetchedAt: "2026-08-22T13:36:29.749Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Förskolan – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/forskolan
+canonicalUrl: https://www.liberalerna.se/politik/forskolan
+fetchedAt: 2026-08-22T13:36:29.749Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Förskolan ska vara en trygg plats för lek och lärande med det svenska språket i fokus. Liberalerna vill att förskolan ska erbjuda fler barn en pedagogisk och trygg miljö.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Euron – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/euron"
-canonicalUrl: "https://www.liberalerna.se/politik/euron"
-fetchedAt: "2026-08-22T13:36:04.614Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Euron – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/euron
+canonicalUrl: https://www.liberalerna.se/politik/euron
+fetchedAt: 2026-08-22T13:36:04.614Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **I en oförutsägbar omvärld finns inte längre något utrymme för tvekan. Europas säkerhet, framtid och sammanhållning avgörs gemensamt – och då måste vi hålla ihop. Det handlar om ekonomi, men framför allt om trygghet, lojalitet och vilken gemenskap vi vill tillhöra. Därför är det självklart för Liberalerna att vi vill ha ett komplett EU-medlemskap – och införa euron i Sverige.**

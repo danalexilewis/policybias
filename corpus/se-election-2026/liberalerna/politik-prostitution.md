@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Prostitution – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/prostitution"
-canonicalUrl: "https://www.liberalerna.se/politik/prostitution"
-fetchedAt: "2026-08-22T13:38:18.513Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Prostitution – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/prostitution
+canonicalUrl: https://www.liberalerna.se/politik/prostitution
+fetchedAt: 2026-08-22T13:38:18.513Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **En människas kropp kan inte köpas. Det internationella arbetet mot sexhandel måste öka, och prostituerade måste få mer skydd och stöd.**

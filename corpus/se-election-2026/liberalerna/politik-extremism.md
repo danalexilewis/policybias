@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Extremism – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/extremism"
-canonicalUrl: "https://www.liberalerna.se/politik/extremism"
-fetchedAt: "2026-08-22T13:36:06.211Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Extremism – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/extremism
+canonicalUrl: https://www.liberalerna.se/politik/extremism
+fetchedAt: 2026-08-22T13:36:06.211Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Extremism hotar både människors trygghet och det öppna samhället. Samtidigt behöver demokratin stå stark även när antidemokratiska krafter försöker splittra människor och sprida hat. Därför vill Liberalerna försvara friheten, stärka rättsstaten och bekämpa extremism inom demokratins och grundlagens ramar.**

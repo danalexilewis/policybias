@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Integritet – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/integritet"
-canonicalUrl: "https://www.liberalerna.se/politik/integritet"
-fetchedAt: "2026-08-22T13:37:16.418Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Integritet – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/integritet
+canonicalUrl: https://www.liberalerna.se/politik/integritet
+fetchedAt: 2026-08-22T13:37:16.418Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Din rätt till integritet och privatliv ska vara stark – gentemot både staten och privata företag. Därför måste integritetsfrågorna alltid finnas med när nya lagar tas fram.**

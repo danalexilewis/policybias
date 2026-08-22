@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Hedersrelaterat våld och förtryck – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/hedersrelaterat-vald-och-fortryck"
-canonicalUrl: "https://www.liberalerna.se/politik/hedersrelaterat-vald-och-fortryck"
-fetchedAt: "2026-08-22T13:36:54.819Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Hedersrelaterat våld och förtryck – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/hedersrelaterat-vald-och-fortryck
+canonicalUrl: https://www.liberalerna.se/politik/hedersrelaterat-vald-och-fortryck
+fetchedAt: 2026-08-22T13:36:54.819Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Hederskulturens normer och värderingar tar ifrån flickor och pojkar deras grundläggande rättigheter. Det handlar om rätten att äga sitt liv och bestämma över sin kropp. Vi liberaler tänker aldrig ge upp kampen för varje människas frihet.**

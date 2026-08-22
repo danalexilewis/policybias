@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "forortslyftet-fler-i-egen-forsorjning-11-a6fd5021.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/forortslyftet-fler-i-egen-forsorjning-11.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/forortslyftet-fler-i-egen-forsorjning-11.pdf"
-fetchedAt: "2026-08-22T13:39:09.144Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: forortslyftet-fler-i-egen-forsorjning-11-a6fd5021.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/forortslyftet-fler-i-egen-forsorjning-11.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/forortslyftet-fler-i-egen-forsorjning-11.pdf
+fetchedAt: 2026-08-22T13:39:09.144Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # forortslyftet-fler-i-egen-forsorjning-11-a6fd5021.pdf

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Kriminalvård – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/kriminalvard"
-canonicalUrl: "https://www.liberalerna.se/politik/kriminalvard"
-fetchedAt: "2026-08-22T13:37:37.967Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Kriminalvård – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/kriminalvard
+canonicalUrl: https://www.liberalerna.se/politik/kriminalvard
+fetchedAt: 2026-08-22T13:37:37.967Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Kriminalvården har dubbla uppdrag. Den som dömts för brott ska avtjäna sitt straff, men också få bättre möjligheter att lämna kriminaliteten bakom sig. Liberalerna vill därför stärka både tryggheten och rehabiliteringen inom kriminalvården för att förebygga framtida brott och minska återfallen i kriminalitet.**

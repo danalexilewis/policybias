@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "starkframtidensaldreomsorg1-391f22aa.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/starkframtidensaldreomsorg1.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/starkframtidensaldreomsorg1.pdf"
-fetchedAt: "2026-08-22T13:39:58.784Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: starkframtidensaldreomsorg1-391f22aa.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/starkframtidensaldreomsorg1.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/starkframtidensaldreomsorg1.pdf
+fetchedAt: 2026-08-22T13:39:58.784Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+  - elderly-care
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # starkframtidensaldreomsorg1-391f22aa.pdf

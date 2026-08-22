@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Sjöfart – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/sjofart"
-canonicalUrl: "https://www.liberalerna.se/politik/sjofart"
-fetchedAt: "2026-08-22T13:38:51.605Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Sjöfart – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/sjofart
+canonicalUrl: https://www.liberalerna.se/politik/sjofart
+fetchedAt: 2026-08-22T13:38:51.605Z
+contentType: html
+via: party-site
+tags:
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sjöfarten har stor betydelse för det svenska transportsystemet och det behövs en konkurrenskraftig handelsflotta. Våra inre och kustnära vattenvägar är viktiga för att öka andelen hållbara transporter.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Idrott – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/idrott"
-canonicalUrl: "https://www.liberalerna.se/politik/idrott"
-fetchedAt: "2026-08-22T13:37:08.438Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Idrott – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/idrott
+canonicalUrl: https://www.liberalerna.se/politik/idrott
+fetchedAt: 2026-08-22T13:37:08.438Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla ska kunna motionera och idrotta. Det ska gälla oavsett var du kommer ifrån eller hur mycket pengar du har. Därför behöver den ideella idrottsrörelsen stabil statsfinansiering.**

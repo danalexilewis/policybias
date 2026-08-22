@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Utrikespolitik – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/utrikespolitik"
-canonicalUrl: "https://www.liberalerna.se/politik/utrikespolitik"
-fetchedAt: "2026-08-22T13:39:30.614Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Utrikespolitik – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/utrikespolitik
+canonicalUrl: https://www.liberalerna.se/politik/utrikespolitik
+fetchedAt: 2026-08-22T13:39:30.614Z
+contentType: html
+via: party-site
+tags:
+  - foreign-policy
+  - gender-equality
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Liberalernas frihetskamp börjar i Sverige – men sträcker sig över hela världen. Målet med vår utrikespolitik är en friare värld för alla.**

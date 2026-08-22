@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Livsmedel – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/livsmedel"
-canonicalUrl: "https://www.liberalerna.se/politik/livsmedel"
-fetchedAt: "2026-08-22T13:37:49.410Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Livsmedel – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/livsmedel
+canonicalUrl: https://www.liberalerna.se/politik/livsmedel
+fetchedAt: 2026-08-22T13:37:49.410Z
+contentType: html
+via: party-site
+tags:
+  - environment
+  - agriculture
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Livsmedelsmärkningar och kontroller ska vara att lita på. Maten vi äter ska vara säker och hållbar. Men politiker ska inte pilla i maten i onödan, du vet bäst vad du vill äta.**

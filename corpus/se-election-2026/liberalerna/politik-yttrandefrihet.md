@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Yttrandefrihet – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/yttrandefrihet"
-canonicalUrl: "https://www.liberalerna.se/politik/yttrandefrihet"
-fetchedAt: "2026-08-22T13:39:53.573Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Yttrandefrihet – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/yttrandefrihet
+canonicalUrl: https://www.liberalerna.se/politik/yttrandefrihet
+fetchedAt: 2026-08-22T13:39:53.573Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Yttrandefrihet är lika viktigt som luften vi andas. Men i dag är den på tillbakagång i många länder. Liberalerna vill att mer bistånd ska gå till yttrande- och pressfrihet.**

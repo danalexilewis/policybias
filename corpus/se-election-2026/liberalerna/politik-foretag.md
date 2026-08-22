@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Företag – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/foretag"
-canonicalUrl: "https://www.liberalerna.se/politik/foretag"
-fetchedAt: "2026-08-22T13:36:24.139Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Företag – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/foretag
+canonicalUrl: https://www.liberalerna.se/politik/foretag
+fetchedAt: 2026-08-22T13:36:24.139Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Företagande skapar jobb, tillväxt och nya möjligheter för människor att forma sina egna liv. Samtidigt möter många företagare höga kostnader, krångliga regler och tung byråkrati som bromsar utveckling och investeringar. Därför vill Liberalerna göra det enklare och billigare att starta, driva och utveckla företag i Sverige.**

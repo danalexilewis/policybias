@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Äldreomsorg – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/aldreomsorg"
-canonicalUrl: "https://www.liberalerna.se/politik/aldreomsorg"
-fetchedAt: "2026-08-22T13:40:00.730Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Äldreomsorg – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/aldreomsorg
+canonicalUrl: https://www.liberalerna.se/politik/aldreomsorg
+fetchedAt: 2026-08-22T13:40:00.730Z
+contentType: html
+via: party-site
+tags:
+  - elderly-care
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Att bli äldre får aldrig innebära att man förlorar sin frihet. Liberalerna vill se en äldreomsorg präglad av valfrihet, respekt och människovärde. Varje äldre person ska få leva ett liv i gemenskap, med möjlighet att fatta beslut om sin egen vardag.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Högre utbildning – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/hogre-utbildning"
-canonicalUrl: "https://www.liberalerna.se/politik/hogre-utbildning"
-fetchedAt: "2026-08-22T13:37:04.630Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Högre utbildning – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/hogre-utbildning
+canonicalUrl: https://www.liberalerna.se/politik/hogre-utbildning
+fetchedAt: 2026-08-22T13:37:04.630Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige ska vara en framstående kunskapsnation, där högre utbildning, forskning och innovation bedrivs med hög kvalitet. Det bidrar till samhällsutveckling och konkurrenskraft.**

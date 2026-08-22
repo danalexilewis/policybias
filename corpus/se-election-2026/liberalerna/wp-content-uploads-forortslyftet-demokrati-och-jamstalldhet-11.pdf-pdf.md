@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "forortslyftet-demokrati-och-jamstalldhet-11-874f51d5.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/forortslyftet-demokrati-och-jamstalldhet-11.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/forortslyftet-demokrati-och-jamstalldhet-11.pdf"
-fetchedAt: "2026-08-22T13:37:29.450Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: forortslyftet-demokrati-och-jamstalldhet-11-874f51d5.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/forortslyftet-demokrati-och-jamstalldhet-11.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/forortslyftet-demokrati-och-jamstalldhet-11.pdf
+fetchedAt: 2026-08-22T13:37:29.450Z
+contentType: pdf
+via: party-site
+tags:
+  - immigration
+  - culture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # forortslyftet-demokrati-och-jamstalldhet-11-874f51d5.pdf

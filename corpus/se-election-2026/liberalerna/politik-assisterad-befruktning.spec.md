@@ -1,21 +1,24 @@
 ---
 type: spec
 id: liberalerna-politik-assisterad-befruktning
-title: "Assisterad befruktning"
+title: Assisterad befruktning
 status: draft
 updated: 2026-08-22
-summary: "Fler kvinnor ska vilja och våga skaffa barn. Samtidigt är politikens uppgift inte att pressa fram födslar, utan att ge fler kvinnor trygga förutsättningar att kunna välja om, när och hur de vill bli föräldrar."
+summary: Fler kvinnor ska vilja och våga skaffa barn. Samtidigt är politikens uppgift
+  inte att pressa fram födslar, utan att ge fler kvinnor trygga förutsättningar att
+  kunna välja om, när och hur de vill bli föräldrar.
 jurisdiction: SE
 sources:
-  - title: "Assisterad befruktning"
+  - title: Assisterad befruktning
     url: https://www.liberalerna.se/politik/assisterad-befruktning
-tags: [economy-tax]
+tags:
+  - healthcare
 party: liberalerna
 clusters:
-  - economy-tax
+  - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-assisterad-befruktning.md
-sourceDigest: "sha256-b8480c7a218599d8"
+sourceDigest: sha256-b8480c7a218599d8
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

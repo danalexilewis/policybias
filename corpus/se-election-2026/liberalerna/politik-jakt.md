@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Jakt – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/jakt"
-canonicalUrl: "https://www.liberalerna.se/politik/jakt"
-fetchedAt: "2026-08-22T13:37:20.509Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Jakt – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/jakt
+canonicalUrl: https://www.liberalerna.se/politik/jakt
+fetchedAt: 2026-08-22T13:37:20.509Z
+contentType: html
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Jakten är en viktig del av förvaltningen av starka viltstammar. Den ger människor en möjlighet att komma nära naturen samtidigt som de gör en viktig insats för naturvården.**

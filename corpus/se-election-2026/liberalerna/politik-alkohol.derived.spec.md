@@ -1,21 +1,22 @@
 ---
 type: spec
 id: liberalerna-politik-alkohol-derived
-title: "Alkohol (reading)"
+title: Alkohol (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Alkohol"
+summary: Our reading of Alkohol
 jurisdiction: SE
 sources:
-  - title: "Alkohol"
+  - title: Alkohol
     url: https://www.liberalerna.se/politik/alkohol
-tags: [schools-education]
+tags:
+  - healthcare
 party: liberalerna
 clusters:
-  - schools-education
+  - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-alkohol.md
-sourceDigest: "sha256-f45ff3879115bb03"
+sourceDigest: sha256-f45ff3879115bb03
 derivesFrom: liberalerna-politik-alkohol
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

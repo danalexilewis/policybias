@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Enkla jobb – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/enkla-jobb"
-canonicalUrl: "https://www.liberalerna.se/politik/enkla-jobb"
-fetchedAt: "2026-08-22T13:36:02.924Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Enkla jobb – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/enkla-jobb
+canonicalUrl: https://www.liberalerna.se/politik/enkla-jobb
+fetchedAt: 2026-08-22T13:36:02.924Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla som kan arbeta ska ha ett jobb. Det är grunden för vår gemensamma välfärd och individens egenmakt.**

@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Abort – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/abort"
-canonicalUrl: "https://www.liberalerna.se/politik/abort"
-fetchedAt: "2026-08-22T13:35:08.816Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: liberalerna
+title: Abort – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/abort
+canonicalUrl: https://www.liberalerna.se/politik/abort
+fetchedAt: 2026-08-22T13:35:08.816Z
+contentType: html
+via: party-site
 tags:
-  - "health-care"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - healthcare
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Det ska aldrig vara någon annan än kvinnan själv som bestämmer om hon vill göra abort. Aborträtten är en grundläggande frihetsfråga och en mänsklig rättighet. Liberalerna vill därför försvara den svenska abortlagen, stärka kvinnors självbestämmande och skydda aborträtten både i Sverige och internationellt.**

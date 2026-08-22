@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Bistånd – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/bistand"
-canonicalUrl: "https://www.liberalerna.se/politik/bistand"
-fetchedAt: "2026-08-22T13:35:28.009Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Bistånd – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/bistand
+canonicalUrl: https://www.liberalerna.se/politik/bistand
+fetchedAt: 2026-08-22T13:35:28.009Z
+contentType: html
+via: party-site
+tags:
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Liberalernas Sverige bekämpar ofriheten var den än är. Svenskt bistånd ska gå till att säkra de mänskliga fri- och rättigheterna och fria val världen över.**

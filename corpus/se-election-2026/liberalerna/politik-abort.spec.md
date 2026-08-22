@@ -1,21 +1,25 @@
 ---
 type: spec
 id: liberalerna-politik-abort
-title: "Abort"
+title: Abort
 status: draft
 updated: 2026-08-22
-summary: "Det ska aldrig vara någon annan än kvinnan själv som bestämmer om hon vill göra abort. Aborträtten är en grundläggande frihetsfråga och en mänsklig rättighet. Liberalerna vill därför försvara den svenska abortlagen, stärka kvinnors självbestämmande och skydda aborträtten både i S"
+summary: Det ska aldrig vara någon annan än kvinnan själv som bestämmer om hon vill göra
+  abort. Aborträtten är en grundläggande frihetsfråga och en mänsklig rättighet.
+  Liberalerna vill därför försvara den svenska abortlagen, stärka kvinnors
+  självbestämmande och skydda aborträtten både i S
 jurisdiction: SE
 sources:
-  - title: "Abort"
+  - title: Abort
     url: https://www.liberalerna.se/politik/abort
-tags: [health-care]
+tags:
+  - healthcare
 party: liberalerna
 clusters:
   - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-abort.md
-sourceDigest: "sha256-b7e3bcd4f30fb9c6"
+sourceDigest: sha256-b7e3bcd4f30fb9c6
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

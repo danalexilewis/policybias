@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Vindkraft – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/vindkraft"
-canonicalUrl: "https://www.liberalerna.se/politik/vindkraft"
-fetchedAt: "2026-08-22T13:39:50.214Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Vindkraft – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/vindkraft
+canonicalUrl: https://www.liberalerna.se/politik/vindkraft
+fetchedAt: 2026-08-22T13:39:50.214Z
+contentType: html
+via: party-site
+tags:
+  - energy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vindkraften växer snabbt och är nu en viktig del av vår fossilfria elmix. Den kräver stora ytor och konkurrerar med andra intressen. Mer vindkraft behövs men inte överallt.**

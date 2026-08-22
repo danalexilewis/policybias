@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Jämställda löner – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/jamstallda-loner"
-canonicalUrl: "https://www.liberalerna.se/politik/jamstallda-loner"
-fetchedAt: "2026-08-22T13:37:26.555Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Jämställda löner – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/jamstallda-loner
+canonicalUrl: https://www.liberalerna.se/politik/jamstallda-loner
+fetchedAt: 2026-08-22T13:37:26.555Z
+contentType: html
+via: party-site
+tags:
+  - employment
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vi kräver lika lön för lika arbete. Ingen ska på grund av sitt kön få mindre lönehöjningar eller färre befordringar. Lönegapet mellan män och kvinnor måste upphöra.**

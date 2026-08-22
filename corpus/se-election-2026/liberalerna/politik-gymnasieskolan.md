@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Gymnasieskolan – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/gymnasieskolan"
-canonicalUrl: "https://www.liberalerna.se/politik/gymnasieskolan"
-fetchedAt: "2026-08-22T13:36:39.351Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Gymnasieskolan – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/gymnasieskolan
+canonicalUrl: https://www.liberalerna.se/politik/gymnasieskolan
+fetchedAt: 2026-08-22T13:36:39.351Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **En gymnasieskola av hög kvalitet, oavsett om den ger högskolebehörighet eller yrkesutbildning, ger alla elever en chans att utvecklas och öppnar nya vägar i livet.**

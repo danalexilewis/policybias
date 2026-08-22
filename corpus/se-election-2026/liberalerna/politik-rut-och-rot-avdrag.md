@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "RUT- och ROT-avdrag – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/rut-och-rot-avdrag"
-canonicalUrl: "https://www.liberalerna.se/politik/rut-och-rot-avdrag"
-fetchedAt: "2026-08-22T13:38:38.601Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: RUT- och ROT-avdrag – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/rut-och-rot-avdrag
+canonicalUrl: https://www.liberalerna.se/politik/rut-och-rot-avdrag
+fetchedAt: 2026-08-22T13:38:38.601Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **RUT- och ROT-avdragen gör det enklare och billigare att få vardagen att fungera. De skapar jobb, minskar svartarbete och stärker integrationen genom att fler arbeten blir vita och trygga. Samtidigt bidrar de till ökad tillväxt och ett mer robust samhälle där fler människor kommer i arbete.**

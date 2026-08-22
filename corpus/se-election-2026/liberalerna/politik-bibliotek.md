@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Bibliotek – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/bibliotek"
-canonicalUrl: "https://www.liberalerna.se/politik/bibliotek"
-fetchedAt: "2026-08-22T13:35:34.678Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Bibliotek – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/bibliotek
+canonicalUrl: https://www.liberalerna.se/politik/bibliotek
+fetchedAt: 2026-08-22T13:35:34.678Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **På biblioteken får vi alla, på lika villkor, möjlighet till bildning och förströelse. Liberalerna anser att kunskap är makt, och biblioteken är därmed bärande i vår demokrati.**

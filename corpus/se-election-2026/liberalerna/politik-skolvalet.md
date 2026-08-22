@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Skolvalet – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/skolvalet"
-canonicalUrl: "https://www.liberalerna.se/politik/skolvalet"
-fetchedAt: "2026-08-22T13:39:16.537Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Skolvalet – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/skolvalet
+canonicalUrl: https://www.liberalerna.se/politik/skolvalet
+fetchedAt: 2026-08-22T13:39:16.537Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Det fria skolvalet ger frihet och egenmakt. Liberalerna vill att fler elever ska få möjlighet att göra ett val av skola. För att lyckas med det behövs bättre information till elever och föräldrar.**

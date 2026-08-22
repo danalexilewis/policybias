@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Assisterad befruktning – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/assisterad-befruktning"
-canonicalUrl: "https://www.liberalerna.se/politik/assisterad-befruktning"
-fetchedAt: "2026-08-22T13:35:20.803Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: liberalerna
+title: Assisterad befruktning – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/assisterad-befruktning
+canonicalUrl: https://www.liberalerna.se/politik/assisterad-befruktning
+fetchedAt: 2026-08-22T13:35:20.803Z
+contentType: html
+via: party-site
 tags:
-  - "economy-tax"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - healthcare
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Fler kvinnor ska vilja och våga skaffa barn. Samtidigt är politikens uppgift inte att pressa fram födslar, utan att ge fler kvinnor trygga förutsättningar att kunna välja om, när och hur de vill bli föräldrar.**

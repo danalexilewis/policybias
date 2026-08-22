@@ -1,21 +1,23 @@
 ---
 type: spec
 id: liberalerna-politik-arbetskraftsinvandring-derived
-title: "Arbetskraftsinvandring (reading)"
+title: Arbetskraftsinvandring (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Arbetskraftsinvandring"
+summary: Our reading of Arbetskraftsinvandring
 jurisdiction: SE
 sources:
-  - title: "Arbetskraftsinvandring"
+  - title: Arbetskraftsinvandring
     url: https://www.liberalerna.se/politik/arbetskraftsinvandring
-tags: [migration-integration]
+tags:
+  - employment
+  - economy
 party: liberalerna
 clusters:
-  - migration-integration
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-arbetskraftsinvandring.md
-sourceDigest: "sha256-0ff89a24b04eb96e"
+sourceDigest: sha256-0ff89a24b04eb96e
 derivesFrom: liberalerna-politik-arbetskraftsinvandring
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

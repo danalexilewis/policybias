@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Biobränslen – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/biobranslen"
-canonicalUrl: "https://www.liberalerna.se/politik/biobranslen"
-fetchedAt: "2026-08-22T13:35:41.492Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Biobränslen – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/biobranslen
+canonicalUrl: https://www.liberalerna.se/politik/biobranslen
+fetchedAt: 2026-08-22T13:35:41.492Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+  - climate
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Biobränslen dominerade länge fullständigt vår energianvändning. Nu är de tillbaka och ersätter oljan. För att de ska räcka måste vi börja använda dem smartare.**

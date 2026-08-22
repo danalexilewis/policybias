@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "forortslyftet-bostader-final1-1d9eb926.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/forortslyftet-bostader-final1.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/forortslyftet-bostader-final1.pdf"
-fetchedAt: "2026-08-22T13:39:36.543Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: forortslyftet-bostader-final1-1d9eb926.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/forortslyftet-bostader-final1.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/forortslyftet-bostader-final1.pdf
+fetchedAt: 2026-08-22T13:39:36.543Z
+contentType: pdf
+via: party-site
+tags:
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # forortslyftet-bostader-final1-1d9eb926.pdf

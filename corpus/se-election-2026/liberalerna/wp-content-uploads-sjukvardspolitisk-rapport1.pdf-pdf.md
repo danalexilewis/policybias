@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "sjukvardspolitisk-rapport1-23173b02.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/sjukvardspolitisk-rapport1.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/sjukvardspolitisk-rapport1.pdf"
-fetchedAt: "2026-08-22T13:39:23.248Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: sjukvardspolitisk-rapport1-23173b02.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/sjukvardspolitisk-rapport1.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/sjukvardspolitisk-rapport1.pdf
+fetchedAt: 2026-08-22T13:39:23.248Z
+contentType: pdf
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # sjukvardspolitisk-rapport1-23173b02.pdf

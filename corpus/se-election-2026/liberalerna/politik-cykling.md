@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Cykling – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/cykling"
-canonicalUrl: "https://www.liberalerna.se/politik/cykling"
-fetchedAt: "2026-08-22T13:35:47.580Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Cykling – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/cykling
+canonicalUrl: https://www.liberalerna.se/politik/cykling
+fetchedAt: 2026-08-22T13:35:47.580Z
+contentType: html
+via: party-site
+tags:
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Cykel är ett smidigt och miljövänligt sätt att resa. Vi vill bygga fler cykelvägar och anpassa trafiksystemet så att det blir trafiksäkert för cyklister, bilister och fotgängare.** 

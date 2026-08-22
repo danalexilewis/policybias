@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Polisen – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/polisen"
-canonicalUrl: "https://www.liberalerna.se/politik/polisen"
-fetchedAt: "2026-08-22T13:38:15.509Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Polisen – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/polisen
+canonicalUrl: https://www.liberalerna.se/politik/polisen
+fetchedAt: 2026-08-22T13:38:15.509Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige behöver fler poliser i hela landet. I dag är polistätheten lägre än i många andra europeiska länder, samtidigt som den grova brottsligheten har blivit mer organiserad och våldsam. Därför måste vi stärka rättsstaten, öka tryggheten och säkerställa att brott klaras upp.**

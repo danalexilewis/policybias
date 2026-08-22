@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Grundlagarna – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/grundlagen"
-canonicalUrl: "https://www.liberalerna.se/politik/grundlagen"
-fetchedAt: "2026-08-22T13:36:37.929Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Grundlagarna – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/grundlagen
+canonicalUrl: https://www.liberalerna.se/politik/grundlagen
+fetchedAt: 2026-08-22T13:36:37.929Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Grundlagarna är det viktigaste skyddet för allas fri- och rättigheter. Vi vill ha en författningsdomstol som ser till att inga beslut i riksdag eller regering strider mot grundlagen.**

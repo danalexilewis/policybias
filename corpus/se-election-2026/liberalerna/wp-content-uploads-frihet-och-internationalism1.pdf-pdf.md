@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "frihet-och-internationalism1-ac1f503e.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/frihet-och-internationalism1.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/frihet-och-internationalism1.pdf"
-fetchedAt: "2026-08-22T13:39:30.848Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: frihet-och-internationalism1-ac1f503e.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/frihet-och-internationalism1.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/frihet-och-internationalism1.pdf
+fetchedAt: 2026-08-22T13:39:30.848Z
+contentType: pdf
+via: party-site
+tags:
+  - defence
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # frihet-och-internationalism1-ac1f503e.pdf

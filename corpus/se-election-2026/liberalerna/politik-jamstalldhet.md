@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Jämställdhet och feminism – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/jamstalldhet"
-canonicalUrl: "https://www.liberalerna.se/politik/jamstalldhet"
-fetchedAt: "2026-08-22T13:37:28.914Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Jämställdhet och feminism – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/jamstalldhet
+canonicalUrl: https://www.liberalerna.se/politik/jamstalldhet
+fetchedAt: 2026-08-22T13:37:28.914Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - education
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Liberal feminism utgår från individen. Det är du som ska bestämma över ditt liv, fri från könsorättvisor och förlegade normer. Vi menar att varenda människa ska ha möjlighet att styra sitt eget liv.**

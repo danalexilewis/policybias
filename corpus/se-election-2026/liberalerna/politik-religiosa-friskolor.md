@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Religiösa friskolor – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/religiosa-friskolor"
-canonicalUrl: "https://www.liberalerna.se/politik/religiosa-friskolor"
-fetchedAt: "2026-08-22T13:38:36.835Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Religiösa friskolor – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/religiosa-friskolor
+canonicalUrl: https://www.liberalerna.se/politik/religiosa-friskolor
+fetchedAt: 2026-08-22T13:38:36.835Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - gender-equality
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla skolor ska sätta kunskap i första rummet. Skolans uppdrag är att förmedla kunskap, stärka elevernas frihet och ge varje barn möjlighet att utvecklas självständigt. Liberalerna vill därför stoppa religiösa friskolor och säkerställa att all undervisning i det svenska skolväsendet är icke-konfessionell.**

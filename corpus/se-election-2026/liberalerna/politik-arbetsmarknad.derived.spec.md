@@ -1,21 +1,23 @@
 ---
 type: spec
 id: liberalerna-politik-arbetsmarknad-derived
-title: "Arbetsmarknad (reading)"
+title: Arbetsmarknad (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Arbetsmarknad"
+summary: Our reading of Arbetsmarknad
 jurisdiction: SE
 sources:
-  - title: "Arbetsmarknad"
+  - title: Arbetsmarknad
     url: https://www.liberalerna.se/politik/arbetsmarknad
-tags: [crime-justice]
+tags:
+  - employment
+  - economy
 party: liberalerna
 clusters:
-  - crime-justice
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-arbetsmarknad.md
-sourceDigest: "sha256-12ba0ad2e97b2264"
+sourceDigest: sha256-12ba0ad2e97b2264
 derivesFrom: liberalerna-politik-arbetsmarknad
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

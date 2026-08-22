@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Invandring – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/invandring"
-canonicalUrl: "https://www.liberalerna.se/politik/invandring"
-fetchedAt: "2026-08-22T13:37:18.488Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Invandring – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/invandring
+canonicalUrl: https://www.liberalerna.se/politik/invandring
+fetchedAt: 2026-08-22T13:37:18.488Z
+contentType: html
+via: party-site
+tags:
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Människor som flyr krig och förföljelse ska få skydd. Asylrätten ska värnas. Det är individens skyddsskäl som avgör om man får stanna. EU behöver en gemensam asylpolitik.**

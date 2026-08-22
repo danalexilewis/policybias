@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Monarki – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/monarki"
-canonicalUrl: "https://www.liberalerna.se/politik/monarki"
-fetchedAt: "2026-08-22T13:38:02.696Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Monarki – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/monarki
+canonicalUrl: https://www.liberalerna.se/politik/monarki
+fetchedAt: 2026-08-22T13:38:02.696Z
+contentType: html
+via: party-site
+tags:
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vi vill behålla monarkin som den är i dag. Det betyder att kungen bara ska ha representativa uppgifter, inte någon politisk makt.**

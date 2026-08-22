@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Vägar – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/vagar"
-canonicalUrl: "https://www.liberalerna.se/politik/vagar"
-fetchedAt: "2026-08-22T13:39:46.934Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Vägar – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/vagar
+canonicalUrl: https://www.liberalerna.se/politik/vagar
+fetchedAt: 2026-08-22T13:39:46.934Z
+contentType: html
+via: party-site
+tags:
+  - employment
+  - transport
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vägnätet ska vara säkert och modernt då bilen är avgörande för att hela landet ska leva där det inte finns andra realistiska alternativ. Vägnätet måste rustas och förstärkas rejält.**

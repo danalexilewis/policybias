@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Forskning – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/forskning"
-canonicalUrl: "https://www.liberalerna.se/politik/forskning"
-fetchedAt: "2026-08-22T13:36:21.265Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Forskning – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/forskning
+canonicalUrl: https://www.liberalerna.se/politik/forskning
+fetchedAt: 2026-08-22T13:36:21.265Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Sverige ska inte vara landet Lagom – vi ska konkurrera med de bästa i världen när det gäller forskning och teknikutveckling. Liberalerna vill prioritera kvalitet och långsiktighet i forskningspolitiken.**

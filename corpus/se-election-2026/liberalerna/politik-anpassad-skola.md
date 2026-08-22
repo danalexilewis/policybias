@@ -1,17 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Anpassad skola – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/anpassad-skola"
-canonicalUrl: "https://www.liberalerna.se/politik/anpassad-skola"
-fetchedAt: "2026-08-22T13:35:24.185Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: liberalerna
+title: Anpassad skola – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/anpassad-skola
+canonicalUrl: https://www.liberalerna.se/politik/anpassad-skola
+fetchedAt: 2026-08-22T13:35:24.185Z
+contentType: html
+via: party-site
 tags:
-  - "defence-security"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - education
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Elever med intellektuell funktionsnedsättning ska få undervisning som utgår från deras egna förutsättningar. Därför vill Liberalerna utveckla den anpassade skolan – inte avveckla den.**

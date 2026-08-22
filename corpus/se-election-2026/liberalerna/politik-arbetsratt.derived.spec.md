@@ -1,21 +1,22 @@
 ---
 type: spec
 id: liberalerna-politik-arbetsratt-derived
-title: "Arbetsrätt (reading)"
+title: Arbetsrätt (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Arbetsrätt"
+summary: Our reading of Arbetsrätt
 jurisdiction: SE
 sources:
-  - title: "Arbetsrätt"
+  - title: Arbetsrätt
     url: https://www.liberalerna.se/politik/arbetsratt
-tags: [climate-environment]
+tags:
+  - employment
 party: liberalerna
 clusters:
-  - climate-environment
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-arbetsratt.md
-sourceDigest: "sha256-38160585232fb309"
+sourceDigest: sha256-38160585232fb309
 derivesFrom: liberalerna-politik-arbetsratt
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

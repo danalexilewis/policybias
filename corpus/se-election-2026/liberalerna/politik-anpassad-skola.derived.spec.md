@@ -1,21 +1,22 @@
 ---
 type: spec
 id: liberalerna-politik-anpassad-skola-derived
-title: "Anpassad skola (reading)"
+title: Anpassad skola (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Anpassad skola"
+summary: Our reading of Anpassad skola
 jurisdiction: SE
 sources:
-  - title: "Anpassad skola"
+  - title: Anpassad skola
     url: https://www.liberalerna.se/politik/anpassad-skola
-tags: [defence-security]
+tags:
+  - education
 party: liberalerna
 clusters:
-  - defence-security
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-anpassad-skola.md
-sourceDigest: "sha256-ad3c944ec25c2335"
+sourceDigest: sha256-ad3c944ec25c2335
 derivesFrom: liberalerna-politik-anpassad-skola
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

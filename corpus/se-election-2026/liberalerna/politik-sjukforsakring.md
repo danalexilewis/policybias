@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Sjukförsäkring – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/sjukforsakring"
-canonicalUrl: "https://www.liberalerna.se/politik/sjukforsakring"
-fetchedAt: "2026-08-22T13:38:39.672Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Sjukförsäkring – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/sjukforsakring
+canonicalUrl: https://www.liberalerna.se/politik/sjukforsakring
+fetchedAt: 2026-08-22T13:38:39.672Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Den som blir sjuk ska ha en trygg försörjning. Sjukförsäkringen ska vara anpassad efter den som behöver sjukskriva sig, så att fler kan komma tillbaka till arbetslivet så snabbt som möjligt.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Medier – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/medier-och-public-service"
-canonicalUrl: "https://www.liberalerna.se/politik/medier-och-public-service"
-fetchedAt: "2026-08-22T13:38:07.105Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Medier – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/medier-och-public-service
+canonicalUrl: https://www.liberalerna.se/politik/medier-och-public-service
+fetchedAt: 2026-08-22T13:38:07.105Z
+contentType: html
+via: party-site
+tags:
+  - democracy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Mediernas oberoende roll och kritiska granskning är grunden i varje demokrati. Public service har en viktig roll i detta arbete, oberoende och kvalitet ska värnas och främjas.**

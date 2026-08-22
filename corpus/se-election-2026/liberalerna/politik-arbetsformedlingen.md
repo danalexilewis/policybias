@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Arbetsförmedlingen – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/arbetsformedlingen"
-canonicalUrl: "https://www.liberalerna.se/politik/arbetsformedlingen"
-fetchedAt: "2026-08-22T13:35:26.704Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Arbetsförmedlingen – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/arbetsformedlingen
+canonicalUrl: https://www.liberalerna.se/politik/arbetsformedlingen
+fetchedAt: 2026-08-22T13:35:26.704Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - employment
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 **Arbetsförmedlingen behöver reformeras i grunden. Liberalerna vill skapa en effektiv myndighet som fokuserar på sitt kärnuppdrag – att hjälpa människor som står längst från arbetsmarknaden att få riktiga jobb.**

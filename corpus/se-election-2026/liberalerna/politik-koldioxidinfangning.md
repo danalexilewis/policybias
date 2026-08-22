@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Koldioxidinfångning – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/koldioxidinfangning"
-canonicalUrl: "https://www.liberalerna.se/politik/koldioxidinfangning"
-fetchedAt: "2026-08-22T13:37:46.238Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Koldioxidinfångning – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/koldioxidinfangning
+canonicalUrl: https://www.liberalerna.se/politik/koldioxidinfangning
+fetchedAt: 2026-08-22T13:37:46.238Z
+contentType: html
+via: party-site
+tags:
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Det kommer att behövas storskalig koldioxidinfångning för att vi ska klara klimatarbetet. Sverige har goda möjligheter och bör snarast bygga upp stor kapacitet.**

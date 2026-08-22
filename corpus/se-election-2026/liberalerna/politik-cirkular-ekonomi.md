@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Cirkulär ekonomi – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/cirkular-ekonomi"
-canonicalUrl: "https://www.liberalerna.se/politik/cirkular-ekonomi"
-fetchedAt: "2026-08-22T13:35:48.942Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Cirkulär ekonomi – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/cirkular-ekonomi
+canonicalUrl: https://www.liberalerna.se/politik/cirkular-ekonomi
+fetchedAt: 2026-08-22T13:35:48.942Z
+contentType: html
+via: party-site
+tags:
+  - economy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Cirkulär ekonomi handlar om att skapa större värden med mindre resurser. Samtidigt behöver vi minska slöseriet och använda jordens resurser smartare. Liberalerna vill därför göra det enklare att leva hållbart, reparera produkter och återvinna material – utan att människor behöver välja bort frihet, utveckling eller välstånd.**

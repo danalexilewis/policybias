@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "konkurrenskraft1-0e29239b.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/konkurrenskraft1.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/konkurrenskraft1.pdf"
-fetchedAt: "2026-08-22T13:38:27.562Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: konkurrenskraft1-0e29239b.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/konkurrenskraft1.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/konkurrenskraft1.pdf
+fetchedAt: 2026-08-22T13:38:27.562Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: named-figure
 ---
 
 # konkurrenskraft1-0e29239b.pdf

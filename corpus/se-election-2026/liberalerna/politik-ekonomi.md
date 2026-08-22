@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Ekonomi – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/ekonomi"
-canonicalUrl: "https://www.liberalerna.se/politik/ekonomi"
-fetchedAt: "2026-08-22T13:35:55.067Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Ekonomi – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/ekonomi
+canonicalUrl: https://www.liberalerna.se/politik/ekonomi
+fetchedAt: 2026-08-22T13:35:55.067Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - education
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Det ska löna sig att arbeta, utbilda sig och starta företag. Samtidigt behöver fler människor få möjlighet att ta ansvar för sin egen försörjning och bygga en trygg framtid. Därför vill Liberalerna föra en ansvarstagande finanspolitik som stärker tillväxten, uppmuntrar arbete och skapar fler vägar till ekonomisk frihet.**

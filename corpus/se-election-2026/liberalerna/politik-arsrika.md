@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Årsrika – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/arsrika"
-canonicalUrl: "https://www.liberalerna.se/politik/arsrika"
-fetchedAt: "2026-08-22T13:39:58.114Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Årsrika – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/arsrika
+canonicalUrl: https://www.liberalerna.se/politik/arsrika
+fetchedAt: 2026-08-22T13:39:58.114Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Alla ska kunna forma sitt eget liv, och det gäller genom hela livet. Alla ska bli bemötta för vilka de är, inte utifrån vilket år vi är födda.**

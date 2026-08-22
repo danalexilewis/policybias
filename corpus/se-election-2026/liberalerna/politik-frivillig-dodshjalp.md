@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Frivillig dödshjälp – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/frivillig-dodshjalp"
-canonicalUrl: "https://www.liberalerna.se/politik/frivillig-dodshjalp"
-fetchedAt: "2026-08-22T13:36:28.272Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Frivillig dödshjälp – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/frivillig-dodshjalp
+canonicalUrl: https://www.liberalerna.se/politik/frivillig-dodshjalp
+fetchedAt: 2026-08-22T13:36:28.272Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Människor som lider av obotliga och dödliga sjukdomar ska mötas med värdighet, respekt och medmänsklighet. Samtidigt saknar svårt sjuka patienter i dag möjlighet att själva bestämma över livets slutskede i Sverige. Därför vill Liberalerna att frågan om frivillig dödshjälp utreds genom en statlig utredning med tydligt fokus på rättssäkerhet, självbestämmande och skydd för individen.**

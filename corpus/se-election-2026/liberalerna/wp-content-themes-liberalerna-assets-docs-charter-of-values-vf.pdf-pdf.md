@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "charter-of-values-vf-17f88c05.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/themes/liberalerna/assets/docs/charter-of-values-vf.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/themes/liberalerna/assets/docs/charter-of-values-vf.pdf"
-fetchedAt: "2026-08-22T13:40:03.061Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: charter-of-values-vf-17f88c05.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/themes/liberalerna/assets/docs/charter-of-values-vf.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/themes/liberalerna/assets/docs/charter-of-values-vf.pdf
+fetchedAt: 2026-08-22T13:40:03.061Z
+contentType: pdf
+via: party-site
+tags:
+  - environment
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # charter-of-values-vf-17f88c05.pdf

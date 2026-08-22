@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "det-glomda-sverige-11-88145308.pdf"
-sourceUrl: "https://www.liberalerna.se/wp-content/uploads/det-glomda-sverige-11.pdf"
-canonicalUrl: "https://www.liberalerna.se/wp-content/uploads/det-glomda-sverige-11.pdf"
-fetchedAt: "2026-08-22T13:38:22.434Z"
-contentType: "pdf"
-via: "party-site"
-tags: []
-stance: "not-policy"
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: det-glomda-sverige-11-88145308.pdf
+sourceUrl: https://www.liberalerna.se/wp-content/uploads/det-glomda-sverige-11.pdf
+canonicalUrl: https://www.liberalerna.se/wp-content/uploads/det-glomda-sverige-11.pdf
+fetchedAt: 2026-08-22T13:38:22.434Z
+contentType: pdf
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 # det-glomda-sverige-11-88145308.pdf

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Sjukvård – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/sjukvard"
-canonicalUrl: "https://www.liberalerna.se/politik/sjukvard"
-fetchedAt: "2026-08-22T13:38:44.192Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Sjukvård – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/sjukvard
+canonicalUrl: https://www.liberalerna.se/politik/sjukvard
+fetchedAt: 2026-08-22T13:38:44.192Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Rätt vård i rätt tid för varje patient, det är grunden i liberal sjukvårdspolitik. Vi vill att varje individ får hjälp, tröst och stöd, och att alla som arbetar inom vården har en god arbetsmiljö. Därför har vi satsat mycket, och fortsätter satsa mer, på svensk sjukvård.**

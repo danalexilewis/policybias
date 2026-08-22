@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Utsatta områden – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/utsatta-omraden"
-canonicalUrl: "https://www.liberalerna.se/politik/utsatta-omraden"
-fetchedAt: "2026-08-22T13:39:33.759Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Utsatta områden – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/utsatta-omraden
+canonicalUrl: https://www.liberalerna.se/politik/utsatta-omraden
+fetchedAt: 2026-08-22T13:39:33.759Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - crime-and-justice
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Vi accepterar inte att vissa medborgare bor i bostadsområden där livschanserna är färre. Vi har en plan för att vända utvecklingen.**

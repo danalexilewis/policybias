@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Integration – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/integration"
-canonicalUrl: "https://www.liberalerna.se/politik/integration"
-fetchedAt: "2026-08-22T13:37:14.050Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Integration – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/integration
+canonicalUrl: https://www.liberalerna.se/politik/integration
+fetchedAt: 2026-08-22T13:37:14.050Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - gender-equality
+  - immigration
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Varje människa ska ha en ärlig chans att komma in i vårt samhälle. Vi ska ha en integrationspolitik som skapar möjligheter och ställer tydliga krav.**

@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Lärare – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/lararna-2"
-canonicalUrl: "https://www.liberalerna.se/politik/lararna-2"
-fetchedAt: "2026-08-22T13:37:53.436Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Lärare – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/lararna-2
+canonicalUrl: https://www.liberalerna.se/politik/lararna-2
+fetchedAt: 2026-08-22T13:37:53.436Z
+contentType: html
+via: party-site
+tags:
+  - education
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Oavsett skolsystemets utformning så är det lärarens undervisning i klassrummet som är avgörande. Därför vill Liberalerna stärka läraryrkets attraktivitet och status. I klassrummet är det läraren som bestämmer.**

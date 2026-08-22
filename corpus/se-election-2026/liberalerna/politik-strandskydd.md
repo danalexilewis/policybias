@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Strandskydd – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/strandskydd"
-canonicalUrl: "https://www.liberalerna.se/politik/strandskydd"
-fetchedAt: "2026-08-22T13:39:19.613Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Strandskydd – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/strandskydd
+canonicalUrl: https://www.liberalerna.se/politik/strandskydd
+fetchedAt: 2026-08-22T13:39:19.613Z
+contentType: html
+via: party-site
+tags:
+  - agriculture
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Strandskyddet behöver moderniseras samtidigt som känsliga kustområden skyddas, men människors frihet ska inte begränsas i onödan. Strandskyddet behöver därför bli mer flexibelt.**

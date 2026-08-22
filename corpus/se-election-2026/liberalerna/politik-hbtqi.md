@@ -1,15 +1,19 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "HBTQI – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/hbtqi"
-canonicalUrl: "https://www.liberalerna.se/politik/hbtqi"
-fetchedAt: "2026-08-22T13:36:52.939Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: HBTQI – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/hbtqi
+canonicalUrl: https://www.liberalerna.se/politik/hbtqi
+fetchedAt: 2026-08-22T13:36:52.939Z
+contentType: html
+via: party-site
+tags:
+  - crime-and-justice
+  - gender-equality
+  - defence
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 ****Att få älska den man vill är sann frihet. Oavsett kön, könsidentitet eller sexuell läggning ska denna rättighet garanteras för alla, och det fortsätter Liberalerna kämpa för.**** **Trots stora framsteg vågar många hbtqi-personer fortfarande inte leva öppet, och alltför många blir utsatta för hatbrott, diskriminering och hedersförtryck.**

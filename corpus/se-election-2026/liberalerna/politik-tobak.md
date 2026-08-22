@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Tobak – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/tobak"
-canonicalUrl: "https://www.liberalerna.se/politik/tobak"
-fetchedAt: "2026-08-22T13:39:28.322Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Tobak – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/tobak
+canonicalUrl: https://www.liberalerna.se/politik/tobak
+fetchedAt: 2026-08-22T13:39:28.322Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Liberalernas tobakspolitik ställer höga krav på försäljning, och för att hjälpa människor bli fria från tobaksberoende. Preventivt arbete i skolan är viktigt för att skydda den kommande generationen.**

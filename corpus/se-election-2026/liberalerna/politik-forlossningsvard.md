@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Förlossningsvård – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/forlossningsvard"
-canonicalUrl: "https://www.liberalerna.se/politik/forlossningsvard"
-fetchedAt: "2026-08-22T13:36:35.255Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Förlossningsvård – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/forlossningsvard
+canonicalUrl: https://www.liberalerna.se/politik/forlossningsvard
+fetchedAt: 2026-08-22T13:36:35.255Z
+contentType: html
+via: party-site
+tags:
+  - healthcare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Förlossningsvården ska vara tillgänglig, jämlik och utgå från kvinnans behov och önskemål – oavsett var i landet man bor. Alla kvinnor ska kunna känna trygghet genom hela graviditeten och förlossningen.**

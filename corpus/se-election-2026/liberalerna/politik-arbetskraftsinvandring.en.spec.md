@@ -4,22 +4,22 @@ id: liberalerna-politik-arbetskraftsinvandring
 title: Labor immigration
 status: draft
 updated: 2026-08-22
-summary: Labor immigration strengthens Sweden's economy, welfare and
-  competitiveness. Therefore, the Liberals want to make it easier for companies
-  to recruit international competence and stop unreasonable competence
-  deportations.
+summary: Labor immigration strengthens Sweden's economy, welfare and competitiveness.
+  Therefore, the Liberals want to make it easier for companies to recruit international
+  competence and stop unreasonable competence deportations.
 jurisdiction: SE
 sources:
   - title: Arbetskraftsinvandring
     url: https://www.liberalerna.se/politik/arbetskraftsinvandring
 tags:
-  - migration-integration
+  - employment
+  - economy
 party: liberalerna
 clusters:
-  - migration-integration
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-arbetskraftsinvandring.md
-sourceDigest: "sha256-0ff89a24b04eb96e"
+sourceDigest: sha256-0ff89a24b04eb96e
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page
@@ -27,7 +27,7 @@ lang: en
 translationOf: liberalerna-arbetskraftsinvandring
 translator: machine
 translatedAt: 2026-08-22
-sourceSpecDigest: "sha256-37f3c6391230ae53"
+sourceSpecDigest: sha256-37f3c6391230ae53
 ---
 
 # What the page states

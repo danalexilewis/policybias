@@ -1,15 +1,17 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Bostad – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/bostad"
-canonicalUrl: "https://www.liberalerna.se/politik/bostad"
-fetchedAt: "2026-08-22T13:35:43.073Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Bostad – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/bostad
+canonicalUrl: https://www.liberalerna.se/politik/bostad
+fetchedAt: 2026-08-22T13:35:43.073Z
+contentType: html
+via: party-site
+tags:
+  - housing
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Sverige behöver en fungerande bostadsmarknad. I dag är det dyrare att bygga bostäder här än i våra grannländer, samtidigt som det är svårare för unga, studenter och barnfamiljer att ta sig in på marknaden. Det visar att systemet inte fungerar.**

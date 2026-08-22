@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "EU – bra för dig – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/eu-bra-dig"
-canonicalUrl: "https://www.liberalerna.se/politik/eu-bra-dig"
-fetchedAt: "2026-08-22T13:36:01.488Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: EU – bra för dig – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/eu-bra-dig
+canonicalUrl: https://www.liberalerna.se/politik/eu-bra-dig
+fetchedAt: 2026-08-22T13:36:01.488Z
+contentType: html
+via: party-site
+tags:
+  - economy
+  - climate
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 I en tid av klimatförändringar, ekonomisk lågkonjunktur och krig i Europa är det lätt att bli pessimistisk om framtiden. 

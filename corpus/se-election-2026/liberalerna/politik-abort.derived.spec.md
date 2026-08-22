@@ -1,21 +1,22 @@
 ---
 type: spec
 id: liberalerna-politik-abort-derived
-title: "Abort (reading)"
+title: Abort (reading)
 status: draft
 updated: 2026-08-22
-summary: "Our reading of Abort"
+summary: Our reading of Abort
 jurisdiction: SE
 sources:
-  - title: "Abort"
+  - title: Abort
     url: https://www.liberalerna.se/politik/abort
-tags: [health-care]
+tags:
+  - healthcare
 party: liberalerna
 clusters:
   - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-abort.md
-sourceDigest: "sha256-b7e3bcd4f30fb9c6"
+sourceDigest: sha256-b7e3bcd4f30fb9c6
 derivesFrom: liberalerna-politik-abort
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise

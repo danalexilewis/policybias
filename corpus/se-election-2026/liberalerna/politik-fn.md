@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "FN – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/fn"
-canonicalUrl: "https://www.liberalerna.se/politik/fn"
-fetchedAt: "2026-08-22T13:36:19.041Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: FN – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/fn
+canonicalUrl: https://www.liberalerna.se/politik/fn
+fetchedAt: 2026-08-22T13:36:19.041Z
+contentType: html
+via: party-site
+tags:
+  - defence
+  - foreign-policy
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Den liberala kampen för alla människors frihet har alltid varit, och kommer alltid att vara, ett globalt projekt. Förenta Nationerna, FN, är en viktig samarbetspartner i detta arbete.**

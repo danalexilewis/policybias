@@ -1,15 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Barns rättigheter – Liberalerna"
-sourceUrl: "https://www.liberalerna.se/politik/barns-rattigheter-2"
-canonicalUrl: "https://www.liberalerna.se/politik/barns-rattigheter-2"
-fetchedAt: "2026-08-22T13:35:38.825Z"
-contentType: "html"
-via: "party-site"
-tags: []
-stance: null
-licenseNote: "Party copyright; not Gurki MIT"
+type: crawled-page
+party: liberalerna
+title: Barns rättigheter – Liberalerna
+sourceUrl: https://www.liberalerna.se/politik/barns-rattigheter-2
+canonicalUrl: https://www.liberalerna.se/politik/barns-rattigheter-2
+fetchedAt: 2026-08-22T13:35:38.825Z
+contentType: html
+via: party-site
+tags:
+  - education
+  - social-welfare
+stance: intervention
+licenseNote: Party copyright; not Gurki MIT
+money: no-figure
 ---
 
 **Varje barn har rätt till en trygg barndom för att kunna bli precis den de vill vara. Olika barn har olika behov och förutsättningar men alla har samma fri- och rättigheter. Det vill vi värna om.**

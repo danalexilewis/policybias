@@ -1,21 +1,24 @@
 ---
 type: spec
 id: liberalerna-politik-anpassad-skola
-title: "Anpassad skola"
+title: Anpassad skola
 status: draft
 updated: 2026-08-22
-summary: "Elever med intellektuell funktionsnedsättning ska få undervisning som utgår från deras egna förutsättningar. Därför vill Liberalerna utveckla den anpassade skolan – inte avveckla den."
+summary: Elever med intellektuell funktionsnedsättning ska få undervisning som utgår
+  från deras egna förutsättningar. Därför vill Liberalerna utveckla den anpassade skolan
+  – inte avveckla den.
 jurisdiction: SE
 sources:
-  - title: "Anpassad skola"
+  - title: Anpassad skola
     url: https://www.liberalerna.se/politik/anpassad-skola
-tags: [defence-security]
+tags:
+  - education
 party: liberalerna
 clusters:
-  - defence-security
+  - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-anpassad-skola.md
-sourceDigest: "sha256-ad3c944ec25c2335"
+sourceDigest: sha256-ad3c944ec25c2335
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

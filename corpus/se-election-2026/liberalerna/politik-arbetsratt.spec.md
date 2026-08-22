@@ -1,21 +1,24 @@
 ---
 type: spec
 id: liberalerna-politik-arbetsratt
-title: "Arbetsrätt"
+title: Arbetsrätt
 status: draft
 updated: 2026-08-22
-summary: "En modern arbetsrätt ska kombinera trygghet med flexibilitet. Liberalerna vill skapa regler som skyddar arbetstagare samtidigt som fler företag vågar anställa och skapa nya jobb."
+summary: En modern arbetsrätt ska kombinera trygghet med flexibilitet. Liberalerna vill
+  skapa regler som skyddar arbetstagare samtidigt som fler företag vågar anställa och
+  skapa nya jobb.
 jurisdiction: SE
 sources:
-  - title: "Arbetsrätt"
+  - title: Arbetsrätt
     url: https://www.liberalerna.se/politik/arbetsratt
-tags: [climate-environment]
+tags:
+  - employment
 party: liberalerna
 clusters:
-  - climate-environment
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-arbetsratt.md
-sourceDigest: "sha256-38160585232fb309"
+sourceDigest: sha256-38160585232fb309
 gaps:
   - cost is not stated on the page
   - timetable is not stated on the page

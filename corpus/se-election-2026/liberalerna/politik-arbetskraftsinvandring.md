@@ -1,17 +1,18 @@
 ---
-type: "crawled-page"
-party: "liberalerna"
-title: "Arbetskraftsinvandring"
-sourceUrl: "https://www.liberalerna.se/politik/arbetskraftsinvandring"
-canonicalUrl: "https://www.liberalerna.se/politik/arbetskraftsinvandring"
-fetchedAt: "2026-08-22T13:35:16.172Z"
-contentType: "html"
-via: "party-site"
+type: crawled-page
+party: liberalerna
+title: Arbetskraftsinvandring
+sourceUrl: https://www.liberalerna.se/politik/arbetskraftsinvandring
+canonicalUrl: https://www.liberalerna.se/politik/arbetskraftsinvandring
+fetchedAt: 2026-08-22T13:35:16.172Z
+contentType: html
+via: party-site
 tags:
-  - "migration-integration"
-stance: "intervention"
-money: "no-figure"
-licenseNote: "Party copyright; not Gurki MIT"
+  - employment
+  - economy
+stance: intervention
+money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
 **Arbetskraftsinvandring stärker Sveriges ekonomi, välfärd och konkurrenskraft. Därför vill Liberalerna göra det enklare för företag att rekrytera internationell kompetens och stoppa orimliga kompetensutvisningar.**

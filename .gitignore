@@ -1,10 +1,13 @@
 node_modules
+public/sw*
+public/swe-worker*
 dist
 .pnpm-store
 .DS_Store
 *.log
 public/cards.json
-corpus/nz-election-2026/**/assets/
+public/*/cards.*.json
+corpus/**/assets/
 .tmp/
 storage/
 data/**/score-records.jsonl

@@ -3,6 +3,7 @@ export type DeckIndex = 0 | 1 | 2
 export const DECK_CARD_COUNT = 3
 export const DECK_TAP_PX = 10
 export const DECK_SWIPE_PX = 48
+export const DECK_FLICK_PX_PER_MS = 0.55
 
 export type DeckGesture = 'tap' | 'swipe-left' | 'swipe-right' | 'ignore'
 
@@ -35,19 +36,26 @@ export function stepDeckIndex(
  * Horizontal travel chooses the next card; a short press is a tap;
  * mostly-vertical travel is left for the card's own scroll.
  */
-export function classifyDeckGesture(dx: number, dy: number): DeckGesture {
+export function classifyDeckGesture(
+	dx: number,
+	dy: number,
+	vx = 0
+): DeckGesture {
 	const absX = Math.abs(dx)
 	const absY = Math.abs(dy)
 	if (absX < DECK_TAP_PX && absY < DECK_TAP_PX) {
 		return 'tap'
 	}
-	if (absX < DECK_SWIPE_PX) {
-		return 'ignore'
-	}
 	if (absX <= absY) {
 		return 'ignore'
 	}
-	return dx < 0 ? 'swipe-left' : 'swipe-right'
+	const flicked =
+		Math.abs(vx) >= DECK_FLICK_PX_PER_MS &&
+		(dx === 0 || Math.sign(vx) === Math.sign(dx))
+	if (absX < DECK_SWIPE_PX && !flicked) {
+		return 'ignore'
+	}
+	return dx < 0 || (dx === 0 && vx < 0) ? 'swipe-left' : 'swipe-right'
 }
 
 /** Apply a browse swipe. Tap and ignore leave the focus where it is. */

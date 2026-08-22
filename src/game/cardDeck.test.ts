@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import {
 	carouselLayoutMatches,
 	classifyDeckGesture,
+	DECK_FLICK_PX_PER_MS,
 	DECK_SWIPE_PX,
 	DECK_TAP_PX,
 	deckSlot,
@@ -55,6 +56,15 @@ describe('classifyDeckGesture', () => {
 
 	it('ignores a short horizontal drag that has not committed to a swipe', () => {
 		expect(classifyDeckGesture(DECK_SWIPE_PX - 1, 0)).toBe('ignore')
+	})
+
+	it('treats a short horizontal flick as a swipe', () => {
+		expect(
+			classifyDeckGesture(-(DECK_TAP_PX + 1), 0, -DECK_FLICK_PX_PER_MS)
+		).toBe('swipe-left')
+		expect(
+			classifyDeckGesture(DECK_TAP_PX + 1, 0, DECK_FLICK_PX_PER_MS)
+		).toBe('swipe-right')
 	})
 })
 

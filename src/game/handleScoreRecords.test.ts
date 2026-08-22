@@ -8,7 +8,7 @@ import {
 const NOW = new Date('2026-08-21T11:00:00.000Z')
 
 function post(body: unknown): Request {
-  return new Request('http://example.test/api/scores', {
+  return new Request('http://example.test/nz-election-2026/scores', {
     method: 'POST',
     headers: {
       'content-type': 'application/json',
@@ -30,6 +30,7 @@ describe('handleScoreRecordsRequest', () => {
         ageRange: '35-44',
         ethnicities: ['pacific'],
         intendedVote: 'labour',
+        feltWealth: 4,
       }),
       store,
       NOW,
@@ -41,11 +42,13 @@ describe('handleScoreRecordsRequest', () => {
       ageRange: '35-44',
       ethnicities: ['pacific'],
       intendedVote: 'labour',
+      feltWealth: 4,
+      guesses: null,
       recordedOn: '2026-08-21',
     })
 
     const listed = await handleScoreRecordsRequest(
-      new Request('http://example.test/api/scores'),
+      new Request('http://example.test/nz-election-2026/scores?format=json'),
       store,
       NOW,
     )
@@ -61,20 +64,72 @@ describe('handleScoreRecordsRequest', () => {
       {
         correct: 2,
         attempted: 10,
+        guesses: null,
         ageRange: null,
         ethnicities: null,
         intendedVote: 'undecided',
+        feltWealth: null,
         recordedOn: '2026-08-21',
       },
     ])
 
     const response = await handleScoreRecordsRequest(
-      new Request('http://example.test/api/scores?format=csv'),
+      new Request('http://example.test/nz-election-2026/scores?format=csv'),
       store,
       NOW,
     )
     expect(response.headers.get('content-type')).toMatch(/text\/csv/)
     expect(await response.text()).toContain('undecided')
+  })
+
+  it('renders a public html table for browser visits to the event scores page', async () => {
+    const store = memoryScoreRecordStore([
+      {
+        correct: 3,
+        attempted: 10,
+        ageRange: '25-34',
+        ethnicities: ['maori'],
+        intendedVote: 'green',
+        feltWealth: 4,
+        guesses: [
+          { guessedParty: 'green', targetParty: 'green', correct: true },
+          { guessedParty: 'green', targetParty: 'green', correct: true },
+          { guessedParty: 'green', targetParty: 'green', correct: true },
+          { guessedParty: 'labour', targetParty: 'national', correct: false },
+          { guessedParty: 'labour', targetParty: 'national', correct: false },
+          { guessedParty: 'labour', targetParty: 'national', correct: false },
+          { guessedParty: 'labour', targetParty: 'national', correct: false },
+          { guessedParty: 'labour', targetParty: 'national', correct: false },
+          { guessedParty: 'labour', targetParty: 'national', correct: false },
+          { guessedParty: 'labour', targetParty: 'national', correct: false },
+        ],
+        recordedOn: '2026-08-21',
+      },
+    ])
+
+    const response = await handleScoreRecordsRequest(
+      new Request('http://example.test/nz-election-2026/scores', {
+        headers: { accept: 'text/html' },
+      }),
+      store,
+      NOW,
+    )
+    expect(response.headers.get('content-type')).toMatch(/text\/html/)
+    const html = await response.text()
+    expect(html).toContain('NZ 2026')
+    expect(html).toContain('/nz-election-2026/scores?format=json')
+    expect(html).toContain('Total')
+    expect(html).toContain('3 / 10')
+    expect(html).toContain('<th>Green</th>')
+    expect(html).toContain('<th>Labour</th>')
+    expect(html).toContain('<td class="num">3/3</td>')
+    expect(html).toContain('<td class="num">0/7</td>')
+    expect(html).not.toContain('Green 3/3')
+    expect(html).toContain('Māori')
+    expect(html).toContain('smaller boats for 30 years')
+    expect(html).toContain('aria-hidden="true"')
+    expect(html).toContain('Felt wealth')
+    expect(html).toMatch(/<td>4<\/td>/)
   })
 
   it('rejects a malformed body', async () => {
@@ -104,5 +159,14 @@ describe('handleScoreRecordsRequest', () => {
       NOW,
     )
     expect(append).not.toHaveBeenCalled()
+  })
+
+  it('rejects a scores path that is not a known event', async () => {
+    const response = await handleScoreRecordsRequest(
+      new Request('http://example.test/other-election/scores'),
+      memoryScoreRecordStore(),
+      NOW,
+    )
+    expect(response.status).toBe(404)
   })
 })

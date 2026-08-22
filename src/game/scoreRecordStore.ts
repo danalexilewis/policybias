@@ -1,7 +1,5 @@
-import {
-  parseScoreRecord,
-  type ScoreRecord,
-} from './scoreRecord'
+import { redisKeyForEvent, type EventId } from '../event/events'
+import { parseScoreRecord, type ScoreRecord } from './scoreRecord'
 
 export type ScoreRecordStore = {
   append(record: ScoreRecord): Promise<void>
@@ -21,8 +19,6 @@ type RedisEnv = {
   UPSTASH_REDIS_REST_URL?: string
   UPSTASH_REDIS_REST_TOKEN?: string
 }
-
-const REDIS_KEY = 'policybias.score-records'
 
 export function memoryScoreRecordStore(
   initial: ScoreRecord[] = [],
@@ -49,18 +45,18 @@ export function unavailableScoreRecordStore(): ScoreRecordStore {
   }
 }
 
-export function kvScoreRecordStore(url: string, token: string): ScoreRecordStore {
+export function kvScoreRecordStore(
+  url: string,
+  token: string,
+  eventId: EventId,
+): ScoreRecordStore {
+  const key = redisKeyForEvent(eventId)
   return {
     async append(record: ScoreRecord): Promise<void> {
-      await redisCommand(url, token, ['RPUSH', REDIS_KEY, JSON.stringify(record)])
+      await redisCommand(url, token, ['RPUSH', key, JSON.stringify(record)])
     },
     async list(): Promise<ScoreRecord[]> {
-      const result = await redisCommand(url, token, [
-        'LRANGE',
-        REDIS_KEY,
-        '0',
-        '-1',
-      ])
+      const result = await redisCommand(url, token, ['LRANGE', key, '0', '-1'])
       if (!Array.isArray(result)) {
         return []
       }
@@ -79,11 +75,12 @@ export function kvScoreRecordStore(url: string, token: string): ScoreRecordStore
 }
 
 export function createScoreRecordStore(
+  eventId: EventId,
   env: RedisEnv = process.env,
 ): ScoreRecordStore {
   const redis = redisFromEnv(env)
   if (redis) {
-    return kvScoreRecordStore(redis.url, redis.token)
+    return kvScoreRecordStore(redis.url, redis.token, eventId)
   }
   return unavailableScoreRecordStore()
 }

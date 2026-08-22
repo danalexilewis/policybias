@@ -10,24 +10,75 @@ import {
   redisFromEnv,
   type ScoreRecordStore,
 } from './src/game/scoreRecordStore'
+import {
+  CURRENT_EVENT_ID,
+  eventIdFromGamePath,
+  eventIdFromScoresPath,
+  eventScoresPath,
+  localScoreRecordsPath,
+} from './src/event/events'
+import { agentTrapPlugin } from './src/prank/agentTrapPlugin'
 
 const rootDir = dirname(fileURLToPath(import.meta.url))
 
 function localScoresApi(): Plugin {
-  const store = redisFromEnv(process.env)
-    ? createScoreRecordStore()
-    : fileScoreRecordStore(resolve(rootDir, 'data/score-records.jsonl'))
-
   return {
     name: 'local-scores-api',
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
-        if (!req.url?.startsWith('/api/scores')) {
+        const path = req.url?.split('?')[0] ?? ''
+        if (path === '/scores' || path === '/scores/') {
+          res.statusCode = 308
+          res.setHeader('Location', eventScoresPath(CURRENT_EVENT_ID))
+          res.end()
+          return
+        }
+
+        const eventId = eventIdFromScoresPath(path)
+        if (!eventId) {
           next()
           return
         }
 
-        void serveScoreRecords(req, res, store)
+        const store = redisFromEnv(process.env)
+          ? createScoreRecordStore(eventId)
+          : fileScoreRecordStore(
+              resolve(rootDir, localScoreRecordsPath(eventId)),
+            )
+
+        void serveScoreRecords(req, res, store).catch((error: unknown) => {
+          console.error(error)
+          if (!res.headersSent) {
+            res.statusCode = 500
+            res.end('Score dataset failed')
+          }
+        })
+      })
+    },
+  }
+}
+
+function eventGameSpa(): Plugin {
+  function rewriteGamePath(req: IncomingMessage): void {
+    const path = req.url?.split('?')[0] ?? ''
+    if (!eventIdFromGamePath(path)) {
+      return
+    }
+    req.url = '/nz-election-2026/index.html'
+  }
+
+  return {
+    name: 'event-game-spa',
+    configureServer(server) {
+      server.middlewares.use((req, _res, next) => {
+        rewriteGamePath(req)
+        next()
+      })
+    },
+    configurePreviewServer(server) {
+      server.middlewares.use((req, _res, next) => {
+        rewriteGamePath(req)
+        next()
       })
     },
   }
@@ -82,7 +133,7 @@ function readBody(req: IncomingMessage): Promise<string> {
 
 export default defineConfig({
   base: '/',
-  plugins: [react(), localScoresApi()],
+  plugins: [react(), eventGameSpa(), localScoresApi(), agentTrapPlugin()],
   build: {
     rollupOptions: {
       input: {

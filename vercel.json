@@ -1,11 +1,39 @@
 {
+  "redirects": [
+    {
+      "source": "/scores",
+      "destination": "/nz-election-2026/scores",
+      "permanent": true
+    },
+    {
+      "source": "/scores/",
+      "destination": "/nz-election-2026/scores",
+      "permanent": true
+    }
+  ],
   "rewrites": [
+    {
+      "source": "/:event/scores",
+      "destination": "/api/scores?event=:event"
+    },
+    {
+      "source": "/:event/scores/",
+      "destination": "/api/scores?event=:event"
+    },
     {
       "source": "/nz-election-2026",
       "destination": "/nz-election-2026/index.html"
     },
     {
       "source": "/nz-election-2026/",
+      "destination": "/nz-election-2026/index.html"
+    },
+    {
+      "source": "/nz-election-2026/game",
+      "destination": "/nz-election-2026/index.html"
+    },
+    {
+      "source": "/nz-election-2026/game/",
       "destination": "/nz-election-2026/index.html"
     }
   ]

@@ -13,9 +13,11 @@ describe('fileScoreRecordStore', () => {
     await store.append({
       correct: 4,
       attempted: 10,
+      guesses: null,
       ageRange: null,
       ethnicities: null,
       intendedVote: null,
+      feltWealth: null,
       recordedOn: '2026-08-21',
     })
 

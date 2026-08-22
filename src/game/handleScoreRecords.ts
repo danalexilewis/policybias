@@ -1,8 +1,14 @@
 import {
+  eventIdFromRequest,
+  eventScoresPath,
+  type EventId,
+} from '../event/events'
+import {
   parseScoreRecordInput,
   scoreRecordsToCsv,
   stampScoreRecord,
 } from './scoreRecord'
+import { scoresPageHtml } from './scoresPage'
 import {
   ScoreDatasetUnavailableError,
   type ScoreRecordStore,
@@ -18,6 +24,12 @@ export async function handleScoreRecordsRequest(
   store: ScoreRecordStore,
   now: Date = new Date(),
 ): Promise<Response> {
+  const url = new URL(request.url)
+  const eventId = eventIdFromRequest(url)
+  if (!eventId) {
+    return new Response('Not found', { status: 404 })
+  }
+
   if (request.method === 'OPTIONS') {
     return new Response(null, {
       status: 204,
@@ -30,12 +42,20 @@ export async function handleScoreRecordsRequest(
 
   if (request.method === 'GET') {
     const records = await store.list()
-    const url = new URL(request.url)
-    if (url.searchParams.get('format') === 'csv') {
+    const format = url.searchParams.get('format')
+    if (format === 'csv') {
       return new Response(scoreRecordsToCsv(records), {
         headers: {
           ...GET_HEADERS,
           'content-type': 'text/csv; charset=utf-8',
+        },
+      })
+    }
+    if (wantsHtmlPage(url, request, eventId)) {
+      return new Response(scoresPageHtml(records, eventId), {
+        headers: {
+          ...GET_HEADERS,
+          'content-type': 'text/html; charset=utf-8',
         },
       })
     }
@@ -75,4 +95,20 @@ export async function handleScoreRecordsRequest(
     status: 405,
     headers: { allow: 'GET, POST, OPTIONS' },
   })
+}
+
+function wantsHtmlPage(
+  url: URL,
+  request: Request,
+  eventId: EventId,
+): boolean {
+  if (url.searchParams.get('format') === 'json') {
+    return false
+  }
+  const scoresPath = eventScoresPath(eventId)
+  if (url.pathname === scoresPath || url.pathname === `${scoresPath}/`) {
+    return true
+  }
+  const accept = request.headers.get('accept') ?? ''
+  return accept.includes('text/html') && !accept.includes('application/json')
 }

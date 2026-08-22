@@ -37,33 +37,19 @@ corpus/nz-election-2026/
 
 Party ids: `act`, `green`, `labour`, `national`, `nz-first`, `opportunity`, `te-pati-maori`.
 
-Slice 02 (`pnpm dump:party-policy`) reads `_seeds/*.yaml` and writes Markdown only under `corpus/nz-election-2026/<party-id>/`. `pnpm dump:party-policy --reprocess` re-strips donate/nav/share chrome from existing dump files without fetching.
+`pnpm dump:party-policy --event nz-election-2026` reads `_seeds/*.yaml` and writes Markdown only under `corpus/nz-election-2026/<party-id>/`. Incremental skips (body `contentDigest`, sitemap `sourceLastmod`) are defined in [`../CRAWL.md`](../CRAWL.md). `pnpm dump:party-policy --reprocess` re-strips donate/nav/share chrome from existing dump files without fetching.
 
 ## Dump envelope
 
-Every crawled page is a plain `.md` file with YAML front matter:
+Field names, incremental skip rules, and operator commands: [`../CRAWL.md`](../CRAWL.md).
 
-```yaml
-type: crawled-page
-party: labour
-title: <h1 or og:title>
-sourceUrl: https://...
-canonicalUrl: https://...
-fetchedAt: 2026-08-18T00:00:00Z
-contentType: html | pdf
-via: party-site | navigator-citation
-tags: []
-stance:
-licenseNote: "Party copyright; not Gurki MIT"
-```
-
-`tags` and `stance` stay empty at ingest; stage 3 fills them. `via: navigator-citation` is for optional parliament/press URLs harvested from Policy Navigator (set B), not for Navigator GPT summaries.
+`tags` and `stance` stay empty at ingest; stage 3 fills them.
 
 ## Pipeline stages
 
 | Stage | What | Output |
 | --- | --- | --- |
-| **0 Contract** | Seeds, envelope, gitignore | `_seeds/*.yaml`, this README |
+| **0 Contract** | Seeds, envelope, gitignore | `_seeds/*.yaml`, this README, [`../CRAWL.md`](../CRAWL.md) |
 | **1 Ingest** | Crawl party sites → Markdown + local assets | `<party-id>/*.md`, `<party-id>/assets/` |
 | **2 Index** | qmd collection `nz-2026-parties` (this machine) | searchable corpus |
 | **3 Catalogue** | Tag/classify pages (front matter only) | filled `tags`, `stance`, `money` |

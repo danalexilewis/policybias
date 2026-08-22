@@ -110,16 +110,21 @@ describe('App board', () => {
 		expect(home.closest('header')).not.toBeNull();
 	});
 
-	it('puts terms and privacy next to Gurki in the footer', async () => {
+	it('puts terms, privacy and contact next to Gurki in the footer', async () => {
 		const { default: App } = await import('./App');
 		render(<App />);
 
 		const terms = screen.getByRole('link', { name: 'Terms' });
 		const privacy = screen.getByRole('link', { name: 'Privacy' });
+		const contact = screen.getByRole('link', { name: 'Contact' });
 		expect(terms.getAttribute('href')).toBe('/terms/');
 		expect(privacy.getAttribute('href')).toBe('/privacy/');
+		expect(contact.getAttribute('href')).toBe(
+			'https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e'
+		);
 		expect(terms.closest('footer')).not.toBeNull();
 		expect(privacy.closest('footer')).not.toBeNull();
+		expect(contact.closest('footer')).not.toBeNull();
 	});
 });
 

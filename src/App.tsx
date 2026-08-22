@@ -191,6 +191,10 @@ function AppShell(): JSX.Element {
 					<a href='/terms/'>{t('terms')}</a>
 					{' · '}
 					<a href='/privacy/'>{t('privacy')}</a>
+					{' · '}
+					<a href='https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e'>
+						{t('contact')}
+					</a>
 				</footer>
 			</div>
 

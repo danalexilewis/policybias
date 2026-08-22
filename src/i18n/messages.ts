@@ -9,6 +9,7 @@ export type UiKey =
   | 'encodedIn'
   | 'terms'
   | 'privacy'
+  | 'contact'
   | 'anonymise'
   | 'groupBy'
   | 'category'
@@ -111,6 +112,7 @@ export const EN: Record<UiKey, string> = {
   encodedIn: 'Encoded in',
   terms: 'Terms',
   privacy: 'Privacy',
+  contact: 'Contact',
   anonymise: 'Anonymise',
   groupBy: 'Group by',
   category: 'Category',
@@ -217,6 +219,7 @@ export const SV: Record<UiKey, string> = {
   encodedIn: 'Kodad i',
   terms: 'Villkor',
   privacy: 'Integritet',
+  contact: 'Kontakt',
   anonymise: 'Anonymisera',
   groupBy: 'Gruppera efter',
   category: 'Kategori',

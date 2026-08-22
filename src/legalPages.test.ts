@@ -16,6 +16,9 @@ describe('legal pages', () => {
     expect(html).toContain('MIT')
     expect(html).toContain('without warranty')
     expect(html).toContain('href="/privacy/"')
+    expect(html).toContain(
+      'href="https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e"',
+    )
     expect(html).not.toMatch(/by using this (site|website)/i)
   })
 
@@ -27,6 +30,10 @@ describe('legal pages', () => {
     expect(html).toContain('public dataset')
     expect(html).toContain('Vercel')
     expect(html).toContain('href="/terms/"')
+    expect(html).toContain(
+      'href="https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e"',
+    )
+    expect(html).toContain('Get in touch')
   })
 
   it('rewrites /terms and /privacy onto their html entries', () => {

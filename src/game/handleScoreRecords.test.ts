@@ -123,6 +123,9 @@ describe('handleScoreRecordsRequest', () => {
     )
     expect(html).toContain('href="/terms/"')
     expect(html).toContain('href="/privacy/"')
+    expect(html).toContain(
+      'href="https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e"',
+    )
     expect(html).toContain('Total')
     expect(html).toContain('3 / 10')
     expect(html).toContain('<th>Green</th>')

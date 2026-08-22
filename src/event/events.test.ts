@@ -165,10 +165,13 @@ describe('home directory', () => {
     expect(html).toMatch(/<a href="\/">POLICYBIAS<\/a>/)
   })
 
-  it('puts terms and privacy next to Gurki in the footer', () => {
+  it('puts terms, privacy and contact next to Gurki in the footer', () => {
     const html = readFileSync(DIRECTORY_HTML, 'utf8')
     expect(html).toContain('href="/terms/"')
     expect(html).toContain('href="/privacy/"')
+    expect(html).toContain(
+      'href="https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e"',
+    )
   })
 
   it('lists each event status on the home directory', () => {

@@ -141,6 +141,8 @@ export function scoresPageHtml(
       <a href="/terms/">Terms</a>
       ·
       <a href="/privacy/">Privacy</a>
+      ·
+      <a href="https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e">Contact</a>
     </footer>
   </body>
 </html>`,

@@ -1,0 +1,92 @@
+# Stage 4 reduce: one dump page per party per canvas cluster.
+# These are the election-facing pages a voter can actually use.
+# Specs are authored from this set, not from the full 1,400-page dump.
+
+parties:
+  socialdemokraterna:
+    health-care: var-politik-a-till-o-sjukvard.md
+    schools-education: var-politik-a-till-o-skola-och-utbildning.md
+    crime-justice: var-politik-a-till-o-lag-och-ordning.md
+    migration-integration: var-politik-a-till-o-invandring-och-integration.md
+    elderly-welfare: var-politik-a-till-o-aldreomsorg.md
+    climate-environment: var-politik-a-till-o-klimatpolitik.md
+    economy-tax: ekonomi-val-2026.md
+    energy-power: var-politik-a-till-o-karnkraft.md
+    defence-security: var-politik-a-till-o-militart-forsvar.md
+
+  moderaterna:
+    health-care: var-politik-halso-och-sjukvard-2.md
+    schools-education: var-politik-skola-och-utbildning.md
+    crime-justice: var-politik-lag-och-ordning-2.md
+    migration-integration: var-politik-migration.md
+    elderly-welfare: var-politik-aldreomsorg-2.md
+    climate-environment: var-politik-klimat-miljo-och-energi.md
+    economy-tax: var-politik-ekonomisk-politik-och-foretagande.md
+    energy-power: var-politik-karnkraft-2.md
+    defence-security: var-politik-forsvar-och-krisberedskap.md
+
+  sverigedemokraterna:
+    health-care: a-till-o-sjukvard.md
+    schools-education: a-till-o-pliktskola.md
+    crime-justice: a-till-o-organiserad-brottslighet.md
+    migration-integration: a-till-o-asylinvandring.md
+    elderly-welfare: a-till-o-aldrevard.md
+    climate-environment: a-till-o-flygskatten.md
+    economy-tax: a-till-o-tillvaxtatgarder.md
+    energy-power: a-till-o-karnkraft.md
+    defence-security: a-till-o-nato.md
+
+  kristdemokraterna:
+    health-care: var-politik-politik-a-till-o-sjukvard.md
+    schools-education: var-politik-politik-a-till-o-skolan.md
+    crime-justice: var-politik-politik-a-till-o-brottsbekampning.md
+    migration-integration: var-politik-politik-a-till-o-migration.md
+    elderly-welfare: var-politik-politik-a-till-o-aldreboendegaranti.md
+    climate-environment: var-politik-politik-a-till-o-klimat.md
+    economy-tax: var-politik-politik-a-till-o-inkomstskatter.md
+    energy-power: var-politik-politik-a-till-o-energi.md
+    defence-security: var-politik-politik-a-till-o-forsvar.md
+
+  centerpartiet:
+    health-care: centerpartiets-politik-centerpartiets-politik-a-o-vard-och-omsorg.md
+    schools-education: centerpartiets-politik-centerpartiets-politik-a-o-utbildning.md
+    crime-justice: centerpartiets-politik-centerpartiets-politik-a-o-lag-och-ratt-gangkriminalitet.md
+    migration-integration: centerpartiets-politik-centerpartiets-politik-a-o-integration-och-migration.md
+    elderly-welfare: centerpartiets-politik-centerpartiets-politik-a-o-seniorer.md
+    climate-environment: centerpartiets-politik-centerpartiets-politik-a-o-klimat.md
+    economy-tax: centerpartiets-politik-centerpartiets-politik-a-o-ekonomi-och-skatter.md
+    energy-power: centerpartiets-politik-centerpartiets-politik-a-o-energi.md
+    defence-security: centerpartiets-politik-centerpartiets-politik-a-o-forsvar.md
+
+  liberalerna:
+    health-care: politik-sjukvard.md
+    schools-education: politik-skola.md
+    crime-justice: politik-gangkriminalitet.md
+    migration-integration: politik-invandring.md
+    elderly-welfare: politik-aldreomsorg.md
+    climate-environment: politik-klimatet.md
+    economy-tax: politik-skatter.md
+    energy-power: politik-karnkraft.md
+    defence-security: politik-forsvar.md
+
+  miljopartiet:
+    health-care: politik-halso-och-sjukvard.md
+    schools-education: politik-skola.md
+    crime-justice: politik-brottsbekampning-och-forebyggande.md
+    migration-integration: politik-migration-och-lika-ratt.md
+    elderly-welfare: politik-aldreomsorg.md
+    climate-environment: politik-klimat.md
+    economy-tax: politik-gron-ekonomi.md
+    energy-power: politik-energi.md
+    defence-security: politik-forsvar-och-sakerhet.md
+
+  vansterpartiet:
+    health-care: var-politik-politik-a-o-sjukvard.md
+    schools-education: var-politik-politik-a-o-skolan.md
+    crime-justice: var-politik-politik-a-o-kriminalitet-och-kriminalvard.md
+    migration-integration: var-politik-politik-a-o-flyktingpolitik.md
+    elderly-welfare: var-politik-politik-a-o-aldreomsorg.md
+    climate-environment: var-politik-politik-a-o-klimat.md
+    economy-tax: var-politik-politik-a-o-skattepolitik.md
+    energy-power: var-politik-politik-a-o-elpriset.md
+    defence-security: var-politik-politik-a-o-forsvaret.md

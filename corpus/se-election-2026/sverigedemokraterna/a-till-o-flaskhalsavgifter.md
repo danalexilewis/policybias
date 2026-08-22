@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Flaskhalsavgifter
-sourceUrl: https://www.sd.se/a-till-o/flaskhalsavgifter/
-canonicalUrl: https://www.sd.se/a-till-o/flaskhalsavgifter
-fetchedAt: 2026-08-22T14:35:38.027Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Flaskhalsavgifter"
+sourceUrl: "https://www.sd.se/a-till-o/flaskhalsavgifter/"
+canonicalUrl: "https://www.sd.se/a-till-o/flaskhalsavgifter"
+fetchedAt: "2026-08-22T19:45:19.022Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-45c4b071c75e3380"
+contentLength: 788
+sourceLastmod: "2026-06-12T03:59:30+00:00"
 tags:
-  - healthcare
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "healthcare"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Flaskhalsavgifter är de intäkter som uppstår när elpriset skiljer sig mellan olika elprisområden på grund av begränsad överföringskapacitet i elnätet. Avgifterna samlas in av Svenska Kraftnät och ska enligt EU‑regler användas för att stärka elnätet, minska flaskhalsar och förbättra överföringskapaciteten.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi menar att dessa intäkter behöver kunna användas mer flexibelt och Sverige bör åter få undantag för att använda dem till elstöd och ny elproduktion. Samtidigt måste Sverige stå enat mot EU:s försök att ta kontroll över våra flaskhalsintäkter när de nu hotar om att tillskansa sig tiotals miljarder. Vi är tydliga: pengar som svenska elkunder har betalat in ska användas för att stärka vårt eget elnät och elproduktion på rätt plats, inte för att bygga nät i andra länder.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

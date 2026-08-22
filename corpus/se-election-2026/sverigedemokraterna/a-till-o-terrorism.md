@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Terrorism
-sourceUrl: https://www.sd.se/a-till-o/terrorism/
-canonicalUrl: https://www.sd.se/a-till-o/terrorism
-fetchedAt: 2026-08-22T14:20:34.518Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Terrorism"
+sourceUrl: "https://www.sd.se/a-till-o/terrorism/"
+canonicalUrl: "https://www.sd.se/a-till-o/terrorism"
+fetchedAt: "2026-08-22T19:30:07.911Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-f4b0a012270415ec"
+contentLength: 687
+sourceLastmod: "2026-06-12T03:57:58+00:00"
 tags:
-  - defence
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "defence"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverige ska inte vara en fristat för terrorister. Sedan en tid tillbaka är det förbjudet att vara med i en terrororganisation och brott som begåtts i terrorns namn bedöms särskilt allvarligt. På sista tiden har vi sett hur kriminella gäng och terrorister börjat samarbeta. Vi vill att det även ska vara ett brott i sig att vara med i en kriminell sammanslutning och att dessa brott skall dömas särskilt hårt. Det är viktigt att polis och underrättelsetjänst har möjligheter att avlyssna, filma och spana på misstänkta terrorister. I förekommande fall skall Sverige arbeta tillsammans med våra allierade i NATO, EU och övriga världen för att hitta och gripa misstänkta terrorister.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

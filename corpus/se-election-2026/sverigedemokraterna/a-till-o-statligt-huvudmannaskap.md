@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Statligt huvudmannaskap
-sourceUrl: https://www.sd.se/a-till-o/statligt-huvudmannaskap/
-canonicalUrl: https://www.sd.se/a-till-o/statligt-huvudmannaskap
-fetchedAt: 2026-08-22T14:10:40.155Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Statligt huvudmannaskap"
+sourceUrl: "https://www.sd.se/a-till-o/statligt-huvudmannaskap/"
+canonicalUrl: "https://www.sd.se/a-till-o/statligt-huvudmannaskap"
+fetchedAt: "2026-08-22T19:20:11.854Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-cff4897e679f16ab"
+contentLength: 383
+sourceLastmod: "2026-06-12T03:57:01+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Skolan är ett nationellt intresse och bör därför ha ett tydligt nationellt ansvar. Dagens system med många kommunala huvudmän har bidragit till stora skillnader mellan skolor i olika delar av landet. Sverigedemokraterna vill därför införa ett statligt huvudmannaskap för skolan. Det skulle skapa mer likvärdiga förutsättningar och en mer sammanhållen styrning av skolsystemet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Internationell rätt
-sourceUrl: https://www.sd.se/a-till-o/internationell-ratt/
-canonicalUrl: https://www.sd.se/a-till-o/internationell-ratt
-fetchedAt: 2026-08-22T14:31:47.022Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Internationell rätt"
+sourceUrl: "https://www.sd.se/a-till-o/internationell-ratt/"
+canonicalUrl: "https://www.sd.se/a-till-o/internationell-ratt"
+fetchedAt: "2026-08-22T19:41:22.179Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-57b663f7734ea765"
+contentLength: 666
+sourceLastmod: "2026-06-12T03:59:17+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Det är viktigt för ett litet land som Sverige att upprätthålla fasta spelregler mellan världens länder för att undvika att internationella relationer blir en fråga om den starkes rätt. Därför vill Sverigedemokraterna upprätthålla folkrätten och verka inom FN-systemet för svenska intressen. Samtidigt har systemet brister och blockeras ofta genom att auktoritära stater hindrar humanitära åtgärder. Ibland kan det därför vara nödvändigt med extraordinära insatser tillsammans med Sveriges allierade för att främja våra intressen. Ett sådant exempel kan vara behovet av att värna mänskliga rättigheter inom stater, där Sverigedemokraterna har legat i framkant.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -4,18 +4,21 @@ party: sverigedemokraterna
 title: Svenska kronan
 sourceUrl: https://www.sd.se/a-till-o/svenska-kronan/
 canonicalUrl: https://www.sd.se/a-till-o/svenska-kronan
-fetchedAt: 2026-08-22T14:09:39.084Z
+fetchedAt: 2026-08-22T19:19:11.689Z
 contentType: html
 via: party-site
+contentDigest: sha256-258e98aae762e784
+contentLength: 776
+sourceLastmod: 2026-06-12T03:56:57+00:00
 tags:
   - other
 stance: intervention
-licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Genom att skydda kronan i grundlagen säkerställs att beslut om att ersätta den svenska valutan endast kan fattas med brett folkligt stöd. Frågor av så stor betydelse för Sveriges ekonomi och självbestämmande ska ytterst avgöras av svenska folket.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi föreslår därför att den svenska kronan ges ett tydligt grundlagsskydd. Ett införande av euron skulle enligt oss innebära minskat nationellt inflytande över ekonomin och begränsade möjligheter att hantera kriser utifrån svenska förutsättningar. Erfarenheter från euroområdet visar att gemensam valuta kan tvinga länder in i ekonomiska beslut som inte är anpassade efter den egna ekonomin. Sveriges penningpolitik ska även fortsättningsvis formas demokratiskt i Sverige och inte flyttas till överstatliga beslutssystem.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

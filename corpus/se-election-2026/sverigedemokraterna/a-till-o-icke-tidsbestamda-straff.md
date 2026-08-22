@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Icke tidsbestämda straff
-sourceUrl: https://www.sd.se/a-till-o/icke-tidsbestamda-straff/
-canonicalUrl: https://www.sd.se/a-till-o/icke-tidsbestamda-straff
-fetchedAt: 2026-08-22T14:35:46.457Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Icke tidsbestämda straff"
+sourceUrl: "https://www.sd.se/a-till-o/icke-tidsbestamda-straff/"
+canonicalUrl: "https://www.sd.se/a-till-o/icke-tidsbestamda-straff"
+fetchedAt: "2026-08-22T19:45:27.854Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-c712417e4d5be235"
+contentLength: 815
+sourceLastmod: "2026-06-12T03:59:31+00:00"
 tags:
-  - crime-and-justice
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "crime-and-justice"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Det finns gärningsmän som är så farliga och destruktiva för sin omgivning att de helt enkelt inte bör släppas ut. Vi har därför varit med och utformat ett nytt straff där strafftiden kan förlängas om det finns stor risk att gärningsmannen återfaller i brottslighet. Straffet kallas säkerhetsförvaring och innebär att man dels döms till en minimitid, dels till en övre så kallad ramtid. Om det efter minimitidens utgång fortfarande bedöms absolut nödvändigt för att avhålla den dömde från att återfalla i allvarlig brottslighet kommer ramtiden att kunna förlängas med högst tre år i taget.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Det här straffet är avsett för den över 18 år som vid ett eller fler tillfällen begått allvarlig brottslighet som innefattar angrepp mot annans liv, hälsa, frihet eller frid och det finns en påtaglig risk för återfall.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

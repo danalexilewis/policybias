@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Tandvård
-sourceUrl: https://www.sd.se/a-till-o/tandvard/
-canonicalUrl: https://www.sd.se/a-till-o/tandvard
-fetchedAt: 2026-08-22T14:19:26.643Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Tandvård"
+sourceUrl: "https://www.sd.se/a-till-o/tandvard/"
+canonicalUrl: "https://www.sd.se/a-till-o/tandvard"
+fetchedAt: "2026-08-22T19:28:59.887Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-60ed7ece22565dc2"
+contentLength: 507
+sourceLastmod: "2026-06-12T03:57:53+00:00"
 tags:
-  - healthcare
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "healthcare"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Den 1 januari 2026 infördes Tiotandvården genom en överenskommelse mellan Sverigedemokraterna och regeringen. Den gör det mycket billigare för äldre (67+) att få nödvändig tandvård och innebär i korthet att patienten står för en tiondel av kostnaden. Sverigedemokraterna ser den här reformen som ett första steg, en reform att bygga vidare på. Patienten kommer även i framtiden att behöva betala en del av kostnaden, men vi ser gärna att tiotandvården omfattar fler åtgärder och större åldersgrupper.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

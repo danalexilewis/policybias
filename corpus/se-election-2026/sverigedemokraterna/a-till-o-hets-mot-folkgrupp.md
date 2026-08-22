@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Hets mot folkgrupp
-sourceUrl: https://www.sd.se/a-till-o/hets-mot-folkgrupp/
-canonicalUrl: https://www.sd.se/a-till-o/hets-mot-folkgrupp
-fetchedAt: 2026-08-22T14:31:38.711Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Hets mot folkgrupp"
+sourceUrl: "https://www.sd.se/a-till-o/hets-mot-folkgrupp/"
+canonicalUrl: "https://www.sd.se/a-till-o/hets-mot-folkgrupp"
+fetchedAt: "2026-08-22T19:41:13.231Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-421746349b233c31"
+contentLength: 567
+sourceLastmod: "2026-06-12T03:59:01+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Lagstiftningen om hets mot folkgrupp ska skydda människor mot hot och uppmaningar till våld, men samtidigt värna den grundlagsskyddade yttrandefriheten. Vi anser att tillämpningen av lagen i vissa fall har blivit alltför långtgående och riskerar att begränsa legitim samhällskritik och debatt.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Det ska vara möjligt att diskutera religion, kultur och samhällsproblem utan att riskera rättsliga påföljder. Lagstiftningen bör därför tillämpas med större tydlighet och fokus på verkliga hot och hatbrott, inte på åsiktsyttringar inom ramen för demokratisk debatt.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

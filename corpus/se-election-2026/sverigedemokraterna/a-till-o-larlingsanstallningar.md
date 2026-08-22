@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Lärlingsanställningar
-sourceUrl: https://www.sd.se/a-till-o/larlingsanstallningar/
-canonicalUrl: https://www.sd.se/a-till-o/larlingsanstallningar
-fetchedAt: 2026-08-22T14:29:38.921Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Lärlingsanställningar"
+sourceUrl: "https://www.sd.se/a-till-o/larlingsanstallningar/"
+canonicalUrl: "https://www.sd.se/a-till-o/larlingsanstallningar"
+fetchedAt: "2026-08-22T19:39:11.300Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-52d153fed8124949"
+contentLength: 529
+sourceLastmod: "2026-06-12T03:58:54+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Alla vill inte studera på universitet. Många vill i stället börja arbeta och få en inkomst så snabbt som möjligt. I stora delar av Europa finns olika former av lärlingsanställningar, där utbildning kombineras med arbete.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi anser att en sådan modell bör införas även i Sverige. Det skulle ge fler möjlighet att förena teoretiska studier med praktisk erfarenhet på en arbetsplats. Efter avslutad lärlingsanställning får studenten ett yrkesbevis och därmed bättre förutsättningar att snabbt etablera sig på arbetsmarknaden.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

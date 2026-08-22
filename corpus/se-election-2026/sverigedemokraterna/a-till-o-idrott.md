@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Idrott
-sourceUrl: https://www.sd.se/a-till-o/idrott/
-canonicalUrl: https://www.sd.se/a-till-o/idrott
-fetchedAt: 2026-08-22T14:32:42.757Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Idrott"
+sourceUrl: "https://www.sd.se/a-till-o/idrott/"
+canonicalUrl: "https://www.sd.se/a-till-o/idrott"
+fetchedAt: "2026-08-22T19:42:19.838Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-1b58c24c76816880"
+contentLength: 902
+sourceLastmod: "2026-06-12T03:59:20+00:00"
 tags:
-  - culture
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "culture"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Vi ser idrotten som en av Sveriges viktigaste folkrörelser. Den ger barn och unga en meningsfull fritid och bidrar till gemenskap, hälsa och personlig utveckling. Samtidigt måste vi värna elitidrottares förutsättningar att kunna genomföra långsiktiga satsningar, då elitidrotten är en viktig del av den nationella sammanhållningen och fungerar som en lägereld som för oss samman. Idrottens främsta uppgift är att främja rörelse, glädje och utveckling. Därför ska stödet till idrotten användas för just idrottens kärnverksamhet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Staten ska inte belasta idrottsrörelsen med andra samhällsuppdrag som riskerar att urholka det ideella engagemanget, exempelvis genom att ålägga den ett integrationspolitiskt ansvar. Vi vill istället skapa långsiktiga och rättvisa förutsättningar för idrotten i hela landet, där stöden når ut brett i syfte att möjliggöra deltagande för så många utövare som möjligt.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

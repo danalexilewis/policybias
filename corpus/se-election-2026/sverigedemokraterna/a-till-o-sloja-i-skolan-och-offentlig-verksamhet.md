@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Slöja i skolan och offentlig verksamhet
-sourceUrl: https://www.sd.se/a-till-o/sloja-i-skolan-och-offentlig-verksamhet/
-canonicalUrl: https://www.sd.se/a-till-o/sloja-i-skolan-och-offentlig-verksamhet
-fetchedAt: 2026-08-22T14:18:45.285Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Slöja i skolan och offentlig verksamhet"
+sourceUrl: "https://www.sd.se/a-till-o/sloja-i-skolan-och-offentlig-verksamhet/"
+canonicalUrl: "https://www.sd.se/a-till-o/sloja-i-skolan-och-offentlig-verksamhet"
+fetchedAt: "2026-08-22T19:28:19.199Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-13326d071dc5e8b1"
+contentLength: 510
+sourceLastmod: "2026-06-12T03:57:52+00:00"
 tags:
-  - education
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "education"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Skolan ska vara en trygg och jämställd miljö där barn utvecklas som fria individer. En plats fri från symboler kopplade till könssegregerade normer och social kontroll. I offentlig tjänst ska neutralitet gälla. Den som företräder staten ska inte bära religiösa eller politiska symboler i tjänsten. Offentlig verksamhet ska präglas av likabehandling, jämställdhet och respekt för svenska demokratiska värderingar. Vi vill införa ett förbud mot slöja i förskola och grundskola samt i all offentlig sektor.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

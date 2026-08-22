@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Stoppa fusket i yrkestrafiken
-sourceUrl: https://www.sd.se/a-till-o/stoppa-fusket-i-yrkestrafiken/
-canonicalUrl: https://www.sd.se/a-till-o/stoppa-fusket-i-yrkestrafiken
-fetchedAt: 2026-08-22T14:17:25.623Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Stoppa fusket i yrkestrafiken"
+sourceUrl: "https://www.sd.se/a-till-o/stoppa-fusket-i-yrkestrafiken/"
+canonicalUrl: "https://www.sd.se/a-till-o/stoppa-fusket-i-yrkestrafiken"
+fetchedAt: "2026-08-22T19:26:59.470Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-dda1d008d56eb7c2"
+contentLength: 297
+sourceLastmod: "2026-06-12T03:57:45+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna anser att det är nödvändigt att skärpa kontrollerna mot olagliga transporter, cabotagefusk och brott mot kör- och vilotidsreglerna. Svenska åkare ska inte konkurreras ut av fusk och lönedumpning. Det handlar om rättvisa villkor, fler trygga jobb och ökad trafiksäkerhet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

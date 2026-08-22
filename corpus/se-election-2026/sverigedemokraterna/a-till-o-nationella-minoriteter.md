@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Nationella minoriteter
-sourceUrl: https://www.sd.se/a-till-o/nationella-minoriteter/
-canonicalUrl: https://www.sd.se/a-till-o/nationella-minoriteter
-fetchedAt: 2026-08-22T14:28:38.110Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Nationella minoriteter"
+sourceUrl: "https://www.sd.se/a-till-o/nationella-minoriteter/"
+canonicalUrl: "https://www.sd.se/a-till-o/nationella-minoriteter"
+fetchedAt: "2026-08-22T19:38:10.485Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-ac7ad6ac6dc93c6a"
+contentLength: 379
+sourceLastmod: "2026-06-12T03:58:50+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sveriges nationella minoriteter är en del av Sverige. De utgör en del av vårt gemensamma kulturarv och deras språk och traditioner ska bevaras och göras mer tillgängliga. Vi vill stärka minoritetsspråkens ställning inom välfärden och säkerställa ett långsiktigt språkbevarande. Vi anser även att teckenspråket och älvdalskan bör ges en starkare status som minoritetsspråk.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

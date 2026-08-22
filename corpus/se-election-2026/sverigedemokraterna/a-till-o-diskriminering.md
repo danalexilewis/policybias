@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Diskriminering
-sourceUrl: https://www.sd.se/a-till-o/diskriminering/
-canonicalUrl: https://www.sd.se/a-till-o/diskriminering
-fetchedAt: 2026-08-22T14:41:55.320Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Diskriminering"
+sourceUrl: "https://www.sd.se/a-till-o/diskriminering/"
+canonicalUrl: "https://www.sd.se/a-till-o/diskriminering"
+fetchedAt: "2026-08-22T19:51:32.669Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-ed52f71b78ce9ab5"
+contentLength: 558
+sourceLastmod: "2026-06-12T04:00:08+00:00"
 tags:
-  - gender-equality
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "gender-equality"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Detta begrepp ska också innefatta svenskar som folkgrupp och svenskfientligheten som brett ut sig måste bekämpas. I Sverige är sju diskrimineringsgrunder skyddade enligt diskrimineringslagen. Det är förbjudet att missgynna eller kränka någon baserat på kön, könsöverskridande identitet eller uttryck, etnisk tillhörighet, religion/annan trosuppfattning, funktionsnedsättning, sexuell läggning eller ålder. Vi vill att diskrimineringsgrunderna istället ska ha en allmän skrivning om otillbörlig särbehandling. På det sättet utelämnas ingen som utsatts.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

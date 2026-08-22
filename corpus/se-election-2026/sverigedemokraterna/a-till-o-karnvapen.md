@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Kärnvapen
-sourceUrl: https://www.sd.se/a-till-o/karnvapen/
-canonicalUrl: https://www.sd.se/a-till-o/karnvapen
-fetchedAt: 2026-08-22T14:26:37.022Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Kärnvapen"
+sourceUrl: "https://www.sd.se/a-till-o/karnvapen/"
+canonicalUrl: "https://www.sd.se/a-till-o/karnvapen"
+fetchedAt: "2026-08-22T19:36:08.642Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-99d63402a3d72f73"
+contentLength: 790
+sourceLastmod: "2026-06-12T03:58:43+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Kärnvapen är ett massförstörelsevapen som kan åsamka mycket stor förödelse. Det finns ett behov av att avskräcka stater som Ryssland, Kina och Nordkorea från att använda kärnvapen och därför behöver demokratiska stater ha kärnvapen som avskräckning. Sverigedemokraterna stödjer därför Natos kärnvapenavskräckning. Ryssland och Kina håller på att stärka sin kärnvapenförmåga och Ryssland har en överlägsenhet gällande taktiska kärnvapen mot Nato. Därför anser Sverigedemokraterna att Natos kärnvapenavskräckning behöver stärkas. Detta står inte i motsatsförhållande till det långsiktiga målet om att åstadkomma avrustning, bland annat inom ramen för icke-spridningsfördragets mål. Detta kan dock inte ske utifrån en svaghet som riskerar att bjuda in till aggression eller utpressning.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

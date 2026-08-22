@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Kontanter
-sourceUrl: https://www.sd.se/a-till-o/kontanter/
-canonicalUrl: https://www.sd.se/a-till-o/kontanter
-fetchedAt: 2026-08-22T14:27:44.920Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Kontanter"
+sourceUrl: "https://www.sd.se/a-till-o/kontanter/"
+canonicalUrl: "https://www.sd.se/a-till-o/kontanter"
+fetchedAt: "2026-08-22T19:37:17.598Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-79c75932f0158068"
+contentLength: 719
+sourceLastmod: "2026-06-12T03:58:48+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill behålla kontanterna. Kontantavvecklingen i Sverige saknar motstycke i internationell jämförelse och risken är att kontanterna blir helt marginaliserade som betalningsmedel om denna utveckling tillåts att fortgå. Kontanterna är viktiga av flera skäl. Dels för att vissa samhällsgrupper lever i ett digitalt utanförskap och därför behöver kunna använda kontanter i sin vardag, exempelvis vissa äldre pensionärer och människor med funktionsvariationer. Kontanter är även viktig ur ett beredskapsperspektiv. Därför vill vi i enlighet med Kontantutredningen att vissa livsnödvändiga varor ska kunna betalas med kontanter. Sverige ska ha ett robust betalningssystem, där kontanter klart ingår!
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

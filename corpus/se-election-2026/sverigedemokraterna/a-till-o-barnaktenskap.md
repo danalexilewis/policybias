@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Barnäktenskap
-sourceUrl: https://www.sd.se/a-till-o/barnaktenskap/
-canonicalUrl: https://www.sd.se/a-till-o/barnaktenskap
-fetchedAt: 2026-08-22T14:46:09.558Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Barnäktenskap"
+sourceUrl: "https://www.sd.se/a-till-o/barnaktenskap/"
+canonicalUrl: "https://www.sd.se/a-till-o/barnaktenskap"
+fetchedAt: "2026-08-22T19:55:43.067Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-672ad405e38d5985"
+contentLength: 561
+sourceLastmod: "2026-06-12T04:00:26+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Barnäktenskap är oförenligt med barns rättigheter och svenska värderingar. I Sverige är det inte tillåtet för någon att gifta sig före 18 års ålder och inga barnäktenskap erkänns i svensk rätt, oavsett var de ingåtts. Vi vill säkerställa att denna ordning upprätthålls utan undantag, att lagstiftningen är strikt och att myndigheter har tydliga rutiner för att upptäcka och stoppa försök att föra barn utomlands för att giftas bort. Barnets rätt till trygghet, utbildning och självbestämmande ska alltid gå före familjens traditioner eller påtryckningar.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

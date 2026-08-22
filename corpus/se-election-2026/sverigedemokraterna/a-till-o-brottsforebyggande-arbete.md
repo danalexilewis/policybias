@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Brottsförebyggande arbete
-sourceUrl: https://www.sd.se/a-till-o/brottsforebyggande-arbete/
-canonicalUrl: https://www.sd.se/a-till-o/brottsforebyggande-arbete
-fetchedAt: 2026-08-22T14:42:47.716Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Brottsförebyggande arbete"
+sourceUrl: "https://www.sd.se/a-till-o/brottsforebyggande-arbete/"
+canonicalUrl: "https://www.sd.se/a-till-o/brottsforebyggande-arbete"
+fetchedAt: "2026-08-22T19:52:24.280Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-ee9b886084df2a10"
+contentLength: 795
+sourceLastmod: "2026-06-12T04:00:11+00:00"
 tags:
-  - crime-and-justice
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "crime-and-justice"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Trygga, välfungerande familjer är grunden. Vackra, välplanerade och väl upplysta bostadsområden skapar trygghet. En kunskapsbaserad skola där elever visar varandra och lärarna respekt är ett måste. Så är även en meningsfull fritid med goda förebilder som kan rädda många undan gängen. Splittring och segregering ska motverkas och sammanhållning uppmuntras. Den svenska kulturen har alla förutsättningar att skapa ett gott samhälle där medborgarna har social tillit till varandra och till myndigheterna.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+När någon hamnar fel är det viktigt att samhället griper in tidigt. Skola, sociala myndigheter och polisen behöver kunna dela information med varandra och ha rätt resurser att sätta in tidiga och vid behov tydliga insatser. Ju tidigare en kriminell karriär kan avbrytas, desto bättre.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

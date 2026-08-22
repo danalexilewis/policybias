@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Tillväxtåtgärder
-sourceUrl: https://www.sd.se/a-till-o/tillvaxtatgarder/
-canonicalUrl: https://www.sd.se/a-till-o/tillvaxtatgarder
-fetchedAt: 2026-08-22T14:18:33.751Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Tillväxtåtgärder"
+sourceUrl: "https://www.sd.se/a-till-o/tillvaxtatgarder/"
+canonicalUrl: "https://www.sd.se/a-till-o/tillvaxtatgarder"
+fetchedAt: "2026-08-22T19:28:07.716Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-fc4e9313ffcc9941"
+contentLength: 942
+sourceLastmod: "2026-06-12T03:57:50+00:00"
 tags:
-  - economy
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "economy"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna har drivit och kommer fortsätta driva tillväxtfrämjande politik. Den gånga mandatperioden har präglats av uppstädning från tidigare Socialdemokratisk regering med tullkrig, lågkonjunktur och svag tillväxt som följd. Vi har tillsammans med resterande Tidöpartier besegrat inflationen, byggt upp försvaret, satsat på hushållen och företagen för att stimulera ekonomin. Vi har kommit långt på vägen men är inte nöjda. Vi kommer fortsätta driva på för att sänka skattetrycken både för privatpersoner och företag, minimera byråkratiska hinder från EU, öka incitamenten att gå från bidrag till arbete, genomföra regelförenkling, förkorta tillståndsprocesser samt underlätta för FoU-intensiv näringsverksamhet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Tillväxt och produktion uppstår inte genom några enstaka lösningar, utan kräver en bred reformagenda med flera små och stora åtgärder som sammantaget får i gång ekonomin. Sverige ska ha tillväxt i världstoppen!
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Rymd
-sourceUrl: https://www.sd.se/a-till-o/rymd/
-canonicalUrl: https://www.sd.se/a-till-o/rymd
-fetchedAt: 2026-08-22T14:21:46.120Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Rymd"
+sourceUrl: "https://www.sd.se/a-till-o/rymd/"
+canonicalUrl: "https://www.sd.se/a-till-o/rymd"
+fetchedAt: "2026-08-22T19:31:21.066Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-6e894ad8ae5e21ca"
+contentLength: 619
+sourceLastmod: "2026-06-12T03:58:04+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Den tekniska utvecklingen och det säkerhetspolitiska omvärldsläget gör att rymden får allt större betydelse. Tjänsterna som tillhandahålls genom närvaro i rymden har också blivit viktigare för samhället. Sverige behöver stärka sin position i rymden för att kunna hävda våra intressen inom såväl civila som militära områden. Därför vill Sverigedemokraterna bland annat öka det nordiska samarbetet inom rymdfrågorna och verka för att Sverige får egen förmåga till satellituppskjutningar i omloppsbana. Sverigedemokraterna vill också utveckla samverkan med andra demokratiska rymdnationer såsom Israel och Sydkorea.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

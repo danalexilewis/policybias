@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Totalförsvarsplikt/Värnplikt
-sourceUrl: https://www.sd.se/a-till-o/totalforsvarsplikt-varnplikt/
-canonicalUrl: https://www.sd.se/a-till-o/totalforsvarsplikt-varnplikt
-fetchedAt: 2026-08-22T14:19:45.521Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Totalförsvarsplikt/Värnplikt"
+sourceUrl: "https://www.sd.se/a-till-o/totalforsvarsplikt-varnplikt/"
+canonicalUrl: "https://www.sd.se/a-till-o/totalforsvarsplikt-varnplikt"
+fetchedAt: "2026-08-22T19:29:21.494Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-5596fc7a764b18c4"
+contentLength: 799
+sourceLastmod: "2026-06-12T03:57:56+00:00"
 tags:
-  - defence
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "defence"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+I händelse av allvarlig kris och ytterst krig är rikets försvar en fråga för hela befolkningen, män såväl kvinnor, unga som gamla i åldrarna 16-70 år. I ett samhälle där vi lever tillsammans finns både rättigheter och skyldigheter. Kan man ta del av samhällets förmåner är man också skyldig att bidra till det gemensamma. Alla kan efter förmåga bidra med något, i Hemvärnet eller Försvarsmakten, på sjukhuset, på äldreboendet, på skolan, på bageriet eller bilverkstaden.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Sverige har historiskt sett haft en unikt hög försvarsvilja i jämförelse med många andra länder. Sverigedemokraterna anser att det är av stor vikt att vi tar ett gemensamt ansvar för varandra och vårt land. Vi har därför tillsammans med regeringen höjt ersättningen för värnpliktiga och kadetter på officersutbildningen.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

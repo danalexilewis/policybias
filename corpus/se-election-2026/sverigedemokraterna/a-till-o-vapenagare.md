@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Vapenägare
-sourceUrl: https://www.sd.se/a-till-o/vapenagare/
-canonicalUrl: https://www.sd.se/a-till-o/vapenagare
-fetchedAt: 2026-08-22T14:15:42.559Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Vapenägare"
+sourceUrl: "https://www.sd.se/a-till-o/vapenagare/"
+canonicalUrl: "https://www.sd.se/a-till-o/vapenagare"
+fetchedAt: "2026-08-22T19:25:18.283Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-36a4cf8630fb7fdb"
+contentLength: 765
+sourceLastmod: "2026-06-12T03:57:21+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+I Sverige ska det vara lätt för jägare och sportskyttar att ägna sig åt sitt intresse. När mandatperioden är slut kommer vi ha genomfört kraftiga lättnader för legala vapenägare. Bland annat ändras kraven för innehav av helautomatiska vapen och enhandsvapen från synnerliga till särskilda skäl. Femårstillicenserna slopas och ersätts av ett administrativt tillsynsförfarande. Det europeiska skjutvapenpasset införs för både jägare och sportskyttar. Det blir lättare att förvara vapen i fritidsboendet eller hos någon annan och det görs en uppdelning mellan brott som typiskt sett begås av illegala vapeninnehavare och andra typer av överträdelser mot vapenlagen. Framöver vill vi att hanteringen av vapenlicenser flyttas från Polisen till en annan myndighet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

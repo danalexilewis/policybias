@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Småföretagande
-sourceUrl: https://www.sd.se/a-till-o/smaforetagande/
-canonicalUrl: https://www.sd.se/a-till-o/smaforetagande
-fetchedAt: 2026-08-22T14:12:25.659Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Småföretagande"
+sourceUrl: "https://www.sd.se/a-till-o/smaforetagande/"
+canonicalUrl: "https://www.sd.se/a-till-o/smaforetagande"
+fetchedAt: "2026-08-22T19:21:57.965Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-0e30ce2a1ff7cb2c"
+contentLength: 808
+sourceLastmod: "2026-06-12T03:57:06+00:00"
 tags:
-  - economy
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "economy"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Entreprenörer och småföretag är motorn i svensk ekonomi och behöver tydliga, långsiktiga spelregler utan onödigt regelkrångel. Därför driver vi en offensiv politik för att minska administrativa kostnader och motverka myndighetsaktivism som hämmar företagandet. Förenklings- och Implementeringsrådet är etablerade, ett trettiotal myndigheter arbetar med regelförenkling och lättnader införs i skatte- och momshanteringen för tiotusentals mindre företag.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Trygghet är avgörande: resurserna till rättsväsendet stärks och straffen för mängdbrott skärps. Vi driver även sänkta sjuklönekostnader för små företag, stabil energiförsörjning, stärkt kompetensförsörjning, bättre infrastruktur och ökat stöd till Ung Företagsamhet. Målet är mer frihet, mindre byråkrati och tryggare villkor för Sveriges företag.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Kvotering
-sourceUrl: https://www.sd.se/a-till-o/kvotering/
-canonicalUrl: https://www.sd.se/a-till-o/kvotering
-fetchedAt: 2026-08-22T14:26:44.588Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Kvotering"
+sourceUrl: "https://www.sd.se/a-till-o/kvotering/"
+canonicalUrl: "https://www.sd.se/a-till-o/kvotering"
+fetchedAt: "2026-08-22T19:36:17.401Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-d0b60954c6dac1a8"
+contentLength: 227
+sourceLastmod: "2026-06-12T03:58:45+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Vi är kraftigt emot alla former av kvotering. Ingen ska diskrimineras på grund av kön, etnicitet eller sexuell läggning men ingen ska heller rekryteras utifrån det. Uppdrag och anställningar ska erhållas utifrån meriter.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

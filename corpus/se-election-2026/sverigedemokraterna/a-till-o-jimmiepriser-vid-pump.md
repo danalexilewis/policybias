@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Jimmiepriser vid pump
-sourceUrl: https://www.sd.se/a-till-o/jimmiepriser-vid-pump/
-canonicalUrl: https://www.sd.se/a-till-o/jimmiepriser-vid-pump
-fetchedAt: 2026-08-22T14:30:42.328Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Jimmiepriser vid pump"
+sourceUrl: "https://www.sd.se/a-till-o/jimmiepriser-vid-pump/"
+canonicalUrl: "https://www.sd.se/a-till-o/jimmiepriser-vid-pump"
+fetchedAt: "2026-08-22T19:40:17.231Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-e1ecc785a8dd9163"
+contentLength: 376
+sourceLastmod: "2026-06-12T03:58:58+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill avskaffa reduktionsplikten helt och har arbetat målmedvetet för att sänka priset vid pump och kommer att fortsätta göra det framöver. Klimatpolitiken ska vara realistisk och ge faktisk effekt utan att göra det dyrt att pendla, särskilt på landsbygden. Det ska gå att ta sig till jobb, skola och fritid i hela landet utan att plånboken spricker.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

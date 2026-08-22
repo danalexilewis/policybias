@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Nationellt handlingsplan för trygga bostadsområden
-sourceUrl: https://www.sd.se/a-till-o/nationellt-handlingsplan-for-trygga-bostadsomraden/
-canonicalUrl: https://www.sd.se/a-till-o/nationellt-handlingsplan-for-trygga-bostadsomraden
-fetchedAt: 2026-08-22T14:26:40.873Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Nationellt handlingsplan för trygga bostadsområden"
+sourceUrl: "https://www.sd.se/a-till-o/nationellt-handlingsplan-for-trygga-bostadsomraden/"
+canonicalUrl: "https://www.sd.se/a-till-o/nationellt-handlingsplan-for-trygga-bostadsomraden"
+fetchedAt: "2026-08-22T19:36:12.768Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-5859dbc5425a5ec2"
+contentLength: 739
+sourceLastmod: "2026-06-12T03:58:44+00:00"
 tags:
-  - housing
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "housing"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill ta fram en nationell handlingsplan som ska fungera som en handbok för kommuner och andra aktörer för att identifiera otrygga områden och välja åtgärder. Vi ser att trygghet behöver byggas in redan i planering och byggfas och inte bara hanteras i efterhand. Åtgärder som det kan handla om är bättre belysning, kameraövervakning och andra trygghetsskapande inslag i den fysiska miljön, samt samverkan med polis och lokala aktörer.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+I vårt bostadspolitiska material kopplas trygghetsfrågan också till ett bredare paket för att få ordning på bostadsmarknaden och minska segregation/otrygghet. Grundlogiken är att tydliga nationella ramar ska göra att fler kommuner faktiskt genomför beprövade trygghetsåtgärder.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Funktionshinder på arbetsmarknaden
-sourceUrl: https://www.sd.se/a-till-o/funktionshinder-pa-arbetsmarknaden/
-canonicalUrl: https://www.sd.se/a-till-o/funktionshinder-pa-arbetsmarknaden
-fetchedAt: 2026-08-22T14:38:54.948Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Funktionshinder på arbetsmarknaden"
+sourceUrl: "https://www.sd.se/a-till-o/funktionshinder-pa-arbetsmarknaden/"
+canonicalUrl: "https://www.sd.se/a-till-o/funktionshinder-pa-arbetsmarknaden"
+fetchedAt: "2026-08-22T19:48:35.719Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-e58e1fafa4b812e8"
+contentLength: 428
+sourceLastmod: "2026-06-12T03:59:45+00:00"
 tags:
-  - employment
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "employment"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Personer med funktionsnedsättningar som medför nedsatt arbetsförmåga ska erbjudas stöd för att kunna komma ut i arbete. Vissa har varaktiga funktionsnedsättningar och behöver därför långsiktigt stöd, till exempel genom subventionerade anställningar. Vi är positiva till de stöd som redan finns och avser att både stärka dessa insatser och ställa tydliga krav på Arbetsförmedlingen att utveckla sitt stöd till denna grupp.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Nato ur en militär synpunkt
-sourceUrl: https://www.sd.se/a-till-o/nato-ur-en-militar-synpunkt/
-canonicalUrl: https://www.sd.se/a-till-o/nato-ur-en-militar-synpunkt
-fetchedAt: 2026-08-22T14:26:33.438Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Nato ur en militär synpunkt"
+sourceUrl: "https://www.sd.se/a-till-o/nato-ur-en-militar-synpunkt/"
+canonicalUrl: "https://www.sd.se/a-till-o/nato-ur-en-militar-synpunkt"
+fetchedAt: "2026-08-22T19:36:04.554Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-24bd17fe919ee9a9"
+contentLength: 745
+sourceLastmod: "2026-06-12T03:58:43+00:00"
 tags:
-  - defence
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "defence"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Det osäkra omvärldsläget har drastiskt påverkat synen på omvärlden och ökat behovet av att samarbeta med främst våra nordiska och baltiska grannländer. Natomedlemskapet har inneburit att Sverige äntligen har alla förutsättningar för ett fördjupat försvarssamarbete över hela skalan.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Sverige ska tillsammans med våra nordiska och baltiska grannländer och allierade samarbetspartners försvara vår del av den norra flanken i händelse av att Ukrainakriget skulle sprida sig. Rysslands fullskaliga invasion av Ukraina visar att landet inte är en del av det civiliserade Europa och den europeiska gemenskapen. Det är avgörande för svensk säkerhet att vi kan stå enade inom ramen för Nato tillsammans med våra grannländer och samarbetspartners.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

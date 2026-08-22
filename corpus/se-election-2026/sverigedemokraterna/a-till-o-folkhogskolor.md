@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Folkhögskolor
-sourceUrl: https://www.sd.se/a-till-o/folkhogskolor/
-canonicalUrl: https://www.sd.se/a-till-o/folkhogskolor
-fetchedAt: 2026-08-22T14:34:49.104Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Folkhögskolor"
+sourceUrl: "https://www.sd.se/a-till-o/folkhogskolor/"
+canonicalUrl: "https://www.sd.se/a-till-o/folkhogskolor"
+fetchedAt: "2026-08-22T19:44:28.632Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-82ea9cc3be6d7476"
+contentLength: 726
+sourceLastmod: "2026-06-12T03:59:28+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Vi ser folkhögskolorna som en viktig del av svensk folkbildning, men vi menar att verksamheten behöver stärkas och renodlas. Allmän kurs ska även fortsättningsvis vara en möjlighet för dem som behöver en andra chans i utbildningssystemet, men folkhögskolorna får inte reduceras till ett ”reserv-komvux”. Deras särart måste värnas, så att folkbildningens unika pedagogik och syfte kan bestå.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Samtidigt måste elever som studerar på folkhögskola ges rättvisa och likvärdiga villkor. Därför vill vi säkerställa en ökad likvärdighet i betygssättningen mellan folkhögskolan och komvux. Vi vill även satsa på de yrkes- och utbildningsinslag inom folkhögskolorna som leder till arbete och stärkt etablering på arbetsmarknaden.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

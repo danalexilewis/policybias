@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Näringslivets roll i totalförsvaret
-sourceUrl: https://www.sd.se/a-till-o/naringslivets-roll-i-totalforsvaret/
-canonicalUrl: https://www.sd.se/a-till-o/naringslivets-roll-i-totalforsvaret
-fetchedAt: 2026-08-22T14:27:29.521Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Näringslivets roll i totalförsvaret"
+sourceUrl: "https://www.sd.se/a-till-o/naringslivets-roll-i-totalforsvaret/"
+canonicalUrl: "https://www.sd.se/a-till-o/naringslivets-roll-i-totalforsvaret"
+fetchedAt: "2026-08-22T19:37:01.128Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-93149aa078ea1068"
+contentLength: 761
+sourceLastmod: "2026-06-12T03:58:46+00:00"
 tags:
-  - defence
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "defence"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Vi kan utan överdrift konstatera att näringslivet idag är Totalförsvaret, i princip alla tjänster och produkter produceras av privata företag. Det innebär att staten och näringslivet behöver arbeta aktivt tillsammans för att hitta en lösning på hur systemet ska fungera i händelse av långvarig kris och ytterst krig. Erfarenheterna från Coronakrisen visar att det finns ett stort engagemang och vilja bland företag att vilja hjälpa till och vara en del av totalförsvaret.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Sverigedemokraterna anser att vi behöver hitta en långsiktig och hållbar lösning som väger både kostnader, risker och frivillighet mot varandra. I grunden tror vi på frivilligt engagemang men att staten också kan och behöver arbeta mer aktivt med att utveckla regler för statsstöd.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

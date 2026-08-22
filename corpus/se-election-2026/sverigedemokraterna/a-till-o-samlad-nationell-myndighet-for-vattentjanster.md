@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Samlad nationell myndighet för vattentjänster
-sourceUrl: https://www.sd.se/a-till-o/samlad-nationell-myndighet-for-vattentjanster/
-canonicalUrl: https://www.sd.se/a-till-o/samlad-nationell-myndighet-for-vattentjanster
-fetchedAt: 2026-08-22T14:14:30.583Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Samlad nationell myndighet för vattentjänster"
+sourceUrl: "https://www.sd.se/a-till-o/samlad-nationell-myndighet-for-vattentjanster/"
+canonicalUrl: "https://www.sd.se/a-till-o/samlad-nationell-myndighet-for-vattentjanster"
+fetchedAt: "2026-08-22T19:24:04.409Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-dc67a9be86652802"
+contentLength: 706
+sourceLastmod: "2026-06-12T03:57:15+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna driver på för tydligare nationell samordning kring vatten och avlopp, med utgångspunkt i att VA-frågor är kritiska för både samhällsservice och beredskap. En samlad nationell myndighet är ett sätt att få bättre överblick, likvärdighet och stöd till kommuner som står inför stora investeringar i VA-infrastruktur.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi vill att styrning, uppföljning och krav ska bli mer konsekventa över landet, så att brister upptäcks tidigt och åtgärdas snabbare. Det handlar också om att hantera sårbarheter, exempelvis, torka, föroreningar och kapacitetsbrist mer systematiskt. Vi vill därför se en nationell vattensamordning och att statens insatser gentemot kommunerna ska bli mer effektiva.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

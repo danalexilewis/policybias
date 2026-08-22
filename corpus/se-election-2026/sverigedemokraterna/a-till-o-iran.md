@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Iran
-sourceUrl: https://www.sd.se/a-till-o/iran/
-canonicalUrl: https://www.sd.se/a-till-o/iran
-fetchedAt: 2026-08-22T14:33:47.066Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Iran"
+sourceUrl: "https://www.sd.se/a-till-o/iran/"
+canonicalUrl: "https://www.sd.se/a-till-o/iran"
+fetchedAt: "2026-08-22T19:43:27.778Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-fc02c9c83bd90b59"
+contentLength: 900
+sourceLastmod: "2026-06-12T03:59:25+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Iran under islamistregimen har blivit ett centrum för mycket av vår tids ondska – i Israel, Yemen, Libanon och på andra håll i regionen. Men kanske allra mest i Iran självt, där den egna befolkningen dagligen utsätts för förtryck, våld och avrättningar. Regimens inflytande märks också i Ukraina, och till och med här hemma har den iranska regimen visat att den försöker påverka och undergräva våra samhällen. Iran stöttar aktivt Rysslands krigföring i Ukraina och har också använt gängkriminella för att utföra attacker på svensk mark. Irans kärnvapen- och robotprogram utgör också hot mot Europa.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Sverigedemokraterna har därför under lång tid bland annat verkat för ökade sanktioner mot landet, terrorstämpling av det iranska revolutionsgardet, att ansvariga för den iranska regimens brott mot mänskligheten ställs inför rätta och att svenska institutioner ska avbryta samverkan med landet.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

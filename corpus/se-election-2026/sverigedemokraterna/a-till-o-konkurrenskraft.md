@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Konkurrenskraft
-sourceUrl: https://www.sd.se/a-till-o/konkurrenskraft/
-canonicalUrl: https://www.sd.se/a-till-o/konkurrenskraft
-fetchedAt: 2026-08-22T14:30:38.265Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Konkurrenskraft"
+sourceUrl: "https://www.sd.se/a-till-o/konkurrenskraft/"
+canonicalUrl: "https://www.sd.se/a-till-o/konkurrenskraft"
+fetchedAt: "2026-08-22T19:40:12.664Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-49ff2400d1cdcb3d"
+contentLength: 760
+sourceLastmod: "2026-06-12T03:58:58+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+En stark industri är helt avgörande för Sveriges och Europas konkurrenskraft och framtida välstånd. Vi menar att svenska företag ska kunna producera, investera och växa här hemma och inte tvingas flytta utomlands på grund av höga kostnader, långa tillståndsprocesser eller onödigt regelkrångel. Därför vill vi sänka företagens kostnader för energi och transporter, göra tillståndsprocesser snabbare och mer förutsägbara samt skapa en stabil, teknikneutral industri- och klimatpolitik.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi betonar också vikten av frihandel, säkra leveranskedjor och god tillgång till råvaror och kvalificerad arbetskraft. Målet är att Sverige ska vara ett land där industrin får rätt villkor att konkurrera globalt och där jobben och investeringarna blir fler i Sverige.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

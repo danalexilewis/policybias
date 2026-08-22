@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Besöksnäring
-sourceUrl: https://www.sd.se/a-till-o/besoksnaring/
-canonicalUrl: https://www.sd.se/a-till-o/besoksnaring
-fetchedAt: 2026-08-22T14:46:01.437Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Besöksnäring"
+sourceUrl: "https://www.sd.se/a-till-o/besoksnaring/"
+canonicalUrl: "https://www.sd.se/a-till-o/besoksnaring"
+fetchedAt: "2026-08-22T19:55:34.654Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-009aa269b45f0629"
+contentLength: 663
+sourceLastmod: "2026-06-12T04:00:25+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverige har starka förutsättningar för en växande turist- och besöksnäring tack vare vår natur, kultur och växande inhemsk turism. Näringen är arbetskraftsintensiv och viktig för hela landet men hämmas av bristande infrastruktur, regelkrångel och konkurrens om mark från renskötseln. Ett fortsatt arbete för förenklade regelverk och satsningar på vägar, järnvägar och regionala flygplatser behövs. Gårdsförsäljning är populärt bland såväl inhemska som utländska turister och företagarna ska få verka friare än idag. Fjällturism och lokala marknader behöver bättre förutsättningar. För en stark Sverigebild utomlands krävs trygghet, ordning och god service.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

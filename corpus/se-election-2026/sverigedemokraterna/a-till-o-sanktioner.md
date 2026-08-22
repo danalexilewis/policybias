@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Sanktioner
-sourceUrl: https://www.sd.se/a-till-o/sanktioner/
-canonicalUrl: https://www.sd.se/a-till-o/sanktioner
-fetchedAt: 2026-08-22T14:21:42.073Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Sanktioner"
+sourceUrl: "https://www.sd.se/a-till-o/sanktioner/"
+canonicalUrl: "https://www.sd.se/a-till-o/sanktioner"
+fetchedAt: "2026-08-22T19:31:16.056Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-389dd8a2fc976b98"
+contentLength: 576
+sourceLastmod: "2026-06-12T03:58:03+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna ser sanktioner som ett effektivt vapen mot auktoritära regimer om dessa används rätt. Det kan då handla om riktade sanktioner mot makthavare och deras släktingar eller sanktioner mot olika varor som särskilt kan påverka en regim. EU:s gemensamma sanktioner är många gånger inte tillräckliga och det finns ett behov av att Sverige går före precis som exempelvis Litauen har gjort och inför nationella sanktioner när det finns sådant behov. Exempel på detta är iranska makthavare och radikala organisationer som Al-Mustafa internationella universitet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

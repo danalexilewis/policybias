@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Spelpolitik
-sourceUrl: https://www.sd.se/a-till-o/spelpolitik/
-canonicalUrl: https://www.sd.se/a-till-o/spelpolitik
-fetchedAt: 2026-08-22T14:11:25.087Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Spelpolitik"
+sourceUrl: "https://www.sd.se/a-till-o/spelpolitik/"
+canonicalUrl: "https://www.sd.se/a-till-o/spelpolitik"
+fetchedAt: "2026-08-22T19:20:57.796Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-3de2d115369252ed"
+contentLength: 559
+sourceLastmod: "2026-06-12T03:57:02+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Vi vill ha en spelpolitik som sätter människors hälsa först. Därför behövs ett starkt skydd för konsumenter. Illegala spelbolag ska stoppas och samhället ska jobba aktivt mot spelberoende. Spelreklam ska vara tydligt reglerad och inte påträngande. Det ska vara lätt att veta vilka spelbolag som har licens och följer reglerna. Verktyg som Spelpaus ska stärkas, så att det är enkelt att ta en paus från spel när det behövs. Samtidigt ska olicensierade spelbolag bekämpas. Målet är en trygg och ansvarsfull spelmarknad där folkhälsan alltid kommer först.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

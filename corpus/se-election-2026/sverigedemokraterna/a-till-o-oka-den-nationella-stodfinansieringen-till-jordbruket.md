@@ -4,18 +4,19 @@ party: sverigedemokraterna
 title: Öka den nationella stödfinansieringen till jordbruket
 sourceUrl: https://www.sd.se/a-till-o/oka-den-nationella-stodfinansieringen-till-jordbruket/
 canonicalUrl: https://www.sd.se/a-till-o/oka-den-nationella-stodfinansieringen-till-jordbruket
-fetchedAt: 2026-08-22T14:08:34.755Z
+fetchedAt: 2026-08-22T19:18:08.085Z
 contentType: html
 via: party-site
+contentDigest: sha256-34e2f35944cc87b8
+contentLength: 519
+sourceLastmod: 2026-06-12T03:56:52+00:00
 tags:
   - agriculture
 stance: intervention
-licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+EU-budgeten för jordbruket kommer att minska vilket vi beklagar. Marginalerna är redan små. Därför måste Sverige se till att öka den nationella finansieringen i stödsystemet. Det kan gälla beredskapsstödet för robust odling, investeringsstöd för vattenhushållning och stallbyggnation. Öppna även för att också arrendatorer ska kunna söka vissa stöd. Vidare vill vi ta bort de tak för stöd kopplat till omsättning som föreslås i nya CAP, man ska inte missgynnas för att man driver en lönsam verksamhet som växer.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

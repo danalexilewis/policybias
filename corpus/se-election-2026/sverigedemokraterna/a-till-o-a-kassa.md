@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: A-kassa
-sourceUrl: https://www.sd.se/a-till-o/a-kassa/
-canonicalUrl: https://www.sd.se/a-till-o/a-kassa
-fetchedAt: 2026-08-22T14:46:54.206Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "A-kassa"
+sourceUrl: "https://www.sd.se/a-till-o/a-kassa/"
+canonicalUrl: "https://www.sd.se/a-till-o/a-kassa"
+fetchedAt: "2026-08-22T19:56:25.804Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-edcbc9eaf45f7bdb"
+contentLength: 621
+sourceLastmod: "2026-06-12T04:00:28+00:00"
 tags:
-  - social-welfare
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "social-welfare"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Under mandatperioden har vi genomfört flera viktiga förändringar i a-kassan. Taket har höjts till 34 000 kronor i månaden och reglerna har ändrats så att fler nu har möjlighet att få ersättning. Ersättningen baseras idag på tidigare inkomst som är dokumenterad hos Skatteverket, vilket både gör systemet mer rättvist och minskar risken för fusk. På sikt vill vi förstatliga a-kassan för att säkerställa ekonomisk trygghet vid arbetslöshet för alla löntagare. Alla som arbetar är med och finansierar a-kassan genom den avgift som arbetsgivare betalar för sina anställda och därför ska också tryggheten omfatta alla.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

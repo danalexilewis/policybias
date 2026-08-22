@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Kommunalt- och regionalt ansvar vid kris och höjd beredskap
-sourceUrl: https://www.sd.se/a-till-o/kommunalt-och-regionalt-ansvar-vid-kris-och-hojd-beredskap/
-canonicalUrl: https://www.sd.se/a-till-o/kommunalt-och-regionalt-ansvar-vid-kris-och-hojd-beredskap
-fetchedAt: 2026-08-22T14:30:46.445Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Kommunalt- och regionalt ansvar vid kris och höjd beredskap"
+sourceUrl: "https://www.sd.se/a-till-o/kommunalt-och-regionalt-ansvar-vid-kris-och-hojd-beredskap/"
+canonicalUrl: "https://www.sd.se/a-till-o/kommunalt-och-regionalt-ansvar-vid-kris-och-hojd-beredskap"
+fetchedAt: "2026-08-22T19:40:21.403Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-661f025cc435baa5"
+contentLength: 677
+sourceLastmod: "2026-06-12T03:58:59+00:00"
 tags:
-  - defence
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "defence"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Kommunal- och regional krisberedskap och planering inför långvarig kris och höjd beredskap är en kärnuppgift vid sidan av skola, vård och omsorg. Förutsättningarna för ett starkt civilt försvar börjar i kommuner- och regioner där verksamheterna har lagstadgade krav på sig att göra förberedelser för att kunna driva sin verksamhet under kris och krig. Sverigedemokraterna tar frågan på stort allvar och i många av våra kommuner och regioner där vi är representerade har man påbörjat arbetet med att säkerställa reservkraft vid äldreboenden och skolor, vattenrening, krisplaner med mera. Kommuner och regioner behöver i större utsträckning återgå till sin kärnverksamhet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Militärt försvar
-sourceUrl: https://www.sd.se/a-till-o/militart-forsvar/
-canonicalUrl: https://www.sd.se/a-till-o/militart-forsvar
-fetchedAt: 2026-08-22T14:23:43.417Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Militärt försvar"
+sourceUrl: "https://www.sd.se/a-till-o/militart-forsvar/"
+canonicalUrl: "https://www.sd.se/a-till-o/militart-forsvar"
+fetchedAt: "2026-08-22T19:33:15.922Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-3670e759639457b2"
+contentLength: 735
+sourceLastmod: "2026-06-12T03:58:11+00:00"
 tags:
-  - defence
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "defence"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Ett starkt försvar har varit en av Sverigedemokraternas kärnfrågor under alla år som partiet varit verksamt. När de etablerade partierna avvecklade och försämrade den svenska försvarsförmågan har vi stått på oss. Det krigsavhållande försvaret ska vara utformat för morgondagens utmaningar och inte den dagsaktuella hotbilden. Det svenska försvaret ska kunna hävda svenska intressen i Östersjön, på ytan såväl i luften. Armén ska tillsammans med våra allierade kunna slå ett fientligt angrepp om situationen kräver.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Under mandatperioden har vi därför stärkt Försvarsmaktens finansiering, lagt långsiktiga beställningar till försvarsindustrin och satsat på att vårt försvar har bästa möjliga förutsättningar att försvara Sverige.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Kriminell ekonomi
-sourceUrl: https://www.sd.se/a-till-o/kriminell-ekonomi/
-canonicalUrl: https://www.sd.se/a-till-o/kriminell-ekonomi
-fetchedAt: 2026-08-22T14:29:50.022Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Kriminell ekonomi"
+sourceUrl: "https://www.sd.se/a-till-o/kriminell-ekonomi/"
+canonicalUrl: "https://www.sd.se/a-till-o/kriminell-ekonomi"
+fetchedAt: "2026-08-22T19:39:24.194Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-46201b2b256652fc"
+contentLength: 752
+sourceLastmod: "2026-06-12T03:58:56+00:00"
 tags:
-  - economy
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "economy"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Den kriminella ekonomin genererar 185 miljarder i vinst varje år. Det är hisnande siffror och måste motverkas med kraft. Vi har infört regler som gör det lättare att beslagta pengar, lyxprylar, fordon och till och med hus från kriminella som inte kan visa att de köpt eller tjänat dessa på ett hederligt sätt. Under mandatperioden kommer vi också att skärpa straffet för penningtvättbrott och olagliga transaktioner. Men vi vill mer. Myndigheterna måste ges ännu bättre förutsättningar att beslagta de kriminellas egendom. Dessutom behövs en särlagstiftning för gängkriminella och deras närstående för att lättare kunna följa deras banktransaktioner och affärer. Överlag behöver systemen ses över så att det blir svårare att tjäna svarta pengar.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

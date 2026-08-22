@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Tjänstemannaansvar
-sourceUrl: https://www.sd.se/a-till-o/tjanstemannaansvar/
-canonicalUrl: https://www.sd.se/a-till-o/tjanstemannaansvar
-fetchedAt: 2026-08-22T14:47:55.627Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Tjänstemannaansvar"
+sourceUrl: "https://www.sd.se/a-till-o/tjanstemannaansvar/"
+canonicalUrl: "https://www.sd.se/a-till-o/tjanstemannaansvar"
+fetchedAt: "2026-08-22T19:57:25.591Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-8674463dba763d91"
+contentLength: 444
+sourceLastmod: "2026-08-19T09:24:41+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Förtroendet för staten bygger på att offentliga tjänstemän följer lagar och fattar beslut på saklig och opartiskt grund. Tillsammans med regeringen har vi nu infört ett nytt brott för tjänstemän som missbrukar sin offentliga ställning samt skärpt straffen för grovt tjänstefel. Tjänstemän som medvetet missbrukar sin makt ska självklart kunna ställas till svars. Det stärker rättssäkerheten och medborgarnas förtroende för myndigheterna.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

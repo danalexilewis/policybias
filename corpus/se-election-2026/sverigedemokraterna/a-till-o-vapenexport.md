@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Vapenexport
-sourceUrl: https://www.sd.se/a-till-o/vapenexport/
-canonicalUrl: https://www.sd.se/a-till-o/vapenexport
-fetchedAt: 2026-08-22T14:17:29.586Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Vapenexport"
+sourceUrl: "https://www.sd.se/a-till-o/vapenexport/"
+canonicalUrl: "https://www.sd.se/a-till-o/vapenexport"
+fetchedAt: "2026-08-22T19:27:03.596Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-35799edfe301951c"
+contentLength: 712
+sourceLastmod: "2026-06-12T03:57:46+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna ser krigsmaterielexporten som nödvändig för ett starkt försvar och svensk självständighet. Krigsmaterielexporten måste kombineras med noggrann statlig kontroll. Sverigedemokraterna ser positivt på att Sverige har en omfattande högteknologisk industri som kan ta fram materiel till vårt försvar och genom export bidra till att andra stater kan försvara sig, något som vi ser som en grundläggande uppgift för varje stat. Kontrollen av krigsmateriel behöver bli mer effektiv genom bland annat stärka kompetensen hos myndigheten som kontrollerar dessa produkter. Småföretagande inom detta område behöver också värnas så att nya idéer kan växa och inte onödig byråkrati hindrar företagande.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

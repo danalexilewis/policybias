@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Välfärdsbrottslighet
-sourceUrl: https://www.sd.se/a-till-o/valfardsbrottslighet/
-canonicalUrl: https://www.sd.se/a-till-o/valfardsbrottslighet
-fetchedAt: 2026-08-22T14:16:24.699Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Välfärdsbrottslighet"
+sourceUrl: "https://www.sd.se/a-till-o/valfardsbrottslighet/"
+canonicalUrl: "https://www.sd.se/a-till-o/valfardsbrottslighet"
+fetchedAt: "2026-08-22T19:25:59.257Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-c772dd4d7fe49762"
+contentLength: 695
+sourceLastmod: "2026-06-12T03:57:21+00:00"
 tags:
-  - crime-and-justice
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "crime-and-justice"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Välfärdsbrottslighet är ett omfattande samhällsproblem som har vuxit enormt. Förutom ”vanligt” bidragsfusk ser vi nu att organiserad brottslighet utnyttjar till exempel assistansersättning och äldreboenden för att tillskansa sig pengar. Mycket av detta har tyvärr koppling till de senaste decenniernas misslyckade migrationspolitik. Sverigedemokraterna och Tidö-regeringen har agerat. Tillsynen inom hälso- och sjukvård, tandvård, omsorg och stödboenden har förstärkts och Försäkringskassan har numera rätt att frysa tillgångar hos personer som fuskat sig till ersättningar. Men det behövs mer. Kontrollerna måste bli ännu hårdare så att samhället kan förhindra denna typ av brottslighet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

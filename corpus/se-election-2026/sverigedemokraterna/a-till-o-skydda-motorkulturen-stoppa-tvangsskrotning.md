@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
+type: "crawled-page"
+party: "sverigedemokraterna"
 title: "Skydda motorkulturen: stoppa tvångsskrotning"
-sourceUrl: https://www.sd.se/a-till-o/skydda-motorkulturen-stoppa-tvangsskrotning/
-canonicalUrl: https://www.sd.se/a-till-o/skydda-motorkulturen-stoppa-tvangsskrotning
-fetchedAt: 2026-08-22T14:19:38.051Z
-contentType: html
-via: party-site
+sourceUrl: "https://www.sd.se/a-till-o/skydda-motorkulturen-stoppa-tvangsskrotning/"
+canonicalUrl: "https://www.sd.se/a-till-o/skydda-motorkulturen-stoppa-tvangsskrotning"
+fetchedAt: "2026-08-22T19:29:11.392Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-5f61f27b50bea9ef"
+contentLength: 312
+sourceLastmod: "2026-06-12T03:57:54+00:00"
 tags:
-  - culture
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "culture"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Vi säger nej till regler som tränger undan äldre bilar, veteranfordon och entusiastfordon. Motorkulturen är en folkrörelse med djupa rötter och en självklar del av det svenska kulturarvet. Därför vill vi bevara 30- och 50-årsreglerna, som innebär skattebefrielse och besiktningsbefrielse för äldre fordon.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

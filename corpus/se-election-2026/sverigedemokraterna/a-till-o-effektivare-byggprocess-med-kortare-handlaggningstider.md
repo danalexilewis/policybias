@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Effektivare byggprocess med kortare handläggningstider
-sourceUrl: https://www.sd.se/a-till-o/effektivare-byggprocess-med-kortare-handlaggningstider/
-canonicalUrl: https://www.sd.se/a-till-o/effektivare-byggprocess-med-kortare-handlaggningstider
-fetchedAt: 2026-08-22T14:38:42.087Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Effektivare byggprocess med kortare handläggningstider"
+sourceUrl: "https://www.sd.se/a-till-o/effektivare-byggprocess-med-kortare-handlaggningstider/"
+canonicalUrl: "https://www.sd.se/a-till-o/effektivare-byggprocess-med-kortare-handlaggningstider"
+fetchedAt: "2026-08-22T19:48:23.780Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-5a88afc38f35f86a"
+contentLength: 698
+sourceLastmod: "2026-06-12T03:59:43+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill att byggprocessen ska bli mer “industrilogisk”. Det vill säga att samma lösning ska bedömas likartat i olika kommuner och digitala arbetssätt ska minska flaskhalsar. Vi driver standardisering/typgodkännande (Sverigehuset) som ett sätt att kapa tid i projektering och myndighetskontakter. Vi vill också minska mängden regelkrockar genom att se över nationella intressen och strandskyddsregler som kan skapa långdragna processer. Vi ser även behov av bättre systemstöd och digitalisering i bygglovshanteringen för att snabba på hanteringen. Grundtanken är att kortare handläggningstid både sänker finansieringskostnader och gör att fler projekt överhuvudtaget blir av.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

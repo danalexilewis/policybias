@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Rättspsykiatrisk vård
-sourceUrl: https://www.sd.se/a-till-o/rattspsykiatrisk-vard/
-canonicalUrl: https://www.sd.se/a-till-o/rattspsykiatrisk-vard
-fetchedAt: 2026-08-22T14:21:34.564Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Rättspsykiatrisk vård"
+sourceUrl: "https://www.sd.se/a-till-o/rattspsykiatrisk-vard/"
+canonicalUrl: "https://www.sd.se/a-till-o/rattspsykiatrisk-vard"
+fetchedAt: "2026-08-22T19:31:08.077Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-f50b836ec1767201"
+contentLength: 666
+sourceLastmod: "2026-06-12T03:58:02+00:00"
 tags:
-  - healthcare
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "healthcare"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Rättspsykiatrisk vård är en form av tvångsvård som är till för personer som har begått allvarliga brott under påverkan av en allvarlig psykisk störning. Vården syftar till behandling av den psykiska sjukdomen, samtidigt som risken för återfall i allvarlig brottslighet ska minska. Idag fungerar vårdformen inte optimalt på grund av personalbrist, långa vårdköer och brist på platser, vilket leder till att vissa patienter står utan adekvat vård. Sverigedemokraterna anser att staten måste ta ett större ansvar, inte minst ekonomiskt, för att säkerställa att lagen om rättspsykiatrisk vård efterlevs och att behovet av fasta slutenvårdsplatser kan tillgodoses.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

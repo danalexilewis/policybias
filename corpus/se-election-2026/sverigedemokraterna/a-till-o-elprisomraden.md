@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Elprisområden
-sourceUrl: https://www.sd.se/a-till-o/elprisomraden/
-canonicalUrl: https://www.sd.se/a-till-o/elprisomraden
-fetchedAt: 2026-08-22T14:38:58.706Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Elprisområden"
+sourceUrl: "https://www.sd.se/a-till-o/elprisomraden/"
+canonicalUrl: "https://www.sd.se/a-till-o/elprisomraden"
+fetchedAt: "2026-08-22T19:48:40.837Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-4805e7cc23b686a4"
+contentLength: 717
+sourceLastmod: "2026-06-12T03:59:46+00:00"
 tags:
-  - energy
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "energy"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Tidöpartierna har lagt om energipolitiken eftersom systemet, till följd av nedlagd kärnkraft, inte längre gav den stabilitet, prisnivå eller robusthet som efterfrågas. Den miljöpartistiska energipolitiken slog hårt mot både hushåll och företag, inte minst i södra Sverige. Sverige är idag indelat i 4 elprisområden. Vi anser dock att Sverige bör återgå till ett gemensamt elprisområde för hela landet. För att möjliggöra det behöver de tekniska flaskhalsar som förhindrar detta byggas bort. Det sker dels genom omfattande investeringar i elnäten men även välplacerad ny kraftproduktion bör vara en del av lösningen. På så sätt minskar vi behovet av kostsam nätutbyggnad samtidigt som ny el och effekt tillförs.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

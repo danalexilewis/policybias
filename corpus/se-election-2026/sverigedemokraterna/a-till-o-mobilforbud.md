@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Mobilförbud
-sourceUrl: https://www.sd.se/a-till-o/mobilforbud/
-canonicalUrl: https://www.sd.se/a-till-o/mobilforbud
-fetchedAt: 2026-08-22T14:23:35.628Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Mobilförbud"
+sourceUrl: "https://www.sd.se/a-till-o/mobilforbud/"
+canonicalUrl: "https://www.sd.se/a-till-o/mobilforbud"
+fetchedAt: "2026-08-22T19:33:08.391Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-3029f6f1b0bcddd0"
+contentLength: 325
+sourceLastmod: "2026-06-12T03:58:10+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Mobiltelefoner i skolan kan vara ett hinder för koncentration och studiero. Sverigedemokraterna har därför varit drivande för ett nationellt mobilförbud under skoldagen. Genom att begränsa mobilanvändningen kan fokus i större utsträckning ligga på undervisning och lärande. Det bidrar också till en tryggare skolmiljö.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

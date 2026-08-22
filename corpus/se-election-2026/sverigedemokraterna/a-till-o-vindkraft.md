@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Vindkraft
-sourceUrl: https://www.sd.se/a-till-o/vindkraft/
-canonicalUrl: https://www.sd.se/a-till-o/vindkraft
-fetchedAt: 2026-08-22T14:16:39.788Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Vindkraft"
+sourceUrl: "https://www.sd.se/a-till-o/vindkraft/"
+canonicalUrl: "https://www.sd.se/a-till-o/vindkraft"
+fetchedAt: "2026-08-22T19:26:15.092Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-39fec94a9ede7843"
+contentLength: 770
+sourceLastmod: "2026-06-12T03:57:44+00:00"
 tags:
-  - energy
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "energy"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Den snabbt växande andelen väderberoende vindkraft i Sverige har skapat ett elsystem som blivit allt mer instabilt med kraftigt varierande elpriser. Vindkraftsproduktion sker inte sällan när efterfrågan är låg, vilket leder till överutbud och låga priser. Detta tränger undan planerbar svensk kraft som behövs för att upprätthålla effekt och leveranssäkerhet. Vindkraften innebär även stora kostnader för nätutbyggnad, ökar risken för effektbrist vid kalla och vindstilla perioder och skapar lokala problem kopplade till buller, intrång, naturpåverkan och konflikter med kommunalt självbestämmande. För att värna svensk konkurrenskraft och elsystemets stabilitet krävs mer planerbar kraftproduktion, varför vi motsätter oss statliga subventioner till vindkraften.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

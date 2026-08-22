@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Småsparare
-sourceUrl: https://www.sd.se/a-till-o/smasparare/
-canonicalUrl: https://www.sd.se/a-till-o/smasparare
-fetchedAt: 2026-08-22T14:18:37.683Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Småsparare"
+sourceUrl: "https://www.sd.se/a-till-o/smasparare/"
+canonicalUrl: "https://www.sd.se/a-till-o/smasparare"
+fetchedAt: "2026-08-22T19:28:11.248Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-617c50e056758d13"
+contentLength: 417
+sourceLastmod: "2026-06-12T03:57:51+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna är starka förespråkare av småspararande. På området har vi drivit och kommer fortsätta driva igenom reformer som ökar incitamenten för småsparare. Bland annat genom att sänka ISK-skatten, göra det enklare att flytta exempelvis tjänstepensioner samt främja investeringsklimatet genom att underlätta skattereglerna med både kapitalförsörjning och riskkapital. Sverige ska värna om småsparare!
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

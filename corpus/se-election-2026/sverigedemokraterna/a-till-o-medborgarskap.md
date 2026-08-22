@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Medborgarskap
-sourceUrl: https://www.sd.se/a-till-o/medborgarskap/
-canonicalUrl: https://www.sd.se/a-till-o/medborgarskap
-fetchedAt: 2026-08-22T14:24:28.453Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Medborgarskap"
+sourceUrl: "https://www.sd.se/a-till-o/medborgarskap/"
+canonicalUrl: "https://www.sd.se/a-till-o/medborgarskap"
+fetchedAt: "2026-08-22T19:34:00.157Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-408317feddd7cb90"
+contentLength: 619
+sourceLastmod: "2026-06-12T03:58:33+00:00"
 tags:
-  - immigration
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "immigration"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Svenskt medborgarskap ska bygga på samhörighet, ansvar och respekt för svenska lagar och värderingar. Medborgarskapet är inte bara en administrativ handling utan ett ömsesidigt åtagande mellan individen och staten. Vi arbetar tillsammans med Tidöpartierna för att skärpa kraven för att bli svensk medborgare genom tydligare krav på egen försörjning, kunskaper i svenska språket och förståelse för det svenska samhället. Ett svenskt medborgarskap ska vara något man kvalificerar sig för och känner stolthet över. Tydliga krav stärker integrationen, ökar tilliten i samhället och bidrar till en starkare gemenskap.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

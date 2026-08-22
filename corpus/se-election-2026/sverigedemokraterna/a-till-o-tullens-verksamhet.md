@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Tullens verksamhet
-sourceUrl: https://www.sd.se/a-till-o/tullens-verksamhet/
-canonicalUrl: https://www.sd.se/a-till-o/tullens-verksamhet
-fetchedAt: 2026-08-22T14:17:33.202Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Tullens verksamhet"
+sourceUrl: "https://www.sd.se/a-till-o/tullens-verksamhet/"
+canonicalUrl: "https://www.sd.se/a-till-o/tullens-verksamhet"
+fetchedAt: "2026-08-22T19:27:07.741Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-0fde241e8360f6ae"
+contentLength: 605
+sourceLastmod: "2026-06-12T03:57:47+00:00"
 tags:
-  - crime-and-justice
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "crime-and-justice"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill satsa stort på tullen. Det är uppenbart att jobbet som utförs vid gränsen är avgörande för att få kontroll på den kriminella verksamheten innan den har tagit sig in i Sverige. Därför vill vi att Tullpersonalen ska få utökade medel för att kunna skala upp deras redan väl genomförda verksamhet. Där ingår bättre lokaler för personalen, utökade befogenheter, fler scanners, bättre utrustning och möjlighet att anställa fler. Tullverksamheten är en av de viktigaste instanserna vi har för att kontrollera brottsligheten innan den får fäste. Sverige ska ha världens bästa tull!
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

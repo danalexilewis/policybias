@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: FN
-sourceUrl: https://www.sd.se/a-till-o/fn/
-canonicalUrl: https://www.sd.se/a-till-o/fn
-fetchedAt: 2026-08-22T14:39:55.779Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "FN"
+sourceUrl: "https://www.sd.se/a-till-o/fn/"
+canonicalUrl: "https://www.sd.se/a-till-o/fn"
+fetchedAt: "2026-08-22T19:49:35.698Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-48d6a6c3991d93fc"
+contentLength: 677
+sourceLastmod: "2026-06-12T03:59:59+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna ser FN som den primära organisationen för internationellt samarbete vad gäller fred och säkerhet samt samverkan för demokrati och mänskliga fri- och rättigheter. Sverige ska ha en oberoende röst i FN. EU:s institutioner ska inte ha behörighet att föra Sveriges talan inom FN. Sverige bör arbeta för hårdare krav på att de som leder FN-arbete själva föregår med gott exempel.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+FN har länge haft betydande problem med korruption och brottslighet. Därför bör Sverige ta initiativ till en utredning inom FN för att åtgärda detta. Sverige bör också verka för sammanslagningar och för egen del fokusera sitt bistånd till ett mindre antal FN-organisationer.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

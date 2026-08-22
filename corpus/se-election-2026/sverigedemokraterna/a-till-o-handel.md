@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Handel
-sourceUrl: https://www.sd.se/a-till-o/handel/
-canonicalUrl: https://www.sd.se/a-till-o/handel
-fetchedAt: 2026-08-22T14:33:31.386Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Handel"
+sourceUrl: "https://www.sd.se/a-till-o/handel/"
+canonicalUrl: "https://www.sd.se/a-till-o/handel"
+fetchedAt: "2026-08-22T19:43:09.938Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-67d0a9cd2cc026c2"
+contentLength: 656
+sourceLastmod: "2026-06-12T03:59:22+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverige är ett litet land men vi är en stor exportnation. Vår framgångsrika industri är djupt integrerad i globala värdekedjor och är därför beroende av frihandel, EU:s inre marknad och stabila internationella regelverk. I ett stökigt globalt handelsläge med ökande protektionism, statsstödsrace och geopolitiska spänningar måste Sverige aktivt värna öppna marknader och rättvisa konkurrensvillkor.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Fri och regelbaserad handel skapar välstånd, stärker konkurrenskraften och är avgörande för företagens tillgång till både marknader och insatsvaror. Sverige bör driva en frihandelsvänlig linje inom EU och globalt motverka snedvridande handelshinder.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

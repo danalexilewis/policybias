@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Stimulera klassisk arkitektur
-sourceUrl: https://www.sd.se/a-till-o/stimulera-klassisk-arkitektur/
-canonicalUrl: https://www.sd.se/a-till-o/stimulera-klassisk-arkitektur
-fetchedAt: 2026-08-22T14:17:37.059Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Stimulera klassisk arkitektur"
+sourceUrl: "https://www.sd.se/a-till-o/stimulera-klassisk-arkitektur/"
+canonicalUrl: "https://www.sd.se/a-till-o/stimulera-klassisk-arkitektur"
+fetchedAt: "2026-08-22T19:27:11.568Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-ce53026e1bf48c65"
+contentLength: 740
+sourceLastmod: "2026-06-12T03:57:47+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill stimulera mer klassisk/traditionell arkitektur och menar att det finns ett folkligt stöd för mer ornamentik, igenkännliga stadsmiljöer och traditionella formspråk. Vi menar att klassisk gestaltning inte måste vara dyrare, men ofta prioriteras bort av system, upphandlingar eller samtida ideal.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi menar att klassisk arkitektur kan öka kännslan av både trivsel och trygghet. Vi vill därför undvika miljonprogramsliknande misstag i utformningen av byggnader och områden. Särskilt offentliga aktörer ska kunna efterfråga klassiska kvaliteter i större utsträckning och regelverket ska inte missgynna traditionellt byggande. Estetik är enligt oss en politiskt relevant del av bostads- och stadsbyggnadspolitiken.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

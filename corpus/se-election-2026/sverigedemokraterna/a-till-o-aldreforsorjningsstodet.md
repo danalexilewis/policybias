@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Äldreförsörjningsstödet
-sourceUrl: https://www.sd.se/a-till-o/aldreforsorjningsstodet/
-canonicalUrl: https://www.sd.se/a-till-o/aldreforsorjningsstodet
-fetchedAt: 2026-08-22T14:13:30.030Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Äldreförsörjningsstödet"
+sourceUrl: "https://www.sd.se/a-till-o/aldreforsorjningsstodet/"
+canonicalUrl: "https://www.sd.se/a-till-o/aldreforsorjningsstodet"
+fetchedAt: "2026-08-22T19:23:03.005Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-27b920c49c3ac04a"
+contentLength: 419
+sourceLastmod: "2026-06-12T03:57:11+00:00"
 tags:
-  - elderly-care
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "elderly-care"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Den som har invandrat till Sverige och har en låg eller obefintlig intjänad pension och därmed saknar rätt till garantipension får idag ett äldreförsörjningsstöd. Detta är ett bidrag som infördes 2003. Innan denna förmån fanns hänvisades denna grupp till det vanliga försörjningsstödet hos socialtjänsten. Sverigedemokraterna vill avskaffa äldreförsörjningsstödet. Det är för byråkratiskt och inte helt rättvist.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Könsstympning
-sourceUrl: https://www.sd.se/a-till-o/konsstympning/
-canonicalUrl: https://www.sd.se/a-till-o/konsstympning
-fetchedAt: 2026-08-22T14:28:48.923Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Könsstympning"
+sourceUrl: "https://www.sd.se/a-till-o/konsstympning/"
+canonicalUrl: "https://www.sd.se/a-till-o/konsstympning"
+fetchedAt: "2026-08-22T19:38:23.604Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-012be62ffc09d1c0"
+contentLength: 446
+sourceLastmod: "2026-06-12T03:58:52+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Kvinnlig könsstympning är ett allvarligt övergrepp och förbjudet i Sverige sedan 1982. Svensk lag gäller även om ingreppet utförs utomlands. Vi vill stärka arbetet mot könsstympning genom bättre samordning mellan myndigheter, tydligare uppföljning och skärpt kontroll när det finns risk att flickor förs ut ur landet. Skyddet för barn ska alltid prioriteras. Inga kulturella eller religiösa hänvisningar kan rättfärdiga övergrepp mot barn.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Immaterialrätt
-sourceUrl: https://www.sd.se/a-till-o/immaterialratt/
-canonicalUrl: https://www.sd.se/a-till-o/immaterialratt
-fetchedAt: 2026-08-22T14:34:45.436Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Immaterialrätt"
+sourceUrl: "https://www.sd.se/a-till-o/immaterialratt/"
+canonicalUrl: "https://www.sd.se/a-till-o/immaterialratt"
+fetchedAt: "2026-08-22T19:44:24.571Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-a3c09f3ab834fbf0"
+contentLength: 798
+sourceLastmod: "2026-06-12T03:59:28+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sveriges innovationskraft har länge byggt vår industriella utveckling. För att åter stärka landets position krävs bättre skydd för uppfinningar och färre hinder för forskning och kommersialisering. Vi vill öka innovationskraften genom skattelättnader för forskningsinvesteringar, stärkt samverkan mellan stat och näringsliv och minskad byråkrati i forskningssamarbeten. En nationell teknik- och innovationsstrategi bör peka ut områden där Sverige kan bli ledande.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi vill modernisera immaterialrätten, stärka stödet till företag i patenttvister och utreda försäkringslösningar och kostnadstak för att skydda nya idéer. Ett nationellt kunskapscenter för immaterialrätt bör etableras, samtidigt som lagstiftningen anpassas för att främja legala digitala tjänster och värna ett öppet internet.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Anhöriginvandring
-sourceUrl: https://www.sd.se/a-till-o/anhoriginvandring/
-canonicalUrl: https://www.sd.se/a-till-o/anhoriginvandring
-fetchedAt: 2026-08-22T14:42:59.668Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Anhöriginvandring"
+sourceUrl: "https://www.sd.se/a-till-o/anhoriginvandring/"
+canonicalUrl: "https://www.sd.se/a-till-o/anhoriginvandring"
+fetchedAt: "2026-08-22T19:52:36.818Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-b835b3daa24d421f"
+contentLength: 646
+sourceLastmod: "2026-06-12T04:00:13+00:00"
 tags:
-  - immigration
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "immigration"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna har en restriktiv syn på anhöriginvandring eftersom det tidigare regelverket har missbrukats, vilket i sin tur har bidragit till segregation och bidragsberoende. Anhöriginvandringen ska begränsas till EU-rättens miniminivå. Det betyder att exempelvis studenter inte kan vara anknytningspersoner.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Höga krav ska dessutom ställas på den som vill ta en anhörig till Sverige. Man ska vara etablerad här och kunna försörja både sig själv och den familjemedlem som flyttar hit. Anhöriginvandring ska vidare begränsas till maka/make och egna barn. Åtgärder ska vidtas för att minimera risken för kusingiften och skenäktenskap.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

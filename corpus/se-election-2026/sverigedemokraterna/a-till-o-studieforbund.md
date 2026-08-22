@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Studieförbund
-sourceUrl: https://www.sd.se/a-till-o/studieforbund/
-canonicalUrl: https://www.sd.se/a-till-o/studieforbund
-fetchedAt: 2026-08-22T14:16:32.353Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Studieförbund"
+sourceUrl: "https://www.sd.se/a-till-o/studieforbund/"
+canonicalUrl: "https://www.sd.se/a-till-o/studieforbund"
+fetchedAt: "2026-08-22T19:26:07.061Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-bb36ddeeeedec7f1"
+contentLength: 536
+sourceLastmod: "2026-06-12T03:57:43+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Vi vill reformera systemet för studieförbunden i grunden. Dagens system präglas av bristande transparens och insyn och det saknas tillräcklig kontroll över hur skattemedlen används. Därför driver vi frågan om att statsbidragen ska flyttas från Folkbildningsrådet till en oberoende myndighet samt att bidragsmodellen ska utformas så att den premierar kvalitet i stället för enbart inrapporterade timmar. Vårt mål är att skapa ordning och reda, stärka kontrollen och säkerställa att folkbildningen faktiskt gör reell samhällsnytta.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

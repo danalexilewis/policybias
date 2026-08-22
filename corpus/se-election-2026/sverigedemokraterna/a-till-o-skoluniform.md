@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Skoluniform
-sourceUrl: https://www.sd.se/a-till-o/skoluniform/
-canonicalUrl: https://www.sd.se/a-till-o/skoluniform
-fetchedAt: 2026-08-22T14:19:41.888Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Skoluniform"
+sourceUrl: "https://www.sd.se/a-till-o/skoluniform/"
+canonicalUrl: "https://www.sd.se/a-till-o/skoluniform"
+fetchedAt: "2026-08-22T19:29:17.876Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-207adce4a940ca0a"
+contentLength: 322
+sourceLastmod: "2026-06-12T03:57:55+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Enhetlig klädsel i skolan kan bidra till ökad gemenskap och minska sociala skillnader mellan elever. Sverigedemokraterna vill därför göra det möjligt att införa skoluniform på frivillig basis. Beslutet ska kunna fattas lokalt av skolor eller kommuner. Möjligheten att använda skoluniform bör skrivas in i skollagen.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

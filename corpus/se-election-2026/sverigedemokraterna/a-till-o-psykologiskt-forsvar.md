@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Psykologiskt försvar
-sourceUrl: https://www.sd.se/a-till-o/psykologiskt-forsvar/
-canonicalUrl: https://www.sd.se/a-till-o/psykologiskt-forsvar
-fetchedAt: 2026-08-22T14:22:34.896Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Psykologiskt försvar"
+sourceUrl: "https://www.sd.se/a-till-o/psykologiskt-forsvar/"
+canonicalUrl: "https://www.sd.se/a-till-o/psykologiskt-forsvar"
+fetchedAt: "2026-08-22T19:32:07.873Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-fda9ec4b8603a3aa"
+contentLength: 775
+sourceLastmod: "2026-06-12T03:58:06+00:00"
 tags:
-  - defence
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "defence"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Alla är en del av det psykologiska försvaret. Källkritik och psykologisk motståndskraft är inte helt enkelt i en informationsmiljö med AI och botar. Det råa politiska klimatet har suddat ut gränserna och det är ibland otydligt vad som kan anses vara legitim politisk opinionsbildning och desinformation i syfte att vilseleda.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Sverigedemokraterna anser att det är viktigt att den fria opinionsbildningen värnas, men att alla har ett ansvar att vara källkritiska och inte sprida felaktiga eller vilseledande uppgifter. Det politiska samtalet måste samtidigt bjuda upp till demokratisk diskussion om svåra samhällsfrågor utan censur. Sverigedemokraterna har under den här mandatperioden tillsammans med regeringen stärkt bland annat Myndigheten för psykologiskt försvar.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -4,18 +4,19 @@ party: sverigedemokraterna
 title: Uranbrytning
 sourceUrl: https://www.sd.se/a-till-o/uranbrytning/
 canonicalUrl: https://www.sd.se/a-till-o/uranbrytning
-fetchedAt: 2026-08-22T14:10:25.382Z
+fetchedAt: 2026-08-22T19:19:57.788Z
 contentType: html
 via: party-site
+contentDigest: sha256-99487cc0c76a614f
+contentLength: 780
+sourceLastmod: 2026-06-12T03:56:58+00:00
 tags:
   - other
 stance: intervention
-licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverige och EU behöver säkra tillgången på viktiga metaller och mineral för industri, energi och försvar. Därför vill vi tillåta prospektering efter uran och andra kritiska metaller. Sverige bör inte utesluta framtida uranbrytning, eftersom uran är en strategisk råvara och ett stort importberoende kan bli riskfyllt i kriser. Alunskiffer innehåller många kritiska metaller men innebär miljörisker om den hanteras fel. Vi menar att det är bryttekniken och en strikt miljöprövning som ska avgöra, inte bergartens namn. Sverige har redan hårda miljökrav och varje projekt ska prövas objektivt av myndigheterna. Vi tar inte ställning till enskilda gruvor, men vi står upp för att alla projekt ska behandlas lika inför lagen och inte stoppas av lokalt godtycke eller aktivism.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

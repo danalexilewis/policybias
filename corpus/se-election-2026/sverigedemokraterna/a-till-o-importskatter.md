@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Importskatter
-sourceUrl: https://www.sd.se/a-till-o/importskatter/
-canonicalUrl: https://www.sd.se/a-till-o/importskatter
-fetchedAt: 2026-08-22T14:32:30.846Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Importskatter"
+sourceUrl: "https://www.sd.se/a-till-o/importskatter/"
+canonicalUrl: "https://www.sd.se/a-till-o/importskatter"
+fetchedAt: "2026-08-22T19:42:06.938Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-9c52515d4fb55106"
+contentLength: 668
+sourceLastmod: "2026-06-12T03:59:18+00:00"
 tags:
-  - taxation
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "taxation"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Det ska vara enkelt att betala importrelaterade skatter. Sverigedemokraterna vill därför utforma systemet för importskatter så att det blir enkelt för företagen att hantera. Vid inbetalning av importskatter så som moms och punktskatter kan betalningen ske till både Skatteverket och Tullverket, beroende på om personen/företaget i fråga är moms-registrerat eller inte. Systemet med att anmäla och betala moms till Tullverket innebär en extra myndighetskanal i skatte- och redovisningshänseende. I förenklings- och enhetlighetssyfte bör skatt vid import, liksom all annan skattehantering, skötas via Skatteverket. Sverige ska ha konkurrenskraftiga importskatter!
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

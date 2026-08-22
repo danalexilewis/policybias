@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Fängelser
-sourceUrl: https://www.sd.se/a-till-o/fangelser/
-canonicalUrl: https://www.sd.se/a-till-o/fangelser
-fetchedAt: 2026-08-22T14:38:50.679Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Fängelser"
+sourceUrl: "https://www.sd.se/a-till-o/fangelser/"
+canonicalUrl: "https://www.sd.se/a-till-o/fangelser"
+fetchedAt: "2026-08-22T19:48:31.737Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-3aa46a5e3a0c5617"
+contentLength: 804
+sourceLastmod: "2026-06-12T03:59:44+00:00"
 tags:
-  - crime-and-justice
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "crime-and-justice"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Kriminalvården arbetar mycket med struktur och olika program för att den intagna bokstavligt ska vara en bättre person när denne släpps ut. Det är fundamentalt att de som är intagna tar till sig av detta så att de inte återfaller. Vi har därför sett till att den strafftid som måste avtjänas innan villkorlig frigivning höjs från två tredjedelar till tre fjärdedelar av strafftiden. Denna höjning gäller de längsta straffen först och de kortare den dag regeringen bestämmer.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Om det finns risk för återfall eller om den intagna missköter sig kommer dessutom den villkorliga frigivningen att skjutas upp. Antalet intagna beräknas öka och vi vill bygga större och moderna fängelser. Fler utländska gärningsmän bör avtjäna straffet i sina hemländer och från 2026 hyr vi 600 anstaltsplatser i Estland.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

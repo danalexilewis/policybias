@@ -1,21 +1,26 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Mängdrabatt
-sourceUrl: https://www.sd.se/a-till-o/mangdrabatt/
-canonicalUrl: https://www.sd.se/a-till-o/mangdrabatt
-fetchedAt: 2026-08-22T14:47:06.521Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Mängdrabatt"
+sourceUrl: "https://www.sd.se/a-till-o/mangdrabatt/"
+canonicalUrl: "https://www.sd.se/a-till-o/mangdrabatt"
+fetchedAt: "2026-08-22T19:56:38.899Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-25f1cf6a2a51d61e"
+contentLength: 796
+sourceLastmod: "2026-08-11T11:56:34+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Staten har en plikt att skydda samhället mot brott och att öka människors trygghet. I detta ingår att ta parti för brottsoffret och att ge gärningsmannen ett proportionerligt straff.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Under mycket lång tid har straffen dock inte varit proportionerliga och gärningsmän fått orimligt låga straff. I praktiken får till exempel den som döms för flera brott samtidigt en ökande rabatt per brott. Den här rabatten vill oppositionen ha kvar.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+Vi tycker att det att rättvist att döma gärningsmän hårdare och vill att de tre allvarligaste brottens straffvärde ska räknas ihop innan det kan bli frågan om något avdrag. Med Socialdemokraternas system ger en grov misshandel, en grov stöld och ett pensionärsbedrägeri ungefär 3,4 år i fängelse. Med vårt system skulle samma straff istället bli 9,5 år.
+
+* * *

@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Trossamfund
-sourceUrl: https://www.sd.se/a-till-o/trossamfund/
-canonicalUrl: https://www.sd.se/a-till-o/trossamfund
-fetchedAt: 2026-08-22T14:17:40.941Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Trossamfund"
+sourceUrl: "https://www.sd.se/a-till-o/trossamfund/"
+canonicalUrl: "https://www.sd.se/a-till-o/trossamfund"
+fetchedAt: "2026-08-22T19:27:15.821Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-79128a67927f502b"
+contentLength: 651
+sourceLastmod: "2026-06-12T03:57:48+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Staten ska inte ge ekonomiskt stöd till trossamfund som sprider extremism, terrorism eller antidemokratiska budskap. Därför är de skärpta demokrativillkor vi har infört centrala för att stänga ute dessa aktörer från statlig bidragsgivning. Samtidigt ser vi hur islamistisk extremism utgör ett hot mot det sekulära samhället, och vi vill därför ge staten tydliga verktyg för att kunna stänga ned religiös verksamhet som utgör ett sådant hot.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+På sikt vill vi minska statens ekonomiska stöd till trossamfunden, så att de i högre grad finansieras genom sina egna medlemmar medan statens roll främst bör vara att erbjuda hjälp med avgiftsinsamling.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

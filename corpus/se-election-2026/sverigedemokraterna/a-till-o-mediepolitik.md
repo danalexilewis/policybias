@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Mediepolitik
-sourceUrl: https://www.sd.se/a-till-o/mediepolitik/
-canonicalUrl: https://www.sd.se/a-till-o/mediepolitik
-fetchedAt: 2026-08-22T14:25:29.145Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Mediepolitik"
+sourceUrl: "https://www.sd.se/a-till-o/mediepolitik/"
+canonicalUrl: "https://www.sd.se/a-till-o/mediepolitik"
+fetchedAt: "2026-08-22T19:35:00.447Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-e07094ac6bf2c5ea"
+contentLength: 549
+sourceLastmod: "2026-06-12T03:58:38+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Vi ser mediesektorn som en central del av demokratins infrastruktur. Fria och oberoende medier ska granska makten, förmedla saklig information och säkerställa att medborgarna får tillgång till flera olika perspektiv. För att demokratin ska fungera krävs flera röster samt journalistik som präglas av saklighet, bredd och nyans. Samtidigt ser vi en oroande utveckling där förtroendet för traditionella medier minskar, där vissa frågor inte belyses tillräckligt brett och där polariseringen på mediemarknaden riskerar att fördjupas ytterligare.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

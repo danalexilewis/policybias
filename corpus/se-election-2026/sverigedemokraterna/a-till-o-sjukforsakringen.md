@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Sjukförsäkringen
-sourceUrl: https://www.sd.se/a-till-o/sjukforsakringen/
-canonicalUrl: https://www.sd.se/a-till-o/sjukforsakringen
-fetchedAt: 2026-08-22T14:13:42.259Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Sjukförsäkringen"
+sourceUrl: "https://www.sd.se/a-till-o/sjukforsakringen/"
+canonicalUrl: "https://www.sd.se/a-till-o/sjukforsakringen"
+fetchedAt: "2026-08-22T19:23:15.456Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-a8f353cbb959addf"
+contentLength: 710
+sourceLastmod: "2026-06-12T03:57:13+00:00"
 tags:
-  - social-welfare
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "social-welfare"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sjukförsäkringen ska ge ekonomisk trygghet för den som drabbas av sjukdom. För att fler ska kunna återgå i arbete behöver fokus ligga på tidiga, effektiva och väl samordnade rehabiliteringsinsatser. Regelverket behöver göras mer flexibelt så att både individens behov och arbetsförmåga kan tas tillvara, exempelvis genom möjligheten till en stegvis återgång i arbete.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Idag är kvinnor kraftigt överrepresenterade i sjukskrivningar kopplade till psykisk ohälsa, där stressrelaterade diagnoser ökar mest. Detta är en allvarlig utveckling som kräver breda och långsiktiga insatser. En central del i detta är att stärka och prioritera forskningen kring orsaker, prevention och effektiva behandlingsmodeller.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

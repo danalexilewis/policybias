@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Formkrav för fullmakter
-sourceUrl: https://www.sd.se/a-till-o/formkrav-for-fullmakter/
-canonicalUrl: https://www.sd.se/a-till-o/formkrav-for-fullmakter
-fetchedAt: 2026-08-22T14:34:52.925Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Formkrav för fullmakter"
+sourceUrl: "https://www.sd.se/a-till-o/formkrav-for-fullmakter/"
+canonicalUrl: "https://www.sd.se/a-till-o/formkrav-for-fullmakter"
+fetchedAt: "2026-08-22T19:44:35.633Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-0bdaa058268a4d92"
+contentLength: 647
+sourceLastmod: "2026-06-12T03:59:29+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill att fullmakter ska omfattas av tydliga formkrav, särskilt när det gäller större ekonomiska åtaganden. Bakgrunden är att fullmakter utan krav på formalia kan missbrukas mot personer i utsatta situationer (t.ex. äldre eller personer som utsätts för ekonomiskt våld).
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Genom en mer kontrollerad hantering, exempelvis skriftlighet, bevittning eller andra verifieringskrav, så ska det bli svårare att pressa fram eller fabricera fullmakter. Detta är en del av ett förebyggande skydd i konsument- och familjerättsliga sammanhang. Formkrav är ett verktyg som kan stärka det förebyggande arbetet mot ekonomiskt utnyttjande.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

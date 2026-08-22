@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Gårdsförsäljning
-sourceUrl: https://www.sd.se/a-till-o/gardsforsaljning/
-canonicalUrl: https://www.sd.se/a-till-o/gardsforsaljning
-fetchedAt: 2026-08-22T14:35:42.043Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Gårdsförsäljning"
+sourceUrl: "https://www.sd.se/a-till-o/gardsforsaljning/"
+canonicalUrl: "https://www.sd.se/a-till-o/gardsforsaljning"
+fetchedAt: "2026-08-22T19:45:23.500Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-4b05110b1b30e888"
+contentLength: 786
+sourceLastmod: "2026-06-12T03:59:31+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sveriges mikrobryggerier, destillerier och vinodlingar skapar jobb, turism och livskraft på landsbygden. Intresset är stort bland både svenska och internationella besökare, men förbudet mot försäljning på produktionsplatsen har länge hämmat utvecklingen. Vi har under flera år drivit på för en förändring och därför välkomnade vi regeringens förslag om att möjliggöra gårdsförsäljning. Samtidigt anser vi att reformen innehåller onödiga begränsningar, som låga volymtak, krav på betald upplevelse och en tidsbegränsning på sex år. Dessa riskerar att minska reformens effekt och företagens tillväxtmöjligheter. Regeringen bör lyfta begränsningarna och möjliggöra för gårdsförsäljningen att fullt ut stärka landsbygden, besöksnäringen och de svenska producenternas konkurrenskraft.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

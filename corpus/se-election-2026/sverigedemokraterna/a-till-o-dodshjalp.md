@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Dödshjälp
-sourceUrl: https://www.sd.se/a-till-o/dodshjalp/
-canonicalUrl: https://www.sd.se/a-till-o/dodshjalp
-fetchedAt: 2026-08-22T14:41:46.483Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Dödshjälp"
+sourceUrl: "https://www.sd.se/a-till-o/dodshjalp/"
+canonicalUrl: "https://www.sd.se/a-till-o/dodshjalp"
+fetchedAt: "2026-08-22T19:51:24.223Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-96da1283f2ec8260"
+contentLength: 457
+sourceLastmod: "2026-06-12T04:00:07+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Dödshjälp och läkarassisterat självmord är inte samma sak. Vid dödshjälp ger en läkare aktivt ett medel som orsakar patientens död. Vid läkarassisterat självmord är det patienten själv som utför den sista handlingen med ett medel som läkaren har skrivit ut. Både dödshjälp och läkarassisterat självmord är förbjudet i Sverige. Sverigedemokraterna vill förutsättningslöst utreda dödshjälp och läkarassisterat självmord och belysa alla etiska aspekter.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

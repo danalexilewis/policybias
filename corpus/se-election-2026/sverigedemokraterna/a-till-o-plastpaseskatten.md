@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Plastpåseskatten
-sourceUrl: https://www.sd.se/a-till-o/plastpaseskatten/
-canonicalUrl: https://www.sd.se/a-till-o/plastpaseskatten
-fetchedAt: 2026-08-22T14:23:39.151Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Plastpåseskatten"
+sourceUrl: "https://www.sd.se/a-till-o/plastpaseskatten/"
+canonicalUrl: "https://www.sd.se/a-till-o/plastpaseskatten"
+fetchedAt: "2026-08-22T19:33:11.923Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-d19944d42c39fdf6"
+contentLength: 490
+sourceLastmod: "2026-06-12T03:58:10+00:00"
 tags:
-  - taxation
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "taxation"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna drev igenom borttagandet av plastpåseskatten. Detta likt andra punktskatter hade motiveringen vid införandet att det skulle ha en positiv miljöpåverkan. I detta fall, som många av de andra, uteblev den påstådda miljönyttan. Sanningen är att det går åt mer vatten för att tillverka papperskassar och plastpåsarna återanvänds i större utsträckning. Denna onödiga och orimliga skatt ska inte återinföras. Sverige ska inte beskatta svenska folket med onödiga skatter!
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Barndomsgarantin
-sourceUrl: https://www.sd.se/a-till-o/barndomsgarantin/
-canonicalUrl: https://www.sd.se/a-till-o/barndomsgarantin
-fetchedAt: 2026-08-22T14:44:05.740Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Barndomsgarantin"
+sourceUrl: "https://www.sd.se/a-till-o/barndomsgarantin/"
+canonicalUrl: "https://www.sd.se/a-till-o/barndomsgarantin"
+fetchedAt: "2026-08-22T19:53:42.179Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-d06daaba3f4c9a43"
+contentLength: 723
+sourceLastmod: "2026-06-12T04:00:18+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill införa en barndomsgaranti som samlar hela samhällets ansvar för att barn ska ha en trygg uppväxt. Det är en tydlig nollvision mot barnmisär, alltså en nollvision mot alla former av mobbning, trakasserier och diskriminering. I detta ingår också att stärka kvalitet och uppföljning i samhällsvård (familjehem/jourhem), tydligare krav och uppföljning av HVB/stödboenden samt ökad kompetens hos personal som möter barn i myndighetsprocesser.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi vill även se skärpningar i brottsrubriceringar/straffskalor som rör barns utsatthet (t.ex. barnfridsbrott). Tanken är att vår barndomsgaranti ska ge ett mer likvärdigt skydd över landet och att tidiga insatser ska minska långsiktiga sociala problem.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

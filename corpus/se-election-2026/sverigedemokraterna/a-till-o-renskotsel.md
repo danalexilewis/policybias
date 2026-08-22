@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Renskötsel
-sourceUrl: https://www.sd.se/a-till-o/renskotsel/
-canonicalUrl: https://www.sd.se/a-till-o/renskotsel
-fetchedAt: 2026-08-22T14:22:38.799Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Renskötsel"
+sourceUrl: "https://www.sd.se/a-till-o/renskotsel/"
+canonicalUrl: "https://www.sd.se/a-till-o/renskotsel"
+fetchedAt: "2026-08-22T19:32:11.545Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-49720ebc562c815b"
+contentLength: 798
+sourceLastmod: "2026-06-12T03:58:06+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Renskötsel bedrivs på ungefär en tredjedel av Sveriges yta. I dessa områden tilltar markanvändningskonflikterna. Inte minst då företrädare för renskötseln åberopar de särskilda rättigheter de åtnjuter som begränsar såväl andras möjligheter till jakt, fiske och friluftsliv som företags- och samhällsutveckling. I ett glest befolkat land måste renskötsel kunna bedrivas på ett sätt som inte åsidosätter andras rätt till vårt gemensamma land.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Renskötsel som huvudsyssla sysselsätter få och avkastningen är blygsam samtidigt som exempelvis besöksnäring och industri omsätter mångmiljardbelopp och sysselsätter tusentals. Därför behöver allemansrätten stärkas, en jämlik rätt till jakt och fiske garanteras och en positiv samhällsutveckling möjliggöras för alla medborgare i landets alla delar.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Skyddsombud
-sourceUrl: https://www.sd.se/a-till-o/skyddsombud/
-canonicalUrl: https://www.sd.se/a-till-o/skyddsombud
-fetchedAt: 2026-08-22T14:12:22.161Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Skyddsombud"
+sourceUrl: "https://www.sd.se/a-till-o/skyddsombud/"
+canonicalUrl: "https://www.sd.se/a-till-o/skyddsombud"
+fetchedAt: "2026-08-22T19:21:54.419Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-fda21fd03565e1ab"
+contentLength: 601
+sourceLastmod: "2026-06-12T03:57:05+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Skyddsombud ska finnas på alla arbetsplatser med minst fem anställda, men idag ser det inte alltid ut så. Ett skäl är att skyddsombud i regel utses av det lokala facket och vissa fackförbund inom LO har en facklig-politisk samverkan med Socialdemokraterna. Det innebär att de inte tillsätter skyddsombud som har en annan politisk uppfattning.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi anser att arbetsmiljöarbetet är viktigare än politisk åskådning. Den som har sina kollegors förtroende att axla uppdraget ska ges möjlighet att göra det. Vi prioriterar de anställdas trygghet och motsätter oss politiseringen av arbetsmiljöarbetet.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

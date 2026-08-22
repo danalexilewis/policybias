@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Euro
-sourceUrl: https://www.sd.se/a-till-o/euro/
-canonicalUrl: https://www.sd.se/a-till-o/euro
-fetchedAt: 2026-08-22T14:36:39.320Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Euro"
+sourceUrl: "https://www.sd.se/a-till-o/euro/"
+canonicalUrl: "https://www.sd.se/a-till-o/euro"
+fetchedAt: "2026-08-22T19:46:21.916Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-b9aec739c6227b93"
+contentLength: 953
+sourceLastmod: "2026-06-12T03:59:34+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill bevara den svenska kronan. En övergång till euro skulle försvaga den svenska suveräniteten och skulle också medföra ett ansvar att betala andra länders skulder samt gå i borgen för andra länders mindre välkapitaliserade banker. Om Sverige inför euron kommer vi tillhöra den Europeiska centralbanken (ECB), och då har Sverige inte längre möjlighet att få stöd från vår egen riksbank. Då sätts också räntan av ECB, vilket innebär en räntenivå anpassad för hela Europa och inte särskilt för Sverige och svenska förhållanden.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Sverige, som har en liten och öppen ekonomi, förlorar då sin självständiga penningpolitik och kommer i praktiken att sitta i knät på de större och därmed mer inflytelserika länderna i EU. Det vore förödande om EU:s inflytande över Sverige ökade ännu mer. Därtill har vi redan haft en folkomröstning i frågan och resultatet av den gäller än idag. Sveriges suveränitet och svenska kronan ska bevaras!
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

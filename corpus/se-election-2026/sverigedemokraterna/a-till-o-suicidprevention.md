@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Suicidprevention
-sourceUrl: https://www.sd.se/a-till-o/suicidprevention/
-canonicalUrl: https://www.sd.se/a-till-o/suicidprevention
-fetchedAt: 2026-08-22T14:15:35.305Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Suicidprevention"
+sourceUrl: "https://www.sd.se/a-till-o/suicidprevention/"
+canonicalUrl: "https://www.sd.se/a-till-o/suicidprevention"
+fetchedAt: "2026-08-22T19:25:10.837Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-a283d47d2fb9bdc9"
+contentLength: 934
+sourceLastmod: "2026-06-12T03:57:20+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraternas politik för suicidprevention utgår från att varje liv är ovärderligt och att samhället måste agera i tid. Vi har varit med och beslutat om en nationell strategi för psykisk hälsa och suicidprevention. Det är ett viktigt steg som omfattar hela samhället, vård, skola, arbetsliv och civilsamhälle. Arbetet ska vara långsiktigt, kunskapsbaserat och följas upp med tydligt ansvar.Det är särskilt viktigt att hela kedjan fungerar, från förebyggande insatser i skolan och tidig upptäckt i primärvården till akut omhändertagande, exempelvis genom psykiatriambulanser och stärkt prehospital kompetens.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi har också varit drivande i att återöppna den nationella hjälplinjen, som nu ger stöd till både drabbade och anhöriga. Insatserna ska riktas dit de gör störst skillnad, exempelvis till högriskgrupper som unga män och personer med samsjuklighet, samtidigt som stödet ska vara tillgängligt för alla i riskzonen.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Högkostnadsskyddet för läkemedel
-sourceUrl: https://www.sd.se/a-till-o/hogkostnadsskyddet-for-lakemedel/
-canonicalUrl: https://www.sd.se/a-till-o/hogkostnadsskyddet-for-lakemedel
-fetchedAt: 2026-08-22T14:31:30.923Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Högkostnadsskyddet för läkemedel"
+sourceUrl: "https://www.sd.se/a-till-o/hogkostnadsskyddet-for-lakemedel/"
+canonicalUrl: "https://www.sd.se/a-till-o/hogkostnadsskyddet-for-lakemedel"
+fetchedAt: "2026-08-22T19:41:05.523Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-39941ce7d858015b"
+contentLength: 735
+sourceLastmod: "2026-06-12T03:59:00+00:00"
 tags:
-  - healthcare
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "healthcare"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+De senaste årens forskning har lett till nya och mer effektiva läkemedel, vilket är positivt för patienterna. Samtidigt innebär avancerad forskning, utveckling och produktion högre kostnader. Även det ekonomiska läget i omvärlden påverkar, med ökade produktions- och distributionskostnader som följd.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Staten ska stå för större delen av kostnaden, men även patienten behöver bidra med en andel. Det viktigaste är att värna dem som är beroende av dyra läkemedel. För dessa patienter är det avgörande att nivån i högkostnadsskyddet bibehålls så att de snabbt når frikortsgränsen och inte drabbas av orimliga kostnader. Högkostnadsskyddets grundprincip måste vara att ingen ska behöva avstå nödvändig behandling av ekonomiska skäl.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

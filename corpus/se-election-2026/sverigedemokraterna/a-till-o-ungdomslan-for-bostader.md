@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Ungdomslån för bostäder
-sourceUrl: https://www.sd.se/a-till-o/ungdomslan-for-bostader/
-canonicalUrl: https://www.sd.se/a-till-o/ungdomslan-for-bostader
-fetchedAt: 2026-08-22T14:12:29.254Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Ungdomslån för bostäder"
+sourceUrl: "https://www.sd.se/a-till-o/ungdomslan-for-bostader/"
+canonicalUrl: "https://www.sd.se/a-till-o/ungdomslan-for-bostader"
+fetchedAt: "2026-08-22T19:22:01.450Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-6d4d7a1d80c6fdfa"
+contentLength: 688
+sourceLastmod: "2026-06-12T03:57:06+00:00"
 tags:
-  - housing
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "housing"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill inrätta särskilda bolånelösningar för unga och förstagångsköpare, med inspiration från modeller i andra länder (t.ex. norska bospar-/ungdomslåneupplägg). Kärnan är att sänka tröskeln in på marknaden, särskilt kontantinsatsen, så att även unga med stabil inkomst men litet sparande lättare kan köpa en första bostad. Detta är ett sätt att öka rörligheten och dämpa flaskhalsar i bostadskedjan, snarare än att bara subventionera efterfrågan. Förslaget ska ses som en del i att öka byggandet och bredda utbudet så att lättnader i finansiering inte bara blir prisdrivande. Vi ser behov av en “bolånemodell för unga” och förmånliga villkor för nya på marknaden.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

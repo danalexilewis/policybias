@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Bemanningsnorm
-sourceUrl: https://www.sd.se/a-till-o/bemanningsnorm/
-canonicalUrl: https://www.sd.se/a-till-o/bemanningsnorm
-fetchedAt: 2026-08-22T14:44:45.547Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Bemanningsnorm"
+sourceUrl: "https://www.sd.se/a-till-o/bemanningsnorm/"
+canonicalUrl: "https://www.sd.se/a-till-o/bemanningsnorm"
+fetchedAt: "2026-08-22T19:54:21.380Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-88476b03af07f08b"
+contentLength: 421
+sourceLastmod: "2026-06-12T04:00:18+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Personaltätheten i förskolan har stor betydelse för barnens trygghet och utveckling. Sverigedemokraterna vill därför utreda möjligheten att införa en bemanningsnorm i förskolan, liknande den som finns i Norge. En sådan norm kan bidra till bättre arbetsmiljö för personalen och mer tid för varje barn. I grundskolan bör huvudmännen fortsatt ha flexibilitet att bestämma klasstorlekar utifrån lokala förutsättningar.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

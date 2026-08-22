@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Bistånd
-sourceUrl: https://www.sd.se/a-till-o/bistand/
-canonicalUrl: https://www.sd.se/a-till-o/bistand
-fetchedAt: 2026-08-22T14:43:48.599Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Bistånd"
+sourceUrl: "https://www.sd.se/a-till-o/bistand/"
+canonicalUrl: "https://www.sd.se/a-till-o/bistand"
+fetchedAt: "2026-08-22T19:53:25.230Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-774a91ca0f0c23b0"
+contentLength: 748
+sourceLastmod: "2026-06-12T04:00:15+00:00"
 tags:
-  - foreign-policy
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "foreign-policy"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna har tillsammans med regeringen lagt om biståndet och slopat enprocentsmålet vilket leder till ett effektivare bistånd då målet inte är att spendera en viss summa utan att få störst effekt för varje satsad skattekrona. Reformerna behöver fortsätta och Sverige bör verka för att avveckla den särskilda FN organisationen som verkar för palestinierna (UNRWA) då detta är den enda FN organisationen som endast har ansvar för ett specifikt område.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vidare behöver också synkronisering och rollfördelning mellan Sverige och andra EU-länder för att matcha givarländers kompetenser med mottagarländers behov genomföras och Sverige bör verka för att upprätta ett instrument för att fondera biståndsmedel vars utbetalningar frusits.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

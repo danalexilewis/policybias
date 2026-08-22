@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Föräldraförsäkring
-sourceUrl: https://www.sd.se/a-till-o/foraldraforsakring/
-canonicalUrl: https://www.sd.se/a-till-o/foraldraforsakring
-fetchedAt: 2026-08-22T14:36:43.549Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Föräldraförsäkring"
+sourceUrl: "https://www.sd.se/a-till-o/foraldraforsakring/"
+canonicalUrl: "https://www.sd.se/a-till-o/foraldraforsakring"
+fetchedAt: "2026-08-22T19:46:25.491Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-215a20bfc076f5eb"
+contentLength: 493
+sourceLastmod: "2026-06-12T03:59:35+00:00"
 tags:
-  - social-welfare
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "social-welfare"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Föräldraförsäkringen är den nyblivna eller växande familjens ekonomiska trygghet under barnens första omsorgskrävande år. Sverigedemokraternas utgångspunkt är att barnens bästa ska stå i centrum och att varje barns behov är unikt. Hur föräldrapenningen fördelas mellan vårdnadshavarna bör bestämmas av föräldrarna som är vårdnadshavare till barnet, utifrån deras önskemål. Ett delat föräldraansvar och närvarande föräldrar är viktigt och pappors uttag av föräldrapenning bör uppmuntras.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

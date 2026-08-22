@@ -4,9 +4,12 @@ party: sverigedemokraterna
 title: Nato
 sourceUrl: https://www.sd.se/a-till-o/nato/
 canonicalUrl: https://www.sd.se/a-till-o/nato
-fetchedAt: 2026-08-22T14:08:28.663Z
+fetchedAt: 2026-08-22T19:18:01.078Z
 contentType: html
 via: party-site
+contentDigest: sha256-da80d9762d62dd37
+contentLength: 742
+sourceLastmod: 2026-06-12T03:58:49+00:00
 tags:
   - defence
 stance: intervention
@@ -14,8 +17,8 @@ money: no-figure
 licenseNote: Party copyright; not Gurki MIT
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna stödjer det svenska Natomedlemskapet och anser inte att Sverige ska ha några restriktioner i vår samverkan med alliansens medlemmar. Redan 2020 röstade Sverigedemokraterna för en Natooption som innebar att Sverige skulle deklarera möjligheten att gå med i alliansen. När detta blev aktuellt 2022 i och med Rysslands fullskaliga invasion av Ukraina så ställde sig Sverigedemokraterna bakom Natomedlemskapet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Sverigedemokraterna menar att Natos robotförsvar behöver stärkas och Nato behöver stärka sin förmåga att möta det kinesiska hotet. Det är också viktig att Nato fokuserar på sina kärnuppgifter och inte exempelvis miljöfrågor, då det finns andra organisationer som är bättre lämpade att hantera dessa frågor.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

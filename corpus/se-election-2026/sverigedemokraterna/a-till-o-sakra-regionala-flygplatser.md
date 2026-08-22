@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Säkra regionala flygplatser
-sourceUrl: https://www.sd.se/a-till-o/sakra-regionala-flygplatser/
-canonicalUrl: https://www.sd.se/a-till-o/sakra-regionala-flygplatser
-fetchedAt: 2026-08-22T14:14:42.599Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Säkra regionala flygplatser"
+sourceUrl: "https://www.sd.se/a-till-o/sakra-regionala-flygplatser/"
+canonicalUrl: "https://www.sd.se/a-till-o/sakra-regionala-flygplatser"
+fetchedAt: "2026-08-22T19:24:15.883Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-aac80c274cb9f4f6"
+contentLength: 368
+sourceLastmod: "2026-06-12T03:57:17+00:00"
 tags:
-  - transport
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "transport"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Vi vill behålla och stärka de regionala flygplatserna, till exempel Bromma flygplats, eftersom de behövs för jobb, sjukvårdstransporter, polisflyg och vår beredskap. De ska ha långsiktiga och stabila villkor från staten så att hela landet kan fungera. Sverige ska hänga ihop även när avstånden är stora och det gör vi genom att värna ett fungerande inrikesflyg.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

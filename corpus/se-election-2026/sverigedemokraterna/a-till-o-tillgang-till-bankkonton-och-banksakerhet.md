@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Tillgång till bankkonton och banksäkerhet
-sourceUrl: https://www.sd.se/a-till-o/tillgang-till-bankkonton-och-banksakerhet/
-canonicalUrl: https://www.sd.se/a-till-o/tillgang-till-bankkonton-och-banksakerhet
-fetchedAt: 2026-08-22T14:20:30.910Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Tillgång till bankkonton och banksäkerhet"
+sourceUrl: "https://www.sd.se/a-till-o/tillgang-till-bankkonton-och-banksakerhet/"
+canonicalUrl: "https://www.sd.se/a-till-o/tillgang-till-bankkonton-och-banksakerhet"
+fetchedAt: "2026-08-22T19:30:03.957Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-5921f97a592cd94d"
+contentLength: 737
+sourceLastmod: "2026-06-12T03:57:57+00:00"
 tags:
-  - defence
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "defence"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna ser problematiken med finansiellt utanförskap. I vissa fall nekas privatpersoner och företag tillgång till bankkonton på svaga grunder med svepande hänvisning till penningtvättslagen, detta trots den lagstadgade rätten till grundläggande betalkonto för EES-bosatta. Bankerna bör tillämpa reglerna riskbaserat och individuellt innan de nekar eller säger upp konton. Onödig uteslutning skapar allvarliga hinder i vardagen: svårt att betala räkningar, ta emot lön eller delta i samhället. Konsumenterna kräver att banker följer kontraheringsplikten och vägledningen från Simpt/EBA för att motverka detta utanförskap. Sverige ska ha hög banksäkerhet och inte försätta oskyldiga människor i finansiellt utanförskap!
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

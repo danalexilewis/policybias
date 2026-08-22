@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Försvarsindustri
-sourceUrl: https://www.sd.se/a-till-o/forsvarsindustri/
-canonicalUrl: https://www.sd.se/a-till-o/forsvarsindustri
-fetchedAt: 2026-08-22T14:33:35.386Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Försvarsindustri"
+sourceUrl: "https://www.sd.se/a-till-o/forsvarsindustri/"
+canonicalUrl: "https://www.sd.se/a-till-o/forsvarsindustri"
+fetchedAt: "2026-08-22T19:43:14.662Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-044da94a2fc424e0"
+contentLength: 839
+sourceLastmod: "2026-06-12T03:59:23+00:00"
 tags:
-  - defence
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "defence"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Den svenska försvarsindustrin är unik och har varit det under flera decennier, med produkter som bland annat Jas-39 Gripen, Stridsvagn 103 och Artillerisystem 08 Archer. Försvarsindustrin är ryggraden i det svenska totalförsvaret. Den högteknologiska kompetensen tillsammans med produktionsmöjligheterna gör att Sverige har goda förutsättningar inför kris och krig.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Sverigedemokraterna har tillsammans med regeringen stärkt försvarsindustrin genom långsiktiga beställningar och avsatta medel för forskning och utveckling. Försvarsindustristrategin som Sverigedemokraterna lämnade inspel till är ytterligare ett steg i rätt riktning. En del saker återstår dock, såsom att minska bördan gällande miljötillstånd och infratstruktur men också frågan gällande försvarsindustrins roll i försörjningsberedskapen och det militära försvaret.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

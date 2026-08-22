@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Elevinflytande
-sourceUrl: https://www.sd.se/a-till-o/elevinflytande/
-canonicalUrl: https://www.sd.se/a-till-o/elevinflytande
-fetchedAt: 2026-08-22T14:39:43.971Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Elevinflytande"
+sourceUrl: "https://www.sd.se/a-till-o/elevinflytande/"
+canonicalUrl: "https://www.sd.se/a-till-o/elevinflytande"
+fetchedAt: "2026-08-22T19:49:24.268Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-7551164edba5f60f"
+contentLength: 417
+sourceLastmod: "2026-06-12T03:59:47+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Elever ska ha viss möjlighet att påverka sin skolmiljö, men det måste ske i balans med lärarnas ansvar och auktoritet. Under lång tid har fokus legat mer på elevers rättigheter än på deras ansvar. Sverigedemokraterna vill därför tydliggöra elevernas skyldigheter och stärka lärarnas ställning i klassrummet. Undervisningens planering och genomförande samt skolans regelverk ska inte omfattas av elevinflytande.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

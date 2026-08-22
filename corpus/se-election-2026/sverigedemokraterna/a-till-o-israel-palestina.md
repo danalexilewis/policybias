@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Israel/Palestina
-sourceUrl: https://www.sd.se/a-till-o/israel-palestina/
-canonicalUrl: https://www.sd.se/a-till-o/israel-palestina
-fetchedAt: 2026-08-22T14:32:39.164Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Israel/Palestina"
+sourceUrl: "https://www.sd.se/a-till-o/israel-palestina/"
+canonicalUrl: "https://www.sd.se/a-till-o/israel-palestina"
+fetchedAt: "2026-08-22T19:42:14.958Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-0212e266100915b5"
+contentLength: 797
+sourceLastmod: "2026-06-12T03:59:20+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna fördömer den terror som Israel utsattes för den 7 oktober 2023 och stödjer Israels rätt till självförsvar. Om en tvåstatslösning kan lösa konflikten i Israel-Palestina och leda till långsiktig fred är det något vi stödjer. Sverigedemokraterna ställer sig inte bakom det förhastade beslutet att erkänna en palestinsk stat. Det har inte skapat rätt förutsättningar för fred och det kan inte ses som representativt för Sverige, då regeringen inte hade en riksdagsmajoritet bakom sig.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Sverigedemokraterna vill också att Sveriges ambassad i Israel flyttas till Jerusalem och utveckla samarbeten med Israel inom olika områden såsom forskning och försvarssamarbeten. Israel behöver upphöra med expansionen av bosättningar och agera mot bosättare som utför våldsdåd mot civila.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Civilt försvar
-sourceUrl: https://www.sd.se/a-till-o/civilt-forsvar/
-canonicalUrl: https://www.sd.se/a-till-o/civilt-forsvar
-fetchedAt: 2026-08-22T14:40:58.247Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Civilt försvar"
+sourceUrl: "https://www.sd.se/a-till-o/civilt-forsvar/"
+canonicalUrl: "https://www.sd.se/a-till-o/civilt-forsvar"
+fetchedAt: "2026-08-22T19:50:36.512Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-5dc9478a77c5e935"
+contentLength: 648
+sourceLastmod: "2026-06-12T04:00:03+00:00"
 tags:
-  - defence
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "defence"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Ett starkt civilt försvar är en förutsättning för att det militära försvaret ska kunna fungera. Befolkningsskydd, jordbruk och självförsörjning, reservkraft, psykologiskt försvar, krislager med mera är centrala delar för att samhället ska kunna fungera i händelse av långvarig kris och krig. Sverigedemokraterna har tillsammans med regeringen satsat miljarder på att stärka upp det civila försvaret under den här mandatperioden. Vi har gjort Sverige starkare och uthålligare i tider då det råder stor oro i omvärlden. Därför anser vi att det civila försvaret kommer behöva långsiktig finansiering för att kunna trygga och säkra befolkningen.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

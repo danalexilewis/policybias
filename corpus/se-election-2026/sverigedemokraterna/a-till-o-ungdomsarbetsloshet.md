@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Ungdomsarbetslöshet
-sourceUrl: https://www.sd.se/a-till-o/ungdomsarbetsloshet/
-canonicalUrl: https://www.sd.se/a-till-o/ungdomsarbetsloshet
-fetchedAt: 2026-08-22T14:11:21.452Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Ungdomsarbetslöshet"
+sourceUrl: "https://www.sd.se/a-till-o/ungdomsarbetsloshet/"
+canonicalUrl: "https://www.sd.se/a-till-o/ungdomsarbetsloshet"
+fetchedAt: "2026-08-22T19:20:54.346Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-47aba738eb70fe81"
+contentLength: 515
+sourceLastmod: "2026-06-12T03:57:01+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Ungdomsarbetslösheten i åldrarna 15-24 år uppgick 2025 till 24,3 procent. Drygt hälften av ungdomsarbetslösheten utgörs dock av heltidsstuderande som också söker jobb. Om vi i stället tittar på ungdomar som varken studerar eller arbetar, NEET (not in employment, education or training), ligger Sverige betydligt bättre till i en internationell jämförelse. För tredje kvartalet 2025 hade Sverige 4,8 procent unga i befolkningen 15–24 år som varken studerar eller arbetar, vilket är den näst lägsta nivån i EU.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

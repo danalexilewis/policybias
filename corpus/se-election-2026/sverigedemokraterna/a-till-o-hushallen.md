@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Hushållen
-sourceUrl: https://www.sd.se/a-till-o/hushallen/
-canonicalUrl: https://www.sd.se/a-till-o/hushallen
-fetchedAt: 2026-08-22T14:32:47.013Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Hushållen"
+sourceUrl: "https://www.sd.se/a-till-o/hushallen/"
+canonicalUrl: "https://www.sd.se/a-till-o/hushallen"
+fetchedAt: "2026-08-22T19:42:23.377Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-0d4456b69406dc5b"
+contentLength: 408
+sourceLastmod: "2026-06-12T03:59:21+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna har under innevarande mandatperiod beslutat om sänkt inkomstskatt för löntagare och pensionärer vid tre olika tillfällen, sänkt elskatt, sänkt moms på mat och livsmedel, sänkt skatt på sparande, sänkt förskoleavgift och sänkt skatt på drivmedel. Vi avser fortsätta med dylika åtgärder för att stärka hushållen även kommande mandatperiod. Sveriges hushåll ska stöttas och värnas om!
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

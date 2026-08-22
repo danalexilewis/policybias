@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Skolmat
-sourceUrl: https://www.sd.se/a-till-o/skolmat/
-canonicalUrl: https://www.sd.se/a-till-o/skolmat
-fetchedAt: 2026-08-22T14:20:26.838Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Skolmat"
+sourceUrl: "https://www.sd.se/a-till-o/skolmat/"
+canonicalUrl: "https://www.sd.se/a-till-o/skolmat"
+fetchedAt: "2026-08-22T19:29:59.944Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-88edf609ab32027f"
+contentLength: 421
+sourceLastmod: "2026-06-12T03:57:56+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverige är ett av få länder i världen som erbjuder kostnadsfri skolmat till alla elever. För att systemet ska vara långsiktigt hållbart krävs tydligare nationella riktlinjer. Sverigedemokraterna vill därför att skolor alltid ska erbjuda en kötträtt och en vegetarisk rätt samt specialkost vid medicinska behov. Skolmaten bör i så stor utsträckning som möjligt vara närproducerad och följa svenska djurskyddsregler.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

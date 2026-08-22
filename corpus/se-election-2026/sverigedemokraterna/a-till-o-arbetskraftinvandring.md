@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Arbetskraftinvandring
-sourceUrl: https://www.sd.se/a-till-o/arbetskraftinvandring/
-canonicalUrl: https://www.sd.se/a-till-o/arbetskraftinvandring
-fetchedAt: 2026-08-22T14:42:55.739Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Arbetskraftinvandring"
+sourceUrl: "https://www.sd.se/a-till-o/arbetskraftinvandring/"
+canonicalUrl: "https://www.sd.se/a-till-o/arbetskraftinvandring"
+fetchedAt: "2026-08-22T19:52:33.118Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-3439fe753f377471"
+contentLength: 539
+sourceLastmod: "2026-06-12T04:00:12+00:00"
 tags:
-  - immigration
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "immigration"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverige ska inte ha invandring av lågutbildad arbetskraft, vilket de flesta partierna i riksdagen är överens om och har ställt sig bakom. Enligt en uppgörelse mellan Sverigedemokraterna och regeringen ska lönen för en arbetskraftsinvandrare vara minst 90 % av medianlönen i Sverige, alltså ungefär 34 000 kr i månaden före skatt. Detta behövs för att förhindra lönedumpning och missbruk av systemet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Sverigedemokraterna vill också skärpa reglerna för säsongsanställningar och göra mer för att upptäcka och stoppa fusk och missbruk.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

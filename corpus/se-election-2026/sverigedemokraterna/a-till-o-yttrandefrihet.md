@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Yttrandefrihet
-sourceUrl: https://www.sd.se/a-till-o/yttrandefrihet/
-canonicalUrl: https://www.sd.se/a-till-o/yttrandefrihet
-fetchedAt: 2026-08-22T14:13:22.460Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Yttrandefrihet"
+sourceUrl: "https://www.sd.se/a-till-o/yttrandefrihet/"
+canonicalUrl: "https://www.sd.se/a-till-o/yttrandefrihet"
+fetchedAt: "2026-08-22T19:22:54.997Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-244684256f0927f9"
+contentLength: 556
+sourceLastmod: "2026-06-12T03:57:09+00:00"
 tags:
-  - democracy
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "democracy"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Yttrandefriheten är en grundpelare i den svenska demokratin och ska värnas starkt. Människor måste kunna uttrycka åsikter, kritisera makthavare och delta i samhällsdebatten utan rädsla för censur eller repressalier. Vi ser med oro på utvecklingen där politiska beslut, plattformsregler och självcensur riskerar att begränsa det öppna samtalet. Lagstiftning som påverkar yttrandefriheten ska vara tydlig och restriktiv. Grundlagsskyddade friheter ska väga tungt och inskränkningar endast ske när det är absolut nödvändigt i ett demokratiskt samhälle.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Elskatten
-sourceUrl: https://www.sd.se/a-till-o/elskatten/
-canonicalUrl: https://www.sd.se/a-till-o/elskatten
-fetchedAt: 2026-08-22T14:37:44.663Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Elskatten"
+sourceUrl: "https://www.sd.se/a-till-o/elskatten/"
+canonicalUrl: "https://www.sd.se/a-till-o/elskatten"
+fetchedAt: "2026-08-22T19:47:27.563Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-ecbfa2e7471edb02"
+contentLength: 454
+sourceLastmod: "2026-06-12T03:59:39+00:00"
 tags:
-  - taxation
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "taxation"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill ge både hushållen och företagen låga elpriser. På lång sikt görs det genom utbyggnad av kärnkraft. Men på kortare sikt är det viktigt att lätta på skattetrycket. Nära hälften av elpriset består av skatt och moms. När hushållen och företag får höga elräkningar är det inte staten som ska tjäna på det. Därför driver Sverigedemokraterna på för att successivt sänka elskatten till EU-miniminivå. Sverige ska ha låga elpriser!
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

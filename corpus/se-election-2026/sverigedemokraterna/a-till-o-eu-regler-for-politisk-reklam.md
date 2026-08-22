@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: EU-regler för politisk reklam
-sourceUrl: https://www.sd.se/a-till-o/eu-regler-for-politisk-reklam/
-canonicalUrl: https://www.sd.se/a-till-o/eu-regler-for-politisk-reklam
-fetchedAt: 2026-08-22T14:36:52.320Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "EU-regler för politisk reklam"
+sourceUrl: "https://www.sd.se/a-till-o/eu-regler-for-politisk-reklam/"
+canonicalUrl: "https://www.sd.se/a-till-o/eu-regler-for-politisk-reklam"
+fetchedAt: "2026-08-22T19:46:34.545Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-4bd3d2f87baf350a"
+contentLength: 722
+sourceLastmod: "2026-06-12T03:59:36+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+EU har beslutat om nya regler för politisk reklam i syfte att göra det tydligare vem som står bakom politiska annonser. Reglerna innebär nya juridiska krav och operativa utmaningar som skapar osäkerhet kring hur politisk reklam får utformas och riktas. Stora plattformar som Meta och Google har därför beslutat att helt upphöra med politisk reklam i EU. De nya bestämmelserna innebär också ökade kontroller och risk för sanktioner. Det kan göra det svårare för partier, föreningar och privatpersoner att sprida laglig politisk information, särskilt för mindre aktörer. Sverigedemokraterna anser att svenska regler om tryck- och yttrandefrihet alltid ska väga tyngst och att EU-regler bara ska införas på miniminivå.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

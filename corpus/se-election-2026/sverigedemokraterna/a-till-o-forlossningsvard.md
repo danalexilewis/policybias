@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Förlossningsvård
-sourceUrl: https://www.sd.se/a-till-o/forlossningsvard/
-canonicalUrl: https://www.sd.se/a-till-o/forlossningsvard
-fetchedAt: 2026-08-22T14:37:57.366Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Förlossningsvård"
+sourceUrl: "https://www.sd.se/a-till-o/forlossningsvard/"
+canonicalUrl: "https://www.sd.se/a-till-o/forlossningsvard"
+fetchedAt: "2026-08-22T19:47:41.064Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-8a650cf0c289d382"
+contentLength: 701
+sourceLastmod: "2026-06-12T03:59:41+00:00"
 tags:
-  - healthcare
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "healthcare"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Förlossningsvården ska vara trygg och tillgänglig över hela landet och vi vill se satsningar på både graviditetsvård, förlossningsvård och eftervård. I Tidöavtalet finns en tydlig punkt om att ta fram en nationell förlossningsplan. Denna plan ska syfta till att stärka förlossningsvården i hela landet, med fokus på att öka tillgängligheten och minska regionala skillnader.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Sverigedemokraterna och regeringen har även gett myndigheter som Inspektionen för vård och omsorg (IVO) i uppdrag att stärka den nationella tillsynen av både mödrahälsovården och förlossningsvården. I slutändan är det regionerna som måste leverera detta och i vissa fall är vi inte nöjda med regionernas prioriteringar.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

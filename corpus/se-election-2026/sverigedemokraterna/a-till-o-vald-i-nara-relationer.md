@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Våld i nära relationer
-sourceUrl: https://www.sd.se/a-till-o/vald-i-nara-relationer/
-canonicalUrl: https://www.sd.se/a-till-o/vald-i-nara-relationer
-fetchedAt: 2026-08-22T14:16:36.149Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Våld i nära relationer"
+sourceUrl: "https://www.sd.se/a-till-o/vald-i-nara-relationer/"
+canonicalUrl: "https://www.sd.se/a-till-o/vald-i-nara-relationer"
+fetchedAt: "2026-08-22T19:26:10.545Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-3b79717dc2e3c3ef"
+contentLength: 590
+sourceLastmod: "2026-06-12T03:57:43+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Våld i nära relationer är ett allvarligt samhällsproblem som främst drabbar kvinnor och barn. Det handlar om fysiskt, psykiskt, sexuellt och ekonomiskt våld som utövas av en partner eller närstående. Samhällets ansvar är att skydda den utsatta och lagföra förövaren. Vi vill se skärpta straff för grova och upprepade våldsbrott, stärkt stöd till skyddade boenden samt bättre samordning mellan polis, socialtjänst och rättsväsende. Utländska medborgare som begår grova våldsbrott ska utvisas. Ingen ska tvingas leva i rädsla i sitt eget hem. Trygghet och rättssäkerhet ska gälla alla.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

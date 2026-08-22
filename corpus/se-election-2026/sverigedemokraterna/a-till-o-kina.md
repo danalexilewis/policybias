@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Kina
-sourceUrl: https://www.sd.se/a-till-o/kina/
-canonicalUrl: https://www.sd.se/a-till-o/kina
-fetchedAt: 2026-08-22T14:28:33.992Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Kina"
+sourceUrl: "https://www.sd.se/a-till-o/kina/"
+canonicalUrl: "https://www.sd.se/a-till-o/kina"
+fetchedAt: "2026-08-22T19:38:06.608Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-c94dcb71c36f77ae"
+contentLength: 714
+sourceLastmod: "2026-06-12T03:58:50+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna ser med oro på att Kina har supermaktsambitioner och fortsätter agera repressivt internt samtidigt som landet bedriver en aggressiv utrikespolitik. Genom Kinas agerande på cyberarenan, uppköp av samhällsviktiga företag och spioneri utgör Kina ett hot också mot svenska intressen. Sverige måste stå upp mot Kina och vara en tydlig röst mot dess aggressiva utrikespolitik och för demokrati och mänskliga rättigheter. Vi fördömer också starkt de övergrepp som den kinesiska staten utför mot olika minoritetsgrupper i landet. Inte minst uigurerna har blivit utsatta för fruktansvärda övergrepp i form av mord, tvångsarbete, tortyr och systematiska våldtäkter i fångläger i Xinjiangprovinsen.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

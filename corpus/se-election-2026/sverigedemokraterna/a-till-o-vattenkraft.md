@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Vattenkraft
-sourceUrl: https://www.sd.se/a-till-o/vattenkraft/
-canonicalUrl: https://www.sd.se/a-till-o/vattenkraft
-fetchedAt: 2026-08-22T14:16:43.243Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Vattenkraft"
+sourceUrl: "https://www.sd.se/a-till-o/vattenkraft/"
+canonicalUrl: "https://www.sd.se/a-till-o/vattenkraft"
+fetchedAt: "2026-08-22T19:26:19.230Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-655c9797be82a1fe"
+contentLength: 759
+sourceLastmod: "2026-06-12T03:57:45+00:00"
 tags:
-  - energy
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "energy"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Vattenkraften utgör, tillsammans med kärnkraften själva ryggraden i det svenska elsystemet. Vattenkraftens förmågor är centrala men urvattnas av den höga mängden vindkraft som vattenkraften måste reglera. Vi ser en ökad potential i vattenkraften genom bland annat att befintliga vattenmagasin kan bidra med mer effekt genom pumpkraft och effekthöjningar genom investeringar i befintliga kraftverk. För att möjliggöra detta behövs rimliga tillståndsprocesser. Därför har vi tagit vattenkraftens parti mot de miljökrav från EU som hotat hela branschen. Tidöpartierna har tagit viktiga steg för att förbättra regelverket, bland annat genom att justera omprövningarna av vattenkraft så att miljönytta bättre balanseras mot trygg tillgång på vattenkraftsel.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

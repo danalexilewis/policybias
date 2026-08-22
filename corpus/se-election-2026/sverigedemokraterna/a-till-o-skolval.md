@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Skolval
-sourceUrl: https://www.sd.se/a-till-o/skolval/
-canonicalUrl: https://www.sd.se/a-till-o/skolval
-fetchedAt: 2026-08-22T14:12:36.759Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Skolval"
+sourceUrl: "https://www.sd.se/a-till-o/skolval/"
+canonicalUrl: "https://www.sd.se/a-till-o/skolval"
+fetchedAt: "2026-08-22T19:22:08.653Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-03e6c3b70be86300"
+contentLength: 339
+sourceLastmod: "2026-06-12T03:57:08+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Möjligheten att välja skola är viktig för både elever och föräldrar. Skolvalet kan bidra till att stärka kvaliteten genom att skolor måste leva upp till höga krav. Sverigedemokraterna vill värna valfriheten men också säkerställa att systemet är rättvist och transparent. Alla elever ska ha tillgång till bra skolor oavsett bakgrund.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

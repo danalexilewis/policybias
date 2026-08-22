@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Hedersrelaterat våld och förtryck
-sourceUrl: https://www.sd.se/a-till-o/hedersrelaterat-vald-och-fortryck/
-canonicalUrl: https://www.sd.se/a-till-o/hedersrelaterat-vald-och-fortryck
-fetchedAt: 2026-08-22T14:32:50.543Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Hedersrelaterat våld och förtryck"
+sourceUrl: "https://www.sd.se/a-till-o/hedersrelaterat-vald-och-fortryck/"
+canonicalUrl: "https://www.sd.se/a-till-o/hedersrelaterat-vald-och-fortryck"
+fetchedAt: "2026-08-22T19:42:31.051Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-88fc10c6065a14aa"
+contentLength: 566
+sourceLastmod: "2026-06-12T03:59:22+00:00"
 tags:
-  - crime-and-justice
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "crime-and-justice"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Hedersrelaterat våld och förtryck är en kollektiv form av kontroll där individens frihet underordnas familjens eller släktens heder. Det drabbar främst flickor och kvinnor men även pojkar och hbtq-personer. Det kan handla om begränsningar i vardagen, hot, tvångsäktenskap och i värsta fall dödligt våld.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi vill stärka det förebyggande arbetet, säkerställa att myndigheter agerar tidigt och konsekvent samt skärpa påföljderna för hedersrelaterade brott. Svenska lagar och individuella fri- och rättigheter ska alltid stå över kulturella och religiösa normer.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

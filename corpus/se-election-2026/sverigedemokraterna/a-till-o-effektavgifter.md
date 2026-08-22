@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Effektavgifter
-sourceUrl: https://www.sd.se/a-till-o/effektavgifter/
-canonicalUrl: https://www.sd.se/a-till-o/effektavgifter
-fetchedAt: 2026-08-22T14:40:40.207Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Effektavgifter"
+sourceUrl: "https://www.sd.se/a-till-o/effektavgifter/"
+canonicalUrl: "https://www.sd.se/a-till-o/effektavgifter"
+fetchedAt: "2026-08-22T19:50:19.929Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-1c9bad1d79dfb914"
+contentLength: 559
+sourceLastmod: "2026-06-12T04:00:00+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Efter krav från EU har vissa svenska elbolag börjat införa de effekttariffer/effektavgifter som måste vara på plats den 1 januari 2027. Syftet från EU:s håll är att konsumtionen av el ska anpassas utifrån elsystemets förutsättningar och att kunder ska belönas vid ”smart” elkonsumtion. I praktiken har kostnaderna ökat utan nytta för konsument eller system. Effekttarifferna behöver därför pausas och ses över så att vi inte går längre än vad EU kräver. De ska vara rimliga, lika utformade mellan olika elnätsbolag och lätta för konsumenter att förstå.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

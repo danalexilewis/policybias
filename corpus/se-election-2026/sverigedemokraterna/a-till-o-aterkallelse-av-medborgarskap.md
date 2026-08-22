@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Återkallelse av medborgarskap
-sourceUrl: https://www.sd.se/a-till-o/aterkallelse-av-medborgarskap/
-canonicalUrl: https://www.sd.se/a-till-o/aterkallelse-av-medborgarskap
-fetchedAt: 2026-08-22T14:14:38.595Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Återkallelse av medborgarskap"
+sourceUrl: "https://www.sd.se/a-till-o/aterkallelse-av-medborgarskap/"
+canonicalUrl: "https://www.sd.se/a-till-o/aterkallelse-av-medborgarskap"
+fetchedAt: "2026-08-22T19:24:11.533Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-b9a97ccfaf500b4b"
+contentLength: 576
+sourceLastmod: "2026-06-12T03:57:17+00:00"
 tags:
-  - immigration
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "immigration"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Personer med dubbla medborgarskap som begår allvarliga brott mot Sverige ska kunna få sitt svenska medborgarskap återkallat. Det gäller exempelvis terrorism, deltagande i kriminella nätverk eller brott som hotar rikets säkerhet. Även medborgarskap som erhållits genom lögn eller falska uppgifter ska kunna återtas. Medborgarskapet innebär både rättigheter och skyldigheter. Den som allvarligt skadar Sverige eller missbrukar det förtroende som medborgarskapet innebär ska inte självklart kunna behålla det. Åtgärder ska ske rättssäkert och utan att någon görs statslös.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

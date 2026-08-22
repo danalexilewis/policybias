@@ -4,9 +4,12 @@ party: sverigedemokraterna
 title: Pliktskola
 sourceUrl: https://www.sd.se/a-till-o/pliktskola/
 canonicalUrl: https://www.sd.se/a-till-o/pliktskola
-fetchedAt: 2026-08-22T14:07:24.205Z
+fetchedAt: 2026-08-22T19:16:57.564Z
 contentType: html
 via: party-site
+contentDigest: sha256-337fa668888689fa
+contentLength: 376
+sourceLastmod: 2026-06-12T03:58:38+00:00
 tags:
   - education
 stance: intervention
@@ -14,8 +17,6 @@ money: no-figure
 licenseNote: Party copyright; not Gurki MIT
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Alla barn som vistas i Sverige ska omfattas av skolplikt och få tillgång till utbildning. Samtidigt måste samhället säkerställa att skolplikten faktiskt följs. Sverigedemokraterna vill stärka kontrollen över att barn deltar i undervisningen och att vårdnadshavare tar sitt ansvar. Skolplikten är en central del av det svenska utbildningssystemet och ska upprätthållas.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

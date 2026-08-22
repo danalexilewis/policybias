@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Psykisk ohälsa
-sourceUrl: https://www.sd.se/a-till-o/psykisk-ohalsa/
-canonicalUrl: https://www.sd.se/a-till-o/psykisk-ohalsa
-fetchedAt: 2026-08-22T14:24:43.498Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Psykisk ohälsa"
+sourceUrl: "https://www.sd.se/a-till-o/psykisk-ohalsa/"
+canonicalUrl: "https://www.sd.se/a-till-o/psykisk-ohalsa"
+fetchedAt: "2026-08-22T19:34:16.290Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-2320ff4b83c7598b"
+contentLength: 717
+sourceLastmod: "2026-06-12T03:58:36+00:00"
 tags:
-  - healthcare
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "healthcare"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Den ökande psykiska ohälsan utgör en av de mest betydande folkhälsoutmaningarna i vår tid, vilket kräver både tydliga och långsiktiga prioriteringar. Sverigedemokraterna anser att den psykiatriska vården behöver reformeras i grunden för att möjliggöra en modern, sammanhållen och effektiv vård.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi vill att en ny, omfattande psykiatriutredning tillsätts som ett första steg mot att etablera framtidens psykiatriska vård. Flertalet granskningar visar på allvarliga och återkommande brister inom den psykiatriska tvångsvården. Dessa brister måste åtgärdas skyndsamt. Sverigedemokraterna vill bland annat omedelbart fasa ut bältesläggning som tvångsåtgärd för att ersätta denna med mer humana behandlingsmetoder.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Ekonomisk självständighet för kvinnor
-sourceUrl: https://www.sd.se/a-till-o/ekonomisk-sjalvstandighet-for-kvinnor/
-canonicalUrl: https://www.sd.se/a-till-o/ekonomisk-sjalvstandighet-for-kvinnor
-fetchedAt: 2026-08-22T14:37:52.926Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Ekonomisk självständighet för kvinnor"
+sourceUrl: "https://www.sd.se/a-till-o/ekonomisk-sjalvstandighet-for-kvinnor/"
+canonicalUrl: "https://www.sd.se/a-till-o/ekonomisk-sjalvstandighet-for-kvinnor"
+fetchedAt: "2026-08-22T19:47:35.949Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-cac97401ff46cc07"
+contentLength: 448
+sourceLastmod: "2026-06-12T03:59:41+00:00"
 tags:
-  - economy
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "economy"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Ekonomisk självständighet är avgörande för kvinnors frihet och trygghet. Möjligheten att försörja sig själv minskar sårbarheten vid våld, separation och social kontroll. Vi vill stärka drivkrafterna till arbete, minska långvarigt bidragsberoende och förbättra förutsättningarna för företagande. Jämställdhet handlar om att kvinnor och män ska ha lika möjligheter att arbeta, utvecklas och ta ansvar för sin egen försörjning genom hela livet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

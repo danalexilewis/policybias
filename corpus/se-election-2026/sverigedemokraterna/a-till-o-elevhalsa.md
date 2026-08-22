@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Elevhälsa
-sourceUrl: https://www.sd.se/a-till-o/elevhalsa/
-canonicalUrl: https://www.sd.se/a-till-o/elevhalsa
-fetchedAt: 2026-08-22T14:37:48.744Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Elevhälsa"
+sourceUrl: "https://www.sd.se/a-till-o/elevhalsa/"
+canonicalUrl: "https://www.sd.se/a-till-o/elevhalsa"
+fetchedAt: "2026-08-22T19:47:31.193Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-beca8281c440f697"
+contentLength: 487
+sourceLastmod: "2026-06-12T03:59:40+00:00"
 tags:
-  - healthcare
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "healthcare"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Barn och ungas fysiska och psykiska hälsa är avgörande för deras möjligheter att klara skolan. Forskning visar att regelbunden fysisk aktivitet förbättrar både koncentration, inlärning och välbefinnande. Sverigedemokraterna vill därför stärka elevhälsan genom mer rörelse i skolan och större fokus på elevernas välmående. Vi vill bland annat se mer idrott och rörelse under skoldagen samt återinföra de reglerade friluftsdagarna. Elevhälsan ska återgå till att vara skolhälsovård.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

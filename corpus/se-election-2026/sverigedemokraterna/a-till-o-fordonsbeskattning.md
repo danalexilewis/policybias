@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Fordonsbeskattning
-sourceUrl: https://www.sd.se/a-till-o/fordonsbeskattning/
-canonicalUrl: https://www.sd.se/a-till-o/fordonsbeskattning
-fetchedAt: 2026-08-22T14:39:47.854Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Fordonsbeskattning"
+sourceUrl: "https://www.sd.se/a-till-o/fordonsbeskattning/"
+canonicalUrl: "https://www.sd.se/a-till-o/fordonsbeskattning"
+fetchedAt: "2026-08-22T19:49:27.728Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-1d656b0d91515e7d"
+contentLength: 709
+sourceLastmod: "2026-06-12T03:59:47+00:00"
 tags:
-  - taxation
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "taxation"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill sänka beskattningen av fordon i flera steg. Malus-beskattningen infördes för att beskatta koldioxidbaserade fordon som sades kunna stimulera fossilfria fordons användning. Detta har snarare blivit en straffbeskattning som drabbar vanligt folk som inte har möjlighet att välja eldriven bil av olika skäl. Vi vill därför slopa den förhöjda malus beskattningen på nya fossildrivna bilar.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Detta arbete har vi påbörjat under mandatperioden genom att ta bort den från husbilar. Vi har även tagit bort skatten på släpfordon. Vi avser att fortsätta arbeta i den riktningen genom exempelvis borttagen fordonskatt på A-traktorer. Sverige ska ha inte ha orimliga beskattningar på fordon!
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

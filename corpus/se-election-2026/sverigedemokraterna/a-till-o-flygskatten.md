@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Flygskatten
-sourceUrl: https://www.sd.se/a-till-o/flygskatten/
-canonicalUrl: https://www.sd.se/a-till-o/flygskatten
-fetchedAt: 2026-08-22T14:35:34.036Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Flygskatten"
+sourceUrl: "https://www.sd.se/a-till-o/flygskatten/"
+canonicalUrl: "https://www.sd.se/a-till-o/flygskatten"
+fetchedAt: "2026-08-22T19:45:14.334Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-0f398a2f149ea693"
+contentLength: 694
+sourceLastmod: "2026-06-12T03:59:29+00:00"
 tags:
-  - taxation
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "taxation"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna drev igenom avskaffandet av flygskatten. Skatten infördes 2018 av den Socialdemokratiska regeringen med motiveringen att ”minska flygets klimatpåverkan”. Borttagandet av flygskatten är ett lyft för den svenska konkurrenskraften och förutsättningarna att resa till och göra affärer i Sverige.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Skatten har visat sig varit symbolisk för miljöpartiet och har inte resulterat i någon mindre klimatpåverkan. Skatten är och kontraproduktiv, samtidigt som den försvårat tillgången till internationella flygförbindelser. Sedan borttagandet har Miljöpartiet drivit för att återställa skatten. Sverige ska inte hämma sin konkurrenskraft för att uppnå klimatmål utan miljönytta!
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

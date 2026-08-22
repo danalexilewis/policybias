@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Mineralpolitik
-sourceUrl: https://www.sd.se/a-till-o/mineralpolitik/
-canonicalUrl: https://www.sd.se/a-till-o/mineralpolitik
-fetchedAt: 2026-08-22T14:24:47.766Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Mineralpolitik"
+sourceUrl: "https://www.sd.se/a-till-o/mineralpolitik/"
+canonicalUrl: "https://www.sd.se/a-till-o/mineralpolitik"
+fetchedAt: "2026-08-22T19:34:21.290Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-713383db9c32703a"
+contentLength: 759
+sourceLastmod: "2026-06-12T03:58:37+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sveriges gruvnäring har i århundraden varit central för landets utveckling som handels- och industrination. Gruvor skapar högkvalificerade jobb, starka exportintäkter och är ofta den ekonomiska motorn i hela regioner. Sverige ligger i framkant vad gäller teknik för effektiv och miljösmart brytning och har stora möjligheter att bli ledande inom utvinning av innovationskritiska mineral som behövs för elbilar och annan teknik. För att realisera denna potential krävs snabbare, tydligare och mer förutsägbara tillståndsprocesser, utan att göra avkall på miljöbalkens höga krav. Dagens mineralavgift är låg i internationell jämförelse. För att öka nyttan för samhället bör avgiften höjas och en del av intäkterna tillfalla de som påverkas av brytningen.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

@@ -4,18 +4,19 @@ party: sverigedemokraterna
 title: "Sänk priset på Gotlandsfärjan: rimliga villkor för boende och företag"
 sourceUrl: https://www.sd.se/a-till-o/sank-priset-pa-gotlandsfarjan-rimliga-villkor-for-boende-och-foretag/
 canonicalUrl: https://www.sd.se/a-till-o/sank-priset-pa-gotlandsfarjan-rimliga-villkor-for-boende-och-foretag
-fetchedAt: 2026-08-22T14:09:35.392Z
+fetchedAt: 2026-08-22T19:19:08.167Z
 contentType: html
 via: party-site
+contentDigest: sha256-0bbee73d47221398
+contentLength: 254
+sourceLastmod: 2026-06-12T03:56:56+00:00
 tags:
   - economy
 stance: intervention
-licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+licenseNote: Party copyright; not Gurki MIT
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill sänka kostnaderna för resor och godstransporter till och från Gotland så att det ska vara möjligt att bo, arbeta och driva företag på ön utan orimligt höga priser. Gotlandsfärjan är en samhällsviktig länk och inte en lyx.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

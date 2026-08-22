@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Bolånekrav
-sourceUrl: https://www.sd.se/a-till-o/bolanekrav/
-canonicalUrl: https://www.sd.se/a-till-o/bolanekrav
-fetchedAt: 2026-08-22T14:45:47.787Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Bolånekrav"
+sourceUrl: "https://www.sd.se/a-till-o/bolanekrav/"
+canonicalUrl: "https://www.sd.se/a-till-o/bolanekrav"
+fetchedAt: "2026-08-22T19:55:21.413Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-9773122e49b86364"
+contentLength: 649
+sourceLastmod: "2026-06-12T04:00:22+00:00"
 tags:
-  - economy
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "economy"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna är postitivt inställda till uppluckringar och lättnader som bidrar till att fler förstagångsköpare har enklare att ta sig in på bostadsmarknaden. Vi välkommande utredningen om föreslagna ändringar av amorteringskrav och bolånetak som vi var med och röstade igenom den 4 mars 2026. Utredningen föreslog att det första amorteringskravet förblir, men att det skärpta amorteringskravet avskaffas samt att bolånetaket höjs från 85% till 90%, vilket innebär att den egna insatsen inte behöver vara lika stor vid ett bostadsköp. Sverige ska ha rimliga bolånekrav, inte resa onödiga hinder som står i vägen för människors drömmar!
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

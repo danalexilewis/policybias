@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Medborgarinflytande över arkitekturen
-sourceUrl: https://www.sd.se/a-till-o/medborgarinflytande-over-arkitekturen/
-canonicalUrl: https://www.sd.se/a-till-o/medborgarinflytande-over-arkitekturen
-fetchedAt: 2026-08-22T14:25:32.996Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Medborgarinflytande över arkitekturen"
+sourceUrl: "https://www.sd.se/a-till-o/medborgarinflytande-over-arkitekturen/"
+canonicalUrl: "https://www.sd.se/a-till-o/medborgarinflytande-over-arkitekturen"
+fetchedAt: "2026-08-22T19:35:04.433Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-ff3eabe4486c0738"
+contentLength: 681
+sourceLastmod: "2026-06-12T03:58:39+00:00"
 tags:
-  - immigration
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "immigration"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraterna vill öka medborgarinflytandet i stadsplanering och gestaltning, med utgångspunkt i att den byggda miljön påverkar människors trivsel och trygghet. Vi anser att boende inom ett område ska få större möjlighet att påverka estetiska och kvalitativa val, inte bara tekniska detaljfrågor i arkitekturen. Vi vill ta fram modeller där kommunen/planprocessen tar in invånarnas preferenser tydligare och där en vacker och mänsklig skala premieras. Områden som upplevs välgestaltade och omhändertagna kan bidra till trygghet och stolthet. Målet är att komma bort från upplevt monotont och otryggt byggande och istället skapa miljöer som folk vill bo i och förvalta.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

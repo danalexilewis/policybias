@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Språkkrav inom välfärden
-sourceUrl: https://www.sd.se/a-till-o/sprakkrav-inom-valfarden/
-canonicalUrl: https://www.sd.se/a-till-o/sprakkrav-inom-valfarden
-fetchedAt: 2026-08-22T14:11:28.806Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Språkkrav inom välfärden"
+sourceUrl: "https://www.sd.se/a-till-o/sprakkrav-inom-valfarden/"
+canonicalUrl: "https://www.sd.se/a-till-o/sprakkrav-inom-valfarden"
+fetchedAt: "2026-08-22T19:21:01.351Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-fba6a9a7579ffad2"
+contentLength: 417
+sourceLastmod: "2026-06-12T03:57:02+00:00"
 tags:
-  - social-welfare
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "social-welfare"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Under 2026 skärps språkkraven inom äldreomsorgen i enlighet med Tidöavtalet. För oss i Sverigedemokraterna är detta ett första viktigt steg. Välfärden ska präglas av kvalitet, trygghet och professionalism, inte fungera som integrationsåtgärd. Den som arbetar inom vård, skola och omsorg måste ha goda kunskaper i det svenska språket. Det är avgörande för patientsäkerhet, rättssäkerhet och välfärdens kvalitet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

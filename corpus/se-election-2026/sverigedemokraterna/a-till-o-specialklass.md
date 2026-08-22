@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Specialklass
-sourceUrl: https://www.sd.se/a-till-o/specialklass/
-canonicalUrl: https://www.sd.se/a-till-o/specialklass
-fetchedAt: 2026-08-22T14:18:41.598Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Specialklass"
+sourceUrl: "https://www.sd.se/a-till-o/specialklass/"
+canonicalUrl: "https://www.sd.se/a-till-o/specialklass"
+fetchedAt: "2026-08-22T19:28:15.747Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-415b3c1ea67690d9"
+contentLength: 364
+sourceLastmod: "2026-06-12T03:57:51+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Vissa elever behöver mer stöd än vad den ordinarie undervisningen kan erbjuda. Specialklasser kan därför vara ett viktigt verktyg för att ge dessa elever rätt förutsättningar att lyckas i skolan. Sverigedemokraterna vill göra det lättare att inrätta specialklasser där elever kan få anpassad undervisning. Samtidigt skapas bättre studiero för övriga elever.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

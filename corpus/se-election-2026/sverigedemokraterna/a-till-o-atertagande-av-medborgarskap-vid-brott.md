@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Återtagande av medborgarskap vid brott
-sourceUrl: https://www.sd.se/a-till-o/atertagande-av-medborgarskap-vid-brott/
-canonicalUrl: https://www.sd.se/a-till-o/atertagande-av-medborgarskap-vid-brott
-fetchedAt: 2026-08-22T14:14:26.950Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Återtagande av medborgarskap vid brott"
+sourceUrl: "https://www.sd.se/a-till-o/atertagande-av-medborgarskap-vid-brott/"
+canonicalUrl: "https://www.sd.se/a-till-o/atertagande-av-medborgarskap-vid-brott"
+fetchedAt: "2026-08-22T19:24:00.920Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-268860f3b7ffc6c5"
+contentLength: 604
+sourceLastmod: "2026-06-12T03:57:15+00:00"
 tags:
-  - crime-and-justice
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "crime-and-justice"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Den mest betydelsefulla kopplingen man kan ha till ett land är medborgarskapet. Ett medborgarskap är något fint och signalerar att individen och landet har rättigheter och skyldigheter gentemot varandra. Den som erhållit ett svenskt medborgarskap och sedan begår brott som skadar Sveriges vitala intressen anser vi har förbrukat sitt förtroende och bör därmed få sitt medborgarskap återkallat. Internationell rätt förhindrar emellertid att länder återkallar medborgarskap på grund av brott om personen blir statslös. Vi vill därför att den här regeln skall gälla personer med dubbla medborgarskap.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

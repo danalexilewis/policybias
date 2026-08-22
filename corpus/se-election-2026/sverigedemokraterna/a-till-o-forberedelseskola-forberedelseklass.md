@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Förberedelseskola/förberedelseklass
-sourceUrl: https://www.sd.se/a-till-o/forberedelseskola-forberedelseklass/
-canonicalUrl: https://www.sd.se/a-till-o/forberedelseskola-forberedelseklass
-fetchedAt: 2026-08-22T14:33:50.710Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Förberedelseskola/förberedelseklass"
+sourceUrl: "https://www.sd.se/a-till-o/forberedelseskola-forberedelseklass/"
+canonicalUrl: "https://www.sd.se/a-till-o/forberedelseskola-forberedelseklass"
+fetchedAt: "2026-08-22T19:43:33.511Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-6126dedd7dcab7e8"
+contentLength: 484
+sourceLastmod: "2026-06-12T03:59:26+00:00"
 tags:
-  - education
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "education"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Nyanlända elever behöver ofta tid för att lära sig svenska och komma i kapp i andra ämnen innan de kan följa ordinarie undervisning. För att säkerställa en fungerande undervisningsmiljö för alla elever vill Sverigedemokraterna införa obligatoriska förberedelseskolor/förberedelseklasser. Där ska elever få intensiv undervisning i svenska och grundläggande ämnen innan de successivt slussas in i ordinarie klass. På så sätt stärks både integrationen och studieron i klassrummen.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

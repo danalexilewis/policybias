@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Fackförbunden
-sourceUrl: https://www.sd.se/a-till-o/fackforbunden/
-canonicalUrl: https://www.sd.se/a-till-o/fackforbunden
-fetchedAt: 2026-08-22T14:40:54.004Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Fackförbunden"
+sourceUrl: "https://www.sd.se/a-till-o/fackforbunden/"
+canonicalUrl: "https://www.sd.se/a-till-o/fackforbunden"
+fetchedAt: "2026-08-22T19:50:32.322Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-5405ea6eb92c9cd8"
+contentLength: 861
+sourceLastmod: "2026-06-12T04:00:02+00:00"
 tags:
-  - employment
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "employment"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Politiska motståndare försöker ibland hävda att vi är negativa till fackförbunden, men det är helt fel. Vi står bakom den svenska modellen som bygger på starka fackförbund med hög organisationsgrad. Det vi vänder oss emot är den politiska kopplingen mellan LO-förbunden och Socialdemokraterna. I praktiken utestänger den personer som är politiskt aktiva i andra partier från att axla fackliga förtroendeuppdrag, till exempel som skyddsombud. Detta i en tid där många skadas och till och med omkommer i arbetet.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Det finns flera exempel där sverigedemokrater blivit valda till förtroendeuppdrag av sina kollegor, men sedan blivit av med uppdragen efter beslut från LO-ledningen i Stockholm med hänvisning till den facklig-politiska samverkan med Socialdemokraterna. Vi vänder oss mot den här politiseringen och sätter istället löntagarnas trygghet främst.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

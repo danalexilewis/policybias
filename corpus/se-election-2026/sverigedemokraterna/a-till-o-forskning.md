@@ -1,21 +1,22 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Forskning
-sourceUrl: https://www.sd.se/a-till-o/forskning/
-canonicalUrl: https://www.sd.se/a-till-o/forskning
-fetchedAt: 2026-08-22T14:39:39.410Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Forskning"
+sourceUrl: "https://www.sd.se/a-till-o/forskning/"
+canonicalUrl: "https://www.sd.se/a-till-o/forskning"
+fetchedAt: "2026-08-22T19:49:20.217Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-93230e98ba571064"
+contentLength: 452
+sourceLastmod: "2026-06-12T03:59:46+00:00"
 tags:
-  - education
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "education"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sveriges framtida välstånd är i hög grad beroende av forskning, innovation och teknisk utveckling. För att behålla vår internationella konkurrenskraft behöver forskningen hålla hög kvalitet och ha goda arbetsvillkor. Sverigedemokraterna vill därför prioritera kvalitet framför kvantitet i forskningspolitiken. Resurser bör koncentreras så att framstående forskare ges bättre förutsättningar att bedriva forskning av högsta internationella klass.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
-
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

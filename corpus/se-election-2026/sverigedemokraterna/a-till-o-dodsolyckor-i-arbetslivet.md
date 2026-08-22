@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Dödsolyckor i arbetslivet
-sourceUrl: https://www.sd.se/a-till-o/dodsolyckor-i-arbetslivet/
-canonicalUrl: https://www.sd.se/a-till-o/dodsolyckor-i-arbetslivet
-fetchedAt: 2026-08-22T14:41:58.879Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Dödsolyckor i arbetslivet"
+sourceUrl: "https://www.sd.se/a-till-o/dodsolyckor-i-arbetslivet/"
+canonicalUrl: "https://www.sd.se/a-till-o/dodsolyckor-i-arbetslivet"
+fetchedAt: "2026-08-22T19:51:36.803Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-34607a008f47c4d5"
+contentLength: 723
+sourceLastmod: "2026-06-12T04:00:09+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Under 2025 omkom omkring 50 personer i arbetsplatsolyckor i Sverige. Det innebär att nästan en person i veckan har mist livet enbart för att de gått till sitt arbete. Det är en oacceptabel situation som visar att arbetsmiljöarbetet måste stärkas. För att komma till rätta med detta vill vi se fler skyddsombud som kan tillse att lagar och regler följs på arbetsplatserna.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+Vi vill också öka antalet statliga arbetsmiljöinspektörer med rätt att kontrollera alla arbetsplatser även där det saknas skyddsombud, så att brister upptäcks och åtgärdas i tid. Dessutom vill vi skärpa straffansvaret för arbetsgivare som inte följer arbetsmiljölagstiftningen. Vårt mål är tydligt, ingen ska behöva riskera sitt liv på jobbet.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

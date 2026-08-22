@@ -1,21 +1,24 @@
 ---
-type: crawled-page
-party: sverigedemokraterna
-title: Funktionsrätt
-sourceUrl: https://www.sd.se/a-till-o/funktionsratt/
-canonicalUrl: https://www.sd.se/a-till-o/funktionsratt
-fetchedAt: 2026-08-22T14:34:31.672Z
-contentType: html
-via: party-site
+type: "crawled-page"
+party: "sverigedemokraterna"
+title: "Funktionsrätt"
+sourceUrl: "https://www.sd.se/a-till-o/funktionsratt/"
+canonicalUrl: "https://www.sd.se/a-till-o/funktionsratt"
+fetchedAt: "2026-08-22T19:44:12.265Z"
+contentType: "html"
+via: "party-site"
+contentDigest: "sha256-9cbfd61c3eb0c004"
+contentLength: 657
+sourceLastmod: "2026-06-12T03:59:26+00:00"
 tags:
-  - other
-stance: intervention
-licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+  - "other"
+stance: "intervention"
+money: "no-figure"
+licenseNote: "Party copyright; not Gurki MIT"
 ---
 
-När du besöker en webbplats kan den lagra eller hämta information från din webbläsare, mestadels i form av cookies. Det kan vara information om dig, dina preferenser eller din enhet och används oftast för att webbplatsen ska fungera korrekt. Informationen som samlas in om dig brukar inte kunna användas för att identifiera dig som individ, det kan dock ge dig en mer personlig webbupplevelse. Eftersom vi respekterar din integritet kan du välja att inte tillåta vissa typer av cookies.
+Sverigedemokraternas funktionshinderpolitik utgår från att alla människor ska kunna leva ett värdigt och självständigt liv. Vi vill också säkerställa jämlika förutsättningar i hela landet. Ledsagning ska bli mer tillgänglig, avgiftsfri och likvärdig. Samhällsviktig information ska vara tillgänglig för alla. Digitalt utanförskap ska motverkas genom utbildning och stöd.
 
-Du kan även välja vilken typ av kakor du vill ha genom att klicka på **Inställningar**.
+LSS ska värnas som en frihetsreform med långsiktig och indexerad finansiering, ökad transparens i ersättningen och utan orimliga åldersgränser. Rätten till personlig assistans ska stärkas genom att alla grundläggande behov omfattas och genom tydligare regler för föräldraavdrag.
 
-[Läs vår integritetspolicy](https://www.sd.se/integritetspolicy/)
+* * *

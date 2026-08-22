@@ -2,14 +2,15 @@
 type: "crawled-page"
 party: "vansterpartiet"
 title: "A-kassa"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/a-kassa/"
+sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/a-kassa"
 canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/a-kassa"
-fetchedAt: "2026-08-22T12:50:54.315Z"
+fetchedAt: "2026-08-22T14:48:19.167Z"
 contentType: "html"
 via: "party-site"
-tags: [crime-justice]
-money: no-figure
-stance: intervention
+tags:
+  - "crime-justice"
+stance: "intervention"
+money: "no-figure"
 licenseNote: "Party copyright; not Gurki MIT"
 ---
 

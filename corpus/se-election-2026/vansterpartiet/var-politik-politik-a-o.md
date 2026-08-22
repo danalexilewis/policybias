@@ -4,12 +4,13 @@ party: "vansterpartiet"
 title: "Politik A-Ö"
 sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/"
 canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o"
-fetchedAt: "2026-08-22T12:50:51.199Z"
+fetchedAt: "2026-08-22T14:48:15.244Z"
 contentType: "html"
 via: "party-site"
-tags: [health-care]
-money: no-figure
-stance: intervention
+tags:
+  - "health-care"
+stance: "intervention"
+money: "no-figure"
 licenseNote: "Party copyright; not Gurki MIT"
 ---
 

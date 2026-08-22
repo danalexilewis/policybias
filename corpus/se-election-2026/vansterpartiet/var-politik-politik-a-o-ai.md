@@ -2,14 +2,15 @@
 type: "crawled-page"
 party: "vansterpartiet"
 title: "AI"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ai/"
+sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ai"
 canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/ai"
-fetchedAt: "2026-08-22T12:50:57.965Z"
+fetchedAt: "2026-08-22T14:48:26.290Z"
 contentType: "html"
 via: "party-site"
-tags: [elderly-welfare]
-money: no-figure
-stance: intervention
+tags:
+  - "elderly-welfare"
+stance: "intervention"
+money: "no-figure"
 licenseNote: "Party copyright; not Gurki MIT"
 ---
 

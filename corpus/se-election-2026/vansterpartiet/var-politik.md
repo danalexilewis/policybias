@@ -2,14 +2,15 @@
 type: "crawled-page"
 party: "vansterpartiet"
 title: "Vår politik"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/"
+sourceUrl: "https://www.vansterpartiet.se/var-politik"
 canonicalUrl: "https://www.vansterpartiet.se/var-politik"
-fetchedAt: "2026-08-22T12:50:52.600Z"
+fetchedAt: "2026-08-22T14:48:17.612Z"
 contentType: "html"
 via: "party-site"
-tags: [schools-education]
-money: no-figure
-stance: intervention
+tags:
+  - "schools-education"
+stance: "intervention"
+money: "no-figure"
 licenseNote: "Party copyright; not Gurki MIT"
 ---
 

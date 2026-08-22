@@ -2,14 +2,15 @@
 type: "crawled-page"
 party: "vansterpartiet"
 title: "Arbetsmiljö"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmiljo/"
+sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmiljo"
 canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmiljo"
-fetchedAt: "2026-08-22T12:51:03.671Z"
+fetchedAt: "2026-08-22T14:48:37.375Z"
 contentType: "html"
 via: "party-site"
-tags: [defence-security]
-money: no-figure
-stance: intervention
+tags:
+  - "defence-security"
+stance: "intervention"
+money: "no-figure"
 licenseNote: "Party copyright; not Gurki MIT"
 ---
 

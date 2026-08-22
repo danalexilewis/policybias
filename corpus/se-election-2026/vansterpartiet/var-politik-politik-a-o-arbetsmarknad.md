@@ -2,14 +2,15 @@
 type: "crawled-page"
 party: "vansterpartiet"
 title: "Arbetsmarknadspolitik"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmarknad/"
+sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmarknad"
 canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetsmarknad"
-fetchedAt: "2026-08-22T12:51:01.650Z"
+fetchedAt: "2026-08-22T14:48:34.583Z"
 contentType: "html"
 via: "party-site"
-tags: [energy-power]
-money: no-figure
-stance: intervention
+tags:
+  - "energy-power"
+stance: "intervention"
+money: "no-figure"
 licenseNote: "Party copyright; not Gurki MIT"
 ---
 

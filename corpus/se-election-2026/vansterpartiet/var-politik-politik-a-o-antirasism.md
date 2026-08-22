@@ -2,14 +2,15 @@
 type: "crawled-page"
 party: "vansterpartiet"
 title: "Antirasism"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/antirasism/"
+sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/antirasism"
 canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/antirasism"
-fetchedAt: "2026-08-22T12:50:59.208Z"
+fetchedAt: "2026-08-22T14:48:28.987Z"
 contentType: "html"
 via: "party-site"
-tags: [climate-environment]
-money: no-figure
-stance: intervention
+tags:
+  - "climate-environment"
+stance: "intervention"
+money: "no-figure"
 licenseNote: "Party copyright; not Gurki MIT"
 ---
 

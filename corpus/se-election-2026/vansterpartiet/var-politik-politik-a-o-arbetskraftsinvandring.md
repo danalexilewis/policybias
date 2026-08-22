@@ -2,14 +2,15 @@
 type: "crawled-page"
 party: "vansterpartiet"
 title: "Arbetskraftsinvandring"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetskraftsinvandring/"
+sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetskraftsinvandring"
 canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/arbetskraftsinvandring"
-fetchedAt: "2026-08-22T12:51:00.527Z"
+fetchedAt: "2026-08-22T14:48:31.641Z"
 contentType: "html"
 via: "party-site"
-tags: [economy-tax]
-money: no-figure
-stance: intervention
+tags:
+  - "economy-tax"
+stance: "intervention"
+money: "no-figure"
 licenseNote: "Party copyright; not Gurki MIT"
 ---
 

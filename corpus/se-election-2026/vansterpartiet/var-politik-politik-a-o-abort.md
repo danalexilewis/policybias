@@ -2,14 +2,15 @@
 type: "crawled-page"
 party: "vansterpartiet"
 title: "Abort"
-sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/abort/"
+sourceUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/abort"
 canonicalUrl: "https://www.vansterpartiet.se/var-politik/politik-a-o/abort"
-fetchedAt: "2026-08-22T12:50:55.795Z"
+fetchedAt: "2026-08-22T14:48:22.809Z"
 contentType: "html"
 via: "party-site"
-tags: [migration-integration]
-money: no-figure
-stance: intervention
+tags:
+  - "migration-integration"
+stance: "intervention"
+money: "no-figure"
 licenseNote: "Party copyright; not Gurki MIT"
 ---
 

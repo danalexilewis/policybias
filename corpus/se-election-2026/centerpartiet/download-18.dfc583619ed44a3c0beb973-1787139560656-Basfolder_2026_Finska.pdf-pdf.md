@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8d0f93944276b343
+contentLength: 4497
 ---
 
 # Basfolder_2026_Finska-b401c900.pdf

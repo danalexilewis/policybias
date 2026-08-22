@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ad1663124402f631
+contentLength: 2466
 ---
 
 ## En livsviktig näring med dubbla utmaningar

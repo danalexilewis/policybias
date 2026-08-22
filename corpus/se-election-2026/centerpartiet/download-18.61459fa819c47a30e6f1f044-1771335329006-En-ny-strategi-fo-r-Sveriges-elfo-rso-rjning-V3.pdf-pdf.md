@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-412a569682e29beb
+contentLength: 45460
 ---
 
 # En-ny-strategi-fo-r-Sveriges-elfo-rso-rjning-V3-b8708023.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8cf8f00042d34e95
+contentLength: 2433
 ---
 
 ## Enkelhet för företag, stopp för fusk – så får Centerpartiet fler i jobb

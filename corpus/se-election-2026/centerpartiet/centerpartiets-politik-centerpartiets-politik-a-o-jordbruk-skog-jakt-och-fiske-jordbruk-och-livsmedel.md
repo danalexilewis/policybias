@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-98ddf73483e5b032
+contentLength: 2219
 ---
 
 ## Mer svensk mat på borden – och varför bonden behöver rättvisa villkor

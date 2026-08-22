@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5489545a3cee746f
+contentLength: 2551
 ---
 
 ## Rättvisa villkor för svenska bönder – och varför EU-politiken måste bli enklare

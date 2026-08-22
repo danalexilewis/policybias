@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c842194d10d6baec
+contentLength: 2770
 ---
 
 ### **Världens bästa mat – men till ett orättvist pris**

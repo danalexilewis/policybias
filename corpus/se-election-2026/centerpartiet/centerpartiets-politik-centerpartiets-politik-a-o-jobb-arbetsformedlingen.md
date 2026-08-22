@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0846522459855760
+contentLength: 2695
 ---
 
 ### **En arbetsförmedling som inte förmedlar jobb**

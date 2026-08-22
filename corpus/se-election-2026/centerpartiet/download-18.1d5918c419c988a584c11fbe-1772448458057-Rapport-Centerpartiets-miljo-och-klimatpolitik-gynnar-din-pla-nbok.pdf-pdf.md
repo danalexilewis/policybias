@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-d30376677aca774c
+contentLength: 23738
 ---
 
 # Rapport-Centerpartiets-miljo-och-klimatpolitik-gynnar-din-pla-nbok-0b18cc85.pdf

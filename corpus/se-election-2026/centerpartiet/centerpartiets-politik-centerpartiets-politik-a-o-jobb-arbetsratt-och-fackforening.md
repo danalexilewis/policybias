@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ba7f34b5e080b162
+contentLength: 2920
 ---
 
 ## **En arbetsmarknad i behov av förnyelse**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-c670a97c632d7125
+contentLength: 2511
 ---
 
 ## En bostadsmarknad som är öppen för fler

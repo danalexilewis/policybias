@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-710dbf8782ece5df
+contentLength: 2585
 ---
 
 ## Rättvis service och ekonomi i hela landet

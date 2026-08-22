@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-69151f1081cb8997
+contentLength: 2882
 ---
 
 ## En trygghet i vardagen – och varför den ska finnas där för alla

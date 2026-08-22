@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a8c696b43dd010c9
+contentLength: 2468
 ---
 
 ## En oviss väntan som hindrar människor

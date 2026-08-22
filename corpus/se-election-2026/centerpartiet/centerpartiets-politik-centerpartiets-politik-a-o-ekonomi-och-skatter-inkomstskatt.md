@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f256cd4d646c08e6
+contentLength: 2624
 ---
 
 ## Mer i plånboken – fler jobb i hela landet

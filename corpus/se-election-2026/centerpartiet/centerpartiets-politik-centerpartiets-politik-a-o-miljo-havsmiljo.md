@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-cf78580566b6c8b3
+contentLength: 3159
 ---
 
 ## **När havet dör måste vi agera för livet**

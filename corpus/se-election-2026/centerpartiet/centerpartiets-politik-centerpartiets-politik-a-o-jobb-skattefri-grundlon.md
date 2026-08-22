@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-db5253fcb9286344
+contentLength: 2903
 ---
 
 ## **Ett krångligt skattesystem som gör det svårt att se lön för mödan**

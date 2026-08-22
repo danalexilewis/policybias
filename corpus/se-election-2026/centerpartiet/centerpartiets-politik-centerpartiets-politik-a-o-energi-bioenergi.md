@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a6cfbe7e05ab4b73
+contentLength: 2462
 ---
 
 ## Höga bränslepriser och ett sårbart Sverige

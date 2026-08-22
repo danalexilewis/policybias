@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9aeba953cccf8d17
+contentLength: 2587
 ---
 
 ## **Lärare och rektorer är kärnan i en bra skola**

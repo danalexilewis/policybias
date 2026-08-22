@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8c703f82879af1fe
+contentLength: 2452
 ---
 
 ## När kulturen tystnar blir hela samhället fattigare

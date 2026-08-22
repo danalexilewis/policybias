@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2efa56bc8b79008c
+contentLength: 2642
 ---
 
 ### **En polis som finns nära dig – när du behöver det**

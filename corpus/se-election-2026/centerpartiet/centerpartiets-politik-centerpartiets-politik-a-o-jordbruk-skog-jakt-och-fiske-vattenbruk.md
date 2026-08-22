@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-28534bce45dfeab9
+contentLength: 2263
 ---
 
 ## Mer hållbar mat från havet – och varför reglerna sätter stopp

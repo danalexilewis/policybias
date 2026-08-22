@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-469a46c7a6eb7255
+contentLength: 2881
 ---
 
 ## En tryggare ekonomi i en orolig tid

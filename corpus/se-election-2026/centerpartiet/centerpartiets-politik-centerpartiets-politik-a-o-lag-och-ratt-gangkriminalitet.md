@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-60d00af41fad217a
+contentLength: 2180
 ---
 
 ### **Hårdare tag mot gängen – en starkare famn för lokalsamhället**

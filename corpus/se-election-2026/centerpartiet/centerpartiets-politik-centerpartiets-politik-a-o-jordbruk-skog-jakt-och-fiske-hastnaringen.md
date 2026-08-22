@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-165f7fa548a530fc
+contentLength: 2372
 ---
 
 ## En motor för Sverige som hålls tillbaka av byråkrati

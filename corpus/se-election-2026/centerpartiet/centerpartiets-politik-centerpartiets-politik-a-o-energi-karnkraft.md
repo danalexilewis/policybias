@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4b4c1cdca05098cd
+contentLength: 3187
 ---
 
 ## **Varför kärnkraften måste bygga på marknadsmässighet**

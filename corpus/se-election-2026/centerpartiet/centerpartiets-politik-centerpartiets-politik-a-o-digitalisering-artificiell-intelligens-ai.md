@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9ee1ba61a9745c26
+contentLength: 2954
 ---
 
 ## **En revolution är här – Sverige måste ta på sig ledartröjan**

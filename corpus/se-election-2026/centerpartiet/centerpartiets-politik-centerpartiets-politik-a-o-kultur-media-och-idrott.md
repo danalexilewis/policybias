@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-daaf94a6386db3e8
+contentLength: 3040
 ---
 
 ## Kultur, idrott och nyheter ska finns nära människor, oavsett var man bor

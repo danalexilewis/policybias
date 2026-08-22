@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ea8a2a6d0037c91e
+contentLength: 2690
 ---
 
 ### **En kriminalvård som rehabiliterar – och förändrar**

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f312b96e14c4cbc0
+contentLength: 3303
 ---
 
 ## En offentlig sektor som är fast i det förflutna

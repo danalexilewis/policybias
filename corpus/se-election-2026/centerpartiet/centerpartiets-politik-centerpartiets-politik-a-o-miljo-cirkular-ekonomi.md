@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-238082d6c0e2c8d1
+contentLength: 3804
 ---
 
 ## **Från slit och släng till smarta kretslopp – varför vi måste ändra kurs**

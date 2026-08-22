@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-da07f4a7c62e65d9
+contentLength: 2121
 ---
 
 ## En skog som brukas och bevaras – och hoten mot den

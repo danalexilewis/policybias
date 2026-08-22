@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7f92f9b5c5e60332
+contentLength: 29867
 ---
 
 # Funktionshinder-manifest-79f23ebe.pdf

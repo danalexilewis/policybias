@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7235a20a74256885
+contentLength: 2537
 ---
 
 ## När tryggheten hotas av att hjälpen är för långt borta

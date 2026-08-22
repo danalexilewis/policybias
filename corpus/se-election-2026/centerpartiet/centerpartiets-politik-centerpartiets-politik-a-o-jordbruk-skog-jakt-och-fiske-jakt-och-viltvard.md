@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-309e931de0c270f8
+contentLength: 2627
 ---
 
 ## När viltstammarna växer – ett problem för hela samhället

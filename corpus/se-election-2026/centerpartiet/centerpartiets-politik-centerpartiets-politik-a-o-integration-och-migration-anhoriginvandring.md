@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-57d781eac88a3548
+contentLength: 2691
 ---
 
 ## Familjens trygghet – en grund för integration

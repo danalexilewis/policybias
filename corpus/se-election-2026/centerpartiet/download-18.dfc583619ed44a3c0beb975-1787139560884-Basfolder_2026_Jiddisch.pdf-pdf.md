@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-51c79abd02771cc5
+contentLength: 7070
 ---
 
 # Basfolder_2026_Jiddisch-5edda52d.pdf

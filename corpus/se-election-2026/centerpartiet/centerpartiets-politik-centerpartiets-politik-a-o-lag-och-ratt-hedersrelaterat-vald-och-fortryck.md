@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2a46007b46046e43
+contentLength: 2676
 ---
 
 ### **Din frihet att bestämma över ditt eget liv är inte förhandlingsbar**

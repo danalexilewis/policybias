@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-def0d31c1b2c6eb7
+contentLength: 2430
 ---
 
 ## **När drömmen om ett strandnära boende stoppas av fyrkantiga regler**

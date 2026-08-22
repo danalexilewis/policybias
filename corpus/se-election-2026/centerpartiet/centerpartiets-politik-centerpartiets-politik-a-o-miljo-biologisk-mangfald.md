@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-038a5a5983cc276d
+contentLength: 2635
 ---
 
 ## **När naturen tystnar måste vi agera**

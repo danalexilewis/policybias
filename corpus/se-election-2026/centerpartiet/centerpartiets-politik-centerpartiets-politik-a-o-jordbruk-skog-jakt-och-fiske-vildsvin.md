@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a29501583c284adb
+contentLength: 2752
 ---
 
 ## En vildsvinsstam utom kontroll – ett hot mot bönder och bilister

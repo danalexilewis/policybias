@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-76aaea662b52da31
+contentLength: 3796
 ---
 
 ## **En orolig värld – och varför biståndet är vår investering i framtiden**

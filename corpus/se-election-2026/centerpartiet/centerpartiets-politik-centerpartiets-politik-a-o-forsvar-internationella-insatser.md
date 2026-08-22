@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-261ebf20f7096625
+contentLength: 2733
 ---
 
 ## När världen är orolig kan vi inte blunda och se inåt

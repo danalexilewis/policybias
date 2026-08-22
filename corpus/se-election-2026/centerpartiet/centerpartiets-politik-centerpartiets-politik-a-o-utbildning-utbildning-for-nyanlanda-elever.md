@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-baebcaf20e77136c
+contentLength: 2578
 ---
 
 ## **Språket är avgörande för att lyckas i skolan och samhället i stort**

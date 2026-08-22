@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a417be377e8a4a28
+contentLength: 2558
 ---
 
 ## Företagarna är Sveriges jobbskapare – men hindren är för många

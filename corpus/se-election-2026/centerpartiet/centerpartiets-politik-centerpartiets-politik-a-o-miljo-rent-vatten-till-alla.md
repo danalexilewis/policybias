@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c6281b1b5302aeef
+contentLength: 3361
 ---
 
 ## **Vårt vatten – en självklarhet som nu måste skyddas för framtiden**

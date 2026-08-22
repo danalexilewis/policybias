@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-52c114dec6ea8fb4
+contentLength: 2353
 ---
 
 ## Fler måste få känna tryggheten av ett jobb

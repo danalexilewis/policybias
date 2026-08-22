@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-b69f9b8aa436f40f
+contentLength: 3577
 ---
 
 ## Statens närvaro minskar och landsbygden drabbas hårdast

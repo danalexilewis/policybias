@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f5570e303b0fe8bb
+contentLength: 2642
 ---
 
 ## En levande landsbygd behöver livskraftiga företag

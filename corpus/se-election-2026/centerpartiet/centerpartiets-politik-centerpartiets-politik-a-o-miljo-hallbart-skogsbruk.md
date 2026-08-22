@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-504a2f63e4c84f94
+contentLength: 2400
 ---
 
 ## **En växande resurs – men med växande osäkerhet**

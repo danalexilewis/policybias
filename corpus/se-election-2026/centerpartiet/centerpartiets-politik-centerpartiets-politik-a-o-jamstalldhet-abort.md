@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-702bbdf0cb737c80
+contentLength: 2810
 ---
 
 ## Rätten till din egen kropp är grundläggande – därför måste aborträtten försvaras

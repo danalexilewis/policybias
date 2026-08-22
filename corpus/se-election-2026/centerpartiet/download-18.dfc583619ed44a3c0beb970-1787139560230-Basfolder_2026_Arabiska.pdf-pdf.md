@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-38cf3c8042fa7570
+contentLength: 5190
 ---
 
 # Basfolder_2026_Arabiska-d87e6347.pdf

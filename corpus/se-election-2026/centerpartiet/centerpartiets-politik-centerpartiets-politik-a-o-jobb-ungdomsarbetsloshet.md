@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9fdba88475c9932d
+contentLength: 2543
 ---
 
 ## **En stängd dörr till vuxenlivet**

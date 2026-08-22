@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d8ce00f848d51308
+contentLength: 3874
 ---
 
 ## **En orolig värld – och varför FN är vårt viktigaste verktyg för samarbete**

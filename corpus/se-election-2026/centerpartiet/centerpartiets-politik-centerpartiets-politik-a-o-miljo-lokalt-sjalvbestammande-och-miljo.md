@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-14ad805fa6c2351d
+contentLength: 3102
 ---
 
 ## **När den lokala kunskapen tystnar – varför vi måste lita på de som känner platserna**

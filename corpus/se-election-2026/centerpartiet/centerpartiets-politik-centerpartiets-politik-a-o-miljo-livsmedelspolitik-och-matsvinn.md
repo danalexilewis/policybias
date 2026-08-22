@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b734d9ac5d3d0c87
+contentLength: 2981
 ---
 
 ## **När maten slängs i onödan – varför vi måste tänka om**

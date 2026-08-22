@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c1bfa3c8009074e9
+contentLength: 2655
 ---
 
 ## Lönsamt för klimatet – och plånboken

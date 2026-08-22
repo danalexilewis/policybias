@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-63c46a4f44edde1a
+contentLength: 2583
 ---
 
 ## När drömmen om en lägenhet stoppas av ändlösa köer

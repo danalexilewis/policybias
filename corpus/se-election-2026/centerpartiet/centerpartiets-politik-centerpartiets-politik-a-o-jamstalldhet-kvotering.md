@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-91eb690a477f4072
+contentLength: 3321
 ---
 
 ## **Verklig jämställdhet bygger på frihet och lika möjligheter**

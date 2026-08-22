@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-49e13b77a90f6cde
+contentLength: 2832
 ---
 
 ## **Hotet från kärnvapen i en ny tid – och varför ansvar kräver realism**

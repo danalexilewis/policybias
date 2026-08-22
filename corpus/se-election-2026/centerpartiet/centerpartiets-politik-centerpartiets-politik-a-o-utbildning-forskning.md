@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-26c554d8e2db8d74
+contentLength: 3112
 ---
 
 ## **Svensk forskning måste stärkas**

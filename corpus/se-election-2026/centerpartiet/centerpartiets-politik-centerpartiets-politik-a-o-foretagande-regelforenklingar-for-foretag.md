@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e76d126a22b76ea3
+contentLength: 3129
 ---
 
 ## **Din tid är för värdefull för att slösas på krångel**

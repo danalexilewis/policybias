@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2422cd2d45b9a15a
+contentLength: 3366
 ---
 
 ### **En trygg framtid – varför vi måste agera mot antibiotikaresistens**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4170074c73106ae9
+contentLength: 2777
 ---
 
 ## **Skolan måste hänga med i den digitala utvecklingen**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6f00888dcba3f824
+contentLength: 2775
 ---
 
 Centerpartiet har en strategi för Sveriges energiförsörjning. Vi vill kraftigt bygga ut produktionen av fossilfri elproduktion, för vår säkerhet, för sänkta elräkningar, för att växla upp klimatarbetet och för att se till att Sverige kan fortsätta växa och skapa nya gröna jobb i hela landet. För att lyckas med omställningen till ett hållbart samhälle måste vi ställa om från smutsig olja till grön energi.

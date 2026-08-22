@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1b36c4eb14b0cd2f
+contentLength: 2397
 ---
 
 ### **Sexuella övergrepp är ett samhällsproblem**

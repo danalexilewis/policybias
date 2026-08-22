@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0747d3664469baab
+contentLength: 3378
 ---
 
 ## **Svensk högre utbildning halkar efter – det vill vi ändra på**

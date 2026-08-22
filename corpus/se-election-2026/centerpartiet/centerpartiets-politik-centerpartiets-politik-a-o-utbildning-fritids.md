@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5d5cd3a272444127
+contentLength: 2568
 ---
 
 ## **Alla barn förtjänar samma chans att gå på fritids**

@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2a421815a0017bef
+contentLength: 4817
 ---
 
 # Basfolder_2026_Ukrainska-27000b7a.pdf

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-8a22d6f0ad303282
+contentLength: 2541
 ---
 
 ## Enorm potential – men krångel och hot står i vägen

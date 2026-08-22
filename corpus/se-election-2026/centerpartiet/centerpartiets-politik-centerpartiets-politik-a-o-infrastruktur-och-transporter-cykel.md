@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e3dc647a750c1751
+contentLength: 2440
 ---
 
 ## Fler vill cykla – men krångliga regler och osäkra vägar står i vägen

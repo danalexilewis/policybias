@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-902a5f8fc78b1925
+contentLength: 2639
 ---
 
 ## **Osynliga gifter i vår vardag skapar oro**

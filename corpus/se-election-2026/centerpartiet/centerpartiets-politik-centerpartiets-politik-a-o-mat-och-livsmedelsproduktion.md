@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3a5501deae756e0d
+contentLength: 2381
 ---
 
 ## Trygg mat från svenska gårdar – och varför tydliga regler behövs

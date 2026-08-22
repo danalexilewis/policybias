@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-34b91451d3094cb4
+contentLength: 2496
 ---
 
 ## Krångliga appar och otrygga hållplatser – så ska det inte vara

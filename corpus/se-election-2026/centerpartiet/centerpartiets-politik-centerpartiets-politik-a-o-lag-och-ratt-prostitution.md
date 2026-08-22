@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3c557dd978fbb573
+contentLength: 2369
 ---
 
 ## **En människa är aldrig en vara – sexköp måste stoppas**

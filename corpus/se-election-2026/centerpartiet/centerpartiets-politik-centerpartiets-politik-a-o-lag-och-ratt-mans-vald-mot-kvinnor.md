@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-15d405edb949a051
+contentLength: 2501
 ---
 
 ### **Att vara rädd i sitt eget hem är en oacceptabel frihetskränkning**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-cdb2db0a6c0d0628
+contentLength: 2638
 ---
 
 ## **En otrygg trygghet i en föränderlig tid**

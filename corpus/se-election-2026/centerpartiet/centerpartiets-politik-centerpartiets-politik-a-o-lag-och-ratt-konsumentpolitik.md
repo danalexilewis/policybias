@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ed5b7711f29cb25a
+contentLength: 2587
 ---
 
 ### **Det ska vara lätt att göra rätt – och tryggt att vara konsument**

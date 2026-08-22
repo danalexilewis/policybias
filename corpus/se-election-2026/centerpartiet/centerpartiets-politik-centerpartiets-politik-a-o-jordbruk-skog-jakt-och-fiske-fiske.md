@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f5214b909f8866b0
+contentLength: 2290
 ---
 
 ## Fisket är ett hotat kulturarv – och en outnyttjad möjlighet

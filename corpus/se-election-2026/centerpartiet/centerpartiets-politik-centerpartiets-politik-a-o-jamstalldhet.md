@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-db5330443956208c
+contentLength: 891
 ---
 
 Centerpartiet är ett liberalt och feministiskt parti. Det innebär att vi står upp för alla människors rätt att få vara den en är, oavsett kön.

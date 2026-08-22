@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8f4c1cafa4414c33
+contentLength: 2146
 ---
 
 ## Ett värdigt djurliv i hela EU – och varför reglerna måste fungera i praktiken

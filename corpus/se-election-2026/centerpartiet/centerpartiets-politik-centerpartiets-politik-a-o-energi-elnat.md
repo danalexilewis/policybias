@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2ae93e6b66587fad
+contentLength: 2257
 ---
 
 ## Varför elnätet måste moderniseras

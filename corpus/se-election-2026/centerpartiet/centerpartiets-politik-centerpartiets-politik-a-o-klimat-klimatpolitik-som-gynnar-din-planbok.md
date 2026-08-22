@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-c815d8235a6bd58f
+contentLength: 2218
 ---
 
 Det ska vara billigt att göra rätt för klimatet. Centerpartiets miljö- och klimatpolitik sänker hushållens kostnader här och nu. Med våra reformer blir gröna alternativ billigare än de fossila, samtidigt som vi tar ansvar för kommande generationer. Med Centerpartiets miljö- och klimatpolitik sparar ett hushåll mellan 62 000 och 97 000 kronor per år, samtidigt som de minskar sina utsläpp.

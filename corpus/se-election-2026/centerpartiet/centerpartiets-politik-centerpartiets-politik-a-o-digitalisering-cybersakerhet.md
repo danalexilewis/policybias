@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-baa8393223aefc3f
+contentLength: 2794
 ---
 
 ## Sverige attackeras varje dag – vårt digitala försvar måste stärkas

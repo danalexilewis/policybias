@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-565130d1beb9a4e9
+contentLength: 2842
 ---
 
 ## Vindkraft är en vinst för klimatet – då måste den också vara en vinst lokalt

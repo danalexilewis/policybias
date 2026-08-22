@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-47171f4b06a260c8
+contentLength: 3728
 ---
 
 Sverige står inför stora utmaningar. Arbetslösheten är hög, klimatomställningen behöver få ny fart och alltför många upplever att vården och skolan inte räcker till. Samtidigt blir debatten allt mer polariserad, där enkla svar får ersätta långsiktiga lösningar.

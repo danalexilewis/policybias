@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-532414868a41afee
+contentLength: 2197
 ---
 
 ## Potthål, tjälsprickor och en känsla av att glömmas bort

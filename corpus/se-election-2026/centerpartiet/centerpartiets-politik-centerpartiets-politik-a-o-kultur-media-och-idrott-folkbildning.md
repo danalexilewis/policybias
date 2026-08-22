@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-14980a48a5e3fb78
+contentLength: 3487
 ---
 
 ## När lärandet tystnar – varför folkbildning bygger ett starkare Sverige

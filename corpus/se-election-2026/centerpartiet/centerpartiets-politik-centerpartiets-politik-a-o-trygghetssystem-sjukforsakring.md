@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e209f02efc6c3d9e
+contentLength: 2319
 ---
 
 ## **När livet förändras måste tryggheten finnas där**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9b0339ed40d9207c
+contentLength: 2605
 ---
 
 ## Klimatet känner inga gränser – därför behövs ett starkt EU

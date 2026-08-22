@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0c5b86d26e59eaf1
+contentLength: 2647
 ---
 
 ## **När våra hem blir en del av klimatlösningen**

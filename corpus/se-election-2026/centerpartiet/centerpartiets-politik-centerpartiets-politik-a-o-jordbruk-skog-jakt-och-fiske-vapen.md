@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-dbd37b94e174c861
+contentLength: 2268
 ---
 
 ## Tuff mot brott, smidig för den som gör rätt

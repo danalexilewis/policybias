@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5ce88975fe80f0f1
+contentLength: 19414
 ---
 
 # Centerpartiets-politik-fo-r-seniorer-2026-9e98537c.pdf

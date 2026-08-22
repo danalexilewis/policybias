@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9ef0c108d8dfb1cc
+contentLength: 2037
 ---
 
 ## Ditt kön ska inte avgöra vilken vård du får

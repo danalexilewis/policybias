@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5f1c9a48dad0ff2f
+contentLength: 2739
 ---
 
 ## Långsiktiga spelregler istället för politiskt spel

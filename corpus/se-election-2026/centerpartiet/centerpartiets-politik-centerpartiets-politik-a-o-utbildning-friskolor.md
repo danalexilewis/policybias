@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5ba69386e9f8e4c0
+contentLength: 2814
 ---
 
 ## **Ett friskolesystem som uppmuntrar till ansvarstagande**

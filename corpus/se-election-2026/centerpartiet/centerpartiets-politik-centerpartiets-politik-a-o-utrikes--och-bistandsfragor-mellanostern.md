@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-75c07dcfd5d995d6
+contentLength: 4035
 ---
 
 ## En region präglad av konflikter – och varför Sveriges röst för folkrätt behövs mer än någonsin

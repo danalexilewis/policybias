@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-633d6ca9fa2f5374
+contentLength: 2755
 ---
 
 ## **En skola som inte leder till jobb är ett misslyckande**

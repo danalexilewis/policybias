@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-66324fb9c08083d9
+contentLength: 2483
 ---
 
 ### **Naturen är ingen soptipp – den som förorenar måste betala**

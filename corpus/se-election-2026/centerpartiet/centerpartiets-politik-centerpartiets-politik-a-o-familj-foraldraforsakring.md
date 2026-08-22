@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-deb7225441aac04a
+contentLength: 2651
 ---
 
 ## En föräldraförsäkring för dagens familjer

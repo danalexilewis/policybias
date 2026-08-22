@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-add499c8b299776f
+contentLength: 4494
 ---
 
 # Basfolder_2026_Engelska-69e97d29.pdf

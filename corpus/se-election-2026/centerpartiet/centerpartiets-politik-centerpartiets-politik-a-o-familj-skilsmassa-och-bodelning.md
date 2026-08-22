@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c3c444b5a1aaab33
+contentLength: 2629
 ---
 
 ## En separation ska vara trygg och enkel

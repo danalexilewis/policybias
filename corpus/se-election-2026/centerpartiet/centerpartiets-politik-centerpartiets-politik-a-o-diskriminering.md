@@ -13,6 +13,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-cbd190a43db991da
+contentLength: 2837
 ---
 
 ## Rätten att vara sig själv är en frihetsfråga

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-a5f13e99a1b728ad
+contentLength: 2477
 ---
 
 ## Fler jobb kräver lägre kostnader för att anställa

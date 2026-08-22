@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-170fc097d6fca1d2
+contentLength: 2582
 ---
 
 ### **Ett slöseri vi inte har råd med – och en outnyttjad potential**

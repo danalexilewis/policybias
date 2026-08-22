@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4f8a25dda73cb6fa
+contentLength: 3122
 ---
 
 ## Fler som längtar efter barn ska kunna bilda familj

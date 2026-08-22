@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ec862bb596220b6d
+contentLength: 2744
 ---
 
 ## Ett tryggt Sverige i en orolig tid

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-fec315d959ca694f
+contentLength: 2537
 ---
 
 ## En stark ekonomi måste nå alla – i hela landet

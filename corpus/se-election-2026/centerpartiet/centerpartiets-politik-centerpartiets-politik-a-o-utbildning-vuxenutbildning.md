@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-70eff0edf54a8850
+contentLength: 2513
 ---
 
 ## **En arbetsmarknad i förändring kräver nya vägar till kunskap**

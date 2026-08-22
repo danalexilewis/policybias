@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9659d3cb71019f50
+contentLength: 2431
 ---
 
 ## En orolig värld kräver att vi står starka tillsammans

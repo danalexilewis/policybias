@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2172a12bd3a6643e
+contentLength: 3087
 ---
 
 ## En osäker värld kräver ett tryggt och förberett Sverige

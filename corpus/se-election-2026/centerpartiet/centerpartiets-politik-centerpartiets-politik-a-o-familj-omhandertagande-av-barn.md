@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-bca3471bc5fb4722
+contentLength: 3375
 ---
 
 ## När ett barn måste lämna sitt hem

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-427aa9d69777aacd
+contentLength: 2318
 ---
 
 ## Alla ska ha chansen att vara med

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7c450236a1f8ff33
+contentLength: 2519
 ---
 
 ## När våld och extremism hotar vårt öppna samhälle

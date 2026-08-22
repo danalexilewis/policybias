@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-94299b54d9df2d66
+contentLength: 2275
 ---
 
 ## När drömmen om ett nytt hem stoppas av höga skatter

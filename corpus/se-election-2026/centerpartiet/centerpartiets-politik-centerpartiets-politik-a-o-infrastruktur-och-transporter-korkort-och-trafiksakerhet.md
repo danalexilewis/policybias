@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c8662d5bead73bc9
+contentLength: 2538
 ---
 
 ## En rättsskandal som slår sönder människors liv

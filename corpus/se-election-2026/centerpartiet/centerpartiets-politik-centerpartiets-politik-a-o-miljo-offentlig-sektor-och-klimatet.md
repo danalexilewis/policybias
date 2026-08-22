@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-9d72454c43aa4686
+contentLength: 3570
 ---
 
 ## **När det offentliga inte lever som de lär – varför vi måste agera**

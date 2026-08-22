@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2e00df4d0fbbc5b8
+contentLength: 1807
 ---
 
 Centerpartiet vill bygga ett samhälle där alla människor kan leva självständiga liv och delta fullt ut – oavsett funktionsförmåga. Idag möter många personer med funktionsnedsättning hinder i vardagen, bristande stöd och ett samhälle som alltför ofta inte är tillgängligt. Så ska det inte vara.

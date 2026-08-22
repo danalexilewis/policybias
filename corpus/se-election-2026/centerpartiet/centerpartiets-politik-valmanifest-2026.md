@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-35b854c89e362503
+contentLength: 4765
 ---
 
 ## Centerpartiets valmanifest 2026: Sverige kan mer

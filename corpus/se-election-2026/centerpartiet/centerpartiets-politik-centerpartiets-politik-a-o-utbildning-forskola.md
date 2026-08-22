@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2649f3b0e8395d77
+contentLength: 2218
 ---
 
 ## **En förskola för alla barn – inte bara för några**

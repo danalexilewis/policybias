@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1dc7393864be7035
+contentLength: 2931
 ---
 
 ## Skatter som uppmuntrar – inte hindrar – företagsamhet

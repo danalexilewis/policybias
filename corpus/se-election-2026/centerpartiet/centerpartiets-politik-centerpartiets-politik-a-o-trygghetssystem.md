@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3c632373016c5acf
+contentLength: 1116
 ---
 
 När livet förändras kan du behöva hjälp från samhället. Du kanske får barn, förlorar jobbet, blir sjuk eller inte klarar av att försörja dig av någon anledning. Då ska det finnas ett hållbart trygghetssystem som hjälper dig både i stunden och att komma vidare.

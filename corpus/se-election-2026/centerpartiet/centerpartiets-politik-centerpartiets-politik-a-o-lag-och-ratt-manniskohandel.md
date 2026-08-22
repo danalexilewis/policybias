@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-24708dcca3c55c7a
+contentLength: 2573
 ---
 
 ### **Människohandel är modernt slaveri – och det sker här**

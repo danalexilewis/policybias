@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e31b5d70ad7cfb2f
+contentLength: 2487
 ---
 
 ## Adoption – en trygg start i livet

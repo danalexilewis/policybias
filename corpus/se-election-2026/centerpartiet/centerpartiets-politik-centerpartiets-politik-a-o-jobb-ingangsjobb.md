@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-efe293a21dbc19d5
+contentLength: 2640
 ---
 
 ## **Den stängda dörren till det första jobbet**

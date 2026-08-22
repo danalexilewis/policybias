@@ -13,6 +13,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-4779a3a531f30af1
+contentLength: 1640
 ---
 
 Centerpartiet vill att alla barn ska få en så trygg uppväxt som möjligt. Därför behövs det en modern familjerätt som tar hänsyn till barnets bästa och till att familjer är olika. För Centerpartiet ska familjepolitiken ge människor stor frihet att leva det liv som de själva vill.

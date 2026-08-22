@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-385bddc9f1d70151
+contentLength: 2838
 ---
 
 ## **När skräpet tar över naturen – varför vi måste agera för en renare miljö**

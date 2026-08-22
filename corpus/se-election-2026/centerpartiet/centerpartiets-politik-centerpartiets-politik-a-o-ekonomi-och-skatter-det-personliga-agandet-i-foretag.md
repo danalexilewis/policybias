@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6ac929f5926d79a2
+contentLength: 2552
 ---
 
 ## När du får äga en del av företaget växer ni tillsammans

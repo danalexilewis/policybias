@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1c7d74a3b7d69d43
+contentLength: 2767
 ---
 
 ## Flyget binder ihop Sverige – men måste bli klimatsmart

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-28b2c2773d335e0c
+contentLength: 2303
 ---
 
 ## När djur far illa över gränserna – ett oacceptabelt problem

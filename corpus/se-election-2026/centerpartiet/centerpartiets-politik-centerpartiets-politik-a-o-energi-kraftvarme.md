@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-475e40ce4942995d
+contentLength: 2213
 ---
 
 ## En bortglömd resurs för Sveriges trygghet och klimat

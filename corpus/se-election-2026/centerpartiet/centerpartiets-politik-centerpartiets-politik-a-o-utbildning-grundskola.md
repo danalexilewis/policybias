@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ee88ee837adba61c
+contentLength: 3093
 ---
 
 ## **En skola för alla – varje elev måste få en ärlig chans**

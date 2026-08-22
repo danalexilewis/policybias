@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-57b2662de185b2d4
+contentLength: 2643
 ---
 
 ## Bostadsbristen – ett hinder för människor och företag i hela landet

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-df0ae0c335086152
+contentLength: 2154
 ---
 
 ## En smart idé som har skapat oreda och otrygghet

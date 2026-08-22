@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-54756b0a96aa0ccf
+contentLength: 2711
 ---
 
 ## Företagarnas idéer bygger Sverige – men systemet sätter hinder

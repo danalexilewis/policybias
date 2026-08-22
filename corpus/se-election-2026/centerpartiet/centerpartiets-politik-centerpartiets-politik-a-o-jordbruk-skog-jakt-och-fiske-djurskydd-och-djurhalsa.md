@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-029d5016947c376d
+contentLength: 2484
 ---
 
 ## Ett starkt djurskydd måste löna sig

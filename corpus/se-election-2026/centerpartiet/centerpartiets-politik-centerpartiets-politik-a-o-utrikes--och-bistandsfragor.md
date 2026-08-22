@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a2c427981d594ae3
+contentLength: 1898
 ---
 
 Centerpartiets utrikespolitik bygger på liberala värderingar, frihet och öppenhet i en globaliserad värld. Vi arbetar för ett Sverige som aktivt bidrar till internationellt samarbete inom säkerhet, handel, bistånd och klimatomställning. Genom ett starkt EU och ett aktivt Natomedlemskap försvarar vi den globala ordningen och demokratin mot auktoritära krafter, och främjar hållbar utveckling för hela världen.

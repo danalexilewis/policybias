@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f10e58ca9f6e092d
+contentLength: 3412
 ---
 
 ### En-storlek-passar-alla fungerar inte

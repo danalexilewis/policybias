@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-474c7f91d1fb1df0
+contentLength: 319
 ---
 
 ## Centerpartiets valfolder på olika språk

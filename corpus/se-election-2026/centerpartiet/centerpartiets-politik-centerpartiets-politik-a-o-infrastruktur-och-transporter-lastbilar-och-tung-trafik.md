@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e68a17476f3daf85
+contentLength: 2519
 ---
 
 ## En bransch som vill ställa om – men pressas av fusk och orättvisa

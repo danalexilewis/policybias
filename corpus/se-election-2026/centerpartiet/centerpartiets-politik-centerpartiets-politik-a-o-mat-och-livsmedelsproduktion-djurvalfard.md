@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-064445c1ae871ce0
+contentLength: 2687
 ---
 
 ### **Svensk djurvälfärd i världsklass – men den har ett pris**

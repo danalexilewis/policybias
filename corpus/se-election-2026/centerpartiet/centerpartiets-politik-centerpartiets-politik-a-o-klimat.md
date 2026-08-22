@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-62dbcd3574b74c86
+contentLength: 2895
 ---
 
 ## Klimatkrisen är här – och politiken måste fungera i vardagen

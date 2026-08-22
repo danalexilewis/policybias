@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-dcb998c548181266
+contentLength: 2779
 ---
 
 ## Klimatkrisen är global – då måste världen dra åt samma håll

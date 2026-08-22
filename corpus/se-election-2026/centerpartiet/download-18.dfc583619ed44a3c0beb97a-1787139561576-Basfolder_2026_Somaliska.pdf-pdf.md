@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7bd8dae85db23f8b
+contentLength: 5315
 ---
 
 # Basfolder_2026_Somaliska-e7f7ad8c.pdf

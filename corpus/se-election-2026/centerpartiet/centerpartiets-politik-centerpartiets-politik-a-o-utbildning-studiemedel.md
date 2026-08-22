@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-aac8829922144f25
+contentLength: 2421
 ---
 
 ## **Ett studiemedel som öppnar dörrar till jobb och studier genom hela livet**

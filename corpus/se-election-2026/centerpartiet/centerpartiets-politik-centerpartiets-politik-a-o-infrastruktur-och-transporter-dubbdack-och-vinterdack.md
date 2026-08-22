@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9984c66c34c22134
+contentLength: 2241
 ---
 
 ## En säkerhetsfråga på landsbygden, ett miljöproblem i staden

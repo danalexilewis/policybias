@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-88308b021d040eff
+contentLength: 3013
 ---
 
 Centerpartiet vill genomföra ett Sverigelyft för att bygga ett modernt och hållbart transportsystem i hela landet. Genom massiva investeringar i både upprustning och nybyggnation av järnväg, vägar och digitala nät vill vi knyta ihop Sverige. Målet är ett land där det är enkelt att resa, arbeta och leva klimatsmart, oavsett var man bor.

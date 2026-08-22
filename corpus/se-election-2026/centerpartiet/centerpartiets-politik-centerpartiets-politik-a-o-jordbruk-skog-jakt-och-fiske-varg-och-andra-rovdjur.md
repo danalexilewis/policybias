@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-46e1c99e5ed067ec
+contentLength: 2292
 ---
 
 ## När rovdjuren kommer för nära – och politiken måste lyssna

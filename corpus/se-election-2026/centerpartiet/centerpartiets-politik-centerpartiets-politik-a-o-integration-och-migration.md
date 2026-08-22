@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7c050d1bd45fd653
+contentLength: 2528
 ---
 
 ## Ordning och reda med hjärta – därför måste integrationen fungera

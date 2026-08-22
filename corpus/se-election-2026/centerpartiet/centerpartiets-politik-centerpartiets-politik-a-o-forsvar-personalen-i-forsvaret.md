@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f97775ec09a42db5
+contentLength: 2629
 ---
 
 ## När bristen på personal hotar Sveriges försvar

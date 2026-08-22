@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5bae08c7fdfa9ca9
+contentLength: 1134
 ---
 
 ## Ett tillgängligt och individanpassat samhälle, fritt från diskriminering

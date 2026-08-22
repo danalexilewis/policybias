@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-781977f637802764
+contentLength: 2825
 ---
 
 ## Från pekpinnar till möjligheter i miljöarbetet

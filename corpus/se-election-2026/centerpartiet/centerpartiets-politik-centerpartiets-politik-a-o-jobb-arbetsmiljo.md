@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-80eff572d72eb207
+contentLength: 2884
 ---
 
 ## **Ett arbetsliv som inte ska bryta ner människor**

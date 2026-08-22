@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-d8263420b5a62704
+contentLength: 2650
 ---
 
 För många är bilen en livlina för att få ihop vardagspusslet, handla mat och skjutsa barnen. Samtidigt måste utsläppen minska. Dagens politik skapar ofta osäkerhet och straffar bilister istället för att uppmuntra till klimatsmarta val.

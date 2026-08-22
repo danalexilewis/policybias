@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-da5688429625e306
+contentLength: 2135
 ---
 
 ## När vården inte räcker till

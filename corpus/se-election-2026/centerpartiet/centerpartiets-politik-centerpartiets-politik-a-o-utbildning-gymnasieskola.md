@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c2c5b025835b97d1
+contentLength: 2929
 ---
 
 ## **En gymnasieskola som ger vägar till arbete och vidare utbildning**

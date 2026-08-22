@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f4200eb15bc77fd2
+contentLength: 3688
 ---
 
 ## Från bidrag till egen försörjning

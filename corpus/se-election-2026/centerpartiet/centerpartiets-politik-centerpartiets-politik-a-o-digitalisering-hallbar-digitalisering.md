@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b6b79cb6e9671ae8
+contentLength: 2542
 ---
 
 ## En digitalisering för alla – inte bara för vissa

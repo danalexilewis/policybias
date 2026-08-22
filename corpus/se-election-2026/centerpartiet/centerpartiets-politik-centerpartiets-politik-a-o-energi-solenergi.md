@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-187ddef7ca173366
+contentLength: 2585
 ---
 
 ## Solens kraft är allas – men politiken måste göra det enkelt

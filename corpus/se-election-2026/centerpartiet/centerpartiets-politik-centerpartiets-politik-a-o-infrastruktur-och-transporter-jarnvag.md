@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-5e522727e103961b
+contentLength: 2548
 ---
 
 ## En järnväg i kris – dags för en nystart

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-afcd4fd75b9bbd08
+contentLength: 2624
 ---
 
 ## När lokaltidningen tystnar försvagas demokratin

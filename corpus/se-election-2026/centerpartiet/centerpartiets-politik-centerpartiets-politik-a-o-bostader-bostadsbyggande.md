@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-03fdfda849dc8729
+contentLength: 2478
 ---
 
 ## När drömmen om ett hem stoppas av krångel och höga trösklar

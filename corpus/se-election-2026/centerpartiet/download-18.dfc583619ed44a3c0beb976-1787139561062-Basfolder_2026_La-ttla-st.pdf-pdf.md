@@ -14,6 +14,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d4dfd13904ec42ff
+contentLength: 3286
 ---
 
 # Basfolder_2026_La-ttla-st-40bcd460.pdf

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-eba99f9981ead299
+contentLength: 2005
 ---
 
 ## Vår politik för ett tryggt och  

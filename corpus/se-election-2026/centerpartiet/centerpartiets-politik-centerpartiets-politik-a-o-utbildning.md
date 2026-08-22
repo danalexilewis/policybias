@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0fcc4e1b03207bd7
+contentLength: 1296
 ---
 
 Svensk skola fungerar överlag bra. Eleverna presterar exempelvis bättre än OECD-snittet i kunskapsmätningar som Pisa och i stora delar av landet finns goda förutsättningarna för en bra och trygg skolgång. Men det finns också utmaningar som vi behöver ta tag i.

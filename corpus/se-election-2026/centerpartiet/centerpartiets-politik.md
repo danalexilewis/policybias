@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1c68ad96c19366d3
+contentLength: 2649
 ---
 
 Vår vision för framtiden är hoppfull. Alla ska kunna bestämma över sitt liv genom egna och fria val. Du ska kunna skapa din egen framtid, oavsett var i landet du väljer att bo. Centerpartiet arbetar för att jobben ska bli fler, utsläppen ska ner och välfärden ska fungera i hela landet.

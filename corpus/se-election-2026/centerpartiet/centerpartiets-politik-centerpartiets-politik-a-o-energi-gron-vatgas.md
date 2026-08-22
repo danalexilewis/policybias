@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-027b5350b22d16e4
+contentLength: 2281
 ---
 
 ## Varför grön vätgas är en viktig lösning

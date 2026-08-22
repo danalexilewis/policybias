@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-cb660a6e4a309e3d
+contentLength: 3151
 ---
 
 ## **När gamla lagar bromsar framtiden – varför miljöbalken måste moderniseras**

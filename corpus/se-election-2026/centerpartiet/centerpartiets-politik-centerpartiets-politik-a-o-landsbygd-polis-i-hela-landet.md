@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fd604ecac2aa2cda
+contentLength: 2939
 ---
 
 ## Polisen har dragit sig tillbaka och landsbygden drabbas hårdast

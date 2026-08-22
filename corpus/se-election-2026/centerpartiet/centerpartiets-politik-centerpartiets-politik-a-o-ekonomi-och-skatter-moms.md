@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5ba56c8df712b2a6
+contentLength: 2568
 ---
 
 ## Mindre krångel, fler jobb och ett rikare föreningsliv

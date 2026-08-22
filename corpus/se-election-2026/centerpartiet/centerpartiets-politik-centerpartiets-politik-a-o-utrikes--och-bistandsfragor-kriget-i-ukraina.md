@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-c6d35482e79ebab8
+contentLength: 3379
 ---
 
 ## **Frihet under attack – och varför vår kamp förs för hela Europas säkerhet**

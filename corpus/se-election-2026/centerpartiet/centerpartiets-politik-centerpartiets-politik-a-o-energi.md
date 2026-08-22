@@ -14,6 +14,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-40fb44d0aadc201a
+contentLength: 2305
 ---
 
 ## Varför behövs en ny energipolitik?

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-dc26b7cef28f0c16
+contentLength: 2688
 ---
 
 ## Dörren till det första jobbet står på glänt – vi vill öppna den helt

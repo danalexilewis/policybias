@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-53cd9822fd05394e
+contentLength: 2714
 ---
 
 ## När engagemang möter byråkrati måste politiken riva hindren

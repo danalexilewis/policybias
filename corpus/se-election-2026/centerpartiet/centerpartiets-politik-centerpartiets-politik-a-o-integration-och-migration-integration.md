@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8b216cea116a608b
+contentLength: 2681
 ---
 
 ## Från väntan till jobb – så skapar vi en fungerande integration

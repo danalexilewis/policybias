@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-d7196de90638c528
+contentLength: 2896
 ---
 
 ## Demokratin är hotad – och måste försvaras aktivt

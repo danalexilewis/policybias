@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d7b1ddc354db57e5
+contentLength: 2399
 ---
 
 ## Trafikstockningar och krångliga beslut – dags för lokal handlingskraft

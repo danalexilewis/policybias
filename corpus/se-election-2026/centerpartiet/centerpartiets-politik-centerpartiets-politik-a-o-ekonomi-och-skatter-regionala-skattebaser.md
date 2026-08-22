@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4617d5e9a27ff657
+contentLength: 2694
 ---
 
 ## När lokala resurser bygger lokala samhällen

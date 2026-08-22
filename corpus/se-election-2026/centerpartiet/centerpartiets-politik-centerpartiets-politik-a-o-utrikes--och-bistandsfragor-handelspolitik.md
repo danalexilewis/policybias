@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1a09ef6bb4aea0e8
+contentLength: 3638
 ---
 
 ## **En värld med nya utmaningar – och varför frihandel är vår möjlighet**

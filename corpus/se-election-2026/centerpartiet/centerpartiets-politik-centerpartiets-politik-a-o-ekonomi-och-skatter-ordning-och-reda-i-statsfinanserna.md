@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-124a4d4eeb276109
+contentLength: 2200
 ---
 
 ## En trygg ekonomi för en osäker framtid

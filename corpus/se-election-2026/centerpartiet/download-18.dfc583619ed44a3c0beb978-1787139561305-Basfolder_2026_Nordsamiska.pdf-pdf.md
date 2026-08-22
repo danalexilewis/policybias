@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-81fbfd3b6f9f548e
+contentLength: 4235
 ---
 
 # Basfolder_2026_Nordsamiska-949588c9.pdf

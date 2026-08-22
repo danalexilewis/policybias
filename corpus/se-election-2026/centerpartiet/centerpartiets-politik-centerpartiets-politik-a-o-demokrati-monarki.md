@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b5dfcb0e0eebe67a
+contentLength: 2151
 ---
 
 ## Stabilitet och samling, inte splittring och konflikt

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-342a7cdc6e5adeae
+contentLength: 2686
 ---
 
 ## **Trygghet är en frihetsfråga – därför måste vi stoppa brotten innan de sker**

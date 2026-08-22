@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7620031785f91bc8
+contentLength: 2870
 ---
 
 ## **Politiken måste säkra HBTQI-personers frihet och trygghet**

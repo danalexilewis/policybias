@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-df58b280508dbecd
+contentLength: 2973
 ---
 
 Centerpartiet vill skapa fler jobb i hela Sverige. Det gör vi genom att göra det enklare och billigare att starta, driva och växa företag. Resultatet är ett samhälle där fler människor får chansen att förverkliga sina idéer, forma sin egen framtid och bidra till en starkare gemensam välfärd, oavsett var i landet man bor.

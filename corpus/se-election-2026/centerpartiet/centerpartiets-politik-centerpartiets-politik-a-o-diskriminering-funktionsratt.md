@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ef95700737295313
+contentLength: 2969
 ---
 
 ## Ett samhälle för alla – inte för några få

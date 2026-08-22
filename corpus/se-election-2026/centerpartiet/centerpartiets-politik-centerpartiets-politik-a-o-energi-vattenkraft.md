@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-900c9b3b5fc86a44
+contentLength: 2896
 ---
 
 ## Vattenkraften är Sveriges gröna batteri – då måste reglerna fungera

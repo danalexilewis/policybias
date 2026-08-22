@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-00cfd30c4882569a
+contentLength: 2871
 ---
 
 ## Staten måste bidra för fungerande mobiltelefoni i hela landet

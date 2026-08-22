@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-110fd494b72d2199
+contentLength: 3531
 ---
 
 ## Ett hållbart pensionssystem för en trygg framtid

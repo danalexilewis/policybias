@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-268461c52441e563
+contentLength: 2643
 ---
 
 ## **En fälla av passivitet och utanförskap**

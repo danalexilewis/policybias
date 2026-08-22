@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2738813f437fa6e6
+contentLength: 2933
 ---
 
 ## Tillgången till fiber och mobilnät behöver öka

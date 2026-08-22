@@ -9,9 +9,11 @@ contentType: html
 via: party-site
 tags:
   - other
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-dab6617c85048e5c
+contentLength: 591
 ---
 
 ## Vi använder kakor (cookies)

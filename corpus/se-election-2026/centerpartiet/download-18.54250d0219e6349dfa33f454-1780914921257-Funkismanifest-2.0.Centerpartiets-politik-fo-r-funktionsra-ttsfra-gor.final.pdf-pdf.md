@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ff2c020e35ae5a85
+contentLength: 49561
 ---
 
 # Funkismanifest-2.0.Centerpartiets-politik-fo-r-funktionsra-ttsfra-gor.final-daa60a6b.pdf

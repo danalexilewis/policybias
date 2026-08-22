@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6e95b954b67f7a69
+contentLength: 2572
 ---
 
 ## Varför ekonomisk ojämlikhet är en frihetsfråga

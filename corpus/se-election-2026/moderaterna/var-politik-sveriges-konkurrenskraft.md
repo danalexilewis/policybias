@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7ed1d66a6428aa2b
+contentLength: 4195
 ---
 
 ## Sveriges konkurrenskraft

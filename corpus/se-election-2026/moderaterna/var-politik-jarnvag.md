@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-2266edf6e9ad6638
+contentLength: 4713
 ---
 
 ## Järnväg

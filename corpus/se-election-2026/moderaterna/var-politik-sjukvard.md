@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-f90fe7ad6dcccdfa
+contentLength: 4733
 ---
 
 ## Sjukvård

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-766b54a9cf38921e
+contentLength: 4046
 ---
 
 ## Rovdjur

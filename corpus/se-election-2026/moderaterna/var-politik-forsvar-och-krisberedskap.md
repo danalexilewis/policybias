@@ -1,8 +1,7 @@
 ---
 type: crawled-page
 party: moderaterna
-title: "Moderaternas försvarspolitik 2026: Nato, Ukraina, totalförsvar och ett starkare
-  svenskt försvar"
+title: "Moderaternas försvarspolitik 2026: Nato, Ukraina, totalförsvar och ett starkare svenskt försvar"
 sourceUrl: https://moderaterna.se/var-politik/forsvar-och-krisberedskap
 canonicalUrl: https://moderaterna.se/var-politik/forsvar-och-krisberedskap
 fetchedAt: 2026-08-22T13:50:59.632Z
@@ -13,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-a472a72cd791125d
+contentLength: 27192
 ---
 
 ## Moderaternas försvarspolitik 2026: Nato, Ukraina, totalförsvar och ett starkare svenskt försvar

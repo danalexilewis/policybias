@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c4623467662a59a4
+contentLength: 5149
 ---
 
 ## Äldreomsorg

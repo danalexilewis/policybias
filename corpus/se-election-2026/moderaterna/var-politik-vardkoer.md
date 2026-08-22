@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-bd8f268f3ed577f5
+contentLength: 3975
 ---
 
 ## Vårdköer

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-9de3ec09eaa3817a
+contentLength: 6000
 ---
 
 ## Arbetslöshet

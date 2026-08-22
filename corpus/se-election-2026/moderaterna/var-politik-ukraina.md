@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-74e5b4e41a63d0a8
+contentLength: 4692
 ---
 
 ## Ukraina

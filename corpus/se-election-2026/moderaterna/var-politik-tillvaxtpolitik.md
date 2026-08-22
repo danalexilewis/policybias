@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-14f491603f42489f
+contentLength: 3785
 ---
 
 ## Tillväxtpolitik

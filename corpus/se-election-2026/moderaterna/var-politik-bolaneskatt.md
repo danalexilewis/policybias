@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-ef0e576835b19592
+contentLength: 5991
 ---
 
 ## Bolåneskatt

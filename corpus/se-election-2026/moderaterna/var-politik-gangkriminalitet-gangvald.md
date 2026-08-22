@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-22c6d2a43ef63c9e
+contentLength: 4690
 ---
 
 ## Gängkriminalitet/Gängvåld

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-99801508e9e6bc56
+contentLength: 5816
 ---
 
 [Gå direkt till innehåll](#primary)

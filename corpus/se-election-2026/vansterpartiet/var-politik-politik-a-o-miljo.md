@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f085ec960bc064ab
+contentLength: 3789
 ---
 
 **För oss är miljön viktigare än vinstintresset. Utarmningen av den biologiska mångfalden, klimatkrisen, farliga kemikalier och andra allvarliga miljöproblem gör att vi snabbt måste ställa om vårt samhälle. Ett samhälle som effektivt nyttjar naturresurserna utan att utarma ekosystemen och som ger oss och kommande generationer en trygg hälsosam miljö.**

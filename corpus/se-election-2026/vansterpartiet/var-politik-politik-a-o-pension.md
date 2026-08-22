@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-c1390ed0dbe5489a
+contentLength: 3732
 ---
 
 **Alla människor ska kunna leva på sin pension, inte bara de som varit höginkomsttagare. Därför vill Vänsterpartiet att det offentliga ska ta ett större ansvar för vår gemensamma välfärd och inkomsttrygghet. Sveriges pensionssparare och pensionärer ska inte vara beroende att privata lösningar för ekonomisk trygghet vid arbetslivets slut. Det är politikens ansvar att du får en trygg pension.**

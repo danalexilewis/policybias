@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-463b8df620bbf999
+contentLength: 3485
 ---
 
 **Vänsterpartiet vill sätta fasta ramar för att ta Sverige ur fossilberoendet, med en utsläppsbudget och ett omställningsprogram som kan ta oss hela vägen till utsläpp nära noll. Det kommer att behövas stora investeringar, ett aktivt gemensamt ägande och en beredskap att ta konflikt med fossila ekonomiska intressen för att genomföra det. Det handlar bl.a. om att bygga upp ny infrastruktur och nya industrier, som tar oss ur fossilberoendet och kärnkraftsberoendet. Vänsterpartiet avvisar planerna på att bygga ut kärnkraften som en väg ut ur fossilberoendet.**

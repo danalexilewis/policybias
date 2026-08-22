@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-3dcc276944b42f1d
+contentLength: 2195
 ---
 
 ## **Så når vi klimatmålen till 2030**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-decbe3df6e1f6a43
+contentLength: 2900
 ---
 
 **Vår gemensamma välfärd ska skapa frihet för alla, ge oss möjlighet att leva goda liv. Alla människor har lika värde och alla människor har kunskaper, förmågor och erfarenheter som är viktiga för samhället. Alla människor, oavsett funktionsvariation, ska ha samma möjlighet till ett gott liv som alla andra.**

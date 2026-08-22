@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2048e483981f276e
+contentLength: 2720
 ---
 
 **För Vänsterpartiet är det centralt att det finns goda möjligheter till idrottande för människor i alla åldrar, oavsett bakgrund, funktionsvariation och ekonomiska förhållanden. Att kunna gå till fotbollsträningen, åka skidor, vara med i simlaget, gå ut och springa eller någon av alla de andra sätt man kan hålla på med idrott ska inte vara till för några få utan finnas tillgängligt för alla.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-27923cd4b93538d5
+contentLength: 2579
 ---
 
 **I våra hav fiskas mer än vad bestånden tål. I Östersjön står ett fåtal stora industritrålare för det mesta av fisket som till största delen blir foder åt djur. Vänsterpartiet arbetar för ett fiske där ekosystemen istället sätter gränsen för hur mycket som får fiskas och där det småskaliga fisket gynnas och industrifisket stoppas. Istället för att fisken ska gå till foder för odlad fisk, kyckling eller mink vill vi att den i högre grad ska konsumeras av oss människor. Ett småskaligt fiske är mer hållbart och går också oftare till våra matbord, till skillnad från industrifisket som lämnar stora delar av fångsten till fodertillverkning i Danmark. Livskraftiga fiskbestånd och ett levande småskaligt fiske är också gynnsamt för den nationella livsmedelsberedskapen i händelse av kris.**

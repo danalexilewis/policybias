@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-dd356be150e30396
+contentLength: 2734
 ---
 
 **Vänsterpartiet står för en solidarisk och restriktiv alkoholpolitik som innebär att alkohol inte ska vara tillgängligt som om det var vilken vara som helst.**

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-97da82bce486930b
+contentLength: 2498
 ---
 
 **En stor del av de kemikalier som finns i vår vardag är skadliga för vår hälsa och för vår natur.  För en säkrare kemikalieanvändning krävs hårdare krav på de företag som tillverkar kemikalier och släpper ut dem på marknaden. Vänsterpartiet anser att inga nya kemikalier ska börja användas innan man tagit reda på om de innebär risker för människor och miljön. Kemikalier med egenskaper som inte är tillräckligt kända ska bedömas som farliga tills de har granskats. Vänsterpartiet anser att Sverige måste arbeta för att skärpa lagstiftningen på en rad områden. Den bör exempelvis ändras så att barns hälsa sätts i första rummet, och hormonstörande ämnen regleras hårdare.**

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-865d470df271c354
+contentLength: 2172
 ---
 
 **Vänsterpartiet anser att Sverige ska vara mer självförsörjande på livsmedel. Vi vill stärka stödet för ett hållbart jordbruk och för att produktion, förädling och distribution av hållbar mat ska ske närmare konsumenten.**

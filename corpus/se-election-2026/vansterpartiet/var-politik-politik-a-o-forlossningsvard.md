@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-aca94def73eb4227
+contentLength: 1842
 ---
 
 **Den som föder barn ska känna sig trygg med att få den vård som behövs. Vårt mål är ett det ska finnas en barnmorska för varje förlossning.**

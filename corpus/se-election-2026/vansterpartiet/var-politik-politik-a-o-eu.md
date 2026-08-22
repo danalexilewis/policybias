@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a0caaa270b133a96
+contentLength: 2102
 ---
 
 **I EU arbetar Vänsterpartiet för samma saker som här hemma: en mer effektiv klimatpolitik, en tryggare arbetsmarknad och bättre livsvillkor för vanliga människor.**

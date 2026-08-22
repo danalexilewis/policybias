@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-5265771d3a0b5096
+contentLength: 4329
 ---
 
 **Skatteflykt är ett stort samhällsproblem. Stora resurser försvinner och det blir vi andra som får stå för notan. Lågt räknat går Sverige årligen miste om ca 30 miljarder kronor i uteblivna skatteintäkter varje år.**

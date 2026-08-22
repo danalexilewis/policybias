@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-49a5b322a143ebc7
+contentLength: 2168
 ---
 
 **Vänsterpartiet vill se en mänsklig, välkomnande och rättssäker flyktingpolitik i Sverige och Europa.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7db0e3fa596afda0
+contentLength: 2775
 ---
 
 **Samhället fungerar som bäst när alla människor har möjlighet att ha ett arbete. Jobben skapas när innovationer och nytänkande omsätts i nya produkter och tjänster, inte genom att konkurrera med lägre löner och sämre villkor. Vänsterpartiets politik för små och medelstora företag handlar om att skapa långsiktighet och goda förutsättningar för tillväxt. Men också trygghet för den enskilda företagaren och för anställda.**

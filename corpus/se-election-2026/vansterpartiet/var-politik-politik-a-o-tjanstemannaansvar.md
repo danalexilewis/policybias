@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-48bdf102e31e9e41
+contentLength: 642
 ---
 
 **För oss är det grundläggande att ansvariga chefer och politiker tar sitt ansvar för att strukturerna och personalförsörjningen på myndigheterna är välfungerande och bra för att i så stor utsträckning som möjligt undvika att fel begås. Det vore inte bra med ett system där tjänstemän riskerar att göra fel på grund av en ohållbar arbetssituation och sen också straffas rättsligt för det.**

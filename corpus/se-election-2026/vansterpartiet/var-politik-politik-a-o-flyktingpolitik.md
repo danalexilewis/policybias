@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c7148f4569b548c3
+contentLength: 3364
 ---
 
 **Människor på flykt behöver få skydd, därför vill vi försvara asylrätten. Sverige ska inte vara ett land som splittrar familjer. Vi vill bygga ett starkt samhälle med robust välfärd och politik för full sysselsättning. Det är så man löser samhällsproblemen, inte genom att urholka asylrätten.**

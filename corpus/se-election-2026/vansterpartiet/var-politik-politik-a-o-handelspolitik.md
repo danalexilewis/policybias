@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0e026e0d5d2b2bb6
+contentLength: 1950
 ---
 
 **Vänsterpartiet vill se en rättvis handelspolitik som sätter människor, social rättvisa, djur, klimatet och miljön främst och som fokuserar på samhällsvinster för alla och inte bara på vinster för storföretag.**

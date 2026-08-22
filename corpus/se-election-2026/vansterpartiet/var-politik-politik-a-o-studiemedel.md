@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ea6c3422974b3ec1
+contentLength: 2373
 ---
 
 För att kunna studera på heltid är det nödvändigt med studiemedel som det går att leva på. De är en av de viktigaste förutsättningarna för att göra kunskap och utbildning tillgänglig för fler människor från vuxenutbildning till högskola. Samhället ska erbjuda ekonomiska villkor för studenter som gör att man klarar sig utan hjälp från anhöriga eller extrajobb.

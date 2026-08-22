@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8811ec99cb21f52c
+contentLength: 3272
 ---
 
 **Alla människor har rätt att leva i fred och frihet. De väpnade konflikterna i världen är fler än de någonsin varit tidigare. Dessutom riskerar klimatkrisen att skapa nya konflikter när kampen om naturresurserna blir svårare. Krig och konflikter drabbar människor här och nu, men de får också konsekvenser för världen under lång tid framöver.**

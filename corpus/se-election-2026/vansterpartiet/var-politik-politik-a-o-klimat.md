@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-7d1149e8799084c2
+contentLength: 4547
 ---
 
 **Klimatkrisen är akut och vi måste snabbt få ned utsläppen. Det finns en stark rörelse och folklig opinion för detta och för att bygga Sverige starkt genom ett hållbart och tryggare samhälle som är mindre sårbart. Regeringen och Sverigedemokraterna har valt motsatt väg med en politik som ökar utsläppen och som försvårar för människor att leva klimatsmart.**

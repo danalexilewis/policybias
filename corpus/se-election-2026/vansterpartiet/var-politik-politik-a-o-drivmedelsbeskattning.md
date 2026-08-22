@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-7e3964ad6073a7ca
+contentLength: 1658
 ---
 
 **Priset på fossila drivmedel kommer att öka när EU:s nya utsläppshandelssystem träder i kraft 2028. Oavsett vilken nivå drivmedelsskatten ligger på nationellt kommer alltså bensin- och dieselpriset bli högt i Sverige. Vänsterpartiet vill därför göra det billigare och enklare för människor att resa hållbart, t.ex. med elbilar och kollektivtrafik. Genom att gynna både klimatomställningen och människors ekonomi bygger vi Sverige starkare och tryggare.**    

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4757ddadbaa2eb33
+contentLength: 6923
 ---
 
 **Det bästa brottsförebyggande arbetet börjar med en stark välfärd som skapar ett jämlikt samhälle, har resurser att fånga upp unga tidigt och som kan ge föräldrar det stöd de behöver. Men när människor begår brott måste samhället självklart sätta gränser i form av straff. Det är viktigt att straffen motsvarar brottens allvarlighet. Att stoppa nyrekryteringen av barn och unga in i kriminalitet är centralt. Narkotika och vapen måste stoppas redan vid landets gränser.**

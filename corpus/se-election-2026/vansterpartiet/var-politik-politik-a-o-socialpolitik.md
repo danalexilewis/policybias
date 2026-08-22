@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-345fb28d3eb5b05f
+contentLength: 3758
 ---
 
 **Alla har rätt till ett skyddsnät som fångar upp oss när sjukdom eller arbetslöshet gör att vi faller. Det ska inte bara finnas för dem som har pengar eller anhöriga som kämpar för dem. Ett jämlikt samhälle med få människor som lever i utsatthet är bra för alla.**

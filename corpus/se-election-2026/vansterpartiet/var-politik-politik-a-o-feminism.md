@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4b9a2193ecd3165b
+contentLength: 5429
 ---
 
 **Vi i Vänsterpartiet är feminister. Det innebär att vi ser att män generellt överordnas kvinnor i vårt samhälle. Genom vår feministiska politik arbetar vi för att förändra detta.**

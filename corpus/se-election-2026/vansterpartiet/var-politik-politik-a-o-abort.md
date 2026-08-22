@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-fdc9941ef3e63b2f
+contentLength: 2706
 ---
 
 **Alla kvinnor ska ha rätt att bestämma över sin egen kropp. Fri abort är en förutsättning för att alla barn som föds ska vara välkomna men är också en hälsofråga för kvinnor, både fysiskt och psykiskt. Det är kvinnans rätt att avgöra om och när hon vill ha barn.**

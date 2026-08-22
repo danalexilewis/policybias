@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0c20958b5d5051c1
+contentLength: 1795
 ---
 
 **Vänsterpartiet vill bygga bort bostadsbristen. Framför allt vill vi att det byggs hyresrätter med rimliga hyror som folk har råd med. För att kunna göra det krävs en aktiv statlig bostadspolitik.**

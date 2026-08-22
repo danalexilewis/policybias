@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-2e1245a3d8587ffd
+contentLength: 2020
 ---
 
 **Mellan 2024 och 2025 ökade andelen vuxna svenskars användning av artificiell intelligens (AI) med 48%. Det innebär att idag använder mer än var tredje svensk generativ AI. AI har stor potential att förenkla och effektivisera våra liv. Just därför är det också viktigt att den regleras, så att den inte används på ett riskabelt, integritetskränkande eller repressivt sätt. Vänsterpartiet vill ta vara på den nya tekniken samtidigt som vi balanserar de utmaningar som följer med den.**

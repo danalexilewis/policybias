@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-26026bbad814baea
+contentLength: 2765
 ---
 
 **Industrin måste göras mer hållbar. Den gröna omställningen är inte ett hot, utan den är vår chans att bygga något bättre. Vi har just nu alla möjligheter att göra rätt. Vänsterpartiet vill därför se kraftigt ökade investeringar i att ställa om Sverige. Vi vill se en övergång till förnybar energiproduktion och smarta elnät, satsningar på järnvägar, elvägar, energirenoveringar och nybyggnation av lokaler och klimatsmarta bostäder. Det är satsningar som i hög grad kommer att påverka industrin.**

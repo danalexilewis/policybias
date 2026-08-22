@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-f31e41f913f4cd4e
+contentLength: 6966
 ---
 
 ### **Så vill Vänsterpartiet nå klimatmålen till 2030**

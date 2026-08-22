@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6863e2199ae139e4
+contentLength: 442
 ---
 
 **Religiösa friskolor gör att elever med olika bakgrund mer sällan möts i en gemensam skola. Det förstärker segregationen.**

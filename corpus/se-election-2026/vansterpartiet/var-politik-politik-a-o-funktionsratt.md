@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f5d09dff1e456f2b
+contentLength: 3539
 ---
 
 **Alla människor har lika värde och alla människor har kunskaper, förmågor och erfarenheter som är viktiga för samhället. Den som lever sitt liv med en normbrytande funktionalitet ska ha samma möjlighet till ett gott liv som alla andra.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-1ed750485c79ea9d
+contentLength: 1826
 ---
 
 **En trygg inkomst ger människor större frihet. Arbetslösheten är ett samhällsmisslyckande och ett stort slöseri med mänskliga resurser. I osäkra tider måste våra socialförsäkringar bidra med trygghet. A-kassan måste stärkas om människor ska kunna lita på den. För att den som förlorar jobbet ska kunna få goda möjligheter att antingen ställa om eller hitta ett jobb som motsvarar ens kompetens behöver a‑kassan ge en rimlig ersättning**

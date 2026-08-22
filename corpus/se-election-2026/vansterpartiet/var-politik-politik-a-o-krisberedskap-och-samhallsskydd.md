@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-69ed7b6f1e0ed53e
+contentLength: 3788
 ---
 
 **Vi lever i ett sårbart samhälle. De senaste åren har det blivit tydligt vilka civila hot som finns mot Sverige, som cyberattacker, splittring mellan olika grupper i samhället, naturkatastrofer i klimatförändringens spår, kriminalitet, påverkansförsök och falska nyheter och inte minst, pandemier. Men också hur en militär konflikt i vårt närområde påverkar Sverige.**

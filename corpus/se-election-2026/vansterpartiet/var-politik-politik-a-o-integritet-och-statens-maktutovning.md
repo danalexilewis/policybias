@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e5e46d9df21cf3f3
+contentLength: 3864
 ---
 
 **Vänsterpartiet värnar demokratiska grundvärden som rättssäkerhet och skyddet för den personliga integriteten. Vi vill samtidigt inte försvåra de brottsbekämpande myndigheternas arbete med att utreda och beivra brott.**

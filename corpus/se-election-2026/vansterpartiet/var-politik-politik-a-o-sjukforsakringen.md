@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-61527fea31bf143a
+contentLength: 4661
 ---
 
 **Alla kan bli sjuka. Alla har därför intresse av en bra sjukförsäkring som ger ett bra skydd för den som är för sjuk för att arbeta.**

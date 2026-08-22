@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8e67c37d03cc4e73
+contentLength: 3197
 ---
 
 **När vi gick med i Nato förändrades Sveriges försvars- och säkerhetspolitik. Vänsterpartiet var emot ett Svenskt medlemskap. Vi kan konstatera att det nu är särskilt viktigt att riksdag och regering fattar självständiga beslut som gynnar svensk säkerhet och trygghet. Svensk utrikes- och säkerhetspolitik ska beslutas i Sverige, inte på Natos högkvarter i Bryssel, i Washington av USA:s president eller i Ankara av Turkiets president.**

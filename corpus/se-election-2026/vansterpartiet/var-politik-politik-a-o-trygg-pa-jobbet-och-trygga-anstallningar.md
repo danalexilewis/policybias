@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9d2ac553b01263fa
+contentLength: 3086
 ---
 
 **Alla vill känna sig trygga på jobbet. Man vill veta att man har ett jobb att gå till imorgon, vilka tider det är man jobbar, hur mycket man tjänar från månad till månad, att man kan vara borta och vara sjuk när man behöver och att man inte kan få sparken så fort chefen känner för det.**

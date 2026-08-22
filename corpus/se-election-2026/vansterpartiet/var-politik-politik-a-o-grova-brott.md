@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1b5537a0b7544c59
+contentLength: 5412
 ---
 
 **Ju grövre brott en person begått, desto kraftigare måste samhället reagera. För att knäcka gängkriminaliteten krävs insatser från hela samhället. Sverige var länge ett land med lägre kriminalitet än många andra länder – en direkt koppling till att vi haft ett starkt välfärdssamhälle med en välfungerande omsorg och skola samt tillgång till arbete och bostäder. Men det gäller inte längre överallt. De ökande klassklyftorna har slitit isär samhället. Det har gjort att en organiserad brottslighet med löften om snabba pengar kunnat växa fram och slå rot. Många ungdomar som inte ser någon väg framåt genom studier och arbete lockas av möjligheten att tjäna pengar och vinna anseende genom brott. En del förorter har drabbats av öppen narkotikahandel, våldsbrott och organiserad kriminalitet under många år utan att samhället har reagerat tillräckligt. På landsbygden ges beskedet att det inte finns någon polis att skicka.**

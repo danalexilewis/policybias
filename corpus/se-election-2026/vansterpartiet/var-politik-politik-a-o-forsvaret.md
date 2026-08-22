@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d64287692a4d0275
+contentLength: 4415
 ---
 
 **Det säkerhetspolitiska läget är allvarligare än på mycket länge. Det handlar både om Rysslands anfallskrig mot Ukraina, naturkatastrofer, cyberattacker, splittring mellan olika grupper i samhället, kriminalitet, påverkansförsök och falska nyheter. Det är hot som måste mötas av ett robust och starkt samhälle.**

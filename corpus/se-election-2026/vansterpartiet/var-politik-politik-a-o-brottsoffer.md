@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-55a3accad7594069
+contentLength: 2966
 ---
 
 **Det öppna samhället bygger på demokrati, frihet och respekt för alla människors rätt att forma sina liv så länge man inte inkräktar på sina medmänniskors frihet.**

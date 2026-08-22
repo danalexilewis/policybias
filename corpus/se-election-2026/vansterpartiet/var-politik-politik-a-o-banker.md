@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9c4539a953643846
+contentLength: 2809
 ---
 
 **Bankerna ska vara till för vanligt folk, inte bara för storföretagen. Därför har Vänsterpartiet lagt en rad förslag för att stärka kundernas ställning gentemot bankerna. Vi vill också hindra bankerna från att agera så att samhällsekonomin hotas.**

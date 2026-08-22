@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c027bb3263687a56
+contentLength: 2414
 ---
 
 **Högskolans huvuduppgift är att förmedla kunskap och bildning. Tanken bakom yrkeshögskolans utbildningar är att de ska finnas när och där de behövs. Båda är viktiga för att skapa välstånd och ett öppet och demokratiskt samhälle.**

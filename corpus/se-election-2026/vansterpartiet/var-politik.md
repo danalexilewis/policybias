@@ -9,9 +9,11 @@ contentType: html
 via: party-site
 tags:
   - other
-stance: intervention
+stance: not-policy
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-b097187cd702e505
+contentLength: 179
 ---
 
 År av marknadslösningar och privatiseringar har gjort Sverige otryggt. Det är dags för politiken att ta tillbaka kontrollen över välfärden och göra livet bättre för vanligt folk.

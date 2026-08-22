@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0fd8dbad745adedc
+contentLength: 3535
 ---
 
 **Äldreomsorgen präglas av underbemanning och otrygga anställningar. Under lång tid har äldreomsorgen underfinansierats, vilket har lett till en ökad stress där tiden för den äldres omsorg alltför ofta inte räcker till. Hetsig minutjakt, dåliga arbetsvillkor och låga löner är de anställdas vardag. Nu vill Vänsterpartiet se en haverikommission för att kraftfullt åtgärda problemen.**

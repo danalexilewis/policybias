@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b16fddf231b15a0f
+contentLength: 4670
 ---
 
 Vänsterpartiet vill se en fredlig, rättvis och jämlik värld. Vi vill jämna ut klyftorna mellan fattiga och rika människor, mellan fattiga och rika länder och mellan kvinnor och män. Då krävs en rättvis global världsordning, ökad demokrati och en starkare respekt för internationell rätt och mänskliga rättigheter.

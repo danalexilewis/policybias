@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-580990fd9320dad4
+contentLength: 652
 ---
 
 **Frågan om aktiv dödshjälp innebär etiska överväganden som mycket grundligt måste göras och som talar för att dödshjälp står i stark kontrast till det som är vårdens främsta uppgift – att bota, lindra och trösta.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7d9860c39e1e6a7e
+contentLength: 2551
 ---
 
 **Alla har rätt till en bra och tillgänglig sjukvård som är anpassad efter den enskildes behov. Vänsterpartiet värnar en vård som finns där i alla delar av livet och som är tillgänglig över hela landet.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-b9eb989a29cb20f3
+contentLength: 6287
 ---
 
 **Mäns våld mot kvinnor är ett mycket allvarligt samhällsproblem som berör många människors liv och vardag. Det sexualiserade våldet, eller det könsbaserade våldet, är en samlingsbeteckning på de varierande former av våld som män riktar mot kvinnor just för att de är kvinnor. Det sexualiserade våldet är direkt eller indirekt en del av alla kvinnors vardag. Flera undersökningar visar att flickor och kvinnor medvetet eller omedvetet anpassar sitt liv på olika sätt p.g.a. rädsla för att utsättas för våldtäkt och sexuella trakasserier. På så sätt skapar våldet en otrygghet som begränsar varje kvinnas frihet och handlingsutrymme. Det får även som konsekvens att alla män lätt upplevs som möjliga förövare då det är omöjligt för en kvinna att i förväg veta vem som är farlig eller inte. Det handlar inte om att kollektivt skuldbelägga alla män utan om att vi alla måste våga se den verklighet som råder och förstå kvinnors väl motiverade rädsla. Vissa män visar sitt förakt och hat mot kvinnor genom såväl våld i nära relationer och våldtäkter som köp av sexuella handlingar och människohandel. Den yttersta manifestationen av våldet är när kvinnor misshandlas till döds, s.k. femicid. Under 2024 dödades elva kvinnor av förövare som de haft en pågående eller avslutad parrelation med.**

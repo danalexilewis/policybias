@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-412388621566398d
+contentLength: 2304
 ---
 
 **Vårt mål är att alla som har möjlighet att arbeta ska kunna göra det. Det går att göra något åt arbetslösheten, men det kräver aktiva politiska beslut.**

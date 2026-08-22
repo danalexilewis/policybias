@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-349ac187022bfcc9
+contentLength: 2080
 ---
 
 **Skatternas huvudsakliga uppgift är att finansiera välfärden och övriga delar av det offentliga åtagandet. Därtill bör de jämna ut inkomster, konsumtion och sparande mellan olika inkomstgrupper och vara styrande i klimat- och miljöpolitiken. Det finns ett samband mellan ett relativt högt skatteuttag och hög sysselsättning. Skattefinansierad äldreomsorg, förskola och fritids gör det möjligt för flera att kombinera yrkes- och familjeliv.**

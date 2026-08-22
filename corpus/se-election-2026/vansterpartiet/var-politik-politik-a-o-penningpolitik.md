@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-06e1968a7d62cdc8
+contentLength: 1678
 ---
 
 **Riksbankens penningpolitik styrs av ett inflationsmål som innebär att inflationen ska ligga på omkring 2 procent. Sedan inflationsmålet infördes har arbetslösheten i genomsnitt legat på ca 8 procent. Vi menar att detta visar att inflationsmålet bör kompletteras med ett sysselsättningsmål. Detta mål ska inte vara underordnat inflationsmålet. De senaste årens inflationskris har varit utmanande för världens centralbanker. När inflationen beror på utbudsstörningar och dåligt fungerade marknader är räntevapnet trubbigt. Penningpolitiken bör därför ta större hänsyn till realekonomiska faktorer.**

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7e91995cf7e6178d
+contentLength: 2145
 ---
 
 Klimatet och tillståndet för vår natur hänger ihop. Stora mängder kol binds i våra hav som även står för en stor del av det syre som produceras på jorden.  Haven har också en mycket stor förmåga att lagra värme och har genom tiderna haft en viktig roll för att stabilisera klimatet. För att det ska fungera krävs att haven som ekosystem är intakta och att den biologiska mångfalden värnas.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2370ccc15111dcc7
+contentLength: 936
 ---
 
 **För Vänsterpartiet är kunskap en rättighet och när eleverna inte fått den rättigheten uppfylld är det skolan som ska hållas ansvarig. Betyg och bedömning behövs därför i skolan som en försäkring att**

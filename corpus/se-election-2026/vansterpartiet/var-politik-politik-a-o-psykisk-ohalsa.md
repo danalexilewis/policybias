@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-49aa47d3bde8099a
+contentLength: 3671
 ---
 
 **Psykisk ohälsa kan drabba vem som helst. Därför måste alla som drabbas få en bra vård, inte bara de som har råd att betala psykologsamtal ur egen ficka.**

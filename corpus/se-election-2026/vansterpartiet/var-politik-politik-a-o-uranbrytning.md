@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7adc4ccbe367d5f1
+contentLength: 3015
 ---
 
 **Vänsterpartiet har länge drivit krav på att uranbrytning ska förbjudas helt i Sverige och ett förbud infördes till sist 2018. Men regeringen och Sverigedemokraterna har nu drivit igenom en lagstiftning som gör det möjligt att åter bryta uran i Sverige.**

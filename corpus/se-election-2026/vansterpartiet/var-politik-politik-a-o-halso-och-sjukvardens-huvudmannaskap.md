@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b03079f021eb33f0
+contentLength: 1131
 ---
 
 **Det regionala självstyret kan vara en stor tillgång i arbetet för ett regionalt anpassat förebyggande arbete, folkhälsoarbete och andra insatser med regional prägel, men det får aldrig ske på bekostnad av jämlikheten.**

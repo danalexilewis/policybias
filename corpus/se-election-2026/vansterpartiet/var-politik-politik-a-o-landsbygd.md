@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6066c6c8fa86999f
+contentLength: 3311
 ---
 
 **Sverige ska vara ett land som håller ihop. Våra gemensamma rikedomar skapas av hela landets resurser och hela landets arbete. Då ska frukterna av det arbetet också komma hela landet till del.**

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5d23050567cedfb9
+contentLength: 2355
 ---
 
 **Hedersrelaterat våld och förtryck har, liksom mäns våld mot kvinnor i övrigt, generellt sin grund i kön, sexualitet, makt och kulturella föreställningar om dessa.**

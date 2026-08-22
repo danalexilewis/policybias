@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-a269cd57f432074d
+contentLength: 2573
 ---
 
 **Många politiker har idag inkomster som de flesta i Sverige bara kan drömma om. Till exempel tjänar de flesta partiledarna i andra partier mellan cirka 100 000 och 170 000 kronor i månaden. För att inte klyftan ska bli för stor mellan de folkvalda och folket de representerar vill Vänsterpartiet att riksdagsledamöternas arvoden sänks.**

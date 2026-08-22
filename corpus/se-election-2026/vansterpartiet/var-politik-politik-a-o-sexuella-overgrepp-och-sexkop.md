@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7a3e23a0401aeabf
+contentLength: 3618
 ---
 
 **I Sverige är det sedan 1999 förbjudet att köpa sex, och en utvärdering av sexköpslagen har visat att lagen har varit ett viktigt verktyg för att begränsa prostitution och människohandel för sexuella ändamål i Sverige. Den har också bidragit till en tydlig attitydförändring. Sexköp är en del av det sexualiserade våldet mot kvinnor eftersom budskapet är att kvinnor är en handelsvara som män har rätt att köpa. Sexköpslagen riktar in sig på grundproblemet, som är mäns efterfrågan på sexuella tjänster, eftersom köparen kriminaliseras men inte säljaren. Vi tycker att det ska vara förbjudet att köpa sex oavsett var i världen det förekommer. Vi vill att även svenskars sexköp utomlands kriminaliseras. I EU-parlamentet arbetar vi med att sprida den svenska sexköpslagen till andra länder.**

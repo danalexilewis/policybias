@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9fe0fc93c1ce7e01
+contentLength: 5322
 ---
 
 **Svensk skola ska vara jämlik, alla barn och unga ska ges samma rätt till utbildning.**

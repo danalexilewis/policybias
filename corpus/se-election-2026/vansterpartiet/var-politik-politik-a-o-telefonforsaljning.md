@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a591fe7d1d954d30
+contentLength: 3289
 ---
 
 **Telefonförsäljning uppmärksammas återkommande för helt oacceptabla metoder. Vi vet att oseriösa telemarketingbolag särskilt riktar in sig mot äldre för att lura in dem i abonnemang som är svåra att avsluta och att det även finns kopplingar till gängkriminalitet. Men också de mer normala telemarketingbolagen är påstridiga om alltifrån elavtal och bredband, till tveksam hälsokost och mobilabonnemang. Även för dem som inte köper något innebär i allmänhet samtalen i sig ett störningsmoment med påträngande försäljare som inte vill låta folk lägga på. Själva formatet med telefonförsäljning går ut på att få till snabba beslut som man kanske inte skulle ha tagit i ett sammanhang där man fick chans att tänka igenom saken mer.**

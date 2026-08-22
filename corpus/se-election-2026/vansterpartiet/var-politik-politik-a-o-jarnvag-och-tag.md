@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e2629b1fa3ecf42c
+contentLength: 2115
 ---
 
 **För klimatets skull måste vi satsa mycket mer på tågen. Det ska vara bekvämt och smidigt att välja tåget och man ska kunna lita på att det går i tid. Vänsterpartiet driver på för ökade investeringar i nya järnvägar och förbättrat underhåll av banorna.**

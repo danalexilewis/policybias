@@ -13,6 +13,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-6d1495bd1a16a9de
+contentLength: 2510
 ---
 
 **Vänsterpartiet vill ha ett samhälle för alla, fritt från rasism. Rasism sorterar och underordnar människor och därför är rasism ett hinder för rättvisa och jämlikhet.**

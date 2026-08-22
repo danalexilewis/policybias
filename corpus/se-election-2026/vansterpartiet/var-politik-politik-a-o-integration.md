@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-821055bc538d970f
+contentLength: 2343
 ---
 
 **Vänsterpartiet arbetar för alla människors frihet. Det är samhällets ansvar och kräver en politik som ger alla, oavsett bakgrund, religion, hudfärg, kön eller sexualitet, samma möjligheter och samma rätt till god utbildning, arbete och bostad.**

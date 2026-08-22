@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4857b1f3196ae438
+contentLength: 2656
 ---
 
 **Vänsterpartiet anser att förskolan ska vara en rättighet och en möjlighet för alla barn.**

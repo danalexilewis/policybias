@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6c6d52577965017b
+contentLength: 3137
 ---
 
 **Klimatet förändras nu drastiskt. För att minska de skadliga utsläppen behöver vi en grön omställning, där fler delar av samhället elektrifieras. De fossila bränslena måste i större utsträckning fasas ut och ersättas av el. Genom Vänsterpartiets politik och långsiktiga investeringar kan vi bygga ett starkare Sverige.**

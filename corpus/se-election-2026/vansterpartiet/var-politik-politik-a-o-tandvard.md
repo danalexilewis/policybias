@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-5e39e2e0429ce76d
+contentLength: 1974
 ---
 
 **Alla ska ha råd att ha bra tänder, inte bara de som kan betala dyra behandlingar. Tänderna är en del av kroppen och bör på sikt ingå i sjukvården. I dag har tandhälsan blivit en klassmarkör.**

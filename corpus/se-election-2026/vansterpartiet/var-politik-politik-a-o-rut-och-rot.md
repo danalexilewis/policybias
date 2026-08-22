@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-14ccf09f48a77d2a
+contentLength: 2612
 ---
 
 **Vänsterpartiet vill ha ett rättvist och robust skattesystem. Idag finns flera avdrag och skattereduktioner som i stor utsträckning går till de med höga inkomster. Dit hör t.ex. rut- och rotavdragen.**

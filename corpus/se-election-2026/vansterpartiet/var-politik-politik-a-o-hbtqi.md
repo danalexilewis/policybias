@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-58926e25bd40b8da
+contentLength: 1945
 ---
 
 **Alla människor ska ha samma rättigheter oavsett sexuell läggning, könsidentitet eller könsuttryck.**

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-789e623509d10b0a
+contentLength: 5687
 ---
 
 **Hushåll och företag knäcks av snabbt skenande elpriser. Elnätsavgiften höjs återigen och har nu mer än fördubblats under de senaste tio åren. Samtidigt kammar eljättarna hem storvinster. Vänsterpartiet vill stoppa rånet genom att sänka och stabilisera elkostnaderna.**

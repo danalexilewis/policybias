@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d8df858b56b13f2b
+contentLength: 2289
 ---
 
 **Elbehovet väntas öka kraftigt då transporternas och industrins klimatomställning sker genom elektrifiering. Samtidigt vill Vänsterpartiet ställa om energisystemet så att energiproduktionen blir helt förnybar.**

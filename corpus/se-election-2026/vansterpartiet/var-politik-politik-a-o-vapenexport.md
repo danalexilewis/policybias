@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b76aea5e788e7607
+contentLength: 1502
 ---
 
 **Vänsterpartiet vill att Sverige ska vara ett land som konsekvent står upp för demokrati och mänskliga rättigheter, samt aktivt och konsekvent arbetar för fred och nedrustning. Därför vill vi förbjuda vapenexport till diktaturer, stater som för angreppskrig och regimer som begår brott mot de mänskliga rättigheterna.**

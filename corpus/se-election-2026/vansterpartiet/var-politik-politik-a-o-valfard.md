@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-45dd756ddd692b64
+contentLength: 4754
 ---
 
 **Att välfärden fungerar är en förutsättning för många människors frihet. Det ska gå att lita på att ditt barn möter trygghet i skolan, att dina föräldrar får värme och omsorg på äldreboendet och på att du får bästa möjliga vård när du behöver det.**

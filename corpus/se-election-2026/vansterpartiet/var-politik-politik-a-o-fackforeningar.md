@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6688c2695d47e081
+contentLength: 1480
 ---
 
 **Starka fackföreningar med många medlemmar är avgörande för trygghet på jobbet, goda arbetsvillkor och bra löner.**

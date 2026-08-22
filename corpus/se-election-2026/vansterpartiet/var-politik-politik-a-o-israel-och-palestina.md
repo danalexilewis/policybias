@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c9660eadd0c67b04
+contentLength: 2466
 ---
 
 **Den israeliska ockupationen av Palestina är folkrättsvidrig och måste upphöra. Den internationella rätten måste respekteras. Alla attacker mot civila, och brott mot de mänskliga rättigheterna måste fördömas, oavsett vilken part som begår dem.**

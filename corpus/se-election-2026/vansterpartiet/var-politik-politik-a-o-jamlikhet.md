@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-bcdb74e99bd69658
+contentLength: 2445
 ---
 
 **Sverige hör till de OECD-länder där den ekonomiska ojämlikheten ökat mest sedan mitten av 1980-talet. En viktig orsak till de ökade klyftorna är hur det svenska skattesystemet utvecklats. Sverige har gått från att vara ett av de länder vars skattesystem omfördelar mest till att ha det minst omfördelande skattesystemet bland EU:s kärnländer.**

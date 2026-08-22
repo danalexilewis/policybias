@@ -13,6 +13,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-60297d7987db1c0d
+contentLength: 2070
 ---
 
 **Alla människor har rätt att arbeta i en trygg och säker arbetsmiljö. Idag har många en arbetsmiljö som präglas av stress, låg bemanning, tunga lyft och monotona arbetsuppgifter. Detta märks inte minst i kvinnodominerade yrken som inom sjukvården, skolan, socialtjänsten och äldreomsorgen. Det vill vi ändra på.**

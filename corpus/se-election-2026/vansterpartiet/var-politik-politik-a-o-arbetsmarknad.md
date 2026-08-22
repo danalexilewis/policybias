@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-92e2eeef4d089a59
+contentLength: 1783
 ---
 
 **Arbetsmarknadspolitik är de insatser som politiken gör för att på olika sätt hjälpa och stimulera arbetsmarknaden. Vänsterpartiet vill återskapa den aktiva arbetsmarknadspolitiken. Sverige har tidigare varit ett föregångsland beträffande arbetsmarknadspolitik. Det byggde på generöst stöd till vetenskapligt beprövade metoder, och bidrog till att Sverige var ett av de länder där arbetslösheten länge var lägst i Europa.**

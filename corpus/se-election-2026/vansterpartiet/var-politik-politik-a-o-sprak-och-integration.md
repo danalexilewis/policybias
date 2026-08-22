@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-41b981389e181515
+contentLength: 2370
 ---
 
 **I språklagen slås fast att alla ska ha rätt till språk. Språket skapar mening för oss människor och är grunden för vår kommunikation. En sån grundläggande mänsklig funktion blir ofrånkomligt också en viktig politisk fråga.** 

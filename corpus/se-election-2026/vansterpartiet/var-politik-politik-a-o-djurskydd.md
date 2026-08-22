@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-709e2fb50afd981b
+contentLength: 2578
 ---
 
 **Vänsterpartiet arbetar för att stärka djurskyddet och respekten för djur som kännande individer. Därför vill vi förbättra deras möjligheter till naturligt beteende och utevistelse samt att de ska skyddas från onödigt lidande. Att stärka djurs välfärd och hälsa kan bidra till att minska många globala kriser som pandemier, antibiotikaresistens, klimatförändringar och förlust av biologisk mångfald.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-91f173aed6ab60b1
+contentLength: 3092
 ---
 
 **Våra stora rovdjur i Sverige har en stor betydelse för att vår natur ska vara i balans. Att det finns stabila bestånd av björn, varg, lodjur och järv kan vara helt avgörande för att även andra arter kan existera. Förvaltningen av våra stora rovdjur måste därför enligt Vänsterpartiet vara långsiktigt hållbar, baserad på vetenskapligt underlag och i linje med vår skyldighet att bevara biologisk mångfald.**

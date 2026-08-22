@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-e7eaccd87d672235
+contentLength: 2018
 ---
 
 **Arbetskraftsinvandringen har historiskt varit positiv för Sverige och bidragit till vårt lands utveckling. En väl fungerande arbetskraftsinvandring kan även framöver tillföra mycket för såväl den enskilde som kommer hit för att arbeta som för svensk ekonomi och arbetsmarknad.**

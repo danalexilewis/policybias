@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7293c4cc134be7e6
+contentLength: 2763
 ---
 
 **Rysslands anfallskrig mot Ukraina är folkrättsvidrigt och en humanitär katastrof. Det ställer nya krav på Europas länder, däribland Sverige, att agera för folkrätt och alla länders rätt att försvara sig. Den ryska invasionen är en attack mot Ukrainas territoriella integritet, suveränitet och kultur och innebär såklart ett stort mänskligt lidande för det ukrainska folket.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4ee88a8e9ada8d6d
+contentLength: 1738
 ---
 
 **Bankerna har gjort rekordvinster de senaste åren. Bankernas höga vinster har både strukturella och mer tillfälliga förklaringar. När Riksbanken på allvar började höja styrräntan under 2022 följde kraftigt höjda bolåneräntor. Mellan januari 2022 och januari 2024 steg den genomsnittliga 3-månadersräntan med 227 procent. Bankerna var emellertid inte varit lika snabba på att höja räntan på människors transaktionskonton. Detta fick bankernas inlåningsmarginaler att explodera.**

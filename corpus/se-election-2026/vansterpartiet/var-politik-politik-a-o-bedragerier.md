@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-cd1bfe935e3700b6
+contentLength: 1549
 ---
 
 **De senaste åren har telefonbedrägerierna nått nya rekordnivåer Enligt polisen genererar bedrägerier flera miljarder kronor i brottsvinster årligen. Dessa pengar återinvesteras sedan i annan organiserad brottslighet. Det finns i dag brister i de tjänster som bankerna erbjuder för att motverka bedrägerier.**

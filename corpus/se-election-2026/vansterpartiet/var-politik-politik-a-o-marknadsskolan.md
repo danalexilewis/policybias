@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-198945247bef8dcb
+contentLength: 3843
 ---
 
 **Med Marknadsskola menar vi en skola som styrs av marknadslogik, där utbildning är en vara till försäljning, eleverna är kunder och lärare och rektorer är försäljare. Det svenska systemet är världsunikt, inget annat land tillåter skattefinansierade skolor att ta ut obegränsade vinster. Det handlar inte bara om de privata friskolorna, för även de kommunala skolorna tvingas att anpassa sig efter de förutsättningarna. Systemet har inte bara inneburit att en del oseriösa skolföretag som sätter vinst före utbildning har kunnat etablera sig utan också att den kommunala skolan får mindre resurser och svårare att planera långsiktigt för verksamheten. Det betyder ofta att den måste spara in på saker som är nödvändiga i en bra skola, som elevstöd och elevhälsa.**

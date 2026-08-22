@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f84a0276c70318dc
+contentLength: 3101
 ---
 
 **Polisen är central för upprätthållandet av rättsstaten. Därför har det stor betydelse att myndigheten är en attraktiv arbetsplats som tar väl hand om sina anställda. Personalomsättningen inom Polismyndigheten är en bekymmersam utveckling som måste brytas. För Vänsterpartiet är det viktigt att det finns tillräckligt många poliser och att de poliser som är verksamma har en bra arbetsmiljö, att kompetensförsörjningen och fortbildningsnivån är god och att nya arbetsmetoder för ett mer effektivt arbete utvecklas.**

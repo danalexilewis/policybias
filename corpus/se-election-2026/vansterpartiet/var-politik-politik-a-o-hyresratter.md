@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-dfc35e7493b3741e
+contentLength: 2576
 ---
 
 **Alla människor behöver någonstans att bo, inte bara de som har mycket pengar. Därför vill Vänsterpartiet att det ska byggas fler hyresrätter med rimliga hyror. Bostäder som vanligt folk har råd med.**

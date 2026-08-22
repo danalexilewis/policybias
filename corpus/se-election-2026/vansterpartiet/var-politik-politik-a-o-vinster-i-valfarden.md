@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-20f6687a24c506c6
+contentLength: 2369
 ---
 
 **När vi går till vårdcentralen vill vi vara trygga med att vi bemöts utifrån våra behov, inte utifrån hur lönsamma vi är. När vi får en behandling ska vi kunna vara säkra på att den ges för att göra oss friska, inte för att den är den mest lönsamma. När våra barn börjar i skolan vill vi att de möts som elever, inte som kunder eller vinstmöjligheter. Där vinsttänkandet styr påverkas våra relationer till varandra. Välfärden ska vara en fristad från sådant.**

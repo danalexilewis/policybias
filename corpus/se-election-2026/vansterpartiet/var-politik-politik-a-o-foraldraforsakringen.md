@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-eb2ba7bb7680e43e
+contentLength: 2200
 ---
 
 **Att föräldrar ska fördela ansvar för hem och barn lika är en av de mest centrala jämställdhetsfrågorna. Ett jämnare uttag av föräldraledighet skulle göra att kvinnors inkomster och hälsa ökar och att män tar större ansvar för hem och barn. Alla barn har rätt till en bra relation med båda sina föräldrar.**

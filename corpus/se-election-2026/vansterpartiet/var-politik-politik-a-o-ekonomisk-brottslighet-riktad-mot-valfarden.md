@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4d7b0283ce8a4e8d
+contentLength: 3664
 ---
 
 **Vänsterpartiet vill ha en välfärd som är till för alla, inte bara för de rika. Välfärden har genom omfattande privatiseringar och utförsäljningar genomgått stora förändringar, vilket gjort den sårbar och till en måltavla för oseriösa företagare och ekonomisk brottslighet. Idag används företag tyvärr ofta som brottsverktyg. Ekonomisk brottslighet är ett allvarligt samhällsproblem och hänger ofta tätt samman med annan grov brottslighet. Årligen undandras samhället stora summor som hade kunnat gå till en bättre och tryggare välfärd.**

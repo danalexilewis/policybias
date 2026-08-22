@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5c7bddfc7d5dd090
+contentLength: 4135
 ---
 
 **I ett jämlikt samhälle är allas rättigheter lika viktiga och därför måste barns rättigheter stärkas.**

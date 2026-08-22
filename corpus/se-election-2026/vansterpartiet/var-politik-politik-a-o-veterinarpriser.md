@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-69dacb9a7cf56065
+contentLength: 1778
 ---
 
 **Den årliga djurskyddsrapporten från Jordbruksverket för 2024 redovisar inspel från länsstyrelserna om hur höga kostnader för veterinärvård samt djurhållares försämrade ekonomi bidragit till att andelen brister gällande veterinärvård varit hög under flera år. Enligt länsstyrelserna har vissa djurhållare också undvikit att ta en svårt sjuk eller skadad hund eller katt till veterinär av rädsla för att behöva avliva djuret. Det har även blivit vanligare att djurhållare vill att djuret ska få självdö hemma, och av den anledningen inte sökt vård hos veterinär.**

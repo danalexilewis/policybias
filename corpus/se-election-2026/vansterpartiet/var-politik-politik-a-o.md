@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-cf86e268d916b2c2
+contentLength: 519
 ---
 
 Vänsterpartiet är ett parti som arbetar för rättvisa och jämlikhet. Vi är en sammanslutning av tusentals människor som arbetar tillsammans för det målet över hela Sverige på många olika sätt: på torget, i bostadsområdena, i kommunen och riksdagen.

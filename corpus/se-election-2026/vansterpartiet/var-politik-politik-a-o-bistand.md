@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b8a212f1997f8cfe
+contentLength: 5168
 ---
 
 **Vänsterpartiet vill se en rättvis och jämlik värld där alla människor har samma möjligheter att leva de liv de vill. Utvecklings- och biståndspolitiken är viktiga medel för att nå dit. Vi vill att Sverige ska ta tillbaka enprocentsmålet i biståndet.**

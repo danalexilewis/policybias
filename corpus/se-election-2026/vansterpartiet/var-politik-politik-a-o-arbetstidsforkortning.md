@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-cf2b61a9f043d78c
+contentLength: 2593
 ---
 
 **Vänsterpartiet vill ha ett mänskligt och rättvist samhälle där människor har reella möjligheter att utvecklas och leva berikande liv.**

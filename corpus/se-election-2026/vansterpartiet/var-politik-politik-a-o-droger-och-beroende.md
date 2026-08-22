@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-d69cc6f4e9ea949c
+contentLength: 2326
 ---
 
 **Alla har rätt till en bra hälsa och vård. Idag har ungefär 100 000 personer ett missbruk av narkotika eller läkemedel. Många våldsbrott begås under påverkan av droger. Tillgången till droger måste begränsas kraftfullt och det preventiva arbetet stärkas.**

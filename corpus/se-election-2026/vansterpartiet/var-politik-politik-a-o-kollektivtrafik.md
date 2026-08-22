@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-e89a2e3c1b6d328c
+contentLength: 2639
 ---
 
 **För klimatets skull behöver det bli enklare, bättre och billigare att åka kollektivt. Vänsterpartiet vill satsa mer på kollektivtrafiken så att den är billig eller gratis och fungerar bra i hela landet.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-456ba718f91251a3
+contentLength: 3096
 ---
 
 **Kultur ska vara till för alla, inte bara för några få. Den ska vara lätt att uppleva och att utöva oavsett var i landet man bor eller vem man är.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5557dfb7672615d4
+contentLength: 2770
 ---
 
 Rasismen utgör ett hot mot demokratin och oss alla. Den utgör en begränsning i det offentliga rummet för alla som är föremål för rasisternas hat och våld, men i förlängningen även av rätten att existera. Kampen mot rasism och fascism måste föras på flera nivåer: mot strukturell rasism och diskriminering, mot uttalat rasistiska grupper och partier, mot rasistiska tendenser i etablerade partiers politik, mot ökande klasskillnader och för en generell välfärdspolitik som omfattar alla – invandrade som infödda. Vi behöver ha en politik som skapar framtidstro och bekämpar de orättvisor och försämrade villkor som får människor att leta efter syndabockar.

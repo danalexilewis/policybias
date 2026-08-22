@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-01db4942d1c040f6
+contentLength: 854
 ---
 
 **Vänsterpartiet vill avskaffa monarkin. Till dess att det sker kräver vi att anslaget till kungahuset minskar, att utgifterna redovisas samt att kungens åtalsimmunitet avskaffas.**

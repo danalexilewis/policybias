@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-435e8c6d6e5cd001
+contentLength: 2483
 ---
 
 **Strandskyddet behövs för att vi alla ska ha tillgång till sjöar och vattendrag.**

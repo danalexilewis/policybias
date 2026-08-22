@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ea7b60353abf6ee8
+contentLength: 4014
 ---
 
 **Alla ungdomar i Sverige ska ha goda levnadsvillkor, makt att forma sina liv och inflytande över samhällsutvecklingen. Genom en aktiv politik med både breda välfärdssatsningar och riktade insatser för unga kan vi ge alla en bra start i livet och möta de utmaningar som ungdomar ställs inför. I dag handlar dessa utmaningar t.ex. om hög ungdomsarbetslöshet, bostadsbrist, osäkra arbetsvillkor, psykisk ohälsa samt bristande politiskt inflytande. Den nationella ungdomspolitiken omfattar unga i åldern 13–24. Många av våra förslag kring utbildning, bostad och arbete kan man hitta under andra rubriker här på hemsidan.**

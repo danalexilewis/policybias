@@ -11,13 +11,13 @@ sources:
     url: https://www.sd.se/a-till-o/aldrevard/
 tags:
   - elderly-care
+derivesFrom: sverigedemokraterna-a-till-o-aldrevard
 party: sverigedemokraterna
 clusters:
   - elderly-welfare
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-aldrevard.md
-sourceDigest: sha256-390d2659e28dc07d
-derivesFrom: sverigedemokraterna-a-till-o-aldrevard
+sourceDigest: sha256-88ef1be8fd01a72b
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise
 ---
@@ -29,7 +29,7 @@ assumptions:
 System: Äldrevård
 
 Scenario: A reader takes the page at its word
-Given the stated spec sverigedemokraterna-a-till-o-aldrevard
+Given the matching stated spec
 When the policy is read as a system
 Then the intervention is what the page names
 Output no figure is added that the page does not print

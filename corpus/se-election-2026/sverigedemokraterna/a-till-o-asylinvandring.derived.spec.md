@@ -11,13 +11,13 @@ sources:
     url: https://www.sd.se/a-till-o/asylinvandring/
 tags:
   - immigration
+derivesFrom: sverigedemokraterna-a-till-o-asylinvandring
 party: sverigedemokraterna
 clusters:
   - migration-integration
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-asylinvandring.md
-sourceDigest: sha256-390d2659e28dc07d
-derivesFrom: sverigedemokraterna-a-till-o-asylinvandring
+sourceDigest: sha256-94a00538c916c687
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise
 ---
@@ -29,7 +29,7 @@ assumptions:
 System: Asylinvandring
 
 Scenario: A reader takes the page at its word
-Given the stated spec sverigedemokraterna-a-till-o-asylinvandring
+Given the matching stated spec
 When the policy is read as a system
 Then the intervention is what the page names
 Output no figure is added that the page does not print

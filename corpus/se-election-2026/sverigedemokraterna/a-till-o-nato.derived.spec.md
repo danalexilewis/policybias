@@ -11,13 +11,13 @@ sources:
     url: https://www.sd.se/a-till-o/nato/
 tags:
   - defence
+derivesFrom: sverigedemokraterna-a-till-o-nato
 party: sverigedemokraterna
 clusters:
   - defence-security
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-nato.md
-sourceDigest: sha256-390d2659e28dc07d
-derivesFrom: sverigedemokraterna-a-till-o-nato
+sourceDigest: sha256-b75dba64f54fd198
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise
 ---
@@ -29,7 +29,7 @@ assumptions:
 System: Nato
 
 Scenario: A reader takes the page at its word
-Given the stated spec sverigedemokraterna-a-till-o-nato
+Given the matching stated spec
 When the policy is read as a system
 Then the intervention is what the page names
 Output no figure is added that the page does not print

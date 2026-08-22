@@ -4,10 +4,7 @@ id: sverigedemokraterna-a-till-o-aldrevard
 title: Äldrevård
 status: draft
 updated: 2026-08-22
-summary: Tyvärr har vi nåtts av många rapporter om vanvård av äldre. Sexuella övergrepp
-  tystas ned, misstänkta förövare tillåts arbeta kvar. Här har kommunerna mycket kvar
-  att göra, men Sverigedemokraterna och regeringen har inte varit passiv. Vi har
-  tillsammans med regeringen fortsatt sa
+summary: Sexuella övergrepp tystas ned, misstänkta förövare tillåts arbeta kvar.
 jurisdiction: SE
 sources:
   - title: Äldrevård
@@ -19,20 +16,21 @@ clusters:
   - elderly-welfare
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-aldrevard.md
-sourceDigest: sha256-390d2659e28dc07d
+sourceDigest: sha256-88ef1be8fd01a72b
 gaps:
   - cost is not stated on the page
+  - timetable is not stated on the page
 ---
 
 # What the page states
 
-> Tyvärr har vi nåtts av många rapporter om vanvård av äldre. Sexuella övergrepp tystas ned, misstänkta förövare tillåts arbeta kvar. Här har kommunerna mycket kvar att göra, men Sverigedemokraterna och regeringen har inte varit passiv. Vi har tillsammans med regeringen fortsatt sa
+> Tyvärr har vi nåtts av många rapporter om vanvård av äldre.
 
 System: Äldrevård
 
 Scenario: Party states this policy
-Given the 2026 Swedish general election is contested
+Given a Swedish general election is contested
 When the party publishes this policy
-Then the page names the intervention
-Output Tyvärr har vi nåtts av många rapporter om vanvård av äldre. Sexuella övergrepp tystas ned, misstänkta förövare tillåts arbeta kvar. Här har kommunerna mycket kvar att göra, men Sve
+Then Tyvärr har vi nåtts av många rapporter om vanvård av äldre.
+Output Sexuella övergrepp tystas ned, misstänkta förövare tillåts arbeta kvar.
 Outcome the claim is the party's stated position

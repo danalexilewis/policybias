@@ -11,13 +11,13 @@ sources:
     url: https://moderaterna.se/var-politik/ekonomisk-politik-och-foretagande
 tags:
   - economy
+derivesFrom: moderaterna-var-politik-ekonomisk-politik-och-foretagande
 party: moderaterna
 clusters:
   - economy-tax
 money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-ekonomisk-politik-och-foretagande.md
 sourceDigest: sha256-e165259e1005eaf1
-derivesFrom: moderaterna-var-politik-ekonomisk-politik-och-foretagande
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise
 ---
@@ -29,7 +29,7 @@ assumptions:
 System: Ekonomisk politik och företagande
 
 Scenario: A reader takes the page at its word
-Given the stated spec moderaterna-var-politik-ekonomisk-politik-och-foretagande
+Given the matching stated spec
 When the policy is read as a system
 Then the intervention is what the page names
 Output no figure is added that the page does not print

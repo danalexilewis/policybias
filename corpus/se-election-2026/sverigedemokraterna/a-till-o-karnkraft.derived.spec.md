@@ -11,13 +11,13 @@ sources:
     url: https://www.sd.se/a-till-o/karnkraft/
 tags:
   - energy
+derivesFrom: sverigedemokraterna-a-till-o-karnkraft
 party: sverigedemokraterna
 clusters:
   - energy-power
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-karnkraft.md
-sourceDigest: sha256-390d2659e28dc07d
-derivesFrom: sverigedemokraterna-a-till-o-karnkraft
+sourceDigest: sha256-130bdb28f2c90232
 assumptions:
   - the page is the 2026 campaign position unless it says otherwise
 ---
@@ -29,7 +29,7 @@ assumptions:
 System: Kärnkraft
 
 Scenario: A reader takes the page at its word
-Given the stated spec sverigedemokraterna-a-till-o-karnkraft
+Given the matching stated spec
 When the policy is read as a system
 Then the intervention is what the page names
 Output no figure is added that the page does not print

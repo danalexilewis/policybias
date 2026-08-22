@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-921819bb99c8eeed
+contentLength: 1471
 ---
 
 Vindkraften, både på land och till havs, har stor potential att snabbt bidra med mer el i Sverige. Vill du ha mer fossilfri el till låg kostnad i närtid? Regeringens förändrade villkor för anslutning av vindkraft till havs har försenat utbyggnaden. Socialdemokraterna vill också införa en Snabbhetsbonus för att vända trenden för vindkraft på land och få mer el på plats snabbt.

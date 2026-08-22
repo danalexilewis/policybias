@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-c7e8632c9cba279b
+contentLength: 1815
 ---
 
 Märker du hur dina pengar räcker till allt mindre samtidigt som de rikaste får stora skattesänkningar? Socialdemokraterna säger nej till en orättvis skattepolitik där de som redan har mest får mer. Det är dags att ta gemensamt ansvar och se till att varje skattekrona går dit den behövs: till vår gemensamma trygghet och välfärd.

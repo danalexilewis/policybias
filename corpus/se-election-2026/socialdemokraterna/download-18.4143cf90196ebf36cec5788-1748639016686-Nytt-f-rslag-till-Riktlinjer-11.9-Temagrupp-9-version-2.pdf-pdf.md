@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d4f9035082eca9cc
+contentLength: 28521
 ---
 
 # Nytt-f-rslag-till-Riktlinjer-11.9-Temagrupp-9-version-2-56f28931.pdf

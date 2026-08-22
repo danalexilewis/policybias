@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e3fc289ded1ea282
+contentLength: 34
 ---
 
 Uppdaterades senast: 01 juni 2022

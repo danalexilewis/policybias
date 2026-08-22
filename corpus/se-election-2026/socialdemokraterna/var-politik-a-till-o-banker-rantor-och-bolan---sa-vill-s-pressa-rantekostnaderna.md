@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-d7eba6d5d5dbcdd9
+contentLength: 3015
 ---
 
 **Höga bolåneräntor slår hårt mot svenska familjer samtidigt som storbankerna gör rekordvinster. Socialdemokraterna går till val på ett prispressarpaket. Vi vill öka konkurrensen på bankmarknaden, förbjuda missvisande ränteupplägg och ge vanliga hushåll mer makt att förhandla ner sina bolån.**

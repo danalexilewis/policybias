@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c14d418ac433075c
+contentLength: 3048
 ---
 
 Mäns våld mot kvinnor måste tas på större allvar. Förövaren ska straffas och stödet till såväl kvinnor som barn förstärkas. Varje dag utsätts flickor och kvinnor för trakasserier, våld och sexualbrott. Våldet orsakar stort lidande, det kränker och begränsar kvinnors frihet och ger livslånga konsekvenser. Ofta utsätts kvinnan av någon som hon känner eller lever i en relation med. Våldet drabbar då också barn som kan tvingas bevittna våld och övergrepp. Ingen ska behöva leva i rädsla eller känna sig otrygg i sitt eget hem.

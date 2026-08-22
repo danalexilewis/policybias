@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9ca7c6a2f3206694
+contentLength: 2143
 ---
 
 Din chans att studera vidare på högskola eller universitet ska inte bero på var du bor eller vad dina föräldrar tjänar. Högre utbildning bidrar till utveckling, kunskap och tillväxt och ska vara tillgänglig för alla. Därför behöver utbildningar och forskning av hög kvalitet finnas i hela landet. För Socialdemokraterna är högskolepolitiken både en regional och nationell tillväxtmotor och helt avgörande för att säkra jobben och välfärden där människor bor.

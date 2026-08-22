@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2489a87dec164896
+contentLength: 1447
 ---
 
 Rätten till VAB (tillfällig föräldrapenning) ska garantera att du kan stanna hemma med ditt barn utan att drabbas av ekonomisk utsatthet. Systemet ska vara rättvist, lättöverskådligt och säkerställa att välfärdens pengar inte går till fusk.

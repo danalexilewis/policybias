@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-cae3ee9650ca372b
+contentLength: 6362
 ---
 
 # Omra-de-C-10.5-fler-utbildningsm-jligheter-genom-livet-ver-2-4f699e57.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-69d46776384e0243
+contentLength: 67942
 ---
 
 # Dagsprotokoll-6-november---lo-rdag-Justerat-feb-cffbc70d.pdf

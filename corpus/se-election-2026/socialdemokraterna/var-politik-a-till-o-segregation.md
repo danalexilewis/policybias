@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7ce388226cf0592e
+contentLength: 1184
 ---
 
 **Sverige ska inte ha några utsatta områden. För att nå dit måste vi ta tillbaka kontrollen och vända utvecklingen.** **Segregationen i vårt land drabbar alla när otryggheten ökar och kriminaliteten växer.**

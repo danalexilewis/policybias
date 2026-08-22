@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4450330e3d0a428f
+contentLength: 1252
 ---
 
 28 maj – 1 juni 2025 i Göteborg

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b828439571cf695f
+contentLength: 2103
 ---
 
 **När säkerhetsläget i Europa är allvarligt måste din trygghet garanteras av ett starkt militärt försvar. Socialdemokraterna sätter den nationella försvarsförmågan främst och vill se en snabb militär upprustning. Du ska veta att Sverige lever upp till sina NATO-åtaganden och har förmåga att försvara vårt territorium.**

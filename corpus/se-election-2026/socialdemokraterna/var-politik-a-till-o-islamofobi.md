@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-caa745bd2bfd4213
+contentLength: 1431
 ---
 
 **Islamofobi och diskriminering hotar vår samhällsgemenskap och skapar farliga klyftor. Socialdemokraterna vägrar att acceptera att du begränsas på grund av din tro eller bakgrund. Vi kräver kraftfulla åtgärder för att skydda alla medborgares rättigheter.**

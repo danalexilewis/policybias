@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8f9c123929533785
+contentLength: 130
 ---
 
 [Årsredovisningar och verksamhetsberättelser 2021-2024](https://www.socialdemokraterna.se/vart-parti/om-partiet/partiets-ekonomi)

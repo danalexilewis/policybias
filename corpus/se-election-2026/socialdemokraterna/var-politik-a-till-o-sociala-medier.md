@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2629507cca599f9a
+contentLength: 2071
 ---
 
 **Användandet av sociala medier och digitala plattformar har exploderat de senaste decennierna. Det har förändrat hur vi kommunicerar, möts och lever våra dagliga liv. Även om utvecklingen skapat nya möjligheter så har de negativa konsekvenserna av den oreglerade användningen av sociala medier, inte minst bland barn och unga, blivit alltmer uppenbara med psykisk ohälsa, ökad risk för övergrepp och mindre rörelse. Unga läser och lär sig mindre. Det behövs en ny riktning där barnens hälsa prioriteras före techjättarnas vinster.**

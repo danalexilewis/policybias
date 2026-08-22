@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2d8c29d7b7b02eaa
+contentLength: 12731
 ---
 
 # Riktlinjer-10.16-Vi-bygger-en-gemensam-s-kerhet-tillsammans-En-s-ker-och-demokratisk-v-rld-version-2-63719c8a.pdf

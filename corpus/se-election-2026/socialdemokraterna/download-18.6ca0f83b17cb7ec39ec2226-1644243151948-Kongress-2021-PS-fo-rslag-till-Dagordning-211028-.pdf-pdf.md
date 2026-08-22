@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4b96724f272fad2d
+contentLength: 8473
 ---
 
 # Kongress-2021---PS-fo-rslag-till-Dagordning-211028-d470281c.pdf

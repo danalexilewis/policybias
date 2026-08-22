@@ -11,9 +11,11 @@ tags:
   - economy
   - education
   - employment
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-dc58681ae0aaf07d
+contentLength: 80055
 ---
 
 # framtidskontraktet-a0d9614d.pdf
@@ -1130,57 +1132,6 @@ fattigdomen och orättvisorna i världen samt bidra till en hållbar och demokra
 Politiken ska ta sin utgångspunkt i människors egna drivkrafter att skapa utveckling. Biståndet
 kan, rätt använt, vara en katalysator för utveckling, jämlikhet och framtidstro, men också ett sätt
 att bekämpa korrumperade odemokratiska styrelseskick. Styrningen av biståndet ska vara tydlig
-och rätt saker ska mätas och utvärderas. Jakten på kortsiktiga resultat får inte överskugga
-hållbarhet och långsiktighet.
+och rätt saker ska mätas och utvärderas. Jakten p
 
-De mänskliga rättigheterna är universella, odelbara, icke kulturrelaterade och individuella.
-Politiska, ekonomiska, sociala och kulturella fri- och rättigheter förutsätter och förstärker
-varandra.
-
-Vår socialdemokratiska migrationspolitik utgår från en stark solidaritet människor emellan.
-Sverige ska ha en generös och reglerad invandring. Rätten till asyl är en mänsklig rättighet. Alla
-Sveriges kommuner ska ta ett solidariskt ansvar för flyktingmottagandet.
-
-Sverige ska vara ett föregångsland i det internationella arbetet för kvinnors rättigheter. Inte minst
-handlar det om sexuell och reproduktiv hälsa och rättigheter, ett område där Sverige både kan
-och bör ta initiativ. När kvinnor förvägras sina rättigheter och att ta del i samhällslivet på samma
-villkor som män så förtrycks inte bara kvinnorna utan hela samhällsutvecklingen hålls tillbaka.
-Sverige ska arbeta mot diskriminering och för kvinnors rätt till utbildning, ekonomisk
-självständighet, juridiska rättigheter och möjligheter att arbeta politiskt.
-
-                                                   28
-Socialdemokratins viktigaste prioriteringar inför den kommande mandatperioden är
-därför:
-
-   •   Hävda Sveriges militära alliansfrihet och vår förmåga till internationellt samarbete. Moderniseringen
-       av Försvarsmakten ska fortsätta för att stärka försvarets nationella förmåga, leva upp till
-       våra internationella åtaganden samt bredda försvarets folkliga förankring.
-   •   Utveckla EU inom de områden där unionen bäst kan skapa gemensamma lösningar på gemensamma
-       problem. EU:s utvidgning bör gå vidare. Stärk EU som global aktör för utveckling, fri och
-       rättvis handel och försvarare av demokratin. Unionens arbetsformer ska bli öppnare och
-       effektivare. Ett socialt protokoll bör läggas till EU-fördraget.
-   •   EU ska leva upp till sina åtaganden gentemot länderna i sitt grannskap. Avtalen med länderna i
-       regionen bör avspegla de värderingar EU står för. EU bör bidra till ekonomisk, politisk
-       och social utveckling exempelvis genom att reformera jordbrukspolitiken och underlätta
-       handel och kontakter mellan människor.
-   •   Arbeta för en säkrare värld. Sverige ska arbeta för ett stärkt FN och aktivt delta i civil och
-       militär krishantering. Sverige ska delta i fler FN-ledda insatser. Sverige ska arbeta aktivt
-       med nedrustningsfrågorna, inte minst gällande kärnvapen men också frågor som rör
-       smuggling av lätta vapen.
-   •   Stärk respekten för de mänskliga rättigheterna. Inte minst behövs ett större fokus på löntagares
-       rättigheter i en globaliserad värld. Sverige ska driva på för en ny global överenskommelse
-       mellan arbete, kapital och samhälle. Sverige ska vara ett föregångsland i arbetet för
-       kvinnors rättigheter globalt.
-   •   Minska fattigdomen och orättvisorna i världen och bidra till en hållbar och demokratisk utveckling. Alla
-       politikområden ska sträva åt samma håll för att skapa global hållbar utveckling.
-       Utvecklingssamarbetet ska vara ambitiöst, hålla hög kvalitet och ge resultat. Svenskt
-       bistånd ska uppgå till en procent av BNI. Sverige ska arbeta för att fler EU-länder åtar sig
-       att uppfylla FN:s målsättning om 0,7 procent av BNI i bistånd.
-   •   Öppenhet mot omvärlden. Sverige ska ställa sig i spetsen och driva på en progressiv global
-       handelspolitik. En fri, rättvis och hållbar handel ska främjas. Det bidrar till ekonomisk
-       tillväxt och minskad fattigdom. Skatteparadis ska bekämpas.
-   •   Bidra till att en hållbar fred och tvåstatslösning kan uppnås mellan Israel och Palestina. Israel måste
-       underordna sig internationell rätt. Sverige ska erkänna staten Palestina och följa upp detta
-       med etablerandet av en ambassad.
-
-                                                     29
+[truncated: original dump exceeded 80000 characters]

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-25bac8ebf4b3b012
+contentLength: 1232
 ---
 
 Bankerna har gjort rekordvinster de senaste åren – och du betalar priset. Socialdemokraterna vill se en ny, rättvis politik som skärper bankernas ansvar och sätter din plånbok först genom att pressa kostnaderna.

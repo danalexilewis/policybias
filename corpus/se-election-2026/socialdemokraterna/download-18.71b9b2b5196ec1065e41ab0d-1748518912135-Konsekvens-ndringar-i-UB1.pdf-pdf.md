@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8908db2e758bddb8
+contentLength: 3472
 ---
 
 # Konsekvens-ndringar-i-UB1-b4359727.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-4acb27a7b443b3db
+contentLength: 1845
 ---
 
 Sjukvården ska finnas där för dig när du behöver den, oavsett var du bor eller hur mycket du tjänar. Idag skapar oacceptabelt långa vårdköer och svårigheten att få träffa sin egen läkare en stor otrygghet för både patienter och personal. Socialdemokrater vill städa upp i sjukvården och ta tillbaka den demokratiska kontrollen så att dina medicinska behov alltid går före privata vinstintressen.

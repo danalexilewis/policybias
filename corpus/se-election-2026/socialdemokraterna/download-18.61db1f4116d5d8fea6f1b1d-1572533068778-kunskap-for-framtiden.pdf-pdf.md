@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-16cbc7e5122e8bfe
+contentLength: 57929
 ---
 
 # kunskap-for-framtiden-6bb2f10e.pdf

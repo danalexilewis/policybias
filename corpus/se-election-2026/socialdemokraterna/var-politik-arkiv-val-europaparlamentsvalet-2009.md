@@ -9,9 +9,11 @@ contentType: html
 via: party-site
 tags:
   - employment
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-47e076941f094114
+contentLength: 7954
 ---
 
 ## Valmanifest - jobben först

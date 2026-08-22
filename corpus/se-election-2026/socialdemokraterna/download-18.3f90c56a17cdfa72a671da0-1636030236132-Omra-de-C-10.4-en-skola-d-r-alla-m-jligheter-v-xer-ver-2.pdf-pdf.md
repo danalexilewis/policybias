@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b950431adf3436a2
+contentLength: 10464
 ---
 
 # Omra-de-C-10.4-en-skola-d-r-alla-m-jligheter-v-xer-ver-2-69eb26dc.pdf

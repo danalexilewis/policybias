@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-dc0ea82e0befb658
+contentLength: 5517
 ---
 
 # Riktlinjer-10.17-Vi-bygger-en-gemensam-s-kerhet-tillsammans-Ett-starkt-och-folkligt-f-rsvar-version-2-869cd02b.pdf

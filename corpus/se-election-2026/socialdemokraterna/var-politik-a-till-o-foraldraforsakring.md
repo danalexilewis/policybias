@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-20472822196795dc
+contentLength: 1735
 ---
 
 **Din föräldraförsäkring ska bidra till ekonomisk trygghet samtidigt som den främjar ett jämställt föräldraskap. Sverige har en av världens mest generösa försäkringar, men ojämlikheten i uttaget slår hårt mot kvinnors livslöner och pensioner. Socialdemokraterna vill se reformer som garanterar att alla barn får en nära relation till båda sina föräldrar och att systemet skyddas från fusk.**

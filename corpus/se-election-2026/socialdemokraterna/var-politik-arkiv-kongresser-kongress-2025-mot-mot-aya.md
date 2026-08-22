@@ -13,6 +13,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ccde26eafe66cc8b
+contentLength: 1974
 ---
 
 **Hej! Jag heter Aya.**

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f8093459d0884f21
+contentLength: 2262
 ---
 
 I Sverige ökar arbetslösheten samtidigt som företag och välfärd skriker efter utbildad personal. Socialdemokraterna ser vuxenutbildningen som avgörande för att säkra Sveriges kompetensförsörjning, bryta segregationen och ge dig möjlighet att lära om och lära nytt genom hela livet.

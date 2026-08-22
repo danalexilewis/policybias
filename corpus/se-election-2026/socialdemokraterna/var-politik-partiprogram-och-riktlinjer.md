@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-1767ee2fc95d6413
+contentLength: 1133
 ---
 
 ### Politiska prioriteringar och riktlinjer äldre

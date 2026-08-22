@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f6826759966d6d78
+contentLength: 1531
 ---
 
 **Den nuvarande ordningen för arbetskraftsinvandring skapar en okontrollerad situation. Socialdemokraterna vägrar acceptera ett system som göder arbetslivskriminalitet och tränger ut arbetslösa i Sverige. Det är dags att återinföra kontrollen och skydda den svenska modellen.**

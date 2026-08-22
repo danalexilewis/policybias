@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3fcaf69b6d124326
+contentLength: 884
 ---
 
 **Är din arbetsplats trygg? Varje år inträffar alldeles för många arbetsplatsolyckor och dödsfall på jobbet. Ingen ska behöva riskera sin hälsa eller sitt liv på jobbet.**

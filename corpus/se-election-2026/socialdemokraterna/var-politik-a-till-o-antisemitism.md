@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-09a0dd6255b337aa
+contentLength: 1272
 ---
 
 Antisemitism är ett gift som hotar vår demokrati och vår gemenskap. Judiskt liv i Sverige ska garanteras full trygghet. Nu krävs kraftfulla åtgärder för att trycka tillbaka hatet.

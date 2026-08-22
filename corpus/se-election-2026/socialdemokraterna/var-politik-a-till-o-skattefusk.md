@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-61e0b5a9ec8705cc
+contentLength: 1212
 ---
 
 Skattepengar som är avsedda för vår gemensamma välfärd ska gå dit. Socialdemokraterna vill stoppa de som fifflar och smiter från att betala skatt. Det ska vara svårt att fuska, lätt att åka fast och kännbart att straffas.

@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-97be88d8870f500c
+contentLength: 989
 ---
 
 **Den socialdemokratiska partikongressen ägde rum den 3-7 april 2013 på Svenska Mässan, Göteborg.**

@@ -9,9 +9,11 @@ contentType: pdf
 via: party-site
 tags:
   - culture
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-bbd2d05dea964086
+contentLength: 80055
 ---
 
 # stadgar-antagna-2017-337345c2.pdf
@@ -1645,59 +1647,6 @@ förutom de skyldigheter som tillkommer honom/henne som medlem
     •   skyldighet att fortlöpande kommunicera med partiorganisationerna om
         utvecklingen inom det område som förtroendeuppdraget omfattar
     •   skyldighet att erlägga de så kallade kansliavgifter som har beslutats av partiet
-    •   skyldighet att uppträda på ett sätt som är förenligt med socialdemokratins
-        värdegrund.
+    •   skyldighet att uppträda på ett sätt som är för
 
-Regler för behandling av landstings- och
-primärkommunala frågor
-Regler för behandling av landstingskommunala frågor
-1. Ledamöter av landstinget, vilka tillhör Sveriges socialdemokratiska arbetareparti,
-ska bilda en landstingsgrupp.
-2. Ledamöter och suppleanter i styrelse eller nämnd inom landstinget ska bilda en
-partigrupp.
-3. Stadgar för landstingsgruppen fastställs av partidistriktets ordinarie kongress. Före
-fastställandet ska landstingsgruppens och partidistriktets styrelser yttra sig över
-stadgeförslag.
-4. Partidistriktets kongress fastställer inför de allmänna valen partiets program för
-landstingspolitiken. Programmet utgör riktlinjer för partiets förtroendevalda. På
-partidistriktets kongress ska också behandlas sådana landstingsfrågor som har stor
-principiell eller ekonomisk betydelse. Partidistriktets styrelse bör fortlöpande
-behandla landstingspolitiken. Därutöver bör olika landstingsfrågor behandlas på
-partiorganisationens möten. Landstingsgruppen ska lämna rapport om sin
-verksamhet under föregående år till partidistriktets ordinarie kongress. Rapporten
-införs i distriktets årsberättelse.
-5. När sammanräkningen är klar efter allmänt val av landstingsledamöter ska
-partidistriktets styrelse kalla valda landstingsledamöter och distriktsstyrelsen till
-gruppmöte.
-6. Partistyrelsen fastställer normalstadgar för socialdemokratiska landstingsgrupper.
-
-Regler för behandling av primärkommunala frågor
-1. Ledamöter och suppleanter av fullmäktige, vilka tillhör Sveriges
-socialdemokratiska arbetareparti, ska bilda en fullmäktigegrupp.
-                                                                                         46 (47)
-
-2. Ledamöter och suppleanter i kommunal nämnd eller styrelse ska bilda en
-partigrupp.
-3. Stadgar för fullmäktigegruppen fastställs av arbetarekommunens årsmöte. Före
-fastställandet ska fullmäktigegruppens och arbetarekommunens styrelse yttra sig över
-stadgeförslag.
-4. Arbetarekommunen fastställer inför de allmänna valen partiets kommunalpolitiska
-handlingsprogram och lokala aktionsprogram. Programmen utgör riktlinjer för
-partiets förtroendevalda. Kommunala frågor som har stor principiell eller ekonomisk
-betydelse ska behandlas på arbetarekommuns möte.
-Kommunala frågor av stor betydelse för området ska behandlas av de
-socialdemokratiska föreningarna och klubbarna. Fullmäktigegruppen ska lämna
-rapport om sin verksamhet under föregående år till arbetarekommunens årsmöte.
-Rapporten införs i arbetarekommunens verksamhetsberättelse.
-5. När efter allmänt val sammanräkningen är klar av ledamöter till fullmäktige ska
-arbetarekommunens styrelse kalla valda fullmäktigeledamöter och suppleanter samt
-arbetarekommunens styrelse till gruppmöte.
-6. Minst en gång årligen ska arbetarekommunens styrelse, fullmäktigegruppens
-styrelse och gruppordförandena i kommunens styrelser och nämnder ha
-överläggningar om den kommunala verksamheten. Arbetarekommunens styrelse
-kallar till denna överläggning.
-7. Partigruppen i lokala organ ska årligen lämna rapport om sin verksamhet till de
-socialdemokratiska föreningarna och klubbarna inom sitt område.
-8. Partistyrelsen fastställer normalstadgar för socialdemokratiska fullmäktigegrupper.
-Socialdemokraterna 105 60 Stockholm: T: 08-700 26 00
-               socialdemokraterna.se
+[truncated: original dump exceeded 80000 characters]

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1d14a06f543361ae
+contentLength: 1797
 ---
 
 **Sveriges migrationspolitik ska vara stram. Socialdemokraterna värnar asylrätten, men vill se ordning och reda i mottagandet och krafttag för att bryta segregationen i hela landet.**

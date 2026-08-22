@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ac96977857ec938e
+contentLength: 1778
 ---
 
 **Idag är svensk skola unik i världen genom att tillåta obegränsad vinstjakt i den offentligt finansierade skolan. Marknadsskolan leder till enorma läckage av skattemedel, ökade klyftor och sämre kvalitet. Skolan har blivit Sveriges värsta marknadsmisslyckande. Socialdemokrater vill att samhället tar tillbaka kontrollen över skolan och att vinster förbjuds, så att skolans fokus blir fler lärare, kunskap och en bra utbildning för varje elev.**

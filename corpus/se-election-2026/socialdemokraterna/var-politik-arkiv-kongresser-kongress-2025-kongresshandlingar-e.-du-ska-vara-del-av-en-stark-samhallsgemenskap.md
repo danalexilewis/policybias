@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-89bf3043a717f6b3
+contentLength: 129
 ---
 
 **Huvudföredragande: Jonas Attenius, Lena Micko, Lawen Redar,  

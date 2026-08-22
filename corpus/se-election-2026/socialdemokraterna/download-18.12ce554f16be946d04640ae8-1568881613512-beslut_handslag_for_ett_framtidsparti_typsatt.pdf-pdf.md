@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9b6bfff25de10070
+contentLength: 8714
 ---
 
 # beslut_handslag_for_ett_framtidsparti_typsatt-b78dcf4d.pdf

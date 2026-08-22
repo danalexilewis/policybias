@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-8ee6140e1ad573a4
+contentLength: 7136
 ---
 
 # Riktlinjer-10.13-Vi-bygger-landet-starkt-och-h-llbart-En-h-llbar-infrastruktur-som-bygger-samman-Sverige-ny-version-2-0f9895e2.pdf

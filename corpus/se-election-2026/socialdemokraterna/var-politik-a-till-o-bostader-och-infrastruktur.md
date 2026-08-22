@@ -12,6 +12,8 @@ tags:
 money: no-figure
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-74dcf05179b6f180
+contentLength: 1726
 ---
 
 Du ska kunna bo bra och ta dig till jobbet, skolan och vardagen på ett enkelt och tryggt sätt. Men bostadsbrist, höga priser och brister i vägar, järnväg och kollektivtrafik gör livet svårare för många. Sverige behöver fler bostäder och en fungerande infrastruktur i hela landet. Därför krävs investeringar som gör det lättare att leva, arbeta och resa – oavsett var du bor.

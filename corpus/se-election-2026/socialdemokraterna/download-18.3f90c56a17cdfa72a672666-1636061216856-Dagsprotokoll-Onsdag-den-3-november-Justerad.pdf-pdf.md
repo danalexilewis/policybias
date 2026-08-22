@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-bff68c72d16f4726
+contentLength: 64625
 ---
 
 # Dagsprotokoll-Onsdag-den-3-november-Justerad-a0f3102b.pdf

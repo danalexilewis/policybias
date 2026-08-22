@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-27263306c398c9e6
+contentLength: 78742
 ---
 
 # stadgar_antagna_2015-610467c0.pdf

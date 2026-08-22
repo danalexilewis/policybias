@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-76e3f6c6347c0661
+contentLength: 2050
 ---
 
 Trots att HVB-hem ska erbjuda vård och trygghet har det blivit ett marknadsmisslyckande där gängkriminella driver HVB-hem, rekryterar unga in i gängvåld och dina skattepengar försvinner. Du ska kunna lita på att samhällets resurser går till barnen och deras välfärd, inte till oseriösa aktörer, gängkriminella och riskkapitalister. Samhället måste agera kraftfullt för att ta tillbaka kontrollen över HVB-hemmen.

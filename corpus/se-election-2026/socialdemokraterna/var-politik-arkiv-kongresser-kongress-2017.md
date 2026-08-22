@@ -14,6 +14,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2628888ff0d1c7af
+contentLength: 4054
 ---
 
 **Den 8-12 april 2017 hade Socialdemokraterna partikongress på Svenska mässan i Göteborg. Kongressen är partiets högsta beslutande organ och på partikongress året före val behandlas samtliga politikområden.**

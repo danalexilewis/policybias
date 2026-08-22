@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1dc78b22a34b253a
+contentLength: 1457
 ---
 
 **Religiös påverkan hör inte hemma i skolan. Fokus ska ligga på kunskap och bildning. För Socialdemokraterna är det självklart att skolan ska vara en mötesplats som bygger sammanhållning, inte spär på segregation. Idag leder marknadsskolan och religiös påverkan till att huvudmän ägnar sig åt vinstjakt, extremism och indoktrinering snarare än kunskap och bildning. Därför vill vi förbjuda religiösa friskolor samtidigt som vi värnar och tar hänsyn till nationella minoriteters rättigheter.**

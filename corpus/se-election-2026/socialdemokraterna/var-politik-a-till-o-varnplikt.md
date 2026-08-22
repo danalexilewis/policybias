@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-edaab409bff1877e
+contentLength: 1454
 ---
 
 När säkerhetsläget är allvarligt är ett starkt militärt försvar din bästa garant för trygghet. Värnplikten är grunden för Försvarsmaktens personalförsörjning och den viktigaste resursen för att bygga ett robust militärt försvar. Framtidens försvar bygger på välutbildade soldater och en stark folklig förankring – därför driver Socialdemokraterna på för att återställa värnpliktens ställning.

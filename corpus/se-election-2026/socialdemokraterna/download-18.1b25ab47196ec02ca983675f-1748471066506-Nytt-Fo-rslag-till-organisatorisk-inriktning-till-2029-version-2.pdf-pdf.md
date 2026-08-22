@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-d6dbab77f5feabc6
+contentLength: 31923
 ---
 
 # Nytt-Fo-rslag-till-organisatorisk-inriktning-till-2029-version-2-4b500d5c.pdf

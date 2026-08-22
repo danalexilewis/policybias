@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-58a592d40e19a69e
+contentLength: 2259
 ---
 
 **Kulturen är en del av demokratins hjärta och en grundläggande rättighet som ska komma alla till del. Det påverkar dina möjligheter att utvecklas, förstå samhället och känna delaktighet. När tillgången till kultur blir ojämlik riskerar fler att hamna utanför, medan ett rikt och tillgängligt kulturliv ger både barn och vuxna bättre livschanser. Samtidigt är fri kultur och stark folkbildning avgörande för att du ska kunna ta del av olika perspektiv, stå emot desinformation och leva i ett öppet och demokratiskt samhälle.**

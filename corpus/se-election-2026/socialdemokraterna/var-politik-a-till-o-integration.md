@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-84f43e5a7b72f088
+contentLength: 2016
 ---
 
 En fungerande integration är avgörande för att du och alla andra i Sverige ska kunna leva i ett tryggt och sammanhållet samhälle. När människor snabbt lär sig svenska, kommer i arbete och blir en del av gemenskapen minskar utanförskapet och risken för segregation och kriminalitet. Det påverkar inte bara den som är ny i landet, utan hela samhället – från tryggheten i ditt bostadsområde till möjligheten att finansiera välfärden. Därför är integration inte en fråga för några få, utan något som är viktigt för alla som bor i Sverige.

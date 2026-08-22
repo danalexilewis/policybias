@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2b291b434d8df1d9
+contentLength: 1849
 ---
 
 Ett välfungerande vägnät är avgörande för jobb, näringsliv och din trygghet, särskilt i glesbygden. Socialdemokraterna vill leda Sverige i en ny riktning – där vi tar gemensamt ansvar för välskötta vägar och en trafiksäker vardag i hela landet.

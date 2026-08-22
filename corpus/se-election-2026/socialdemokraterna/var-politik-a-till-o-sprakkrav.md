@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-efd648cab05f2c80
+contentLength: 1496
 ---
 
 Vill du att Sverige ska hålla ihop och att alla som bor här ska ha goda chanser till ett jobb? Språkkrav är avgörande för att bryta segregation och skapa en stark samhällsgemenskap. Socialdemokraterna anser att du ska ha alla förutsättningar att förstå, delta i och bidra till det svenska samhället. Därför driver Socialdemokraterna på för tydliga krav på kunskaper i svenska.

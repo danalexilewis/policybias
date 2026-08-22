@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-efeb60d44010660e
+contentLength: 1786
 ---
 
 **Extremväder som skyfall, värmeböljor och översvämningar är redan en påtaglig del av vår vardag, och klimatriskerna ökar. Klimatberedskap handlar om att skydda det du värdesätter: ditt hem, din hälsa och samhällets infrastruktur. Socialdemokraterna vill rusta Sverige mot klimatförändringarnas konsekvenser och säkerställa trygghet i hela landet, oavsett var du bor.**

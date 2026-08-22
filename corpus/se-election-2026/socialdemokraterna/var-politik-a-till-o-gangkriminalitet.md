@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c05e5dc483a6e2f6
+contentLength: 2512
 ---
 
 **Sverige befinner sig i en nationell kris med en brutal gängkriminalitet. Våldet kryper ner i åldrarna och äter sig in i hela samhället vilket gör att du idag kan möta gängkriminalitet på vårdcentralen liksom i ditt hemmakvarter. Allt fokus behöver nu vara på att vända utvecklingen och stoppa gängens nyrekryteringar. Det innebär också att tidigare oprövade förslag och reformer kommer att behöva genomföras.**

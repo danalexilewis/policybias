@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3c9319e4d63e7e24
+contentLength: 2275
 ---
 
 **Sverige har halkat efter i tillväxten och konkurserna har skenat sedan 2022. Framgångsrikt entreprenörskap är grunden för vår välfärd och din ekonomi. Socialdemokraterna vill se en offensiv politik som ger ditt företag långsiktiga förutsättningar att växa.**

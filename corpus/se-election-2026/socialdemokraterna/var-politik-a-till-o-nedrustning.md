@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-36075309c80eddf6
+contentLength: 1567
 ---
 
 **När utvecklingen för global nedrustning går åt fel håll och länder rustar upp och moderniserar sina kärnvapenarsenaler måste arbetet med nedrustning ändå fortsätta. Nedrustning och icke-spridning av massförstörelsevapen är en central utrikes- och säkerhetspolitisk prioritering. Målet är en kärnvapenfri värld.**

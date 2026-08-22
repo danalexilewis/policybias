@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-82dd8b2871a83b4c
+contentLength: 2573
 ---
 
 **Klimatförändringarna utgör ett av de största hoten mot vårt samhälle, men du ska inte behöva bära kostnaden ensam. För att klara klimatet och minska utsläppen måste Sverige återta sin ledande roll och påskynda omställningen till ett fossilfritt välfärdsland. Socialdemokraterna driver en kraftfull politik där ambitionen är att skapa nya gröna jobb och samtidigt se till att miljön och din vardag tryggas, oavsett om du bor i staden eller på landsbygden.**

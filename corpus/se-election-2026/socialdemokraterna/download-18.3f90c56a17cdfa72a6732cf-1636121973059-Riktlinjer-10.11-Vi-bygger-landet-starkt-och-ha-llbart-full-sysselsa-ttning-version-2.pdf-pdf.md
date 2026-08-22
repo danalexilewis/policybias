@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b37769cc3f2bf659
+contentLength: 12321
 ---
 
 # Riktlinjer-10.11-Vi-bygger-landet-starkt-och-ha-llbart-full-sysselsa-ttning-version-2-6f6ead67.pdf

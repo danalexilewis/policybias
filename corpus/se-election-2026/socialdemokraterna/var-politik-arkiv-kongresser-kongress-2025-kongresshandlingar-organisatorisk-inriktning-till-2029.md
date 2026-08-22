@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5d882112f11b356c
+contentLength: 164
 ---
 
 Förslag till organisatorisk inriktning till 2029

@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4795451bc56f7fa4
+contentLength: 1794
 ---
 
 Mänskliga rättigheter och lika värde är grunden för ett tryggt och jämlikt Sverige. Socialdemokraterna kämpar för att ditt kön, tro eller bakgrund aldrig ska avgöra dina möjligheter. Kampen för alla människors rättigheter är vår främsta politiska plikt, både i Sverige och internationellt.

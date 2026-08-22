@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-87c63185e97bbd90
+contentLength: 1629
 ---
 
 **Teknikutvecklingen är nyckeln till Sveriges framtida välstånd – men den måste styras av demokratisk kontroll och etik. AI är ett av de mest omvälvande teknologiska sprången i vår absoluta närtid och påverkar både din personliga vardag och samhället i stort. För att Sverige ska vinna den globala teknikkapplöpningen krävs kraftiga investeringar.**

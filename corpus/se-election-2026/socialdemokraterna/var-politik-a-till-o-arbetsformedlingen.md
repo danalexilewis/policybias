@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-20e02a0606156224
+contentLength: 1364
 ---
 
 Oavsett var i landet du bor så ska du snabbt kunna få stöd för att komma i jobb. Arbetsförmedlingen ska vara statligt finansierad, kommunalt förankrad, finnas i hela landet och samverka med relevanta aktörer.

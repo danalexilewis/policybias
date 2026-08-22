@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4cdab6d4a572a94d
+contentLength: 137
 ---
 
 Huvudföredragande: Teresa Carvalho, Peter Hultqvist, Morgan Johansson, Matilda Ernkrans,  

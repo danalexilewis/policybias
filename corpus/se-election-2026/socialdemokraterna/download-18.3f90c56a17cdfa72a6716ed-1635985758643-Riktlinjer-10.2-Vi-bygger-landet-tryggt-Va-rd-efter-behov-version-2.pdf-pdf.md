@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-0a00256402255e58
+contentLength: 6695
 ---
 
 # Riktlinjer-10.2--Vi-bygger-landet-tryggt-Va-rd-efter-behov-version-2-14a55de2.pdf

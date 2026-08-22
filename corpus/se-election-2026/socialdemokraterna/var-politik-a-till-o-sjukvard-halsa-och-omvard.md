@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4ccbee1162e49f51
+contentLength: 1951
 ---
 
 Du ska kunna lita på att du får vård när du behöver den. Vården ska ges efter behov, inte efter vem som kan betala mest. Men idag präglas delar av välfärden av långa köer, personalbrist och marknadsmisslyckanden med oseriösa aktörer. Därför behövs en starkare vård och omsorg där kvalitet, trygghet och rättvisa står i centrum. Och du.

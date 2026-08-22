@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-284901d2040d39b8
+contentLength: 1459
 ---
 
 **Om du idrottat eller har barn som idrottat i Sverige så vet du hur viktig de ideella idrottsföreningarna är för folkhälsan. Den ideellt drivna idrottsrörelsen är en viktig kraft för både integration och social gemenskap i hela landet. Vi vill garantera alla barn och unga rätten till rörelse, oavsett din bakgrund eller familjens ekonomi.**

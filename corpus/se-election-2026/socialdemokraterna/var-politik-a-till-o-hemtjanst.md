@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-e373a18d270da876
+contentLength: 1613
 ---
 
 **Du ska kunna känna dig helt trygg i ditt hem och lita på att hemtjänsten ger dig det stöd och den omsorg du behöver för en värdig vardag. Socialdemokrater arbetar för en hemtjänst där personalen har tid för dig och där din trygghet alltid prioriteras före privata bolags vinstintressen. Genom att investera i fler kollegor och bättre villkor för personalen säkras en omsorg med hög kvalitet oavsett var i landet du bor.**

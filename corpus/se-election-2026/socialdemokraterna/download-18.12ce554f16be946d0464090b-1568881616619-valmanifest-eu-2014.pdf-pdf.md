@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f8ab6fe0566b430a
+contentLength: 8028
 ---
 
 # valmanifest-eu-2014-7ecf5e70.pdf

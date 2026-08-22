@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-17995984d960a6dd
+contentLength: 1885
 ---
 
 För dig som jagar är jakt och viltvård en självklar del av livet – det handlar om tradition, försörjning och trygghet. Socialdemokraterna vill därför säkra en modern och etisk viltförvaltning som ger dig goda förutsättningar att jaga, samtidigt som viltstammarna är starka och ekosystemen fungerar. Det handlar om en balans där du kan fortsätta bruka naturen, samtidigt som den tas om hand på ett hållbart sätt för framtiden.

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9341c3188e443875
+contentLength: 1879
 ---
 
 Det som händer i världen påverkar din trygghet, ekonomi och framtid. Vi lever i en tid präglad av krig, konflikter, klimatförändringar och fattigdom globalt. Det som händer i omvärlden får direkta konsekvenser även i Sverige. Det nya omvärldsläget kräver en aktiv svensk utrikespolitik som står upp för fred, demokrati och svenska intressen.

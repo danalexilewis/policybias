@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7994bc4e39eac460
+contentLength: 2798
 ---
 
 Att människor vill och kan arbeta är vårt samhälles största tillgång. Genom sitt arbete kan man skapa sig en bättre tillvaro samtidigt som man är med och gör vårt land rikare.

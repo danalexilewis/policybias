@@ -14,6 +14,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c5ec57e3d8e25090
+contentLength: 3116
 ---
 
 *   [Socialdemokraternas valberedning har nu slutfört sitt förslag till verkställande utskott och partistyrelse. Förslagen ska behandlas och förrättas på Socialdemokraternas 42:a partikongress i Göteborg s...](https://www.socialdemokraterna.se/nyheter/nyheter/2025-05-21-valberedningens-forslag-infor-socialdemokraternas-partikongress)

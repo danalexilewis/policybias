@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d5b0144dcd2cafed
+contentLength: 2054
 ---
 
 **Ryssland har i och med sitt invasionskrig mot Ukraina lämnat den europeiska säkerhetsordningen, och därmed har Europa blivit en avsevärt farligare plats. För hela Europas stabilitet måste demokratierna i väst vara enade mot Rysslands imperialistiska politik, och stödja Ukraina i kampen för sitt oberoende och självständighet. Socialdemokraterna fortsätter att stå sida vid sida med Ukraina, för Ukrainas rätt till frihet och demokrati.**

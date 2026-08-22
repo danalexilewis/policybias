@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0a91060305de29db
+contentLength: 1773
 ---
 
 **Hej! Jag heter Viktor.**

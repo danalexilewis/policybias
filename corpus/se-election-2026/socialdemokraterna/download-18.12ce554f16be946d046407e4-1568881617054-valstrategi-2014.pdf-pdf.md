@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-1531689e82fd1500
+contentLength: 10774
 ---
 
 # valstrategi-2014-74b0908b.pdf

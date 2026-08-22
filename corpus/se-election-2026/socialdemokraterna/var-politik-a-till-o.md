@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2d3dd175ce69a428
+contentLength: 85
 ---
 
 ## Politik för ett starkare Sverige

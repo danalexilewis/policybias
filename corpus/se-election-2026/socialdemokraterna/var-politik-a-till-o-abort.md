@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f66a6e6e3543211b
+contentLength: 1570
 ---
 
 **Din rätt att bestämma över din egen kropp är en av de mest grundläggande friheterna i ett demokratiskt samhälle. Socialdemokrater arbetar för att du alltid ska ha tillgång till en trygg och säker abort, oavsett var i landet du bor. I en tid då aborträtten utmanas i vår omvärld vill vi stärka ditt skydd genom att skriva in rätten till abort i den svenska grundlagen.**

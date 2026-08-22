@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-1ac7f67d68a86810
+contentLength: 1037
 ---
 
 **Känner du dig orättvist behandlad när du förlorar tusentals kronor vid en vanlig förkylning? Det orättvisa karensavdraget slår hårt mot dig som inte kan arbeta hemifrån och måste göra jobbet på jobbet. Socialdemokraterna vill slopa karensavdraget och ge dig ekonomisk trygghet redan från första sjukdagen.**

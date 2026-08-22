@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-28f52dd4a12687d0
+contentLength: 8097
 ---
 
 # Partistyrelsens-fo-rslag-till-Diskussionsordning-d8e908b8.pdf

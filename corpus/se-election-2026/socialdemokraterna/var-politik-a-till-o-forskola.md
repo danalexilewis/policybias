@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-778f291c4f205e11
+contentLength: 1955
 ---
 
 **Förskolan ska erbjuda alla barn en bra och lärorik start i livet. Idag bedrivs vinstjakt** **även bland våra minsta barn vilket leder till mindre personal och sämre** **förskolemiljö. Socialdemokraterna vill ta tillbaka kontrollen över förskolan.** **Vinstjakt och religiös påverkan ska förbjudas och vi vill reglera så att alla förskolor** **är väl bemannade. Så skapar vi en lärorik, trygg och stimulerande förskola där** **personalen har tid att se alla barn.**

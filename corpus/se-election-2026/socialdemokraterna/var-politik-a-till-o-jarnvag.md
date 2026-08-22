@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c074c5e55fe0f997
+contentLength: 1783
 ---
 
 Är du trött på att ditt tåg är sent eller att järnvägen ständigt bjuder på strul? Du är inte ensam. Under lång tid har marknadsmisslyckanden fått råda på järnvägen, vilket lett till akut eftersatt underhåll och förseningar. Socialdemokraterna vill leda Sverige i en ny riktning – där vi får ordning på spåren och säkerställer att tågen går i tid för dig.

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-47baebb7fb9c2b2d
+contentLength: 45990
 ---
 
 # valmanifest-2018-99d0b6a2.pdf

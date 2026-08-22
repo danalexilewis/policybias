@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0959d4a2933621c3
+contentLength: 868
 ---
 
 Temat för Kongressen 2019 i Örebro var "Kunskap för framtiden" och "Det politiska samtalet utvecklar socialdemokratin".

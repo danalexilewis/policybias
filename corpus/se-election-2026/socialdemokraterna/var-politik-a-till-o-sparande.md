@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-fe3e5668f0cadc86
+contentLength: 749
 ---
 
 Socialdemokraterna vill att det ska vara enkelt och förmånligt för dig att spara pengar. Så att du kan spara till din första bostad, en semesterresa eller till att ha en buffert i din ekonomi.

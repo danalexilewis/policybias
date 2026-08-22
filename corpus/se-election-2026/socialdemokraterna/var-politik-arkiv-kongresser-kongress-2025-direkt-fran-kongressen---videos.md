@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8ffdf98cbcfb1e13
+contentLength: 2775
 ---
 
 LIVE: Socialdemokraternas kongress 2025 - dag 5

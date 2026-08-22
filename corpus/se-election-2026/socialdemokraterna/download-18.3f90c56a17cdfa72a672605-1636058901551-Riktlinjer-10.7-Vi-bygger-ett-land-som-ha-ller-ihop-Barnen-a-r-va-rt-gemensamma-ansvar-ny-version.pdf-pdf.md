@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4702a622350d56c7
+contentLength: 3969
 ---
 
 # Riktlinjer-10.7-Vi-bygger-ett-land-som-ha-ller-ihop-Barnen-a-r-va-rt-gemensamma-ansvar-ny-version-b7bb9f22.pdf

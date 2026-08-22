@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-d2697935cea09048
+contentLength: 1209
 ---
 
 **Den 29-31 maj samlades Socialdemokraterna till kongress i Västerås. Temat var "framtidens jobb och framtidens folkrörelse".**

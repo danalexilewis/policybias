@@ -11,9 +11,11 @@ tags:
   - education
   - crime-and-justice
   - healthcare
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-9ecab0fddde56b9a
+contentLength: 32949
 ---
 
 Socialdemokraterna har påbörjat lanseringen av det största trygghetsprogrammet i modern tid. Vi går till val på att bygga ett starkare samhälle och ett tryggare Sverige med mer resurser till skolan och sjukvården, högre pensioner och en kompromisslös kamp mot brotten och dess orsaker. Här kan du läsa Socialdemokraternas valmanifest i sin helhet.

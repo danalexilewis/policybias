@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5b176125939f027b
+contentLength: 6080
 ---
 
 # Riktlinjer-10.15-Vi-bygger-landet-starkt-och-h-llbart-Hela-landet-ska-byggas-version-2-89d236aa.pdf

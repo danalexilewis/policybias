@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c1bb88ece137419a
+contentLength: 23846
 ---
 
 # Kongress-2021---PS-fo-rslag-till-Arbetsordning-211103-703225ab.pdf

@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-fedfc76c09f6e08d
+contentLength: 156
 ---
 
 **Huvudföredragande: Lena Hallengren, Åsa Johansson, Fredrik Lundh Sammeli, Anders Ygeman,  

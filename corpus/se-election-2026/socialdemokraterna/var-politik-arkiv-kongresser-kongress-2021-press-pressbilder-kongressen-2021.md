@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-53038d2b48c5708c
+contentLength: 6242
 ---
 
 ![bilder från kongress 2021](./assets/8Y1A1424-b5e4bf19.JPG)

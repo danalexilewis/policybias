@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b53d0c1bd8bd1b17
+contentLength: 1809
 ---
 
 **Farliga kemikalier och gifter hotar inte bara den svenska naturen, utan även din hälsa och det vatten du dricker. Socialdemokraterna anser att kemikaliepolitiken måste ta en ny, kraftfull inriktning för att vända utvecklingen och skapa en giftfri miljö. Socialdemokraterna driver på för att hormonstörande ämnen som PFAS ska fasas ut snabbt, så att du och dina barn kan växa upp trygga.**

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f97aae2292d49215
+contentLength: 38473
 ---
 
 # riktlinjer_sveriges_nya_jobbagenda-6d2a4630.pdf

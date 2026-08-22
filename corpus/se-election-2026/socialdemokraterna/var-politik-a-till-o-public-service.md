@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8ec20cf7c599e918
+contentLength: 1786
 ---
 
 **Oberoende nyheter och ett starkt public service är viktigt för vår demokrati – inte minst i tider av ökad desinformation. I ett allt allvarligare säkerhetspolitiskt läge är dessutom oberoende medier avgörande för Sveriges beredskap. Socialdemokraterna vill stärka public services roll och säkerställa att Sveriges Television (SVT), Sveriges Radio (SR) och Utbildningsradion (UR) har trygga förutsättningar.**

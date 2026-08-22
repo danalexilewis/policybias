@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e266288165d8db97
+contentLength: 2089
 ---
 
 **Du ska känna ekonomisk trygghet när du blir sjuk. Sjukförsäkringen är en av välfärdssystemets starkaste pelare, men den måste vara generös och rättssäker. Sjukförsäkringen ska ses som en försäkring, inte ett bidrag, som garanterar ekonomisk trygghet vid nedsatt arbetsförmåga. Det orättvisa karensavdraget måste också avskaffas så att du kan vara trygg och vågar stanna hemma när du behöver det som mest.**

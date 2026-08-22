@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-48afd47f83bdd820
+contentLength: 1555
 ---
 
 **Asylrätten ska värnas. Sveriges migrationspolitik måste även vara stram och långsiktigt hållbar. Vårt lands sammanhållning kräver ordning och reda i det svenska mottagandet.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-bf115331f80fb3c7
+contentLength: 1552
 ---
 
 Det sprids just nu felaktiga påståenden om vår politik – därför reder vi här ut vad vi faktiskt vill, och vad vi inte vill.

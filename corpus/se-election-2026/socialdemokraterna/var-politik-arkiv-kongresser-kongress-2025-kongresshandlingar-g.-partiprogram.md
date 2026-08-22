@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-448328d72788c332
+contentLength: 60
 ---
 
 Huvudföredragande: **Magdalena Andersson, Niklas Karlsson**

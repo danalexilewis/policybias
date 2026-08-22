@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5a013289bdc311a5
+contentLength: 143
 ---
 
 Förslag till stadgekommitté

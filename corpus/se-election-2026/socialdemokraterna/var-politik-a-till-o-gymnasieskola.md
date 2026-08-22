@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3cd74eb797c8bace
+contentLength: 1721
 ---
 
 **En gymnasieexamen är nyckeln vidare till både jobb och vidare studier. Därför vill vi att fler blir behöriga och fullföljer sin gymnasieutbildning. Idag präglas även gymnasieskolan av vinstjakt vilket leder till läckage av resurser, sämre kvalitet och betygsfiffel. Förtroendet för utbildningarnas kvalitet urholkas. Socialdemokraterna vill förbjuda vinstuttag och göra gymnasieskolan obligatorisk för att alla unga ska få en stark grund för jobb eller vidare studier.**

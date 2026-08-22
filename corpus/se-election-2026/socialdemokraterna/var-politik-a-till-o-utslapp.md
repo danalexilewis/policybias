@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e7058252e5c98af2
+contentLength: 2194
 ---
 
 Utsläpp av växthusgaser driver på klimatförändringarna som hotar vår framtid. Sverige behöver snabbt återta sin ledande roll och minska sina utsläpp för att bli ett fossilfritt välfärdsland. Du ska kunna känna dig trygg med att omställningen går snabbt och fördelas rättvist; Socialdemokraterna driver på för att skapa tillväxt och nya gröna jobb samtidigt som vi skyddar miljön och tryggar din ekonomi.

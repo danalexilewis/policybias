@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-3f71804692ba2d97
+contentLength: 14297
 ---
 
 # G---Motioner-och-utla-tanden-a14e1818.pdf

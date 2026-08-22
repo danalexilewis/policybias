@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-bc46de3073aeab3b
+contentLength: 870
 ---
 
 #### Partikongressen – så fungerar det demokratiska systemet

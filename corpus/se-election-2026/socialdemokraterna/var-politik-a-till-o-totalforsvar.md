@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-980dcb36a6e7d41f
+contentLength: 1979
 ---
 
 Känner du dig orolig för det allvarliga säkerhetsläget i Europa och världen? Totalförsvaret är samhällets yttersta skydd för din trygghet, frihet och demokrati. Det handlar om att få ordning på hela Sveriges beredskap – från militär förmåga till skydd av civilbefolkningen – så att samhället finns där för dig när det behövs som mest. Socialdemokraterna driver på för en snabb utbyggnad av totalförsvaret.

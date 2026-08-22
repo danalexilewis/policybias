@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-f9953f8ac93dd100
+contentLength: 1674
 ---
 
 När du eller någon i din familj blir sjuk ska ni kunna lita på att hjälp finns nära och att ni får vård snabbt. Idag är vårdköerna till operationer och specialistvård oacceptabelt långa, vilket skapar en otrygghet i din vardag. Socialdemokrater arbetar för att korta väntetiderna i hela landet så att dina medicinska behov, och inte storleken på din plånbok, avgör hur snabbt du får hjälp.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-c615c50e4da9f398
+contentLength: 26788
 ---
 
 # Nya-f-rslag-till-Riktlinjer-11.6-Temagrupp-6-version-2-c702a8c7.pdf

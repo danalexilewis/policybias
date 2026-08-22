@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-521f770c21a26cef
+contentLength: 1576
 ---
 
 När du behöver tandvård ska din plånbok inte avgöra din hälsa. Idag är tandvårdskostnaderna höga, vilket gör att många drar sig för att söka vård, trots att du har allvarliga besvär. Den ojämlikhet som vuxit fram är oacceptabel, och Socialdemokraterna vill göra tandvården behovsstyrd på lika villkor för hela befolkningen.

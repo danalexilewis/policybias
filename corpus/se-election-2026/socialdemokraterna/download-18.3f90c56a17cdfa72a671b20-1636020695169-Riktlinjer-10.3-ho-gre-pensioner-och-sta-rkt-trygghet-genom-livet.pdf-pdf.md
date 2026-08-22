@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-87dddf8b538e5434
+contentLength: 10764
 ---
 
 # Riktlinjer-10.3-ho-gre-pensioner-och-sta-rkt-trygghet-genom-livet-02fdfe32.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-2eae5bda3326d4cc
+contentLength: 1649
 ---
 
 **Din arbetsplats ska vara trygg och säker. Bra arbetsvillkor och en god arbetsmiljö skapar ett tryggare Sverige.**

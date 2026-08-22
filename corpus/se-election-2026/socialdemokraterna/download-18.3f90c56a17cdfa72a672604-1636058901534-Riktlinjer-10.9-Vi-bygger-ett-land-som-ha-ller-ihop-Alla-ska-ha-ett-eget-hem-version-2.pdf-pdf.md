@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c95e9391cbcc59ae
+contentLength: 4401
 ---
 
 # Riktlinjer-10.9-Vi-bygger-ett-land-som-ha-ller-ihop-Alla-ska-ha-ett-eget-hem-version-2-52bfe35e.pdf

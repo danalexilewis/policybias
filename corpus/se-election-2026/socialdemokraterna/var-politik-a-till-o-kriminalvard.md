@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c58209da89a6602d
+contentLength: 2004
 ---
 
 Kriminalvården är en avgörande del av tryggheten i Sverige. När någon döms för brott ska det få tydliga konsekvenser – men det är lika viktigt att den som avtjänat sitt straff inte återfaller i brott. Därför handlar kriminalvård både om att verkställa straff och att ge människor en chans att komma tillbaka till ett laglydigt liv. Kriminalvården behöver växa snabbare.

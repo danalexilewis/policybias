@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-b27d869547062e35
+contentLength: 2210
 ---
 
 Mängden skjutvapen, sprängmedel och ammunition måste minska. Tillgången till skjutvapen, sprängmedel och ammunition är viktiga anledningar bakom det grova gängvåldet. Mer behöver göras för att både stoppa den olagliga införseln i landet liksom att få bort vapnen från gatan. Att tillverka, anskaffa, bära, hantera, gömma och överlåta illegala vapen måste innebära en avskräckande risk för såväl upptäckt som lagföring. Polisen och andra myndigheterna behöver här ha större möjligheter att söka efter vapen och andra farliga föremål, identifiera gärningspersoner och lagföra brottsliga gärningar.

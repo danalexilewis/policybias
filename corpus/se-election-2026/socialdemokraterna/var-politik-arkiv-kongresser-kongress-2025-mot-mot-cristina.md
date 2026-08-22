@@ -13,6 +13,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-16183691f9282ac3
+contentLength: 1845
 ---
 
 **Hej! Jag heter Cristina.**

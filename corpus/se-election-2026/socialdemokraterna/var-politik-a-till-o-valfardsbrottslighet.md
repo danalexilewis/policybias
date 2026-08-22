@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-1bd58d566398f556
+contentLength: 1808
 ---
 
 Socialdemokraterna vill göra upp med marknadsmisslyckanden där kriminella och oseriösa aktörer använder företag som brottsverktyg. Det gäller för alla sektorer i stort, men kanske allra tydligast inom välfärden. Genom fusk och olika, ofta avancerade, upplägg lurar idag kriminella till sig miljardbelopp. Den här utvecklingen måste stoppas.

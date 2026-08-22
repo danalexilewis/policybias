@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-cb2b651cecbd6657
+contentLength: 1549
 ---
 
 Socialdemokraterna anser att en väl utbyggd och välfungerande kollektivtrafik är grunden för en fungerande vardag och för att hela Sverige ska hålla ihop. I ett läge där regionerna tvingas till neddragningar vill Socialdemokraterna garantera att du kan resa tryggt, prisvärt och klimatsmart i hela landet.

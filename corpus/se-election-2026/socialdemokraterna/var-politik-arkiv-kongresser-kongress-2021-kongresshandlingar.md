@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c716617bf6f0957d
+contentLength: 2984
 ---
 
 ## Arbetsordning, dagordning och diskussionsordning

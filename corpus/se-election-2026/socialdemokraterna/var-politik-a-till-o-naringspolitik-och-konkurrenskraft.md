@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-241a670055c6473b
+contentLength: 2790
 ---
 
 **Sverige ska ligga långt fram i teknikutvecklingen och stärka sin konkurrenskraft. En offensiv och framåtblickande näringspolitik är nödvändig för att skapa välbetalda jobb och leda nästa ekonomiska språng. För att Sverige ska bli en vinnare i den gröna och digitala omställningen krävs en politik som ger dig och svenska företag långsiktighet och trygghet.**

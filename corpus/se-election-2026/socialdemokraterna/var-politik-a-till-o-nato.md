@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-895e04f00db5999c
+contentLength: 1244
 ---
 
 Känner du dig orolig över det allvarliga säkerhetsläget i Europa? Sveriges Natomedlemskap är en direkt följd av Rysslands aggression och garanterar kollektiv trygghet. Socialdemokraterna vill att du ska känna dig säker genom att Sverige är en trovärdig och stark partner som lever upp till sina åtaganden i alliansen.

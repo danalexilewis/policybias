@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-09cf66252175a1af
+contentLength: 1704
 ---
 
 **Ingen ska lämnas ensam när livet rasar på grund av missbruk eller beroende. Du och dina nära har rätt till en trygg beroendevård som sätter din hälsa och vägen till ett värdigt liv i första rummet. Socialdemokrater vill se en vård som hänger ihop, där du får professionell hjälp för både ditt beroende och din psykiska hälsa samtidigt.**

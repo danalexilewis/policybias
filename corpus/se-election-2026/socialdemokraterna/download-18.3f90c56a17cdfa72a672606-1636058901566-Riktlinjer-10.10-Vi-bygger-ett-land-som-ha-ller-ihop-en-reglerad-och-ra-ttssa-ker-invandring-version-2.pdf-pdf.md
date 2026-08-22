@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-89d8564ce506127f
+contentLength: 6958
 ---
 
 # Riktlinjer-10.10-Vi-bygger-ett-land-som-ha-ller-ihop-en-reglerad-och-ra-ttssa-ker-invandring-version-2-95259e90.pdf

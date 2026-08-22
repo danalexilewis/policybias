@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-13acafab7437cbe0
+contentLength: 6000
 ---
 
 # Omra-de-C-10.6-kultur-och-bildning-ppnar-d-rrar-ver-2-2c3ea8a7.pdf

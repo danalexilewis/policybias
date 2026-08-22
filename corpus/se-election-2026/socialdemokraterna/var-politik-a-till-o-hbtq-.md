@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-488ab5d7e84762bf
+contentLength: 1224
 ---
 
 **Vi socialdemokrater slår fast att din sexuella läggning eller könsidentitet aldrig ska begränsa din möjlighet att växa och utvecklas. Vi kräver ett samhälle som kraftfullt bekämpar hatbrott och skyddar din rätt att älska vem du vill.**

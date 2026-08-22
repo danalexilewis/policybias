@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-93211376e88935c8
+contentLength: 1646
 ---
 
 När företag växer och skapar jobb märks det i din plånbok. Fler jobb, högre löner och en stark ekonomi gör vardagen och välfärden tryggare. Men idag bromsas investeringar och tillväxt av krångel och brist på rätt förutsättningar. Därför behövs en aktiv näringspolitik där staten tar ett större ansvar och som skapar jobb i hela landet och stärker din ekonomi.

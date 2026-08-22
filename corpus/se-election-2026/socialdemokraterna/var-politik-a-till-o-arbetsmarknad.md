@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9fd16fb89385f7d2
+contentLength: 1125
 ---
 
 **Full sysselsättning är grunden för din frihet, din ekonomi och en stark välfärd. Men Sverige har idag en historiskt hög arbetslöshet****, med både lågutbildade och högutbildade som tvingas ut i arbetslöshet****.** **Socialdemokraternas driver politik som ska** **skapa fler bra jobb** **och öka tillväxten****. Om vi har en bra tillväxt och bra med jobb så kan du få en lön som du kan leva på.**

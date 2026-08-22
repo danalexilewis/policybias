@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-7ee2fbc0e759a70b
+contentLength: 51095
 ---
 
 # 4-Dagsprotokoll-31-maj---lo-rdag---justerat-18c8d20c.pdf

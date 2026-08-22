@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-9e572252b5b78a15
+contentLength: 24278
 ---
 
 # Nytt-f-rslag-till-Riktlinjer-11.7-temagrupp-7-version-2-22965248.pdf

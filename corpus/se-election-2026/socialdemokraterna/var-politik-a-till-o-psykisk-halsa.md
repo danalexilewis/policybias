@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5c11d0c0d8d7a384
+contentLength: 1725
 ---
 
 **Mår du eller någon i din närhet dåligt ska vägen till hjälp vara kort och enkel. Psykisk hälsa handlar om din trygghet i vardagen, och Socialdemokrater vill att du ska kunna lita på att samhället finns där med rätt stöd i rätt tid. Genom att satsa på tidiga insatser och korta köerna till psykiatrin kan vi vända utvecklingen och skapa ett Sverige där alla mår bättre.**

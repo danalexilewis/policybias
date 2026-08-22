@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-1b498588e05ecda6
+contentLength: 1322
 ---
 
 Märker du också att matpriserna är skyhöga och att plånboken töms snabbare än någonsin? Efter år av kostnadskris har vanligt folks köpkraft dränerats, och det är uppenbart att konkurrensen på livsmedelsmarknaden inte fungerar som den ska. Det krävs handlingskraft för att pressa priserna och stärka din ekonomi.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-a2e7143c63757005
+contentLength: 617
 ---
 
 ## Du har ett val 13 september

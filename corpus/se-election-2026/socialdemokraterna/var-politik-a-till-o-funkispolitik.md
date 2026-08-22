@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ff845b31a00f7175
+contentLength: 2006
 ---
 
 **Du ska ha samma möjligheter som alla andra att leva ett gott liv, oavsett funktionsnedsättning. Socialdemokrater arbetar för att stärka LSS och se till att den personliga assistansen fungerar för dig när du behöver den. **Funktionshinderfrågorna handlar om mer än bara assistans; det handlar om rätten till utbildning, arbete och ett aktivt liv utan hinder i vardagen.** Målet är ett tillgängligt samhälle där din delaktighet och dina rättigheter sätts före marknadens vinstintressen.**

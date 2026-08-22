@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e91dd2eae1b238ad
+contentLength: 4318
 ---
 
 # Organisation-och-stadgar_2014-7bc100d8.pdf

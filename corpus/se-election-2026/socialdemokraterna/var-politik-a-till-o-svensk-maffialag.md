@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-be28cc1c1b367144
+contentLength: 1776
 ---
 
 **Sverige behöver en svensk maffialagstiftning, liknande vad som idag finns i länder som till exempel USA och Italien.**

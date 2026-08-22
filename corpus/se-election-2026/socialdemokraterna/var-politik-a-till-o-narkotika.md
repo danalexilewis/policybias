@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-adbf4c69822f813a
+contentLength: 2457
 ---
 
 **Sverige ska fortsatt ha en restriktiv narkotikapolitik. Narkotikahandeln är gängens huvudsakliga finansieringskälla, och försäljningen är en inkörsport till våld och nyrekrytering. Samtidigt behöver stödet och vården förbättras för personer med missbruk.**

@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-0ac4d8ea1bba3148
+contentLength: 841
 ---
 
 Här hittar du information och material från våra tidigare kongresser:

@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-4adff03824045ab1
+contentLength: 2119
 ---
 
 Sveriges skog är grunden för landsbygdens ekonomi, en viktig resurs i klimatomställningen och ett hem för unik natur. Vill du se till att skogsägare får stabila villkor samtidigt som skogen skyddas för framtida generationer? Socialdemokraterna driver en politik som säkerställer att skogen fortsatt kan skapa jobb och tillväxt i hela landet, ha ett rikt djur- och växtliv och vara ett verktyg för ett fossilfritt Sverige.

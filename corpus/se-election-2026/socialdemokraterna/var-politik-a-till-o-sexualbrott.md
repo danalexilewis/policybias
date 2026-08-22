@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-30693aa9164bc08f
+contentLength: 1666
 ---
 
 Sexualbrott är en särskild avskyvärd form av manligt våld. När någon utsätts måste samhället därför svara med full kraft och erbjuda skydd och upprättelse. Alla kvinnor och barn ska kunna känna sig trygga på stan, i hemmet och online.

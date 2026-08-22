@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ad594df8e25e67f9
+contentLength: 2209
 ---
 
 **För oss socialdemokrater är det självklart att Sverige ska ta en aktiv roll i Mellanöstern. Sverige har erkänt staten Palestina. När konfliktnivån i Mellanöstern höjs ska Sverige vara med och verka för avspänning och dialog i regionen. Sverige ska verka för långsiktig fred och en tvåstatslösning, där Israel och Palestina kan leva som två självständiga demokratiska stater med internationellt erkända gränser.**

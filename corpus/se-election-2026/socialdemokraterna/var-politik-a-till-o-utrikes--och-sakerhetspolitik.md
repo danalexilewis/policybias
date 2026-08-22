@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-18b0d187715b6674
+contentLength: 1539
 ---
 
 I en tid där krig och konflikter sprider osäkerhet globalt är det viktigare än någonsin att Sverige är en stark röst för fred och demokrati. Sveriges säkerhet behöver stärkas genom aktiv diplomati, starka allianser som EU och Nato, samt konsekvent internationell solidaritet.

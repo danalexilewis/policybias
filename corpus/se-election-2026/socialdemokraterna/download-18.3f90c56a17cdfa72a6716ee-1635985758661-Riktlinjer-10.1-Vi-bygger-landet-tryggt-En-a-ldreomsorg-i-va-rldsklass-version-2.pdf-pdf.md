@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5334b2e072c2fff1
+contentLength: 5398
 ---
 
 # Riktlinjer-10.1-Vi-bygger-landet-tryggt-En-a-ldreomsorg-i-va-rldsklass-version-2-3bdf44b9.pdf

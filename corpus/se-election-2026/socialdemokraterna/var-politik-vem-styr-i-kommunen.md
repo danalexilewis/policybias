@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-14bcbf744d4bdac2
+contentLength: 8340
 ---
 
 Denna lista redovisar de styrande partierna och partisamarbetena och koalitionerna i Sveriges kommuner för mandatperioden 2022–2026.  

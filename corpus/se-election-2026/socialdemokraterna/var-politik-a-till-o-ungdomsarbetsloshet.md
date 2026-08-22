@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5887a74eacbb9545
+contentLength: 1460
 ---
 
 Ungdomsarbetslösheten i Sverige är på mycket höga nivåer. Vi ser allvarligt på den höga ungdomsarbetslösheten. Ingen ung ska börja sitt vuxenliv i långtidsarbetslöshet. Det krävs en offensiv politik som skapar fler vägar till jobb och ger ungahopp om framtiden.

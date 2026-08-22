@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-30452132b866e004
+contentLength: 508
 ---
 
 Kongressen är över. Här finns presbilder från kongressen. För kontakt med pressavdelning hänvisar vi nu [till ordinarie pressavdelning här.](https://www.socialdemokraterna.se/vart-parti/press)

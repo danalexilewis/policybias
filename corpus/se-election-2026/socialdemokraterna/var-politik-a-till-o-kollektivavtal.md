@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-dee605f8ed93820c
+contentLength: 1309
 ---
 
 **Den svenska modellen bygger på ett samarbete mellan fackförbund och arbetsgivare där de förhandlar och sluter kollektivavtal om löner och andra anställningsvillkor. Socialdemokraterna slår vakt om kollektivavtalen för din trygghet och för ordning och reda på arbetsmarknaden så att alla som jobbar i Sverige får schyssta villkor.**

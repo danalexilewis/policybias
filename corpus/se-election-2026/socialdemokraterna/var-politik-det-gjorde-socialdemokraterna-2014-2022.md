@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-c77deb93e03b9e40
+contentLength: 41391
 ---
 
 300 exempel på vad Socialdemokraterna genomfört under de två mandatperioderna mellan 2014 och 2022 då S hade regeringsmakten.

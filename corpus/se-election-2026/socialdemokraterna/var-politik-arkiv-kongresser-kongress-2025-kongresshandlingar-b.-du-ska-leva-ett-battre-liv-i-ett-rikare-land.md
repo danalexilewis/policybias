@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-41d99bd25ca72cac
+contentLength: 166
 ---
 
 Huvudföredragande: Mikael Damberg, Marie Nilsson, Ardalan Shekarabi,Föredragande: Fredrik Olovsson, Niklas Karlsson, Anna-Caren Sätherberg, Katrin Stjernfeldt Jammeh

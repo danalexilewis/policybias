@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-65595d0274e10851
+contentLength: 1579
 ---
 
 Känner du hur ekonomiska krisen slagit hårt mot din plånbok? Du är inte ensam. Med SD-regeringen har Sveriges ekonomi gått i fel riktning, med 100 000 fler arbetslösa och en tillväxt som legat i EU:s bottenliga. Vi socialdemokrater vill vända utvecklingen, så att Sveriges välstånd växer – och att det ska märkas i din plånbok.

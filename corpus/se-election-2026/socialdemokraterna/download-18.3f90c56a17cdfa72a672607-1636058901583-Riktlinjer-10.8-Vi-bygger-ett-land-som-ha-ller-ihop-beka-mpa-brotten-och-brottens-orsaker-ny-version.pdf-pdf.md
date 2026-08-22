@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-33281cac0706f15c
+contentLength: 8416
 ---
 
 # Riktlinjer-10.8-Vi-bygger-ett-land-som-ha-ller-ihop-beka-mpa-brotten-och-brottens-orsaker-ny-version-b1ba6830.pdf

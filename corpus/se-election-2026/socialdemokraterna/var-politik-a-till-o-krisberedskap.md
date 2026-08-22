@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-e9f39c5e6f38aef8
+contentLength: 1890
 ---
 
 Känner du dig förberedd om en allvarlig kris eller ett strömavbrott skulle slå ut viktiga samhällsfunktioner? Din trygghet beror på en fungerande krisberedskap – från vattenförsörjning till sjukhusvård. Socialdemokraterna vill få ordning på beredskapen genom att investera stort i Sveriges totalförsvar, så att samhället finns där för dig när det behövs som mest.

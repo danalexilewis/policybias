@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-086e2aacef335817
+contentLength: 2159
 ---
 
 **En stark och närvarande polis i hela landet är en bärande del av samhällskontraktet. Polismyndigheten behöver fortsätta växa och poliserna ges rätt verktyg att utföra sitt arbete. En viktig del i detta är att vända utvecklingen med nedläggningen av polisstationer. Sverige ska ha fler poliser i hela landet med rätt verktyg för att göra sitt jobb.**

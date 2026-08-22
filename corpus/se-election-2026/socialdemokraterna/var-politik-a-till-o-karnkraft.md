@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-97ab99490a07141a
+contentLength: 1466
 ---
 
 **Kärnkraft utgör en betydande del av Sveriges elsystem. Tillsammans med vattenkraft är den viktig för en leveranssäker elförsörjning och skapar stabilitet och balans i elsystemet. Socialdemokraterna bejakar kärnkraften, men menar att staten måste ha kontroll över säkerhet, ekonomi och lokalisering.**

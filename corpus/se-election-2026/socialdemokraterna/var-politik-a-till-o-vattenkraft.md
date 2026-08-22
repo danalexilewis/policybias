@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-15d6c7a893d19a21
+contentLength: 1244
 ---
 
 Vattenkraften är betydande i det svenska elsystemet och en grundförutsättning för vår energitrygghet då den både är planerbar och reglerbar. Den är unik i sin förmåga att snabbt kunna reglera effektuttaget, vilket blir allt viktigare i takt med att vi bygger ut mer väderberoende el som vind- och solenergi. Osäkerheten till följd av pågående miljöprövningar måste nu snarast hanteras.

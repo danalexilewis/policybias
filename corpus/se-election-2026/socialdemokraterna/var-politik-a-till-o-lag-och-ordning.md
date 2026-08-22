@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6639f09c4f528d55
+contentLength: 2271
 ---
 
 **Sverige ska vara ett tryggt land. Oavsett var man bor ska man kunna gå ut på kvällarna utan att känna sig rädd eller orolig. Det är en grundläggande del av samhällskontraktet att man som medborgare ges skydd från brott och upprättelse ifall man ändå utsätts. Här och nu behöver utvecklingen med den skenande gängkriminaliteten och mäns våld mot kvinnor vändas. Vi ska återupprätta tryggheten i Sverige.  

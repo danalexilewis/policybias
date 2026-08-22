@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-ed59639acb9cf1eb
+contentLength: 1725
 ---
 
 **Du ska kunna lita på att vården finns där för dig genom hela livet, från den första mensen till klimakteriet och genom en trygg förlossning. Socialdemokrater arbetar för att stärka kvinnohälsan och se till att din kropp och dina behov prioriteras i varje möte med sjukvården. Genom att investera mer i förlossningsvården och kvinnosjukvården skapar vi en tryggare vardag för alla kvinnor i Sverige.**

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-184d04a3ade6566f
+contentLength: 817
 ---
 
 Frågor om vår organisation, ditt medlemskap eller vår politik nationellt, regionalt eller lokalt?

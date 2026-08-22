@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-849c9ea83ce53c16
+contentLength: 971
 ---
 
 För att komma åt de kriminella gängen behöver flödet av narkotika, vapen och andra illegala varor strypas. Tullen har en avgörande roll i detta arbete. Tullverkets brottsbekämpande arbete behöver förstärkas och utvecklas, både vad gäller underrättelser och kontroll.

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-870bd603f44e8cef
+contentLength: 1428
 ---
 
 **Känner du oro för din ekonomiska trygghet om du skulle bli av med jobbet? I en tid av hög arbetslöshet är det extra viktigt att din försäkring möjliggör att fortsatt ha råd med mat och boende. Den branta avtrappningen av a-kassan som regeringen och SD infört kan vi socialdemokrater aldrig acceptera.**

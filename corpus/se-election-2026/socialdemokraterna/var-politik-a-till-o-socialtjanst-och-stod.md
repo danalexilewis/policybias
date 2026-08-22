@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-52f6f0784dfdb179
+contentLength: 1382
 ---
 
 **Du ska kunna få stöd när livet är som svårast – oavsett om det gäller barn som far illa, missbruk eller ekonomiska problem. Socialtjänsten ska finnas där tidigt, vara trygg och fungera i hela landet. Men idag brister systemet på flera håll, med för lite resurser och för stora skillnader. Därför behövs en starkare socialtjänst som både stöttar och ställer krav**.

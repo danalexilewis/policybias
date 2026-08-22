@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-9b3d733f986e4135
+contentLength: 2123
 ---
 
 Vill du att Sverige ska vara ett land som håller ihop, där alla som bor här kan prata svenska och har ett jobb att gå till? För att bryta segregationen och öka tryggheten i ditt bostadsområde krävs en stram och rimlig migrationspolitik med tydliga krav på den som är ny i landet. Genom att prioritera ordning och reda framför oordnat mottagande kan vi bygga en starkare samhällsgemenskap för alla.

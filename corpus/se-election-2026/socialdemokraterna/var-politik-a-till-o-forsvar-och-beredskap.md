@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-23cd19a13bdf0fb1
+contentLength: 1537
 ---
 
 Sverige ska vara tryggt – både i fredstid och i kris eller krig. I en osäker omvärld behöver försvaret stärkas samtidigt som samhället måste fungera även under påfrestningar.

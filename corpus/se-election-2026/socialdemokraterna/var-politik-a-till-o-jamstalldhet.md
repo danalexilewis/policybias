@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-57a6da16de44a59d
+contentLength: 1987
 ---
 
 Jämställdhet är en fråga om lika värde och frihet för alla, oavsett kön. Socialdemokraterna slår fast att din ekonomi, din hälsa och ditt liv aldrig ska begränsas av ditt kön. Det är dags att bygga ett Sverige där alla har full makt över sitt eget liv.

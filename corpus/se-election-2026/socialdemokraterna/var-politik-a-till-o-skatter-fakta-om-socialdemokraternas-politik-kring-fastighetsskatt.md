@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-864fc3b3f9706432
+contentLength: 1564
 ---
 
 Vill Socialdemokraterna återinföra fastighetsskatten?

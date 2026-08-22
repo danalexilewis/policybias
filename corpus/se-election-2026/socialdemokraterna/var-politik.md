@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a2e7143c63757005
+contentLength: 617
 ---
 
 ## Du har ett val 13 september

@@ -9,9 +9,11 @@ contentType: pdf
 via: party-site
 tags:
   - economy
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-f1a333bb86653722
+contentLength: 42685
 ---
 
 # kongressmaterial_2011-6cb7a6e9.pdf

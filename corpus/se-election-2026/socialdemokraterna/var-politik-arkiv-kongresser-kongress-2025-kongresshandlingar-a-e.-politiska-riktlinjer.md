@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7fcfb16c2b79afb1
+contentLength: 34
 ---
 
 Förslag till politiska riktlinjer

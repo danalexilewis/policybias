@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-92fdd241e3f382ca
+contentLength: 1785
 ---
 
 En stark svensk livsmedelsproduktion i Sverige är väldigt viktig. Den gör att du kan lita på att det finns mat på bordet även i oroliga tider, bidrar till rimliga priser och säkerställer att maten håller hög kvalitet. Samtidigt skapar den jobb, tillväxt och levande lokalsamhällen i hela landet, vilket i längden gynnar hela Sverige. Socialdemokraterna arbetar därför för mer svenskt på tallriken, trygg och hälsosam mat och ett modernt jordbruk som leder omställningen och stärker vår konkurrenskraft.

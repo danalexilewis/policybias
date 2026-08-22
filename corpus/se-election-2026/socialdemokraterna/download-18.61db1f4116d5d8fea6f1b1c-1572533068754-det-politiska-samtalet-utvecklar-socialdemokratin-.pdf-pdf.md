@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-6b94670b6c553042
+contentLength: 44590
 ---
 
 # det-politiska-samtalet-utvecklar-socialdemokratin-36ec0f65.pdf

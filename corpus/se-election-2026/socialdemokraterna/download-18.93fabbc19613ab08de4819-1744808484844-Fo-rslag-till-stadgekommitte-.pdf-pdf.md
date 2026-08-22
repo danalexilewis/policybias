@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-82ca85d003234b5a
+contentLength: 2772
 ---
 
 # Fo-rslag-till-stadgekommitte-8eb2616b.pdf

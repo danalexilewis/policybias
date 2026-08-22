@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-e469124971cacd07
+contentLength: 78215
 ---
 
 # justerat_protokoll_150530_lordag-d0a463ee.pdf

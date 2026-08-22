@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-5d013ed302f20907
+contentLength: 29956
 ---
 
 # Beslutad-organisatorisk-inriktning-till-2029-bba6e57c.pdf

@@ -12,6 +12,8 @@ tags:
 stance: intervention
 money: no-figure
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-1eaf6ed093cdcf33
+contentLength: 3347
 ---
 
 Denna sida är till för dig som gör ett skolarbete om Socialdemokraterna och vår politik.

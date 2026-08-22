@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-e77e4336be0d29b3
+contentLength: 1050
 ---
 
 Solkraften är en kostnadseffektiv lösning för att snabbt öka den svenska elproduktionen. Den har stor potential, både på ditt hustak för att balansera höga elkostnader och i storskaliga parker. Men utvecklingen av storskaliga, markbaserade anläggningar hämmas av krångliga tillståndsprocesser och problem med nätanslutning.

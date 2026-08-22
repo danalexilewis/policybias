@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-a86ddd5ce51c7e69
+contentLength: 1874
 ---
 
 Verkställande utskottet (VU) består av sju ordinarie ledamöter inklusive partiordförande och partisekreterare samt sju ersättare.

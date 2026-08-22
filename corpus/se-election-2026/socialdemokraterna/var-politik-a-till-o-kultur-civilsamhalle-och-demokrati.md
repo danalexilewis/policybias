@@ -13,6 +13,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-712d8cd9e994eb6c
+contentLength: 1059
 ---
 
 Ett starkt samhälle bygger på mer än jobb och ekonomi – det handlar också om kultur, föreningsliv och en levande demokrati. Du ska kunna delta i kultur, idrott och gemenskap oavsett var du bor. Samtidigt utmanas demokratin av desinformation och hat i sociala medier. Därför behövs ett starkt civilsamhälle och fria medier som håller ihop Sverige.

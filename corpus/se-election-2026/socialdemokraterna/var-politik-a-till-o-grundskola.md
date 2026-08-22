@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f78a104baa143d99
+contentLength: 2416
 ---
 
 Svensk skola ska präglas av trygghet och studiero och fokusera på kunskap och bildning, inget annat. Du ska veta att ditt barn alltid går i en skola som använder pengarna för att ditt barn ska få en så bra skoltid som möjligt - inte för sportbilar och lyxskolor i andra länder. För att det ska vara möjligt måste också staten se till att mer pengar tillförs och sätta ett minimikrav på antal barn per lärare. Så säkerställer vi fler lärare och bättre stöd så att ditt barn kan mötas av höga förväntningar och tro på att de kan lyckas.

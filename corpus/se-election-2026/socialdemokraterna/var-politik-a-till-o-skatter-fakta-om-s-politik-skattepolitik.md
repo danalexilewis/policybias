@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-c5b31830234144db
+contentLength: 4297
 ---
 
 Det sprids ofta felaktiga påståenden om Socialdemokraternas skattepolitik. Här reder vi ut vad vi faktiskt vill – och vad vi inte vill. Socialdemokraternas mål är att svensk ekonomi ska växa så att fler svenskar kan få ett bra jobb med en högre lön. Vi vill ha en rättvisekonomi där folk med vanliga löner får det bättre. Vi prioriterar att barnfamiljer och pensionärer ska få mer pengar i plånboken framför stora skattesänkningar till de som tjänar allra mest.

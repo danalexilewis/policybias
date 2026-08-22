@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-ddbfd23a2262388f
+contentLength: 3111
 ---
 
 Många som har arbetat ett helt yrkesliv får för låg pension. Sverige skulle inte fungera en timme utan undersköterskor och byggnadsarbetare. Barnskötare och butiksanställda. Lastbilschaufförer och lagerarbetare. Industriarbetare och elektriker. Yrken där man ofta börjar jobba tidigt i livet och sliter ett långt arbetsliv. Många tvingas ta ut sin pension i förtid de sista åren för att de inte klarar av att jobba hela vägen till pensionsåldern, vilket sänker en redan för låg pension. Det här är en djup orättvisa.

@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c751f44f8b10de34
+contentLength: 1907
 ---
 
 **Hej! Jag heter Fredrik.**

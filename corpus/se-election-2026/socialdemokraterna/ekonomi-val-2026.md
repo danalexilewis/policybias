@@ -14,6 +14,8 @@ tags:
 money: no-figure
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
+contentDigest: sha256-4911a447cf9e388b
+contentLength: 4649
 ---
 
 ![sverigekarta](./assets/2-sverigekarta_650-8004c39f.png)

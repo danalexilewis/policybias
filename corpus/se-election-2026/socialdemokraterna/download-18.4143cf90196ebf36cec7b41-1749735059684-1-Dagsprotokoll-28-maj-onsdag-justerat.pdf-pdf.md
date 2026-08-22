@@ -9,9 +9,11 @@ contentType: pdf
 via: party-site
 tags:
   - defence
-stance: intervention
+stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: named-figure
+contentDigest: sha256-6b1efccfe1ca9518
+contentLength: 80055
 ---
 
 # 1-Dagsprotokoll-28-maj---onsdag---justerat-2a263d0f.pdf
@@ -1130,37 +1132,6 @@ Förslag och beslut
                                             Hållbart skogsbruk som skapar tillväxt, stärker den              försöksvotering
 
                                                                                                                                 28
-                                                          sociala hållbarheten och värnar klimat, miljö och
-                                                          biologisk mångfald.
-  35       16     Marie Axelsson           Stockholms län Yrkande 129                                                         Avslag        Bifall PK,
-                                                          Under SÄKERHETSPOLITIK och                                                        försöksvotering
-                                                          UTRIKESPOLITIK s. 35 rad 16 efter meningen som
-                                                          slutar: …”världsordning socialdemokratin vill se”
-                                                          yrkar vi på följande tillägg: En feministisk
-                                                          utrikespolitik som bidrar till en mer jämställd värld.
-  35       40     Matilda Sundquist        Gävleborg      Yrkande 606                                                         Bifall1       Bifall PK,
-           (4)    Boox                                    Feministisk utrikespolitik med fokus på kvinnors                    (Avslag)      Rösträkning: Ja:
-                                                          rättigheter, representation och resurser.                                         116 nej: 228
-  35       40     Marie Axelsson           Stockholms län Yrkande 130                                                         Bifall        Bifall PK
-                                                          Omformulering av punkten på s. 35 rad 40
-                                                          Vi yrkar på följande ordalydelse: Feministisk
-                                                          utrikespolitik med fokus på kvinnors rättigheter,
-                                                          representation och resurser.
-  36        5     Staffan Lindström        Göteborg       Yrkande 608                                                         Avslag        Bifall PK,
-                                                          Biståndet ska vara minst en procent av BNI                                        Rösträkning: Ja:
-                                                                                                                                            253, nej: 90
+                                                          sociala hållbarheten och
 
-Övriga beslut
-Kongressen beslutade:
-att   i övrigt fastställa programkommissionens förslag till nytt partiprogram.
-
-Motioner och utlåtanden på område G som rör Partiprogram (UG45).
-Föredragande: Magdalena Andersson och Niklas Karlsson
-
-Övriga beslut
-Partikongressen beslutade:
-att     i övrigt fastställa programkommissionens förslag till utlåtande över motionerna på område G som rör förslaget till nytt Partiprogram (UG45).
-
-1 Yrkandet var bifallet av programkommissionen. Rösträkning genomfördes på grund av missförstånd om vilket radnummer som avsågs.
-
-                                                                                                                                                               29
+[truncated: original dump exceeded 80000 characters]

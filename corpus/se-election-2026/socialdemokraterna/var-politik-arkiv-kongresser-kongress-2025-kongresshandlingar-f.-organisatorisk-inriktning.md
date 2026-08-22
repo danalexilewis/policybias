@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-8f21df06872f7f94
+contentLength: 114
 ---
 
 Huvudföredragande: Tobias Baudin, Tomas Eneroth, Aylin Nouri,  

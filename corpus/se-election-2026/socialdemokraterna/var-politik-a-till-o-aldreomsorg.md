@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-38b9ed99e2ce733f
+contentLength: 1949
 ---
 
 Du som har varit med och byggt Sverige förtjänar en ålderdom präglad av trygghet, värdighet och valfrihet. Socialdemokraterna vill att äldreomsorgen ska vara en trygg hamn där dina behov alltid kommer i första rummet, oavsett var i landet du bor eller hur stor din plånbok är. Genom att investera i fler kollegor och bättre villkor för personalen säkras en hemtjänst och ett äldreboende som du och dina nära kan lita på.

@@ -12,6 +12,8 @@ tags:
 stance: not-policy
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-aabd0463e0e8b5f1
+contentLength: 407
 ---
 
 Här hittar du handlingar och protokoll från partikongressen 2011.

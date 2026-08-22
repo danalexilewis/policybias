@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-68dbf43e6b6243a2
+contentLength: 1895
 ---
 
 Klimatförändringarna påverkar din vardag – genom väder, priser och framtida jobb. Samtidigt ska det vara möjligt att leva ett vanligt liv, oavsett var i landet du bor. Klimat- och miljöpolitiken måste vara både effektiv och rättvis. Därför behövs lösningar som minskar utsläppen och stärker Sverige, utan att lägga hela ansvaret på dig.

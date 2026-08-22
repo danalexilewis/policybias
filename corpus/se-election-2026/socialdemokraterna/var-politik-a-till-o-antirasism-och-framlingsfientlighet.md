@@ -14,6 +14,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-c7960637ec96915f
+contentLength: 2014
 ---
 
 **Antirasism är grunden för ett tryggt och jämlikt Sverige. Rasism och diskriminering skapar farliga klyftor i samhället som drabbar alla. Socialdemokraterna kräver att alla människors lika värde respekteras, och nu är det dags att kraftsamla för att stoppa hatbrotten och skydda vår demokrati.**

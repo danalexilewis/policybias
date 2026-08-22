@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-7a9f8546f676a398
+contentLength: 929
 ---
 
 Den svenska modellen, där starka fackföreningar och arbetsgivare förhandlar om villkoren på arbetsmarknaden är grunden för din trygghet på jobbet. Vill du också se ordning och reda på arbetsmarknaden och schyssta villkor för alla? Socialdemokraterna kommer alltid stå upp för den svenska modellen.

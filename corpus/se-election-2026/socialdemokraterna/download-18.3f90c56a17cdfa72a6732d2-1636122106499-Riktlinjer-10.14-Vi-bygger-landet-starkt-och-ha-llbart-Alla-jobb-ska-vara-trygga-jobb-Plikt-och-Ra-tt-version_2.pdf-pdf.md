@@ -12,6 +12,8 @@ tags:
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 money: no-figure
+contentDigest: sha256-f16a509b1f0a88d3
+contentLength: 12711
 ---
 
 # Riktlinjer-10.14-Vi-bygger-landet-starkt-och-ha-llbart-Alla-jobb-ska-vara-trygga-jobb-Plikt-och-Ra-tt-version_2-9abc4ed7.pdf

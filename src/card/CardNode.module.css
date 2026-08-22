@@ -1,27 +1,24 @@
 .card {
 	width: 100%;
 	box-sizing: border-box;
-	background: #faf9f6;
-	border: 2px solid #d4cfc4;
-	border-radius: 8px;
-	box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
-	font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, serif;
+	background: var(--paper);
+	border: 2px solid var(--ink);
+	border-radius: var(--radius);
+	box-shadow: var(--shadow);
+	font-family: var(--font-body);
 	font-size: 14px;
 	line-height: 1.45;
-	color: #1a1a1a;
+	color: var(--ink);
 }
 
 .cardInspectable {
 	cursor: pointer;
 }
 
-.cardInspectable:hover {
-	box-shadow: 0 4px 16px rgb(0 0 0 / 14%);
-}
-
 .cardInspect {
 	font-size: 16px;
 	line-height: 1.5;
+	box-shadow: none;
 }
 
 .cardInspect .title {
@@ -48,7 +45,7 @@
 
 .header {
 	padding: 12px 14px 10px;
-	border-bottom: 1px solid #e8e4db;
+	border-bottom: 1px solid var(--ink);
 }
 
 .meta {
@@ -78,8 +75,7 @@
 }
 
 .logoPlaceholder {
-	border-radius: 4px;
-	background: #ece8e0;
+	background: transparent;
 }
 
 .clusters {
@@ -94,18 +90,19 @@
 
 .clusterChip {
 	display: inline-block;
-	padding: 2px 7px;
+	padding: 3px 8px;
 	border-radius: 999px;
-	background: #ebe8e0;
-	font-family: system-ui, sans-serif;
+	font-family: var(--font-mono);
 	font-size: 10px;
-	color: #444;
+	font-weight: 600;
+	letter-spacing: 0.02em;
 }
 
 .title {
 	margin: 0;
+	font-family: var(--font-ui);
 	font-size: 15px;
-	font-weight: 600;
+	font-weight: 700;
 	line-height: 1.35;
 }
 
@@ -116,10 +113,17 @@
 .note {
 	margin: 0 0 12px;
 	padding: 8px 10px;
-	background: #f5f3ee;
+	background: color-mix(in srgb, var(--ink) 6%, var(--paper));
 	border-radius: 4px;
 	font-size: 13px;
-	color: #333;
+	color: var(--ink);
+}
+
+.metaLine {
+	margin: 8px 0 0;
+	font-family: var(--font-mono);
+	font-size: 11px;
+	color: var(--muted);
 }
 
 .scenario {
@@ -128,9 +132,10 @@
 
 .scenarioTitle {
 	margin: 0 0 6px;
+	font-family: var(--font-ui);
 	font-size: 13px;
 	font-weight: 600;
-	color: #444;
+	color: var(--ink);
 }
 
 .step {
@@ -146,15 +151,10 @@
 	font-style: italic;
 }
 
-.stepExtrapolated:hover {
-	opacity: 1;
-}
-
 .surface {
 	flex: 0 0 8ch;
 	width: 8ch;
-	font-family:
-		ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+	font-family: var(--font-mono);
 	font-size: 11px;
 	font-weight: 600;
 	text-align: right;
@@ -199,17 +199,17 @@
 .report {
 	margin-top: 12px;
 	padding-top: 10px;
-	border-top: 1px dashed #d4cfc4;
+	border-top: 1px dashed var(--ink);
 }
 
 .reportHeading {
 	margin: 0 0 6px;
-	font-family: system-ui, sans-serif;
+	font-family: var(--font-mono);
 	font-size: 11px;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
-	color: #666;
+	color: var(--muted);
 }
 
 .reportList {
@@ -228,25 +228,22 @@
 
 .listCard {
 	padding: 12px 14px;
-	box-shadow: 0 1px 4px rgb(0 0 0 / 6%);
+	box-shadow: none;
 }
 
-.listCardGaps {
-	background: #f7f6f2;
-}
-
+.listCardGaps,
 .listCardAssumptions {
-	background: #f4f0ea;
+	background: var(--paper);
 }
 
 .listCardTitle {
 	margin: 0 0 8px;
-	font-family: system-ui, sans-serif;
+	font-family: var(--font-mono);
 	font-size: 11px;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
-	color: #666;
+	color: var(--muted);
 }
 
 .cardInspect .listCardTitle {
@@ -262,10 +259,10 @@
 .listCardItems li {
 	margin: 0;
 	padding: 7px 0;
-	border-top: 1px dashed #dcd6cb;
+	border-top: 1px dashed var(--ink);
 	font-size: 13px;
 	line-height: 1.4;
-	color: #333;
+	color: var(--ink);
 }
 
 .listCardItems li:first-child {
@@ -281,16 +278,27 @@
 .source {
 	margin-top: 12px;
 	padding-top: 10px;
-	border-top: 1px solid #e8e4db;
-	font-family: system-ui, sans-serif;
+	border-top: 1px solid var(--ink);
+	font-family: var(--font-mono);
 	font-size: 11px;
 }
 
 .source a {
-	color: #1d4e89;
+	color: var(--accent);
 	text-decoration: none;
 }
 
-.source a:hover {
-	text-decoration: underline;
+@media (hover: hover) and (pointer: fine) {
+	.cardInspectable:hover {
+		transform: translate(1px, 1px);
+		box-shadow: var(--shadow-pressed);
+	}
+
+	.source a:hover {
+		text-decoration: underline;
+	}
+
+	.stepExtrapolated:hover {
+		opacity: 1;
+	}
 }

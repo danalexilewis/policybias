@@ -1,8 +1,15 @@
 // @vitest-environment jsdom
-import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+import {
+	cleanup,
+	fireEvent,
+	render,
+	screen,
+	waitFor
+} from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { CardFace, PartyId, PolicyCard } from '../data/types';
 import { PARTY_COLOURS, PARTY_LABELS } from '../card/anonymise';
+import { CURRENT_EVENT_ID, eventScoresPath } from '../event/events';
 import { dealAllRounds } from './dealRound';
 import { GameOverlay } from './GameOverlay';
 
@@ -96,6 +103,25 @@ function policyButton(index: 0 | 1 | 2): HTMLElement {
 	return screen.getByRole('button', { name: `Policy ${index + 1}` });
 }
 
+function stubCarousel(matches: boolean): void {
+	vi.stubGlobal('matchMedia', (query: string) => ({
+		matches,
+		media: query,
+		addEventListener: () => undefined,
+		removeEventListener: () => undefined,
+		addListener: () => undefined,
+		removeListener: () => undefined,
+		dispatchEvent: () => false,
+		onchange: null
+	}));
+}
+
+function swipeDeck(deck: Element, fromX: number, toX: number, y = 120): void {
+	fireEvent.pointerDown(deck, { pointerId: 1, clientX: fromX, clientY: y });
+	fireEvent.pointerMove(deck, { pointerId: 1, clientX: toX, clientY: y });
+	fireEvent.pointerUp(deck, { pointerId: 1, clientX: toX, clientY: y });
+}
+
 describe('GameOverlay', () => {
 	it('advances to the next round from Next in the success dialog', () => {
 		const { rounds } = renderGame();
@@ -180,7 +206,7 @@ describe('GameOverlay', () => {
 		}
 	});
 
-	it('asks the optional questions before results, then can play again', () => {
+	it('asks the optional questions before results, then can play again', async () => {
 		const { rounds } = renderGame();
 
 		for (const [index, round] of rounds.entries()) {
@@ -196,34 +222,126 @@ describe('GameOverlay', () => {
 			);
 		}
 
-		expect(screen.getByText('Three optional questions')).toBeTruthy();
+		expect(screen.getByText('Optional questions')).toBeTruthy();
 		expect(screen.queryByRole('button', { name: 'Play again' })).toBeNull();
 
 		fireEvent.click(screen.getByRole('button', { name: 'Skip' }));
 
+		const posted = JSON.parse(
+			String(fetchMock.mock.calls[0]?.[1]?.body ?? '')
+		) as { correct: number; attempted: number; guesses: unknown[] };
 		expect(fetchMock).toHaveBeenCalledWith(
-			'/api/scores',
-			expect.objectContaining({
-				method: 'POST',
-				body: JSON.stringify({
-					correct: rounds.length,
-					attempted: rounds.length,
-					ageRange: null,
-					ethnicities: null,
-					intendedVote: null
-				})
-			})
+			'/nz-election-2026/scores',
+			expect.objectContaining({ method: 'POST' })
 		);
+		expect(posted.correct).toBe(rounds.length);
+		expect(posted.attempted).toBe(rounds.length);
+		expect(posted.guesses).toHaveLength(rounds.length);
 		expect(
 			screen.getByRole('heading', {
 				name: `${rounds.length} / ${rounds.length}`
 			})
 		).toBeTruthy();
 
+		await waitFor(() => {
+			expect(screen.getByRole('link', { name: 'public dataset' })).toBeTruthy();
+		});
+
 		fireEvent.click(screen.getByRole('button', { name: 'Play again' }));
 
 		expect(screen.getByText(`1 / ${rounds.length}`)).toBeTruthy();
 		expect(screen.getByRole('button', { name: 'Policy 1' })).toBeTruthy();
-		expect(screen.queryByText('Three optional questions')).toBeNull();
+		expect(screen.queryByText('Optional questions')).toBeNull();
+	});
+
+	it('on a phone, tapping a peeked policy brings it to the front without guessing', () => {
+		stubCarousel(true);
+		const { container, onGuess } = renderGame();
+
+		expect(container.querySelector('.game-cards--deck')).toBeTruthy();
+		expect(policyButton(0).getAttribute('aria-current')).toBe('true');
+
+		fireEvent.click(policyButton(1));
+
+		expect(onGuess).not.toHaveBeenCalled();
+		expect(policyButton(1).getAttribute('aria-current')).toBe('true');
+		expect(policyButton(0).getAttribute('aria-current')).toBeNull();
+	});
+
+	it('on a phone, tapping the front policy chooses it', () => {
+		stubCarousel(true);
+		const { onGuess, rounds } = renderGame();
+		const first = rounds[0];
+		if (!first) {
+			throw new Error('expected a first round');
+		}
+
+		fireEvent.click(policyButton(0));
+
+		expect(onGuess).toHaveBeenCalledOnce();
+		expect(onGuess).toHaveBeenCalledWith(first.targetIndex === 0);
+	});
+
+	it('on a phone, tapping a peeked policy then tapping it again chooses it', () => {
+		stubCarousel(true);
+		const { onGuess, rounds } = renderGame();
+		const first = rounds[0];
+		if (!first) {
+			throw new Error('expected a first round');
+		}
+
+		fireEvent.click(policyButton(1));
+		expect(onGuess).not.toHaveBeenCalled();
+
+		fireEvent.click(policyButton(1));
+		expect(onGuess).toHaveBeenCalledOnce();
+		expect(onGuess).toHaveBeenCalledWith(first.targetIndex === 1);
+	});
+
+	it('on a phone, swiping left moves to the next policy without guessing', () => {
+		stubCarousel(true);
+		const { container, onGuess } = renderGame();
+		const deck = container.querySelector('.game-cards');
+		if (!deck) {
+			throw new Error('expected the policy deck');
+		}
+
+		swipeDeck(deck, 200, 140);
+
+		expect(onGuess).not.toHaveBeenCalled();
+		expect(policyButton(1).getAttribute('aria-current')).toBe('true');
+		expect(screen.getByText('Policy 2 of 3')).toBeTruthy();
+	});
+
+	it('on a phone, swiping right wraps to the last policy', () => {
+		stubCarousel(true);
+		const { container, onGuess } = renderGame();
+		const deck = container.querySelector('.game-cards');
+		if (!deck) {
+			throw new Error('expected the policy deck');
+		}
+
+		swipeDeck(deck, 140, 220);
+
+		expect(onGuess).not.toHaveBeenCalled();
+		expect(policyButton(2).getAttribute('aria-current')).toBe('true');
+	});
+
+	it('on a phone, the policy dots move the front card', () => {
+		stubCarousel(true);
+		const { onGuess } = renderGame();
+
+		fireEvent.click(screen.getByRole('button', { name: 'Show policy 3' }));
+
+		expect(onGuess).not.toHaveBeenCalled();
+		expect(policyButton(2).getAttribute('aria-current')).toBe('true');
+	});
+
+	it('on a phone, the game fills the screen without a window frame', () => {
+		stubCarousel(true);
+		const { container } = renderGame();
+
+		expect(container.querySelector('.game-overlay--flush')).toBeTruthy();
+		expect(container.querySelector('[role="dialog"]')).toBeNull();
 	});
 });

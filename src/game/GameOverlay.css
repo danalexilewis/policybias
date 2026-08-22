@@ -4,70 +4,39 @@
 	z-index: 80;
 	display: flex;
 	flex-direction: column;
-	padding: 1.25rem 1.5rem 1.25rem;
-	color: #f4f1ea;
-	background: #100f0e;
+	padding: 16px;
+	color: var(--ink);
+	background: color-mix(in srgb, var(--ink) 16%, var(--paper));
 }
 
-.game-exit {
-	position: absolute;
-	top: 1.1rem;
-	right: 1.1rem;
-	z-index: 6;
-	display: grid;
-	place-items: center;
-	width: 2.75rem;
-	height: 2.75rem;
-	padding: 0;
-	border: 1.5px solid rgb(244 241 234 / 45%);
-	border-radius: 50%;
-	background: rgb(12 11 10 / 35%);
-	color: #f4f1ea;
-}
-
-.game-exit svg {
-	width: 1.15rem;
-	height: 1.15rem;
-}
-
-.game-exit:hover {
-	border-color: #f4f1ea;
-	background: rgb(244 241 234 / 10%);
-}
-
-.game-progress {
-	position: absolute;
-	top: 1.45rem;
-	left: 1.5rem;
+.game-shell {
+	flex: 1 1 auto;
+	min-height: 0;
 	display: flex;
-	align-items: baseline;
-	gap: 0.85rem;
-	margin: 0;
-	font-size: 0.85rem;
-	letter-spacing: 0.04em;
-	color: rgb(244 241 234 / 55%);
-}
-
-.game-progress__score {
-	color: rgb(244 241 234 / 82%);
+	flex-direction: column;
+	padding: 16px 20px 20px;
+	position: relative;
 }
 
 .game-heading {
 	flex: 0 0 auto;
 	text-align: center;
-	margin: 1.75rem 0 1.25rem;
+	margin: 0 0 1.25rem;
 }
 
 .game-heading__kicker {
 	margin: 0;
-	font-size: clamp(1.15rem, 2.6vw, 1.85rem);
-	font-weight: 500;
-	letter-spacing: 0.04em;
-	color: rgb(244 241 234 / 78%);
+	font-family: var(--font-mono);
+	font-size: clamp(0.95rem, 2vw, 1.25rem);
+	font-weight: 600;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--muted);
 }
 
 .game-heading__party {
 	margin: 0.2rem 0 0;
+	font-family: var(--font-ui);
 	font-size: clamp(2.6rem, 8vw, 5.75rem);
 	font-weight: 700;
 	letter-spacing: -0.045em;
@@ -83,9 +52,58 @@
 	min-height: 0;
 }
 
+.game-cards--deck {
+	--drag: 0px;
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	grid-template-rows: minmax(0, 1fr);
+	gap: 0;
+	overflow: hidden;
+	position: relative;
+	isolation: isolate;
+}
+
+.game-cards--deck,
+.game-cards--deck .game-card,
+.game-cards--deck .game-card__scroll {
+	touch-action: pan-y;
+}
+
+.game-cards--deck .game-card {
+	grid-area: 1 / 1;
+	width: min(82%, 28rem);
+	height: 100%;
+	max-height: 100%;
+	justify-self: center;
+	align-self: stretch;
+	z-index: 1;
+	user-select: none;
+	transform: translateX(calc(var(--deck-slot) * 72% + var(--drag))) scale(0.94);
+	transform-origin: center center;
+	transition: transform 280ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.game-cards--deck .game-card--front {
+	z-index: 2;
+	user-select: text;
+	transform: translateX(var(--drag)) scale(1);
+}
+
+.game-cards--deck .game-card--front .game-card__scroll {
+	-webkit-overflow-scrolling: touch;
+}
+
+.game-cards--dragging .game-card {
+	transition: none;
+}
+
+.game-cards--deck .game-card:not(.game-card--front) .game-card__scroll {
+	overflow: hidden;
+}
+
 .game-card {
-	--game-ring-colour: #f4f1ea;
-	--game-ring-width: 10px;
+	--game-ring-colour: var(--ink);
+	--game-ring-width: 8px;
 	display: flex;
 	flex-direction: column;
 	align-self: start;
@@ -95,78 +113,138 @@
 	min-height: 0;
 	overflow: hidden;
 	padding: 0;
-	/* Thick ring is always reserved (transparent until hover/select) so cards do not shift. */
 	border: var(--game-ring-width) solid transparent;
-	/* Card radius (8px) plus ring, so the colour follows the card corners. */
-	border-radius: calc(8px + var(--game-ring-width));
+	border-radius: calc(var(--radius) + var(--game-ring-width));
 	background: transparent;
 	color: inherit;
 	text-align: left;
 	cursor: pointer;
-	transition:
-		border-color 120ms ease,
-		opacity 120ms ease;
 }
 
 .game-card__scroll {
 	flex: 1 1 auto;
 	min-height: 0;
 	overflow: auto;
-	border-radius: 8px;
+	border-radius: var(--radius);
 }
 
-.game-card article {
-	width: 100%;
-	box-sizing: border-box;
+.game-card__scroll > * {
 	box-shadow: none;
 }
 
-.game-card:hover,
-.game-card--focus {
-	border-color: var(--game-ring-colour);
+@media (hover: hover) and (pointer: fine) {
+	.game-card:hover,
+	.game-card--focus {
+		border-color: var(--game-ring-colour);
+	}
 }
 
+.game-card--focus,
 .game-card--selected {
 	border-color: var(--game-ring-colour);
 }
 
 .game-actions {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	gap: 8px;
 	min-height: 3.25rem;
 	margin-top: 0.85rem;
 }
 
-.game-text-button {
-	justify-self: start;
-	padding: 0.45rem 0.2rem;
+.game-deck-chrome {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+	width: 100%;
+}
+
+.game-deck-hint {
+	margin: 0;
+	font-family: var(--font-mono);
+	font-size: 0.8rem;
+	letter-spacing: 0.02em;
+	color: var(--muted);
+	text-align: center;
+}
+
+.game-deck-dots {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
+
+.game-deck-dot {
+	display: grid;
+	place-items: center;
+	width: 48px;
+	height: 48px;
+	padding: 0;
 	border: 0;
 	background: transparent;
-	color: rgb(244 241 234 / 72%);
+	color: var(--ink);
+}
+
+.game-deck-dot__mark {
+	width: 8px;
+	height: 8px;
+	border: 2px solid var(--ink);
+	border-radius: 50%;
+	background: transparent;
+}
+
+.game-deck-dot[aria-current='true'] .game-deck-dot__mark {
+	width: 10px;
+	height: 10px;
+	background: var(--ink);
+}
+
+.game-deck-status {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.game-text-button {
+	min-height: 48px;
+	padding: 0.45rem 0.8rem;
+	border: 0;
+	background: transparent;
+	color: var(--accent);
 	font: inherit;
 	text-decoration: underline;
 	text-underline-offset: 0.2em;
 }
 
-.game-text-button:hover {
-	color: #f4f1ea;
-}
-
-.game-next {
+.game-next,
+.game-trivia__continue {
 	appearance: none;
-	border: 0;
-	border-radius: 999px;
+	min-height: 48px;
+	border: 2px solid var(--ink);
+	border-radius: var(--radius);
 	padding: 0.7rem 1.4rem;
-	background: #f4f1ea;
-	color: #1a1a1a;
+	background: var(--accent);
+	color: var(--on-accent);
 	font: inherit;
 	font-weight: 600;
 	cursor: pointer;
+	box-shadow: var(--shadow);
 }
 
-.game-next:hover {
-	background: #fff;
+.game-next:active,
+.game-trivia__continue:active {
+	transform: translate(2px, 2px);
+	box-shadow: var(--shadow-pressed);
 }
 
 .game-empty,
@@ -176,14 +254,14 @@
 	min-height: 0;
 	overflow: auto;
 	width: min(720px, 100%);
-	margin: 3.5rem auto 0;
+	margin: 0 auto;
 }
 
 .game-empty p,
 .game-results__note {
 	margin: 0;
 	text-align: center;
-	color: rgb(244 241 234 / 78%);
+	color: var(--muted);
 }
 
 .game-wrong,
@@ -201,7 +279,7 @@
 .game-wrong ul {
 	margin: 0;
 	padding-left: 1.2rem;
-	color: rgb(244 241 234 / 82%);
+	color: var(--ink);
 }
 
 .game-distribution__chart {
@@ -226,10 +304,10 @@
 	justify-content: flex-end;
 	width: 100%;
 	height: 140px;
-	border: 1px solid rgb(244 241 234 / 18%);
-	border-radius: 0.35rem;
+	border: 2px solid var(--ink);
+	border-radius: var(--radius);
 	overflow: hidden;
-	background: rgb(244 241 234 / 8%);
+	background: var(--paper);
 }
 
 .game-distribution__segment {
@@ -252,7 +330,7 @@
 
 .game-distribution__count {
 	font-size: 0.75rem;
-	color: rgb(244 241 234 / 55%);
+	color: var(--muted);
 }
 
 .game-distribution__legend {
@@ -268,7 +346,7 @@
 	width: 0.85rem;
 	height: 0.85rem;
 	margin-right: 0.35rem;
-	border-radius: 0.15rem;
+	border: 2px solid var(--ink);
 }
 
 .game-distribution__swatch--correct {
@@ -280,7 +358,7 @@
 }
 
 .game-results__note a {
-	color: #f4f1ea;
+	color: var(--accent);
 }
 
 .game-results__actions {
@@ -303,7 +381,7 @@
 	max-width: 36rem;
 	text-align: center;
 	line-height: 1.5;
-	color: rgb(244 241 234 / 78%);
+	color: var(--muted);
 }
 
 .game-census__form {
@@ -316,8 +394,8 @@
 .game-census fieldset {
 	margin: 0;
 	padding: 0.9rem 1rem 1rem;
-	border: 1px solid rgb(244 241 234 / 18%);
-	border-radius: 0.75rem;
+	border: 2px solid var(--ink);
+	border-radius: var(--radius);
 }
 
 .game-census legend {
@@ -328,7 +406,7 @@
 .game-census__hint {
 	margin: 0 0 0.55rem;
 	font-size: 0.85rem;
-	color: rgb(244 241 234 / 55%);
+	color: var(--muted);
 }
 
 .game-census__options {
@@ -347,12 +425,38 @@
 	display: flex;
 	align-items: flex-start;
 	gap: 0.5rem;
-	color: rgb(244 241 234 / 88%);
+	color: var(--ink);
 }
 
 .game-census input {
 	margin-top: 0.2rem;
-	accent-color: #f4f1ea;
+	accent-color: var(--accent);
+}
+
+.game-census__slider {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	gap: 0.75rem;
+	align-items: center;
+	color: var(--muted);
+	font-variant-numeric: tabular-nums;
+}
+
+.game-census__slider--unanswered input[type='range'] {
+	opacity: 0.55;
+}
+
+.game-census input[type='range'] {
+	width: 100%;
+	margin: 0;
+	accent-color: var(--accent);
+}
+
+.game-census__slider-value {
+	margin: 0.55rem 0 0;
+	text-align: center;
+	font-variant-numeric: tabular-nums;
+	color: var(--muted);
 }
 
 .game-census__actions {
@@ -369,34 +473,21 @@
 	z-index: 5;
 	display: grid;
 	place-items: center;
-	padding: 4.5rem 1.5rem 1.5rem;
-	background: rgb(16 15 14 / 72%);
+	padding: 2rem 1.5rem;
+	background: color-mix(in srgb, var(--ink) 35%, var(--paper));
 	cursor: pointer;
 }
 
 .game-trivia__panel {
-	width: min(32rem, 100%);
-	padding: 1.6rem 1.7rem 1.45rem;
-	border-radius: 1rem;
-	background: #f4f1ea;
-	color: #1a1a1a;
-	box-shadow: 0 18px 48px rgb(0 0 0 / 45%);
+	padding: 1.1rem 1.2rem 1.2rem;
 	cursor: default;
 }
 
-.game-trivia__kicker {
-	margin: 0;
-	font-size: 0.8rem;
-	font-weight: 700;
-	letter-spacing: 0.12em;
-	text-transform: uppercase;
-	color: #098137;
-}
-
 .game-trivia__category {
-	margin: 0.35rem 0 0;
+	margin: 0;
+	font-family: var(--font-mono);
 	font-size: 0.85rem;
-	color: rgb(26 26 26 / 62%);
+	color: var(--muted);
 }
 
 .game-trivia__headline {
@@ -411,44 +502,45 @@
 	margin: 0.85rem 0 0;
 	font-size: 1.02rem;
 	line-height: 1.5;
-	color: #2a2a2a;
+	color: var(--ink);
 }
 
 .game-trivia__continue {
-	appearance: none;
 	display: block;
 	margin: 1.35rem 0 0 auto;
-	border: 0;
-	border-radius: 999px;
-	padding: 0.7rem 1.4rem;
-	background: #1a1a1a;
-	color: #f4f1ea;
-	font: inherit;
-	font-weight: 600;
-	cursor: pointer;
 }
 
-.game-trivia__continue:hover {
-	background: #000;
+.game-overlay--flush {
+	padding: 0;
+	background: var(--paper);
+	overscroll-behavior: none;
+}
+
+.game-overlay--flush .game-heading--round {
+	display: none;
+}
+
+.game-overlay--flush .game-shell {
+	padding: 8px 0 max(12px, env(safe-area-inset-bottom));
 }
 
 @media (max-width: 900px) {
-	.game-cards {
-		grid-template-columns: 1fr;
-		overflow: auto;
-	}
-
-	.game-card {
-		max-height: 70vh;
-	}
-
 	.game-heading {
-		margin: 3rem 0 1rem;
+		margin: 0 0 8px;
+	}
+
+	.game-heading__kicker {
+		display: none;
+	}
+
+	.game-heading__party {
+		font-size: clamp(1.6rem, 7vw, 2.4rem);
+		line-height: 1.05;
 	}
 
 	.game-trivia {
-		padding: 5rem 1rem 1rem;
 		align-items: start;
+		padding: 16px 8px;
 	}
 
 	.game-census__options--wrap,

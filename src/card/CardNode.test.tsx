@@ -1,0 +1,68 @@
+// @vitest-environment jsdom
+import { cleanup, render, screen } from '@testing-library/react';
+import { afterEach, describe, expect, it } from 'vitest';
+import type { CardFace, PolicyCard } from '../data/types';
+import { ALL_VISIBLE } from './CardDisplay';
+import { GurkiCard } from './CardNode';
+
+function makeFace(title: string): CardFace {
+	return {
+		kind: 'stated',
+		specId: title,
+		title,
+		scenarios: [],
+		report: { outputs: [], outcomes: [] },
+		activates: [],
+		counts: {
+			scenarios: 0,
+			steps: 0,
+			outputs: 0,
+			outcomes: 0,
+			extrapolated: 0
+		}
+	};
+}
+
+function makeCard(): PolicyCard {
+	return {
+		id: 'labour-medicard',
+		party: 'labour',
+		title: 'Medicard three free doctor visits',
+		clusters: ['health-access'],
+		tags: [],
+		money: 'named-figure',
+		source: {
+			title: 'Medicard',
+			url: 'https://example.test/medicard',
+			path: 'labour/medicard.md'
+		},
+		gaps: [],
+		assumptions: [],
+		stated: makeFace('Medicard three free doctor visits'),
+		counts: { gaps: 0, assumptions: 0 }
+	};
+}
+
+afterEach(cleanup);
+
+describe('GurkiCard', () => {
+	it('paints the category as a solid chip, not a coloured border', () => {
+		render(
+			<GurkiCard
+				card={makeCard()}
+				display={ALL_VISIBLE}
+				face='stated'
+				size='index'
+				clusterLabels={{ 'health-access': 'Health' }}
+			/>
+		);
+
+		const card = screen.getByRole('article');
+		expect(card.style.borderColor).toBe('');
+
+		const category = screen.getByText('Health');
+		expect(category.style.backgroundColor).toBe('rgb(184, 77, 92)');
+		expect(category.style.color).toBe('rgb(255, 255, 255)');
+		expect(category.style.boxShadow).toBe('');
+	});
+});

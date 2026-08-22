@@ -2,7 +2,7 @@
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import type { CardFace, PolicyCard } from '../data/types';
-import { ALL_VISIBLE } from './CardDisplay';
+import { ALL_VISIBLE, type CardDisplay } from './CardDisplay';
 import { CardInspectOverlay } from './CardInspectOverlay';
 
 function makeFace(kind: 'stated' | 'derived', title: string): CardFace {
@@ -53,15 +53,26 @@ function makeCard(withReading: boolean, gaps: string[] = []): PolicyCard {
 
 afterEach(cleanup);
 
+type OverlayRenderExtra = {
+	display?: CardDisplay;
+	onClose?: () => void;
+	onToggleParty?: () => void;
+};
+
+function renderOverlay(card: PolicyCard, extra: OverlayRenderExtra = {}) {
+	return render(
+		<CardInspectOverlay
+			card={card}
+			display={extra.display ?? ALL_VISIBLE}
+			onClose={extra.onClose ?? vi.fn()}
+			onToggleParty={extra.onToggleParty ?? vi.fn()}
+		/>
+	);
+}
+
 describe('CardInspectOverlay', () => {
 	it('shows stated and reading side by side', () => {
-		render(
-			<CardInspectOverlay
-				card={makeCard(true)}
-				display={ALL_VISIBLE}
-				onClose={vi.fn()}
-			/>
-		);
+		renderOverlay(makeCard(true));
 
 		expect(
 			screen.getByRole('dialog', { name: 'Medicard three free doctor visits' })
@@ -84,26 +95,14 @@ describe('CardInspectOverlay', () => {
 	});
 
 	it('says when there is no reading', () => {
-		render(
-			<CardInspectOverlay
-				card={makeCard(false)}
-				display={ALL_VISIBLE}
-				onClose={vi.fn()}
-			/>
-		);
+		renderOverlay(makeCard(false));
 
 		expect(screen.getByText(/Nothing to add/)).toBeTruthy();
 	});
 
-	it('puts gaps and assumptions below the stated card', () => {
-		render(
-			<CardInspectOverlay
-				card={makeCard(true, [
-					'what happens if CGT revenue falls short is not stated'
-				])}
-				display={ALL_VISIBLE}
-				onClose={vi.fn()}
-			/>
+	it('puts gaps under stated and assumptions under our reading', () => {
+		renderOverlay(
+			makeCard(true, ['what happens if CGT revenue falls short is not stated'])
 		);
 
 		expect(screen.getByRole('heading', { name: 'Gaps' })).toBeTruthy();
@@ -120,20 +119,61 @@ describe('CardInspectOverlay', () => {
 		expect(
 			screen.queryByText('Reasoning we supplied, not a published claim.')
 		).toBeNull();
+
+		const stated = screen.getByText('Stated');
+		const gaps = screen.getByRole('heading', { name: 'Gaps' });
+		const reading = screen.getByText('Our understanding');
+		const assumptions = screen.getByRole('heading', { name: 'Assumptions' });
+		expect(
+			stated.compareDocumentPosition(gaps) & Node.DOCUMENT_POSITION_FOLLOWING
+		).toBeTruthy();
+		expect(
+			gaps.compareDocumentPosition(reading) & Node.DOCUMENT_POSITION_FOLLOWING
+		).toBeTruthy();
+		expect(
+			reading.compareDocumentPosition(assumptions) &
+				Node.DOCUMENT_POSITION_FOLLOWING
+		).toBeTruthy();
 	});
 
 	it('closes on Escape and the close control', () => {
 		const onClose = vi.fn();
-		render(
-			<CardInspectOverlay
-				card={makeCard(true)}
-				display={ALL_VISIBLE}
-				onClose={onClose}
-			/>
-		);
+		renderOverlay(makeCard(true), { onClose });
 
 		fireEvent.keyDown(window, { key: 'Escape' });
 		fireEvent.click(screen.getByRole('button', { name: 'Close policy' }));
 		expect(onClose).toHaveBeenCalledTimes(2);
+	});
+
+	it('toggles party from the top-left switch without closing', () => {
+		const onClose = vi.fn();
+		const onToggleParty = vi.fn();
+		const { rerender } = renderOverlay(makeCard(true), {
+			display: { ...ALL_VISIBLE, party: false },
+			onClose,
+			onToggleParty
+		});
+
+		const toggle = screen.getByRole('switch', { name: 'Party' });
+		expect(toggle.getAttribute('aria-checked')).toBe('false');
+		expect(screen.queryByAltText('Labour')).toBeNull();
+
+		fireEvent.click(toggle);
+		expect(onToggleParty).toHaveBeenCalledTimes(1);
+		expect(onClose).not.toHaveBeenCalled();
+
+		rerender(
+			<CardInspectOverlay
+				card={makeCard(true)}
+				display={ALL_VISIBLE}
+				onClose={onClose}
+				onToggleParty={onToggleParty}
+			/>
+		);
+
+		expect(
+			screen.getByRole('switch', { name: 'Party' }).getAttribute('aria-checked')
+		).toBe('true');
+		expect(screen.getAllByAltText('Labour').length).toBeGreaterThan(0);
 	});
 });

@@ -1,23 +1,35 @@
 import {
 	useEffect,
+	useRef,
 	useState,
 	type CSSProperties,
 	type JSX,
+	type PointerEvent,
 	type ReactNode
 } from 'react';
 import type { PartyId, PolicyCard } from '../data/types';
 import { GurkiCard } from '../card/CardNode';
+import { AppWindow } from '../chrome/AppWindow';
 import { GAME_DISPLAY, type CardDisplay } from '../card/CardDisplay';
 import { PARTY_COLOURS, PARTY_LABELS } from '../card/anonymise';
 import {
-	ALL_PARTIES,
-	dealAllRounds,
-	MAX_GAME_ROUNDS,
-	type DealRound
-} from './dealRound';
+	carouselLayoutMatches,
+	carouselMediaQuery,
+	classifyDeckGesture,
+	deckSlot,
+	focusAfterGesture,
+	stepDeckIndex,
+	type DeckIndex
+} from './cardDeck';
+import { dealAllRounds, MAX_GAME_ROUNDS, type DealRound } from './dealRound';
 import { pickClusterTrivia, type ClusterTrivia } from './clusterTrivia';
+import { CURRENT_EVENT_ID, eventScoresPath } from '../event/events';
 import { GameCensus } from './GameCensus';
-import { backgroundFromAnswers, type BackgroundAnswers } from './scoreRecord';
+import {
+	backgroundFromAnswers,
+	scoresByGuessedParty,
+	type BackgroundAnswers
+} from './scoreRecord';
 import { publishScoreRecord } from './publishScoreRecord';
 import type { GameScore } from './scoreStore';
 import './GameOverlay.css';
@@ -57,10 +69,10 @@ function initialSeed(): number {
 	return Math.floor(Math.random() * 0xffffffff);
 }
 
-/** Heading colour on the dark game field; NZ First's black would disappear. */
+/** Heading colour on lemon paper; pale party colours stay ink. */
 function headingPartyColour(party: PartyId): string {
-	if (party === 'nz-first') {
-		return '#f4f1ea';
+	if (party === 'nz-first' || party === 'act' || party === 'opportunity') {
+		return '#171717';
 	}
 	return PARTY_COLOURS[party];
 }
@@ -74,69 +86,72 @@ function TriviaDialog(props: {
 	return (
 		<div className='game-trivia' role='presentation' onClick={props.onDismiss}>
 			<div
-				className='game-trivia__panel'
 				role='dialog'
 				aria-modal='true'
 				aria-labelledby='game-trivia-title'
 				aria-describedby='game-trivia-body'
 				onClick={(event) => event.stopPropagation()}
 			>
-				<p className='game-trivia__kicker'>Correct</p>
-				<p className='game-trivia__category'>{props.trivia.category}</p>
-				<h3 id='game-trivia-title' className='game-trivia__headline'>
-					{props.trivia.headline}
-				</h3>
-				<p id='game-trivia-body' className='game-trivia__body'>
-					{props.trivia.body}
-				</p>
-				<button
-					type='button'
-					className='game-trivia__continue'
-					autoFocus
-					onClick={props.onNext}
-				>
-					{props.nextLabel}
-				</button>
+				<AppWindow title='Correct'>
+					<div className='game-trivia__panel'>
+						<p className='game-trivia__category'>{props.trivia.category}</p>
+						<h3 id='game-trivia-title' className='game-trivia__headline'>
+							{props.trivia.headline}
+						</h3>
+						<p id='game-trivia-body' className='game-trivia__body'>
+							{props.trivia.body}
+						</p>
+						<button
+							type='button'
+							className='game-trivia__continue'
+							autoFocus
+							onClick={props.onNext}
+						>
+							{props.nextLabel}
+						</button>
+					</div>
+				</AppWindow>
 			</div>
 		</div>
-	);
-}
-
-function ExitButton(props: { onExit: () => void }): JSX.Element {
-	return (
-		<button
-			type='button'
-			className='game-exit'
-			onClick={props.onExit}
-			aria-label='Exit game'
-		>
-			<svg viewBox='0 0 24 24' aria-hidden='true' focusable='false'>
-				<path
-					d='M6 6l12 12M18 6L6 18'
-					fill='none'
-					stroke='currentColor'
-					strokeWidth='2'
-					strokeLinecap='round'
-				/>
-			</svg>
-		</button>
 	);
 }
 
 function GameShell(props: {
 	label: string;
 	onExit: () => void;
+	trailing?: ReactNode;
+	flush: boolean;
 	children: ReactNode;
 }): JSX.Element {
 	return (
 		<div
-			className='game-overlay'
-			role='dialog'
-			aria-modal='true'
-			aria-label={props.label}
+			className={
+				props.flush ? 'game-overlay game-overlay--flush' : 'game-overlay'
+			}
 		>
-			<ExitButton onExit={props.onExit} />
-			{props.children}
+			<AppWindow
+				title={props.label}
+				onClose={props.onExit}
+				closeLabel='Exit game'
+				trailing={props.trailing}
+				fill
+				bare={props.flush}
+			>
+				{props.flush ? (
+					<main className='game-shell' aria-label={props.label}>
+						{props.children}
+					</main>
+				) : (
+					<div
+						className='game-shell'
+						role='dialog'
+						aria-modal='true'
+						aria-label={props.label}
+					>
+						{props.children}
+					</div>
+				)}
+			</AppWindow>
 		</div>
 	);
 }
@@ -166,6 +181,20 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 	const [history, setHistory] = useState<GuessRecord[]>([]);
 	const [trivia, setTrivia] = useState<ClusterTrivia | null>(null);
 	const [usedTriviaIds, setUsedTriviaIds] = useState<string[]>([]);
+	const [datasetState, setDatasetState] = useState<
+		'idle' | 'saving' | 'saved' | 'failed'
+	>('idle');
+	const [isCarousel, setIsCarousel] = useState(() =>
+		carouselLayoutMatches(window.matchMedia)
+	);
+	const deckRef = useRef<HTMLDivElement>(null);
+	const suppressClickUntilRef = useRef(0);
+	const dragRef = useRef<{
+		pointerId: number | null;
+		startX: number;
+		startY: number;
+		axis: 'undecided' | 'x' | 'y';
+	}>({ pointerId: null, startX: 0, startY: 0, axis: 'undecided' });
 
 	const currentRound: DealRound | null = rounds[roundIndex] ?? null;
 	const roundNumber = roundIndex + 1;
@@ -243,12 +272,12 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 				if (event.key === 'ArrowLeft') {
 					event.preventDefault();
 					setKeyboardActive(true);
-					setFocusIndex((previous) => ((previous + 2) % 3) as 0 | 1 | 2);
+					setFocusIndex((previous) => stepDeckIndex(previous, -1));
 				}
 				if (event.key === 'ArrowRight') {
 					event.preventDefault();
 					setKeyboardActive(true);
-					setFocusIndex((previous) => ((previous + 1) % 3) as 0 | 1 | 2);
+					setFocusIndex((previous) => stepDeckIndex(previous, 1));
 				}
 				if (event.key === 'Enter') {
 					event.preventDefault();
@@ -260,12 +289,12 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 				if (event.key === 'ArrowLeft') {
 					event.preventDefault();
 					setKeyboardActive(true);
-					setFocusIndex((previous) => ((previous + 2) % 3) as 0 | 1 | 2);
+					setFocusIndex((previous) => stepDeckIndex(previous, -1));
 				}
 				if (event.key === 'ArrowRight') {
 					event.preventDefault();
 					setKeyboardActive(true);
-					setFocusIndex((previous) => ((previous + 1) % 3) as 0 | 1 | 2);
+					setFocusIndex((previous) => stepDeckIndex(previous, 1));
 				}
 				if (event.key === 'Enter') {
 					event.preventDefault();
@@ -288,50 +317,174 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 		onGuess
 	]);
 
-	function finishCensus(answers: BackgroundAnswers): void {
-		if (history.length >= 1) {
-			void publishScoreRecord({
-				correct: score,
-				attempted: history.length,
-				...backgroundFromAnswers(answers)
-			});
+	useEffect(() => {
+		if (typeof window.matchMedia !== 'function') {
+			return;
 		}
+		const query = window.matchMedia(carouselMediaQuery());
+		function syncQuery(): void {
+			setIsCarousel(query.matches);
+		}
+		syncQuery();
+		query.addEventListener('change', syncQuery);
+		return () => query.removeEventListener('change', syncQuery);
+	}, []);
+
+	function resetDeckDrag(target: HTMLDivElement): void {
+		target.classList.remove('game-cards--dragging');
+		target.style.setProperty('--drag', '0px');
+		const pointerId = dragRef.current.pointerId;
+		if (
+			pointerId !== null &&
+			typeof target.hasPointerCapture === 'function' &&
+			target.hasPointerCapture(pointerId)
+		) {
+			target.releasePointerCapture(pointerId);
+		}
+		dragRef.current = {
+			pointerId: null,
+			startX: 0,
+			startY: 0,
+			axis: 'undecided'
+		};
+	}
+
+	function onDeckPointerDown(event: PointerEvent<HTMLDivElement>): void {
+		if (!isCarousel || trivia) {
+			return;
+		}
+		dragRef.current = {
+			pointerId: event.pointerId,
+			startX: event.clientX,
+			startY: event.clientY,
+			axis: 'undecided'
+		};
+	}
+
+	function onDeckPointerMove(event: PointerEvent<HTMLDivElement>): void {
+		if (!isCarousel || dragRef.current.pointerId !== event.pointerId) {
+			return;
+		}
+
+		const dx = event.clientX - dragRef.current.startX;
+		const dy = event.clientY - dragRef.current.startY;
+		const absX = Math.abs(dx);
+		const absY = Math.abs(dy);
+
+		if (dragRef.current.axis === 'undecided') {
+			if (absX < 8 && absY < 8) {
+				return;
+			}
+			dragRef.current.axis = absX > absY ? 'x' : 'y';
+			if (dragRef.current.axis === 'x') {
+				event.currentTarget.classList.add('game-cards--dragging');
+				try {
+					event.currentTarget.setPointerCapture(event.pointerId);
+				} catch {
+					// jsdom and some implicit-capture paths throw; drag still tracks.
+				}
+			}
+		}
+
+		if (dragRef.current.axis !== 'x') {
+			return;
+		}
+
+		event.preventDefault();
+		event.currentTarget.style.setProperty('--drag', `${dx}px`);
+	}
+
+	function onDeckPointerEnd(event: PointerEvent<HTMLDivElement>): void {
+		if (!isCarousel || dragRef.current.pointerId !== event.pointerId) {
+			return;
+		}
+
+		const dx = event.clientX - dragRef.current.startX;
+		const dy = event.clientY - dragRef.current.startY;
+		const axis = dragRef.current.axis;
+		const gesture = classifyDeckGesture(dx, dy);
+
+		if (axis === 'x') {
+			suppressClickUntilRef.current = Date.now() + 350;
+			const nextFocus = focusAfterGesture(focusIndex, gesture);
+			if (nextFocus !== focusIndex) {
+				setFocusIndex(nextFocus);
+				setKeyboardActive(true);
+			}
+		}
+
+		resetDeckDrag(event.currentTarget);
+	}
+
+	function onCardActivate(cardIndex: DeckIndex): void {
+		if (Date.now() < suppressClickUntilRef.current) {
+			return;
+		}
+
+		if (isCarousel && cardIndex !== focusIndex) {
+			setFocusIndex(cardIndex);
+			setKeyboardActive(true);
+			return;
+		}
+
+		if (phase === 'playing') {
+			lockGuess(cardIndex);
+			return;
+		}
+
+		if (phase === 'revealed') {
+			setKeyboardActive(true);
+			setFocusIndex(cardIndex);
+		}
+	}
+
+	async function finishCensus(answers: BackgroundAnswers): Promise<void> {
+		setDatasetState('saving');
 		setPhase('results');
+		if (history.length < 1) {
+			setDatasetState('failed');
+			return;
+		}
+
+		const saved = await publishScoreRecord({
+			correct: score,
+			attempted: history.length,
+			guesses: history.map((record) => ({
+				guessedParty: record.guessedParty,
+				targetParty: record.targetParty,
+				correct: record.correct
+			})),
+			...backgroundFromAnswers(answers)
+		});
+		setDatasetState(saved ? 'saved' : 'failed');
 	}
 
 	if (phase === 'census') {
 		return (
-			<GameShell label='Before your score' onExit={onExit}>
+			<GameShell label='Before your score' onExit={onExit} flush={isCarousel}>
 				<GameCensus onContinue={finishCensus} />
 			</GameShell>
 		);
 	}
 
 	if (phase === 'results') {
-		const guessDistribution = Object.fromEntries(
-			ALL_PARTIES.map((party) => [party, { correct: 0, wrong: 0 }])
-		) as Record<PartyId, { correct: number; wrong: number }>;
-
-		for (const record of history) {
-			if (record.correct) {
-				guessDistribution[record.guessedParty].correct += 1;
-			} else {
-				guessDistribution[record.guessedParty].wrong += 1;
-			}
-		}
+		const guessScores = scoresByGuessedParty(
+			history.map((record) => ({
+				guessedParty: record.guessedParty,
+				targetParty: record.targetParty,
+				correct: record.correct
+			}))
+		);
 
 		const maxGuessCount = Math.max(
 			1,
-			...ALL_PARTIES.map((party) => {
-				const bucket = guessDistribution[party];
-				return bucket.correct + bucket.wrong;
-			})
+			...guessScores.map((bucket) => bucket.attempted)
 		);
 
 		const wrongGuesses = history.filter((record) => !record.correct);
 
 		return (
-			<GameShell label='Game results' onExit={onExit}>
+			<GameShell label='Game results' onExit={onExit} flush={isCarousel}>
 				<div className='game-results'>
 					<header className='game-heading'>
 						<p className='game-heading__kicker'>Results</p>
@@ -371,17 +524,21 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 					<section className='game-distribution'>
 						<h3>Your guesses by party</h3>
 						<div className='game-distribution__chart'>
-							{ALL_PARTIES.map((party) => {
-								const bucket = guessDistribution[party];
-								const total = bucket.correct + bucket.wrong;
+							{guessScores.map((bucket) => {
+								const total = bucket.attempted;
 								const correctHeight = (bucket.correct / maxGuessCount) * 100;
-								const wrongHeight = (bucket.wrong / maxGuessCount) * 100;
+								const wrongHeight =
+									((total - bucket.correct) / maxGuessCount) * 100;
 
 								return (
-									<div key={party} className='game-distribution__column'>
+									<div key={bucket.party} className='game-distribution__column'>
 										<div
 											className='game-distribution__stack'
-											aria-label={`${PARTY_LABELS[party]}: ${total} guesses`}
+											aria-label={
+												total === 0
+													? `${PARTY_LABELS[bucket.party]}: no guesses`
+													: `${PARTY_LABELS[bucket.party]}: ${bucket.correct} / ${total}`
+											}
 										>
 											<span
 												className='game-distribution__segment game-distribution__segment--wrong'
@@ -391,14 +548,16 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 												className='game-distribution__segment game-distribution__segment--correct'
 												style={{
 													height: `${correctHeight}%`,
-													backgroundColor: PARTY_COLOURS[party]
+													backgroundColor: PARTY_COLOURS[bucket.party]
 												}}
 											/>
 										</div>
 										<span className='game-distribution__label'>
-											{PARTY_LABELS[party]}
+											{PARTY_LABELS[bucket.party]}
 										</span>
-										<span className='game-distribution__count'>{total}</span>
+										<span className='game-distribution__count'>
+											{total === 0 ? '0' : `${bucket.correct} / ${total}`}
+										</span>
 									</div>
 								);
 							})}
@@ -412,7 +571,21 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 					</section>
 
 					<p className='game-results__note'>
-						This score is in the <a href='/api/scores'>public dataset</a>.
+						{datasetState === 'saving'
+							? 'Saving this score to the public dataset…'
+							: null}
+						{datasetState === 'saved' ? (
+							<>
+								This score is in the{' '}
+								<a href={eventScoresPath(CURRENT_EVENT_ID)}>public dataset</a>
+							</>
+						) : null}
+						{datasetState === 'failed' ? (
+							<>
+								This score could not be saved.{' '}
+								<a href={eventScoresPath(CURRENT_EVENT_ID)}>Public dataset</a>
+							</>
+						) : null}
 					</p>
 
 					<div className='game-results__actions'>
@@ -427,7 +600,7 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 
 	if (!currentRound) {
 		return (
-			<GameShell label='Choose the policy' onExit={onExit}>
+			<GameShell label='Choose the policy' onExit={onExit} flush={isCarousel}>
 				<div className='game-empty'>
 					<p>No rounds could be dealt from the current card set.</p>
 				</div>
@@ -441,38 +614,52 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 	};
 
 	return (
-		<GameShell label={`Choose the ${partyName} policy`} onExit={onExit}>
-			<p className='game-progress'>
-				<span>
-					{roundNumber} / {rounds.length}
-				</span>
-				<span className='game-progress__score'>
-					Score {score}
-					{history.length > 0 ? ` / ${history.length}` : ''}
-				</span>
-			</p>
-
-			<header className='game-heading'>
+		<GameShell
+			label={`Choose the ${partyName} policy`}
+			onExit={onExit}
+			flush={isCarousel}
+			trailing={
+				<>
+					<span>
+						{roundNumber} / {rounds.length}
+					</span>
+					<span>
+						Score {score}
+						{history.length > 0 ? ` / ${history.length}` : ''}
+					</span>
+				</>
+			}
+		>
+			<header className='game-heading game-heading--round'>
 				<p className='game-heading__kicker'>Choose the policy</p>
 				<h2 className='game-heading__party' style={partyStyle}>
 					{partyName}
 				</h2>
 			</header>
 
-			<div className='game-cards'>
+			<div
+				ref={deckRef}
+				className={isCarousel ? 'game-cards game-cards--deck' : 'game-cards'}
+				onPointerDown={onDeckPointerDown}
+				onPointerMove={onDeckPointerMove}
+				onPointerUp={onDeckPointerEnd}
+				onPointerCancel={onDeckPointerEnd}
+			>
 				{currentRound.cards.map((card, index) => {
-					const cardIndex = index as 0 | 1 | 2;
+					const cardIndex = index as DeckIndex;
 					const isTarget = cardIndex === currentRound.targetIndex;
 					const isGuessed = guessedIndex === cardIndex;
-					const isBrowsing =
-						phase === 'revealed' && keyboardActive && focusIndex === cardIndex;
+					const isFront = focusIndex === cardIndex;
+					const isBrowsing = phase === 'revealed' && keyboardActive && isFront;
+					const showFocusRing =
+						(isCarousel && isFront) ||
+						(!isCarousel && keyboardActive && isFront) ||
+						isBrowsing;
 					const isSelected = phase === 'revealed';
 					const className = [
 						'game-card',
-						phase === 'playing' && keyboardActive && focusIndex === cardIndex
-							? 'game-card--focus'
-							: '',
-						isBrowsing ? 'game-card--focus' : '',
+						isCarousel && isFront ? 'game-card--front' : '',
+						showFocusRing ? 'game-card--focus' : '',
 						isSelected ? 'game-card--selected' : '',
 						phase === 'revealed' && isGuessed && !isTarget
 							? 'game-card--wrong'
@@ -486,7 +673,8 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 							? headingPartyColour(currentRound.targetParty)
 							: PARTY_COLOURS[card.party];
 					const ringStyle = {
-						'--game-ring-colour': ringColour
+						'--game-ring-colour': ringColour,
+						'--deck-slot': isCarousel ? deckSlot(cardIndex, focusIndex) : 0
 					} as CSSProperties;
 
 					return (
@@ -496,25 +684,19 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 							className={className}
 							style={ringStyle}
 							aria-pressed={isGuessed}
+							aria-current={isCarousel && isFront ? 'true' : undefined}
 							aria-label={
 								phase === 'playing'
 									? `Policy ${cardIndex + 1}`
 									: `${PARTY_LABELS[card.party]} policy`
 							}
-							onClick={() => {
-								if (phase === 'playing') {
-									lockGuess(cardIndex);
-									return;
-								}
-								if (phase === 'revealed') {
-									setKeyboardActive(true);
-									setFocusIndex(cardIndex);
-								}
-							}}
+							onClick={() => onCardActivate(cardIndex)}
 						>
 							<div className='game-card__scroll'>
 								<GurkiCard
 									card={card}
+									as='div'
+									size='game'
 									display={
 										phase === 'revealed'
 											? GAME_REVEAL_DISPLAY
@@ -528,6 +710,37 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 			</div>
 
 			<div className='game-actions'>
+				{isCarousel ? (
+					<div className='game-deck-chrome'>
+						{phase === 'playing' ? (
+							<p className='game-deck-hint'>Swipe to compare · tap to choose</p>
+						) : null}
+						<div
+							className='game-deck-dots'
+							role='group'
+							aria-label='Which policy'
+						>
+							{([0, 1, 2] as const).map((index) => (
+								<button
+									key={index}
+									type='button'
+									className='game-deck-dot'
+									aria-label={`Show policy ${index + 1}`}
+									aria-current={focusIndex === index ? 'true' : undefined}
+									onClick={() => {
+										setFocusIndex(index);
+										setKeyboardActive(true);
+									}}
+								>
+									<span className='game-deck-dot__mark' />
+								</button>
+							))}
+						</div>
+						<p className='game-deck-status' aria-live='polite'>
+							Policy {focusIndex + 1} of 3
+						</p>
+					</div>
+				) : null}
 				{phase === 'revealed' && !trivia ? (
 					<button type='button' className='game-next' onClick={advanceRound}>
 						{roundNumber >= rounds.length ? 'See results' : 'Next'}

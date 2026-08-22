@@ -88,5 +88,7 @@ describe('PolicyGrid', () => {
 				'what happens if CGT revenue falls short is not stated'
 			)
 		).toBeNull();
+		expect(screen.getByText('Health')).toBeTruthy();
+		expect(screen.getByText('Stated only')).toBeTruthy();
 	});
 });

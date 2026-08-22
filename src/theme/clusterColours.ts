@@ -1,9 +1,9 @@
 /**
- * Stable colours for the eight policy clusters. Used by filter chips,
- * card borders, and cluster tags. Ids match clusters.yaml.
+ * Stable colours for the eight policy clusters. Used by category chips
+ * and filter pills. Ids match clusters.yaml.
  */
 export const CLUSTER_COLOURS: Record<string, string> = {
-  'health-access': '#c45c6a',
+  'health-access': '#b84d5c',
   'energy-power': '#d9783a',
   'tax-fiscal': '#4a6fa5',
   'crime-justice': '#6b4c7a',

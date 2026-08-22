@@ -11,16 +11,21 @@ import type { CardDisplay } from './CardDisplay';
 import { anonymiseText, PARTY_LABELS, stripPartyFromTitle } from './anonymise';
 import { PARTY_LOGOS } from './partyLogos';
 import { clusterColour } from '../theme/clusterColours';
+import { contrastingText } from '../theme/contrast';
 import styles from './CardNode.module.css';
+
+type CardSize = 'grid' | 'index' | 'inspect' | 'game';
 
 type GurkiCardProps = {
 	card: PolicyCard;
 	display: CardDisplay;
 	face?: 'stated' | 'derived';
-	/** Larger type for the inspect overlay. */
-	size?: 'grid' | 'inspect';
+	size?: CardSize;
 	/** Opens the inspect overlay. Source links stop this. */
 	onInspect?: () => void;
+	/** Render as a div inside a game button. */
+	as?: 'article' | 'div';
+	clusterLabels?: Record<string, string>;
 };
 
 /** Fixed-size mark so revealing the party does not change the card header. */
@@ -193,20 +198,39 @@ function FaceBody({
 	face,
 	card,
 	display,
-	hideParty
+	hideParty,
+	size
 }: {
 	face: CardFace;
 	card: PolicyCard;
 	display: CardDisplay;
 	hideParty: boolean;
+	size: CardSize;
 }): JSX.Element {
 	const note = face.note ? maybeAnonymise(face.note, hideParty) : undefined;
+	const outputCount = face.counts.outputs;
+
+	if (size === 'index') {
+		return (
+			<div className={styles.body}>
+				{note ? <p className={styles.note}>{note}</p> : null}
+				<p className={styles.metaLine}>
+					{outputCount > 0
+						? `${outputCount} output${outputCount === 1 ? '' : 's'}`
+						: 'Stated only'}
+				</p>
+			</div>
+		);
+	}
+
+	const scenarios =
+		size === 'game' ? face.scenarios.slice(0, 1) : face.scenarios;
 
 	return (
 		<div className={styles.body}>
 			{note ? <p className={styles.note}>{note}</p> : null}
 
-			{face.scenarios.map((scenario, index) => (
+			{scenarios.map((scenario, index) => (
 				<ScenarioBlock
 					key={`${scenario.title}-${index}`}
 					scenario={scenario}
@@ -228,7 +252,7 @@ function FaceBody({
 				hideParty={hideParty}
 			/>
 
-			{display.source ? (
+			{display.source && size !== 'game' ? (
 				<footer className={styles.source}>
 					<a
 						href={card.source.url}
@@ -250,7 +274,6 @@ type ListCardProps = {
 	kind: ListCardKind;
 	items: string[];
 	hideParty: boolean;
-	borderColour?: string;
 	size?: 'grid' | 'inspect';
 	onInspect?: () => void;
 };
@@ -261,14 +284,13 @@ const LIST_CARD_TITLE: Record<ListCardKind, string> = {
 };
 
 /**
- * Companion card for gaps or assumptions, stacked under the stated face.
+ * Companion card for gaps (under stated) or assumptions (under our reading).
  * Renders nothing when the list is empty.
  */
 export function ListCard({
 	kind,
 	items,
 	hideParty,
-	borderColour,
 	size = 'grid',
 	onInspect
 }: ListCardProps): JSX.Element | null {
@@ -302,7 +324,6 @@ export function ListCard({
 	return (
 		<article
 			className={cardClassName}
-			style={borderColour ? { borderColor: borderColour } : undefined}
 			onClick={onInspect}
 			onKeyDown={onCardKeyDown}
 			role={onInspect ? 'button' : undefined}
@@ -325,17 +346,16 @@ export function GurkiCard({
 	display,
 	face: faceProp,
 	size = 'grid',
-	onInspect
+	onInspect,
+	as = 'article',
+	clusterLabels
 }: GurkiCardProps): JSX.Element {
 	const faceKey = faceProp ?? 'stated';
 	const activeFace =
 		faceKey === 'derived' && card.derived ? card.derived : card.stated;
 	const hideParty = !display.party;
-	const primaryCluster = card.clusters[0];
-	const borderColour = primaryCluster
-		? clusterColour(primaryCluster)
-		: undefined;
 	const title = display.title ? headingText(activeFace.title, hideParty) : '';
+	const Tag = as;
 
 	const cardClassName = [
 		styles.card,
@@ -356,9 +376,8 @@ export function GurkiCard({
 	}
 
 	return (
-		<article
+		<Tag
 			className={cardClassName}
-			style={borderColour ? { borderColor: borderColour } : undefined}
 			onClick={onInspect}
 			onKeyDown={onCardKeyDown}
 			role={onInspect ? 'button' : undefined}
@@ -369,18 +388,21 @@ export function GurkiCard({
 				<div className={styles.meta}>
 					<PartyMark party={card.party} visible={display.party} />
 					<div className={styles.clusters}>
-						{card.clusters.map((clusterId) => (
-							<span
-								key={clusterId}
-								className={styles.clusterChip}
-								style={{
-									backgroundColor: `${clusterColour(clusterId)}24`,
-									boxShadow: `inset 0 0 0 1px ${clusterColour(clusterId)}73`
-								}}
-							>
-								{clusterId}
-							</span>
-						))}
+						{card.clusters.map((clusterId) => {
+							const fill = clusterColour(clusterId);
+							return (
+								<span
+									key={clusterId}
+									className={styles.clusterChip}
+									style={{
+										backgroundColor: fill,
+										color: contrastingText(fill)
+									}}
+								>
+									{clusterLabels?.[clusterId] ?? clusterId}
+								</span>
+							);
+						})}
 					</div>
 				</div>
 
@@ -392,7 +414,8 @@ export function GurkiCard({
 				card={card}
 				display={display}
 				hideParty={hideParty}
+				size={size}
 			/>
-		</article>
+		</Tag>
 	);
 }

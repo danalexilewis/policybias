@@ -34,7 +34,7 @@ function resolveGroupBy(groupBy: GroupBy, partyVisible: boolean): GroupBy {
 	return groupBy;
 }
 
-/** CSS-column masonry of Gurki cards, optionally sectioned by cluster or party. */
+/** CSS-column masonry of Gurki cards, optionally sectioned by category or party. */
 export function PolicyGrid({
 	cards,
 	clusters,
@@ -74,6 +74,10 @@ export function PolicyGrid({
 									card={card}
 									display={display}
 									face='stated'
+									size='index'
+									clusterLabels={Object.fromEntries(
+										clusters.map((cluster) => [cluster.id, cluster.label])
+									)}
 									onInspect={() => onInspect(card)}
 								/>
 							</div>

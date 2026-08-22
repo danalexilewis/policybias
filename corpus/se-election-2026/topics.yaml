@@ -1,0 +1,82 @@
+# Closed dump-page tag vocabulary for SE 2026 stage 3 catalogue.
+#
+# Dump `tags:` must draw from these ids only (1–3 per page).
+# Spec `clusters:` still use clusters.yaml (exactly one canvas id).
+# `usuallyCluster` is a hint for spec sync, not a rule.
+
+topics:
+  - id: healthcare
+    description: Healthcare, waiting lists, hospitals, medicines, insurance.
+    usuallyCluster: health-care
+  - id: education
+    description: Schools, teachers, grades, independent schools, higher education.
+    usuallyCluster: schools-education
+  - id: crime-and-justice
+    description: Crime, sentencing, police, gangs, courts.
+    usuallyCluster: crime-justice
+  - id: immigration
+    description: Asylum, immigration, returns, citizenship, integration.
+    usuallyCluster: migration-integration
+  - id: elderly-care
+    description: Elderly care and municipal care of older people.
+    usuallyCluster: elderly-welfare
+  - id: social-welfare
+    description: Social insurance, welfare services, family support, sickness benefit.
+    usuallyCluster: elderly-welfare
+  - id: pensions
+    description: Pensions, retirement income, PPM.
+    usuallyCluster: elderly-welfare
+  - id: climate
+    description: Climate targets, emissions, climate policy.
+    usuallyCluster: climate-environment
+  - id: environment
+    description: Nature, pollution, waste, biodiversity, environmental rules.
+    usuallyCluster: climate-environment
+  - id: economy
+    description: Growth, budget rules, jobs framed as the economy, distribution.
+    usuallyCluster: economy-tax
+  - id: taxation
+    description: Tax bases, rates, VAT, allowances.
+    usuallyCluster: economy-tax
+  - id: employment
+    description: Labour market, unions, a-kassa, working time, workplace.
+    usuallyCluster: economy-tax
+  - id: energy
+    description: Electricity, nuclear, grid, energy prices and supply.
+    usuallyCluster: energy-power
+  - id: defence
+    description: Defence, NATO, total defence, civil preparedness, security.
+    usuallyCluster: defence-security
+  - id: housing
+    description: Housing supply, rents, construction, home ownership.
+    usuallyCluster: economy-tax
+  - id: transport
+    description: Roads, rail, cycling, public transport, freight.
+    usuallyCluster: climate-environment
+  - id: infrastructure
+    description: Digital infrastructure, broadband, built networks not energy.
+    usuallyCluster: economy-tax
+  - id: agriculture
+    description: Farming, forestry, hunting, fisheries, rural land use.
+    usuallyCluster: climate-environment
+  - id: eu
+    description: EU, Europe, single market, EU climate or migration as EU policy.
+    usuallyCluster: defence-security
+  - id: democracy
+    description: Constitution, voting, public administration, rule of law as system.
+    usuallyCluster: crime-justice
+  - id: culture
+    description: Culture, media, sport, civil society, churches as culture.
+    usuallyCluster: schools-education
+  - id: gender-equality
+    description: Gender equality, honour violence, LGBTQ framed as equality.
+    usuallyCluster: crime-justice
+  - id: foreign-policy
+    description: Foreign affairs, aid, trade as foreign policy (not EU-only).
+    usuallyCluster: defence-security
+  - id: cost-of-living
+    description: Household bills, prices, inflation as living costs (not energy-only).
+    usuallyCluster: economy-tax
+  - id: other
+    description: Hubs, leftover topics, or pages that do not fit another id.
+    usuallyCluster: economy-tax

@@ -15,7 +15,7 @@ clusters:
       en: >-
         Healthcare, waiting lists, nationalising regional care, medicines,
         and private health insurance.
-    tagHints: [sjukvard, halsa, vard]
+    tagHints: [healthcare]
 
   - id: schools-education
     labels:
@@ -27,7 +27,7 @@ clusters:
       en: >-
         Compulsory school, upper secondary, independent schools, teachers,
         and higher education.
-    tagHints: [skola, utbildning]
+    tagHints: [education]
 
   - id: crime-justice
     labels:
@@ -39,7 +39,7 @@ clusters:
       en: >-
         Gang crime, sentencing, the multiple-offence discount, police and
         the courts.
-    tagHints: [brott, rattvisa, gang]
+    tagHints: [crime-and-justice, democracy, gender-equality]
 
   - id: migration-integration
     labels:
@@ -50,7 +50,7 @@ clusters:
         Asyl, invandring, återvändande, medborgarskap och etablering.
       en: >-
         Asylum, immigration, returns, citizenship and settlement.
-    tagHints: [migration, integration, asyl]
+    tagHints: [immigration]
 
   - id: elderly-welfare
     labels:
@@ -61,7 +61,7 @@ clusters:
         Äldreomsorg, pensioner, socialförsäkring och kommunal välfärd.
       en: >-
         Elderly care, pensions, social insurance and municipal welfare.
-    tagHints: [aldreomsorg, pension, valfard]
+    tagHints: [elderly-care, social-welfare, pensions]
 
   - id: climate-environment
     labels:
@@ -72,7 +72,7 @@ clusters:
         Klimatmål, natur, utsläpp och miljöregler.
       en: >-
         Climate targets, nature, emissions and environmental rules.
-    tagHints: [klimat, miljo]
+    tagHints: [climate, environment, transport, agriculture]
 
   - id: economy-tax
     labels:
@@ -83,7 +83,7 @@ clusters:
         Skatter, tillväxt, jobb, budgetregler och fördelning.
       en: >-
         Tax, growth, jobs, fiscal rules and distribution.
-    tagHints: [ekonomi, skatt, jobb]
+    tagHints: [economy, taxation, employment, housing, infrastructure, cost-of-living]
 
   - id: energy-power
     labels:
@@ -94,7 +94,7 @@ clusters:
         Elpriser, kärnkraft, elnät och energiförsörjning.
       en: >-
         Electricity prices, nuclear power, the grid and energy security.
-    tagHints: [energi, el, karnkraft]
+    tagHints: [energy]
 
   - id: defence-security
     labels:
@@ -105,4 +105,4 @@ clusters:
         Försvar, Nato, totalförsvar och civil beredskap.
       en: >-
         Defence, NATO, total defence and civil preparedness.
-    tagHints: [forsvar, nato, sakerhet]
+    tagHints: [defence, eu, foreign-policy]

@@ -27,7 +27,8 @@ The dump script writes only plain `.md` pages and never touches `*.spec.md`. Aut
 ```text
 corpus/se-election-2026/
   README.md                 # this file
-  clusters.yaml             # cluster vocabulary for specs
+  clusters.yaml             # canvas cluster vocabulary for specs
+  topics.yaml               # closed dump-page tag vocabulary (stage 3)
   parties.yaml              # party labels and canvas colours
   _seeds/<party-id>.yaml    # crawl contract (stage 0)
   <party-id>/<slug>.md      # crawled pages (stage 1; written by dump script)
@@ -43,6 +44,8 @@ Party ids: `centerpartiet`, `kristdemokraterna`, `liberalerna`, `miljopartiet`, 
 
 Field names, incremental skip rules, and operator commands: [`../CRAWL.md`](../CRAWL.md).
 
+Stage 3 fills dump `tags` from [`topics.yaml`](topics.yaml) (not canvas cluster ids), `stance` (`intervention` or `not-policy`), and `money` (`named-figure` or `no-figure`). Spec `clusters:` still use [`clusters.yaml`](clusters.yaml). Ingest leaves catalogue fields empty; recrawl preserves filled values.
+
 ## Pipeline stages
 
 | Stage | What | Output |
@@ -50,7 +53,7 @@ Field names, incremental skip rules, and operator commands: [`../CRAWL.md`](../C
 | **0 Contract** | Seeds, envelope, gitignore | `_seeds/*.yaml`, this README, [`../CRAWL.md`](../CRAWL.md) |
 | **1 Ingest** | Crawl party sites → Markdown + local assets | `<party-id>/*.md`, `<party-id>/assets/` |
 | **2 Index** | qmd collection (this machine) | searchable corpus |
-| **3 Catalogue** | Tag/classify pages (front matter only) | filled `tags`, `stance`, `money` |
+| **3 Catalogue** | Tag/classify pages (front matter only) | filled `tags`, `stance`, `money` per [`topics.yaml`](topics.yaml) |
 | **4 Reduce** | Intervention vs keep-the-lights-on | analysis notes |
 | **5 Gurki** | Stated and derived `*.spec.md` alongside each intervention page | [`../nz-election-2026/GURKI.md`](../nz-election-2026/GURKI.md) |
 

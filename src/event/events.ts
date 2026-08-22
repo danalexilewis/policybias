@@ -40,7 +40,15 @@ export function eventGamePath(eventId: EventId): string {
   return `/${eventId}/game`
 }
 
-export type EventView = 'board' | 'game'
+export function eventQuestionsPath(eventId: EventId): string {
+  return `/${eventId}/questions`
+}
+
+export function eventResultsPath(eventId: EventId): string {
+  return `/${eventId}/results`
+}
+
+export type EventView = 'board' | 'game' | 'questions' | 'results'
 
 export function eventIdFromGamePath(pathname: string): EventId | null {
   const match = pathname.match(/^\/([^/]+)\/game\/?$/)
@@ -48,6 +56,12 @@ export function eventIdFromGamePath(pathname: string): EventId | null {
 }
 
 export function eventViewFromPath(pathname: string): EventView {
+  if (pathname.match(/\/questions\/?$/)) {
+    return 'questions'
+  }
+  if (pathname.match(/\/results\/?$/)) {
+    return 'results'
+  }
   return eventIdFromGamePath(pathname) ? 'game' : 'board'
 }
 
@@ -58,6 +72,11 @@ export function parseEventId(value: string | null | undefined): EventId | null {
   return (EVENT_IDS as readonly string[]).includes(value)
     ? (value as EventId)
     : null
+}
+
+export function eventIdFromAppPath(pathname: string): EventId | null {
+  const match = pathname.match(/^\/([^/]+)\/(game|questions|results)\/?$/)
+  return parseEventId(match?.[1])
 }
 
 export function eventIdFromScoresPath(pathname: string): EventId | null {

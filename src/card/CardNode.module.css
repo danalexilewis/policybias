@@ -15,12 +15,6 @@
 	cursor: pointer;
 }
 
-.cardInspect {
-	font-size: 16px;
-	line-height: 1.5;
-	box-shadow: none;
-}
-
 .cardGame {
 	min-height: 100%;
 	display: flex;
@@ -29,6 +23,12 @@
 
 .cardGame .body {
 	flex: 1 1 auto;
+}
+
+.cardInspect {
+	font-size: 16px;
+	line-height: 1.5;
+	box-shadow: none;
 }
 
 .cardInspect .title {

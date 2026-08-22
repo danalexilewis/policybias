@@ -12,7 +12,7 @@ import {
 } from './src/game/scoreRecordStore'
 import {
   CURRENT_EVENT_ID,
-  eventIdFromGamePath,
+  eventIdFromAppPath,
   eventIdFromScoresPath,
   eventScoresPath,
   localScoreRecordsPath,
@@ -61,7 +61,7 @@ function localScoresApi(): Plugin {
 function eventGameSpa(): Plugin {
   function rewriteGamePath(req: IncomingMessage): void {
     const path = req.url?.split('?')[0] ?? ''
-    if (!eventIdFromGamePath(path)) {
+    if (!eventIdFromAppPath(path)) {
       return
     }
     req.url = '/nz-election-2026/index.html'

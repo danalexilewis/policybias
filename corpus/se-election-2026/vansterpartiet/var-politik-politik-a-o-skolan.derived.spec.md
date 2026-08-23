@@ -1,36 +1,48 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-skolan-derived
-title: Skolan (reading)
+title: "Skolvinstförbud läst som system: sortering kan överleva om valet finns kvar"
 status: draft
-updated: 2026-08-22
-summary: Our reading of Skolan
+updated: 2026-08-23
+summary: Att stoppa vinst plockar ut kassa från koncernerna, men sidan namnger det fria skolvalet som sorteringsmotorn och säger aldrig om valet i sig upphör.
 jurisdiction: SE
 sources:
   - title: Skolan
     url: https://www.vansterpartiet.se/var-politik/politik-a-o/skolan
 tags:
   - education
-derivesFrom: vansterpartiet-var-politik-politik-a-o-skolan
 party: vansterpartiet
 clusters:
   - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-skolan.md
-sourceDigest: sha256-34bb3a0c3dee79cd
+derivesFrom: vansterpartiet-var-politik-politik-a-o-skolan
 assumptions:
-  - the page is the 2026 campaign position unless it says otherwise
+  - ett vinstförbud stoppar utdelning; det blandar inte i sig elever om familjer fortfarande väljer mellan skolor
+  - sidan behandlar det fria skolvalet som orsak till segregation, men interventionen den namnger är vinst, statlig styrning och tillit till närområdet
+  - statligt övertagande omfördelar mellan kommuner först när en formel finns; ingen är tryckt
+  - mer resurser efter årtionden av nedskärningar är obegränsat tills en krona eller ett lärarantal namnges
+sourceDigest: "sha256-34bb3a0c3dee79cd"
 ---
 
 # Our understanding
 
-> The party states a direction. Figures that are not on the page are not invented here.
+> Pengar som lämnar skolkoncerner är inte detsamma som att elever blandas. Sidan säger att det fria valet samlar olika bakgrunder på olika skolor, och svarar med vinstförbud och statlig huvudman. Om valet finns kvar kan sorteringen fortsätta på ideell bas medan löftet om närområdesskolan ändå måste finansieras.
 
-System: Skolan
+System: Vinstförbud bredvid en onämnd valregel
 
-Scenario: A reader takes the page at its word
-Given the matching stated spec
-When the policy is read as a system
-Then the intervention is what the page names
-Output no figure is added that the page does not print
-Outcome the derived face does not blend with the stated face
+Scenario: Koncernerna förlorar vinst medan familjerna fortfarande väljer
+Given skolvalet sorterar i dag elever efter bakgrund
+And vinst på skolverksamhet är obegränsad
+When rätten att ta ut vinst avskaffas men valet lämnas onämnt
+Then utdelningar slutar lämna skolan
+Outcome segregationen kan fortsätta genom ideellt urval och rykte
+But ett barn i en svagare skola är fortfarande beroende av en resursformel som politiken inte trycker
+
+Scenario: Staten tar skolorna utan en publicerad fördelningsnyckel
+Given kommunerna driver nu skolor med krympande pengar
+When staten tar tillbaka huvudmannaskapet
+Then nationella politiker kan flytta pengar mellan skolor
+Outcome den närmaste skolan är bara så bra som den nya fördelningen
+But kommunerna förlorar kassan utan ett angivet ersättningsbelopp
+Activates vansterpartiet-var-politik-politik-a-o-kriminalitet-och-kriminalvard

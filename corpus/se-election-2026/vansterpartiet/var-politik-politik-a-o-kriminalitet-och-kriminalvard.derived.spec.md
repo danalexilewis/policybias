@@ -1,36 +1,48 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-kriminalitet-och-kriminalvard-derived
-title: Kriminalitet och kriminalvård (reading)
+title: "Välfärd-först-kriminalpolitik läst som system: längre straff fyller redan de fängelser sidan vill tömma"
 status: draft
-updated: 2026-08-22
-summary: Our reading of Kriminalitet och kriminalvård
+updated: 2026-08-23
+summary: Sidan skyller överbeläggning på straff som redan vuxit, och stöder ändå strängare straff för vissa brott, så välfärd och utslussning måste väga upp ett lager som domstolarna fortsätter mata.
 jurisdiction: SE
 sources:
   - title: Kriminalitet och kriminalvård
     url: https://www.vansterpartiet.se/var-politik/politik-a-o/kriminalitet-och-kriminalvard
 tags:
   - crime-and-justice
-derivesFrom: vansterpartiet-var-politik-politik-a-o-kriminalitet-och-kriminalvard
 party: vansterpartiet
 clusters:
   - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-kriminalitet-och-kriminalvard.md
-sourceDigest: sha256-28bcf9bb106ae0fb
+derivesFrom: vansterpartiet-var-politik-politik-a-o-kriminalitet-och-kriminalvard
 assumptions:
-  - the page is the 2026 campaign position unless it says otherwise
+  - att avvisa generell straffinflation kortar inte de straff som redan förlängts, vilka sidan själv knyter till överbeläggningen
+  - selektivt strängare straff för våld, sex, barn och vapen adderar fortfarande till samma anstaltslager
+  - att sprida Sluta skjut över landet är en programkopia, inte en publicerad personal- eller kronplan
+  - en nationell haverikommission är en process; den adderar inte i sig poliser, tullare eller anstaltsplatser
+sourceDigest: "sha256-28bcf9bb106ae0fb"
 ---
 
 # Our understanding
 
-> The party states a direction. Figures that are not on the page are not invented here.
+> Överbeläggningen skylls redan på längre straff. En politik som avvisar generell skärpning men ändå hårdnar utvalda brott fortsätter mata det lagret, medan välfärd, gränskontroll och en haverikommission ombeds skära rekryteringen utan ett personalantal.
 
-System: Kriminalitet och kriminalvård
+System: Förebyggande bredvid ett fängelsesystem sidan säger redan är fullt
 
-Scenario: A reader takes the page at its word
-Given the matching stated spec
-When the policy is read as a system
-Then the intervention is what the page names
-Output no figure is added that the page does not print
-Outcome the derived face does not blend with the stated face
+Scenario: Utvalda straff hårdnar medan häktesavdelningarna förblir över kapacitet
+Given Justitieombudsmannen länge har kritiserat överbeläggning
+And fängelsestraffen generellt har blivit längre
+When strängare straff ändå gäller våld, sexualbrott, brott mot barn och vapen
+Then de dömda behöver fortfarande celler
+Outcome välfärd och utslussning måste minska inflödet snabbare än domstolarna adderar nätter
+But en häktad väntar i en avdelning sidan redan kallar kris
+
+Scenario: Utslussningsprogram möter människor systemet inte höll väl
+Given samarbetet mellan socialtjänst, kriminalvård och vård inte fungerar
+When staten tar en större del av återinträdet för grovt dömda
+Then bostad, skydd och vård måste komma tillsammans för att utslussningen ska fästa
+Outcome den som vill lämna ett gäng behöver fortfarande ett skyddsprogram som i dag är onämnt i storlek
+But vittnen bär risken om skyddet är tunt
+Activates vansterpartiet-var-politik-politik-a-o-skolan

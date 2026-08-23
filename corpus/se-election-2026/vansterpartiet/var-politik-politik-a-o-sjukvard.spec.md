@@ -1,10 +1,10 @@
 ---
 type: spec
 id: vansterpartiet-var-politik-politik-a-o-sjukvard
-title: Sjukvård
+title: "Vård efter behov, utan vinst i kärnverksamheten"
 status: draft
-updated: 2026-08-22
-summary: Vänsterpartiet värnar en vård som finns där i alla delar av livet och som är tillgänglig över hela landet.
+updated: 2026-08-23
+summary: Skattemedel ska inte finansiera vinstsyftande företag i sjukvårdens kärnverksamhet; fler vårdplatser, bättre arbetsmiljö och psykiskt stöd på varje vårdcentral.
 jurisdiction: SE
 sources:
   - title: Sjukvård
@@ -16,21 +16,29 @@ clusters:
   - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-sjukvard.md
-sourceDigest: sha256-305070f2abf28851
+sourceDigest: "sha256-305070f2abf28851"
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - hur mycket extra som ska läggas på vården, och vad som då inte sänks i skatt, anges inte
+  - hur många vårdplatser som ska tillföras när Sverige ligger i botten i EU anges inte
+  - hur vinstförbudet avgränsas mot entreprenader utanför kärnverksamheten anges inte
+  - hur uppsökande hälsoundersökningar i utsatta områden bemannas anges inte
 ---
 
 # What the page states
 
-> Alla har rätt till en bra och tillgänglig sjukvård som är anpassad efter den enskildes behov.
+> Vård ska ges efter behov, inte efter privat sjukvårdsförsäkring. Vinstjakt i vården prioriterar lönsamma patienter framför dem som behöver vården mest, så vinstsyftande företag ska inte bedriva kärnverksamhet med skattemedel. Fler vårdplatser, bättre arbetsmiljö och kompetensutveckling, psykiskt stöd på varje vårdcentral, och uppsökande arbete i socialt utsatta områden.
 
-System: Sjukvård
+System: Vård efter behov utan vinst i kärnverksamheten
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then Alla har rätt till en bra och tillgänglig sjukvård som är anpassad efter den enskildes behov.
-Output Vänsterpartiet värnar en vård som finns där i alla delar av livet och som är tillgänglig över hela landet.
-Outcome the claim is the party's stated position
+Scenario: Vinstsyftande vård stängs ute från kärnverksamheten
+Given stora skillnader i hälsa och tillgång till vård beroende på var man bor, klass, kön och ålder
+And vinstjakten prioriterar patienter som är lönsammast att behandla
+And Sverige ligger i botten i EU när det gäller vårdplatser
+When vinstsyftande företag stängs ute från sjukvårdens kärnverksamheter
+Then vård ges efter behov i stället för efter privat sjukvårdsförsäkring
+And primärvården blir mer tillgänglig och varje vårdcentral kan erbjuda psykiskt stöd
+And arbetsmiljön och möjligheten till kompetensutveckling förbättras så att fler vill stanna
+Outcome fler vårdplatser och stärkt förebyggande folkhälsoarbete
+And uppsökande hälsoundersökningar i socialt utsatta områden, inte minst bland kvinnor med kort utbildning
+And särskilda satsningar i glest befolkade regioner där kostnaderna att bedriva sjukvård är särskilt höga
+Activates vansterpartiet-var-politik-politik-a-o-aldreomsorg

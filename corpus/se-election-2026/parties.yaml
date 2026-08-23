@@ -1,12 +1,15 @@
 # Display metadata for Swedish 2026 Riksdag parties.
 #
+# `label` is the short name on filter pills and category chips. Use the party
+# name, not the ballot letter (C, M, S). `name` is the official name.
+#
 # Liberalerna is included as a sitting party contesting the election, even
 # though August 2026 polling (Verian and Novus) puts it under the 4% threshold.
 # No ninth party is close enough to add.
 
 parties:
   - id: centerpartiet
-    label: C
+    label: Centerpartiet
     name: Centerpartiet
     colour: "#114838"
     logo: centerpartiet.svg
@@ -22,7 +25,7 @@ parties:
       shortTitle: []
 
   - id: kristdemokraterna
-    label: KD
+    label: Kristdemokraterna
     name: Kristdemokraterna
     colour: "#0B5EA1"
     logo: kristdemokraterna.svg
@@ -39,7 +42,7 @@ parties:
         - KD
 
   - id: liberalerna
-    label: L
+    label: Liberalerna
     name: Liberalerna
     colour: "#006AB3"
     logo: liberalerna.svg
@@ -54,7 +57,7 @@ parties:
       shortTitle: []
 
   - id: miljopartiet
-    label: MP
+    label: Miljöpartiet
     name: Miljöpartiet de gröna
     colour: "#005630"
     logo: miljopartiet.svg
@@ -75,7 +78,7 @@ parties:
         - MP
 
   - id: moderaterna
-    label: M
+    label: Moderaterna
     name: Moderaterna
     colour: "#213A8F"
     logo: moderaterna.png
@@ -92,7 +95,7 @@ parties:
       shortTitle: []
 
   - id: socialdemokraterna
-    label: S
+    label: Socialdemokraterna
     name: Socialdemokraterna
     colour: "#ED1B34"
     logo: socialdemokraterna.svg
@@ -109,7 +112,7 @@ parties:
       shortTitle: []
 
   - id: sverigedemokraterna
-    label: SD
+    label: Sverigedemokraterna
     name: Sverigedemokraterna
     colour: "#141B4D"
     logo: sverigedemokraterna.png
@@ -126,7 +129,7 @@ parties:
         - SD
 
   - id: vansterpartiet
-    label: V
+    label: Vänsterpartiet
     name: Vänsterpartiet
     colour: "#ED1C24"
     logo: vansterpartiet.svg

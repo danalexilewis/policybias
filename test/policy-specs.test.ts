@@ -466,6 +466,15 @@ describe('cluster and party vocabularies', () => {
       expect(party.colour).toMatch(/^#[0-9a-f]{6}$/i)
     }
   })
+
+  it('puts a readable party name on pills, not a ballot letter', () => {
+    const seCorpus = join(import.meta.dirname, '../corpus/se-election-2026')
+    const parsed = YAML.parse(readFileSync(join(seCorpus, 'parties.yaml'), 'utf8'))
+    for (const party of parsed.parties) {
+      expect(party.label, party.id).not.toMatch(/^[A-ZÅÄÖ]{1,2}$/)
+      expect(party.label.length, party.id).toBeGreaterThan(2)
+    }
+  })
 })
 
 describe('the authored spec tree', () => {

@@ -2,11 +2,7 @@ export const EVENT_IDS = ['nz-election-2026', 'se-election-2026'] as const
 
 export type EventId = (typeof EVENT_IDS)[number]
 
-export const EVENT_STATUSES = [
-  'Researching Policies',
-  'Review',
-  'Live',
-] as const
+export const EVENT_STATUSES = ['researching', 'review', 'live'] as const
 
 export type EventStatus = (typeof EVENT_STATUSES)[number]
 
@@ -21,17 +17,21 @@ const EVENT_LABELS: Record<EventId, string> = {
 }
 
 const EVENT_STATUS: Record<EventId, EventStatus> = {
-  'nz-election-2026': 'Review',
-  'se-election-2026': 'Researching Policies',
+  'nz-election-2026': 'review',
+  'se-election-2026': 'researching',
 }
 
-export const EVENT_LANGS: Record<
+export const EVENT_LANGS = {
+  'nz-election-2026': { canonical: 'en', available: ['en', 'mi'] },
+  'se-election-2026': { canonical: 'sv', available: ['sv', 'en'] },
+} as const satisfies Record<
   EventId,
   { canonical: Lang; available: readonly Lang[] }
-> = {
-  'nz-election-2026': { canonical: 'en', available: ['en'] },
-  'se-election-2026': { canonical: 'sv', available: ['sv', 'en'] },
-}
+>
+
+/** The languages one event ships: NZ is 'en' | 'mi', SE is 'sv' | 'en'. */
+export type EventLang<E extends EventId> =
+  (typeof EVENT_LANGS)[E]['available'][number]
 
 export function eventLabel(eventId: EventId): string {
   return EVENT_LABELS[eventId]

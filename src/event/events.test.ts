@@ -35,8 +35,8 @@ const DIRECTORY_HTML = join(
 describe('event labels and status', () => {
   it('assigns a label and status to each event', () => {
     expect(eventLabel('nz-election-2026')).toBe('NZ 2026')
-    expect(eventStatus('nz-election-2026')).toBe('Review')
-    expect(eventStatus('se-election-2026')).toBe('Researching Policies')
+    expect(eventStatus('nz-election-2026')).toBe('review')
+    expect(eventStatus('se-election-2026')).toBe('researching')
   })
 })
 
@@ -48,8 +48,8 @@ describe('event cards paths', () => {
     expect(eventCardsPath('se-election-2026', 'sv')).toBe(
       '/se-election-2026/cards.sv.json',
     )
-    expect(eventCardsPath('se-election-2026', 'en')).toBe(
-      '/se-election-2026/cards.en.json',
+    expect(eventCardsPath('nz-election-2026', 'mi')).toBe(
+      '/nz-election-2026/cards.mi.json',
     )
   })
 })
@@ -176,14 +176,10 @@ describe('home directory', () => {
 
   it('lists each event status on the home directory', () => {
     const html = readFileSync(DIRECTORY_HTML, 'utf8')
-    expect(html).toMatch(/<th>\s*Status\s*<\/th>/)
+    expect(html).toMatch(/data-ui="directoryStatus"/)
     for (const eventId of EVENT_IDS) {
       const status = eventStatus(eventId)
-      expect(html).toMatch(
-        new RegExp(
-          `${eventId}[\\s\\S]*?<td class="event-status">${status}</td>`,
-        ),
-      )
+      expect(html).toContain(`data-ui="status.${status}"`)
     }
   })
 })

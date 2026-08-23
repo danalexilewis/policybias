@@ -1,10 +1,10 @@
 ---
 type: spec
 id: moderaterna-var-politik-ekonomisk-politik-och-foretagande
-title: Lägre skatt på arbete och enklare att driva företag
+title: Minst hälften kvar, lägre bolagsskatt och enklare tillstånd
 status: draft
-updated: 2026-08-22
-summary: Hushåll ska behålla mer av lönen, bland annat genom att minst hälften ska vara kvar över den statliga brytpunkten, och företag ska möta lägre skatt och kortare tillstånd.
+updated: 2026-08-23
+summary: Vanliga yrken ska behålla minst hälften av lönen över brytpunkten, bolagsskatt och arbetsgivaravgifter ska sänkas och miljöprövning ska centraliseras.
 jurisdiction: SE
 sources:
   - title: Ekonomisk politik och företagande
@@ -26,27 +26,16 @@ gaps:
 
 # What the page states
 
-> Sverige ska ha EU:s högsta levnadsstandard inom tio år. Den som arbetar ska behålla mer av lönen. Företag ska kunna växa utan onödigt krångel. Jobb ska alltid löna sig bättre än bidrag.
+> Sverige ska ha EU:s högsta levnadsstandard inom tio år. Den som arbetar ska behålla mer av lönen, företag ska möta lägre skatt och kortare tillstånd, och arbete ska alltid löna sig bättre än bidrag.
 
-System: Lägre skatt på arbete och enklare företagande
+System: Minst hälften kvar, lägre bolagsskatt och enklare tillstånd
 
 Scenario: Ett hushåll med vanliga yrken passerar brytpunkten
-Given Sverige har det lägsta skattetrycket på 50 år men tillhör fortfarande de tio länderna med högst skattetryck i OECD
-And 1.3 miljoner människor är inte självförsörjande
+Given Sverige tillhör de tio länderna med högst skattetryck i OECD
+And 1,3 miljoner människor är inte självförsörjande
 And den som arbetar skift eller tar extra pass kan betala mer än 50 procent i skatt på varje hundralapp över den statliga inkomstgränsen
-And en vanlig familj har fått 5 000 kronor mer kvar sedan 2022
-When skatten på arbete, mat och el sänks
-Then fler i vanliga yrken ska behålla minst hälften av den intjänade lönen
-Output 1 800 kronor mer i plånboken varje månad för en vanlig familj
-And 3 100 kronor mer i månaden 2026 jämfört med 2022 för ett ensamstående vårdbiträde med två barn
-Outcome arbete ska löna sig bättre än bidrag
-
-Scenario: Ett företag vill växa och anställa
-Given exporten motsvarar nästan 52 procent av BNP
-And 1.4 miljoner arbetstillfällen är kopplade till exporten
-When bolagsskatten och arbetsgivaravgifterna sänks
-Then Förenklingsrådet och Implementeringsrådet ska minska regelkrångel och överimplementering av EU-regler
-And kvittokrångel och matkrav är avskaffade
-And nya 3:12-regler minskar den administrativa bördan med en tredjedel
-And miljöbalken ska bli mer flexibel och en central miljöprövningsmyndighet ta över tillstånd från länsstyrelser och mark- och miljödomstolar
-Outcome fler företag ska kunna växa och anställa
+When den statliga inkomstskatten förändras så att fler i vanliga yrken får behålla minst 50 procent av sin intjänade lön
+Then bolagsskatten och arbetsgivaravgifterna ska sänkas så att fler företag kan växa och anställa
+And miljöbalken ska reformeras och en central miljöprövningsmyndighet ta över tillstånd från länsstyrelser och mark- och miljödomstolar
+Output minst 50 procent av intjänad lön kvar över den statliga inkomstgränsen
+Outcome arbete ska löna sig bättre än bidrag och fler företag ska kunna växa

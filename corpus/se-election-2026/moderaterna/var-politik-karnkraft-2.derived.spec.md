@@ -1,10 +1,10 @@
 ---
 type: spec
 id: moderaterna-var-politik-karnkraft-2-derived
-title: "Låneram read as a system: staten bär byggrisken innan första kilowattimmen"
+title: "Ny kärnkraft läst som system: fördubbling till 2045 utan datum för spadtag"
 status: draft
-updated: 2026-08-22
-summary: Lån, riskdelning och majoritetsägande lägger bygg- och prisrisk på det offentliga, medan fördubbling till 2045 saknar tidplan för spadtag.
+updated: 2026-08-23
+summary: Fördubbling till 2045 är ett fysiskt krav utan tidplan för spadtag, och elmarknadsreformen flyttar intäkter till planerbar produktion som ännu inte finns.
 jurisdiction: SE
 sources:
   - title: Kärnkraft
@@ -19,29 +19,27 @@ money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-karnkraft-2.md
 sourceDigest: "sha256-37aa13211a357b27"
 assumptions:
-  - lån som ska betalas tillbaka efter att kraftverken finns förutsätter att de blir klara och lönsamma
-  - långsiktiga elprisavtal sätter ett golv som konsumenter eller skattebetalare bär om spotpriset ligger under
-  - majoritetsägande i Videberg Kraft gör staten till motpart om projektet fördyras
-  - två ytterligare ansökningar är intresse, inte investeringsbeslut
+  - fördubbling till 2045 kräver byggtid som politiken inte sätter datum för
+  - elmarknadsreform som premierar tillgänglighet gynnar kärnkraft bara när reaktorerna finns
+  - SMR och stora reaktorer har olika byggtid och kostnad, vilket politiken inte delar upp
 ---
 
 # Our understanding
 
-> Låneram, riskdelning och majoritetsägande gör staten till finansiär och ägare innan någon reaktor producerar. Återbetalningen kommer först när verken finns. Elprisavtalen låser ett golv. Fördubbling till 2045 är ett fysiskt krav utan datum för spadtag.
+> Fördubbling till 2045 är ett fysiskt krav utan datum för spadtag. Elmarknadsreformen flyttar intäkter till planerbar produktion som ännu inte producerar.
 
-System: Offentlig risk före produktion
+System: Fördubbling utan byggtid och elmarknad före reaktorer
 
-Scenario: Lånet ska återbetalas efter att reaktorn finns
-Given företag kan söka statligt stöd ur en låneram
-And pengarna ska på sikt betalas tillbaka när kraftverken finns på plats
-When bygget försenas eller fördyras
-Then återbetalningen skjuts upp
-Outcome staten står med fordran och ägarandel innan första kilowattimmen
-But skattebetalarna bär risken så länge verket inte är i drift
+Scenario: Elproduktionen ska fördubblas innan reaktorerna finns
+Given energimålet är 100 procent fossilfri elproduktion
+When elproduktionen ska fördubblas till 2045
+Then elektrifiering och nettonoll kräver mer planerbar kraft
+Output elproduktionen fördubblas till 2045
+Outcome gapet mellan idag och 2045 bärs av vind, import eller fördröjd elektrifiering om bygget släpar
+But hushåll och industri bär högre priser tills planerbar kapacitet finns
 
-Scenario: Ett långsiktigt elprisavtal möter ett lägre spotpris
-Given villkor för lån, riskdelning och långsiktiga elprisavtal är överenskomna
-When spotpriset ligger under avtalet
-Then differensen måste bäras av någon part i avtalet
-Outcome hushåll och industri får inte hela den tänkta prissänkningen, eller staten fyller gapet
-But den som förbrukar el bär golvet om avtalet är skrivet mot konsumenten
+Scenario: Elmarknaden premierar tillgänglighet utan nya reaktorer
+When stabilitet, effekt och leveranssäkerhet ska premieras framför enbart producerade kilowattimmar
+Then planerbar produktion ska få mer betalt
+Outcome intäkterna flyttas mot kraftslag som ännu inte levererat
+But väderberoende produktion bär volatilitet tills baskraften finns

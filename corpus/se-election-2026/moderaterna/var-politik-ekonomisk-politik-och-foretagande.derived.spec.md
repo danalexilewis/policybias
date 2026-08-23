@@ -1,9 +1,9 @@
 ---
 type: spec
 id: moderaterna-var-politik-ekonomisk-politik-och-foretagande-derived
-title: "Minst hälften kvar read as a system: brytpunkten bär hushållet, bolagsskatten bär kassan"
+title: "Minst hälften kvar läst som system: brytpunkten bär hushållet, bolagsskatten bär kassan"
 status: draft
-updated: 2026-08-22
+updated: 2026-08-23
 summary: Marginalskattetaket för vanliga yrken betalas av statskassan vid brytpunkten, medan ospecificerad bolagsskatt och arbetsgivaravgift lämnar företagens vinst utan angiven sats.
 jurisdiction: SE
 sources:
@@ -20,14 +20,13 @@ sourcePath: corpus/se-election-2026/moderaterna/var-politik-ekonomisk-politik-oc
 sourceDigest: "sha256-e165259e1005eaf1"
 assumptions:
   - minst hälften kvar är ett tak på marginalskatten över brytpunkten, inte ett löfte om lägre kommunalskatt
-  - 1 800 kronor i månaden 2026 är ett räkneexempel för en vanlig familj, inte ett genomsnitt för alla deciler
   - sänkt bolagsskatt utan angiven sats skjuter intäktsbortfallet på senare budgetar
   - central miljöprövning snabbar kapitalprojekt bara om kön hos den nya myndigheten blir kortare än hos länsstyrelserna
 ---
 
 # Our understanding
 
-> Taket på minst hälften kvar sitter på den statliga brytpunkten, så kassan tappar just där skiftarbetaren nu betalar mer än hälften. Familjeexemplet 1 800 kronor i månaden är ett urval. Bolagsskatt och arbetsgivaravgift sänks utan procentsats. Tillståndscentralisering flyttar kön, inte nödvändigtvis tiden.
+> Taket på minst hälften kvar sitter på den statliga brytpunkten, så kassan tappar just där skiftarbetaren nu betalar mer än hälften. Bolagsskatt och arbetsgivaravgift sänks utan procentsats. Tillståndscentralisering flyttar kön, inte nödvändigtvis tiden.
 
 System: Marginalskatt vid brytpunkten och ospecificerad bolagsskatt
 

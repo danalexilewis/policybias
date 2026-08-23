@@ -1,9 +1,9 @@
 ---
 type: spec
 id: moderaterna-var-politik-migration-derived
-title: "Lönekrav read as a system: tredje land stängs ute medan inskrivna antas ta jobben"
+title: "Lönekrav läst som system: tredje land stängs ute medan inskrivna antas ta jobben"
 status: draft
-updated: 2026-08-22
+updated: 2026-08-23
 summary: Höjt lönekrav prisar ut lågavlönad invandring från tredje land mot antagandet att 350 000 inskrivna tar jobben, medan återvandringsbidrag skapar en kontant utväg.
 jurisdiction: SE
 sources:
@@ -20,14 +20,13 @@ sourcePath: corpus/se-election-2026/moderaterna/var-politik-migration.md
 sourceDigest: "sha256-d040e491594bf4bb"
 assumptions:
   - 90 procent av medianlönen stänger yrken under tröskeln om undantagen inte täcker dem
-  - inskrivna vid Arbetsförmedlingen är bara substitut om de tar de städ- och diskjobb sidan pekar på
-  - återvandringsbidrag på 350 000 kronor skapar en kontant drivkraft att lämna, med den fusk risk sidan nämner
-  - 60 procent färre asylsökande är redan ett utfall, så EU-golvet låser en nivå som redan sjunkit
+  - inskrivna vid Arbetsförmedlingen är bara substitut om de tar de städ- och diskjobb politiken pekar på
+  - återvandringsbidrag på 350 000 kronor skapar en kontant drivkraft att lämna, med den fusk risk politiken nämner
 ---
 
 # Our understanding
 
-> Höjt lönekrav gör lågbetalda jobb från tredje land olönsamma att rekrytera till, med 350 000 inskrivna som tänkt ersättning. Återvandringsbidraget är en kontant utväg. Den stora minskningen av asylsökande är redan räknad, så EU-miniminivån ska hålla golvet.
+> Höjt lönekrav gör lågbetalda jobb från tredje land olönsamma att rekrytera till, med 350 000 inskrivna som tänkt ersättning. Återvandringsbidraget är en kontant utväg.
 
 System: Pris på arbetskraft och betald återvandring
 
@@ -41,8 +40,7 @@ Outcome jobbet ska i stället tillsättas av någon som redan finns i landet
 But arbetsgivaren bär vakansen om de inskrivna inte tar uppgiften
 
 Scenario: Ett hushåll överväger frivillig återvandring
-Given återvandringsbidrag har funnits i 40 år men få har beviljats
-When bidraget höjs
+When återvandringsbidraget höjs
 Then vuxna och barn kan få ett belopp för att återvända
 Output 350 000 kronor för vuxna
 And 25 000 kronor för barn

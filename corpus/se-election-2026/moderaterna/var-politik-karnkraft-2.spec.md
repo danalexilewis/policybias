@@ -1,10 +1,10 @@
 ---
 type: spec
 id: moderaterna-var-politik-karnkraft-2
-title: Statligt stöd och ägande för ny kärnkraft
+title: Leveransfas för ny kärnkraft och reformerad elmarknad
 status: draft
-updated: 2026-08-22
-summary: Energimålet är fossilfri el, staten lånar ut till nya reaktorer och har blivit majoritetsägare i projektet vid Ringhals, med sikte på att elproduktionen ska kunna fördubblas till 2045.
+updated: 2026-08-23
+summary: Fossilfri el ska byggas ut med ny kärnkraft inklusive SMR, elmarknaden ska premiera stabilitet och elproduktionen ska kunna fördubblas till 2045.
 jurisdiction: SE
 sources:
   - title: Kärnkraft
@@ -26,24 +26,16 @@ gaps:
 
 # What the page states
 
-> Sverige behöver ny kärnkraft som baskraft för att pressa elpriserna, stärka industrin och elektrifiera. Målet är fossilfri el, inte bara förnybar. Staten lånar ut, delar risk och har gått in som majoritetsägare vid Ringhals så att reaktorer ska kunna byggas.
+> Sverige behöver ny kärnkraft som baskraft för att pressa elpriserna, stärka industrin och elektrifiera. Leveransfasen ska ta spadtag, elmarknaden ska premiera stabilitet och elproduktionen ska kunna fördubblas till 2045.
 
-System: Statlig finansiering och ägande av ny kärnkraft
+System: Leveransfas för ny kärnkraft och reformerad elmarknad
 
-Scenario: Ett bolag vill bygga ny kärnkraft
-Given energimålet har ändrats från 100 procent förnybar till 100 procent fossilfri elproduktion
-And begränsningar mot fler reaktorer och fler etableringsplatser har avskaffats
-When företaget söker statligt stöd ur låneramen
-Then pengarna ska betalas tillbaka när kraftverken finns på plats
-And tillståndsprocesserna ska vara enklare
-Outcome det ska vara enkelt, attraktivt och lönsamt att etablera kärnkraft
-
-Scenario: Staten tar plats i projektet vid Ringhals
-Given staten har blivit majoritetsägare i Videberg Kraft som planerar nya reaktorer vid Ringhals
-And villkor för lån, riskdelning och långsiktiga elprisavtal är överenskomna
-And Blykalla och Studsvik AB har ansökt om att ta del av låneramen
-When leveransfasen tar vid
-Then spadtag ska kunna tas för nya reaktorer
-And elmarknaden ska premiera stabilitet, effekt och leveranssäkerhet, inte bara producerade kilowattimmar
-And elnätsutbyggnaden ska snabbas upp
-Outcome elproduktionen ska kunna fördubblas till 2045 så att elektrifiering och nettonoll blir möjliga
+Scenario: Ny kärnkraft ska byggas i leveransfasen
+Given energimålet är 100 procent fossilfri elproduktion
+When fossilfri elproduktion byggs ut med fokus på ny kärnkraft inklusive små modulära reaktorer
+Then leveransfasen ska ta spadtag för nya reaktorer
+And elmarknaden ska premiera stabilitet, effekt och leveranssäkerhet, inte enbart producerade kilowattimmar
+And elnätsutbyggnaden ska snabbas upp genom kortare tillståndsprocesser och ökade investeringar
+Output 100 procent fossilfri elproduktion
+And elproduktionen fördubblas till 2045
+Outcome det ska vara enkelt, attraktivt och lönsamt att etablera kärnkraft och elektrifiering och nettonoll ska bli möjliga

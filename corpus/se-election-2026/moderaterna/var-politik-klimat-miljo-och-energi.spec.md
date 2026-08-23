@@ -3,7 +3,7 @@ type: spec
 id: moderaterna-var-politik-klimat-miljo-och-energi
 title: Planerbar el i söder, nettonoll 2045 och skydd för Östersjön
 status: draft
-updated: 2026-08-22
+updated: 2026-08-23
 summary: Ny kärnkraft ska återställa planerbar el i södra Sverige, klimatåtgärder ska sänka utsläppen till lägst kostnad och bottentrålning ska stoppas i skyddade hav.
 jurisdiction: SE
 sources:
@@ -39,21 +39,15 @@ And staten ska minska risken genom regelverk, finansiering och statligt ägande
 And elpris, elnätsavgifter och energiskatter ska hållas samlat så låga som möjligt
 And effektavgifterna ska göras om så att vanliga familjer slipper planera livet efter kraftsystemet
 And planerbara kraftslag ska få betalt för sin tillgänglighet
+And satsningarna på investeringsstödet Kraftlyftet ska ökas
 Outcome el ska finnas där den behövs när den behövs
 
-Scenario: Sverige ska nå nettonoll utan att höja bensinpriset
-Given Sverige står för cirka 0.1 procent av de globala utsläppen
-And Kina släpper ut mer koldioxid än EU och USA tillsammans
-When Klimatklivet och Industriklivet premierar innovation
-Then klimatpremien för lätta lastbilar förlängs
-And Klimatklivet förstärks bland annat för laddinfrastruktur i bostäder och hyreshus
+Scenario: Sverige ska nå nettonoll och skydda Östersjön
+Given Sverige står för cirka 0,1 procent av de globala utsläppen
+And fler än hälften av världens döda bottnar finns i Östersjön
+When Klimatklivet och Industriklivet premierar innovation och elektrifiering
+Then klimatpremien för lätta lastbilar förlängs och Klimatklivet förstärks för laddinfrastruktur i bostäder och hyreshus
 And ineffektiva miljöprövningar ska förenklas
-Output 1.5 miljoner ton lägre utsläpp till 2030 enligt budgeten
-Outcome utsläppen ska ner där varje krona ger mest, inte genom högre bensinpris
-
-Scenario: Östersjön är övergödd och trålad
-Given fler än hälften av världens döda bottnar finns i Östersjön
-When bottentrålning förbjuds i Sveriges marina skyddade områden
-Then samarbetet mot övergödning, plast och farliga ämnen ska fördjupas
-And storskalig industritrålning till fiskmjöl ska stoppas
-Outcome kustnära fiske och friskare hav ska kunna säkras
+And storskalig industritrålning till fiskmjöl ska stoppas och Östersjön ska få en paus
+Output 1,5 miljoner ton lägre utsläpp till 2030 enligt budgeten
+Outcome utsläppen ska ner där varje krona ger mest och kustnära fiske ska kunna säkras

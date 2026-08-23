@@ -1,9 +1,9 @@
 ---
 type: spec
 id: moderaterna-var-politik-skola-och-utbildning-derived
-title: "Kunskapsskola read as a system: två kullar hinner ut innan betygen byts"
+title: "Kunskapsskola läst som system: två kullar hinner ut innan betygen byts"
 status: draft
-updated: 2026-08-22
+updated: 2026-08-23
 summary: Nya betyg landar först 2028 så dagens obehörighet består två år, medan avskaffat SVA flyttar tid mot svenska.
 jurisdiction: SE
 sources:
@@ -22,7 +22,7 @@ assumptions:
   - höstterminen 2028 innebär att två årskullar går ut grundskolan under nuvarande betyg
   - reglerad undervisningsskyldighet minskar tid till annat än lektion, inte nödvändigtvis antalet obehöriga
   - avskaffat svenska som andraspråk tar bort en meritgrundande väg för elever med annat hemspråk
-  - 2.2 miljarder till modersmål kan omfördelas bara om huvudmännen släpper timmar och tjänster
+  - 2,2 miljarder till modersmål kan omfördelas bara om huvudmännen släpper timmar och tjänster
 ---
 
 # Our understanding
@@ -41,7 +41,7 @@ But eleverna bär resultatet av ett system som politiken redan har dömt ut
 
 Scenario: Modersmål och SVA krymper samtidigt som svenska ska väga mer
 Given 314 000 grundskoleelever har rätt till modersmålsundervisning
-And undervisningen kostar cirka 2.2 miljarder kronor per år
+And undervisningen kostar cirka 2,2 miljarder kronor per år
 When svenska som andraspråk avskaffas och rätten till modersmål snävas in
 Then timmar och lärartjänster kan flyttas mot grundläggande svenska
 Outcome elever med annat hemspråk förlorar en meritgrundande SVA-väg

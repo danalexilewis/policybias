@@ -3,7 +3,7 @@ type: spec
 id: moderaterna-var-politik-skola-och-utbildning
 title: Nytt betygssystem, kunskapsfokus och mer svenska i skolan
 status: draft
-updated: 2026-08-22
+updated: 2026-08-23
 summary: Kunskapsskolan ska återinföras med nya läroplaner och betyg, fler screeningar, reglerad undervisningsskyldighet och reformerad modersmålsundervisning.
 jurisdiction: SE
 sources:
@@ -30,37 +30,23 @@ gaps:
 
 System: Kunskapsskola med nya betyg och mer svenska
 
-Scenario: En elev går ut grundskolan utan gymnasiebehörighet
+Scenario: Kunskapsskolan återinförs med nya betyg och mer svenska
 Given en av sex elever går ut grundskolan utan behörighet till gymnasiet
 And det motsvarar 800 skolklasser varje år
-When ett nytt betygssystem och nya läroplaner med kunskapsfokus införs
-Then screeningar i lågstadiet ska utökas så att stöd kommer i rätt tid
-And stödundervisning i mindre grupper ska bli lättare att erbjuda
-Output införande från höstterminen 2028
-Outcome ansträngning ska löna sig och betygen bli mer likvärdiga i hela landet
-
-Scenario: En utbildad lärare arbetar inte i skolan
-Given 35 000 utbildade lärare arbetar inte inom skolan
+And 35 000 utbildade lärare arbetar inte inom skolan
 And nästan 30 procent av lärarna i grundskolan är obehöriga
-And fyra av tio lärarstudenter tar inte examen
-When lärares undervisningsskyldighet regleras på nytt
-Then alla lågstadielärare ska erbjudas fortbildning i evidensbaserad läsundervisning
-And lärarutbildningen får nytt innehåll och höjda antagningsgränser
-Output reglerad undervisningsskyldighet från hösten 2027
-And reformerad lärarutbildning under 2027 och 2028
-Outcome lärare ska kunna vara lärare med konkret metod för att lära barn att läsa
-
-Scenario: Studieron brister och svenska väger olika tungt
-Given vartannat skolbarn i åldrarna 10-16 har utsatts för kränkningar eller mobbning
-And var tredje lärare har utsatts för kränkningar, hot eller våld
-And sex av tio lärare på fritidshem har utsatts, nästan 15 000 lärare
 And 314 000 grundskoleelever har rätt till modersmålsundervisning
-And modersmålsundervisningen kostar cirka 2.2 miljarder kronor per år
-And på 20 av 30 granskade förskolor pratade personalen för dålig svenska
-When rektorers och lärares mandat att säkerställa trygghet och studiero tydliggörs
-Then förväntansdokument med regler och konsekvenser ska införas på varje skola
+And modersmålsundervisningen kostar cirka 2,2 miljarder kronor per år
+When ett nytt betygssystem och nya läroplaner med kunskapsfokus införs
+Then screeningar i lågstadiet ska utökas och stödundervisning i mindre grupper bli lättare att erbjuda
+And lärares undervisningsskyldighet regleras på nytt och alla lågstadielärare erbjuds fortbildning i evidensbaserad läsundervisning
+And lärarutbildningen reformeras med nytt innehåll och höjda antagningsgränser
+And rektorers och lärares mandat att säkerställa trygghet och studiero tydliggörs med förväntansdokument och skärpta avstängningsmöjligheter
 And svenska som andraspråk avskaffas och ersätts med grundläggande språkundervisning
 And modersmålsundervisningen reformeras med krav på legitimerade lärare
 And språk- och lämplighetstest införs vid anställning i förskola och skola
-Output tydligare mandat och möjlighet att stänga av elever från hösten 2026
-Outcome alla barn ska få samma chans att bemästra det svenska språket
+Output införande från höstterminen 2028 för betyg och läroplaner
+And reglerad undervisningsskyldighet från hösten 2027
+And reformerad lärarutbildning under 2027 och 2028
+And tydligare mandat och möjlighet att stänga av elever från hösten 2026
+Outcome ansträngning ska löna sig och alla barn ska få samma chans att bemästra det svenska språket

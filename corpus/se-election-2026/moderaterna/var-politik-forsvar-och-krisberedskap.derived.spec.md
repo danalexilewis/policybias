@@ -1,10 +1,10 @@
 ---
 type: spec
 id: moderaterna-var-politik-forsvar-och-krisberedskap-derived
-title: "Upprustning read as a system: lån nu, lager luckras av donation, 3.5 procent kommer senare"
+title: "Upprustning läst som system: lån nu, 3,5 procent kommer senare, Gripen luckrar lagret"
 status: draft
-updated: 2026-08-22
-summary: Steget till 175 miljarder är taget, 3.5 procent 2030 återstår att finansiera, och donerade Gripen luckrar det egna lagret innan E/F är levererade.
+updated: 2026-08-23
+summary: Steget från 2,8 procent till 3,5 procent 2030 återstår att finansiera, och donerade Gripen luckrar det egna lagret innan E/F är levererade.
 jurisdiction: SE
 sources:
   - title: "Moderaternas försvarspolitik 2026: Nato, Ukraina, totalförsvar och ett starkare svenskt försvar"
@@ -19,21 +19,21 @@ money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-forsvar-och-krisberedskap.md
 sourceDigest: "sha256-385b507ed9963261"
 assumptions:
-  - 2.8 procent 2026 lämnar ett gap upp till 3.5 procent 2030 som måste fyllas efter valet
+  - 2,8 procent 2026 lämnar ett gap upp till 3,5 procent 2030 som måste fyllas efter valet
   - lån till 2035 flyttar räntebördan till senare budgetar
-  - 16 donerade Gripen C/D lämnar ett hål i flottan tills nya E/F är levererade
-  - höjd dagersättning från 146 till 200 kronor är den första höjningen sedan 2017 och förblir en dagersättning, inte en lön
+  - upp till 16 donerade Gripen C/D lämnar ett hål i flottan tills nya E/F är levererade
+  - försvarsindustrins kapacitet är den flaskhals som sätter tak på donationstakt
 ---
 
 # Our understanding
 
-> Anslaget 175 miljarder är innevarande nivån. Målet 3.5 procent 2030 är nästa steg, delvis på lån till 2035. Donation av Gripen C/D tar plan ur egen beredskap innan ersättningen finns. Dagersättningen höjs från en låg bas.
+> Målet 3,5 procent 2030 är nästa steg från 2,8 procent 2026, delvis på lån till 2035. Donation av Gripen C/D tar plan ur egen beredskap innan ersättningen finns.
 
-System: Anslagsnivå nu, förmågegap tills materiel och personal finns
+System: Anslagsgap till 2030 och flottlucka
 
 Scenario: Anslaget ska klättra från årets andel till Natos militära golv
-Given 2.8 procent av BNP 2026
-And målet 3.5 procent militärt ska nås 2030
+Given 2,8 procent av BNP 2026
+And målet 3,5 procent militärt ska nås 2030
 When nästa mandatperiods budgetar läggs
 Then skillnaden måste fyllas med mer anslag eller mer lån
 Outcome 2030-målet bärs av beslut som inte är kassalagda i 2026 års nivå

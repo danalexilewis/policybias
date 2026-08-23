@@ -1,10 +1,10 @@
 ---
 type: spec
 id: moderaterna-var-politik-lag-och-ordning-2-derived
-title: "Straffskärpning read as a system: platser fylls av längre straff med eftersläpning"
+title: "Förverkandefond läst som system: vinster till offer medan staten bär fordringarna"
 status: draft
-updated: 2026-08-22
-summary: Polisbudget och fängelseplatser är en utbyggnad som redan pågår, medan längre straff fyller platserna med fördröjning och staten tar brottsfordringarna.
+updated: 2026-08-23
+summary: Förverkandefonden lovar brottsoffer en andel av vinster medan obetalda skadestånd redan ligger hos Kronofogden, och säkerhetsvakter flyttar ordningsarbete från polisen utan att öka utredningskapaciteten.
 jurisdiction: SE
 sources:
   - title: Lag och ordning
@@ -19,29 +19,26 @@ money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-lag-och-ordning-2.md
 sourceDigest: "sha256-b1746dd87725aac2"
 assumptions:
-  - 40 procent högre polisanslag 2023-2027 är en bana i anslaget, inte ett nytt vallöfte från noll
-  - 5 200 platser måste vara bemannade innan avskaffad mängdrabatt och dubbla gängstraff syns i beläggningen
-  - staten som förstahandsbetalare av skadestånd bär 10 miljarder i fordringar tills Kronofogden driver in dem
-  - 60 procent färre skjutningar är ett utfall som redan räknas hem, så nya verktyg motiveras av en trend som redan vänt
+  - förverkandefonden får bara det som faktiskt förverkas, vilket politiken inte dimensionerar
+  - säkerhetsvakter kan hantera ordningsstörningar men inte utreda grova brott
+  - kriminalisering av ekonomiskt och psykiskt våld kräver utredningsresurser som politiken inte tillför
 ---
 
 # Our understanding
 
-> Polisanslag och fängelseplatser byggs ut längs en redan lagd bana. Längre straff och avskaffad mängdrabatt fyller platserna med eftersläpning. När staten betalar skadeståndet först ligger fordringarna hos skattebetalarna tills de drivs in. Färre skjutningar är redan ett redovisat utfall.
+> Förverkandefonden delar vinster som ännu inte förverkats. Säkerhetsvakter flyttar ordningsarbete från polisen utan att öka utredningskapaciteten. Nya brott mot kvinnor kräver utredning som politiken inte dimensionerar.
 
-System: Kapacitet, strafftid och vem som bär fordran
+System: Förverkande, ordningsvakter och nya brott utan extra kapacitet
 
-Scenario: Straffen förlängs innan platserna är bemannade
-Given Kriminalvårdens budget ska mer än fördubblas från 14 till 31.5 miljarder kronor
-And antalet platser ska öka med 5 200
-When mängdrabatten avskaffas och gängkriminella får dubbla straff
-Then fler dömda ska sitta längre
-Outcome beläggningen stiger med fördröjning efter att domarna vunnit laga kraft
-But intagna bär trängseln om platserna inte hunnit bemannas
-
-Scenario: Staten tar brottsfordran från offret
+Scenario: Förverkandefonden möter obetalda skadestånd
 Given 46 000 personer har obetalda skulder på över 10 miljarder kronor för brottsskadestånd
-When staten betalar ut skadeståndet och själv driver in pengarna
-Then offret slipper jaga gärningspersonen
-Outcome fordran flyttas till det offentliga tills den är indriven
-But skattebetalarna bär beloppet som inte går att mäta ut
+When förverkade brottsvinster går till en fond för brottsoffer
+Then offret kan få stöd från förverkade tillgångar
+Outcome fonden täcker bara det som faktiskt förverkas
+But offret bär fortfarande obetalda skadestånd som Kronofogden inte driver in
+
+Scenario: Säkerhetsvakter tar ordningsstörningar utan fler utredare
+When säkerhetsvakter kompletterar polis och ordningsvakter
+Then ordningsstörningar kan hanteras lokalt
+Outcome polisen kan fokusera på grova brott
+But utredningsköer kvarstår om polisresurser inte flyttas till utredning

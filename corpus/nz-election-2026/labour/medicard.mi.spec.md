@@ -30,7 +30,7 @@ lang: mi
 translationOf: labour-medicard
 translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-6d62a51848a9bd57
+sourceSpecDigest: sha256-54892458b3c0c9c1
 ---
 
 # Ko tā te whārangi e kī ana
@@ -45,7 +45,7 @@ When ka whakarewahia te Medicard
 Then ka whiwhi ia tangata o Aotearoa i ngā haerenga tākuta e toru kore utu ia tau
 Output 3 haerenga tākuta kore utu ia tau mō ia tangata o Aotearoa
 And ka pūtea te hauora mā te tāke 28% i te hua o ngā rawa ka hokona i muri i te 1 Hūrae 2027
-And 100% o te moni ka rāhuihia mō te hauora
+And ka haere tōtika ki te pūnaha hauora ia tāra ka kohia
 And $393.3 million te utu katoa i te 2027/28
 And $553 million i te 2028/29
 And tata ki te $553 million ia tau ina tū katoa

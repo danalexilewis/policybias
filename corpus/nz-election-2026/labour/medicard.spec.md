@@ -40,7 +40,7 @@ When Medicard is rolled out
 Then every New Zealander gets three free doctor's visits a year
 Output 3 free doctor's visits a year for every New Zealander
 And 28% tax on profit from property sold after 1 July 2027 funds health
-And 100% of revenue ring-fenced to health
+And every dollar raised going directly to the health system
 And total cost $393.3 million in 2027/28
 And $553 million in 2028/29
 And around $553 million a year once fully in place

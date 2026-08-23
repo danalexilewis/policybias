@@ -1,14 +1,13 @@
 ---
 type: spec
 id: miljopartiet-politik-gron-ekonomi
-title: The Green Party's economic policy
+title: Emissions trading, an investment target against GDP, and a higher child benefit
 status: draft
-updated: 2026-08-22
-summary: Sweden needs a strong economy that holds society together and that fits
-  within the planet's boundaries.
+updated: 2026-08-23
+summary: The polluter is to pay, the state is to invest a fixed share of the economy, and families with children are to get more in benefits.
 jurisdiction: SE
 sources:
-  - title: Miljöpartiets ekonomiska politik
+  - title: Ekonomisk politik
     url: https://www.mp.se/politik/gron-ekonomi
 tags:
   - economy
@@ -21,24 +20,33 @@ money: named-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-gron-ekonomi.md
 sourceDigest: sha256-625da40fada33900
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
-lang: en
+  - how the national emissions-trading scheme prices a tonne is not stated
+  - which tax rates the broad tax reform sets on capital and wealth is not stated
+  - how housing benefit is raised in kronor is not stated, only that it is to be raised and indexed
+  - how large the surplus in the fiscal framework is to be when the investment target is added is not stated
 translationOf: miljopartiet-politik-gron-ekonomi
-translator: machine
-translatedAt: 2026-08-22
-sourceSpecDigest: sha256-fdfc85679666847e
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-a89629985eb12401
+lang: en
 ---
 
 # What the page states
 
-> The Green Party wants to build a green economy that lowers emissions, narrows the gaps and strengthens security in everyday life.
+> The tax system is skewed, the polluter does not pay for their emissions and many households are pressed by high prices. Emissions are to be priced, fossil subsidies phased out and the revenue returned to households. The state is to invest more, those with the largest fortunes contribute more, and child benefit and housing benefit are to be strengthened.
 
-System: Miljöpartiets ekonomiska politik
+System: A green economy with priced emissions and stronger basic security
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then The Green Party wants to build a green economy that lowers emissions, narrows the gaps and strengthens security in everyday life.
-Output Sweden needs a strong economy that holds society together and that fits within the planet's boundaries.
-Outcome the claim is the party's stated position
+Scenario: Emissions get a price and families with children get more support
+Given the tax system is skewed and the polluter does not pay the cost of their emissions
+And many households are pressed by high prices and weak security systems
+When national emissions trading is introduced and fossil subsidies are phased out
+Then it becomes more profitable to choose the sustainable option
+And revenue from climate taxes goes back to households as support and a green rebate
+And those who earn most and own most contribute more in a broad tax reform
+And state grants to municipalities are indexed so that school, healthcare and care are not cut when costs rise
+Output 1 percent of GDP per year as an investment target on top of the fiscal framework
+And 350 kronor more in child benefit per child and month
+And 800 kronor in a single-parent supplement per child
+Outcome children's security is to weigh heavily in economic policy
+And competition is to be strengthened in markets where households pay too much, for example food and mortgages

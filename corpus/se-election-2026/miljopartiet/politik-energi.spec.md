@@ -1,13 +1,13 @@
 ---
 type: spec
 id: miljopartiet-politik-energi
-title: Miljöpartiet energi och energieffektivisering
+title: Förnybar el, energieffektivisering och grön baskraft i stället för ny kärnkraft
 status: draft
-updated: 2026-08-22
-summary: Sverige behöver ett förnybart energisystem för att klara klimatomställningen.
+updated: 2026-08-23
+summary: Elpriserna ska pressas med mer vind och sol, återinfört effektiviseringsstöd och planerad grön baskraft, utan ny kärnkraft.
 jurisdiction: SE
 sources:
-  - title: Miljöpartiet energi och energieffektivisering
+  - title: Energi och energieffektivisering
     url: https://www.mp.se/politik/energi
 tags:
   - energy
@@ -18,19 +18,28 @@ money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-energi.md
 sourceDigest: sha256-324a7404a3d5dc69
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - hur stort stödet till energieffektivisering i flerbostadshus och industri blir anges inte
+  - hur kommuners och närboendes ersättning för vindkraft räknas ut anges inte
+  - vad investeringsstödet till lagring, vattenkraftseffekt och kraftvärme kostar anges inte
+  - hur elektrifieringsavtal mellan stat, industri och producenter binds anges inte
 ---
 
 # What the page states
 
-> Miljöpartiet vill bygga ett helt förnybart energisystem som ger fossilfri energi, stabil elförsörjning och låga elkostnader för hushåll och företag.
+> När industrin och transporterna elektrifieras måste elsystemet vara robust och hållbart, samtidigt som hushållens elkostnader hålls nere. Utbyggnaden ska vila på vind, sol och grön baskraft. Ny kärnkraft avvisas som långsam och dyr. Kommunalt veto över vindkraft ska finnas kvar, men beslutet ska komma tidigare. Målet för grön baskraft är satt till 2030.
 
-System: Miljöpartiet energi och energieffektivisering
+System: Förnybart elsystem med grön baskraft
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then Miljöpartiet vill bygga ett helt förnybart energisystem som ger fossilfri energi, stabil elförsörjning och låga elkostnader för hushåll och företag.
-Output Sverige behöver ett förnybart energisystem för att klara klimatomställningen.
-Outcome the claim is the party's stated position
+Scenario: Vind, sol och grön baskraft byggs ut samtidigt
+Given Sverige behöver ett förnybart energisystem för att klara klimatomställningen
+And industrin och transporterna elektrifieras
+When havsbaserad vindkraft, solel och energieffektivisering drivs på och grön baskraft planeras
+Then stamnät byggs ut till havs och vindkraftsprövningen blir mer rättssäker
+And kommuner och närboende får bättre ersättning och kan erbjudas delägarskap
+And stöd till energieffektivisering i flerbostadshus och industrier återinförs
+And staten hjälper industri och elproducenter att teckna elektrifieringsavtal så att ny el byggs i takt med efterfrågan
+And elnätsbolagen sätts under hårdare press mot omotiverade höjningar av elnätsavgifterna
+And ny kärnkraft avvisas som långsam, dyr och trängande mot snabbare elproduktion
+Output 10 GW grön baskraft
+Outcome elpriserna pressas genom mer förnybar el, effektivisering och styrning
+And kommunalt veto över vindkraft behålls, med tidigare beslut

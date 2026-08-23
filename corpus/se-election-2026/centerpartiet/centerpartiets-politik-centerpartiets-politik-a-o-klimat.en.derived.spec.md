@@ -17,12 +17,17 @@ clusters:
   - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-klimat.md
-sourceDigest: "sha256-98810cf954faf4ab"
+sourceDigest: sha256-98810cf954faf4ab
 assumptions:
   - a price on emissions lands first on rural households and firms that still burn fuel
   - nuclear on market terms without subsidy is built only if power prices cover it
   - bio-CCS is a residual after cuts; volume and who pays for storage are unset
   - faster permits for grids and green industry weaken other tests in the same law unless those tests are rewritten
+lang: en
+translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-klimat-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-bdc0945fa805f5c4
 ---
 
 # Our understanding

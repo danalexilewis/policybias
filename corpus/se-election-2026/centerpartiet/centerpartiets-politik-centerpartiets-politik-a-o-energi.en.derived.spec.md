@@ -19,12 +19,17 @@ clusters:
   - energy-power
 money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-energi.md
-sourceDigest: "sha256-34480ba8a7c3122f"
+sourceDigest: sha256-34480ba8a7c3122f
 assumptions:
   - a two-year permit is possible only if some Environmental Code tests run in parallel or are dropped
   - valuing climate benefit higher means other harms count for less in the same decision
   - exporting power while promising lower domestic prices needs surplus; otherwise export bids up the home price
   - nuclear on market terms is allowed into the mix, not financed by the state
+lang: en
+translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-energi-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-64f5ff73e6a1fb26
 ---
 
 # Our understanding

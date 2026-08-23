@@ -17,12 +17,17 @@ clusters:
   - migration-integration
 money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-integration-och-migration.md
-sourceDigest: "sha256-7477a6becb22ef1f"
+sourceDigest: sha256-7477a6becb22ef1f
 assumptions:
   - work-first integration assumes jobs exist at the skill mix of those who arrive
   - asylum and labour inflows share caseworkers; speeding one without staffing the other lengthens the residual queue
   - municipalities can only know the rules if processing times are actually short and stable
   - EU solidarity is a volume-sharing claim with no quota on this page
+lang: en
+translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-integration-och-migration-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-f06e2580ae35a83f
 ---
 
 # Our understanding

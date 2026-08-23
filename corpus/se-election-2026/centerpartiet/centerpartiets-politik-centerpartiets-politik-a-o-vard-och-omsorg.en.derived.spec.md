@@ -17,12 +17,17 @@ clusters:
   - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-vard-och-omsorg.md
-sourceDigest: "sha256-48f21b7d2664eaa5"
+sourceDigest: sha256-48f21b7d2664eaa5
 assumptions:
   - a brokerage matches patients to spare slots; it does not add doctors or nurses
   - rural clinics with no unused capacity cannot honour a nationwide choice right
   - a mix of public and private providers shortens waits where private supply exists, and sorts by ability to navigate where it does not
   - a named GP is a continuity claim that still needs a headcount the policy does not fund on this page
+lang: en
+translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-vard-och-omsorg-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-a86349b566c86d77
 ---
 
 # Our understanding

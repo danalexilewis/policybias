@@ -17,12 +17,17 @@ clusters:
   - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-lag-och-ratt-gangkriminalitet.md
-sourceDigest: "sha256-7e2f79bb2ae9e874"
+sourceDigest: sha256-7e2f79bb2ae9e874
 assumptions:
   - harsher sentences change behaviour only if detection and trial still follow
   - secret interception raises evidence against those already in the net, not against children not yet recruited
   - an exit programme works if a job and protection exist after leaving; neither is sized here
   - zero tolerance for vandalism is extra police time in areas already short of it
+lang: en
+translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-lag-och-ratt-gangkriminalitet-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-25bb1304b16a372d
 ---
 
 # Our understanding

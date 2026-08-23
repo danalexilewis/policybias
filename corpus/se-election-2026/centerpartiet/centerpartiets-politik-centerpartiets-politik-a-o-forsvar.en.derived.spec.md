@@ -17,12 +17,17 @@ clusters:
   - defence-security
 money: named-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-forsvar.md
-sourceDigest: "sha256-b0f5ec315fd09591"
+sourceDigest: sha256-b0f5ec315fd09591
 assumptions:
   - 3.5 percent of GDP is an envelope; kit, pay and civilian stocks compete inside it
   - garrisoning the whole country spreads force that a concentrated defence would mass
   - extra NATO targets beyond 3.5 percent, to be met as soon as practical, are an open-ended second bill
   - civilian defence in municipalities is named without a share of the envelope
+lang: en
+translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-forsvar-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-bcc48f62f5832741
 ---
 
 # Our understanding

@@ -19,12 +19,17 @@ clusters:
   - elderly-welfare
 money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-seniorer.md
-sourceDigest: "sha256-c11269d53e00e56a"
+sourceDigest: sha256-c11269d53e00e56a
 assumptions:
   - a heading is not a legal right until it names who pays and who is entitled
   - economic security through growth and work assumes older people can find hours an employer will buy
   - climate-smart senior housing needs land, capital and municipal planning this page does not assign
   - the folder for those 65 and over is where a reader would have to go to test any of the five claims
+lang: en
+translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-seniorer-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-5169e27c60ab44a9
 ---
 
 # Our understanding

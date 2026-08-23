@@ -1,10 +1,10 @@
 ---
 type: spec
 id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-utbildning
-title: Training
+title: Qualified teachers, smaller classes and intensive teaching in Swedish
 status: draft
-updated: 2026-08-22
-summary: But there are also challenges that we need to address.
+updated: 2026-08-23
+summary: Every teacher is to be qualified within ten years, class sizes are to fall, and intensive teaching in Swedish is to become compulsory.
 jurisdiction: SE
 sources:
   - title: Utbildning
@@ -18,24 +18,29 @@ money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-utbildning.md
 sourceDigest: sha256-e9ef73f28d1c270b
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - how many teachers today lack qualification is not stated
+  - how small classes are to become is not stated
+  - what the qualification target and smaller classes cost is not stated
+  - how vocational programmes without a pass in core subjects are to hold a knowledge floor is not stated
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-utbildning
-translator: machine
-translatedAt: 2026-08-22
-sourceSpecDigest: sha256-5862ec6b4db5e008
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-f96d40eb78027b16
 ---
 
 # What the page states
 
-> For example, students perform better than the OECD average in knowledge measurements such as Pisa, and in large parts of the country there are good conditions for good and safe schooling.
+> Swedish schools work well overall and pupils perform better than the OECD average in Pisa, but many leave compulsory school without complete grades. Qualified teachers are too few, mental ill-health is widespread, and the difference in schooling is too large depending on where the pupil lives. The answer is qualified teachers, smaller classes, compulsory intensive teaching in Swedish and more open vocational programmes.
 
-System: Utbildning
+System: Qualified teachers, smaller classes and Swedish
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then For example, students perform better than the OECD average in knowledge measurements such as Pisa, and in large parts of the country there are good conditions for good and safe schooling.
-Output But there are also challenges that we need to address.
-Outcome the claim is the party's stated position
+Scenario: A pupil leaves compulsory school without complete grades
+Given many pupils leave compulsory school without complete grades and are shut out of further study
+And the number of qualified teachers is too small
+And the difference in schooling is far too large depending on where in the country the pupil lives
+When the requirement that every teacher must be qualified within ten years is introduced together with smaller classes and compulsory intensive teaching in Swedish
+Then early support is to be put in place and class sizes reduced
+And vocational programmes are opened to pupils who lack a pass in the core subjects
+And school policy is to start from the pupils and compensate for inequalities
+Outcome every pupil gets the chance to succeed according to their own ability, with investment in qualified teachers, smaller classes and the Swedish language

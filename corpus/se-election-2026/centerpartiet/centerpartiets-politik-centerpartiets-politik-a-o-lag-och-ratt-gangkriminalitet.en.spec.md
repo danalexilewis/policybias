@@ -1,10 +1,10 @@
 ---
 type: spec
 id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-lag-och-ratt-gangkriminalitet
-title: Gang crime
+title: Tougher measures against the gangs and protection for those who dare to testify
 status: draft
-updated: 2026-08-22
-summary: When the gangs take over, ordinary people lose their security and freedom.
+updated: 2026-08-23
+summary: Penalties for gang-related crime are tightened, the police get secret interception, and witness protection is strengthened so that more people dare to speak.
 jurisdiction: SE
 sources:
   - title: Gängkriminalitet
@@ -18,24 +18,29 @@ money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-lag-och-ratt-gangkriminalitet.md
 sourceDigest: sha256-7e2f79bb2ae9e874
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - how much witness protection and exit programmes cost is not stated
+  - which penalty increases this year are proposed for weapons offences is not stated
+  - how many more police officers are to be present in vulnerable areas is not stated
+  - which concrete measures the stronger embrace for the local community consists of are not stated on this page
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-lag-och-ratt-gangkriminalitet
-translator: machine
-translatedAt: 2026-08-22
-sourceSpecDigest: sha256-42f0b78e74049c0b
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-1f88e584242de63c
 ---
 
 # What the page states
 
-> A culture of silence that makes few dare to testify.
+> Shootings in the open street, young people drawn into crime and a culture of silence mean few dare to testify. It is not enough to talk about harsher sentences if the supply of new young people to the gangs is not cut off. The answer is tougher measures against the gangs and a stronger embrace for the local community, with tighter penalties, secret interception, stronger witness protection and zero tolerance even for lesser offences.
 
-System: Gängkriminalitet
+System: Tougher measures against the gangs and protection for witnesses
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then A culture of silence that makes few dare to testify.
-Output When the gangs take over, ordinary people lose their security and freedom.
-Outcome the claim is the party's stated position
+Scenario: A witness in a vulnerable area considers speaking
+Given shootings in the open street and young people drawn into crime
+And a culture of silence that means few dare to testify
+And the state's monopoly on violence must never be challenged
+When penalties for gang-related crime are tightened and the police are allowed to use secret interception
+Then witness protection is strengthened so that more people dare to testify
+And programmes are introduced for those who want to leave a criminal gang
+And a clear line is drawn against all crime in vulnerable areas, including lesser offences such as vandalism
+Outcome more gang criminals can be locked up when more people dare to testify, and the criminal supply chain is broken when young people get another path

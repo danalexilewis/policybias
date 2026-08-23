@@ -17,12 +17,17 @@ clusters:
   - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-ekonomi-och-skatter.md
-sourceDigest: "sha256-f8d73f4576c22f12"
+sourceDigest: sha256-f8d73f4576c22f12
 assumptions:
   - a tax cut on work that is financed by environmental tax is a transfer, not a free lunch
   - rural households that heat and drive on fossil fuel pay more of the environmental leg
   - urban wage earners with low mileage take more of the income-tax cut
   - cheaper hiring at the edge of the labour market raises demand for those workers only if product demand is there
+lang: en
+translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-ekonomi-och-skatter-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-bc80edf7469afb36
 ---
 
 # Our understanding

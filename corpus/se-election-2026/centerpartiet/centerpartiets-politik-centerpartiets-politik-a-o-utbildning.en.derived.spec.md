@@ -17,12 +17,17 @@ clusters:
   - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-utbildning.md
-sourceDigest: "sha256-e9ef73f28d1c270b"
+sourceDigest: sha256-e9ef73f28d1c270b
 assumptions:
   - teacher qualification is a stock; a ten-year target needs training places and retention the page does not size
   - rural schools that already struggle to hire will meet the target last unless pay or placement changes
   - smaller classes without more teachers mean fewer hours or larger groups elsewhere
   - vocational entry without a pass in core subjects raises completion and lowers the floor those programmes can assume
+lang: en
+translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-utbildning-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-145cf857fa5e2a03
 ---
 
 # Our understanding

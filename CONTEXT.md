@@ -4,9 +4,21 @@ A board of New Zealand party policies for the 2026 election, and a guessing game
 
 ## Language
 
+**Chrome**:
+The product’s own words: buttons, labels, titles, legal pages, and the source label on a card. Not party policy.
+_Avoid_: copy, UI strings, chrome text (say "chrome")
+
+**Source**:
+The card footer link to the party’s published page. Labelled with the chrome word for source in the active language.
+_Avoid_: reference, citation, original (in UI copy)
+
 **Event**:
 One election's board, game, and score dataset, reached at its own URL.
 _Avoid_: site, instance, election (when you mean the URL and everything under it)
+
+**Event vocabulary**:
+Words that belong to one election rather than to the product: party names, and the census categories from that country's population standard. It lives with the event and is written only in the languages that event ships, so the Swedish categories are never translated into te reo and the Stats NZ categories are never translated into Swedish. Chrome, by contrast, is written in every language.
+_Avoid_: putting a census category or party name in the chrome dictionaries
 
 **Policy**:
 A party's published claim, shown as a card with a stated face and, when we have something to add, our understanding.
@@ -41,8 +53,12 @@ How many guesses the player has got right. The session score is this game as a t
 _Avoid_: points, high score, rating
 
 **Background**:
-The optional age range, ethnicity, intended vote, and felt wealth a player may attach to a session score. Absent when they skip.
+The optional age range, origin or ethnicity, intended vote, and felt wealth a player may attach to a session score. Absent when they skip. New Zealand uses Stats NZ level-1 ethnicity. Sweden uses Statistics Sweden’s foreign/Swedish background and 10-year age classes.
 _Avoid_: profile, demographics, census, survey, identity
+
+**Origin**:
+Statistics Sweden’s detailed foreign/Swedish background: born abroad, or born in Sweden classified by whether the parents were born in Sweden.
+_Avoid_: ethnicity (on the Swedish event), race, heritage, nationality
 
 **Felt wealth**:
 The player's 1–10 rating of how wealthy they feel. Absent when they skip.

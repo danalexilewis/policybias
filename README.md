@@ -33,7 +33,7 @@ The `CNAME` file is for GitHub Pages. Vercel ignores it — point `policybias.co
 
 ## Public scores
 
-Each finished game can add one anonymous row to a public dataset: the session score, each guess (the party picked and the target), and optional age range, ethnicity, intended vote, and felt wealth (1–10). Nothing that identifies a person is stored — no accounts, cookies, names, or IP addresses. The calendar day is kept; the time of day is not.
+Each finished game can add one anonymous row to a public dataset: the session score, each guess (the party picked and the target), and optional background. New Zealand uses Stats NZ ethnicity; Sweden uses Statistics Sweden’s origin classification and 10-year age classes. Felt wealth is 1–10. Nothing that identifies a person is stored — no accounts, cookies, names, or IP addresses. The calendar day is kept; the time of day is not.
 
 JSON is at `/nz-election-2026/scores?format=json`. CSV is at `/nz-election-2026/scores?format=csv`. The human page is `/nz-election-2026/scores`.
 

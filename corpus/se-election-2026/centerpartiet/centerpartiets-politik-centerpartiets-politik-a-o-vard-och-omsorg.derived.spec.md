@@ -1,10 +1,10 @@
 ---
 type: spec
 id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-vard-och-omsorg-derived
-title: "National care brokerage read as a system: queues move to wherever a slot exists"
+title: "Nationell vårdbokning läst som system: köer flyttar till var tid finns"
 status: draft
 updated: 2026-08-23
-summary: A nationwide booking layer shortens waits only where unused capacity already exists; it does not create staff.
+summary: Ett nationellt bokningslager förkortar väntan bara där outnyttjad kapacitet redan finns; det skapar inte personal.
 jurisdiction: SE
 sources:
   - title: Vård och omsorg
@@ -19,30 +19,30 @@ money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-vard-och-omsorg.md
 sourceDigest: "sha256-48f21b7d2664eaa5"
 assumptions:
-  - a brokerage matches patients to spare slots; it does not add doctors or nurses
-  - rural clinics with no unused capacity cannot honour a nationwide choice right
-  - a mix of public and private providers shortens waits where private supply exists, and sorts by ability to navigate where it does not
-  - a named GP is a continuity claim that still needs a headcount the policy does not fund on this page
+  - en bokningsväxel matchar patienter till lediga tider; den lägger inte till läkare eller sjuksköterskor
+  - landsbygdskliniker utan ledig kapacitet kan inte uppfylla en nationell valrätt
+  - en mix av offentliga och privata utförare förkortar väntan där privat tillgång finns, och sorterar via förmåga att navigera där den saknas
+  - en namngiven läkare är ett kontinuitetsanspråk som fortfarande behöver personantal som politiken inte finansierar här
 ---
 
 # Our understanding
 
-> Choice plus a national broker relocates demand to whoever has a free slot. Geography still binds if the clinic has no capacity to offer. Private providers can cut waits where they already operate, and leave thin areas as they are. Better career paths for staff are named without a wage or hours instrument.
+> Val plus en nationell växel flyttar efterfrågan till den som har ledig tid. Geografi binder ändå om kliniken saknar kapacitet att erbjuda. Privata utförare kan kapa väntan där de redan verkar, och lämnar tunna områden som de är. Bättre karriärvägar för personal namnges utan löne- eller timinstrument.
 
-System: Care brokerage as a matching layer over existing capacity
+System: Vårdbokning som matchningslager över befintlig kapacitet
 
-Scenario: A patient in a long regional queue is offered a slot in another county
-Given waiting lists that differ by county
-And a brokerage that lets a patient seek care anywhere in the country
-When the patient takes a slot far from home
-Then the home-county queue shortens by one
-Outcome the wait falls for those who can travel
-But clinics with no spare staff cannot take the overflow
+Scenario: En patient i en lång regional kö erbjuds tid i annat län
+Given väntelistor som skiljer sig per län
+And en bokningsväxel som låter patient söka vård var i landet som helst
+When patienten tar en tid långt hemifrån
+Then hemläns kö förkortas med en
+Outcome väntan sjunker för dem som kan resa
+But kliniker utan ledig personal kan inte ta överflödet
 
-Scenario: A rural clinic has no unused appointments
-Given a right to choose any provider
-And a clinic that is already fully booked
-When a local patient asks for a named GP there
-Then the continuity promise meets a full list
-Outcome the named-GP right is a claim on workforce the policy does not enlarge here
-But patients in thin areas still wait on whoever is left
+Scenario: En landsbygdsklinik har inga lediga tider
+Given rätt att välja vilken utförare som helst
+And en klinik som redan är fullbokad
+When en lokal patient vill ha namngiven läkare där
+Then kontinuitetslöftet möter en full lista
+Outcome rätten till namngiven läkare är ett anspråk på arbetskraft som politiken inte utökar här
+But patienter i tunna områden väntar ändå på den som finns kvar

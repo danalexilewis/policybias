@@ -1,10 +1,10 @@
 ---
 type: spec
 id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-energi-derived
-title: "Two-year permitting read as a system: climate benefit outranks other Environmental Code tests"
+title: "Tvåårig tillståndsprövning läst som system: klimatnytta väger tyngre än andra miljöbalksprövningar"
 status: draft
 updated: 2026-08-23
-summary: Cutting permit time from about a decade to two years is a legal-capacity claim; parallel processes and a higher weight on climate benefit are how other tests lose.
+summary: Att kapa tillståndstiden från ungefär ett decennium till två år är ett kapacitetslöfte i lagen; parallella processer och högre vikt på klimatnytta är hur andra prövningar förlorar.
 jurisdiction: SE
 sources:
   - title: Energi
@@ -21,28 +21,28 @@ money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-energi.md
 sourceDigest: "sha256-34480ba8a7c3122f"
 assumptions:
-  - a two-year permit is possible only if some Environmental Code tests run in parallel or are dropped
-  - valuing climate benefit higher means other harms count for less in the same decision
-  - exporting power while promising lower domestic prices needs surplus; otherwise export bids up the home price
-  - nuclear on market terms is allowed into the mix, not financed by the state
+  - ett tvåårigt tillstånd är möjligt bara om vissa miljöbalksprövningar körs parallellt eller stryks
+  - att väga klimatnytta högre innebär att andra skador räknas lägre i samma beslut
+  - export av el medan inhemska priser lovas lägre kräver överskott; annars driver exporten upp hemmapriset
+  - kärnkraft på marknadsvillkor får ingå i mixen, inte finansieras av staten
 ---
 
 # Our understanding
 
-> The binding number on the page is permit time: eight to ten years today, two years as the cap. A crisis commission and cross-block talks are the political path. Simplifying the Environmental Code so climate benefit weighs more, and so processes can run in parallel, is the legal path. Export of green power is meant to replace fossil fuel in Europe and cut reliance on Russian gas. That is a foreign-policy use of Swedish electrons that can tighten the home market if there is no surplus.
+> Det bindande talet i politiken är tillståndstid: åtta till tio år i dag, två år som tak. En krisberedning och tvärblockssamtal är den politiska vägen. Att förenkla miljöbalken så klimatnytta väger mer, och så processer kan köras parallellt, är den juridiska vägen. Export av grön el ska ersätta fossil energi i Europa och minska beroendet av rysk gas. Det är ett utrikespolitiskt bruk av svenska elektroner som kan strama åt hemmamarknaden om överskott saknas.
 
-System: Permit-time cut as a rewrite of environmental review
+System: Kapning av tillståndstid som en omskrivning av miljöprövning
 
-Scenario: A wind or nuclear project hits a two-year clock
-Given reviews that today take 8–10 years
-When climate benefit is weighted higher and processes run in parallel
-Then the file can close in two years only if other tests no longer sit in series
-Outcome new fossil-free power can arrive sooner
-But habitats, neighbours and competing land uses lose calendar time in the same review
+Scenario: Ett vind- eller kärnkraftprojekt möter en tvåårsklocka
+Given prövningar som i dag tar 8–10 år
+When klimatnytta vägs högre och processer körs parallellt
+Then ärendet kan stängas på två år bara om andra prövningar inte längre sitter i serie
+Outcome ny fossilfri el kan komma tidigare
+But naturförekomster, grannar och konkurrerande markanvändning förlorar kalendertid i samma prövning
 
-Scenario: Surplus power is sold abroad while households are promised lower bills
-Given an export aim that replaces fossil energy in Europe
-When the interconnectors take Swedish power
-Then the domestic price is set by the wider market
-Outcome Europe burns less fossil fuel
-But Swedish bills fall only if generation grows faster than the export
+Scenario: Överskottsel säljs utomlands medan hushållen lovas lägre räkningar
+Given ett exportmål som ersätter fossil energi i Europa
+When utlandsförbindelserna tar svensk el
+Then det inhemska priset sätts av den bredare marknaden
+Outcome Europa förbrukar mindre fossil energi
+But svenska räkningar sjunker bara om produktionen växer snabbare än exporten

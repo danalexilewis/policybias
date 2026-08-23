@@ -1,10 +1,10 @@
 ---
 type: spec
 id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-ekonomi-och-skatter-derived
-title: "Green tax shift read as a system: income-tax cuts paid by whoever still pollutes"
+title: "Grön skatteväxling läst som system: lägre inkomstskatt betalas av den som fortfarande släpper ut"
 status: draft
 updated: 2026-08-23
-summary: Lower tax on work is funded by higher tax on environmental harm, so the net transfer depends on how much a household still drives, heats and produces with fossil fuel.
+summary: Lägre skatt på arbete finansieras med högre skatt på miljöskador, så nettot beror på hur mycket hushållet fortfarande kör, värmer och producerar med fossil energi.
 jurisdiction: SE
 sources:
   - title: Ekonomi och skatter
@@ -19,28 +19,28 @@ money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-ekonomi-och-skatter.md
 sourceDigest: "sha256-f8d73f4576c22f12"
 assumptions:
-  - a tax cut on work that is financed by environmental tax is a transfer, not a free lunch
-  - rural households that heat and drive on fossil fuel pay more of the environmental leg
-  - urban wage earners with low mileage take more of the income-tax cut
-  - cheaper hiring at the edge of the labour market raises demand for those workers only if product demand is there
+  - en skattesänkning på arbete som finansieras med miljöskatt är en överföring, inte en gratis lunch
+  - landsbygdshushåll som värmer och kör på fossil energi betalar mer av miljöbenet
+  - urbana löntagare med låg körsträcka får mer av inkomstskattesänkningen
+  - billigare anställning i utkanten av arbetsmarknaden höjer efterfrågan på de arbetstagarna bara om produktefterfrågan finns
 ---
 
 # Our understanding
 
-> The page's arithmetic identity is a green tax shift: less tax on jobs and firms, more tax on environmental harm. Low and middle earners are promised more left in the wallet after bills. That holds if the income-tax cut exceeds whatever they pay in higher environmental tax. Cheaper hiring for small firms and for people far from work is a labour-demand tool without a rate.
+> Politikens räkneregler är en grön skatteväxling: mindre skatt på jobb och företag, mer skatt på miljöskador. Låg- och medelinkomsttagare lovas mer kvar i plånboken efter räkningarna. Det håller om inkomstskattesänkningen överstiger det de betalar i högre miljöskatt. Billigare anställning för småföretag och för personer långt från arbete är ett verktyg för arbetskraftsbehov utan någon angiven procentsats.
 
-System: Income-tax cut financed by environmental tax
+System: Inkomstskattesänkning finansierad med miljöskatt
 
-Scenario: A rural household with a car and oil heat receives a lower tax on wages
-Given a green tax shift that raises tax on environmental harm
-When the household files its return
-Then the wage tax may fall while fuel and heat cost more
-Outcome take-home pay after bills can rise or fall with the fossil share of the household
-But the page prints neither rate, so the net cannot be checked
+Scenario: Ett landsbygdshushåll med bil och oljevärme får lägre skatt på lönen
+Given en grön skatteväxling som höjer skatten på miljöskador
+When hushållet lämnar deklarationen
+Then löneskatten kan sjunka medan bränsle och uppvärmning blir dyrare
+Outcome nettolön efter räkningar kan höjas eller sjunka med hushållets fossilandel
+But politiken trycker ingen procentsats, så nettot kan inte kontrolleras
 
-Scenario: A small firm considers hiring someone far from the labour market
-Given hiring that is too expensive and complicated today
-When the cost of that hire is lowered
-Then the firm may take the person on
-Outcome employment at the margin can rise
-But without a stated cut in kronor the size of the nudge is unknown
+Scenario: Ett småföretag funderar på att anställa någon långt från arbetsmarknaden
+Given anställning som är för dyr och krånglig i dag
+When kostnaden för den anställningen sänks
+Then företaget kan ta in personen
+Outcome sysselsättningen i utkanten kan stiga
+But utan en angiven sänkning i kronor är storleken på knuffen okänd

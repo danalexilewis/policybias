@@ -1,10 +1,10 @@
 ---
 type: spec
 id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-seniorer-derived
-title: "Senior agenda read as a system: five headings without an instrument on this page"
+title: "Senioragenda läst som system: fem rubriker utan instrument i politiken"
 status: draft
 updated: 2026-08-23
-summary: The URL is a menu of five themes; the binding proposals sit in a downloadable folder, so this page cannot be scored as an elderly-care reform.
+summary: Webbadressen är en meny med fem teman; de bindande förslagen sitter i en nedladdningsbar folder, så politikens kan inte poängsättas som en äldreomsorgsreform.
 jurisdiction: SE
 sources:
   - title: Seniorer
@@ -21,28 +21,28 @@ money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-seniorer.md
 sourceDigest: "sha256-c11269d53e00e56a"
 assumptions:
-  - a heading is not a legal right until it names who pays and who is entitled
-  - economic security through growth and work assumes older people can find hours an employer will buy
-  - climate-smart senior housing needs land, capital and municipal planning this page does not assign
-  - the folder for those 65 and over is where a reader would have to go to test any of the five claims
+  - en rubrik är inte en laglig rätt förrän den namnger vem betalar och vem har rätt
+  - ekonomisk trygghet via tillväxt och arbete förutsätter att seniorer kan hitta timmar en arbetsgivare vill köpa
+  - klimatsmart seniorboende behöver mark, kapital och kommunal planering som politiken inte tilldelar
+  - foldern för dem 65 och över är där läsaren måste gå för att pröva något av de fem anspråken
 ---
 
 # Our understanding
 
-> Self-determination, income, accessibility, housing and culture are listed as the map of a decent later life. None of them is turned into a benefit rate, a housing target or a care-hour guarantee on this page. Growth as the path to security for older people is a tax-base story, not a pension instrument. A reader who stops at the HTML has a catalogue, not a change.
+> Självbestämmande, inkomst, tillgänglighet, boende och kultur listas som kartan till en duglig senare livsfas. Inget av dem blir förmånsnivå, boendemål eller garanti för omsorgstimmar i politiken. Tillväxt som väg till trygghet för seniorer är en skattebasberättelse, inte ett pensionsinstrument. En läsare som stannar vid HTML har en katalog, inte en förändring.
 
-System: A five-heading menu whose mechanisms live off-page
+System: En meny med fem rubriker vars mekanismer inte finns i politiken
 
-Scenario: A reader looks for what changes in home care
-Given five areas that improve conditions for seniors
-When the reader stays on this page
-Then the care heading names dignity and self-determination
-Outcome the theme is clear
-But the hour of help, the fee and the named nurse are not on this page
+Scenario: En läsare söker vad som förändras i hemtjänsten
+Given fem områden som förbättrar villkor för seniorer
+When läsaren stannar i politiken
+Then omsorgsrubriken namnger värdighet och självbestämmande
+Outcome temat är tydligt
+But hjälptimmen, avgiften och namngiven sjuksköterska finns inte i politiken
 
-Scenario: Economic security is to come through growth and work
-Given older people who want or need to keep earning
-When growth is offered as the route to security
-Then the income depends on a hire
-Outcome those who can still sell hours may gain
-But those who cannot work still need a transfer this page does not set
+Scenario: Ekonomisk trygghet ska komma via tillväxt och arbete
+Given seniorer som vill eller behöver fortsätta tjäna
+When tillväxt erbjuds som vägen till trygghet
+Then inkomsten beror på en anställning
+Outcome de som fortfarande kan sälja timmar kan gå plus
+But de som inte kan arbeta behöver fortfarande en transfer som politiken inte sätter

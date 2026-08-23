@@ -1,10 +1,10 @@
 ---
 type: spec
 id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-lag-och-ratt-gangkriminalitet-derived
-title: "Two-front gang policy read as a system: the listed tools are almost all enforcement"
+title: "Dubbelfront i gängpolitik läst som system: listade verktyg är nästan bara repressiva"
 status: draft
 updated: 2026-08-23
-summary: Wiretaps and witness protection can raise detections; the prevention arm named as a stronger local embrace has no instrument on this page.
+summary: Avlyssning och vittnesskydd kan höja upptäckter; preventionsspetsen som namnges som starkare lokal förankring har inget instrument i politiken.
 jurisdiction: SE
 sources:
   - title: Gängkriminalitet
@@ -19,28 +19,28 @@ money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-lag-och-ratt-gangkriminalitet.md
 sourceDigest: "sha256-7e2f79bb2ae9e874"
 assumptions:
-  - harsher sentences change behaviour only if detection and trial still follow
-  - secret interception raises evidence against those already in the net, not against children not yet recruited
-  - an exit programme works if a job and protection exist after leaving; neither is sized here
-  - zero tolerance for vandalism is extra police time in areas already short of it
+  - strängare straff förändrar beteende bara om upptäckt och rättegång fortfarande följer
+  - hemlig avlyssning höjer evidens mot dem som redan är i nätet, inte mot barn som ännu inte rekryterats
+  - ett utträdesprogram fungerar om jobb och skydd finns efter utträdet; ingen storlek anges här
+  - nolltolerans mot skadegörelse är extra polistid i områden som redan saknar det
 ---
 
 # Our understanding
 
-> The page insists on two fronts at once, then lists weapons penalties, secret interception, witness protection, exit programmes and a hard line on petty crime. The stronger local embrace is named in the headline and not specified as a budget or a service. Recruitment of the next cohort can continue while more of the current one is locked in.
+> Politiken kräver två fronter samtidigt, och listar sedan vapenstraff, hemlig avlyssning, vittnesskydd, utträdesprogram och en hård linje mot småbrott. Starkare lokal förankring namnges i rubriken och preciseras inte som budget eller tjänst. Rekrytering av nästa kohort kan fortsätta medan mer av den nuvarande låses in.
 
-System: Enforcement tools without a specified prevention budget
+System: Repressiva verktyg utan angiven preventionbudget
 
-Scenario: A teenager is offered money to join before any sentence bites
-Given recruitment that starts before a first conviction
-When penalties for gang-related crime are sharpened
-Then the teenager is not yet in the sentencing net
-Outcome the supply of new members can keep flowing
-But the listed tools arrive after the first crime, not before the offer
+Scenario: En tonåring erbjuds pengar för att gå med innan något straff slår till
+Given rekrytering som börjar före första fällande dom
+When straff för gängrelaterad brottslighet skärps
+Then tonåringen är ännu inte i straffnätet
+Outcome tillflödet av nya medlemmar kan fortsätta
+But listade verktyg kommer efter första brottet, inte före erbjudandet
 
-Scenario: A witness speaks after protection is strengthened
-Given a silence culture in the area
-When the witness testifies
-Then a prosecution can proceed
-Outcome more of the current cohort can be locked in
-But the local embrace that was supposed to cut recruitment is still unnamed as a programme
+Scenario: En vittne talar efter att skyddet stärkts
+Given en tystnadskultur i området
+When vittnet vittnar
+Then en åtal kan drivas
+Outcome mer av nuvarande kohort kan låsas in
+But den lokal förankring som skulle minska rekryteringen är fortfarande onamngiven som program

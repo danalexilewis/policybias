@@ -1,10 +1,10 @@
 ---
 type: spec
 id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-utbildning-derived
-title: "Qualified-teacher target read as a system: a ten-year stock problem with an open vocational door"
+title: "Mål om behöriga lärare läst som system: ett tioårigt lagerproblem med en öppen yrkesdörr"
 status: draft
 updated: 2026-08-23
-summary: Filling every classroom with a qualified teacher is a pipeline and geography problem; opening vocational tracks without core passes trades completion against a skill floor.
+summary: Att fylla varje klassrum med behörig lärare är ett pipeline- och geografiproblem; att öppna yrkesprogram utan godkänt i kärnämnen byter slutförande mot en skicklighetsbotten.
 jurisdiction: SE
 sources:
   - title: Utbildning
@@ -19,29 +19,29 @@ money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-utbildning.md
 sourceDigest: "sha256-e9ef73f28d1c270b"
 assumptions:
-  - teacher qualification is a stock; a ten-year target needs training places and retention the page does not size
-  - rural schools that already struggle to hire will meet the target last unless pay or placement changes
-  - smaller classes without more teachers mean fewer hours or larger groups elsewhere
-  - vocational entry without a pass in core subjects raises completion and lowers the floor those programmes can assume
+  - lärarbehörighet är ett lager; ett tioårigt mål behöver utbildningsplatser och retention som politiken inte storleksätter
+  - landsbygdsskolor som redan kämpar att anställa når målet sist om inte lön eller placering ändras
+  - mindre klasser utan fler lärare innebär färre timmar eller större grupper någon annanstans
+  - yrkesinträde utan godkänt i kärnämnen höjer slutförandet och sänker botten de programmen kan förutsätta
 ---
 
 # Our understanding
 
-> The page starts from a school that already beats the OECD mean on Pisa, then names the holes: incomplete grades, too few qualified teachers, uneven geography. A ten-year qualification rule is a workforce plan without a headcount. Opening vocational programmes to pupils who failed core subjects is a completion path that also changes what those programmes can teach.
+> Politiken börjar från en skola som redan slår OECD-genomsnittet i Pisa, och namnger sedan luckorna: ofullständiga betyg, för få behöriga lärare, ojämn geografi. En tioårig behörighetsregel är en personalplan utan personantal. Att öppna yrkesprogram för elever som underkändes i kärnämnen är en slutförandeväg som också förändrar vad de programmen kan undervisa.
 
-System: Teacher supply and a lowered vocational gate
+System: Lärartillgång och en sänkt yrkesgrind
 
-Scenario: A school in a thin labour market still lacks qualified staff near the deadline
-Given too few qualified teachers nationwide
-And hiring that is harder outside the cities
-When the deadline that every teacher must be qualified arrives
-Then some classrooms are still uncovered
-Outcome the target binds first where applicants already exist
-But pupils in thin areas wait on a pipeline the page does not fund
+Scenario: En skola i en tunn arbetsmarknad saknar fortfarande behörig personal nära deadline
+Given för få behöriga lärare i hela landet
+And anställning som är svårare utanför städerna
+When deadline att varje lärare ska vara behörig infaller
+Then vissa klassrum är fortfarande otäckta
+Outcome målet binder först där sökande redan finns
+But elever i tunna områden väntar på en pipeline som politiken inte finansierar
 
-Scenario: A pupil without a pass in core subjects enters a vocational programme
-Given a gate that used to require a pass in core subjects
-When that gate is opened
-Then more pupils stay in upper secondary
-Outcome a completion route exists for those the grade gate shut out
-But the programme must teach from a lower shared floor
+Scenario: En elev utan godkänt i kärnämnen går in i ett yrkesprogram
+Given en grind som brukade kräva godkänt i kärnämnen
+When den grinden öppnas
+Then fler elever stannar i gymnasiet
+Outcome en slutförandeväg finns för dem betygsgrind stängde ute
+But programmet måste undervisa från en lägre gemensam botten

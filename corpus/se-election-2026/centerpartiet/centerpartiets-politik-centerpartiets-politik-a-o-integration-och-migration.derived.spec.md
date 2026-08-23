@@ -1,10 +1,10 @@
 ---
 type: spec
 id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-integration-och-migration-derived
-title: "Work-first migration read as a system: two inflows share one processing capacity"
+title: "Arbetslinje i migration läst som system: två inflöden delar samma handläggningskapacitet"
 status: draft
 updated: 2026-08-23
-summary: Easier labour recruitment and a faster asylum track both need the same caseworkers; without a time target the wait can stay long while firms still lack staff.
+summary: Enklare arbetskraftsrekrytering och ett snabbare asylspår behöver båda samma handläggare; utan ett tidsmål kan väntan ligga kvar lång medan företag fortfarande saknar personal.
 jurisdiction: SE
 sources:
   - title: Integration och migration
@@ -19,29 +19,29 @@ money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-integration-och-migration.md
 sourceDigest: "sha256-7477a6becb22ef1f"
 assumptions:
-  - work-first integration assumes jobs exist at the skill mix of those who arrive
-  - asylum and labour inflows share caseworkers; speeding one without staffing the other lengthens the residual queue
-  - municipalities can only know the rules if processing times are actually short and stable
-  - EU solidarity is a volume-sharing claim with no quota on this page
+  - arbetslinje i integration förutsätter jobb vid den skicklighetsmix som anländer
+  - asyl- och arbetsinflöden delar handläggare; att snabba ett utan att bemanna det andra förlänger restkön
+  - kommuner kan bara veta reglerna om handläggningstider faktiskt är kort och stabil
+  - EU-solidaritet är ett anspråk om volymdelning utan kvot i politiken
 ---
 
 # Our understanding
 
-> The page holds asylum as a right and labour recruitment as the growth tool, then names short processing as the way to make both humane and orderly. Firms get talent only if permits actually clear. Newcomers become self-supporting only if jobs exist. A wait that stays long produces the exclusion the page says it wants to end.
+> Politiken håller asyl som rätt och arbetskraftsrekrytering som tillväxtverktyg, och namnger snabb handläggning som sättet att göra båda humana och ordnade. Företag får talang bara om tillstånd faktiskt klarnar. Nyinflyttade blir självförsörjande bara om jobb finns. En vänta som ligger kvar lång producerar den utanförskap politiken säger sig vilja avsluta.
 
-System: Dual inflow on a shared asylum and permit queue
+System: Dubbelt inflöde i en delad asyl- och tillståndkö
 
-Scenario: A firm sponsors a worker while asylum cases still sit in the same agency
-Given long waits in the present system
-And a promise of short processing
-When labour recruitment is eased for both high- and low-skilled jobs
-Then more applications enter the same pipeline
-Outcome employers gain a route on paper
-But the wait stays long unless caseworkers are added, which the page does not do
+Scenario: Ett företag sponsrar en arbetstagare medan asylärenden fortfarande sitter i samma myndighet
+Given långa väntor i dagens system
+And ett löfte om snabb handläggning
+When arbetskraftsrekrytering underlättas för både högt och lågt kvalificerade jobb
+Then fler ansökningar går in i samma ledning
+Outcome arbetsgivare får en väg på papperet
+But väntan ligger kvar lång om handläggare inte tillförs, vilket politiken inte gör
 
-Scenario: A newcomer is told work is the fastest path in
-Given a labour market that may not have a vacancy at that skill
-When the newcomer is steered toward a job
-Then self-sufficiency depends on a hire that may not arrive
-Outcome exclusion falls only where a job exists
-But the page treats work as available rather than scarce
+Scenario: En nyinflyttad får höra att arbete är den snabbaste vägen in
+Given en arbetsmarknad som kanske inte har vakans vid den skickligheten
+When nyinflyttad styrs mot ett jobb
+Then självförsörjning beror på en anställning som kanske inte kommer
+Outcome utanförskap sjunker bara där ett jobb finns
+But politiken behandlar arbete som tillgängligt snarare än knappt

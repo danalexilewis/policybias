@@ -1,10 +1,16 @@
 /**
- * Author stated + derived specs from corpus/se-election-2026/_analysis/flagship.yaml.
+ * Scaffold stated + derived spec frontmatter from
+ * corpus/se-election-2026/_analysis/flagship.yaml.
+ *
+ * Does not invent Then/Output from the first sentences on the page.
+ * Author the steps from the dump page. Re-run will not overwrite existing specs
+ * unless --force is passed.
  *
  *   pnpm exec tsx scripts/draft-flagship-specs.ts
+ *   pnpm exec tsx scripts/draft-flagship-specs.ts --force
  */
 
-import { existsSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import YAML from 'yaml'
@@ -29,39 +35,6 @@ function splitDump(raw: string): { fields: Record<string, unknown>; body: string
   }
 }
 
-function policyQuotes(body: string): string[] {
-  const flattened = body
-    .replace(/^#{1,6}\s+.*$/gm, ' ')
-    .replace(/!\[[^\]]*\]\([^)]+\)/g, ' ')
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-    .replace(/\*\*/g, '')
-    .replace(/^\s*\*\s+/gm, '')
-    .replace(/\* \* \*/g, ' ')
-    .replace(/\n+/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim()
-  const sentences = flattened
-    .split(/(?<=[.!?])\s+/)
-    .map((sentence) => sentence.trim())
-    .filter((sentence) => sentence.length >= 40)
-    .filter((sentence) => !sentence.startsWith('<'))
-    .filter((sentence) => !/^Kort info om/i.test(sentence))
-    .filter((sentence) => !/kakor|När du besöker en webbplats/i.test(sentence))
-    .filter((sentence) => !/^Senast uppdaterad/i.test(sentence))
-    .filter((sentence) => !/Gå direkt till innehåll/i.test(sentence))
-    .map((sentence) => (sentence.length > 280 ? sentence.slice(0, 280).trim() : sentence))
-  const unique: string[] = []
-  for (const sentence of sentences) {
-    if (!unique.includes(sentence)) {
-      unique.push(sentence)
-    }
-    if (unique.length >= 4) {
-      break
-    }
-  }
-  return unique
-}
-
 function yamlBlock(fields: Record<string, unknown>): string {
   return `---\n${YAML.stringify(fields, { lineWidth: 0, defaultKeyType: 'PLAIN' })}---\n\n`
 }
@@ -74,24 +47,26 @@ function writePair(args: {
   url: string
   tags: string[]
   money: string
-  quotes: string[]
   repoPath: string
   pageDigest: string
+  force: boolean
 }): void {
   const id = `${args.party}-${args.slug}`.replace(/_/g, '-')
-  const thenText =
-    args.quotes.find((quote) => !/\$|%/.test(quote)) ?? args.quotes[0] ?? args.title
-  const outputText =
-    args.quotes.find((quote) => quote !== thenText) ?? thenText
-  const note = args.quotes[0] ?? args.title
+  const directory = join(CORPUS, args.party)
+  const statedPath = join(directory, `${args.slug}.spec.md`)
+  const derivedPath = join(directory, `${args.slug}.derived.spec.md`)
+  if (!args.force && existsSync(statedPath) && existsSync(derivedPath)) {
+    console.log(`skip ${args.party}/${args.slug}`)
+    return
+  }
 
   const stated = yamlBlock({
     type: 'spec',
     id,
     title: args.title,
     status: 'draft',
-    updated: '2026-08-22',
-    summary: outputText.slice(0, 280),
+    updated: new Date().toISOString().slice(0, 10),
+    summary: args.title,
     jurisdiction: 'SE',
     sources: [{ title: args.title, url: args.url }],
     tags: args.tags,
@@ -100,30 +75,25 @@ function writePair(args: {
     money: args.money,
     sourcePath: args.repoPath,
     sourceDigest: args.pageDigest,
-    gaps: ['cost is not stated on the page', 'timetable is not stated on the page'],
+    gaps: [],
   })
 
   const statedBody = `# What the page states
 
-> ${note}
+> Author a two-to-four sentence paraphrase of the page. Do not paste the first sentences.
 
 System: ${args.title}
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then ${thenText}
-Output ${outputText}
-Outcome the claim is the party's stated position
+Scenario: Name the situation the page describes
 `
 
   const derived = yamlBlock({
     type: 'spec',
     id: `${id}-derived`,
-    title: `${args.title} (reading)`,
+    title: `${args.title} read as a system`,
     status: 'draft',
-    updated: '2026-08-22',
-    summary: `Our reading of ${args.title}`,
+    updated: new Date().toISOString().slice(0, 10),
+    summary: `A reading of ${args.title}`,
     jurisdiction: 'SE',
     sources: [{ title: args.title, url: args.url }],
     tags: args.tags,
@@ -133,49 +103,28 @@ Outcome the claim is the party's stated position
     money: args.money,
     sourcePath: args.repoPath,
     sourceDigest: args.pageDigest,
-    assumptions: ['the page is the 2026 campaign position unless it says otherwise'],
+    assumptions: [],
   })
 
   const derivedBody = `# Our understanding
 
-> The party states a direction. Figures that are not on the page are not invented here.
+> State the finding. Do not restated the page.
 
 System: ${args.title}
 
-Scenario: A reader takes the page at its word
-Given the matching stated spec
-When the policy is read as a system
-Then the intervention is what the page names
-Output no figure is added that the page does not print
-Outcome the derived face does not blend with the stated face
+Scenario: Name the mechanism under analysis
 `
 
-  const directory = join(CORPUS, args.party)
-  writeFileSync(join(directory, `${args.slug}.spec.md`), `${stated}${statedBody}`, 'utf8')
-  writeFileSync(join(directory, `${args.slug}.derived.spec.md`), `${derived}${derivedBody}`, 'utf8')
-}
-
-function deleteContaminatedSpecs(): void {
-  for (const party of readdirSync(CORPUS)) {
-    const directory = join(CORPUS, party)
-    try {
-      for (const file of readdirSync(directory)) {
-        if (file.endsWith('.spec.md')) {
-          unlinkSync(join(directory, file))
-        }
-      }
-    } catch {
-      continue
-    }
-  }
+  writeFileSync(statedPath, `${stated}${statedBody}`, 'utf8')
+  writeFileSync(derivedPath, `${derived}${derivedBody}`, 'utf8')
+  console.log(`scaffold ${args.party}/${args.slug}`)
 }
 
 function main(): void {
+  const force = process.argv.includes('--force')
   const flagship = YAML.parse(
     readFileSync(join(CORPUS, '_analysis', 'flagship.yaml'), 'utf8'),
   ) as FlagshipFile
-
-  deleteContaminatedSpecs()
 
   for (const [party, clusters] of Object.entries(flagship.parties ?? {})) {
     for (const [cluster, file] of Object.entries(clusters)) {
@@ -185,7 +134,7 @@ function main(): void {
         continue
       }
       const raw = readFileSync(absolute, 'utf8')
-      const { fields, body } = splitDump(raw)
+      const { fields } = splitDump(raw)
       const slug = file.replace(/\.md$/, '')
       const title = typeof fields.title === 'string' ? fields.title : slug
       const url = typeof fields.sourceUrl === 'string' ? fields.sourceUrl : ''
@@ -193,11 +142,6 @@ function main(): void {
         ? fields.tags.filter((tag): tag is string => typeof tag === 'string')
         : []
       const money = typeof fields.money === 'string' ? fields.money : 'no-figure'
-      const quotes = policyQuotes(body)
-      if (quotes.length === 0) {
-        console.warn(`no quotes ${party}/${file}`)
-        continue
-      }
       writePair({
         party,
         slug,
@@ -206,11 +150,10 @@ function main(): void {
         url,
         tags,
         money,
-        quotes,
         repoPath: `corpus/${EVENT}/${party}/${file}`,
         pageDigest: digestOf(bodyAfterFrontmatter(raw)),
+        force,
       })
-      console.log(`${party} ${cluster} ${file}`)
     }
   }
 }

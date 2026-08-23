@@ -1,10 +1,10 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-pliktskola-derived
-title: "Pliktskola read as a system: närvarokrav utan verktyg"
+title: "Compulsory schooling read as a system: attendance requirement without tools"
 status: draft
 updated: 2026-08-23
-summary: Skolplikt utsträcks till alla barn som vistas i landet, men sidan namnger varken sanktion, myndighet eller hur många barn det gäller.
+summary: Compulsory schooling is extended to all children present in the country, but the policy names neither sanction, authority nor how many children it concerns.
 jurisdiction: SE
 sources:
   - title: Pliktskola
@@ -19,32 +19,32 @@ money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-pliktskola.md
 sourceDigest: sha256-ecda7d8524be6213
 assumptions:
-  - barn som vistas i Sverige men inte är folkbokförda saknar ofta adress och vårdnadshavare som skolan kan kräva närvaro av
-  - stärkt kontroll utan namngivet verktyg kan bli allt från brev till viten; sidan väljer inte
-  - vårdnadshavares ansvar biter bara om någon myndighet får ett tydligt uppdrag att ingripa
-  - sidan är för kort för att skilja på barn som aldrig skrivits in och barn som skolkar efter inskrivning
+  - children present in Sweden but not registered in the population register often lack an address and guardian the school can demand attendance from
+  - strengthened control without a named tool can range from letters to fines; the policy does not choose
+  - guardians' responsibility only bites if some authority gets a clear mandate to intervene
+  - the policy is too short to distinguish children never enrolled from children truanting after enrolment
 lang: en
 translationOf: sverigedemokraterna-a-till-o-pliktskola-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-e8429d1789666a80
 ---
 
 # Our understanding
 
-> Plikten ska gälla varje barn som vistas i landet, och någon ska se till att den följs. Sidan säger inte vem som kontrollerar, med vilket tvång, eller hur många barn det rör. Utan folkbokföring och utan sanktion är kontrollen ett mål, inte en mekanism.
+> The duty is to apply to every child present in the country, and someone is to ensure it is followed. The policy does not say who checks, with what compulsion, or how many children it involves. Without population registration and without sanction, control is a goal, not a mechanism.
 
-System: Skolplikt som krav utan genomförandeled
+System: Compulsory schooling as a requirement without an implementation chain
 
-Scenario: Ett barn vistas här utan att skolan vet var det bor
-Given skolplikt ska omfatta alla barn som vistas i Sverige
-And sidan säger inte hur barn utan folkbokföring hittas
-When barnet inte kommer till undervisningen
-Then kontrollen saknar namngiven väg till vårdnadshavaren
-Outcome plikten finns på papperet medan barnet kan förbli osynligt för skolan
+Scenario: A child is here without the school knowing where they live
+Given compulsory schooling is to cover all children present in Sweden
+And the policy does not say how children without population registration are found
+When the child does not come to lessons
+Then control lacks a named route to the guardian
+Outcome the duty exists on paper while the child can remain invisible to the school
 
-Scenario: En vårdnadshavare släpper inte iväg barnet
-Given samhället ska säkerställa att skolplikten följs
-When vårdnadshavaren inte tar sitt ansvar
-Then sidan säger inte om vite, socialtjänst eller polisanmälan följer
-Outcome ansvaret läggs på vårdnadshavaren utan att kostnaden för att driva in det är beskriven
+Scenario: A guardian does not send the child off
+Given society is to ensure compulsory schooling is followed
+When the guardian does not take responsibility
+Then the policy does not say whether fines, social services or a police report follow
+Outcome responsibility is placed on the guardian without the cost of enforcing it being described

@@ -1,10 +1,10 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-organiserad-brottslighet-derived
-title: "Organiserad brottslighet read as a system: mer tid bakom lås, förbudet väntar på grundlagen"
+title: "Organised crime read as a system: more time behind bars, the ban waits on the constitution"
 status: draft
 updated: 2026-08-23
-summary: Dubbla straff kan börja verka före nästa val; medlemsförbudet kan det inte, eftersom grundlagen kräver två beslut och sidan bara lovar det första.
+summary: Doubled sentences can begin to bite before the next election; the membership ban cannot, because the constitution requires two decisions and the policy only promises the first.
 jurisdiction: SE
 sources:
   - title: Organiserad brottslighet
@@ -19,32 +19,32 @@ money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-organiserad-brottslighet.md
 sourceDigest: sha256-b2b172f20e64eac5
 assumptions:
-  - dubbla straff för gängbrott ökar tiden i anstalt; utan nya platser blir kön till fängelset trycket som hushållen inte ser
-  - gängtillhörighet måste bevisas i domstol; sidan säger inte vilket beviskrav som ska gälla
-  - två grundlagsbeslut kan inte båda hinna före ett enda val om det andra ska tas av en ny riksdag
-  - medlemsförbud utan legal definition av kriminell organisation riskerar att antingen bli tandlöst eller att träffa vidare än gäng
+  - doubled sentences for gang crime increase time in prison; without new places the queue to prison becomes pressure households do not see
+  - gang membership must be proved in court; the policy does not say what standard of proof should apply
+  - two constitutional decisions cannot both be completed before a single election if the second is to be taken by a new Riksdag
+  - membership ban without legal definition of criminal organisation risks either being toothless or hitting wider than gangs
 lang: en
 translationOf: sverigedemokraterna-a-till-o-organiserad-brottslighet-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-2622b3dfa9238433
 ---
 
 # Our understanding
 
-> Straffen skärps nu, och ska för gängbrott fördubblas före nästa val. Förbudet mot att ingå i en kriminell organisation kräver två grundlagsbeslut; bara det första utlovas. Den som sitter inne tar tid i anstalt. Organisationen kan leva vidare tills det andra beslutet kommer, om det kommer.
+> Sentences are being sharpened now, and are to be doubled for gang crime before the next election. The ban on belonging to a criminal organisation requires two constitutional decisions; only the first is promised. Whoever is inside serves time in prison. The organisation can live on until the second decision comes, if it comes.
 
-System: Straff som biter före valet, förbud som väntar på nästa riksdag
+System: Sentences that bite before the election, ban waiting on the next Riksdag
 
-Scenario: Dubbla straff börjar gälla medan anstaltsplatserna är desamma
-Given straffen redan skärpts för flera brott som gängkriminella begår
-When dubbla straff införs för gängbrott
-Then fler dömda ska sitta inne längre
-But sidan säger inte var de ska sitta
-Outcome tiden bakom lås ökar; kapaciteten i anstalt är en tyst begränsning
+Scenario: Doubled sentences begin to apply while prison places stay the same
+Given sentences have already been sharpened for several crimes gang criminals commit
+When doubled sentences are introduced for gang crime
+Then more convicted people are to serve longer inside
+But the policy does not say where they are to sit
+Outcome time behind bars increases; prison capacity is a silent constraint
 
-Scenario: Det första grundlagsbeslutet tas före valet
-Given två grundlagsbeslut behövs för att göra medlemskap olagligt
-When bara det första beslutet fattas
-Then det fortfarande är lagligt att vara med i organisationen
-Outcome förbudet blir ett vallöfte som nästa riksdag måste fullfölja, inte en regel som redan gäller
+Scenario: The first constitutional decision is taken before the election
+Given two constitutional decisions are needed to make membership illegal
+When only the first decision is taken
+Then it is still legal to be in the organisation
+Outcome the ban becomes an election promise the next Riksdag must fulfil, not a rule already in force

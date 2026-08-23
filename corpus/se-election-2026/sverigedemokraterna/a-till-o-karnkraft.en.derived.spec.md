@@ -1,10 +1,10 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-karnkraft-derived
-title: "Kärnkraft read as a system: staten bär risken, elen kommer senare"
+title: "Nuclear power read as a system: the state bears the risk, electricity comes later"
 status: draft
 updated: 2026-08-23
-summary: Hinder är undanröjda och staten delar risken; sidan medger att återställningen tar tid, men säger inte hur stor räkningen är eller när reaktorerna levererar.
+summary: Obstacles are cleared and the state shares risk; the policy admits restoration takes time, but does not say how large the bill is or when the reactors deliver.
 jurisdiction: SE
 sources:
   - title: Kärnkraft
@@ -19,31 +19,31 @@ money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-karnkraft.md
 sourceDigest: sha256-130bdb28f2c90232
 assumptions:
-  - statlig riskdelning betyder att skattebetalare tar en del av förlusten om projektet spricker; sidan säger inte hur stor andelen är
-  - nya reaktorer tar mer än en mandatperiod; hushållens prisnivå nu styrs inte av reaktorer som inte är byggda
-  - halva kärnkraften är sidans baslinje för förlusten, inte en oberoende energibalans
-  - undanröjda hinder tar bort laghinder; de tar inte bort kapitalkostnad, lokalt motstånd eller nätkapacitet
+  - state risk-sharing means taxpayers take part of the loss if the project fails; the policy does not say how large the share is
+  - new reactors take more than one parliamentary term; households' price level now is not driven by reactors not yet built
+  - half of nuclear power is the policy's baseline for the loss, not an independent energy balance
+  - cleared obstacles remove legal barriers; they do not remove capital cost, local opposition or grid capacity
 lang: en
 translationOf: sverigedemokraterna-a-till-o-karnkraft-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-7b68ba344067a493
 ---
 
 # Our understanding
 
-> Politiken har redan flyttat risk till staten och röjt undan hinder. Det är insatsen. Ny el i uttag är utfallet, och sidan säger att det tar tid. Hushåll och företag som förlorade på nedläggningen väntar på kapacitet som ännu inte finns. Räkningen för riskdelningen är öppen.
+> The policy has already moved risk to the state and cleared obstacles. That is the input. New electricity at the socket is the outcome, and the policy says it takes time. Households and businesses that lost from the shutdown wait for capacity that does not yet exist. The bill for risk-sharing is open.
 
-System: Risk på staten, effekt senare
+System: Risk on the state, effect later
 
-Scenario: Ett kärnkraftsprojekt drar över budget
-Given omfattande statlig riskdelning erbjuds
-When kostnaderna stiger
-Then en del av förlusten landar på det offentliga
-Outcome hushållen bär risken som skattebetalare innan de ser ny effekt
+Scenario: A nuclear power project runs over budget
+Given extensive state risk-sharing is offered
+When costs rise
+Then part of the loss lands on the public sector
+Outcome households bear the risk as taxpayers before they see new capacity
 
-Scenario: Elpriset i vinter, innan ny kärnkraft finns
-Given det tar tid att återställa systemet
-When ett hushåll ska betala elräkningen nu
-Then ny kärnkraft levererar ännu inte den trygga el och effekt sidan utlovar
-Outcome prisnivå och robusthet är ett återställningsmål, inte ett nuläge
+Scenario: The electricity price this winter, before new nuclear power exists
+Given it takes time to restore the system
+When a household is to pay the electricity bill now
+Then new nuclear power is not yet delivering the secure electricity and capacity the policy promises
+Outcome price level and robustness are a restoration goal, not the current state

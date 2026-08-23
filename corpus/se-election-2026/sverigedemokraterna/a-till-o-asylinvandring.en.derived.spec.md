@@ -1,10 +1,10 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-asylinvandring-derived
-title: "Asylinvandring read as a system: Sverige ska sluta vara destinationen"
+title: "Asylum immigration read as a system: Sweden is to stop being the destination"
 status: draft
 updated: 2026-08-23
-summary: Första säkra land, avskaffat EBO och EU:s golv ska göra det mindre värt att söka sig hit; sidan säger inte vart ärendena då tar vägen eller vad golvet kostar.
+summary: First safe country, abolished EBO and the EU floor are to make it less worthwhile to come here; the policy does not say where cases then go or what the floor costs.
 jurisdiction: SE
 sources:
   - title: Asylinvandring
@@ -19,33 +19,33 @@ money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-asylinvandring.md
 sourceDigest: sha256-94a00538c916c687
 assumptions:
-  - första säkra land flyttar prövningen till det land den sökande redan rest igenom, om det landet tar emot
-  - EU:s miniminivå är ett golv andra medlemsländer kan ligga över; sänkt svensk nivå ändrar relativ attraktion, inte asylrätten i unionen
-  - när EBO upphör måste staten eller kommunen hysa samma personer; institutionsplatser kostar mer per dygn än eget boende, men beloppet saknas
-  - återvändande när det är tryggt kräver avtal med hemlandet och tvång om personen vägrar; sidan nämner bara att man ska åka
+  - first safe country moves the assessment to the country the applicant has already travelled through, if that country accepts them
+  - the EU minimum level is a floor other member states can sit above; a lower Swedish level changes relative attraction, not the right to asylum in the Union
+  - when EBO ends the state or municipality must house the same people; institutional places cost more per day than own accommodation, but the amount is not given
+  - return when safe requires agreements with the home country and compulsion if the person refuses; the policy only mentions that people should leave
 lang: en
 translationOf: sverigedemokraterna-a-till-o-asylinvandring-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-bc46fe6751544d40
 ---
 
 # Our understanding
 
-> Asyl ska sökas någon annanstans, och villkoren här ska inte dra hit den som kan välja. EBO och ett mottagande över miniminivån är det som ska tas bort. Sidan säger inte vilket land som då tar ärendet, vad miniminivån är värd, eller hur den som inte vill återvända tvingas iväg. Destinationen ska sluta vara Sverige. Trycket försvinner inte.
+> Asylum is to be sought elsewhere, and conditions here are not to draw in those who can choose. EBO and reception above the minimum level are what is to be removed. The policy does not say which country then takes the case, what the minimum level is worth, or how someone who does not want to return is forced away. The destination is to stop being Sweden. The pressure does not disappear.
 
-System: Attraktion ned, prövningen någon annanstans
+System: Attraction down, assessment elsewhere
 
-Scenario: Första säkra land säger nej till att ta tillbaka personen
-Given principen om asyl i första säkra land
-And i normalfallet är det inte Sverige
-When det andra landet vägrar ta emot
-Then ärendet kan bli kvar här ändå
-Outcome låg asylinvandring beror på andra staters vilja, inte bara på den egna regeln
+Scenario: First safe country refuses to take the person back
+Given the principle of asylum in the first safe country
+And normally that is not Sweden
+When the other country refuses to accept them
+Then the case may still remain here
+Outcome low asylum immigration depends on other states' willingness, not only on the domestic rule
 
-Scenario: EBO stängs medan samma asylsökande fortfarande är här
-Given asylsökande kan i dag ordna eget boende
-When den möjligheten upphör
-Then mottagandet ska ner till EU:s miniminivå
-But någon måste då tillhandahålla sängplatserna som EBO inte längre bär
-Outcome kostnaden flyttar från den sökandes hyra till anläggningsboende, utan belopp på sidan
+Scenario: EBO closes while the same asylum seekers are still here
+Given asylum seekers can today arrange their own accommodation
+When that option ends
+Then reception is to fall to the EU minimum level
+But someone must then provide the bed spaces that EBO no longer carries
+Outcome the cost moves from the applicant's rent to institutional housing, without amounts on the policy

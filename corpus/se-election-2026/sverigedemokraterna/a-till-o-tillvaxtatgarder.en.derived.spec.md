@@ -1,10 +1,10 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-tillvaxtatgarder-derived
-title: "Tillväxtåtgärder read as a system: en lista utan storlek, ordning eller vilken skatt"
+title: "Growth measures read as a system: a list without size, order or which tax"
 status: draft
 updated: 2026-08-23
-summary: Tillväxten ska komma från många små och stora grepp på en gång; utan belopp, turordning och namngiven skatt går det inte att säga vem som får mer i plånboken eller när takten syns.
+summary: Growth is to come from many small and large moves at once; without amounts, sequencing and named tax it cannot be said who gets more in the wallet or when the pace shows.
 jurisdiction: SE
 sources:
   - title: Tillväxtåtgärder
@@ -19,32 +19,32 @@ money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-tillvaxtatgarder.md
 sourceDigest: sha256-b605a67e0f5a33a3
 assumptions:
-  - sänkt skattetryck utan namngiven bas är antingen lägre inkomstskatt, bolagsskatt, moms eller allt; incidensen skiljer sig
-  - kortare tillstånd ökar värdet på projekt som redan är lönsamma; de skapar inte av sig själva den efterfrågan sidan vill se
-  - drivkrafter från bidrag till arbete kräver att bidrag sänks, lön efter skatt höjs, eller båda; sidan säger inte vilket
-  - tillväxt i världstoppen är ett mål mot andra länders utfall, inte ett åtagande staten styr ensam
+  - lower tax burden without a named base is either lower income tax, corporation tax, VAT or all; incidence differs
+  - shorter permits increase the value of projects already profitable; they do not by themselves create the demand the policy wants to see
+  - incentives from benefits to work require benefits to fall, pay after tax to rise, or both; the policy does not say which
+  - growth at world top is a goal against other countries' outcomes, not a commitment the state controls alone
 lang: en
 translationOf: sverigedemokraterna-a-till-o-tillvaxtatgarder-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-872895140982f634
 ---
 
 # Our understanding
 
-> Agendan är bred med flit: skatt, EU, bidrag, regler, tillstånd och FoU. Det är poängen på sidan — inget enskilt grepp räcker. Utan storlek och ordning är listan en riktning. Vem som betalar sänkningen, och hur snabbt tillväxten ska synas, står inte där.
+> The agenda is broad on purpose: tax, EU, benefits, rules, permits and R&D. That is the point on the policy — no single move is enough. Without size and order the list is a direction. Who pays for the cut, and how fast growth is to show, is not there.
 
-System: Tillväxt som paket utan prislapp
+System: Growth as a package without a price tag
 
-Scenario: Skattetrycket sänks utan att basen namnges
-Given skattetrycket ska sänkas för både privatpersoner och företag
-When en hushållare eller ett bolag ska räkna på nästa år
-Then sidan säger inte vilken skatt som rör sig, eller hur mycket
-Outcome plånboken kan bli tyngre eller nästan oförändrad; båda ryms i texten
+Scenario: Tax burden is lowered without the base being named
+Given tax burden is to be lowered for both individuals and firms
+When a household or company is to calculate for next year
+Then the policy does not say which tax moves, or by how much
+Outcome the wallet can become heavier or almost unchanged; both fit the text
 
-Scenario: Tillstånd kortas medan efterfrågan fortfarande är svag
-Given perioden har präglats av lågkonjunktur och svag tillväxt
-When tillståndsprocesser förkortas
-Then projekt som redan väntar kan komma i gång fortare
-But ny efterfrågan skapas inte av kortare kö till tillståndet
-Outcome utbudssidan rör sig; takten i ekonomin kan ändå stanna vid konjunkturen
+Scenario: Permits are shortened while demand is still weak
+Given the period has been marked by recession and weak growth
+When permit processes are shortened
+Then projects already waiting can get going faster
+But new demand is not created by a shorter queue to the permit
+Outcome the supply side moves; the pace in the economy can still stall at the recession

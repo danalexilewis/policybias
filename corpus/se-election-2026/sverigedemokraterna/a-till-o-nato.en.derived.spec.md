@@ -1,10 +1,10 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-nato-derived
-title: "Nato read as a system: medlemskapet är klart, alliansens agenda är inte Sveriges att sätta"
+title: "NATO read as a system: membership is settled, the alliance's agenda is not Sweden's to set"
 status: draft
 updated: 2026-08-23
-summary: Inga svenska restriktioner är en nationell hållning; robotförsvar, Kina och att Nato släpper miljöfrågor kräver att övriga medlemsländer vill samma sak.
+summary: No Swedish restrictions is a national stance; missile defence, China and NATO dropping environmental issues require other member states to want the same thing.
 jurisdiction: SE
 sources:
   - title: Nato
@@ -19,30 +19,30 @@ money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-nato.md
 sourceDigest: sha256-b75dba64f54fd198
 assumptions:
-  - restriktionsfri samverkan betyder att svenska förbehåll mot baser, kärnvapen eller övningar inte ska finnas; sidan räknar inte upp vilka
-  - robotförsvar i Nato är ett allierat system; Sveriges röst räcker inte för att bygga det
-  - det kinesiska hotet är en transatlantisk strid om Natos geografiska fokus; europeiska medlemmar kan vilja hålla alliansen vid Ryssland
-  - miljöarbete i Nato är redan omstritt; att flytta det kräver konsensus, inte en nationell viljeyttring
+  - restriction-free co-operation means Swedish reservations against bases, nuclear weapons or exercises should not exist; the policy does not list which
+  - missile defence in NATO is an allied system; Sweden's voice is not enough to build it
+  - the Chinese threat is a transatlantic fight over NATO's geographical focus; European members may want to keep the alliance on Russia
+  - environmental work in NATO is already contested; moving it requires consensus, not a national expression of will
 lang: en
 translationOf: sverigedemokraterna-a-till-o-nato-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-0d2889d1e07274d1
 ---
 
 # Our understanding
 
-> Medlemskapet stöds, och Sverige ska inte lägga egna spärrar på samverkan. Det kan en regering i Stockholm besluta. Vad Nato ska göra — robotförsvar, Kina, inte miljö — beslutas av alliansen. Sidan talar som om den svenska linjen vore alliansens. Den är en röst.
+> Membership is supported, and Sweden is not to place its own barriers on co-operation. A government in Stockholm can decide that. What NATO is to do — missile defence, China, not environment — is decided by the alliance. The policy speaks as if the Swedish line were the alliance's. It is one voice.
 
-System: Svensk linje i en allians som röstar
+System: Swedish line in an alliance that votes
 
-Scenario: Sverige avstår från restriktioner
-Given Natomedlemskapet stöds
-When restriktioner i samverkan med alliansens medlemmar inte ställs
-Then svenska förband kan övas och baseras efter allierade behov i högre grad än med förbehåll
-Outcome kostnaden är nationell kontroll; vinsten är djupare integration
+Scenario: Sweden refrains from restrictions
+Given NATO membership is supported
+When restrictions on co-operation with alliance members are not imposed
+Then Swedish units can exercise and be based to meet allied needs to a greater degree than with reservations
+Outcome the cost is national control; the gain is deeper integration
 
-Scenario: Nato ombeds släppa miljöfrågor och möta Kina
-When alliansen ska stärka robotförsvar, möta det kinesiska hotet och lämna miljöfrågor
-Then det kräver andra medlemsländers ja
-Outcome den svenska dagordningen kan stanna som position, inte som Natos uppdrag
+Scenario: NATO is asked to drop environmental issues and meet China
+When the alliance is to strengthen missile defence, meet the Chinese threat and leave environmental issues
+Then that requires yes from other member states
+Outcome the Swedish agenda can remain a position, not NATO's mission

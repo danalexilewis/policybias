@@ -1,10 +1,10 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-aldrevard-derived
-title: "Äldrevård read as a system: språket och lyftet, medan avstängningen saknas"
+title: "Äldrevård read as a system: language and the uplift, while suspension is missing"
 status: draft
 updated: 2026-08-23
-summary: Sidan namnger vanvård och övergrepp, men svaret är kompetensstöd och språkkrav; den som ska avlägsna en misstänkt förövare från golvet är fortfarande kommunen, utan ny makt.
+summary: The policy names neglect and abuse, but the answer is competency support and language requirements; whoever is supposed to remove a suspected perpetrator from the floor is still the municipality, without new powers.
 jurisdiction: SE
 sources:
   - title: Äldrevård
@@ -19,33 +19,33 @@ money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-aldrevard.md
 sourceDigest: sha256-88ef1be8fd01a72b
 assumptions:
-  - språkkrav höjer tröskeln för nyanställning mer än de avlägsnar den som redan är anställd och misstänkt
-  - Äldreomsorgslyftet är stöd till kompetensutveckling, inte en inspektion och inte ett avskedande
-  - kommunen är fortfarande huvudman; "prioritera högre" utan ny ram eller omfördelning betyder att något annat i budgeten får vika
-  - tystade övergrepp är ett tillsyns- och anmälningsproblem; sidan ger inget nytt tillsynsorgan
+  - language requirements raise the bar for new hires more than they remove someone already employed and suspected
+  - the Elderly Care Uplift is support for professional development, not inspection and not dismissal
+  - the municipality is still the responsible authority; "prioritise higher" without a new framework or reallocation means something else in the budget must give way
+  - silenced abuse is a supervision and reporting problem; the policy provides no new supervisory body
 lang: en
 translationOf: sverigedemokraterna-a-till-o-aldrevard-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-f9a0d4a270ce7308
 ---
 
 # Our understanding
 
-> Vanvården och övergreppen är beskrivna. Svaret är ett kompetenslyft och hårdare språkkrav, plus att kommunen ska bry sig mer. Den som ska ta en misstänkt förövare ur tjänst är samma kommun som redan tillåtit personen att stanna. Språket kan spärras vid dörren. Det stoppar inte den som redan har nyckel.
+> Neglect and abuse are described. The answer is a competency uplift and tougher language requirements, plus that the municipality should care more. Whoever is to remove a suspected perpetrator from duty is the same municipality that already allowed the person to stay. Language can be blocked at the door. It does not stop someone who already has a key.
 
-System: Kompetens och språk där avstängning skulle behövas
+System: Competency and language where suspension would be needed
 
-Scenario: En misstänkt förövare har redan en tjänst
-Given misstänkta förövare tillåts arbeta kvar
-When hårdare språkkrav och Äldreomsorgslyftet fortsätter
-Then personal kan kompetensutvecklas och nyrekrytering kan kräva bättre svenska
-But sidan säger inte att den misstänkte ska stängas av
-Outcome tryggheten för den äldre beror fortfarande på kommunens vilja att avlägsna personen
+Scenario: A suspected perpetrator already has a post
+Given suspected perpetrators are allowed to keep working
+When tougher language requirements and the Elderly Care Uplift continue
+Then staff can develop professionally and new recruitment may require better Swedish
+But the policy does not say the suspect should be suspended
+Outcome safety for the elderly person still depends on the municipality's willingness to remove the person
 
-Scenario: Kommunen ska prioritera äldrevården högre
-Given kommunerna har mycket kvar att göra
-When äldrevården ska gå före annat i samma kassa
-Then trygghet och kvalitet utlovas
-But vad som får stå tillbaka — skola, barnomsorg eller skatt — sägs inte
-Outcome prioriteringen är ett mål utan budgetpost
+Scenario: The municipality is to prioritise elderly care higher
+Given municipalities still have much to do
+When elderly care is to come before other spending from the same pot
+Then safety and quality are promised
+But what must give way — school, childcare or tax — is not said
+Outcome the prioritisation is a goal without a budget line

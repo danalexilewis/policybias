@@ -23,9 +23,9 @@ gaps:
   - how schools, care and security are funded when tax on work is cut is not stated
   - how many people have ISK above 300,000 kronor is not stated
 translationOf: liberalerna-politik-skatter
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-cfc3f474341db45a
+sourceSpecDigest: sha256-c601ba6ecd339c4b
 lang: en
 ---
 
@@ -36,11 +36,11 @@ lang: en
 System: Lower tax on work and a higher ISK ceiling
 
 Scenario: An employee with savings in an investment savings account
-Given tax-free saving in an investment savings account up to 300 thousand kronor has already been introduced
+Given tax-free saving in an investment savings account up to 300,000 kronor has already been introduced
 And the tax system has become hard to overview with many exceptions
 When tax-free saving in an ISK is raised and tax on work is cut
 Then it pays to work, study and take responsibility
 And more people can build their own economic security
-Output tax-free saving in an ISK up to 500 thousand kronor
+Output tax-free saving in an ISK up to 500,000 kronor
 Outcome the work line is strengthened and benefit dependence falls
 And anyone with their own savings can more easily leave a destructive relationship, change job or start a firm

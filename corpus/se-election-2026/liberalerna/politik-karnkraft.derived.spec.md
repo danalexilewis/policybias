@@ -4,7 +4,7 @@ id: liberalerna-politik-karnkraft-derived
 title: "Kärnkraftsutbyggnad läst som system: förbudet är borta, kapitalet är det inte"
 status: draft
 updated: 2026-08-23
-summary: Att lyfta taket på reaktorer och platser är en tillståndsändring; nya verk, små reaktorer och återvunnet bränsle behöver fortfarande en köpare av risk som sidan inte namnger.
+summary: Att lyfta taket på reaktorer och platser är en tillståndsändring; nya verk, små reaktorer och återvunnet bränsle behöver fortfarande en köpare av risk som politiken inte namnger.
 jurisdiction: SE
 sources:
   - title: Kärnkraft – Liberalerna
@@ -22,7 +22,7 @@ assumptions:
   - att tillåta fler än tio reaktorer och nya platser gjuter inte betong i sig; en byggherre behöver fortfarande ett avtalspris eller en statlig garanti
   - mindre reaktorer för värme och vätgas är en annan produkt än dagens stora verk, utan svensk kommersiell flotta än
   - väderberoende el kan tas upp bara om kärnkraften faktiskt kör som den fasta botten; förseningar lämnar nätet kort
-  - bränsleåtervinning är ett framtida val sidan villkorar med att behov uppstår, inte ett verk som beställs nu
+  - bränsleåtervinning är ett framtida val politiken villkorar med att behov uppstår, inte ett verk som beställs nu
 ---
 
 # Our understanding
@@ -37,7 +37,7 @@ And fler än tio reaktorer får vara i drift samtidigt
 When byggherren frågar vem som tar bygg-risken
 Then lagen blockerar inte längre projektet
 Outcome verket byggs ändå inte förrän kapital och en köpare av el är underskrivna
-But sidan namnger varken statens andel eller avtalsformen
+But politiken namnger varken statens andel eller avtalsformen
 
 Scenario: Industrin vill ha processvärme medan nästa reaktor fortfarande är liten på papperet
 Given nästa svenska reaktor troligen blir mindre än dagens

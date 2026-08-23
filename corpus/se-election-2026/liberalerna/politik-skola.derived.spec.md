@@ -4,7 +4,7 @@ id: liberalerna-politik-skola-derived
 title: "Statlig skola läst som system: tre kostnadsposter på en oprissatt budget"
 status: draft
 updated: 2026-08-23
-summary: Klasstak, extra grupper för särskilt stöd och ett statligt övertagande kräver alla personal och rum sidan inte kostar, medan vinstavveckling fortfarande behåller skolvalet.
+summary: Klasstak, extra grupper för särskilt stöd och ett statligt övertagande kräver alla personal och rum politiken inte kostar, medan vinstavveckling fortfarande behåller skolvalet.
 jurisdiction: SE
 sources:
   - title: Skola – Liberalerna
@@ -21,7 +21,7 @@ sourceDigest: "sha256-98b3de6782b86ec2"
 assumptions:
   - ett klasstak utan elevantal tvingar ändå anställning eller delning av grupper när ett tak väl sätts
   - att flytta kommunala skolor till staten flyttar löneräkningen från kommunalskatt till statsbudgeten
-  - att fasa ut vinst och behålla valet betyder att ägare lämnar eller ombildar; sidan säger inte vilket
+  - att fasa ut vinst och behålla valet betyder att ägare lämnar eller ombildar; politiken säger inte vilket
   - att ta bort surfplattor i tidiga år höjer resultat bara om tryckta böcker och lärartid faktiskt kommer
 ---
 
@@ -37,7 +37,7 @@ And ett tak för elever per klass ska införas
 When taket binder
 Then grupper delas eller extra lärare anställs
 Outcome studiero kan stiga där rum finns
-But sidan anger aldrig talet som utlöser delningen
+But politiken anger aldrig talet som utlöser delningen
 
 Scenario: En kommunal skola byter ägare
 Given kommunpolitiker inte ska kunna nedprioritera skolan

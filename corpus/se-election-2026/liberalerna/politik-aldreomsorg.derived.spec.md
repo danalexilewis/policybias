@@ -4,7 +4,7 @@ id: liberalerna-politik-aldreomsorg-derived
 title: "Val i äldreomsorgen läst som system: en meny som fortfarande behöver personal"
 status: draft
 updated: 2026-08-23
-summary: Val och självbestämmande finns bara där en andra utförare och en reservvårdare finns; sidan höjer ambitionen utan ett bemanningsgolv.
+summary: Val och självbestämmande finns bara där en andra utförare och en reservvårdare finns; politiken höjer ambitionen utan ett bemanningsgolv.
 jurisdiction: SE
 sources:
   - title: Äldreomsorg – Liberalerna
@@ -21,7 +21,7 @@ sourceDigest: "sha256-e46a87ed412c31c3"
 assumptions:
   - valet är tomt i en kommun som bara har ett hem eller ett hemtjänstlag
   - bättre arbetsvillkor utan siffra på lön eller tid skapar inte i sig det extra skift valet kräver
-  - ensamhet minskar när någon kommer; det besöket är en arbetstimme sidan inte finansierar
+  - ensamhet minskar när någon kommer; det besöket är en arbetstimme politiken inte finansierar
   - självbestämmande över dagen krockar med schemaläggningens effektivitet om inte kortare, dyrare besök accepteras
 ---
 
@@ -44,4 +44,4 @@ And ofrivillig ensamhet ska bekämpas
 When samma vårdare sägs stanna längre och samtidigt täcka en granne
 Then kvalitet och sällskap tävlar om samma timme
 Outcome levnadsvillkor utlovas på en högre nivå
-But den extra timmen står inte på sidan
+But den extra timmen står inte på politiken

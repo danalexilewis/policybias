@@ -23,7 +23,7 @@ gaps:
   - which compassionate circumstances give a right to stay is not stated
   - how returns are to be funded together with the EU and the UN is not stated
 translationOf: liberalerna-politik-invandring
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-64630d4621cf002d
 lang: en

@@ -23,7 +23,7 @@ gaps:
   - when the right to respite for relatives is to take effect is not stated
   - how access to effective medicines for rare conditions is to be funded is not stated
 translationOf: liberalerna-politik-sjukvard
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-97fe2395ac672dd4
 lang: en

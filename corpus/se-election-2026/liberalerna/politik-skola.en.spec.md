@@ -23,7 +23,7 @@ gaps:
   - a timetable for phasing out the profit motive in the independent-school sector is not stated
   - how many teaching assistants are to be hired is not stated
 translationOf: liberalerna-politik-skola
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-f7a69e959fc2ace3
 lang: en

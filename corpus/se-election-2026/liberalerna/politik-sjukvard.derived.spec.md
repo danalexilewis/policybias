@@ -4,7 +4,7 @@ id: liberalerna-politik-sjukvard-derived
 title: "Namngiven läkarkontakt läst som system: en rätt utan bemanningsgolv"
 status: draft
 updated: 2026-08-23
-summary: En namngiven läkare för varje patient och avlösning som rätt landar på samma arbetskraft sidan redan säger saknar kollegor.
+summary: En namngiven läkare för varje patient och avlösning som rätt landar på samma arbetskraft politiken redan säger saknar kollegor.
 jurisdiction: SE
 sources:
   - title: Sjukvård – Liberalerna
@@ -20,7 +20,7 @@ sourcePath: corpus/se-election-2026/liberalerna/politik-sjukvard.md
 sourceDigest: "sha256-81e3a6b1e95b57b0"
 assumptions:
   - en namngiven husläkarkontakt binder bara om liststorlek och timmar har tak; politiken slår fast rätten, inte taket
-  - läkemedel mot sällsynta sjukdomar och extra sjukhuskollegor tävlar om samma budget sidan lämnar oprissatt
+  - läkemedel mot sällsynta sjukdomar och extra sjukhuskollegor tävlar om samma budget politiken lämnar oprissatt
   - avlösning som laglig rätt är ett öppet kommunalt krav tills timmar och lön är satta
   - utbildningstid genom ett helt yrkesliv minskar mottagningstimmar om inte personalstyrkan ökar först
 ---

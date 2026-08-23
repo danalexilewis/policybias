@@ -18,12 +18,12 @@ money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-gangkriminalitet.md
 sourceDigest: sha256-c9b0c542eb2e7beb
 gaps:
-  - which sentence increases are still missing beyond the abolition of volume discounts is not stated
+  - which sentence increases are still missing beyond the abolition of the multiple-offence discount is not stated
   - how much wiretapping and camera surveillance is to be expanded is not stated
   - how the gangs' finances are to be choked in practice is not stated
   - how many children outreach work is to reach is not stated
 translationOf: liberalerna-politik-gangkriminalitet
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-06811a8405068cb9
 lang: en
@@ -38,7 +38,7 @@ System: An iron fist against the gangs and protection for children
 Scenario: A criminal network continues with shootings and bombings
 Given gang crime threatens people's safety and trust in society
 And Sweden has for a long time had a very serious development of lethal violence linked to criminal networks
-And volume discounts for offences have been abolished and the previously almost automatic release from prison sentences has been restricted
+And the multiple-offence discount has been abolished and the previously almost automatic release from prison sentences has been restricted
 When sentences for serious and organised crime are tightened and the police get more effective tools
 Then the possibilities for wiretapping and camera surveillance are strengthened
 And the gangs' finances are choked

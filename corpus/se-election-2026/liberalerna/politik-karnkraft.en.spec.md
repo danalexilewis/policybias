@@ -23,7 +23,7 @@ gaps:
   - when the next reactor is to be in operation is not stated
   - how process heat and hydrogen from small reactors are to be paid for is not stated
 translationOf: liberalerna-politik-karnkraft
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-0f8b2d0521f646a8
 lang: en

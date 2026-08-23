@@ -23,7 +23,7 @@ gaps:
   - how much more nuclear, solar and wind power is required is not stated
   - what happens if capture misses the target is not stated
 translationOf: liberalerna-politik-klimatet
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-d4998e2ec6983e3e
 lang: en

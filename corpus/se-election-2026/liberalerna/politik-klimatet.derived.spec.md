@@ -4,7 +4,7 @@ id: liberalerna-politik-klimatet-derived
 title: "Avskiljningsmål läst som system: volym utan byggherre"
 status: draft
 updated: 2026-08-23
-summary: Tio miljoner ton sedan tjugo miljoner ton avskild koldioxid är ett anläggningsprogram som vilar på kärnkraft, vind och sol som sidan bara namnger som mix, inte som utbyggnadstakt.
+summary: Tio miljoner ton sedan tjugo miljoner ton avskild koldioxid är ett anläggningsprogram som vilar på kärnkraft, vind och sol som politiken bara namnger som mix, inte som utbyggnadstakt.
 jurisdiction: SE
 sources:
   - title: Klimatet behöver en effektiv politik. Liberalerna är alliansens grönaste röst!
@@ -22,7 +22,7 @@ assumptions:
   - att avskilja 10 miljoner ton kräver anläggningar, rör och lager som inte finns i den skalan i Sverige i dag
   - biomassa-baserad avskiljning som ger negativa utsläpp konkurrerar med samma biomassa som används för värme och bränsle
   - tillväxt-först klimatpolitik skjuter upp nedskärningar som skulle krympa en fossil aktivitet i år
-  - kärnkraft, vind och sol som trio behöver fortfarande lokalisering och nät; sidan behandlar mixen som svaret
+  - kärnkraft, vind och sol som trio behöver fortfarande lokalisering och nät; politiken behandlar mixen som svaret
 ---
 
 # Our understanding
@@ -36,10 +36,10 @@ Given målet är att avskilja 10 miljoner ton CO2
 And stora volymer CO2 ska avskiljas och lagras
 When kalenderåret för det första målet kommer
 Then avskild koldioxid ska lämna atmosfären
-Outcome negativa utsläpp kräver biomassa plus lagring, inte en pressrad
-But sidan namnger inte vem som bygger eller betalar anläggningarna
-# extrapolated: 0 är räkning från anläggningar som ännu inte står på sidan
+# extrapolated: 0 är räkning från anläggningar som ännu inte står på politiken
 Output 0 ton avskilda om ingen anläggning kör
+Outcome negativa utsläpp kräver biomassa plus lagring, inte en pressrad
+But politiken namnger inte vem som bygger eller betalar anläggningarna
 
 Scenario: Fossila bränslen ersätts medan energianvändningen stiger
 Given kol olja och gas måste ersättas av fossilfri energi

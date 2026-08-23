@@ -23,7 +23,7 @@ gaps:
   - how working conditions and competence are to be raised is not stated
   - how involuntary loneliness is to be measured is not stated
 translationOf: liberalerna-politik-aldreomsorg
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-b0b40131e6d9742f
 lang: en

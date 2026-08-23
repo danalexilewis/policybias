@@ -20,9 +20,9 @@ sourcePath: corpus/se-election-2026/liberalerna/politik-forsvar.md
 sourceDigest: "sha256-0cb347d0e2247a4a"
 assumptions:
   - en BNP-andel utan år är ett rörligt mål; en recession skär kronor även om procenten hålls
-  - 1.5 procent relaterade utgifter kan ommärkas befintlig infrastruktur om inte sidan ringar in den till nya lager
+  - 1.5 procent relaterade utgifter kan ommärkas befintlig infrastruktur om inte politiken ringar in den till nya lager
   - fler soldater sjömän och officerare behöver bostäder utbildning och materiel som tävlar med ammunition inuti 3.5 procenten
-  - gemensam EU-upphandling hjälper Ukraina och lager bara om fabrikerna redan är varma; sidan namnger syftet, inte ledtiden
+  - gemensam EU-upphandling hjälper Ukraina och lager bara om fabrikerna redan är varma; politiken namnger syftet, inte ledtiden
 ---
 
 # Our understanding
@@ -37,11 +37,11 @@ When nästa budget sätts
 Then andelen kan tryckas innan brigaderna finns
 Output 5 procent av BNP
 Outcome avskräckning är en styrka som kan strida, inte en rad i en budgetproposition
-But sidan säger inte vilket år andelen nås
+But politiken säger inte vilket år andelen nås
 
 Scenario: Civilförsvaret byggs upp från den relaterade skivan
 Given elförsörjning hälso- och sjukvård transporter och livsmedelsförsörjning måste fungera även i krig
 When civilplikt lager och krigsviktiga företag återställs
 Then de uppgifterna tävlar med ammunition om samma BNP-andel
 Outcome hushållen är säkrare bara om den relaterade skivan är ny insats, inte ommärkta utgifter
-But sidan ringar inte in den skivan
+But politiken ringar inte in den skivan

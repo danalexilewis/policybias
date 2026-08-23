@@ -23,7 +23,7 @@ gaps:
   - how civil defence and civil conscription are to be funded within the share is not stated
   - how many more soldiers, sailors and officers are needed is not stated
 translationOf: liberalerna-politik-forsvar
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-fa0dc93daa35bdba
 lang: en
@@ -38,7 +38,7 @@ System: Total defence at five percent of GDP
 Scenario: Defence appropriations are to cover both weapons and civil protection
 Given Sweden after decades of disarmament needs to rebuild defence from the ground up
 And Sweden is a full member of NATO
-When defence spending rises to the combined GDP share the page names
+When defence spending rises to the combined GDP share the policy names
 Then the military defence grows quickly with more soldiers, sailors and officers
 And electricity supply, healthcare, transport and food supply are to function even in war
 And civil conscription is one step and emergency stocks are reintroduced

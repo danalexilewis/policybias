@@ -4,7 +4,7 @@ id: liberalerna-politik-invandring-derived
 title: "Asylprövning läst som system: snabbhet utan kölängd"
 status: draft
 updated: 2026-08-23
-summary: Skyddsgrunder avgör vem som får stanna, men kortare handläggning, kvotplatser och återvändande kräver alla personal som sidan inte dimensionerar, medan arbetskraftsinvandring sitter på en separat grind.
+summary: Skyddsgrunder avgör vem som får stanna, men kortare handläggning, kvotplatser och återvändande kräver alla personal som politiken inte dimensionerar, medan arbetskraftsinvandring sitter på en separat grind.
 jurisdiction: SE
 sources:
   - title: Invandring – Liberalerna
@@ -19,9 +19,9 @@ money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-invandring.md
 sourceDigest: "sha256-0a4834e8fc4f9e1b"
 assumptions:
-  - kortare asylväntan kräver handläggare och boende under väntan; sidan kallar väntan för lång, inte antalet tjänster
+  - kortare asylväntan kräver handläggare och boende under väntan; politiken kallar väntan för lång, inte antalet tjänster
   - humanitära undantag utan prövning öppnar samma kö som gallringen ska stänga
-  - återvändande med EU och FN faller när mottagarstaten inte tar emot personen; sidan förutsätter samarbete
+  - återvändande med EU och FN faller när mottagarstaten inte tar emot personen; politiken förutsätter samarbete
   - arbetskraftsinvandring av nyckelkompetens delar inte tak med asyl, så de två grindarna kan växa samtidigt
 ---
 
@@ -37,7 +37,7 @@ When ärendet avgörs enbart på skyddsgrunder
 Then den som flyr krig eller förföljelse kan stanna
 And den utan grunder ska lämna
 Outcome kön blir kortare bara om fler beslut skrivs varje vecka
-But sidan säger inte hur många handläggare det kräver
+But politiken säger inte hur många handläggare det kräver
 
 Scenario: Ett företag sponsrar en specialist medan återvändandet fastnar
 Given arbetskraftsinvandring är bra för Sverige och ska vara enkel för företag

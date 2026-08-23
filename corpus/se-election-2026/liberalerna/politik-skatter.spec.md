@@ -31,11 +31,11 @@ gaps:
 System: Lägre skatt på arbete och högre ISK-tak
 
 Scenario: En löntagare med sparande på investeringssparkonto
-Given skattefritt sparande på investeringssparkonto upp till 300 tusen kronor redan har införts
+Given skattefritt sparande på investeringssparkonto upp till 300 000 kronor redan har införts
 And skattesystemet har blivit svårt att överblicka med många undantag
 When skattefritt sparande på ISK höjs och skatten på arbete sänks
 Then det lönar sig att arbeta utbilda sig och ta ansvar
 And fler kan bygga upp en egen ekonomisk trygghet
-Output skattefritt sparande på ISK upp till 500 tusen kronor
+Output skattefritt sparande på ISK upp till 500 000 kronor
 Outcome arbetslinjen stärks och bidragsberoendet minskar
 And den som har eget sparande kan lättare lämna en destruktiv relation byta arbete eller starta företag

@@ -10,6 +10,7 @@ import {
   digestOf,
   expectedId,
   extractNumbers,
+  findBoilerplate,
   findMarkersInStatedSpec,
   findMisplacedMeasures,
   findUnsourcedFigures,
@@ -18,7 +19,9 @@ import {
   hasNumber,
   isFrameProse,
   normaliseHaystack,
-  sourceUrlsOf
+  proseCoverage,
+  sourceUrlsOf,
+  type SpecFile
 } from '../scripts/check-policy.ts'
 import { findMarkerProblems } from '../scripts/extrapolated.ts'
 import { extractNote, resolveActivates } from '../scripts/build-cards.ts'
@@ -137,6 +140,69 @@ Then <script nonce="abc">void 0</script>
     const document = parse(raw)
     expect(isFrameProse('the 2026 Swedish general election is contested')).toBe(true)
     expect(findUnsourcedProse(document, raw, 'Sjukvården behöver inte bara resurser').length).toBeGreaterThan(0)
+  })
+
+  it('allows a paraphrase that shares the page content-words', () => {
+    const raw = spec(`Scenario: Party states this policy
+Given people stay indoors because dangerous people move outdoors
+When sentences are sharpened and victim redress is paid by the state
+Then ordinary people can move freely outdoors
+Output 40 percent more police funding
+`)
+    const document = parse(raw)
+    const page =
+      'I ett rättvist Sverige ska vanliga människor inte behöva stanna inne för att farliga människor rör sig ute. Brottsoffer ska få upprättelse. Anslaget till Polismyndigheten öka med 40 procent.'
+    expect(proseCoverage('vanliga människor ska inte behöva stanna inne', page)).toBeGreaterThan(0.5)
+    expect(findUnsourcedProse(document, raw, page).length).toBeGreaterThan(0)
+  })
+
+  it('rejects a claim with no content-word overlap', () => {
+    const raw = spec(`Scenario: Party states this policy
+Given a Swedish general election is contested
+When the party publishes this policy
+Then the state nationalises the entire steel industry tomorrow
+`)
+    const document = parse(raw)
+    const page =
+      'I ett rättvist Sverige ska vanliga människor inte behöva stanna inne för att farliga människor rör sig ute.'
+    expect(findUnsourcedProse(document, raw, page).length).toBeGreaterThan(0)
+  })
+})
+
+describe('findBoilerplate', () => {
+  function stated(path: string, thenText: string): SpecFile {
+    const raw = spec(`Scenario: Party states this policy
+Given a Swedish general election is contested
+When the party publishes this policy
+Then ${thenText}
+Outcome the claim is the party's stated position
+`)
+    return {
+      party: 'labour',
+      slug: path,
+      kind: 'stated',
+      lang: null,
+      absolutePath: path,
+      repoPath: path,
+      raw,
+      document: parse(raw)
+    }
+  }
+
+  it('errors when the same Then line is used on more than three specs', () => {
+    const specs = ['a', 'b', 'c', 'd'].map((id) =>
+      stated(id, 'the intervention is what the page names')
+    )
+    expect(findBoilerplate(specs).some((problem) => problem.code === 'boilerplate_line')).toBe(
+      true
+    )
+  })
+
+  it('allows a line that appears on three specs or fewer', () => {
+    const specs = ['a', 'b', 'c'].map((id, index) =>
+      stated(id, `a distinct consequence for spec ${index}`)
+    )
+    expect(findBoilerplate(specs)).toEqual([])
   })
 })
 

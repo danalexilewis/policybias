@@ -15,6 +15,8 @@
     "preview": "vite preview",
     "build:cards": "tsx scripts/build-cards.ts",
     "check:policy": "tsx scripts/check-policy.ts",
+    "check:policy:nz": "tsx scripts/check-policy.ts --event nz-election-2026",
+    "check:policy:se": "tsx scripts/check-policy.ts --event se-election-2026",
     "dump:party-policy": "tsx scripts/dump.ts",
     "dump:harvest": "tsx scripts/harvest.ts",
     "translate:specs": "tsx scripts/translate-specs.ts",

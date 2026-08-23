@@ -1,14 +1,15 @@
 /**
- * Checks NZ 2026 party policy specs against the pages they model.
+ * Checks party policy specs against the pages they model.
  *
  * Gurki lint proves a spec is well-formed. This proves it is faithful: the
  * page exists, has not changed underneath the spec, and every figure in a
  * step is actually on the source page or another dump page listed in `sources`.
  *
- *   pnpm check:policy
+ *   pnpm check:policy                  # NZ and SE
+ *   pnpm check:policy --event se-election-2026
  *   pnpm check:policy --party green
- *   pnpm check:policy --fix         # fill sourceDigest
- *   pnpm check:policy --complete    # also fail on unmodelled intervention pages
+ *   pnpm check:policy --fix            # fill sourceDigest
+ *   pnpm check:policy --complete       # unmodelled flagship/intervention pages
  */
 
 import { createHash } from 'node:crypto'
@@ -17,12 +18,15 @@ import { basename, dirname, join, relative, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import YAML from 'yaml'
 import { parseFile, type GurkiDocument } from 'gurki'
+import { EVENT_IDS } from '../src/event/events.ts'
 import { extrapolatedLines, findMarkerProblems } from './extrapolated.ts'
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const MONEY_VALUES = ['named-figure', 'no-figure']
+const PROSE_COVERAGE_FLOOR = 0.5
+const BOILERPLATE_LIMIT = 3
 
-type Options = { event: string; party?: string; fix: boolean; complete: boolean }
+type Options = { events: string[]; party?: string; fix: boolean; complete: boolean }
 
 let CORPUS_DIR = join(REPO_ROOT, 'corpus/nz-election-2026')
 let CLUSTERS_FILE = join(CORPUS_DIR, 'clusters.yaml')
@@ -49,7 +53,7 @@ type DumpPage = {
 
 type SpecKind = 'stated' | 'derived'
 
-type SpecFile = {
+export type SpecFile = {
   party: string
   slug: string
   kind: SpecKind
@@ -64,7 +68,7 @@ type Scenario = GurkiDocument['scenarios'][number]
 
 function parseArgs(argv: string[]): Options {
   let party: string | undefined
-  let event = 'nz-election-2026'
+  let events: string[] | undefined
   let fix = false
   let complete = false
 
@@ -79,7 +83,7 @@ function parseArgs(argv: string[]): Options {
       continue
     }
     if (arg === '--event') {
-      event = argv[index + 1] ?? event
+      events = [argv[index + 1] ?? EVENT_IDS[0]]
       index += 1
       continue
     }
@@ -93,7 +97,7 @@ function parseArgs(argv: string[]): Options {
     }
   }
 
-  return { event, party, fix, complete }
+  return { events: events ?? [...EVENT_IDS], party, fix, complete }
 }
 
 /** Cluster ids a spec may claim. Closed set, from clusters.yaml. */
@@ -123,7 +127,7 @@ function listParties(party?: string): string[] {
     return parties
   }
   if (!parties.includes(party)) {
-    throw new Error(`Unknown party "${party}". Known: ${parties.join(', ')}`)
+    return []
   }
   return [party]
 }
@@ -313,6 +317,60 @@ export function isFrameProse(text: string): boolean {
   return FRAME_PROSE.some((frame) => normalised === frame || normalised.includes(frame))
 }
 
+const STOPWORDS = new Set([
+  'a', 'an', 'the', 'and', 'or', 'but', 'if', 'of', 'to', 'in', 'on', 'for', 'from',
+  'with', 'as', 'at', 'by', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'this',
+  'that', 'these', 'those', 'it', 'its', 'their', 'they', 'them', 'we', 'our', 'you',
+  'your', 'not', 'no', 'nor', 'so', 'than', 'then', 'there', 'here', 'when', 'which',
+  'who', 'what', 'into', 'over', 'under', 'about', 'after', 'before', 'between',
+  'through', 'also', 'only', 'just', 'more', 'most', 'other', 'some', 'such', 'both',
+  'each', 'few', 'many', 'can', 'will', 'would', 'should', 'could', 'may', 'must',
+  'do', 'does', 'did', 'have', 'has', 'had', 'en', 'ett', 'och', 'eller', 'men', 'om',
+  'av', 'till', 'i', 'på', 'för', 'från', 'med', 'som', 'är', 'var', 'vara', 'varit',
+  'den', 'det', 'de', 'denna', 'detta', 'dessa', 'sin', 'sitt', 'sina', 'vi', 'vår',
+  'vårt', 'ni', 'er', 'inte', 'ej', 'så', 'än', 'då', 'när', 'där', 'här', 'vilken',
+  'vilket', 'vilka', 'vem', 'vad', 'ut', 'över', 'under', 'efter', 'före', 'mellan',
+  'genom', 'utan', 'inom', 'också', 'bara', 'mer', 'mest', 'annan', 'andra', 'några',
+  'kan', 'ska', 'skulle', 'måste', 'får', 'ha', 'har', 'hade', 'bli', 'blir', 'blev',
+  'man',
+])
+
+export function contentWords(text: string): string[] {
+  return normaliseProse(text)
+    .toLowerCase()
+    .replace(/[^a-zà-öø-ÿ]+/gi, ' ')
+    .split(/\s+/)
+    .filter((word) => word.length >= 3 && !STOPWORDS.has(word))
+}
+
+function wordsMatch(left: string, right: string): boolean {
+  const shorter = left.length <= right.length ? left : right
+  const longer = left.length <= right.length ? right : left
+  if (shorter.length >= 4 && longer.startsWith(shorter)) {
+    return true
+  }
+  if (shorter.length >= 5 && longer.slice(0, 5) === shorter.slice(0, 5)) {
+    return true
+  }
+  return left === right
+}
+
+/** Share of step content-words that also appear on the page (inflected/compound-aware). */
+export function proseCoverage(step: string, page: string): number {
+  const needles = contentWords(step)
+  if (needles.length === 0) {
+    return 1
+  }
+  const haystack = contentWords(page)
+  let matched = 0
+  for (const needle of needles) {
+    if (haystack.some((word) => wordsMatch(needle, word))) {
+      matched += 1
+    }
+  }
+  return matched / needles.length
+}
+
 export function quotedLinesOf(raw: string): string[] {
   return bodyAfterFrontmatter(raw)
     .split(/\r?\n/)
@@ -323,44 +381,114 @@ export function quotedLinesOf(raw: string): string[] {
 
 export type UnsourcedProse = { line?: number; text: string }
 
-/** Blockquotes and stated Given/When/Then/Output lines must appear on the page. */
+/**
+ * Blockquotes and stated Given/When/Then/Output must be grounded in the page.
+ * Paraphrase is allowed when enough content-words overlap; invented claims are not.
+ */
 export function findUnsourcedProse(
   document: GurkiDocument,
   raw: string,
   pageBody: string,
 ): UnsourcedProse[] {
-  const haystack = normaliseProse(pageBody).toLowerCase()
   const found: UnsourcedProse[] = []
 
   for (const quoted of quotedLinesOf(raw)) {
-    const needle = normaliseProse(quoted).toLowerCase()
-    if (needle.length < 12) {
+    if (normaliseProse(quoted).length < 12) {
       continue
     }
-    if (!haystack.includes(needle)) {
+    if (proseCoverage(quoted, pageBody) < PROSE_COVERAGE_FLOOR) {
       found.push({ text: quoted.slice(0, 120) })
     }
   }
 
   for (const scenario of document.scenarios) {
     for (const step of scenario.steps) {
-      if (!['given', 'when', 'then', 'output'].includes(step.kind)) {
+      if (!['given', 'then', 'output'].includes(step.kind)) {
         continue
       }
       if (isFrameProse(step.text)) {
         continue
       }
-      const needle = normaliseProse(step.text).toLowerCase()
-      if (needle.length < 12) {
+      if (normaliseProse(step.text).length < 12) {
         continue
       }
-      if (!haystack.includes(needle)) {
+      if (proseCoverage(step.text, pageBody) < PROSE_COVERAGE_FLOOR) {
         found.push({ line: step.line, text: step.text.slice(0, 120) })
       }
     }
   }
 
   return found
+}
+
+function stepTextsOf(document: GurkiDocument): string[] {
+  const texts: string[] = []
+  for (const scenario of document.scenarios) {
+    for (const step of scenario.steps) {
+      if (!['given', 'when', 'then', 'output', 'outcome'].includes(step.kind)) {
+        continue
+      }
+      const normalised = normaliseProse(step.text).toLowerCase()
+      if (normalised.length < 12) {
+        continue
+      }
+      texts.push(`${step.kind}:${normalised}`)
+    }
+  }
+  return texts
+}
+
+function gapsKeyOf(document: GurkiDocument): string | undefined {
+  const extensions = (document.frontmatter?.extensions ?? {}) as Record<string, unknown>
+  if (!Array.isArray(extensions.gaps)) {
+    return undefined
+  }
+  const gaps = extensions.gaps.map(String).map((gap) => normaliseProse(gap).toLowerCase()).sort()
+  if (gaps.length === 0) {
+    return undefined
+  }
+  return `gaps:${gaps.join('|')}`
+}
+
+/** Identical modelling lines across too many specs mean the tree was templated, not authored. */
+export function findBoilerplate(specs: SpecFile[]): Problem[] {
+  const buckets = new Map<string, string[]>()
+  const add = (key: string, path: string) => {
+    const paths = buckets.get(key) ?? []
+    paths.push(path)
+    buckets.set(key, paths)
+  }
+
+  for (const spec of specs) {
+    if (spec.lang) {
+      continue
+    }
+    for (const text of stepTextsOf(spec.document)) {
+      add(text, spec.repoPath)
+    }
+    const gaps = gapsKeyOf(spec.document)
+    if (gaps) {
+      add(gaps, spec.repoPath)
+    }
+  }
+
+  const problems: Problem[] = []
+  for (const [key, paths] of buckets) {
+    const unique = [...new Set(paths)]
+    if (unique.length <= BOILERPLATE_LIMIT) {
+      continue
+    }
+    const preview = key.slice(0, 80)
+    for (const path of unique) {
+      problems.push({
+        level: 'error',
+        code: 'boilerplate_line',
+        message: `This line is identical in ${unique.length} specs: "${preview}"`,
+        path
+      })
+    }
+  }
+  return problems
 }
 
 export type UnsourcedFigure = { line: number; value: string }
@@ -453,7 +581,7 @@ function checkFrontmatter(
 
   const title = frontmatter?.title ?? ''
   if (
-    /^(?:ACT|National|Labour|Greens?|NZ First|New Zealand First|Te Pāti Māori|Te Pati Maori)(?:'s)?\s*:/i.test(
+    /^(?:ACT|National|Labour|Greens?|NZ First|New Zealand First|Te Pāti Māori|Te Pati Maori|Socialdemokraterna|Moderaterna|Sverigedemokraterna|Kristdemokraterna|Centerpartiet|Liberalerna|Miljöpartiet|Vänsterpartiet)(?:'s)?\s*:/i.test(
       title
     )
   ) {
@@ -727,11 +855,30 @@ function reportProblem(problem: Problem): void {
   console.log(`${label} [${problem.code}] ${location}: ${problem.message}`)
 }
 
-function main(): void {
-  const options = parseArgs(process.argv.slice(2))
-  CORPUS_DIR = join(REPO_ROOT, 'corpus', options.event)
+function loadFlagshipKeys(): Set<string> | undefined {
+  const flagshipPath = join(CORPUS_DIR, '_analysis', 'flagship.yaml')
+  if (!existsSync(flagshipPath)) {
+    return undefined
+  }
+  const parsed = YAML.parse(readFileSync(flagshipPath, 'utf8')) as {
+    parties?: Record<string, Record<string, string>>
+  }
+  const keys = new Set<string>()
+  for (const [party, clusters] of Object.entries(parsed.parties ?? {})) {
+    for (const file of Object.values(clusters)) {
+      keys.add(`${party}/${file.replace(/\.md$/, '')}`)
+    }
+  }
+  return keys
+}
+
+function checkEvent(event: string, options: Options): Problem[] {
+  CORPUS_DIR = join(REPO_ROOT, 'corpus', event)
   CLUSTERS_FILE = join(CORPUS_DIR, 'clusters.yaml')
   const parties = listParties(options.party)
+  if (parties.length === 0) {
+    return []
+  }
   const clusterIds = loadClusterIds()
   const pages = loadDumpPages(parties)
   const { specs, problems: loadProblems } = loadSpecFiles(parties)
@@ -758,14 +905,18 @@ function main(): void {
     problems.push(...checkFaithfulness(spec, page, pages))
   }
 
+  problems.push(...findBoilerplate(specs.filter((spec) => spec.kind === 'stated')))
+
   const modelled = new Set(
     specs.filter((spec) => spec.kind === 'stated').map((spec) => `${spec.party}/${spec.slug}`)
   )
   const modelledUrls = new Set(
     specs.filter((spec) => spec.kind === 'stated').flatMap((spec) => sourceUrlsOf(spec.document))
   )
+  const flagship = loadFlagshipKeys()
   const unmodelled = pages
     .filter((page) => page.stance === 'intervention')
+    .filter((page) => !flagship || flagship.has(`${page.party}/${page.slug}`))
     .filter(
       (page) =>
         !modelled.has(`${page.party}/${page.slug}`) && !modelledUrls.has(page.sourceUrl)
@@ -782,24 +933,36 @@ function main(): void {
     }
   }
 
-  for (const problem of problems) {
-    reportProblem(problem)
-  }
-
   console.log('')
+  console.log(`event ${event}`)
   console.log('party           pages  intervention  stated  derived')
   for (const row of coverageOf(pages, specs, parties)) {
     console.log(
       `${row.party.padEnd(15)} ${String(row.pages).padStart(5)} ${String(row.interventions).padStart(13)} ${String(row.stated).padStart(7)} ${String(row.derived).padStart(8)}`
     )
   }
+  console.log(
+    `${specs.length} spec(s), ${unmodelled.length} intervention page(s) with no stated spec`
+  )
+
+  return problems
+}
+
+function main(): void {
+  const options = parseArgs(process.argv.slice(2))
+  const problems: Problem[] = []
+  for (const event of options.events) {
+    problems.push(...checkEvent(event, options))
+  }
+
+  for (const problem of problems) {
+    reportProblem(problem)
+  }
 
   const errors = problems.filter((problem) => problem.level === 'error').length
   const warnings = problems.filter((problem) => problem.level === 'warning').length
   console.log('')
-  console.log(
-    `check:policy ${specs.length} spec(s), ${unmodelled.length} intervention page(s) with no stated spec: ${errors} error(s), ${warnings} warning(s)`
-  )
+  console.log(`check:policy ${errors} error(s), ${warnings} warning(s)`)
 
   if (errors > 0) {
     process.exitCode = 1

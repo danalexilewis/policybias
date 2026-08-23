@@ -8,7 +8,7 @@ summary: Policy for people aged 65 and over is gathered in five areas, from self
 jurisdiction: SE
 sources:
   - title: Seniorer
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/seniorer?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/seniorer
 tags:
   - culture
   - economy
@@ -20,20 +20,20 @@ money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-seniorer.md
 sourceDigest: sha256-c11269d53e00e56a
 gaps:
-  - the concrete proposals sit in a folder, not on this page
+  - the concrete proposals sit in a leaflet, not on this page
   - what self-determination in care in later life means in kronor or rights is not stated here
   - how economic security for older people is to be financed is not stated
   - how many climate-smart senior homes are to be added is not stated
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-seniorer
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-0f9a1e3dbe6a522a
+sourceSpecDigest: sha256-40e464d3f664647b
 ---
 
 # What the page states
 
-> Welfare is to cover the whole of life, from the cradle to later years. Everyone is to have a right to security, services and the chance to realise their dreams, in town and country. Policy for seniors is gathered in five areas: self-determination and dignified care, economic security and work, an accessible society, sustainable senior housing, and culture and leisure. The details are referred to the folder for those aged 65+.
+> Welfare is to cover the whole of life, from the cradle to later years. Everyone is to have a right to security, services and the chance to realise their dreams, in town and country. Policy for seniors is gathered in five areas: self-determination and dignified care, economic security and work, an accessible society, sustainable senior housing, and culture and leisure. The details are referred to the leaflet for those aged 65+.
 
 System: Five areas for later life
 

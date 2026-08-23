@@ -8,7 +8,7 @@ summary: Försvaret ska finnas i hela landet, anslagen höjas till tre och en ha
 jurisdiction: SE
 sources:
   - title: Försvar
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar
 tags:
   - defence
 party: centerpartiet

@@ -4,11 +4,11 @@ id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-seniorer-der
 title: "Senioragenda läst som system: fem rubriker utan instrument i politiken"
 status: draft
 updated: 2026-08-23
-summary: Webbadressen är en meny med fem teman; de bindande förslagen sitter i en nedladdningsbar folder, så politikens kan inte poängsättas som en äldreomsorgsreform.
+summary: Webbadressen är en meny med fem teman; de bindande förslagen sitter i en nedladdningsbar folder, så politiken kan inte poängsättas som en äldreomsorgsreform.
 jurisdiction: SE
 sources:
   - title: Seniorer
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/seniorer?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/seniorer
 tags:
   - culture
   - economy

@@ -8,7 +8,7 @@ summary: Emissions are to fall quickly with science-based targets, a price on em
 jurisdiction: SE
 sources:
   - title: Klimat
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat
 tags:
   - climate
 party: centerpartiet
@@ -24,9 +24,9 @@ gaps:
   - how faster permit processes are to sit with the rest of environmental review is not stated
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-klimat
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-cadbf91fd91d789f
+sourceSpecDigest: sha256-a6219b690bde3652
 ---
 
 # What the page states

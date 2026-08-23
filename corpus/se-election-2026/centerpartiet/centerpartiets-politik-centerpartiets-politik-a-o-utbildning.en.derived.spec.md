@@ -8,7 +8,7 @@ summary: Filling every classroom with a qualified teacher is a pipeline and geog
 jurisdiction: SE
 sources:
   - title: Utbildning
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning
 tags:
   - education
 derivesFrom: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-utbildning
@@ -19,20 +19,20 @@ money: no-figure
 sourcePath: corpus/se-election-2026/centerpartiet/centerpartiets-politik-centerpartiets-politik-a-o-utbildning.md
 sourceDigest: sha256-e9ef73f28d1c270b
 assumptions:
-  - teacher qualification is a stock; a ten-year target needs training places and retention the page does not size
+  - teacher qualification is a stock; a ten-year target needs training places and retention the policy does not size
   - rural schools that already struggle to hire will meet the target last unless pay or placement changes
   - smaller classes without more teachers mean fewer hours or larger groups elsewhere
   - vocational entry without a pass in core subjects raises completion and lowers the floor those programmes can assume
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-utbildning-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-145cf857fa5e2a03
+sourceSpecDigest: sha256-358000a942df9fdf
 ---
 
 # Our understanding
 
-> The page starts from a school that already beats the OECD mean on Pisa, then names the holes: incomplete grades, too few qualified teachers, uneven geography. A ten-year qualification rule is a workforce plan without a headcount. Opening vocational programmes to pupils who failed core subjects is a completion path that also changes what those programmes can teach.
+> The policy starts from a school that already beats the OECD mean on Pisa, then names the holes: incomplete grades, too few qualified teachers, uneven geography. A ten-year qualification rule is a workforce plan without a headcount. Opening vocational programmes to pupils who failed core subjects is a completion path that also changes what those programmes can teach.
 
 System: Teacher supply and a lowered vocational gate
 
@@ -42,7 +42,7 @@ And hiring that is harder outside the cities
 When the deadline that every teacher must be qualified arrives
 Then some classrooms are still uncovered
 Outcome the target binds first where applicants already exist
-But pupils in thin areas wait on a pipeline the page does not fund
+But pupils in thin areas wait on a pipeline the policy does not fund
 
 Scenario: A pupil without a pass in core subjects enters a vocational programme
 Given a gate that used to require a pass in core subjects

@@ -24,7 +24,7 @@ gaps:
   - which concrete measures the stronger embrace for the local community consists of are not stated on this page
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-lag-och-ratt-gangkriminalitet
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-1f88e584242de63c
 ---

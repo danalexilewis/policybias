@@ -8,7 +8,7 @@ summary: Asylrätten värnas, arbete ska vara den snabbaste vägen till integrat
 jurisdiction: SE
 sources:
   - title: Integration och migration
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/integration-och-migration?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/integration-och-migration
 tags:
   - immigration
 party: centerpartiet

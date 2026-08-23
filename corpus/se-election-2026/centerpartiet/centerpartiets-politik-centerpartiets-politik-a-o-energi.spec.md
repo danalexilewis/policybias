@@ -8,7 +8,7 @@ summary: En kriskommission ska korta tillståndstiderna för ny elproduktion fr�
 jurisdiction: SE
 sources:
   - title: Energi
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi
 tags:
   - climate
   - energy

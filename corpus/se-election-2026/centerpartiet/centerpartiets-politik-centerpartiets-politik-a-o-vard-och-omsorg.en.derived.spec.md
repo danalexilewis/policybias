@@ -22,12 +22,12 @@ assumptions:
   - a brokerage matches patients to spare slots; it does not add doctors or nurses
   - rural clinics with no unused capacity cannot honour a nationwide choice right
   - a mix of public and private providers shortens waits where private supply exists, and sorts by ability to navigate where it does not
-  - a named GP is a continuity claim that still needs a headcount the policy does not fund on this page
+  - a named GP is a continuity claim that still needs a headcount the policy does not fund
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-vard-och-omsorg-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-a86349b566c86d77
+sourceSpecDigest: sha256-af8981cc34351712
 ---
 
 # Our understanding

@@ -8,7 +8,7 @@ summary: Cutting permit time from about a decade to two years is a legal-capacit
 jurisdiction: SE
 sources:
   - title: Energi
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi
 tags:
   - climate
   - energy
@@ -27,14 +27,14 @@ assumptions:
   - nuclear on market terms is allowed into the mix, not financed by the state
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-energi-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-64f5ff73e6a1fb26
+sourceSpecDigest: sha256-94c7d980732a8641
 ---
 
 # Our understanding
 
-> The binding number on the page is permit time: eight to ten years today, two years as the cap. A crisis commission and cross-block talks are the political path. Simplifying the Environmental Code so climate benefit weighs more, and so processes can run in parallel, is the legal path. Export of green power is meant to replace fossil fuel in Europe and cut reliance on Russian gas. That is a foreign-policy use of Swedish electrons that can tighten the home market if there is no surplus.
+> The binding number on the policy is permit time: eight to ten years today, two years as the cap. A crisis commission and cross-block talks are the political path. Simplifying the Environmental Code so climate benefit weighs more, and so processes can run in parallel, is the legal path. Export of green power is meant to replace fossil fuel in Europe and cut reliance on Russian gas. That is a foreign-policy use of Swedish electrons that can tighten the home market if there is no surplus.
 
 System: Permit-time cut as a rewrite of environmental review
 

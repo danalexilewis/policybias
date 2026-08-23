@@ -8,7 +8,7 @@ summary: Defence is to be present across the country, appropriations raised to t
 jurisdiction: SE
 sources:
   - title: Försvar
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar
 tags:
   - defence
 party: centerpartiet
@@ -24,9 +24,9 @@ gaps:
   - what NATO's further target costs beyond three and a half percent is not stated
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-forsvar
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-752e4bd68cf0a272
+sourceSpecDigest: sha256-e0ae77be6c8c7d8c
 ---
 
 # What the page states

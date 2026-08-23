@@ -8,7 +8,7 @@ summary: The headline is a budget share, not a list of brigades; whole-country p
 jurisdiction: SE
 sources:
   - title: Försvar
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar
 tags:
   - defence
 derivesFrom: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-forsvar
@@ -25,9 +25,9 @@ assumptions:
   - civilian defence in municipalities is named without a share of the envelope
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-forsvar-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-bcc48f62f5832741
+sourceSpecDigest: sha256-34b2b81ad3f52878
 ---
 
 # Our understanding

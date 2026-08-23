@@ -8,7 +8,7 @@ summary: Att fylla varje klassrum med behörig lärare är ett pipeline- och geo
 jurisdiction: SE
 sources:
   - title: Utbildning
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning
 tags:
   - education
 derivesFrom: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-utbildning

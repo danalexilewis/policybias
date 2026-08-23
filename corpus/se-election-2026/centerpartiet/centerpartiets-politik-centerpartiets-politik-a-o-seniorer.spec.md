@@ -8,7 +8,7 @@ summary: Politiken för den som är 65 år eller äldre samlas i fem områden, f
 jurisdiction: SE
 sources:
   - title: Seniorer
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/seniorer?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/seniorer
 tags:
   - culture
   - economy

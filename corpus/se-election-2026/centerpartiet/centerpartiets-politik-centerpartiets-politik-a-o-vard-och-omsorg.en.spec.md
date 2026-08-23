@@ -24,7 +24,7 @@ gaps:
   - how choice sits with equal care regardless of wallet is not stated
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-vard-och-omsorg
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-a970b790d5bc078e
 ---

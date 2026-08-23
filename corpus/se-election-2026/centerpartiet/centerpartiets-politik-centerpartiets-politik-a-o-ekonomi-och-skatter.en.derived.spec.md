@@ -8,7 +8,7 @@ summary: Lower tax on work is funded by higher tax on environmental harm, so the
 jurisdiction: SE
 sources:
   - title: Ekonomi och skatter
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter
 tags:
   - taxation
 derivesFrom: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-ekonomi-och-skatter
@@ -25,14 +25,14 @@ assumptions:
   - cheaper hiring at the edge of the labour market raises demand for those workers only if product demand is there
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-ekonomi-och-skatter-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-bc80edf7469afb36
+sourceSpecDigest: sha256-5150b343441e1ab0
 ---
 
 # Our understanding
 
-> The page's arithmetic identity is a green tax shift: less tax on jobs and firms, more tax on environmental harm. Low and middle earners are promised more left in the wallet after bills. That holds if the income-tax cut exceeds whatever they pay in higher environmental tax. Cheaper hiring for small firms and for people far from work is a labour-demand tool without a rate.
+> The policy's arithmetic identity is a green tax shift: less tax on jobs and firms, more tax on environmental harm. Low and middle earners are promised more left in the wallet after bills. That holds if the income-tax cut exceeds whatever they pay in higher environmental tax. Cheaper hiring for small firms and for people far from work is a labour-demand tool without a rate.
 
 System: Income-tax cut financed by environmental tax
 
@@ -41,7 +41,7 @@ Given a green tax shift that raises tax on environmental harm
 When the household files its return
 Then the wage tax may fall while fuel and heat cost more
 Outcome take-home pay after bills can rise or fall with the fossil share of the household
-But the page prints neither rate, so the net cannot be checked
+But the policy prints neither rate, so the net cannot be checked
 
 Scenario: A small firm considers hiring someone far from the labour market
 Given hiring that is too expensive and complicated today

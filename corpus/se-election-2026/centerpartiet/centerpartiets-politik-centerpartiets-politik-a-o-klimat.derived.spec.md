@@ -8,7 +8,7 @@ summary: Att prissätta utsläpp och avsluta fossila subventioner flyttar kostna
 jurisdiction: SE
 sources:
   - title: Klimat
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat
 tags:
   - climate
 derivesFrom: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-klimat

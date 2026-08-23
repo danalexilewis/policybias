@@ -8,7 +8,7 @@ summary: Utsläppen ska ner snabbt med vetenskapliga mål, ett pris på att slä
 jurisdiction: SE
 sources:
   - title: Klimat
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat
 tags:
   - climate
 party: centerpartiet

@@ -8,7 +8,7 @@ summary: Lägre skatt på arbete finansieras med högre skatt på miljöskador, 
 jurisdiction: SE
 sources:
   - title: Ekonomi och skatter
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/ekonomi-och-skatter
 tags:
   - taxation
 derivesFrom: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-ekonomi-och-skatter

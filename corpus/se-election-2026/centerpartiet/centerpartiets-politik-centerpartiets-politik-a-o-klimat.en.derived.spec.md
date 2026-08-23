@@ -8,7 +8,7 @@ summary: Pricing emissions and ending fossil subsidies shift cost onto whoever s
 jurisdiction: SE
 sources:
   - title: Klimat
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/klimat
 tags:
   - climate
 derivesFrom: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-klimat
@@ -25,9 +25,9 @@ assumptions:
   - faster permits for grids and green industry weaken other tests in the same law unless those tests are rewritten
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-klimat-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-bdc0945fa805f5c4
+sourceSpecDigest: sha256-1aaf1fa3a3a9d900
 ---
 
 # Our understanding
@@ -41,7 +41,7 @@ Given a rule that it should cost to emit
 When fossil subsidies are stopped and the carbon price bites
 Then that household pays more before a cheap substitute exists
 Outcome the incentive to switch is sharp
-But the page also promises a transition that works in daily life, which this bill can strain
+But the policy also promises a transition that works in daily life, which this bill can strain
 
 Scenario: An investor considers a new reactor with no subsidy
 Given market terms only

@@ -8,7 +8,7 @@ summary: A crisis commission is to cut permit times for new electricity generati
 jurisdiction: SE
 sources:
   - title: Energi
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/energi
 tags:
   - climate
   - energy
@@ -26,19 +26,19 @@ gaps:
   - how nuclear power on commercial terms sits with the rapid build-out is not stated
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-energi
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-bdc8d352a51e76bc
+sourceSpecDigest: sha256-95651b70cbe05356
 ---
 
 # What the page states
 
-> Electricity supply is decisive for jobs, climate and household finances. Slow permit processes and political quarreling block the expansion of new, clean power. All fossil-free generation is to be welcomed, from wind and solar to nuclear on commercial terms. A crisis commission is to shorten permit times. Green electricity should also be exportable so that fossil energy in Europe is replaced and dependence on Russian gas falls.
+> Electricity supply is decisive for jobs, climate and household finances. Slow permit processes and political quarrelling block the expansion of new, clean power. All fossil-free generation is to be welcomed, from wind and solar to nuclear on commercial terms. A crisis commission is to shorten permit times. Green electricity should also be exportable so that fossil energy in Europe is replaced and dependence on Russian gas falls.
 
 System: Shorter permits and more fossil-free electricity
 
 Scenario: A firm wants to build new electricity generation in Sweden
-Given slow permit processes and political quarreling that block the expansion of new, clean power
+Given slow permit processes and political quarrelling that block the expansion of new, clean power
 And permit times for new electricity generation are 8–10 years
 When a crisis commission is appointed and the rules, including the Environmental Code, are simplified so that climate benefit is weighted more highly and processes can run in parallel
 Then the expansion of all fossil-free power is to be welcomed, from wind and solar to nuclear on commercial terms

@@ -4,7 +4,7 @@ id: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-lag-och-ratt
 title: "Two-front gang policy read as a system: the listed tools are almost all enforcement"
 status: draft
 updated: 2026-08-23
-summary: Wiretaps and witness protection can raise detections; the prevention arm named as a stronger local embrace has no instrument on this page.
+summary: Wiretaps and witness protection can raise detections; the prevention arm named as a stronger local embrace has no instrument in the policy.
 jurisdiction: SE
 sources:
   - title: Gängkriminalitet
@@ -25,14 +25,14 @@ assumptions:
   - zero tolerance for vandalism is extra police time in areas already short of it
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-lag-och-ratt-gangkriminalitet-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-25bb1304b16a372d
+sourceSpecDigest: sha256-7985be2d0ae690b5
 ---
 
 # Our understanding
 
-> The page insists on two fronts at once, then lists weapons penalties, secret interception, witness protection, exit programmes and a hard line on petty crime. The stronger local embrace is named in the headline and not specified as a budget or a service. Recruitment of the next cohort can continue while more of the current one is locked in.
+> The policy insists on two fronts at once, then lists weapons penalties, secret interception, witness protection, exit programmes and a hard line on petty crime. The stronger local embrace is named in the headline and not specified as a budget or a service. Recruitment of the next cohort can continue while more of the current one is locked in.
 
 System: Enforcement tools without a specified prevention budget
 

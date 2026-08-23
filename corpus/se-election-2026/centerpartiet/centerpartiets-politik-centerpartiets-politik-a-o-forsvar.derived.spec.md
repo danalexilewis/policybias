@@ -8,7 +8,7 @@ summary: Rubriken är en budgetandel, inte en lista på brigader; försvar i hel
 jurisdiction: SE
 sources:
   - title: Försvar
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/forsvar
 tags:
   - defence
 derivesFrom: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-forsvar

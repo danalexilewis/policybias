@@ -8,7 +8,7 @@ summary: Every teacher is to be qualified within ten years, class sizes are to f
 jurisdiction: SE
 sources:
   - title: Utbildning
-    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning?open.12_46b9bcc319684ded02b1159=true
+    url: https://www.centerpartiet.se/centerpartiets-politik/centerpartiets-politik-a-o/utbildning
 tags:
   - education
 party: centerpartiet
@@ -24,9 +24,9 @@ gaps:
   - how vocational programmes without a pass in core subjects are to hold a knowledge floor is not stated
 lang: en
 translationOf: centerpartiet-centerpartiets-politik-centerpartiets-politik-a-o-utbildning
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-f96d40eb78027b16
+sourceSpecDigest: sha256-08173158c032250a
 ---
 
 # What the page states

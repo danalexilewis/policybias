@@ -12,7 +12,8 @@ function readPage(name: 'terms' | 'privacy'): string {
 describe('legal pages', () => {
   it('keeps terms short and open-source', () => {
     const html = readPage('terms')
-    expect(html).toContain('<h1>Terms</h1>')
+    expect(html).toContain('Terms')
+    expect(html).toContain('data-ui="termsTitle"')
     expect(html).toContain('MIT')
     expect(html).toContain('without warranty')
     expect(html).toContain('href="/privacy/"')
@@ -24,7 +25,8 @@ describe('legal pages', () => {
 
   it('keeps privacy short and specific to what we actually store', () => {
     const html = readPage('privacy')
-    expect(html).toContain('<h1>Privacy</h1>')
+    expect(html).toContain('Privacy')
+    expect(html).toContain('data-ui="privacyTitle"')
     expect(html).toContain('We do not run accounts')
     expect(html).toContain('local storage')
     expect(html).toContain('public dataset')

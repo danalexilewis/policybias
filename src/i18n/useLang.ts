@@ -8,7 +8,7 @@ import {
   type EventId,
   type Lang,
 } from '../event/events'
-import { translate, type UiKey } from './messages'
+import { translate, type TranslateVars, type UiKey } from './messages'
 
 const STORAGE_PREFIX = 'policybias.lang.'
 
@@ -48,7 +48,7 @@ export function useLang(): {
   setLang: (next: Lang) => void
   available: readonly Lang[]
   eventId: EventId
-  t: (key: UiKey) => string
+  t: (key: UiKey, vars?: TranslateVars) => string
 } {
   const eventId = eventFromLocation()
   const { canonical, available } = eventLangs(eventId)
@@ -80,8 +80,8 @@ export function useLang(): {
     }
   }
 
-  function t(key: UiKey): string {
-    return translate(lang, key)
+  function t(key: UiKey, vars?: TranslateVars): string {
+    return translate(lang, key, vars)
   }
 
   return { lang, setLang, available, eventId, t }

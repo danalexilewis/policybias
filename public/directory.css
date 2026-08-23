@@ -65,9 +65,22 @@ body {
 .title-bar {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
 	min-height: 48px;
 	padding: 0 12px;
 	border-bottom: 2px solid var(--ink);
+}
+
+.lang-links {
+	font-family: var(--font-mono);
+	font-size: 0.75rem;
+	white-space: nowrap;
+}
+
+.lang-link[aria-current='true'] {
+	font-weight: 600;
+	color: var(--ink);
 }
 
 .title {

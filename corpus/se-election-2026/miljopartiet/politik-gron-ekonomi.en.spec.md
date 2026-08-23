@@ -25,7 +25,7 @@ gaps:
   - how housing benefit is raised in kronor is not stated, only that it is to be raised and indexed
   - how large the surplus in the fiscal framework is to be when the investment target is added is not stated
 translationOf: miljopartiet-politik-gron-ekonomi
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-a89629985eb12401
 lang: en

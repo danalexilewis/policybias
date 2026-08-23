@@ -1,10 +1,10 @@
 ---
 type: spec
 id: miljopartiet-politik-brottsbekampning-och-forebyggande-derived
-title: "Crime policy read as a system: prevention and courts share one unnamed payroll"
+title: "Crime policy read as a system: prevention and courts share an unnamed payroll"
 status: draft
 updated: 2026-08-23
-summary: Early family support and a stronger chain of justice are both labour-heavy; keeping children out of prison shifts the load onto SiS, whose rebuild is not costed.
+summary: Early family support and a stronger justice chain are both staff-intensive; keeping children out of prison shifts the load to SiS, whose rebuild is not costed.
 jurisdiction: SE
 sources:
   - title: Brottsförebyggande och brottsbekämpande
@@ -19,31 +19,31 @@ money: no-figure
 sourcePath: corpus/se-election-2026/miljopartiet/politik-brottsbekampning-och-forebyggande.md
 sourceDigest: sha256-205b3c69cc6b3fe4
 assumptions:
-  - school, social services, leisure and police working as one chain means extra people in each, not a single new office
-  - hitting gang money and weapons still needs investigators and prosecutors; "proportionate tools" does not name which powers grow
-  - reforming SiS while refusing prison for children concentrates the hardest cases in one agency whose quality the policy itself calls inadequate today
-  - a victim-compensation law that has the state chase damages moves unpaid awards onto the public purse until they are recovered
-translator: human
-translatedAt: 2026-08-23
-sourceSpecDigest: sha256-e5752d0925784c77
-translationOf: miljopartiet-politik-brottsbekampning-och-forebyggande-derived
+  - school, social services, leisure and police as one chain means extra people in every link, not a single new office
+  - hitting gang money and weapons still needs investigators and prosecutors; proportionate tools does not name which powers grow
+  - reforming SiS and refusing prison for children concentrates the hardest cases in an agency the policy itself calls inadequate today
+  - a damages law where the state pursues amounts shifts unpaid awards to the public purse until they are recovered
 lang: en
+translationOf: miljopartiet-politik-brottsbekampning-och-forebyggande-derived
+translator: cursor-agent
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-e90aa15e933e3e5e
 ---
 
 # Our understanding
 
-> The same policy asks for earlier help and for more cases to be cleared. Both need people. Children stay in care rather than prison, so SiS has to work. Victims are paid sooner by the state, which then tries to collect.
+> The same policy asks for earlier help and for more cases to clear. Both need people. Children stay in care instead of prison, so SiS must work. Victims are paid earlier by the state, which then tries to recover.
 
-System: Labour on both sides of the crime cycle
+System: Work on both sides of the crime cycle
 
-Scenario: Early support is asked to shrink the gang intake
+Scenario: Early support is meant to shrink gang intake
 When school, social services and police run a joint, long-term offer to children at risk
-Then recruitment is meant to slow before the first serious offence
-Outcome families in the risk zone get a named path into help
-But those teams are a standing local cost with no headcount
+Then recruitment should slow before the first serious offence
+Outcome families at risk get a named route into help
+But the law is a standing local cost without a headcount
 
-Scenario: Children who offend stay in care, not prison
+Scenario: Children who commit offences stay in care, not in prison
 When SiS keeps responsibility and aftercare is a right into early adulthood
-Then the lock-up path used for adults is closed for children
+Then the detention track used for adults is closed for children
 Outcome rehabilitation is the stated substitute for prison
-But SiS and HVB must already be rebuilt for that substitute to hold
+But SiS and residential care must already be rebuilt for that substitute to hold

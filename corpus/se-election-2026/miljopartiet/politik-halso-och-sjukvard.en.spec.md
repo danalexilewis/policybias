@@ -23,7 +23,7 @@ gaps:
   - how quickly CAMHS queues are to be shortened is not stated
   - how large the high-cost protection in dental care becomes after age 23 is not stated
 translationOf: miljopartiet-politik-halso-och-sjukvard
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-cff93d82e9a47780
 lang: en

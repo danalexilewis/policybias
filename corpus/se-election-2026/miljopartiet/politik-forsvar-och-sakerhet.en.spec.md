@@ -23,7 +23,7 @@ gaps:
   - how large support for Ukraine is to be per year is not stated
   - how a Swedish nuclear-weapons ban relates to NATO nuclear sharing is not stated
 translationOf: miljopartiet-politik-forsvar-och-sakerhet
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-7d6c2435307cf112
 lang: en

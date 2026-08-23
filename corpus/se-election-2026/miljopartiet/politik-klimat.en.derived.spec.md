@@ -23,16 +23,16 @@ assumptions:
   - counting consumption emissions pulls imports into the target, which is a border-measurement problem the policy does not specify
   - ending fossil subsidies raises pump and heating prices unless the green rebate fully offsets them, and the rebate formula is unnamed
   - a national travel card with a monthly cap is a fare subsidy whose deficit sits with regions or the state, neither of which is assigned
-translator: human
-translatedAt: 2026-08-23
-sourceSpecDigest: sha256-ef9b57b772e94835
-translationOf: miljopartiet-politik-klimat-derived
 lang: en
+translationOf: miljopartiet-politik-klimat-derived
+translator: cursor-agent
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-291b7f6461904a6d
 ---
 
 # Our understanding
 
-> Speed comes from a carbon budget and from ending fossil subsidies. Fairness is supposed to come back as cheaper travel and a rural rebate. Only the travel-card cap is priced. Adaptation of schools and care homes is a building standard with no bill.
+> Speed comes from a carbon budget and from ending fossil subsidies. Fairness is supposed to come back as cheaper travel and a rural rebate. Only the Sverigekortet cap is priced. Adaptation of schools and care homes is a building standard with no bill.
 
 System: An unprinted budget and one printed fare cap
 
@@ -43,7 +43,7 @@ Outcome firms and agencies face a scarcity of allowed tonnes
 But the scarcity cannot be traded or planned until the cap itself is published
 
 Scenario: A national travel card is capped
-When a Sweden card for public transport is sold under a monthly cap
+When Sverigekortet for public transport is sold under a monthly cap
 Then the fare ceiling is the household-facing price of the climate offer
 Outcome daily travel is meant to get cheaper relative to driving
 But whoever absorbs the gap between the cap and today's fares is not named

@@ -23,7 +23,7 @@ gaps:
   - how school choice is to be designed when limited companies are stopped is not stated
   - what it costs to serve lunch even in the holidays is not stated
 translationOf: miljopartiet-politik-skola
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-6f2d660275f61d48
 lang: en

@@ -23,7 +23,7 @@ gaps:
   - which profit caps are to apply if surplus is to be reinvested is not stated
   - how a national older people's ombudsman is to be appointed and which sanctions it gets is not stated
 translationOf: miljopartiet-politik-aldreomsorg
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-2a9aaa702643ac08
 lang: en

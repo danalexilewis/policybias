@@ -23,7 +23,7 @@ gaps:
   - what the investment grant for storage, hydropower capacity and combined heat and power costs is not stated
   - how electrification agreements between the state, industry and producers are bound is not stated
 translationOf: miljopartiet-politik-energi
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-0c951502aa36de2c
 lang: en

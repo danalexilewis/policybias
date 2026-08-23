@@ -23,7 +23,7 @@ gaps:
   - how family reunification is to be widened beyond today's rules is not stated
   - how the ban on withdrawing permanent permits is tested against security cases is not stated
 translationOf: miljopartiet-politik-migration-och-lika-ratt
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-8daaa35272cc3771
 lang: en

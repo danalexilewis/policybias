@@ -23,7 +23,7 @@ gaps:
   - how SiS and HVB are to be reformed in practice is not stated
   - how large criminal-injuries compensation becomes after the increase is not stated
 translationOf: miljopartiet-politik-brottsbekampning-och-forebyggande
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-79f373dab2ea909c
 lang: en

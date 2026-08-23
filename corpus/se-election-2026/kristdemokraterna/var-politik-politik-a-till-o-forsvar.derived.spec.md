@@ -1,10 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-forsvar-derived
-title: "Five percent of GDP read as a system: scale without a year or a krone"
+title: "Fem procent av BNP läst som system: skala utan år eller kronor"
 status: draft
 updated: 2026-08-23
-summary: A 5 percent of GDP defence envelope, split on the page between military and defence-related spending, is a scale claim; the ability to defend the whole country is asserted, not timed.
+summary: En försvarsbudget på 5 procent av BNP, uppdelad i politiken mellan militär och försvarsrelaterade utgifter, är ett skalpåstående; förmågan att försvara hela landet påstås, men tidsätts inte.
 jurisdiction: SE
 sources:
   - title: Försvar
@@ -18,23 +18,23 @@ money: named-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-forsvar.md
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-forsvar
 assumptions:
-  - a share of GDP moves with the size of the economy, so the krone envelope is not fixed
-  - defence-related spending is a wider bucket than the military line; what sits in it decides whether the 5 percent is force or adjacent outlays
-  - Nato membership is already in force; the new claim is scale, not accession
-  - the ability to defend the whole country is a force-design result, not an automatic product of a headline share
+  - en andel av BNP rör sig med ekonomins storlek, så kronorumet är inte fast
+  - försvarsrelaterade utgifter är en bredare hink än militärposten; vad som ligger i den avgör om 5 procenten är styrka eller intilliggande utgifter
+  - NATO-medlemskap gäller redan; det nya påståendet är skala, inte inträde
+  - förmågan att försvara hela landet är ett styrkeutformningsresultat, inte en automatisk produkt av en rubrikandel
 sourceDigest: sha256-a002f36c10d6e017
 ---
 
 # Our understanding
 
-> The state is to guarantee security and borders. The instrument is a much larger defence envelope, printed as 5 percent of GDP in total. The page splits that into military spending and defence-related spending (3,5 and 1,5 percent). Nato membership is already the frame. What is not dated is the year the share is reached, or the krone that share buys.
+> Staten ska garantera säkerhet och gränser. Instrumentet är ett mycket större försvarsbudget, tryckt som 5 procent av BNP totalt. Politiken delar upp det i militära utgifter och försvarsrelaterade utgifter (3,5 och 1,5 procent). NATO-medlemskap är redan ramen. Det som inte är daterat är året andelen nås, eller kronorna andelen köper.
 
-System: GDP-share defence without a delivery year
+System: BNP-andelsförsvar utan leveransår
 
-Scenario: The headline share is set while the force is still to be built
-When the announced defence increases are carried through
-Then the force is supposed to suffice for the whole country and for Nato duties
-Output 5% of GDP in total
-Outcome Nato membership remains the alliance frame
-But the year the share is hit, and the krone it buys, are open
-And what counts as defence-related rather than military decides how much is actual force
+Scenario: Rubrikandelen sätts medan försvaret ännu ska byggas
+When de tillkännagivna försvarshöjningarna genomförs
+Then försvaret ska räcka för hela landet och för NATO-uppgifter
+Output 5% av BNP totalt
+Outcome NATO-medlemskapet förblir alliansramen
+But året andelen nås, och kronorna den köper, är öppna
+And vad som räknas som försvarsrelaterat snarare än militärt avgör hur mycket som är faktisk styrka

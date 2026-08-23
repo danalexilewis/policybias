@@ -1,10 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-aldreboendegaranti-derived
-title: "A self-assessed right at 85 read as a system: demand without a named extra place"
+title: "Självbedömt rätt vid 85 läst som system: efterfrågan utan namngiven extra plats"
 status: draft
 updated: 2026-08-23
-summary: A legal right to move at 85 on one's own assessment is a demand-side guarantee; unless places rise, the right becomes a queue.
+summary: En lagstadgad rätt att flytta vid 85 på egen bedömning är en efterfrågegaranti; om platserna inte växer blir rätten en kö.
 jurisdiction: SE
 sources:
   - title: Äldreboendegaranti
@@ -18,22 +18,22 @@ money: named-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-aldreboendegaranti.md
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-aldreboendegaranti
 assumptions:
-  - a right without a vacant place is a place on a list; the page says more places are needed and does not say how many
-  - dropping heavy needs-testing at 85 brings forward moves that today's tests delay, so demand jumps before stock does
-  - municipalities must both stimulate sheltered housing and make staying at home easier; those two uses compete for the same local capital
+  - en rätt utan ledig plats är en plats på en lista; politiken säger att fler platser behövs men anger inte hur många
+  - att släppa tyngre behovsprövning vid 85 flyttar fram flyttar som dagens tester skjuter upp, så efterfrågan hoppar före beståndet
+  - kommuner måste både stimulera särskilt boende och göra det lättare att bo kvar hemma; de två användningarna konkurrerar om samma lokala kapital
 sourceDigest: sha256-4ad8468bd25c14bd
 ---
 
 # Our understanding
 
-> At 85 the needs test is meant to fall away. The person who feels unsafe can claim a place. That is a demand-side right. The page already says more elderly-housing places are required for the demographic years ahead. If the stock does not move first, the right is a ticket to wait.
+> Vid 85 ska behovsprövningen falla bort. Den som känner sig otrygg kan begära en plats. Det är en efterfrågerätt. Politiken säger redan att fler äldreboendeplatser krävs för de demografiska åren framöver. Om beståndet inte växer först är rätten en biljett att vänta.
 
-System: Age-85 right as demand without stock
+System: Rätt vid 85 som efterfrågan utan bestånd
 
-Scenario: Someone over 85 claims a place before the stock has grown
-Given municipalities still needs-test heavily today
-When the legal right to move on one's own assessment begins
-Then claims arrive without a matching vacant room
-Output 85 as the age at which the test is meant to drop
-Outcome self-determination is promised
-But the extra place is not counted, and the municipality still has to find a room
+Scenario: Någon över 85 begär en plats innan beståndet har vuxit
+Given kommuner fortfarande behovsprövar hårt i dag
+When den lagstadgade rätten att flytta på egen bedömning börjar gälla
+Then ansökningar kommer utan matchande ledigt rum
+Output 85 som åldern då prövningen ska falla bort
+Outcome självbestämmande utlovas
+But den extra platsen räknas inte, och kommunen måste ändå hitta ett rum

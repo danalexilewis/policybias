@@ -1,10 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-energi-derived
-title: "Fossil-free power read as a system: hold the course toward 300 TWh"
+title: "Fossilfri el läst som system: håll kursen mot 300 TWh"
 status: draft
 updated: 2026-08-23
-summary: This term's framework and shorter grid waits are treated as done; the 2026 offer is to keep steering toward a fossil-free system and a 300 TWh planning goal, without a plant-level bill.
+summary: Mandatperiodens ramverk och kortare köertider i elnätet behandlas som klara; 2026-erbjudandet är att fortsätta styra mot ett fossilfritt system och ett planeringsmål på 300 TWh utan nota per kraftverk.
 jurisdiction: SE
 sources:
   - title: Energi
@@ -18,24 +18,24 @@ money: named-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-energi.md
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-energi
 assumptions:
-  - a financial framework for new nuclear is a permission structure, not a reactor on the ground
-  - lead times "almost halved" are a past claim; remaining waits still sit on new lines
-  - 300 TWh is a planning goal, not a contracted mix; who builds which TWh is unset
-  - a security-of-supply objective without a metric can be declared met by any winter that did not black out
+  - ett finansieringsramverk för ny kärnkraft är en tillåtelsestruktur, inte en reaktor på marken
+  - ledtider som "nästan halverats" är ett bakåtblickande påstående; kvarvarande väntetider sitter kvar på nya ledningar
+  - 300 TWh är ett planeringsmål, inte en avtalad mix; vem som bygger vilken TWh är oupptaget
+  - ett försörjningstrygghetsmål utan mått kan förklaras uppfyllt av vilken vinter som helst utan strömavbrott
 sourceDigest: sha256-17fc373009e63fef
 ---
 
 # Our understanding
 
-> About 80 decisions this term, a nuclear-finance framework, and shorter grid waits are presented as already in place. The remaining move is to hold course toward a fully fossil-free electricity system. 300 TWh is a planning goal (the page dates it 2045). Security of supply is named as a goal, not as a measured standard.
+> Cirka 80 beslut denna mandatperiod, ett kärnkraftsfinansieringsramverk och kortare elnätsköer presenteras som redan på plats. Kvarstående drag är att hålla kursen mot ett helt fossilfritt elsystem. 300 TWh är ett planeringsmål (politiken daterar det 2045). Försörjningstrygghet nämns som mål, inte som uppmätt standard.
 
-System: Hold-course nuclear and grid policy
+System: Håll-kurs-kärnkraft- och elnätspolitik
 
-Scenario: The framework exists and plants are still to be built
-Given about 80 energy-supply decisions have been taken this term
-And a financial framework for new nuclear is in place
-When course is held toward a fully fossil-free electricity system
-Then more production and grids in the right places with the right properties stay the priority
-Output 300 TWh as the planning goal
-Outcome security of supply is named as a goal
-But no reactor, kilometre of line, or bill is attached to the remaining distance
+Scenario: Ramverket finns och kraftverken återstår att bygga
+Given cirka 80 energiförsörjningsbeslut har tagits denna mandatperiod
+And ett finansieringsramverk för ny kärnkraft finns på plats
+When kursen hålls mot ett helt fossilfritt elsystem
+Then mer produktion och elnät på rätt ställen med rätta egenskaper förblir prioriteringen
+Output 300 TWh som planeringsmål
+Outcome försörjningstrygghet nämns som mål
+But ingen reaktor, kilometer ledning eller nota knyts till återstående avstånd

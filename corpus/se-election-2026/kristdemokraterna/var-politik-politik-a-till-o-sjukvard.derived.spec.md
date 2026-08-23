@@ -1,10 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-sjukvard-derived
-title: "State principalship read as a system: national residual without a transfer plan"
+title: "Statligt huvudmannaskap läst som system: nationell rest utan överlämningsplan"
 status: draft
 updated: 2026-08-23
-summary: Moving principal responsibility to the state makes waiting lists and staffing a national residual, without a costed hand-over from the regions.
+summary: Att flytta huvudansvaret till staten gör väntelistor och bemanning till en nationell rest, utan kostnadssatt överlämning från regionerna.
 jurisdiction: SE
 sources:
   - title: Sjukvård
@@ -18,22 +18,22 @@ money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-sjukvard.md
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-sjukvard
 assumptions:
-  - twenty-one regions currently hold principal responsibility, so a state takeover is a transfer of existing organisations, staff and queues, not a new service
-  - solidarity financing and need as the allocation rule already describe today's tax-funded care; the new claim is who is the principal
-  - without a timetable or a cash figure, the residual of unequal access sits with the state on day one
+  - tjugoen regioner bär huvudansvaret i dag, så ett statligt övertagande är en överföring av befintliga organisationer, personal och köer, inte en ny tjänst
+  - solidarisk finansiering och behov som fördelningsregel beskriver redan dagens skattefinansierade vård; det nya påståendet är vem som är huvudman
+  - utan tidtabell eller kassabelopp sitter resten av ojämlik tillgång hos staten dag ett
 sourceDigest: sha256-0a90b546fc8e732b
 ---
 
 # Our understanding
 
-> Need-based, tax-funded care is the baseline. The intervention is who holds the principal role. If the state takes it, today's regional queues and vacancies become a national residual on the first day, and the page never says what that transfer costs or when it happens.
+> Behovsstyrd, skattefinansierad vård är utgångsläget. Ingreppet är vem som bär huvudmannarollen. Om staten tar den blir dagens regionala köer och vakanser en nationell rest på dag ett, och politiken säger aldrig vad överlämningen kostar eller när den sker.
 
-System: State principalship as an uncosted transfer of residual risk
+System: Statligt huvudmannaskap som oprissad överföring av residualrisk
 
-Scenario: Regions stop being the principal while lists and vacancies remain
-Given tax-funded care is already meant to follow need
-And access and quality still vary with where the patient lives
-When the state becomes the principal for health care
-Then waiting lists and staffing gaps sit with one national residual
-Outcome a patient in a thin region is promised more equal access
-But no extra nurse, bed, or handover date is named
+Scenario: Regioner slutar vara huvudman medan listor och vakanser består
+Given skattefinansierad vård redan ska följa behov
+And tillgång och kvalitet fortfarande varierar med var patienten bor
+When staten blir huvudman för hälso- och sjukvården
+Then väntelistor och bemanningsluckor sitter hos en nationell rest
+Outcome en patient i en tunn region får utlovad mer jämlik tillgång
+But ingen extra sjuksköterska, säng eller överlämningsdatum namnges

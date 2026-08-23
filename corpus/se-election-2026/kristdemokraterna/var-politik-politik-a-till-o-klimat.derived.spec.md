@@ -1,10 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-klimat-derived
-title: "Climate neutrality read as a system: coal tariffs plus an uncosted domestic mix"
+title: "Klimatneutralitet läst som system: kolstopp plus oprissad inhemsk mix"
 status: draft
 updated: 2026-08-23
-summary: Immediate coal exit from EU power plus tariffs on extra-EU coal sit beside nuclear, biofuel, trading, cars and storage with no tonnes or kroner.
+summary: Omedelbart kolstopp i EU-el plus tullar på kol utanför EU sitter bredvid kärnkraft, biobränsle, handel, bilar och lagring utan ton eller kronor.
 jurisdiction: SE
 sources:
   - title: Klimat
@@ -18,20 +18,20 @@ money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-klimat.md
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-klimat
 assumptions:
-  - an immediate coal exit from EU electricity is a Brussels instrument, not a Swedish stack of plants the page can switch off alone
-  - tariffs on other countries' coal power need a tax base, a rate and a collector; none are on the page
-  - nuclear, biofuel, emissions trading, vehicle electrification and carbon storage are five separate build-outs sharing one uncosted sentence
+  - ett omedelbart kolstopp i EU-el är ett Brysselinstrument, inte en svensk stack kraftverk politiken ensam kan stänga av
+  - tullar på andra länders kolkraft kräver beskattningsunderlag, sats och uppbärare; inget finns i politiken
+  - kärnkraft, biobränsle, utsläppshandel, fordonsel och koldioxidlagring är fem separata utbyggnader som delar en oprissad mening
 sourceDigest: sha256-3773338075a50efe
 ---
 
 # Our understanding
 
-> Climate neutrality is the destination. The only timed move is taking coal out of EU power at once, then putting tariffs on coal power outside the Union. Everything else — biofuel, new nuclear, trading, electric vehicles, capture and storage — is a list. No tonne and no krone is attached.
+> Klimatneutralitet är destinationen. Den enda tidsatta åtgärden är att ta bort kol ur EU-el på en gång, sedan lägga tullar på kolkraft utanför unionen. Allt annat — biobränsle, ny kärnkraft, handel, elfordon, fångst och lagring — är en lista. Ingen ton och inga kronor knyts an.
 
-System: Coal-first climate policy without a tonne
+System: Kolförst-klimatpolitik utan ton
 
-Scenario: Coal leaves EU power while the domestic mix stays a list
-When coal is phased out of EU electricity production
-Then tariffs are aimed at countries' coal power outside the EU
-Outcome biofuel, nuclear, trading, electrified vehicles and carbon storage are all to be scaled
-But none of those lines is given a tonne, a plant, or a bill
+Scenario: Kol lämnar EU-el medan den inhemska mixen förblir en lista
+When kol fasas ut ur EU:s elproduktion
+Then tullar riktas mot länders kolkraft utanför EU
+Outcome biobränsle, kärnkraft, handel, elfordon och koldioxidlagring ska alla skalas upp
+But inget av dessa spår får en ton, ett kraftverk eller en nota

@@ -1,10 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-brottsbekampning-derived
-title: "Harsher sentences read as a system: incapacity in prison plus deportation"
+title: "Hårdare straff läst som system: oförmåga i fängelse plus utvisning"
 status: draft
 updated: 2026-08-23
-summary: Abolishing quantity discounts and making deportation the rule after six months of prison trades on cells and police numbers the page never states.
+summary: Att avskaffa mängdrabatt och göra utvisning till huvudregel efter mer än sex månaders fängelse bygger på platser och polistal som politiken aldrig anger.
 jurisdiction: SE
 sources:
   - title: Brottsbekämpning
@@ -18,29 +18,29 @@ money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-brottsbekampning.md
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-brottsbekampning
 assumptions:
-  - people who are locked up cannot recruit only while there is a cell; Prison Service capacity is unnamed
-  - more police and judges without a headcount is a direction, not a staffing plan
-  - deportation as the main rule after more than six months in prison depends on another country taking the person back
-  - parent support, school and social services as prevention compete with the same local staff who already run those services
+  - den som sitter inlåst kan inte rekrytera bara så länge det finns en cell; Kriminalvårdens kapacitet anges inte
+  - fler poliser och domare utan personantal är en riktning, inte en bemanningsplan
+  - utvisning som huvudregel efter mer än sex månaders fängelse förutsätter att ett annat land tar emot personen
+  - föräldrastöd, skola och socialtjänst som prevention konkurrerar med samma lokala personal som redan driver dessa tjänster
 sourceDigest: sha256-8bf5129385e17291
 ---
 
 # Our understanding
 
-> Lethal shootings more than tripled since the 2010s is the baseline the page owns. The offer is incapacity: keep people inside so they cannot recruit, and deport non-citizens after more than six months in prison. Both need cells, escorts and receiving states. None of those counts are printed.
+> Dödliga skjutningar som mer än trefaldigats sedan 2010-talet är utgångsläget politiken äger. Erbjudandet är oförmåga: håll folk inne så de inte kan rekrytera, och utvisa icke-medborgare efter mer än sex månaders fängelse. Båda kräver celler, eskorter och mottagande stater. Inget av talen trycks.
 
-System: Incapacity and deportation without a cell count
+System: Oförmåga och utvisning utan cellantal
 
-Scenario: Quantity discounts end while prison places stay unnamed
-Given lethal gun violence has more than tripled since the 2010s
-When quantity discounts are abolished and sentences become felt
-Then more people stay inside for longer
-Outcome those inside cannot recruit children into gangs for as long as they are held
-But the Prison Service is not given a place count or a building date
+Scenario: Mängdrabatter upphör medan fängelseplatser förblir onamngivna
+Given dödligt skjutvåld har mer än trefaldigats sedan 2010-talet
+When mängdrabatter avskaffas och straffen blir kännbara
+Then fler sitter inne längre
+Outcome de inne kan inte rekrytera barn till gäng så länge de hålls
+But Kriminalvårdens kapacitet saknar platsantal och byggdatum
 
-Scenario: A non-citizen is sentenced to more than six months
-Given deportation is to be the main rule in that case
-When the sentence is handed down
-Then removal, not only time in a Swedish cell, is the intended end state
-Outcome a receiving state and an escort have to exist
-But neither is named
+Scenario: En icke-medborgare döms till mer än sex månader
+Given utvisning ska vara huvudregel i det fallet
+When domen meddelas
+Then bortförande, inte bara tid i svensk cell, är det avsedda slutläget
+Outcome en mottagande stat och en eskort måste finnas
+But varken det ena eller det andra namnges

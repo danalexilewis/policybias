@@ -1,10 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-skolan-derived
-title: "Teacher status read as a system: independent schools as the quality lever"
+title: "Lärarstatus läst som system: friskolor som kvalitetsspak"
 status: draft
 updated: 2026-08-23
-summary: Status for teachers is asserted while independent schools are treated as the mechanism that raises quality, with no instrument for either claim.
+summary: Status för lärare påstås medan friskolor behandlas som mekanismen som höjer kvaliteten, utan instrument för något av påståendena.
 jurisdiction: SE
 sources:
   - title: Skolan
@@ -18,22 +18,22 @@ money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-skolan.md
 derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-skolan
 assumptions:
-  - calling the teacher invaluable does not raise pay, hours, or training unless a later instrument does
-  - treating independent schools as self-evident makes choice the quality lever; inspection and equalisation are unnamed
-  - knowledge for work and knowledge as a civic good can pull the same timetable in different directions
+  - att kalla läraren ovärderlig höjer inte lön, timmar eller utbildning om inte ett senare instrument gör det
+  - att behandla friskolor som självklara gör val till kvalitetsspaken; tillsyn och utjämning är onamngivna
+  - kunskap för arbete och kunskap som medborgerligt goda kan dra samma schema åt olika håll
 sourceDigest: sha256-08140eeab95278c7
 ---
 
 # Our understanding
 
-> The page asks the school to do two jobs at once: knowledge for work and a tradition of learning for its own sake. The teacher is called invaluable, yet status is not given a wage, a hour, or a training rule. Independent schools are treated as obviously good, so quality is left to choice.
+> Politiken ber skolan göra två jobb på en gång: kunskap för arbete och en lärotradition för dess egen skull. Läraren kallas ovärderlig, men status får ingen lön, timme eller utbildningsregel. Friskolor behandlas som uppenbart bra, så kvalitet lämnas åt valet.
 
-System: Teacher status without an instrument
+System: Lärarstatus utan instrument
 
-Scenario: Status is promised while independent schools carry quality
-Given the teacher is called invaluable
-And independent schools are treated as self-evident parts of the system
-When status is to be strengthened
-Then no pay scale, hour, or training rule is named
-Outcome choice and diversity are asked to raise quality
-But a pupil in a weak school still has no stated extra teacher
+Scenario: Status utlovas medan friskolor bär kvaliteten
+Given läraren kallas ovärderlig
+And friskolor behandlas som självklara delar av systemet
+When status ska stärkas
+Then ingen löneskala, timme eller utbildningsregel namnges
+Outcome val och mångfald ska höja kvaliteten
+But en elev i en svag skola har fortfarande ingen namngiven extra lärare

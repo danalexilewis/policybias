@@ -1,10 +1,10 @@
 ---
 type: spec
 id: moderaterna-var-politik-aldreomsorg-2-derived
-title: "Äldreomsorgslyftet read as a system: a time-limited central grant against the municipal payroll"
+title: "Choice in elderly care read as a system: LOV without providers gives choice on paper"
 status: draft
-updated: 2026-08-22
-summary: The central grant trains staff in working time through 2027 while language requirements and registers are already law, and LOV without providers gives choice on paper.
+updated: 2026-08-23
+summary: Staff choice and LOV promise influence where independent providers are absent, and welfare technology moves rounds from those who cannot handle the screen.
 jurisdiction: SE
 sources:
   - title: Äldreomsorg
@@ -20,35 +20,32 @@ money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-aldreomsorg-2.md
 sourceDigest: "sha256-77a8cbe0abbf14f0"
 assumptions:
-  - 1.7 billion a year is a time-limited central grant, not a rise in municipalities' core funding
-  - private providers reach the funds only if the municipality lets them through
-  - language requirements and register extracts are already decided, so the open question is staff choice and LOV
-  - 80 percent want to choose home care but over 70 municipalities lack independent providers, so the choice has no supply
+  - 80 percent want to choose home care but more than 70 municipalities lack independent providers, so the choice has no supply
+  - staff choice for close personal care requires available staff of the right gender, which the policy does not dimension
+  - welfare technology takes rounds from those who cannot handle the screen or sensors
+  - the leadership inquiry and malnutrition mapping are proposals, not financed reforms
 lang: en
 translationOf: moderaterna-var-politik-aldreomsorg-2-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-17359fe99f73d222
+sourceSpecDigest: sha256-9a400badb17668b9
 ---
 
 # Our understanding
 
-> Äldreomsorgslyftet pays for training in working time for a limited period. Language requirements and register checks are already in place. Choice requires providers; where they are missing, LOV becomes a form without alternatives. Welfare technology takes rounds from the person who cannot manage the screen.
+> Choice requires providers; where they are absent, LOV becomes a form without alternatives. Staff choice for close personal care requires available staff. Welfare technology takes rounds from those who cannot handle the screen.
 
-System: A time-limited boost against municipal staffing
-
-Scenario: The central grant ends while the language requirement remains
-Given 1.7 billion kronor a year goes to Äldreomsorgslyftet through 2026
-And the boost is extended to 2027
-When a Swedish language requirement applies to staff in elderly care
-Then those who do not meet the requirement are to be retrained or leave
-Outcome the skills requirement remains after the central grant has ended
-But the municipality bears pay during training and vacancy if staff do not reach the language standard
+System: Choice without supply and technology as rounds
 
 Scenario: An older person in a municipality without independent home care
-Given over 150 municipalities have a system of choice
-And independent providers are missing in over 70 municipalities
-When the older person is to choose a provider
-Then there is nobody to reject
-Outcome choice stops on paper
+Given more than 150 municipalities have choice systems
+And independent home care providers are absent in more than 70 municipalities
+When the older person is to choose a provider or staff
+Then there is no one to decline
+Outcome choice stays on paper
 But the older person bears the absence of supply
+
+Scenario: Welfare technology meets staff who cannot use it
+When routine tasks and rounds move to welfare technology
+Then staff should gain time for more qualified care work
+Outcome those who cannot handle the technology still bear rounds and workload

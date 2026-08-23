@@ -1,10 +1,10 @@
 ---
 type: spec
 id: moderaterna-var-politik-lag-och-ordning-2-derived
-title: "Sentence tightening read as a system: places fill with longer sentences after a lag"
+title: "Forfeiture fund read as a system: proceeds to victims while the state bears the claims"
 status: draft
-updated: 2026-08-22
-summary: The police budget and prison places are an expansion already under way, while longer sentences fill the places with delay and the state takes over crime debts.
+updated: 2026-08-23
+summary: The forfeiture fund promises victims of crime a share of proceeds while unpaid damages already sit with the Enforcement Authority, and security guards shift public order work from the police without increasing investigation capacity.
 jurisdiction: SE
 sources:
   - title: Lag och ordning
@@ -19,34 +19,31 @@ money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-lag-och-ordning-2.md
 sourceDigest: "sha256-b1746dd87725aac2"
 assumptions:
-  - 40 percent higher police appropriation 2023-2027 is a path in the appropriation, not a new election pledge from zero
-  - 5 200 places must be staffed before abolished volume discount and double gang sentences show up in occupancy
-  - the state as first payer of damages carries 10 billion in claims until the Enforcement Authority recovers them
-  - 60 percent fewer shootings is an outcome already booked, so new tools are justified by a trend that has already turned
+  - the forfeiture fund only receives what is actually forfeited, which the policy does not dimension
+  - security guards can handle public order disturbances but not investigate serious crime
+  - criminalisation of economic and psychological violence requires investigation resources that the policy does not add
 lang: en
 translationOf: moderaterna-var-politik-lag-och-ordning-2-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-5794748a98a359a7
+sourceSpecDigest: sha256-9d69a7098690d0ba
 ---
 
 # Our understanding
 
-> Police appropriation and prison places are being expanded along a path already laid. Longer sentences and an abolished volume discount fill the places with a lag. When the state pays the damages first, the claims sit with taxpayers until they are recovered. Fewer shootings is already a reported outcome.
+> The forfeiture fund shares proceeds that are not yet forfeited. Security guards shift public order work from the police without increasing investigation capacity. New offences against women require investigation that the policy does not dimension.
 
-System: Capacity, time served and who carries the claim
+System: Forfeiture, public order guards and new offences without extra capacity
 
-Scenario: Sentences are lengthened before the places are staffed
-Given the Prison and Probation Service's budget is to more than double from 14 to 31.5 billion kronor
-And the number of places is to rise by 5 200
-When the volume discount is abolished and gang criminals receive double sentences
-Then more convicted people are to sit longer
-Outcome occupancy rises with a lag after the judgments have become final
-But inmates bear the crowding if the places have not yet been staffed
+Scenario: The forfeiture fund meets unpaid damages
+Given 46,000 people have unpaid debts of over 10 billion kronor in criminal damages
+When forfeited criminal proceeds go to a fund for victims of crime
+Then the victim can receive support from forfeited assets
+Outcome the fund only covers what is actually forfeited
+But the victim still bears unpaid damages that the Enforcement Authority does not collect
 
-Scenario: The state takes the crime claim from the victim
-Given 46 000 people have unpaid debts of over 10 billion kronor for criminal damages
-When the state pays out the damages and recovers the money itself
-Then the victim no longer has to chase the offender
-Outcome the claim moves to the public until it is recovered
-But taxpayers carry the amount that cannot be collected
+Scenario: Security guards take public order disturbances without more investigators
+When security guards complement police and municipal enforcement officers
+Then public order disturbances can be handled locally
+Outcome the police can focus on serious crime
+But investigation queues remain if police resources are not shifted to investigation

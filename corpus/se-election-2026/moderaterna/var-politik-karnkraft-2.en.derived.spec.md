@@ -1,10 +1,10 @@
 ---
 type: spec
 id: moderaterna-var-politik-karnkraft-2-derived
-title: "Loan facility read as a system: the state bears construction risk before the first kilowatt-hour"
+title: "New nuclear power read as a system: doubling to 2045 without a date for ground-breaking"
 status: draft
-updated: 2026-08-22
-summary: Loans, risk-sharing and majority ownership put construction and price risk on the public purse, while doubling by 2045 has no timetable for breaking ground.
+updated: 2026-08-23
+summary: Doubling to 2045 is a physical requirement without a timetable for ground-breaking, and the electricity market reform shifts revenue to dispatchable production that does not yet exist.
 jurisdiction: SE
 sources:
   - title: Kärnkraft
@@ -19,34 +19,32 @@ money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-karnkraft-2.md
 sourceDigest: "sha256-37aa13211a357b27"
 assumptions:
-  - loans to be repaid after the plants exist presuppose that they are completed and profitable
-  - long-term electricity-price contracts set a floor that consumers or taxpayers bear if the spot price lies below
-  - majority ownership of Videberg Kraft makes the state the counterpart if the project overruns
-  - two further applications are interest, not investment decisions
+  - doubling to 2045 requires construction time that the policy does not set a date for
+  - an electricity market reform that rewards availability favours nuclear power only when the reactors exist
+  - SMR and large reactors have different construction time and cost, which the policy does not split out
 lang: en
 translationOf: moderaterna-var-politik-karnkraft-2-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-00bffd1a87c556f9
+sourceSpecDigest: sha256-40cd373f9e585686
 ---
 
 # Our understanding
 
-> A loan facility, risk-sharing and majority ownership make the state financier and owner before any reactor produces. Repayment comes only when the plants exist. The electricity-price contracts lock in a floor. Doubling by 2045 is a physical requirement without a date for breaking ground.
+> Doubling to 2045 is a physical requirement without a date for ground-breaking. The electricity market reform shifts revenue to dispatchable production that does not yet produce.
 
-System: Public risk before production
+System: Doubling without construction time and electricity market before reactors
 
-Scenario: The loan is to be repaid after the reactor exists
-Given firms can seek state support from a loan facility
-And the money is in time to be paid back when the plants are in place
-When construction is delayed or overruns
-Then repayment is postponed
-Outcome the state stands with a claim and an ownership share before the first kilowatt-hour
-But taxpayers bear the risk for as long as the plant is not in operation
+Scenario: Electricity production is to double before the reactors exist
+Given the energy target is 100 percent fossil-free electricity production
+When electricity production is to double by 2045
+Then electrification and net zero require more dispatchable power
+Output electricity production doubles by 2045
+Outcome the gap between today and 2045 is borne by wind, imports or delayed electrification if construction lags
+But households and industry bear higher prices until dispatchable capacity exists
 
-Scenario: A long-term electricity-price contract meets a lower spot price
-Given terms for loans, risk-sharing and long-term electricity-price contracts are agreed
-When the spot price lies below the contract
-Then the difference must be borne by some party to the contract
-Outcome households and industry do not get the whole intended price cut, or the state fills the gap
-But those who consume electricity bear the floor if the contract is written against the consumer
+Scenario: The electricity market rewards availability without new reactors
+When stability, capacity and supply security should be rewarded ahead of produced kilowatt-hours alone
+Then dispatchable production should receive more payment
+Outcome revenue shifts towards power sources that have not yet delivered
+But weather-dependent production bears volatility until baseload exists

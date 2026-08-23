@@ -1,10 +1,10 @@
 ---
 type: spec
 id: moderaterna-var-politik-aldreomsorg-2
-title: Language requirements, skills boost and choice in elderly care
+title: Choice, staff selection and leadership in elderly care
 status: draft
-updated: 2026-08-22
-summary: Elderly care is to be strengthened with a skills boost, language requirements, register checks, and a right to choose the provider and, to a greater extent, which staff come into the home.
+updated: 2026-08-23
+summary: Older people should be able to choose and decline providers and staff, leadership should be strengthened, and welfare technology and preventive elderly care should be developed.
 jurisdiction: SE
 sources:
   - title: Äldreomsorg
@@ -19,44 +19,30 @@ money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-aldreomsorg-2.md
 sourceDigest: "sha256-77a8cbe0abbf14f0"
 gaps:
-  - how many staff fail the language requirement, and what the transition programme costs, is not stated
-  - how the right to choose the sex of staff is to work when there is a staff shortage is not stated
-  - what the malnutrition survey is expected to cost municipalities to put right is not stated
+  - how the right to choose the gender of staff should work during staff shortages is not stated
+  - what the malnutrition mapping is expected to cost municipalities to address is not stated
   - how many hours welfare technology actually frees up in home care is not stated
+  - how mandatory leadership training is to be financed is not stated
 lang: en
 translationOf: moderaterna-var-politik-aldreomsorg-2
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-a979596848042086
+sourceSpecDigest: sha256-57177d3ad069c03f
 ---
 
 # What the page states
 
-> Older people with home care should be able to live as healthy and active a life as possible. When health fails, society should offer the right support. Skills, language, safety and choice should carry the care, and leadership should be strengthened.
+> Older people should be able to live actively and receive the right support when health fails. Choice should be strengthened with the right to choose staff, leadership should be raised, and welfare technology and preventive elderly care should be developed.
 
-System: Skills, language requirements and choice in elderly care
+System: Choice, staff selection and leadership in elderly care
 
-Scenario: A municipality is to raise skills in care
-Given assistant nurse has been a protected professional title since 2023
-When staff are trained in working time through Äldreomsorgslyftet
-Then private providers should also be able to share in the funds
-Output 1.7 billion kronor a year through 2026
-And extension and broadening to 2027
-Outcome skills in municipal health and social care for older people are to be strengthened
-
-Scenario: An older person meets staff in the home
-Given municipalities have a legal basis to request extracts from the criminal record and the register of suspects before hiring
-When a Swedish language requirement applies to staff in elderly care
-Then the social welfare committee is to offer a support contact, information and guidance to relatives
-And municipalities should be able to engage doctors in their own care
-Outcome safety for the older person is to increase
-
-Scenario: An older person wants to choose who comes into the home
-Given 80 percent of older people want to be able to choose home care according to a 2023 survey
-And over 150 municipalities have a system of choice
-And independent home-care providers are missing in over 70 municipalities
-When the right to choose and to reject a provider remains
-Then older people should to a greater extent be able to choose the sex of staff and to reject staff when there are legitimate reasons
-And the needs assessment for home care ought to cover social contact and activity
-And welfare technology is to automate routine tasks and reduce physical rounds
+Scenario: An older person wants to control who comes to their home
+Given a 2023 survey shows that 80 percent of older people want to be able to choose home care
+And more than 150 municipalities have choice systems
+And independent home care providers are absent in more than 70 municipalities
+When older people should be able to choose the gender of staff and to a greater extent decline staff when there are legitimate reasons
+Then an inquiry on mandatory leadership training for managers in elderly care should deliver proposals
+And the National Board of Health and Welfare should map malnutrition among older people and propose preventive measures
+And welfare technology should continue to be developed to automate routine tasks and reduce physical rounds
+And needs assessment for home care should be broadened to social companionship and activity with a particular focus on fall prevention
 Outcome choice does not retire

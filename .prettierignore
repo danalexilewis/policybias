@@ -1,0 +1,14 @@
+node_modules
+.cursor
+dist
+.pnpm-store
+pnpm-lock.yaml
+public/sw*
+public/swe-worker*
+public/cards.json
+public/*/cards.*.json
+corpus
+data
+.tmp
+storage
+.vercel

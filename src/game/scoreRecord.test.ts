@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import { ALL_PARTIES } from './dealRound'
 import {
   backgroundFromAnswers,
   emptyBackground,
@@ -11,11 +12,12 @@ import {
   stampScoreRecord,
 } from './scoreRecord'
 
+const NZ = 'nz-election-2026' as const
+const SE = 'se-election-2026' as const
+
 describe('parseScoreRecordInput', () => {
   it('accepts a session score with no background', () => {
-    expect(
-      parseScoreRecordInput({ correct: 7, attempted: 10 }),
-    ).toEqual({
+    expect(parseScoreRecordInput({ correct: 7, attempted: 10 }, NZ)).toEqual({
       correct: 7,
       attempted: 10,
       guesses: null,
@@ -26,18 +28,21 @@ describe('parseScoreRecordInput', () => {
     })
   })
 
-  it('keeps optional background when it is in the allowed sets', () => {
+  it('keeps optional background when it is in the event allow-list', () => {
     expect(
-      parseScoreRecordInput({
-        correct: 3,
-        attempted: 10,
-        ageRange: '25-34',
-        ethnicities: ['maori', 'european', 'maori'],
-        intendedVote: 'green',
-        feltWealth: 7,
-        userId: 'should-be-ignored',
-        recordedOn: '1999-01-01',
-      }),
+      parseScoreRecordInput(
+        {
+          correct: 3,
+          attempted: 10,
+          ageRange: '25-34',
+          ethnicities: ['maori', 'european', 'maori'],
+          intendedVote: 'green',
+          feltWealth: 7,
+          userId: 'should-be-ignored',
+          recordedOn: '1999-01-01',
+        },
+        NZ,
+      ),
     ).toEqual({
       correct: 3,
       attempted: 10,
@@ -51,14 +56,17 @@ describe('parseScoreRecordInput', () => {
 
   it('keeps guesses when they match the session score', () => {
     expect(
-      parseScoreRecordInput({
-        correct: 1,
-        attempted: 2,
-        guesses: [
-          { guessedParty: 'green', targetParty: 'green', correct: true },
-          { guessedParty: 'labour', targetParty: 'national', correct: false },
-        ],
-      }),
+      parseScoreRecordInput(
+        {
+          correct: 1,
+          attempted: 2,
+          guesses: [
+            { guessedParty: 'green', targetParty: 'green', correct: true },
+            { guessedParty: 'labour', targetParty: 'national', correct: false },
+          ],
+        },
+        NZ,
+      ),
     ).toEqual({
       correct: 1,
       attempted: 2,
@@ -73,52 +81,136 @@ describe('parseScoreRecordInput', () => {
     })
   })
 
+  it('accepts Swedish parties and ethnicity on the Swedish event', () => {
+    expect(
+      parseScoreRecordInput(
+        {
+          correct: 1,
+          attempted: 2,
+          ageRange: '20-29',
+          ethnicities: ['swedish', 'nordic'],
+          intendedVote: 'socialdemokraterna',
+          guesses: [
+            {
+              guessedParty: 'socialdemokraterna',
+              targetParty: 'socialdemokraterna',
+              correct: true,
+            },
+            {
+              guessedParty: 'moderaterna',
+              targetParty: 'vansterpartiet',
+              correct: false,
+            },
+          ],
+        },
+        SE,
+      ),
+    ).toMatchObject({
+      ageRange: '20-29',
+      ethnicities: ['swedish', 'nordic'],
+      intendedVote: 'socialdemokraterna',
+    })
+  })
+
+  it('rejects NZ parties and Māori ethnicity on the Swedish event', () => {
+    expect(
+      parseScoreRecordInput(
+        {
+          correct: 1,
+          attempted: 1,
+          intendedVote: 'labour',
+        },
+        SE,
+      ),
+    ).toBeNull()
+    expect(
+      parseScoreRecordInput(
+        {
+          correct: 1,
+          attempted: 1,
+          ethnicities: ['maori'],
+        },
+        SE,
+      ),
+    ).toBeNull()
+    expect(
+      parseScoreRecordInput(
+        {
+          correct: 1,
+          attempted: 1,
+          guesses: [
+            { guessedParty: 'labour', targetParty: 'labour', correct: true },
+          ],
+        },
+        SE,
+      ),
+    ).toBeNull()
+  })
+
   it('rejects identifiers, out-of-range scores, and unknown answers', () => {
-    expect(parseScoreRecordInput(null)).toBeNull()
-    expect(parseScoreRecordInput({ correct: 0, attempted: 0 })).toBeNull()
-    expect(parseScoreRecordInput({ correct: 4, attempted: 3 })).toBeNull()
-    expect(parseScoreRecordInput({ correct: 1, attempted: 11 })).toBeNull()
+    expect(parseScoreRecordInput(null, NZ)).toBeNull()
+    expect(parseScoreRecordInput({ correct: 0, attempted: 0 }, NZ)).toBeNull()
+    expect(parseScoreRecordInput({ correct: 4, attempted: 3 }, NZ)).toBeNull()
+    expect(parseScoreRecordInput({ correct: 1, attempted: 11 }, NZ)).toBeNull()
     expect(
-      parseScoreRecordInput({
-        correct: 1,
-        attempted: 1,
-        ageRange: '21',
-      }),
+      parseScoreRecordInput(
+        {
+          correct: 1,
+          attempted: 1,
+          ageRange: '21',
+        },
+        NZ,
+      ),
     ).toBeNull()
     expect(
-      parseScoreRecordInput({
-        correct: 1,
-        attempted: 1,
-        ethnicities: ['kiwi'],
-      }),
+      parseScoreRecordInput(
+        {
+          correct: 1,
+          attempted: 1,
+          ethnicities: ['kiwi'],
+        },
+        NZ,
+      ),
     ).toBeNull()
     expect(
-      parseScoreRecordInput({
-        correct: 1,
-        attempted: 1,
-        feltWealth: 11,
-      }),
+      parseScoreRecordInput(
+        {
+          correct: 1,
+          attempted: 1,
+          feltWealth: 11,
+        },
+        NZ,
+      ),
     ).toBeNull()
     expect(
-      parseScoreRecordInput({
-        correct: 1,
-        attempted: 1,
-        feltWealth: 5.5,
-      }),
+      parseScoreRecordInput(
+        {
+          correct: 1,
+          attempted: 1,
+          feltWealth: 5.5,
+        },
+        NZ,
+      ),
     ).toBeNull()
     expect(
-      parseScoreRecordInput({
-        correct: 1,
-        attempted: 1,
-        guesses: [{ guessedParty: 'green', targetParty: 'labour', correct: true }],
-      }),
+      parseScoreRecordInput(
+        {
+          correct: 1,
+          attempted: 1,
+          guesses: [{ guessedParty: 'green', targetParty: 'labour', correct: true }],
+        },
+        NZ,
+      ),
     ).toBeNull()
     expect(
-      parseScoreRecordInput({
-        correct: 1,
-        attempted: 2,
-        guesses: [{ guessedParty: 'green', targetParty: 'green', correct: true }],
-      }),
+      parseScoreRecordInput(
+        {
+          correct: 1,
+          attempted: 2,
+          guesses: [{ guessedParty: 'green', targetParty: 'green', correct: true }],
+        },
+        NZ,
+      ),
     ).toBeNull()
   })
 })
@@ -126,11 +218,14 @@ describe('parseScoreRecordInput', () => {
 describe('parseScoreRecord', () => {
   it('requires a UTC calendar day, not a time', () => {
     expect(
-      parseScoreRecord({
-        correct: 1,
-        attempted: 1,
-        recordedOn: '2026-08-21',
-      }),
+      parseScoreRecord(
+        {
+          correct: 1,
+          attempted: 1,
+          recordedOn: '2026-08-21',
+        },
+        NZ,
+      ),
     ).toEqual({
       correct: 1,
       attempted: 1,
@@ -142,22 +237,28 @@ describe('parseScoreRecord', () => {
       recordedOn: '2026-08-21',
     })
     expect(
-      parseScoreRecord({
-        correct: 1,
-        attempted: 1,
-        recordedOn: '2026-08-21T09:00:00.000Z',
-      }),
+      parseScoreRecord(
+        {
+          correct: 1,
+          attempted: 1,
+          recordedOn: '2026-08-21T09:00:00.000Z',
+        },
+        NZ,
+      ),
     ).toBeNull()
   })
 })
 
 describe('stampScoreRecord', () => {
   it('writes the server day and ignores a client date', () => {
-    const input = parseScoreRecordInput({
-      correct: 2,
-      attempted: 10,
-      recordedOn: '1999-01-01',
-    })
+    const input = parseScoreRecordInput(
+      {
+        correct: 2,
+        attempted: 10,
+        recordedOn: '1999-01-01',
+      },
+      NZ,
+    )
     if (!input) {
       throw new Error('expected a valid input')
     }
@@ -189,11 +290,14 @@ describe('backgroundFromAnswers', () => {
 describe('scoresByGuessedParty', () => {
   it('counts correct and attempted for each party the player picked', () => {
     expect(
-      scoresByGuessedParty([
-        { guessedParty: 'green', targetParty: 'green', correct: true },
-        { guessedParty: 'green', targetParty: 'labour', correct: false },
-        { guessedParty: 'labour', targetParty: 'national', correct: false },
-      ]).filter((bucket) => bucket.attempted > 0),
+      scoresByGuessedParty(
+        [
+          { guessedParty: 'green', targetParty: 'green', correct: true },
+          { guessedParty: 'green', targetParty: 'labour', correct: false },
+          { guessedParty: 'labour', targetParty: 'national', correct: false },
+        ],
+        ALL_PARTIES,
+      ).filter((bucket) => bucket.attempted > 0),
     ).toEqual([
       { party: 'green', correct: 1, attempted: 2 },
       { party: 'labour', correct: 0, attempted: 1 },
@@ -218,31 +322,34 @@ describe('scoresByGuessedParty', () => {
 describe('scoreRecordsToCsv', () => {
   it('joins ethnicities and leaves skipped fields empty', () => {
     expect(
-      scoreRecordsToCsv([
-        {
-          correct: 7,
-          attempted: 10,
-          ageRange: '25-34',
-          ethnicities: ['european', 'maori'],
-          intendedVote: 'green',
-          feltWealth: 8,
-          guesses: [
-            { guessedParty: 'green', targetParty: 'green', correct: true },
-            { guessedParty: 'labour', targetParty: 'national', correct: false },
-          ],
-          recordedOn: '2026-08-21',
-        },
-        {
-          correct: 1,
-          attempted: 10,
-          guesses: null,
-          ageRange: null,
-          ethnicities: null,
-          intendedVote: null,
-          feltWealth: null,
-          recordedOn: '2026-08-21',
-        },
-      ]),
+      scoreRecordsToCsv(
+        [
+          {
+            correct: 7,
+            attempted: 10,
+            ageRange: '25-34',
+            ethnicities: ['european', 'maori'],
+            intendedVote: 'green',
+            feltWealth: 8,
+            guesses: [
+              { guessedParty: 'green', targetParty: 'green', correct: true },
+              { guessedParty: 'labour', targetParty: 'national', correct: false },
+            ],
+            recordedOn: '2026-08-21',
+          },
+          {
+            correct: 1,
+            attempted: 10,
+            guesses: null,
+            ageRange: null,
+            ethnicities: null,
+            intendedVote: null,
+            feltWealth: null,
+            recordedOn: '2026-08-21',
+          },
+        ],
+        NZ,
+      ),
     ).toBe(
       [
         'recordedOn,correct,attempted,act,green,labour,national,nz-first,opportunity,te-pati-maori,ageRange,ethnicities,intendedVote,feltWealth',

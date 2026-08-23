@@ -1,26 +1,45 @@
 import type { PartyId } from '../data/types'
-import { ALL_PARTIES, MAX_GAME_ROUNDS } from './dealRound'
+import type { EventId } from '../event/events'
+import {
+  eventAgeRangeIds,
+  eventEthnicityIds,
+  eventPartyIds,
+  INTENDED_VOTE_EXTRAS,
+} from '../event/eventConfig'
+import { MAX_GAME_ROUNDS } from './dealRound'
 
 /** Optional age band on a score record. Exact age is never stored. */
 export type AgeRange =
   | 'under-18'
+  | '18-19'
   | '18-24'
+  | '20-29'
   | '25-34'
+  | '30-39'
   | '35-44'
+  | '40-49'
   | '45-54'
+  | '50-59'
   | '55-64'
+  | '60-69'
   | '65-plus'
+  | '70-79'
+  | '80-plus'
 
-/** Stats NZ level-1 ethnicity. A player may pick more than one. */
+/** Event-specific ethnicity. A player may pick more than one. */
 export type Ethnicity =
   | 'european'
   | 'maori'
   | 'pacific'
   | 'asian'
   | 'melaa'
+  | 'swedish'
+  | 'nordic'
+  | 'african'
+  | 'persian'
   | 'other'
 
-export type IntendedVoteExtra = 'undecided' | 'will-not-vote' | 'another-party'
+export type IntendedVoteExtra = (typeof INTENDED_VOTE_EXTRAS)[number]
 export type IntendedVote = PartyId | IntendedVoteExtra
 
 /** How wealthy the player feels, from 1 (not wealthy) to 10 (very wealthy). */
@@ -64,41 +83,22 @@ export type ScoreRecord = ScoreRecordInput & {
   recordedOn: string
 }
 
-export const AGE_RANGE_OPTIONS: { id: AgeRange; label: string }[] = [
-  { id: 'under-18', label: 'Under 18' },
-  { id: '18-24', label: '18–24' },
-  { id: '25-34', label: '25–34' },
-  { id: '35-44', label: '35–44' },
-  { id: '45-54', label: '45–54' },
-  { id: '55-64', label: '55–64' },
-  { id: '65-plus', label: '65+' },
+export const ETHNICITY_IDS: Ethnicity[] = [
+  'european',
+  'maori',
+  'pacific',
+  'asian',
+  'melaa',
+  'swedish',
+  'nordic',
+  'african',
+  'persian',
+  'other',
 ]
 
-export const ETHNICITY_OPTIONS: { id: Ethnicity; label: string }[] = [
-  { id: 'european', label: 'European' },
-  { id: 'maori', label: 'Māori' },
-  { id: 'pacific', label: 'Pacific peoples' },
-  { id: 'asian', label: 'Asian' },
-  { id: 'melaa', label: 'Middle Eastern, Latin American, or African' },
-  { id: 'other', label: 'Other' },
+export const INTENDED_VOTE_EXTRA_IDS: IntendedVoteExtra[] = [
+  ...INTENDED_VOTE_EXTRAS,
 ]
-
-export const INTENDED_VOTE_EXTRA_OPTIONS: {
-  id: IntendedVoteExtra
-  label: string
-}[] = [
-  { id: 'undecided', label: 'Undecided' },
-  { id: 'will-not-vote', label: 'Will not vote' },
-  { id: 'another-party', label: 'Another party' },
-]
-
-const AGE_RANGES = new Set<string>(AGE_RANGE_OPTIONS.map((option) => option.id))
-const ETHNICITIES = new Set<string>(ETHNICITY_OPTIONS.map((option) => option.id))
-const PARTIES = new Set<string>(ALL_PARTIES)
-const INTENDED_VOTES = new Set<string>([
-  ...ALL_PARTIES,
-  ...INTENDED_VOTE_EXTRA_OPTIONS.map((option) => option.id),
-])
 
 const RECORDED_ON = /^\d{4}-\d{2}-\d{2}$/
 
@@ -120,7 +120,9 @@ export function backgroundFromAnswers(
   return {
     ageRange: answers.ageRange,
     ethnicities:
-      answers.ethnicities.length === 0 ? null : uniqueEthnicities(answers.ethnicities),
+      answers.ethnicities.length === 0
+        ? null
+        : uniqueEthnicities(answers.ethnicities, ETHNICITY_IDS),
     intendedVote: answers.intendedVote,
     feltWealth: answers.feltWealth,
   }
@@ -128,9 +130,9 @@ export function backgroundFromAnswers(
 
 export function scoresByGuessedParty(
   guesses: StoredGuess[] | null,
-  parties: PartyId[] = ALL_PARTIES,
+  parties: PartyId[],
 ): PartyGuessScore[] {
-  const list = parties.length > 0 ? [...parties] : [...ALL_PARTIES]
+  const list = [...parties]
   const buckets: Record<string, { correct: number; attempted: number }> = {}
   for (const party of list) {
     buckets[party] = { correct: 0, attempted: 0 }
@@ -184,7 +186,10 @@ export function stampScoreRecord(
   }
 }
 
-export function parseScoreRecordInput(value: unknown): ScoreRecordInput | null {
+export function parseScoreRecordInput(
+  value: unknown,
+  eventId: EventId,
+): ScoreRecordInput | null {
   if (value === null || typeof value !== 'object') {
     return null
   }
@@ -207,17 +212,23 @@ export function parseScoreRecordInput(value: unknown): ScoreRecordInput | null {
     return null
   }
 
-  const ageRange = parseOptionalMember(record.ageRange, AGE_RANGES)
+  const ages = new Set(eventAgeRangeIds(eventId))
+  const ethnicitiesAllowed = eventEthnicityIds(eventId)
+  const parties = eventPartyIds(eventId)
+  const partySet = new Set(parties)
+  const intendedVotes = new Set([...parties, ...INTENDED_VOTE_EXTRA_IDS])
+
+  const ageRange = parseOptionalMember(record.ageRange, ages)
   if (ageRange === undefined) {
     return null
   }
 
-  const ethnicities = parseEthnicities(record.ethnicities)
+  const ethnicities = parseEthnicities(record.ethnicities, ethnicitiesAllowed)
   if (ethnicities === undefined) {
     return null
   }
 
-  const intendedVote = parseOptionalMember(record.intendedVote, INTENDED_VOTES)
+  const intendedVote = parseOptionalMember(record.intendedVote, intendedVotes)
   if (intendedVote === undefined) {
     return null
   }
@@ -227,7 +238,12 @@ export function parseScoreRecordInput(value: unknown): ScoreRecordInput | null {
     return null
   }
 
-  const guesses = parseGuesses(record.guesses, record.correct, record.attempted)
+  const guesses = parseGuesses(
+    record.guesses,
+    record.correct,
+    record.attempted,
+    partySet,
+  )
   if (guesses === undefined) {
     return null
   }
@@ -243,8 +259,11 @@ export function parseScoreRecordInput(value: unknown): ScoreRecordInput | null {
   }
 }
 
-export function parseScoreRecord(value: unknown): ScoreRecord | null {
-  const input = parseScoreRecordInput(value)
+export function parseScoreRecord(
+  value: unknown,
+  eventId: EventId,
+): ScoreRecord | null {
+  const input = parseScoreRecordInput(value, eventId)
   if (!input || value === null || typeof value !== 'object') {
     return null
   }
@@ -257,12 +276,16 @@ export function parseScoreRecord(value: unknown): ScoreRecord | null {
   return { ...input, recordedOn }
 }
 
-export function scoreRecordsToCsv(records: ScoreRecord[]): string {
+export function scoreRecordsToCsv(
+  records: ScoreRecord[],
+  eventId: EventId,
+): string {
+  const parties = eventPartyIds(eventId)
   const header = [
     'recordedOn',
     'correct',
     'attempted',
-    ...ALL_PARTIES,
+    ...parties,
     'ageRange',
     'ethnicities',
     'intendedVote',
@@ -270,17 +293,17 @@ export function scoreRecordsToCsv(records: ScoreRecord[]): string {
   ].join(',')
   const rows = records.map((record) => {
     const partyScores = Object.fromEntries(
-      scoresByGuessedParty(record.guesses).map((bucket) => [
+      scoresByGuessedParty(record.guesses, parties).map((bucket) => [
         bucket.party,
         partyScoreLabel(bucket),
       ]),
-    ) as Record<PartyId, string>
+    ) as Record<string, string>
 
     return [
       record.recordedOn,
       String(record.correct),
       String(record.attempted),
-      ...ALL_PARTIES.map((party) => partyScores[party] ?? ''),
+      ...parties.map((party) => partyScores[party] ?? ''),
       record.ageRange ?? '',
       record.ethnicities?.join(';') ?? '',
       record.intendedVote ?? '',
@@ -335,7 +358,10 @@ function parseOptionalMember(
   return value
 }
 
-function parseEthnicities(value: unknown): Ethnicity[] | null | undefined {
+function parseEthnicities(
+  value: unknown,
+  allowedIds: readonly string[],
+): Ethnicity[] | null | undefined {
   if (value === undefined || value === null) {
     return null
   }
@@ -346,21 +372,23 @@ function parseEthnicities(value: unknown): Ethnicity[] | null | undefined {
     return null
   }
 
+  const allowed = new Set(allowedIds)
   const parsed: Ethnicity[] = []
   for (const item of value) {
-    if (typeof item !== 'string' || !ETHNICITIES.has(item)) {
+    if (typeof item !== 'string' || !allowed.has(item)) {
       return undefined
     }
     parsed.push(item as Ethnicity)
   }
 
-  return uniqueEthnicities(parsed)
+  return uniqueEthnicities(parsed, allowedIds)
 }
 
-function uniqueEthnicities(values: Ethnicity[]): Ethnicity[] {
-  return ETHNICITY_OPTIONS.map((option) => option.id).filter((id) =>
-    values.includes(id),
-  )
+function uniqueEthnicities(
+  values: Ethnicity[],
+  order: readonly string[],
+): Ethnicity[] {
+  return order.filter((id) => values.includes(id as Ethnicity)) as Ethnicity[]
 }
 
 /** `undefined` means the field was invalid; `null` means a legacy row. */
@@ -368,6 +396,7 @@ function parseGuesses(
   value: unknown,
   correct: number,
   attempted: number,
+  parties: Set<string>,
 ): StoredGuess[] | null | undefined {
   if (value === undefined || value === null) {
     return null
@@ -379,7 +408,7 @@ function parseGuesses(
   const parsed: StoredGuess[] = []
   let correctCount = 0
   for (const item of value) {
-    const guess = parseGuess(item)
+    const guess = parseGuess(item, parties)
     if (!guess) {
       return undefined
     }
@@ -395,7 +424,7 @@ function parseGuesses(
   return parsed
 }
 
-function parseGuess(value: unknown): StoredGuess | null {
+function parseGuess(value: unknown, parties: Set<string>): StoredGuess | null {
   if (value === null || typeof value !== 'object') {
     return null
   }
@@ -405,10 +434,10 @@ function parseGuess(value: unknown): StoredGuess | null {
     targetParty?: unknown
     correct?: unknown
   }
-  if (typeof item.guessedParty !== 'string' || !PARTIES.has(item.guessedParty)) {
+  if (typeof item.guessedParty !== 'string' || !parties.has(item.guessedParty)) {
     return null
   }
-  if (typeof item.targetParty !== 'string' || !PARTIES.has(item.targetParty)) {
+  if (typeof item.targetParty !== 'string' || !parties.has(item.targetParty)) {
     return null
   }
   if (typeof item.correct !== 'boolean') {

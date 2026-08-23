@@ -45,6 +45,7 @@ function localScoresApi(): Plugin {
           ? createScoreRecordStore(eventId)
           : fileScoreRecordStore(
               resolve(rootDir, localScoreRecordsPath(eventId)),
+              eventId,
             )
 
         void serveScoreRecords(req, res, store).catch((error: unknown) => {

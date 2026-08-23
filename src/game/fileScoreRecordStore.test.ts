@@ -8,7 +8,7 @@ describe('fileScoreRecordStore', () => {
   it('appends jsonl and lists what it wrote', async () => {
     const directory = await mkdtemp(join(tmpdir(), 'policybias-scores-'))
     const filePath = join(directory, 'score-records.jsonl')
-    const store = fileScoreRecordStore(filePath)
+    const store = fileScoreRecordStore(filePath, 'nz-election-2026')
 
     await store.append({
       correct: 4,

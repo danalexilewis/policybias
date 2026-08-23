@@ -8,6 +8,7 @@ import { emptyBackground } from './scoreRecord';
 afterEach(() => {
 	cleanup();
 	vi.unstubAllGlobals();
+	window.history.replaceState({}, '', '/');
 });
 
 describe('GameCensus', () => {
@@ -90,5 +91,32 @@ describe('GameCensus', () => {
 
 		fireEvent.click(screen.getByRole('button', { name: 'See my score' }));
 		expect(onContinue).toHaveBeenCalledWith(emptyBackground());
+	});
+
+	it('asks Swedish ethnicity and parties on the Swedish event', () => {
+		window.history.replaceState({}, '', '/se-election-2026/questions');
+		const onContinue = vi.fn();
+		render(
+			<NuqsAdapter>
+				<GameCensus onContinue={onContinue} />
+			</NuqsAdapter>
+		);
+
+		expect(screen.queryByRole('checkbox', { name: 'Māori' })).toBeNull();
+		expect(screen.queryByRole('radio', { name: 'Labour' })).toBeNull();
+		expect(screen.getByRole('checkbox', { name: 'Svensk' })).toBeTruthy();
+		expect(
+			screen.getByRole('radio', { name: 'Socialdemokraterna' })
+		).toBeTruthy();
+		fireEvent.click(screen.getByRole('radio', { name: '20–29' }));
+		fireEvent.click(screen.getByRole('checkbox', { name: 'Svensk' }));
+		fireEvent.click(screen.getByRole('button', { name: 'Visa min poäng' }));
+
+		expect(onContinue).toHaveBeenCalledWith({
+			ageRange: '20-29',
+			ethnicities: ['swedish'],
+			intendedVote: null,
+			feltWealth: null
+		});
 	});
 });

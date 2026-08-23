@@ -2,9 +2,13 @@ import { mkdir, readFile, appendFile } from 'node:fs/promises'
 import { dirname } from 'node:path'
 import { parseScoreRecord, type ScoreRecord } from './scoreRecord'
 import type { ScoreRecordStore } from './scoreRecordStore'
+import type { EventId } from '../event/events'
 
 /** Append-only JSONL store for local `pnpm dev`. */
-export function fileScoreRecordStore(filePath: string): ScoreRecordStore {
+export function fileScoreRecordStore(
+  filePath: string,
+  eventId: EventId,
+): ScoreRecordStore {
   return {
     async append(record: ScoreRecord): Promise<void> {
       await mkdir(dirname(filePath), { recursive: true })
@@ -26,7 +30,7 @@ export function fileScoreRecordStore(filePath: string): ScoreRecordStore {
         if (line.trim() === '') {
           continue
         }
-        const record = parseScoreRecord(parseJson(line))
+        const record = parseScoreRecord(parseJson(line), eventId)
         if (record) {
           records.push(record)
         }

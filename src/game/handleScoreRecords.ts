@@ -8,7 +8,7 @@ import {
   scoreRecordsToCsv,
   stampScoreRecord,
 } from './scoreRecord'
-import { scoresPageHtml } from './scoresPage'
+import { scoresPageHtml, scoresPageLang } from './scoresPage'
 import {
   ScoreDatasetUnavailableError,
   type ScoreRecordStore,
@@ -44,7 +44,7 @@ export async function handleScoreRecordsRequest(
     const records = await store.list()
     const format = url.searchParams.get('format')
     if (format === 'csv') {
-      return new Response(scoreRecordsToCsv(records), {
+      return new Response(scoreRecordsToCsv(records, eventId), {
         headers: {
           ...GET_HEADERS,
           'content-type': 'text/csv; charset=utf-8',
@@ -52,7 +52,7 @@ export async function handleScoreRecordsRequest(
       })
     }
     if (wantsHtmlPage(url, request, eventId)) {
-      return new Response(scoresPageHtml(records, eventId), {
+      return new Response(scoresPageHtml(records, eventId, scoresPageLang(url, eventId)), {
         headers: {
           ...GET_HEADERS,
           'content-type': 'text/html; charset=utf-8',
@@ -70,7 +70,7 @@ export async function handleScoreRecordsRequest(
       return Response.json({ error: 'Invalid JSON' }, { status: 400 })
     }
 
-    const input = parseScoreRecordInput(payload)
+    const input = parseScoreRecordInput(payload, eventId)
     if (!input) {
       return Response.json({ error: 'Invalid score record' }, { status: 400 })
     }

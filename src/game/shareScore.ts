@@ -1,4 +1,10 @@
-import { CURRENT_EVENT_ID, eventGamePath, eventLabel, type EventId } from '../event/events'
+import {
+  CURRENT_EVENT_ID,
+  eventGamePath,
+  type EventId,
+  type Lang,
+} from '../event/events'
+import { eventUiKey, translate } from '../i18n/messages'
 
 export type ScoreSharePayload = {
   title: string
@@ -12,12 +18,18 @@ export function scoreSharePayload(args: {
   attempted: number
   origin: string
   eventId?: EventId
+  lang?: Lang
 }): ScoreSharePayload {
   const eventId = args.eventId ?? CURRENT_EVENT_ID
-  const label = eventLabel(eventId)
+  const lang = args.lang ?? 'en'
+  const event = translate(lang, eventUiKey(eventId))
   return {
-    title: `Policy Bias — ${label}`,
-    text: `I scored ${args.correct}/${args.attempted} on Policy Bias — ${label}. Guess the party from the policy.`,
+    title: translate(lang, 'shareTitle', { event }),
+    text: translate(lang, 'shareText', {
+      correct: args.correct,
+      attempted: args.attempted,
+      event,
+    }),
     url: `${args.origin}${eventGamePath(eventId)}`,
   }
 }

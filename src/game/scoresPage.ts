@@ -1,42 +1,56 @@
-import { PARTY_LABELS } from '../card/anonymise'
 import {
+  EVENT_LANGS,
   eventLabel,
+  eventLangs,
   eventLlmsPath,
   eventPath,
   eventScoresPath,
+  eventStatus,
+  parseLang,
   type EventId,
+  type Lang,
 } from '../event/events'
-import { injectAgentTrap } from '../prank/agentTrapMarkup'
-import { ALL_PARTIES } from './dealRound'
+import { eventPartyIds, eventPartyLabel } from '../event/eventConfig'
+import { withLangQuery } from '../i18n/href'
 import {
-  AGE_RANGE_OPTIONS,
-  ETHNICITY_OPTIONS,
-  INTENDED_VOTE_EXTRA_OPTIONS,
+  eventUiKey,
+  translate,
+  type UiKey,
+} from '../i18n/messages'
+import { injectAgentTrap } from '../prank/agentTrapMarkup'
+import {
+  ageRangeLabel,
+  ethnicityLabel,
+  voteExtraLabel,
+} from './censusOptions'
+import {
+  INTENDED_VOTE_EXTRA_IDS,
   partyScoreLabel,
   scoresByGuessedParty,
-  type AgeRange,
-  type Ethnicity,
   type FeltWealth,
   type IntendedVote,
+  type IntendedVoteExtra,
   type ScoreRecord,
 } from './scoreRecord'
 
-function partiesFromRecords(records: ScoreRecord[]): string[] {
-  const ids = new Set<string>()
-  for (const record of records) {
-    for (const guess of record.guesses ?? []) {
-      ids.add(guess.guessedParty)
-      ids.add(guess.targetParty)
-    }
+const CONTACT_HREF =
+  'https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e'
+
+export function scoresPageLang(url: URL, eventId: EventId): Lang {
+  const requested = parseLang(url.searchParams.get('lang'))
+  const { canonical, available } = eventLangs(eventId)
+  if (requested && available.includes(requested)) {
+    return requested
   }
-  return ids.size > 0 ? [...ids].sort() : [...ALL_PARTIES]
+  return canonical
 }
 
 export function scoresPageHtml(
   records: ScoreRecord[],
   eventId: EventId,
+  lang: Lang = EVENT_LANGS[eventId].canonical,
 ): string {
-  const parties = partiesFromRecords(records)
+  const parties = eventPartyIds(eventId)
   const columnCount = 6 + parties.length
   const newestFirst = [...records].reverse()
   const average =
@@ -45,27 +59,39 @@ export function scoresPageHtml(
       : records.reduce((sum, record) => sum + record.correct / record.attempted, 0) /
         records.length
 
+  const t = (key: UiKey, vars?: Record<string, string | number>) =>
+    translate(lang, key, vars)
+  const event = t(eventUiKey(eventId))
+
   const rows =
     newestFirst.length === 0
-      ? `<tr><td colspan="${columnCount}">No scores yet.</td></tr>`
-      : newestFirst.map((record) => scoreRow(record, parties)).join('')
+      ? `<tr><td colspan="${columnCount}">${escapeHtml(t('scoresEmptyRow'))}</td></tr>`
+      : newestFirst.map((record) => scoreRow(record, parties, eventId, lang)).join('')
 
   const summary =
     records.length === 0
-      ? 'The public dataset is empty.'
-      : `${records.length} game${records.length === 1 ? '' : 's'}. Average ${formatAverage(average)}.`
+      ? t('scoresEmpty')
+      : records.length === 1
+        ? t('scoresSummaryOne', { average: formatAverage(average) })
+        : t('scoresSummary', {
+            n: records.length,
+            average: formatAverage(average),
+          })
 
-  const partyHeadings = parties.map(
-    (party) => `<th>${escapeHtml(PARTY_LABELS[party] ?? party)}</th>`,
-  ).join('')
+  const partyHeadings = parties
+    .map(
+      (party) =>
+        `<th>${escapeHtml(eventPartyLabel(eventId, party, lang))}</th>`,
+    )
+    .join('')
 
   return injectAgentTrap(
     `<!doctype html>
-<html lang="en">
+<html lang="${lang}">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Public scores — ${escapeHtml(eventLabel(eventId))}</title>
+    <title>${escapeHtml(t('scoresTitle', { event }))}</title>
     <style>
       * { box-sizing: border-box; }
       body {
@@ -108,12 +134,8 @@ export function scoresPageHtml(
   <body>
     <main>
       <p class="kicker"><a href="${eventPath(eventId)}">${escapeHtml(eventLabel(eventId))}</a></p>
-      <h1>Public scores</h1>
-      <p class="lede">
-        Anonymous session scores for this event. Each party column is how often
-        that party was guessed, and how many of those guesses were right.
-        Compare that with intended vote. No accounts, names, cookies, or IP addresses.
-      </p>
+      <h1>${escapeHtml(t('publicScores'))}</h1>
+      <p class="lede">${escapeHtml(t('scoresLede'))}</p>
       <p>${escapeHtml(summary)}
         <a href="${eventScoresPath(eventId)}?format=json">JSON</a> ·
         <a href="${eventScoresPath(eventId)}?format=csv">CSV</a>
@@ -122,13 +144,13 @@ export function scoresPageHtml(
       <table>
         <thead>
           <tr>
-            <th>Date</th>
-            <th>Total</th>
+            <th>${escapeHtml(t('scoresDate'))}</th>
+            <th>${escapeHtml(t('scoresTotal'))}</th>
             ${partyHeadings}
-            <th>Intended vote</th>
-            <th>Age</th>
-            <th>Ethnicity</th>
-            <th>Felt wealth</th>
+            <th>${escapeHtml(t('intendedVote'))}</th>
+            <th>${escapeHtml(t('scoresAge'))}</th>
+            <th>${escapeHtml(t('ethnicity'))}</th>
+            <th>${escapeHtml(t('scoresFeltWealth'))}</th>
           </tr>
         </thead>
         <tbody>${rows}</tbody>
@@ -138,11 +160,11 @@ export function scoresPageHtml(
     <footer>
       <a href="${eventLlmsPath(eventId)}">llms.txt</a>
       ·
-      <a href="/terms/">Terms</a>
+      <a href="${withLangQuery('/terms/', lang, 'en')}">${escapeHtml(t('terms'))}</a>
       ·
-      <a href="/privacy/">Privacy</a>
+      <a href="${withLangQuery('/privacy/', lang, 'en')}">${escapeHtml(t('privacy'))}</a>
       ·
-      <a href="https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e">Contact</a>
+      <a href="${CONTACT_HREF}">${escapeHtml(t('contact'))}</a>
     </footer>
   </body>
 </html>`,
@@ -150,7 +172,12 @@ export function scoresPageHtml(
   )
 }
 
-function scoreRow(record: ScoreRecord, parties: string[]): string {
+function scoreRow(
+  record: ScoreRecord,
+  parties: string[],
+  eventId: EventId,
+  lang: Lang,
+): string {
   const partyCells = scoresByGuessedParty(record.guesses, parties)
     .map((bucket) => {
       const label = partyScoreLabel(bucket)
@@ -162,42 +189,25 @@ function scoreRow(record: ScoreRecord, parties: string[]): string {
     <td>${escapeHtml(record.recordedOn)}</td>
     <td class="num">${record.correct} / ${record.attempted}</td>
     ${partyCells}
-    <td>${escapeHtml(voteLabel(record.intendedVote))}</td>
-    <td>${escapeHtml(ageLabel(record.ageRange))}</td>
-    <td>${escapeHtml(ethnicityLabel(record.ethnicities))}</td>
+    <td>${escapeHtml(voteLabel(record.intendedVote, eventId, lang))}</td>
+    <td>${escapeHtml(ageRangeLabel(record.ageRange, lang) ?? '—')}</td>
+    <td>${escapeHtml(ethnicityLabel(record.ethnicities, eventId, lang) ?? '—')}</td>
     <td>${escapeHtml(feltWealthLabel(record.feltWealth))}</td>
   </tr>`
 }
 
-function ageLabel(ageRange: AgeRange | null): string {
-  if (!ageRange) {
-    return '—'
-  }
-  return AGE_RANGE_OPTIONS.find((option) => option.id === ageRange)?.label ?? ageRange
-}
-
-function ethnicityLabel(ethnicities: Ethnicity[] | null): string {
-  if (!ethnicities || ethnicities.length === 0) {
-    return '—'
-  }
-  return ethnicities
-    .map(
-      (id) => ETHNICITY_OPTIONS.find((option) => option.id === id)?.label ?? id,
-    )
-    .join(', ')
-}
-
-function voteLabel(vote: IntendedVote | null): string {
+function voteLabel(
+  vote: IntendedVote | null,
+  eventId: EventId,
+  lang: Lang,
+): string {
   if (!vote) {
     return '—'
   }
-  if (PARTY_LABELS[vote]) {
-    return PARTY_LABELS[vote]
+  if (INTENDED_VOTE_EXTRA_IDS.includes(vote as IntendedVoteExtra)) {
+    return voteExtraLabel(vote as IntendedVoteExtra, lang)
   }
-  return (
-    INTENDED_VOTE_EXTRA_OPTIONS.find((option) => option.id === vote)?.label ??
-    vote
-  )
+  return eventPartyLabel(eventId, vote, lang)
 }
 
 function feltWealthLabel(feltWealth: FeltWealth | null): string {

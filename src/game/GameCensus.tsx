@@ -1,15 +1,16 @@
-import { useState, type JSX } from 'react';
+import { useState, type JSX, type ReactNode } from 'react';
 import type { PartyMeta } from '../data/types';
-import { PARTY_LABELS } from '../card/anonymise';
-import { ALL_PARTIES } from './dealRound';
+import { eventPartyIds, eventPartyLabel } from '../event/eventConfig';
 import { useLang } from '../i18n/useLang';
 import { useOnlineStatus } from '../offline/useOnlineStatus';
 import {
-	AGE_RANGE_OPTIONS,
-	ETHNICITY_OPTIONS,
+	ageRangeOptions,
+	ethnicityOptions,
+	intendedVoteExtraOptions
+} from './censusOptions';
+import {
 	FELT_WEALTH_MAX,
 	FELT_WEALTH_MIN,
-	INTENDED_VOTE_EXTRA_OPTIONS,
 	emptyBackground,
 	type BackgroundAnswers,
 	type Ethnicity,
@@ -22,12 +23,12 @@ type GameCensusProps = {
 };
 
 export function GameCensus(props: GameCensusProps): JSX.Element {
-	const { t } = useLang();
+	const { lang, eventId, t } = useLang();
 	const online = useOnlineStatus();
 	const voteParties =
 		props.parties && props.parties.length > 0
 			? props.parties.map((party) => party.id)
-			: [...ALL_PARTIES];
+			: eventPartyIds(eventId);
 	const [answers, setAnswers] = useState(() => emptyBackground());
 	const [submitted, setSubmitted] = useState(false);
 
@@ -49,11 +50,6 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 
 	return (
 		<div className='game-census'>
-			<header className='game-heading'>
-				<p className='game-heading__kicker'>{t('beforeYourScore')}</p>
-				<h2 className='game-census__title'>{t('optionalQuestions')}</h2>
-			</header>
-
 			<p className='game-census__lede'>
 				{online ? t('censusLede') : t('offlineCensus')}
 			</p>
@@ -67,23 +63,23 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 			>
 				<fieldset disabled={!online}>
 					<legend>{t('ageRange')}</legend>
-					<div className='game-census__options game-census__options--wrap'>
-						{AGE_RANGE_OPTIONS.map((option) => (
-							<label key={option.id}>
-								<input
-									type='radio'
-									name='age-range'
-									value={option.id}
-									checked={answers.ageRange === option.id}
-									onChange={() =>
-										setAnswers((current) => ({
-											...current,
-											ageRange: option.id
-										}))
-									}
-								/>
+					<div className='game-census__chips'>
+						{ageRangeOptions(eventId, lang).map((option) => (
+							<Chip
+								key={option.id}
+								name='age-range'
+								type='radio'
+								value={option.id}
+								checked={answers.ageRange === option.id}
+								onChange={() =>
+									setAnswers((current) => ({
+										...current,
+										ageRange: option.id
+									}))
+								}
+							>
 								{option.label}
-							</label>
+							</Chip>
 						))}
 					</div>
 				</fieldset>
@@ -91,28 +87,28 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 				<fieldset disabled={!online}>
 					<legend>{t('ethnicity')}</legend>
 					<p className='game-census__hint'>{t('selectAll')}</p>
-					<div className='game-census__options'>
-						{ETHNICITY_OPTIONS.map((option) => {
+					<div className='game-census__chips'>
+						{ethnicityOptions(eventId, lang).map((option) => {
 							const checked = answers.ethnicities.includes(option.id);
 							return (
-								<label key={option.id}>
-									<input
-										type='checkbox'
-										name='ethnicity'
-										value={option.id}
-										checked={checked}
-										onChange={() =>
-											setAnswers((current) => ({
-												...current,
-												ethnicities: toggleEthnicity(
-													current.ethnicities,
-													option.id
-												)
-											}))
-										}
-									/>
+								<Chip
+									key={option.id}
+									name='ethnicity'
+									type='checkbox'
+									value={option.id}
+									checked={checked}
+									onChange={() =>
+										setAnswers((current) => ({
+											...current,
+											ethnicities: toggleEthnicity(
+												current.ethnicities,
+												option.id
+											)
+										}))
+									}
+								>
 									{option.label}
-								</label>
+								</Chip>
 							);
 						})}
 					</div>
@@ -120,42 +116,41 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 
 				<fieldset disabled={!online}>
 					<legend>{t('intendedVote')}</legend>
-					<div className='game-census__options game-census__options--wrap'>
+					<div className='game-census__chips'>
 						{voteParties.map((party) => (
-							<label key={party}>
-								<input
-									type='radio'
-									name='intended-vote'
-									value={party}
-									checked={answers.intendedVote === party}
-									onChange={() =>
-										setAnswers((current) => ({
-											...current,
-											intendedVote: party
-										}))
-									}
-								/>
+							<Chip
+								key={party}
+								name='intended-vote'
+								type='radio'
+								value={party}
+								checked={answers.intendedVote === party}
+								onChange={() =>
+									setAnswers((current) => ({
+										...current,
+										intendedVote: party
+									}))
+								}
+							>
 								{props.parties?.find((item) => item.id === party)?.label ??
-									PARTY_LABELS[party] ??
-									party}
-							</label>
+									eventPartyLabel(eventId, party, lang)}
+							</Chip>
 						))}
-						{INTENDED_VOTE_EXTRA_OPTIONS.map((option) => (
-							<label key={option.id}>
-								<input
-									type='radio'
-									name='intended-vote'
-									value={option.id}
-									checked={answers.intendedVote === option.id}
-									onChange={() =>
-										setAnswers((current) => ({
-											...current,
-											intendedVote: option.id
-										}))
-									}
-								/>
+						{intendedVoteExtraOptions(lang).map((option) => (
+							<Chip
+								key={option.id}
+								name='intended-vote'
+								type='radio'
+								value={option.id}
+								checked={answers.intendedVote === option.id}
+								onChange={() =>
+									setAnswers((current) => ({
+										...current,
+										intendedVote: option.id
+									}))
+								}
+							>
 								{option.label}
-							</label>
+							</Chip>
 						))}
 					</div>
 				</fieldset>
@@ -213,6 +208,28 @@ export function GameCensus(props: GameCensusProps): JSX.Element {
 				</div>
 			</form>
 		</div>
+	);
+}
+
+function Chip(props: {
+	name: string;
+	type: 'radio' | 'checkbox';
+	value: string;
+	checked: boolean;
+	onChange: () => void;
+	children: ReactNode;
+}): JSX.Element {
+	return (
+		<label className='game-census__chip'>
+			<input
+				type={props.type}
+				name={props.name}
+				value={props.value}
+				checked={props.checked}
+				onChange={props.onChange}
+			/>
+			<span>{props.children}</span>
+		</label>
 	);
 }
 

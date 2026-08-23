@@ -133,11 +133,119 @@ describe('handleScoreRecordsRequest', () => {
     expect(html).toContain('<td class="num">3/3</td>')
     expect(html).toContain('<td class="num">0/7</td>')
     expect(html).not.toContain('Green 3/3')
+    expect(html).toContain('Ethnicity')
     expect(html).toContain('Māori')
     expect(html).toContain('smaller boats for 30 years')
     expect(html).toContain('aria-hidden="true"')
     expect(html).toContain('Felt wealth')
     expect(html).toMatch(/<td>4<\/td>/)
+  })
+
+  it('uses Swedish party columns and ethnicity on the Swedish scores page', async () => {
+    const empty = await handleScoreRecordsRequest(
+      new Request('http://example.test/se-election-2026/scores', {
+        headers: { accept: 'text/html' },
+      }),
+      memoryScoreRecordStore(),
+      NOW,
+    )
+    const emptyHtml = await empty.text()
+    expect(emptyHtml).toContain('<th>Socialdemokraterna</th>')
+    expect(emptyHtml).toContain('<th>Moderaterna</th>')
+    expect(emptyHtml).not.toContain('<th>Labour</th>')
+    expect(emptyHtml).not.toContain('<th>Green</th>')
+    expect(emptyHtml).toContain('<th>Etnicitet</th>')
+
+    const store = memoryScoreRecordStore([
+      {
+        correct: 1,
+        attempted: 1,
+        guesses: null,
+        ageRange: '20-29',
+        ethnicities: ['swedish'],
+        intendedVote: 'socialdemokraterna',
+        feltWealth: null,
+        recordedOn: '2026-08-21',
+      },
+    ])
+
+    const response = await handleScoreRecordsRequest(
+      new Request('http://example.test/se-election-2026/scores', {
+        headers: { accept: 'text/html' },
+      }),
+      store,
+      NOW,
+    )
+    const html = await response.text()
+    expect(html).toContain('SE 2026')
+    expect(html).toContain('Svensk')
+    expect(html).toContain('20–29')
+    expect(html).toContain('Socialdemokraterna')
+  })
+
+  it('honours lang=en on the Swedish scores page', async () => {
+    const response = await handleScoreRecordsRequest(
+      new Request('http://example.test/se-election-2026/scores?lang=en', {
+        headers: { accept: 'text/html' },
+      }),
+      memoryScoreRecordStore(),
+      NOW,
+    )
+    const html = await response.text()
+    expect(html).toContain('<th>Ethnicity</th>')
+    expect(html).toContain('Public scores')
+  })
+
+  it('honours lang=mi on the NZ scores page', async () => {
+    const response = await handleScoreRecordsRequest(
+      new Request('http://example.test/nz-election-2026/scores?lang=mi', {
+        headers: { accept: 'text/html' },
+      }),
+      memoryScoreRecordStore(),
+      NOW,
+    )
+    const html = await response.text()
+    expect(html).toContain('Ngā kaute tūmatanui')
+    expect(html).toContain('lang="mi"')
+  })
+
+  it('rejects an NZ party on a Swedish score POST', async () => {
+    const response = await handleScoreRecordsRequest(
+      new Request('http://example.test/se-election-2026/scores', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          correct: 1,
+          attempted: 1,
+          intendedVote: 'labour',
+        }),
+      }),
+      memoryScoreRecordStore(),
+      NOW,
+    )
+    expect(response.status).toBe(400)
+  })
+
+  it('accepts a Swedish party on a Swedish score POST', async () => {
+    const response = await handleScoreRecordsRequest(
+      new Request('http://example.test/se-election-2026/scores', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          correct: 1,
+          attempted: 1,
+          intendedVote: 'socialdemokraterna',
+          ethnicities: ['persian'],
+        }),
+      }),
+      memoryScoreRecordStore(),
+      NOW,
+    )
+    expect(response.status).toBe(201)
+    expect(await response.json()).toMatchObject({
+      intendedVote: 'socialdemokraterna',
+      ethnicities: ['persian'],
+    })
   })
 
   it('rejects a malformed body', async () => {

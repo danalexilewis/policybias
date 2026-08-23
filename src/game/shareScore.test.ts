@@ -15,6 +15,18 @@ describe('scoreSharePayload', () => {
       url: 'https://policybias.example/nz-election-2026/game',
     })
   })
+
+  it('writes the share line in Swedish', () => {
+    expect(
+      scoreSharePayload({
+        correct: 7,
+        attempted: 10,
+        origin: 'https://policybias.example',
+        lang: 'sv',
+        eventId: 'se-election-2026',
+      }).text,
+    ).toContain('Jag fick 7/10')
+  })
 })
 
 describe('shareScore', () => {

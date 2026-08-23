@@ -18,6 +18,7 @@ type RedisEnv = {
   KV_REST_API_TOKEN?: string
   UPSTASH_REDIS_REST_URL?: string
   UPSTASH_REDIS_REST_TOKEN?: string
+  [key: string]: string | undefined
 }
 
 export function memoryScoreRecordStore(
@@ -64,7 +65,7 @@ export function kvScoreRecordStore(
       const records: ScoreRecord[] = []
       for (const item of result) {
         const raw = typeof item === 'string' ? parseJson(item) : item
-        const record = parseScoreRecord(raw)
+        const record = parseScoreRecord(raw, eventId)
         if (record) {
           records.push(record)
         }

@@ -9,11 +9,14 @@ describe('static chrome pages', () => {
     expect(html).toContain('"source":"Puna"')
     expect(html).toContain('data-ui="termsTitle"')
     expect(html).toContain('href="/terms/?lang=mi"')
+    expect(html).toContain('class="lang-picker"')
+    expect(html).not.toContain('class="lang-links"')
   })
 
   it('keeps English legal copy in the markup for readers without script', () => {
     expect(renderTermsHtml()).toContain('without warranty')
     expect(renderPrivacyHtml()).toContain('We do not run accounts')
     expect(renderDirectoryHtml()).toContain('data-ui="status.review"')
+    expect(renderDirectoryHtml()).toContain('window--directory')
   })
 })

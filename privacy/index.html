@@ -20,7 +20,16 @@
       <section class="window" aria-label="Privacy" data-ui-aria="privacyTitle">
         <div class="title-bar">
           <p class="title"><a href="/">POLICYBIAS</a></p>
-          <nav class="lang-links" aria-label="Language" data-ui-aria="language"><a class="lang-link" data-lang="en" href="/privacy/">English</a> · <a class="lang-link" data-lang="sv" href="/privacy/?lang=sv">Svenska</a> · <a class="lang-link" data-lang="mi" href="/privacy/?lang=mi">Te reo Māori</a></nav>
+          <details class="lang-picker">
+            <summary class="lang-picker__trigger" aria-label="Language" data-ui-aria="language">
+              <span class="lang-picker__full" data-lang-full>English</span>
+              <span class="lang-picker__code" data-lang-code>EN</span>
+              <span class="lang-picker__icon" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </summary>
+            <div class="lang-picker__menu" role="listbox">
+              <a class="lang-picker__item lang-link" role="option" data-lang="en" href="/privacy/"><span>English</span><span class="lang-picker__check" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12l5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a><a class="lang-picker__item lang-link" role="option" data-lang="sv" href="/privacy/?lang=sv"><span>Svenska</span><span class="lang-picker__check" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12l5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a><a class="lang-picker__item lang-link" role="option" data-lang="mi" href="/privacy/?lang=mi"><span>Te reo Māori</span><span class="lang-picker__check" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12l5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            </div>
+          </details>
         </div>
         <div class="window-body copy">
           <h1 data-ui="privacyTitle">Privacy</h1>
@@ -65,10 +74,27 @@
       el.setAttribute('aria-label', dict[key]);
     }
   });
+  var labels = { en: dict.langEn, sv: dict.langSv, mi: dict.langMi };
+  var full = document.querySelector('[data-lang-full]');
+  var code = document.querySelector('[data-lang-code]');
+  if (full) full.textContent = labels[lang];
+  if (code) code.textContent = lang.toUpperCase();
   document.querySelectorAll('.lang-link').forEach(function (el) {
     if (el.getAttribute('data-lang') === lang) {
       el.setAttribute('aria-current', 'true');
     }
+  });
+  document.querySelectorAll('.lang-picker').forEach(function (el) {
+    document.addEventListener('pointerdown', function (event) {
+      if (!el.contains(event.target)) {
+        el.removeAttribute('open');
+      }
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') {
+        el.removeAttribute('open');
+      }
+    });
   });
 })();
 </script>

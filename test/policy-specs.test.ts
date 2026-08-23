@@ -518,13 +518,22 @@ describe('the authored spec tree', () => {
 				.filter((name) => name.endsWith('.spec.md'))
 				.map((name) => {
 					const stem = basename(name, '.spec.md');
-					const derived = stem.endsWith('.derived');
+					const parts = stem.split('.');
+					let kind: 'stated' | 'derived' = 'stated';
+					let slugParts = parts;
+					if (parts.at(-1) === 'derived') {
+						kind = 'derived';
+						slugParts = parts.slice(0, -1);
+					}
+					if (['en', 'sv', 'mi'].includes(slugParts.at(-1) ?? '') && slugParts.length > 1) {
+						slugParts = slugParts.slice(0, -1);
+					}
 					return {
 						party,
 						name,
 						path: join(CORPUS_DIR, party, name),
-						slug: derived ? stem.slice(0, -'.derived'.length) : stem,
-						kind: derived ? ('derived' as const) : ('stated' as const),
+						slug: slugParts.join('.'),
+						kind,
 					};
 				})
 		);
@@ -628,6 +637,14 @@ describe('spec language', () => {
 		expect(detectProseLanguage('The policy cuts tax and the household keeps more')).toBe('en');
 	});
 
+	it('detects Māori function words, including macron folding', () => {
+		expect(
+			detectProseLanguage(
+				'Kāore i whakapuakina te pūtea, kua tohua ngā whāinga, kia ū, kei te tika, katoa ngā whānau'
+			)
+		).toBe('mi');
+	});
+
 	it('flags an English body on a canonical Swedish spec', () => {
 		const raw = spec(`# Our understanding
 
@@ -649,6 +666,30 @@ Then take-home pay after bills can rise or fall
 			document: parse(raw),
 		};
 		const problems = checkSpecLanguage(file, 'se-election-2026');
+		expect(problems.some((problem) => problem.code === 'spec_language_mismatch')).toBe(true);
+	});
+
+	it('flags an English body on a Māori sibling spec', () => {
+		const raw = spec(`# Our understanding
+
+> The page's arithmetic identity is a tax cut without a rate.
+
+Scenario: A household files a return
+Given a tax cut financed by environmental tax
+When the household files its return
+Then take-home pay after bills can rise or fall
+`);
+		const file: SpecFile = {
+			party: 'te-pati-maori',
+			slug: 'tax',
+			kind: 'stated',
+			lang: 'mi',
+			absolutePath: 'x',
+			repoPath: 'corpus/nz-election-2026/te-pati-maori/tax.mi.spec.md',
+			raw,
+			document: parse(raw),
+		};
+		const problems = checkSpecLanguage(file, 'nz-election-2026');
 		expect(problems.some((problem) => problem.code === 'spec_language_mismatch')).toBe(true);
 	});
 });

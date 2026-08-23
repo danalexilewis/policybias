@@ -554,14 +554,50 @@ const EN_MARKERS = new Set([
 	'over',
 ]);
 
-export function detectProseLanguage(text: string): 'sv' | 'en' | 'unknown' {
+/** Function words, not loanwords. Avoid `te`/`he`/`me` — they collide with English NZ policy prose. */
+const MI_MARKERS = new Set([
+	'kia',
+	'kua',
+	'kei',
+	'kaore',
+	'katoa',
+	'mehemea',
+	'ahakoa',
+	'otira',
+	'enei',
+	'era',
+	'tenei',
+	'tena',
+	'tona',
+	'ratou',
+	'tatou',
+	'matou',
+	'koutou',
+	'naianei',
+	'pera',
+	'penei',
+]);
+
+function foldMacrons(word: string): string {
+	return word.replace(/[āēīōū]/g, (char) => {
+		if (char === 'ā') return 'a';
+		if (char === 'ē') return 'e';
+		if (char === 'ī') return 'i';
+		if (char === 'ō') return 'o';
+		return 'u';
+	});
+}
+
+export function detectProseLanguage(text: string): 'sv' | 'en' | 'mi' | 'unknown' {
 	const words = text
 		.toLowerCase()
-		.replace(/[^a-zà-öø-ÿ]+/gi, ' ')
+		.replace(/[^a-zà-öø-ÿāēīōū]+/gi, ' ')
 		.split(/\s+/)
-		.filter((word) => word.length >= 2);
+		.filter((word) => word.length >= 2)
+		.map(foldMacrons);
 	let swedish = 0;
 	let english = 0;
+	let maori = 0;
 	for (const word of words) {
 		if (SV_MARKERS.has(word)) {
 			swedish += 1;
@@ -569,14 +605,20 @@ export function detectProseLanguage(text: string): 'sv' | 'en' | 'unknown' {
 		if (EN_MARKERS.has(word)) {
 			english += 1;
 		}
+		if (MI_MARKERS.has(word)) {
+			maori += 1;
+		}
 	}
-	if (swedish < 3 && english < 3) {
+	if (swedish < 3 && english < 3 && maori < 3) {
 		return 'unknown';
 	}
-	if (swedish >= english * 2) {
+	if (maori >= Math.max(english, swedish) * 2) {
+		return 'mi';
+	}
+	if (swedish >= Math.max(english, maori) * 2) {
 		return 'sv';
 	}
-	if (english >= swedish * 2) {
+	if (english >= Math.max(swedish, maori) * 2) {
 		return 'en';
 	}
 	return 'unknown';
@@ -615,7 +657,7 @@ export function checkSpecLanguage(spec: SpecFile, eventId: string): Problem[] {
 	}
 	const expected: Lang =
 		spec.lang === 'en' || spec.lang === 'sv' || spec.lang === 'mi' ? spec.lang : langs.canonical;
-	if (expected !== 'en' && expected !== 'sv') {
+	if (expected !== 'en' && expected !== 'sv' && expected !== 'mi') {
 		return [];
 	}
 	const detected = detectProseLanguage(specProseForLanguage(spec));
@@ -1165,8 +1207,10 @@ function coverageOf(pages: DumpPage[], specs: SpecFile[], parties: string[]): Co
 		pages: pages.filter((page) => page.party === party).length,
 		interventions: pages.filter((page) => page.party === party && page.stance === 'intervention')
 			.length,
-		stated: specs.filter((spec) => spec.party === party && spec.kind === 'stated').length,
-		derived: specs.filter((spec) => spec.party === party && spec.kind === 'derived').length,
+		stated: specs.filter((spec) => spec.party === party && spec.kind === 'stated' && !spec.lang)
+			.length,
+		derived: specs.filter((spec) => spec.party === party && spec.kind === 'derived' && !spec.lang)
+			.length,
 	}));
 }
 

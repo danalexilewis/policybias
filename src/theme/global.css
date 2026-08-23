@@ -34,6 +34,7 @@ body {
 button {
 	font: inherit;
 	cursor: pointer;
+	touch-action: manipulation;
 }
 
 a:link {

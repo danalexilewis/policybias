@@ -7,7 +7,7 @@ import type {
 	PartyMeta,
 	PolicyCard
 } from '../data/types';
-import type { UiKey } from '../i18n/messages';
+import type { TranslateVars, UiKey } from '../i18n/messages';
 import { useLang } from '../i18n/useLang';
 import { chipText, contrastingText } from '../theme/contrast';
 import { clusterColour } from '../theme/clusterColours';
@@ -142,19 +142,23 @@ function headingTally(
 	groupBy: GroupBy,
 	group: CardGroup,
 	coverage: { have: number; of: number } | null,
-	t: (key: UiKey) => string
+	t: (key: UiKey, vars?: TranslateVars) => string
 ): { text: string; ariaLabel: string } | null {
 	if (groupBy === 'cluster' && coverage && coverage.of > 0) {
 		return {
 			text: `${coverage.have}/${coverage.of}`,
-			ariaLabel: `${coverage.have} / ${coverage.of} ${t('parties')} ${group.label}`
+			ariaLabel: t('partiesCoverage', {
+				have: coverage.have,
+				of: coverage.of,
+				group: group.label
+			})
 		};
 	}
 	if (groupBy === 'party') {
 		const total = group.cards.length;
 		return {
 			text: String(total),
-			ariaLabel: `${total} ${t('policies')} ${group.label}`
+			ariaLabel: t('policiesCount', { n: total, group: group.label })
 		};
 	}
 	return null;

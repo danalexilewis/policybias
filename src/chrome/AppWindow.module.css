@@ -67,7 +67,7 @@
 }
 
 .close:active {
-	transform: translate(1px, 1px);
+	background: color-mix(in srgb, var(--ink) 8%, var(--paper));
 }
 
 .split {

@@ -48,8 +48,7 @@
 }
 
 .iconButton:active {
-	transform: translate(2px, 2px);
-	box-shadow: var(--shadow-pressed);
+	background: color-mix(in srgb, var(--ink) 8%, var(--paper));
 }
 
 .partySwitch {

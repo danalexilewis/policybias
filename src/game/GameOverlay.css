@@ -215,13 +215,6 @@
 	box-shadow: none;
 }
 
-@media (hover: hover) and (pointer: fine) {
-	.game-card:hover,
-	.game-card--focus {
-		border-color: var(--game-ring-colour);
-	}
-}
-
 .game-card--focus,
 .game-card--selected {
 	border-color: var(--game-ring-colour);
@@ -328,8 +321,6 @@
 	flex: 1 1 auto;
 	width: 100%;
 }
-
-/* Desktop: Back | empty third | Next, equal-width flanks. */
 .game-actions:not(.game-actions--footer) .game-footer-buttons {
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
@@ -350,17 +341,6 @@
 	.game-footer-buttons
 	.game-footer-hint {
 	grid-column: 1 / -1;
-}
-
-.game-footer-buttons .app-lang {
-	flex: 0 0 auto;
-	align-self: stretch;
-}
-
-.game-footer-buttons .app-lang button {
-	width: 100%;
-	height: 100%;
-	min-height: 56px;
 }
 
 .game-deck-chrome {
@@ -518,8 +498,7 @@
 
 .game-next:active,
 .game-back:active {
-	transform: translate(2px, 2px);
-	box-shadow: var(--shadow-pressed);
+	filter: brightness(0.94);
 }
 
 .game-empty,
@@ -573,7 +552,7 @@
 
 .game-distribution__chart {
 	display: grid;
-	grid-template-columns: repeat(7, minmax(0, 1fr));
+	grid-template-columns: repeat(var(--party-count, 7), minmax(0, 1fr));
 	gap: 0.75rem;
 	align-items: end;
 	min-height: 180px;
@@ -644,33 +623,25 @@
 	padding-right: 0.7rem;
 }
 
-.game-census__title {
-	margin: 0.2rem 0 0;
-	font-size: clamp(1.7rem, 4.5vw, 2.6rem);
-	font-weight: 700;
-	letter-spacing: -0.04em;
-	line-height: 1.1;
-	text-align: center;
-}
-
 .game-census__lede {
-	margin: 0 auto;
-	max-width: 36rem;
-	text-align: center;
-	line-height: 1.5;
+	margin: 0 auto 16px;
+	max-width: 40rem;
+	line-height: 1.45;
 	color: var(--muted);
 }
 
 .game-census__form {
 	display: flex;
 	flex-direction: column;
-	gap: 1.15rem;
-	margin: 1.75rem 0 2rem;
+	gap: 16px;
+	margin: 0;
+	flex: 1 1 auto;
+	min-height: 0;
 }
 
 .game-census fieldset {
 	margin: 0;
-	padding: 0.9rem 1rem 1rem;
+	padding: 8px 12px 12px;
 	border: 2px solid var(--ink);
 	border-radius: var(--radius);
 }
@@ -685,33 +656,60 @@
 }
 
 .game-census__hint {
-	margin: 0 0 0.55rem;
+	margin: 0 0 8px;
 	font-size: 0.85rem;
 	color: var(--muted);
 }
 
-.game-census__options {
+.game-census__chips {
 	display: flex;
-	flex-direction: column;
-	gap: 0.45rem;
+	flex-wrap: wrap;
+	gap: 8px;
 }
 
-.game-census__options--wrap {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 0.45rem 1rem;
-}
-
-.game-census label {
-	display: flex;
-	align-items: flex-start;
-	gap: 0.5rem;
+.game-census__chip {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	min-height: 48px;
+	padding: 8px 16px;
+	border: 2px solid var(--ink);
+	border-radius: var(--radius);
+	background: var(--paper);
 	color: var(--ink);
+	cursor: pointer;
 }
 
-.game-census input {
-	margin-top: 0.2rem;
-	accent-color: var(--accent);
+.game-census__chip input {
+	position: absolute;
+	inset: 0;
+	margin: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.game-census__chip:has(input:checked) {
+	background: var(--accent);
+	color: var(--on-accent);
+}
+
+.game-census__chip:has(input:focus-visible) {
+	outline: 3px solid var(--ink);
+	outline-offset: 2px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.game-census__chip:hover {
+		transform: translate(1px, 1px);
+		box-shadow: var(--shadow-pressed, 1px 1px 0 var(--ink));
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.game-census__chip:hover {
+		transform: none;
+		box-shadow: none;
+	}
 }
 
 .game-census__slider {
@@ -741,11 +739,16 @@
 }
 
 .game-census__actions {
+	position: sticky;
+	bottom: 0;
+	z-index: 2;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	gap: 1rem;
-	margin-top: 0.35rem;
+	gap: 16px;
+	margin: 8px -4px 0;
+	padding: 12px 4px max(12px, env(safe-area-inset-bottom));
+	background: var(--paper);
 }
 
 .game-trivia {
@@ -840,16 +843,14 @@
 		padding: 1.25rem 1.1rem;
 	}
 
-	.game-census__options--wrap,
 	.game-census__actions {
-		grid-template-columns: 1fr;
-		flex-direction: column;
-		justify-content: center;
+		flex-wrap: wrap;
+		justify-content: stretch;
 	}
 
 	.game-census__actions .game-text-button,
 	.game-census__actions .game-next {
-		justify-self: center;
+		flex: 1 1 12rem;
 	}
 
 	.game-distribution__chart {

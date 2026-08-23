@@ -1,29 +1,31 @@
-import { useEffect, useRef, type JSX } from 'react'
-import gsap from 'gsap'
+import { useEffect, useRef, type JSX } from 'react';
+import gsap from 'gsap';
+import { useLang } from '../i18n/useLang';
 
-export const SWIPE_HINT_MS = 3000
+export const SWIPE_HINT_MS = 3000;
 
 type SwipeHintProps = {
-	onDismiss: () => void
-}
+	onDismiss: () => void;
+};
 
 /** Floating hand that demonstrates a left/right swipe, then disappears. */
 export function SwipeHint(props: SwipeHintProps): JSX.Element {
-	const rootRef = useRef<HTMLButtonElement>(null)
-	const motionRef = useRef<HTMLSpanElement>(null)
-	const onDismissRef = useRef(props.onDismiss)
-	onDismissRef.current = props.onDismiss
+	const { t } = useLang();
+	const rootRef = useRef<HTMLButtonElement>(null);
+	const motionRef = useRef<HTMLSpanElement>(null);
+	const onDismissRef = useRef(props.onDismiss);
+	onDismissRef.current = props.onDismiss;
 
 	useEffect(() => {
-		const root = rootRef.current
-		const motion = motionRef.current
+		const root = rootRef.current;
+		const motion = motionRef.current;
 		if (!root || !motion) {
-			return
+			return;
 		}
 
 		const reduced =
 			typeof window.matchMedia === 'function' &&
-			window.matchMedia('(prefers-reduced-motion: reduce)').matches
+			window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 		const context = gsap.context(() => {
 			if (!reduced) {
@@ -38,32 +40,32 @@ export function SwipeHint(props: SwipeHintProps): JSX.Element {
 						repeat: -1,
 						yoyo: true
 					}
-				)
+				);
 				gsap.to(root, {
 					opacity: 0,
 					duration: 0.28,
 					delay: (SWIPE_HINT_MS - 280) / 1000,
 					ease: 'power1.out'
-				})
+				});
 			}
-		}, root)
+		}, root);
 
 		const hide = window.setTimeout(() => {
-			onDismissRef.current()
-		}, SWIPE_HINT_MS)
+			onDismissRef.current();
+		}, SWIPE_HINT_MS);
 
 		return () => {
-			window.clearTimeout(hide)
-			context.revert()
-		}
-	}, [])
+			window.clearTimeout(hide);
+			context.revert();
+		};
+	}, []);
 
 	return (
 		<button
 			ref={rootRef}
 			type='button'
 			className='game-swipe-hint'
-			aria-label='Swipe left or right to compare. Tap to dismiss.'
+			aria-label={t('swipeHint')}
 			onClick={props.onDismiss}
 		>
 			<span className='game-swipe-hint__orb' aria-hidden='true'>
@@ -112,5 +114,5 @@ export function SwipeHint(props: SwipeHintProps): JSX.Element {
 				</span>
 			</span>
 		</button>
-	)
+	);
 }

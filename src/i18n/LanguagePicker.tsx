@@ -21,7 +21,10 @@ export function LanguagePicker(): JSX.Element | null {
 		<div className={`app-lang ${styles.root}`}>
 			<Select.Root value={lang} onValueChange={onValueChange}>
 				<Select.Trigger className={styles.trigger} aria-label={t('language')}>
-					<Select.Value />
+					<Select.Value>
+						<span className={styles.langFull}>{langLabel(lang)}</span>
+						<span className={styles.langCode}>{lang.toUpperCase()}</span>
+					</Select.Value>
 					<Select.Icon className={styles.icon} aria-hidden>
 						<CaretIcon />
 					</Select.Icon>

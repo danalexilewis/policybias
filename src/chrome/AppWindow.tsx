@@ -1,4 +1,5 @@
 import type { JSX, ReactNode } from 'react';
+import { useLang } from '../i18n/useLang';
 import styles from './AppWindow.module.css';
 
 type AppWindowProps = {
@@ -19,6 +20,7 @@ type AppWindowProps = {
 
 /** Paper window with a title bar and optional close box. */
 export function AppWindow(props: AppWindowProps): JSX.Element {
+	const { t } = useLang();
 	const className = [
 		styles.window,
 		props.fill ? styles.fill : '',
@@ -44,7 +46,7 @@ export function AppWindow(props: AppWindowProps): JSX.Element {
 						type='button'
 						className={styles.close}
 						onClick={props.onClose}
-						aria-label={props.closeLabel ?? 'Close'}
+						aria-label={props.closeLabel ?? t('close')}
 						autoFocus={props.focusClose}
 					>
 						<svg viewBox='0 0 24 24' aria-hidden='true' focusable='false'>

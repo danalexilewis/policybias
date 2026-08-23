@@ -140,23 +140,9 @@ export function FilterBar({
 			}
 		}
 
-		function onPointerDown(event: PointerEvent): void {
-			const root = barRef.current;
-			if (!root) {
-				return;
-			}
-			if (event.target instanceof Node && !root.contains(event.target)) {
-				setMenuOpen(false);
-				event.preventDefault();
-				event.stopPropagation();
-			}
-		}
-
 		window.addEventListener('keydown', onKeyDown);
-		window.addEventListener('pointerdown', onPointerDown, true);
 		return () => {
 			window.removeEventListener('keydown', onKeyDown);
-			window.removeEventListener('pointerdown', onPointerDown, true);
 		};
 	}, [menuOpen]);
 
@@ -229,11 +215,14 @@ export function FilterBar({
 						aria-controls='filter-menu'
 						onClick={() => setMenuOpen(!menuOpen)}
 					>
-						{t('filters')}
+						<span className={styles.menuButtonLabel}>{t('filters')}</span>
+						<span className={styles.menuButtonIcon} aria-hidden>
+							<FilterIcon />
+						</span>
 						{applied > 0 ? (
 							<span
 								className={styles.badge}
-								aria-label={`${applied} ${t('applied')}`}
+								aria-label={t('appliedCount', { n: applied })}
 							>
 								{applied}
 							</span>
@@ -243,95 +232,121 @@ export function FilterBar({
 			</div>
 
 			{menuOpen ? (
-				<div className={styles.menu} id='filter-menu'>
-					<div className={styles.menuBody}>
-						<div className={styles.group}>
-							<span className={styles.groupLabel}>{t('category')}</span>
-							{clusters.map((cluster) => {
-								const colour = clusterColour(cluster.id);
-								return (
-									<FilterPill
-										key={cluster.id}
-										label={cluster.label}
-										checked={selectedClusters.has(cluster.id)}
-										onChange={() => toggleCluster(cluster.id)}
-										className={styles.pillCategory}
-										invertChecked={false}
-										style={{
-											backgroundColor: colour,
-											color: chipText(colour)
-										}}
-									/>
-								);
-							})}
-						</div>
-
-						{anonymise ? null : (
+				<>
+					<div
+						className={styles.menuDismiss}
+						aria-hidden='true'
+						onPointerDown={() => setMenuOpen(false)}
+					/>
+					<div className={styles.menu} id='filter-menu'>
+						<div className={styles.menuBody}>
 							<div className={styles.group}>
-								<span className={styles.groupLabel}>{t('party')}</span>
-								{parties.map((party) => {
-									const active = selectedParties.has(party.id);
+								<span className={styles.groupLabel}>{t('category')}</span>
+								{clusters.map((cluster) => {
+									const colour = clusterColour(cluster.id);
 									return (
 										<FilterPill
-											key={party.id}
-											label={party.label}
-											checked={active}
-											onChange={() => toggleParty(party.id)}
-											className={active ? undefined : styles.partyChipInactive}
+											key={cluster.id}
+											label={cluster.label}
+											checked={selectedClusters.has(cluster.id)}
+											onChange={() => toggleCluster(cluster.id)}
+											className={styles.pillCategory}
 											invertChecked={false}
-											style={partyChipStyle(party.colour, active)}
+											style={{
+												backgroundColor: colour,
+												color: chipText(colour)
+											}}
 										/>
 									);
 								})}
 							</div>
-						)}
 
-						<div className={styles.group}>
-							<span className={styles.groupLabel}>{t('money')}</span>
-							{MONEY_OPTION_IDS.map((id) => (
+							{anonymise ? null : (
+								<div className={styles.group}>
+									<span className={styles.groupLabel}>{t('party')}</span>
+									{parties.map((party) => {
+										const active = selectedParties.has(party.id);
+										return (
+											<FilterPill
+												key={party.id}
+												label={party.label}
+												checked={active}
+												onChange={() => toggleParty(party.id)}
+												className={
+													active ? undefined : styles.partyChipInactive
+												}
+												invertChecked={false}
+												style={partyChipStyle(party.colour, active)}
+											/>
+										);
+									})}
+								</div>
+							)}
+
+							<div className={styles.group}>
+								<span className={styles.groupLabel}>{t('money')}</span>
+								{MONEY_OPTION_IDS.map((id) => (
+									<FilterPill
+										key={id}
+										label={
+											id === 'named-figure' ? t('namedFigure') : t('noFigure')
+										}
+										checked={selectedMoney.has(id)}
+										onChange={() => toggleMoney(id)}
+									/>
+								))}
+							</div>
+
+							<div className={styles.group}>
+								<span className={styles.groupLabel}>{t('shape')}</span>
 								<FilterPill
-									key={id}
-									label={
-										id === 'named-figure' ? t('namedFigure') : t('noFigure')
+									label={t('hasOutput')}
+									checked={hasOutput === true}
+									onChange={() =>
+										setHasOutput(hasOutput === true ? null : true)
 									}
-									checked={selectedMoney.has(id)}
-									onChange={() => toggleMoney(id)}
 								/>
-							))}
-						</div>
-
-						<div className={styles.group}>
-							<span className={styles.groupLabel}>{t('shape')}</span>
-							<FilterPill
-								label={t('hasOutput')}
-								checked={hasOutput === true}
-								onChange={() => setHasOutput(hasOutput === true ? null : true)}
-							/>
-							<FilterPill
-								label={t('noOutput')}
-								checked={hasOutput === false}
-								onChange={() =>
-									setHasOutput(hasOutput === false ? null : false)
-								}
-							/>
-							<FilterPill
-								label={t('hasUnderstanding')}
-								checked={hasDerived === true}
-								onChange={() =>
-									setHasDerived(hasDerived === true ? null : true)
-								}
-							/>
-							<FilterPill
-								label={t('statedOnly')}
-								checked={hasDerived === false}
-								onChange={() =>
-									setHasDerived(hasDerived === false ? null : false)
-								}
-							/>
+								<FilterPill
+									label={t('noOutput')}
+									checked={hasOutput === false}
+									onChange={() =>
+										setHasOutput(hasOutput === false ? null : false)
+									}
+								/>
+								<FilterPill
+									label={t('hasUnderstanding')}
+									checked={hasDerived === true}
+									onChange={() =>
+										setHasDerived(hasDerived === true ? null : true)
+									}
+								/>
+								<FilterPill
+									label={t('statedOnly')}
+									checked={hasDerived === false}
+									onChange={() =>
+										setHasDerived(hasDerived === false ? null : false)
+									}
+								/>
+							</div>
 						</div>
 					</div>
-				</div>
+				</>
 			) : null}
 		</div>
+	);
+}
+
+function FilterIcon(): JSX.Element {
+	return (
+		<svg viewBox='0 0 24 24' aria-hidden='true' focusable='false'>
+			<path
+				d='M4 5h16l-6.5 8v6l-3 2v-8L4 5z'
+				fill='none'
+				stroke='currentColor'
+				strokeWidth='2'
+				strokeLinecap='round'
+				strokeLinejoin='round'
+			/>
+		</svg>
 	);
 }

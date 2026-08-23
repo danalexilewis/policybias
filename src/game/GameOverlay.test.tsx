@@ -78,6 +78,7 @@ const fetchMock = vi.fn();
 afterEach(() => {
 	cleanup();
 	vi.unstubAllGlobals();
+	window.history.replaceState({}, '', '/');
 });
 
 beforeEach(() => {
@@ -418,6 +419,26 @@ describe('GameOverlay', () => {
 			footer?.contains(screen.getByRole('button', { name: 'Play again' }))
 		).toBe(true);
 		expect(screen.getByText('Results')).toBeTruthy();
+		expect(screen.queryByRole('combobox')).toBeNull();
+	});
+
+	it('does not put a language control on the score screen', () => {
+		window.history.replaceState({}, '', '/se-election-2026/results');
+		render(
+			<NuqsAdapter>
+				<GameOverlay
+					cards={buildFixtureCards()}
+					seed={SEED}
+					eventId='se-election-2026'
+					onExit={() => undefined}
+					startAt='results'
+				/>
+			</NuqsAdapter>
+		);
+
+		expect(screen.getByText('Resultat')).toBeTruthy();
+		expect(screen.queryByRole('combobox')).toBeNull();
+		expect(screen.queryByLabelText('Språk')).toBeNull();
 	});
 
 	it('on a phone, tapping a peeked policy brings it to the front without guessing', () => {

@@ -186,4 +186,24 @@ describe('FilterBar', () => {
 			clear.compareDocumentPosition(filters) & Node.DOCUMENT_POSITION_FOLLOWING
 		).toBeTruthy();
 	});
+
+	it('closes the filter menu from a dismiss layer that does not cover the header', () => {
+		const { container } = renderBar(
+			<FilterBar
+				clusters={clusters}
+				parties={parties}
+				totalCount={12}
+				filters={makeFilters()}
+			/>
+		);
+
+		fireEvent.click(screen.getByRole('button', { name: 'Filters' }));
+		expect(screen.getByRole('checkbox', { name: 'Health' })).toBeTruthy();
+
+		const dismiss = container.querySelector('[class*="menuDismiss"]');
+		expect(dismiss).toBeTruthy();
+		fireEvent.pointerDown(dismiss as Element);
+
+		expect(screen.queryByRole('checkbox', { name: 'Health' })).toBeNull();
+	});
 });

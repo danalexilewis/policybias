@@ -13,12 +13,14 @@ import { PolicyGrid } from './grid/PolicyGrid';
 import { cardsInWallOrder, shuffleCards } from './grid/sortCards';
 import {
 	eventGamePath,
-	eventLabel,
+	eventLangs,
 	eventLlmsPath,
 	eventScoresPath
 } from './event/events';
 import { useEventView } from './event/useEventView';
+import { withLangQuery } from './i18n/href';
 import { LanguagePicker } from './i18n/LanguagePicker';
+import { eventUiKey } from './i18n/messages';
 import { useLang } from './i18n/useLang';
 import { AgentTrap } from './prank/AgentTrap';
 
@@ -51,12 +53,14 @@ function AppShell(): JSX.Element {
 				? 'results'
 				: 'playing';
 
+	const eventName = t(eventUiKey(eventId));
+
 	useEffect(() => {
 		document.title =
 			view === 'board'
-				? `Policy Bias — ${eventLabel(eventId)}`
-				: `Play — ${eventLabel(eventId)}`;
-	}, [view, eventId]);
+				? t('documentTitleBoard', { event: eventName })
+				: t('documentTitlePlay', { event: eventName });
+	}, [view, eventId, eventName, t]);
 
 	function onPlayGameClick(event: MouseEvent<HTMLAnchorElement>): void {
 		if (
@@ -119,12 +123,22 @@ function AppShell(): JSX.Element {
 					<header className='app-header'>
 						<a className='app-header__brand' href='/'>
 							<p className='app-header__product'>Policy Bias</p>
-							<h1 className='app-header__title'>{eventLabel(eventId)}</h1>
+							<h1 className='app-header__title'>{eventName}</h1>
 						</a>
 						<div className='app-header__actions'>
 							<LanguagePicker />
-							<a className='app-button' href={eventScoresPath(eventId)}>
-								{t('publicScores')}
+							<a
+								className='app-button'
+								href={withLangQuery(
+									eventScoresPath(eventId),
+									lang,
+									eventLangs(eventId).canonical
+								)}
+							>
+								<HeaderActionContent
+									label={t('publicScores')}
+									icon={<ScoreIcon />}
+								/>
 							</a>
 							{canPlay ? (
 								<a
@@ -132,7 +146,10 @@ function AppShell(): JSX.Element {
 									href={eventGamePath(eventId)}
 									onClick={onPlayGameClick}
 								>
-									{t('playGame')}
+									<HeaderActionContent
+										label={t('playGame')}
+										icon={<PlayIcon />}
+									/>
 								</a>
 							) : (
 								<button
@@ -140,7 +157,10 @@ function AppShell(): JSX.Element {
 									className='app-button app-button--primary'
 									disabled
 								>
-									{t('playGame')}
+									<HeaderActionContent
+										label={t('playGame')}
+										icon={<PlayIcon />}
+									/>
 								</button>
 							)}
 						</div>
@@ -184,13 +204,21 @@ function AppShell(): JSX.Element {
 				<footer className='app-footer'>
 					{t('encodedIn')} <a href='https://gurki.nz'>Gurki</a>
 					{' · '}
-					<a href={eventScoresPath(eventId)}>{t('publicScores')}</a>
+					<a
+						href={withLangQuery(
+							eventScoresPath(eventId),
+							lang,
+							eventLangs(eventId).canonical
+						)}
+					>
+						{t('publicScores')}
+					</a>
 					{' · '}
 					<a href={eventLlmsPath(eventId)}>llms.txt</a>
 					{' · '}
-					<a href='/terms/'>{t('terms')}</a>
+					<a href={withLangQuery('/terms/', lang, 'en')}>{t('terms')}</a>
 					{' · '}
-					<a href='/privacy/'>{t('privacy')}</a>
+					<a href={withLangQuery('/privacy/', lang, 'en')}>{t('privacy')}</a>
 					{' · '}
 					<a href='https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e'>
 						{t('contact')}
@@ -220,5 +248,76 @@ function AppShell(): JSX.Element {
 				/>
 			) : null}
 		</>
+	);
+}
+
+function HeaderActionContent(props: {
+	label: string;
+	icon: JSX.Element;
+}): JSX.Element {
+	return (
+		<>
+			<span className='app-button__label'>{props.label}</span>
+			<span className='app-button__icon' aria-hidden>
+				{props.icon}
+			</span>
+		</>
+	);
+}
+
+function PlayIcon(): JSX.Element {
+	return (
+		<svg viewBox='0 0 24 24' aria-hidden='true' focusable='false'>
+			<path d='M8 5v14l11-7z' fill='currentColor' />
+		</svg>
+	);
+}
+
+function ScoreIcon(): JSX.Element {
+	return (
+		<svg viewBox='0 0 24 24' aria-hidden='true' focusable='false'>
+			<path
+				d='M6 9H4.5a2.5 2.5 0 0 1 0-5H6'
+				fill='none'
+				stroke='currentColor'
+				strokeWidth='2'
+				strokeLinecap='round'
+			/>
+			<path
+				d='M18 9h1.5a2.5 2.5 0 0 0 0-5H18'
+				fill='none'
+				stroke='currentColor'
+				strokeWidth='2'
+				strokeLinecap='round'
+			/>
+			<path
+				d='M4 22h16'
+				fill='none'
+				stroke='currentColor'
+				strokeWidth='2'
+				strokeLinecap='round'
+			/>
+			<path
+				d='M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22'
+				fill='none'
+				stroke='currentColor'
+				strokeWidth='2'
+				strokeLinecap='round'
+			/>
+			<path
+				d='M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22'
+				fill='none'
+				stroke='currentColor'
+				strokeWidth='2'
+				strokeLinecap='round'
+			/>
+			<path
+				d='M18 2H6v7a6 6 0 0 0 12 0V2z'
+				fill='none'
+				stroke='currentColor'
+				strokeWidth='2'
+				strokeLinejoin='round'
+			/>
+		</svg>
 	);
 }

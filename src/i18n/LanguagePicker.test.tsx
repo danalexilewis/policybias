@@ -40,11 +40,13 @@ function openPicker(): void {
 }
 
 describe('LanguagePicker', () => {
-	it('hides when the event has only one language', () => {
+	it('shows English and te reo on the NZ event', () => {
 		window.history.replaceState({}, '', '/nz-election-2026/');
 		renderPicker();
-		expect(screen.queryByRole('combobox')).toBeNull();
-		expect(document.querySelector('select')).toBeNull();
+		expect(pickerTrigger().textContent).toContain('English');
+		expect(pickerTrigger().textContent).toContain('EN');
+		openPicker();
+		expect(screen.getByRole('option', { name: 'Te reo Māori' })).toBeTruthy();
 	});
 
 	it('opens a custom menu instead of a native select', () => {
@@ -53,12 +55,25 @@ describe('LanguagePicker', () => {
 
 		expect(document.querySelector('select')).toBeNull();
 		expect(pickerTrigger().textContent).toContain('Svenska');
+		expect(pickerTrigger().textContent).toContain('SV');
 
 		openPicker();
 
 		expect(screen.getByRole('listbox')).toBeTruthy();
 		expect(screen.getByRole('option', { name: 'Svenska' })).toBeTruthy();
 		expect(screen.getByRole('option', { name: 'English' })).toBeTruthy();
+	});
+
+	it('switches to te reo from the NZ menu', async () => {
+		window.history.replaceState({}, '', '/nz-election-2026/');
+		renderPicker();
+		openPicker();
+		fireEvent.click(screen.getByRole('option', { name: 'Te reo Māori' }));
+		expect(pickerTrigger().textContent).toContain('Te reo Māori');
+		expect(pickerTrigger().textContent).toContain('MI');
+		await waitFor(() => {
+			expect(window.location.search).toContain('lang=mi');
+		});
 	});
 
 	it('switches language from the custom menu', async () => {
@@ -69,6 +84,7 @@ describe('LanguagePicker', () => {
 		fireEvent.click(screen.getByRole('option', { name: 'English' }));
 
 		expect(pickerTrigger().textContent).toContain('English');
+		expect(pickerTrigger().textContent).toContain('EN');
 		expect(
 			window.localStorage.getItem('policybias.lang.se-election-2026')
 		).toBe('en');

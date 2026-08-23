@@ -29,11 +29,13 @@ import { dealAllRounds, MAX_GAME_ROUNDS, type DealRound } from './dealRound';
 import { pickClusterTrivia, CLUSTER_TRIVIA } from './clusterTrivia';
 import {
 	CURRENT_EVENT_ID,
+	eventLangs,
 	eventScoresPath,
 	type EventId
 } from '../event/events';
+import { eventPartyIds } from '../event/eventConfig';
+import { withLangQuery } from '../i18n/href';
 import { GameCensus } from './GameCensus';
-import { LanguagePicker } from '../i18n/LanguagePicker';
 import { useLang } from '../i18n/useLang';
 import { partyLogoSrc } from '../card/partyLogos';
 import {
@@ -306,7 +308,6 @@ function ResultsActions(props: {
 			<button type='button' className='game-next' onClick={props.onPlayAgain}>
 				{t('playAgain')}
 			</button>
-			<LanguagePicker />
 		</>
 	);
 }
@@ -374,7 +375,7 @@ export function GameOverlay(props: GameOverlayProps): JSX.Element {
 }
 
 function GameSession(props: GameOverlayProps): JSX.Element {
-	const { t } = useLang();
+	const { lang, t } = useLang();
 	const online = useOnlineStatus();
 	const { cards, onExit, onGuess, lifetimeScore, onPlayAgain } = props;
 	const eventId = props.eventId ?? CURRENT_EVENT_ID;
@@ -667,7 +668,8 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 					correct: score,
 					attempted: history.length,
 					origin: window.location.origin,
-					eventId
+					eventId,
+					lang
 				}),
 				{
 					share: navigator.share?.bind(navigator),
@@ -688,7 +690,7 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 	if (phase === 'census') {
 		return (
 			<GameShell
-				label={t('beforeYourScore')}
+				label={t('optionalQuestions')}
 				onExit={onExit}
 				flush={isCarousel}
 			>
@@ -698,12 +700,17 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 	}
 
 	if (phase === 'results') {
+		const partyIds =
+			parties.length > 0
+				? parties.map((party) => party.id)
+				: eventPartyIds(eventId);
 		const guessScores = scoresByGuessedParty(
 			history.map((record) => ({
 				guessedParty: record.guessedParty,
 				targetParty: record.targetParty,
 				correct: record.correct
-			}))
+			})),
+			partyIds
 		);
 
 		const wrongGuesses = history.filter((record) => !record.correct);
@@ -732,8 +739,9 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 
 					{history.length < MAX_GAME_ROUNDS ? (
 						<p className='game-results__note'>
-							Only {history.length} round{history.length === 1 ? '' : 's'}{' '}
-							{t('onlyRounds')}
+							{history.length === 1
+								? t('onlyRoundsCountOne')
+								: t('onlyRoundsCount', { n: history.length })}
 						</p>
 					) : null}
 
@@ -743,7 +751,7 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 							<ul>
 								{wrongGuesses.map((record) => (
 									<li key={`${record.roundNumber}-${record.guessedParty}`}>
-										{t('round')} {record.roundNumber}:{' '}
+										{t('roundN', { n: record.roundNumber })}:{' '}
 										{partyNameOf(record.guessedParty, parties)} ({t('itWas')}{' '}
 										{partyNameOf(record.targetParty, parties)})
 									</li>
@@ -754,7 +762,12 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 
 					<section className='game-distribution'>
 						<h3>{t('yourGuessesByParty')}</h3>
-						<div className='game-distribution__chart'>
+						<div
+							className='game-distribution__chart'
+							style={
+								{ '--party-count': String(guessScores.length) } as CSSProperties
+							}
+						>
 							{guessScores.map((bucket) => {
 								const total = bucket.attempted;
 								const fill = partyBarFill(bucket);
@@ -797,13 +810,29 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 						{datasetState === 'saved' ? (
 							<>
 								{t('savedScoreBefore')}{' '}
-								<a href={eventScoresPath(eventId)}>{t('publicDataset')}</a>
+								<a
+									href={withLangQuery(
+										eventScoresPath(eventId),
+										lang,
+										eventLangs(eventId).canonical
+									)}
+								>
+									{t('publicDataset')}
+								</a>
 							</>
 						) : null}
 						{datasetState === 'failed' ? (
 							<>
 								{t('failedScoreBefore')}{' '}
-								<a href={eventScoresPath(eventId)}>{t('publicDatasetCaps')}</a>
+								<a
+									href={withLangQuery(
+										eventScoresPath(eventId),
+										lang,
+										eventLangs(eventId).canonical
+									)}
+								>
+									{t('publicDatasetCaps')}
+								</a>
 							</>
 						) : null}
 						{datasetState === 'offline' ? t('offlineScore') : null}
@@ -867,7 +896,7 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 
 	return (
 		<GameShell
-			label={`${t('choosePolicy')} ${partyName} ${t('policy')}`}
+			label={t('choosePartyPolicy', { party: partyName })}
 			title={
 				isCarousel ? (
 					<PartyBrand party={currentRound.targetParty} parties={parties} />
@@ -967,7 +996,7 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 								aria-current={isCarousel && isFront ? 'true' : undefined}
 								aria-label={
 									phase === 'playing'
-										? `${t('policyN')} ${cardIndex + 1}`
+										? t('policyN', { n: cardIndex + 1 })
 										: `${partyNameOf(card.party, parties)} ${t('policy')}`
 								}
 								onClick={() => onCardActivate(cardIndex)}
@@ -1035,7 +1064,7 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 										key={index}
 										type='button'
 										className='game-deck-dot'
-										aria-label={`${t('showPolicy')} ${index + 1}`}
+										aria-label={t('showPolicyN', { n: index + 1 })}
 										aria-current={focusIndex === index ? 'true' : undefined}
 										onClick={() => browseDeck(index)}
 									>
@@ -1053,7 +1082,7 @@ function GameSession(props: GameOverlayProps): JSX.Element {
 							</button>
 						</div>
 						<p className='game-deck-status' aria-live='polite'>
-							{t('policyN')} {focusIndex + 1} {t('policyOf')} 3
+							{t('policyPosition', { n: focusIndex + 1, total: 3 })}
 						</p>
 					</div>
 				) : null}

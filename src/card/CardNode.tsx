@@ -11,7 +11,7 @@ import type {
 import type { CardDisplay } from './CardDisplay';
 import { anonymiseText, PARTY_LABELS, stripPartyFromTitle } from './anonymise';
 import { PARTY_LOGOS, partyLogoSrc } from './partyLogos';
-import type { UiKey } from '../i18n/messages';
+import type { TranslateVars, UiKey } from '../i18n/messages';
 import { useLang } from '../i18n/useLang';
 import { clusterColour } from '../theme/clusterColours';
 import { chipText } from '../theme/contrast';
@@ -38,7 +38,8 @@ function PartyMark(props: {
 	visible: boolean;
 	parties: PartyMeta[];
 }): JSX.Element {
-	const src = partyLogoSrc(props.parties, props.party) || PARTY_LOGOS[props.party];
+	const src =
+		partyLogoSrc(props.parties, props.party) || PARTY_LOGOS[props.party];
 	const alt = PARTY_LABELS[props.party] ?? props.party;
 	return (
 		<div className={styles.logoSlot}>
@@ -213,7 +214,7 @@ function FaceBody({
 	display: CardDisplay;
 	hideParty: boolean;
 	size: CardSize;
-	t: (key: UiKey) => string;
+	t: (key: UiKey, vars?: TranslateVars) => string;
 }): JSX.Element {
 	const note = face.note ? maybeAnonymise(face.note, hideParty) : undefined;
 	const outputCount = face.counts.outputs;
@@ -224,7 +225,7 @@ function FaceBody({
 				{note ? <p className={styles.note}>{note}</p> : null}
 				<p className={styles.metaLine}>
 					{outputCount > 0
-						? `${outputCount} ${t('outputsCount')}`
+						? t('outputsMeta', { n: outputCount })
 						: t('statedOnlyMeta')}
 				</p>
 			</div>
@@ -272,7 +273,7 @@ function FaceBody({
 						rel='noopener noreferrer'
 						onClick={(event) => event.stopPropagation()}
 					>
-						{headingText(card.source.title, hideParty) || t('source')}
+						{t('source')}
 					</a>
 				</footer>
 			) : null}
@@ -336,7 +337,7 @@ export function ListCard({
 			onKeyDown={onCardKeyDown}
 			role={onInspect ? 'button' : undefined}
 			tabIndex={onInspect ? 0 : undefined}
-			aria-label={onInspect ? `${t('inspect')} ${title}` : undefined}
+			aria-label={onInspect ? t('inspectNamed', { title }) : undefined}
 		>
 			<h3 className={styles.listCardTitle}>{title}</h3>
 			<ul className={styles.listCardItems}>
@@ -393,12 +394,16 @@ export function GurkiCard({
 			onKeyDown={onCardKeyDown}
 			role={onInspect ? 'button' : undefined}
 			tabIndex={onInspect ? 0 : undefined}
-			aria-label={onInspect && title ? `${t('inspect')} ${title}` : undefined}
+			aria-label={onInspect && title ? t('inspectNamed', { title }) : undefined}
 		>
 			<header className={styles.header}>
 				<div className={styles.meta}>
 					{display.party || size === 'game' ? (
-						<PartyMark party={card.party} visible={display.party} parties={parties} />
+						<PartyMark
+							party={card.party}
+							visible={display.party}
+							parties={parties}
+						/>
 					) : null}
 					<div className={styles.clusters}>
 						{card.clusters.map((clusterId) => {

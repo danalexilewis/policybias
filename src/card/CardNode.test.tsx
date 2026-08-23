@@ -52,6 +52,20 @@ function makeCard(): PolicyCard {
 afterEach(cleanup);
 
 describe('GurkiCard', () => {
+	it('labels the source link as Source, not the page title', () => {
+		renderCard(
+			<GurkiCard
+				card={makeCard()}
+				display={ALL_VISIBLE}
+				face='stated'
+				size='grid'
+			/>
+		);
+
+		const source = screen.getByRole('link', { name: 'Source' });
+		expect(source.getAttribute('href')).toBe('https://example.test/medicard');
+		expect(screen.queryByRole('link', { name: 'Medicard' })).toBeNull();
+	});
 	it('paints the category as a solid chip, not a coloured border', () => {
 		renderCard(
 			<GurkiCard

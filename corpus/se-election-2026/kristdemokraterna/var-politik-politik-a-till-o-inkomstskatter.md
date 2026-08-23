@@ -11,7 +11,7 @@ tags:
   - taxation
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+money: named-figure
 contentDigest: sha256-76446a72bae1ab00
 contentLength: 1166
 ---

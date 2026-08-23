@@ -11,18 +11,23 @@ sources:
     url: https://kristdemokraterna.se/var-politik/politik-a-till-o/forsvar
 tags:
   - defence
+derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-forsvar
 party: kristdemokraterna
 clusters:
   - defence-security
 money: named-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-forsvar.md
-derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-forsvar
+sourceDigest: sha256-a002f36c10d6e017
 assumptions:
   - a share of GDP moves with the size of the economy, so the krone envelope is not fixed
   - defence-related spending is a wider bucket than the military line; what sits in it decides whether the 5 percent is force or adjacent outlays
   - Nato membership is already in force; the new claim is scale, not accession
   - the ability to defend the whole country is a force-design result, not an automatic product of a headline share
-sourceDigest: sha256-a002f36c10d6e017
+lang: en
+translationOf: kristdemokraterna-var-politik-politik-a-till-o-forsvar-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-76bec3a6ab6728a7
 ---
 
 # Our understanding

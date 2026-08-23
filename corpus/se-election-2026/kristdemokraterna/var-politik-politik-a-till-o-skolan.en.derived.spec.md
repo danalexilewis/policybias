@@ -11,17 +11,22 @@ sources:
     url: https://kristdemokraterna.se/var-politik/politik-a-till-o/skolan
 tags:
   - education
+derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-skolan
 party: kristdemokraterna
 clusters:
   - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-skolan.md
-derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-skolan
+sourceDigest: sha256-08140eeab95278c7
 assumptions:
   - calling the teacher invaluable does not raise pay, hours, or training unless a later instrument does
   - treating independent schools as self-evident makes choice the quality lever; inspection and equalisation are unnamed
   - knowledge for work and knowledge as a civic good can pull the same timetable in different directions
-sourceDigest: sha256-08140eeab95278c7
+lang: en
+translationOf: kristdemokraterna-var-politik-politik-a-till-o-skolan-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-ece2d02bdf1adf93
 ---
 
 # Our understanding

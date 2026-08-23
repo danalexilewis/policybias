@@ -11,17 +11,22 @@ sources:
     url: https://kristdemokraterna.se/var-politik/politik-a-till-o/sjukvard
 tags:
   - healthcare
+derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-sjukvard
 party: kristdemokraterna
 clusters:
   - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-sjukvard.md
-derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-sjukvard
+sourceDigest: sha256-0a90b546fc8e732b
 assumptions:
   - twenty-one regions currently hold principal responsibility, so a state takeover is a transfer of existing organisations, staff and queues, not a new service
   - solidarity financing and need as the allocation rule already describe today's tax-funded care; the new claim is who is the principal
   - without a timetable or a cash figure, the residual of unequal access sits with the state on day one
-sourceDigest: sha256-0a90b546fc8e732b
+lang: en
+translationOf: kristdemokraterna-var-politik-politik-a-till-o-sjukvard-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-73011cd3fd757312
 ---
 
 # Our understanding

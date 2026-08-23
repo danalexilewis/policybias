@@ -11,18 +11,23 @@ sources:
     url: https://kristdemokraterna.se/var-politik/politik-a-till-o/energi
 tags:
   - energy
+derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-energi
 party: kristdemokraterna
 clusters:
   - energy-power
 money: named-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-energi.md
-derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-energi
+sourceDigest: sha256-17fc373009e63fef
 assumptions:
   - a financial framework for new nuclear is a permission structure, not a reactor on the ground
   - lead times "almost halved" are a past claim; remaining waits still sit on new lines
   - 300 TWh is a planning goal, not a contracted mix; who builds which TWh is unset
   - a security-of-supply objective without a metric can be declared met by any winter that did not black out
-sourceDigest: sha256-17fc373009e63fef
+lang: en
+translationOf: kristdemokraterna-var-politik-politik-a-till-o-energi-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-207b395073c4c822
 ---
 
 # Our understanding

@@ -11,7 +11,7 @@ tags:
   - elderly-care
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+money: named-figure
 contentDigest: sha256-e43f768beff39066
 contentLength: 844
 ---

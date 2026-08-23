@@ -11,17 +11,22 @@ sources:
     url: https://kristdemokraterna.se/var-politik/politik-a-till-o/aldreboendegaranti
 tags:
   - elderly-care
+derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-aldreboendegaranti
 party: kristdemokraterna
 clusters:
   - elderly-welfare
 money: named-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-aldreboendegaranti.md
-derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-aldreboendegaranti
+sourceDigest: sha256-4ad8468bd25c14bd
 assumptions:
   - a right without a vacant place is a place on a list; the page says more places are needed and does not say how many
   - dropping heavy needs-testing at 85 brings forward moves that today's tests delay, so demand jumps before stock does
   - municipalities must both stimulate sheltered housing and make staying at home easier; those two uses compete for the same local capital
-sourceDigest: sha256-4ad8468bd25c14bd
+lang: en
+translationOf: kristdemokraterna-var-politik-politik-a-till-o-aldreboendegaranti-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-c6befc4a0501adb5
 ---
 
 # Our understanding

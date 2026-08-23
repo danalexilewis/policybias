@@ -1,11 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-forsvar
-title: Defense
+title: Defence capability for the whole country as a NATO member
 status: draft
-updated: 2026-08-22
-summary: Human imperfection means that we can never know in advance what the
-  outside world's intentions are regarding us.
+updated: 2026-08-23
+summary: Defence spending is announced at 5 percent of GDP, of which 3.5 percent for military expenditure and 1.5 percent for defence-related spending, so that the whole of Sweden can be defended and NATO obligations met.
 jurisdiction: SE
 sources:
   - title: Försvar
@@ -15,28 +14,29 @@ tags:
 party: kristdemokraterna
 clusters:
   - defence-security
-money: no-figure
+money: named-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-forsvar.md
 sourceDigest: sha256-a002f36c10d6e017
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - the kronor amount behind the share of GDP is not stated
+  - the timetable for reaching the share is not stated
+  - what is counted in the defence-related expenditure is not stated
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-forsvar
-translator: machine
-translatedAt: 2026-08-22
-sourceSpecDigest: sha256-fff928354b11eeb6
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-e7b6cbee04e879c1
 ---
 
 # What the page states
 
-> Sweden must always have a strong defense.
+> Sweden is to have a strong defence. Guaranteeing citizens' security and defending the territorial borders is the state's core task. Sharply increased defence spending is announced at 5 percent of GDP in total, 3.5 percent for military expenditure and 1.5 percent for defence-related spending. That is to give the ability to defend the whole of Sweden and to fulfil alliance obligations as a NATO member. Membership of NATO stands.
 
-System: Försvar
+System: Defence as a NATO country
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then Sweden must always have a strong defense.
-Output Human imperfection means that we can never know in advance what the outside world's intentions are regarding us.
-Outcome the claim is the party's stated position
+Scenario: The whole country is to be able to be defended
+When the announced defence spending is carried out
+Then the capability is to be enough to defend the whole of Sweden
+And the alliance obligations as a NATO member are to be able to be fulfilled
+Output 5% of GDP in total
+Outcome membership of NATO stands

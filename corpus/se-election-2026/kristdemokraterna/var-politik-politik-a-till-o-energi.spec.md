@@ -1,10 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-energi
-title: Energi
+title: Fossilfritt elsystem med ny kärnkraft och mer elnät
 status: draft
-updated: 2026-08-22
-summary: Förutsättningarna för att ny kärnkraft ska bli verklighet i Sverige är äntligen på plats.
+updated: 2026-08-23
+summary: Energipolitiken inriktas på ett fossilfritt elsystem med leveranssäkerhetsmål och ett planeringsmål om 300 TWh; ramverk för ny kärnkraft och kortare ledtider för nät sägs redan vara på plats.
 jurisdiction: SE
 sources:
   - title: Energi
@@ -14,23 +14,25 @@ tags:
 party: kristdemokraterna
 clusters:
   - energy-power
-money: no-figure
+money: named-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-energi.md
 sourceDigest: sha256-17fc373009e63fef
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - hur 300 TWh fördelas på kraftslag anges inte
+  - kostnaden för ny kärnkraft och elnät anges inte
+  - hur leveranssäkerhetsmålet ska mätas anges inte
 ---
 
 # What the page states
 
-> Vi bevarar och skapar godare villkor för kraftvärmen, värnar vår småskaliga vattenkraft och moderniserar den storskaliga, skapar stabila förutsättningar för befintlig kärnkraft och har tagit fram ett finansiellt ramverk för byggnation av ny kärnkraft.
+> Närmare 80 beslut under mandatperioden sägs stärka energiförsörjningen. Kraftvärme, småskalig och storskalig vattenkraft och befintlig kärnkraft ska ha goda villkor, och ett finansiellt ramverk för ny kärnkraft är framtaget. Tillstånd för nät har förenklats och ledtiderna nästintill halverats. Politiken inriktas på ett helt fossilfritt elsystem, med leveranssäkerhetsmål och ett planeringsmål om 300 TWh till 2045. Kursen ska hållas dit.
 
-System: Energi
+System: Fossilfritt elsystem med kärnkraft och nät
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then Vi bevarar och skapar godare villkor för kraftvärmen, värnar vår småskaliga vattenkraft och moderniserar den storskaliga, skapar stabila förutsättningar för befintlig kärnkraft och har tagit fram ett finansiellt ramverk för byggnation av ny kärnkraft.
-Output Förutsättningarna för att ny kärnkraft ska bli verklighet i Sverige är äntligen på plats.
-Outcome the claim is the party's stated position
+Scenario: Ny kärnkraft ska kunna byggas
+Given närmare 80 beslut om energiförsörjningen har fattats under mandatperioden
+And ett finansiellt ramverk för byggnation av ny kärnkraft är framtaget
+When kursen hålls mot ett helt fossilfritt elsystem
+Then mer produktion och elnät på rätt ställen med rätt egenskaper prioriteras
+Output 300 TWh som planeringsmål
+Outcome leveranssäkerhet blir ett uttalat mål för elsystemet

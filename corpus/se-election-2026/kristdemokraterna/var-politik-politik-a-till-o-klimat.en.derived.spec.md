@@ -11,17 +11,22 @@ sources:
     url: https://kristdemokraterna.se/var-politik/politik-a-till-o/klimat
 tags:
   - climate
+derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-klimat
 party: kristdemokraterna
 clusters:
   - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-klimat.md
-derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-klimat
+sourceDigest: sha256-3773338075a50efe
 assumptions:
   - an immediate coal exit from EU electricity is a Brussels instrument, not a Swedish stack of plants the page can switch off alone
   - tariffs on other countries' coal power need a tax base, a rate and a collector; none are on the page
   - nuclear, biofuel, emissions trading, vehicle electrification and carbon storage are five separate build-outs sharing one uncosted sentence
-sourceDigest: sha256-3773338075a50efe
+lang: en
+translationOf: kristdemokraterna-var-politik-politik-a-till-o-klimat-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-14f2f90866e44b9e
 ---
 
 # Our understanding

@@ -1,10 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-sjukvard
-title: Sjukvård
+title: Statligt huvudmannaansvar för en behovsstyrd sjukvård
 status: draft
-updated: 2026-08-22
-summary: Bota, lindra och trösta är sjukvårdens huvuduppgift och alla ska kunna känna trygghet och tillit till att den offentligt finansierade vården kan möta behoven.
+updated: 2026-08-23
+summary: Offentligt finansierad vård ska vara solidariskt finansierad och behovsstyrd, med statligt huvudmannaansvar för mer jämlik tillgång.
 jurisdiction: SE
 sources:
   - title: Sjukvård
@@ -18,19 +18,19 @@ money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-sjukvard.md
 sourceDigest: sha256-0a90b546fc8e732b
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - kostnaden för att flytta huvudmannaskapet till staten anges inte
+  - tidplanen för skiftet från regionerna anges inte
+  - hur köer, personal och patientsäkerhet ska mätas efter skiftet anges inte
 ---
 
 # What the page states
 
-> Hälso- och sjukvårdens uppgift är att erbjuda en behovsanpassad, tillgänglig och effektiv vård av god kvalitet.
+> Hälso- och sjukvården ska erbjuda behovsanpassad, tillgänglig och effektiv vård av god kvalitet. Bota, lindra och trösta är huvuduppgiften. Den offentligt finansierade vården ska vara solidariskt finansierad och behovsstyrd. Statligt huvudmannaansvar drivs för en mer jämlik och tillgänglig vård. Förebyggande arbete, vård på patientens villkor och patientsäkerhet prioriteras.
 
-System: Sjukvård
+System: Statligt huvudmannaansvar för sjukvården
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then Hälso- och sjukvårdens uppgift är att erbjuda en behovsanpassad, tillgänglig och effektiv vård av god kvalitet.
-Output Bota, lindra och trösta är sjukvårdens huvuduppgift och alla ska kunna känna trygghet och tillit till att den offentligt finansierade vården kan möta behoven.
-Outcome the claim is the party's stated position
+Scenario: Vården ska bli mer jämlik över landet
+When ett statligt huvudmannaansvar för sjukvården införs
+Then vården ska bli mer jämlik och tillgänglig
+And den offentligt finansierade vården förblir solidariskt finansierad och behovsstyrd
+Outcome alla ska kunna lita på att vården möter behoven

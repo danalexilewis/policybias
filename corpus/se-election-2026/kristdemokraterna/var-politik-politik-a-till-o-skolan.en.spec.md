@@ -1,11 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-skolan
-title: The school
+title: A knowledge school with strengthened teachers and independent schools
 status: draft
-updated: 2026-08-22
-summary: The school must offer the knowledge needed to cope with working life,
-  but also knowledge to cope with life as a responsible citizen of society.
+updated: 2026-08-23
+summary: School is to pass on knowledge and a tradition of learning, teachers' standing is to be strengthened, and independent schools are treated as a given part of the system.
 jurisdiction: SE
 sources:
   - title: Skolan
@@ -19,24 +18,24 @@ money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-skolan.md
 sourceDigest: sha256-08140eeab95278c7
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - how teachers' standing is concretely to be strengthened is not stated
+  - how quality in independent schools is to be followed up is not stated
+  - the cost of the proposal is not stated
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-skolan
-translator: machine
-translatedAt: 2026-08-22
-sourceSpecDigest: sha256-814412093169c214
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-60bedf8e7934cc03
 ---
 
 # What the page states
 
-> The school's main task is to impart knowledge, to stimulate the students' intellectual development and to prepare children and young people for adulthood.
+> The school's main task is to pass on knowledge, stimulate pupils' intellectual development and prepare children and young people for adult life. The teacher is invaluable and their standing is to be strengthened. Choice and diversity are to raise quality, and independent schools are a given part of the system. School is also to pass on a tradition of learning.
 
-System: Skolan
+System: A knowledge school with strengthened teachers
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then The school's main task is to impart knowledge, to stimulate the students' intellectual development and to prepare children and young people for adulthood.
-Output The school must offer the knowledge needed to cope with working life, but also knowledge to cope with life as a responsible citizen of society.
-Outcome the claim is the party's stated position
+Scenario: A pupil is to be able to trust the knowledge and the teacher
+When teachers' standing is strengthened in a school system where independent schools are a given
+Then school passes on knowledge for working life and for life as a responsible citizen
+And school passes on a tradition of learning and the inherent value of knowledge
+Outcome choice and diversity are to raise quality

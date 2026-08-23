@@ -1,13 +1,10 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-migration
-title: Migration
+title: Asylum via quota, a Nordic reception level and tighter labour immigration
 status: draft
-updated: 2026-08-22
-summary: At the same time, we should be able to feel secure in the fact that the
-  asylum examination is legally secure and that those who lack grounds for
-  protection and have their asylum application rejected will also leave the
-  country.
+updated: 2026-08-23
+summary: Asylum is mainly to be sought through the refugee-quota system, reception is to sit at the Nordic average, and labour immigration is tightened in low-wage occupations with exceptions for some shortage occupations.
 jurisdiction: SE
 sources:
   - title: Migration
@@ -21,24 +18,29 @@ money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-migration.md
 sourceDigest: sha256-38428a6462201fa6
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - what a Nordic average level means in number of people is not stated
+  - the size of the raised wage requirement is not stated
+  - how return is to be enforced when an asylum application is refused is not stated
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-migration
-translator: machine
-translatedAt: 2026-08-22
-sourceSpecDigest: sha256-bc09516f328b5732
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-41589f7f25699fd8
 ---
 
 # What the page states
 
-> We want safe and legal routes, such as the quota refugee system, to be the main method for migrants to seek asylum in Sweden.
+> Openness and free movement within the EU are to be protected through stronger control of the EU's external border. Safe and legal routes, such as the refugee-quota system, are to be the main method of seeking asylum. Asylum examination is to be legally secure and anyone without grounds for protection is to leave the country. Asylum reception is to land at the Nordic average. Rules are to promote skilled labour immigration and be tightened in low-wage occupations, with exceptions for some shortage occupations including in health care.
 
-System: Migration
+System: Migration via quota and tighter labour immigration
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then We want safe and legal routes, such as the quota refugee system, to be the main method for migrants to seek asylum in Sweden.
-Output At the same time, we should be able to feel secure in the fact that the asylum examination is legally secure and that those who lack grounds for protection and have their asylum application rejected will also leave the country.
-Outcome the claim is the party's stated position
+Scenario: Anyone who is refused is to leave the country
+When the refugee-quota system is made the main route to seek asylum
+Then asylum examination is to be legally secure
+And anyone without grounds for protection who is refused leaves the country
+Outcome asylum reception is to land at the Nordic average
+
+Scenario: Low-wage occupations meet a raised wage requirement
+When the rules for labour immigration in low-wage occupations are tightened
+Then fraud, exploitation and displacement of people in exclusion are to be countered
+Outcome some shortage occupations, including care occupations, are exempted from the raised wage requirement

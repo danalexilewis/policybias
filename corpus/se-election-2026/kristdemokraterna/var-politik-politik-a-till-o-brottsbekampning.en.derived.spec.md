@@ -11,18 +11,23 @@ sources:
     url: https://kristdemokraterna.se/var-politik/politik-a-till-o/brottsbekampning
 tags:
   - crime-and-justice
+derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-brottsbekampning
 party: kristdemokraterna
 clusters:
   - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-brottsbekampning.md
-derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-brottsbekampning
+sourceDigest: sha256-8bf5129385e17291
 assumptions:
   - people who are locked up cannot recruit only while there is a cell; Prison Service capacity is unnamed
   - more police and judges without a headcount is a direction, not a staffing plan
   - deportation as the main rule after more than six months in prison depends on another country taking the person back
   - parent support, school and social services as prevention compete with the same local staff who already run those services
-sourceDigest: sha256-8bf5129385e17291
+lang: en
+translationOf: kristdemokraterna-var-politik-politik-a-till-o-brottsbekampning-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-7694a3bbc950c560
 ---
 
 # Our understanding

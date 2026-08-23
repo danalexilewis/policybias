@@ -11,18 +11,23 @@ sources:
     url: https://kristdemokraterna.se/var-politik/politik-a-till-o/inkomstskatter
 tags:
   - taxation
+derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-inkomstskatter
 party: kristdemokraterna
 clusters:
   - economy-tax
 money: named-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-inkomstskatter.md
-derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-inkomstskatter
+sourceDigest: sha256-d150f8d4583d6b5f
 assumptions:
   - raising the state-tax threshold and ending the phase-out of the earned-income credit are already done; they do not by themselves deliver half-in-hand
   - a cap on the share who pay state tax is a distributional choice: someone else's rate or a higher threshold must move
   - extra credit from 69 and cuts for people far from work change participation at the edges more than they change the top rate
   - a broad cut for everyone in work has an open public-finance bill until a krone figure is printed
-sourceDigest: sha256-d150f8d4583d6b5f
+lang: en
+translationOf: kristdemokraterna-var-politik-politik-a-till-o-inkomstskatter-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-42e69b7ecaa818e7
 ---
 
 # Our understanding

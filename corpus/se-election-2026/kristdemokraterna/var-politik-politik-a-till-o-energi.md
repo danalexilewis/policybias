@@ -11,7 +11,7 @@ tags:
   - energy
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+money: named-figure
 contentDigest: sha256-af51b67227d5f6e5
 contentLength: 986
 ---

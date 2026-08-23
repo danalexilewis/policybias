@@ -11,17 +11,22 @@ sources:
     url: https://kristdemokraterna.se/var-politik/politik-a-till-o/migration
 tags:
   - immigration
+derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-migration
 party: kristdemokraterna
 clusters:
   - migration-integration
 money: no-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-migration.md
-derivesFrom: kristdemokraterna-var-politik-politik-a-till-o-migration
+sourceDigest: sha256-38428a6462201fa6
 assumptions:
   - a Nordic average is a moving target set by neighbours; without a figure the Swedish intake is undefined
   - a higher salary floor in low-pay jobs plus a carve-out for care shortages pulls labour policy in two directions at once
   - a refusal that is not enforced is a paper refusal; the page states the rule, not the escort
-sourceDigest: sha256-38428a6462201fa6
+lang: en
+translationOf: kristdemokraterna-var-politik-politik-a-till-o-migration-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-d35b696cf0fa61c2
 ---
 
 # Our understanding

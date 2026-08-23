@@ -8,9 +8,7 @@ import { ALL_VISIBLE } from '../card/CardDisplay';
 import { FilterBar } from './FilterBar';
 import type { UseFiltersResult } from './useFilters';
 
-const clusters: ClusterMeta[] = [
-	{ id: 'health-access', label: 'Health', description: '' }
-];
+const clusters: ClusterMeta[] = [{ id: 'health-access', label: 'Health', description: '' }];
 
 const parties: PartyMeta[] = [
 	{
@@ -18,13 +16,11 @@ const parties: PartyMeta[] = [
 		label: 'Labour',
 		name: 'New Zealand Labour Party',
 		colour: '#d82c20',
-		cardCount: 1
-	}
+		cardCount: 1,
+	},
 ];
 
-function makeFilters(
-	overrides: Partial<UseFiltersResult> = {}
-): UseFiltersResult {
+function makeFilters(overrides: Partial<UseFiltersResult> = {}): UseFiltersResult {
 	return {
 		filtered: [],
 		display: { ...ALL_VISIBLE, party: false },
@@ -46,7 +42,7 @@ function makeFilters(
 		setHasOutput: vi.fn(),
 		hasDerived: null,
 		setHasDerived: vi.fn(),
-		...overrides
+		...overrides,
 	};
 }
 
@@ -59,12 +55,7 @@ function renderBar(ui: ReactElement) {
 describe('FilterBar', () => {
 	it('keeps category chips in a closed Filters window', () => {
 		renderBar(
-			<FilterBar
-				clusters={clusters}
-				parties={parties}
-				totalCount={12}
-				filters={makeFilters()}
-			/>
+			<FilterBar clusters={clusters} parties={parties} totalCount={12} filters={makeFilters()} />
 		);
 
 		const toggle = screen.getByRole('button', { name: 'Filters' });
@@ -76,12 +67,7 @@ describe('FilterBar', () => {
 
 	it('opens a headerless overlay and keeps Filters pressed', () => {
 		renderBar(
-			<FilterBar
-				clusters={clusters}
-				parties={parties}
-				totalCount={12}
-				filters={makeFilters()}
-			/>
+			<FilterBar clusters={clusters} parties={parties} totalCount={12} filters={makeFilters()} />
 		);
 
 		const toggle = screen.getByRole('button', { name: 'Filters' });
@@ -97,12 +83,7 @@ describe('FilterBar', () => {
 
 	it('paints a category pill with the solid category colour and white text', () => {
 		renderBar(
-			<FilterBar
-				clusters={clusters}
-				parties={parties}
-				totalCount={12}
-				filters={makeFilters()}
-			/>
+			<FilterBar clusters={clusters} parties={parties} totalCount={12} filters={makeFilters()} />
 		);
 
 		fireEvent.click(screen.getByRole('button', { name: 'Filters' }));
@@ -121,7 +102,7 @@ describe('FilterBar', () => {
 				totalCount={12}
 				filters={makeFilters({
 					anonymise: false,
-					selectedParties: new Set(['labour'])
+					selectedParties: new Set(['labour']),
 				})}
 			/>
 		);
@@ -130,9 +111,7 @@ describe('FilterBar', () => {
 
 		const labour = screen.getByRole('checkbox', { name: 'Labour' });
 		expect((labour as HTMLInputElement).checked).toBe(true);
-		expect(labour.closest('label')?.style.backgroundColor).toBe(
-			'rgb(216, 44, 32)'
-		);
+		expect(labour.closest('label')?.style.backgroundColor).toBe('rgb(216, 44, 32)');
 	});
 
 	it('puts ink text on a selected Opportunity pill', () => {
@@ -145,13 +124,13 @@ describe('FilterBar', () => {
 						label: 'Opportunity',
 						name: 'The Opportunities Party',
 						colour: '#00b9bc',
-						cardCount: 1
-					}
+						cardCount: 1,
+					},
 				]}
 				totalCount={12}
 				filters={makeFilters({
 					anonymise: false,
-					selectedParties: new Set(['opportunity'])
+					selectedParties: new Set(['opportunity']),
 				})}
 			/>
 		);
@@ -170,7 +149,7 @@ describe('FilterBar', () => {
 				totalCount={12}
 				filters={makeFilters({
 					selectedClusters: new Set(['health-access']),
-					hasOutput: true
+					hasOutput: true,
 				})}
 			/>
 		);
@@ -178,23 +157,28 @@ describe('FilterBar', () => {
 		expect(screen.getByLabelText('2 applied')).toBeTruthy();
 		const count = screen.getByText('0 / 12');
 		const clear = screen.getByRole('button', { name: 'Clear filters' });
+		expect(clear.querySelector('svg')).toBeTruthy();
 		const filters = screen.getByRole('button', { name: /Filters/ });
+		expect(count.compareDocumentPosition(clear) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+		expect(clear.compareDocumentPosition(filters) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+	});
+
+	it('shows the anonymise label to the left of group by', () => {
+		renderBar(
+			<FilterBar clusters={clusters} parties={parties} totalCount={12} filters={makeFilters()} />
+		);
+
+		const anonymise = screen.getByRole('switch', { name: 'Anonymise' });
+		expect(anonymise.textContent).toContain('Anonymise');
+		const groupBy = screen.getByText('Group by');
 		expect(
-			count.compareDocumentPosition(clear) & Node.DOCUMENT_POSITION_FOLLOWING
-		).toBeTruthy();
-		expect(
-			clear.compareDocumentPosition(filters) & Node.DOCUMENT_POSITION_FOLLOWING
+			anonymise.compareDocumentPosition(groupBy) & Node.DOCUMENT_POSITION_FOLLOWING
 		).toBeTruthy();
 	});
 
 	it('closes the filter menu from a dismiss layer that does not cover the header', () => {
 		const { container } = renderBar(
-			<FilterBar
-				clusters={clusters}
-				parties={parties}
-				totalCount={12}
-				filters={makeFilters()}
-			/>
+			<FilterBar clusters={clusters} parties={parties} totalCount={12} filters={makeFilters()} />
 		);
 
 		fireEvent.click(screen.getByRole('button', { name: 'Filters' }));

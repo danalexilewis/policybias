@@ -16,6 +16,13 @@
 	gap: 12px 16px;
 }
 
+.anonymise {
+	display: none;
+	align-items: center;
+	flex: 0 0 auto;
+	gap: 8px;
+}
+
 .group {
 	display: flex;
 	flex-wrap: wrap;
@@ -90,55 +97,6 @@
 
 .partyChipInactive {
 	opacity: 0.7;
-}
-
-.switch {
-	display: inline-flex;
-	align-items: center;
-	gap: 8px;
-	min-height: 48px;
-	padding: 0 4px;
-	border: none;
-	background: none;
-	font-size: 13px;
-	color: var(--ink);
-	cursor: pointer;
-	user-select: none;
-}
-
-.switchTrack {
-	position: relative;
-	flex: 0 0 auto;
-	width: 44px;
-	height: 24px;
-	border: 2px solid var(--ink);
-	border-radius: 999px;
-	background: var(--paper);
-}
-
-.switchTrackOn {
-	background: var(--accent);
-}
-
-.switchThumb {
-	position: absolute;
-	top: 2px;
-	left: 2px;
-	width: 16px;
-	height: 16px;
-	border-radius: 999px;
-	background: var(--paper);
-	border: 2px solid var(--ink);
-}
-
-.switchTrackOn .switchThumb {
-	transform: translateX(18px);
-}
-
-.divider {
-	width: 2px;
-	height: 24px;
-	background: var(--ink);
 }
 
 .trailing {
@@ -239,6 +197,12 @@
 	max-height: min(28rem, 60vh);
 }
 
+@media (min-width: 48rem) {
+	.anonymise {
+		display: flex;
+	}
+}
+
 @media (max-width: 52rem) {
 	.bar {
 		padding: 8px 16px;
@@ -249,14 +213,12 @@
 		gap: 8px;
 	}
 
-	.row .groupLabel,
-	.divider {
+	.row .groupLabel {
 		display: none;
 	}
 
 	.chip,
 	.pill,
-	.switch,
 	.menuButton {
 		flex: 0 0 auto;
 		min-height: 48px;
@@ -266,11 +228,6 @@
 	.chip,
 	.pill {
 		padding: 0 14px;
-	}
-
-	.switch {
-		gap: 6px;
-		font-size: 12px;
 	}
 
 	.menuButton {

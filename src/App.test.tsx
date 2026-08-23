@@ -1,5 +1,5 @@
 // @vitest-environment jsdom
-import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { CardsDataset, CardFace, PartyId, PolicyCard } from './data/types';
 import {
@@ -8,15 +8,15 @@ import {
 	eventLlmsPath,
 	eventPath,
 	eventQuestionsPath,
-	eventResultsPath
+	eventResultsPath,
 } from './event/events';
 
 vi.mock('@vercel/analytics/react', () => ({
-	Analytics: () => null
+	Analytics: () => null,
 }));
 
 vi.mock('./data/useCards', () => ({
-	useCards: () => ({ data: dataset, error: null, loading: false })
+	useCards: () => ({ data: dataset, error: null, loading: false }),
 }));
 
 function makeFace(title: string): CardFace {
@@ -32,8 +32,8 @@ function makeFace(title: string): CardFace {
 			steps: 0,
 			outputs: 0,
 			outcomes: 0,
-			extrapolated: 0
-		}
+			extrapolated: 0,
+		},
 	};
 }
 
@@ -49,7 +49,7 @@ function makeCard(id: string, party: PartyId, clusters: string[]): PolicyCard {
 		gaps: [],
 		assumptions: [],
 		stated: makeFace(id),
-		counts: { gaps: 0, assumptions: 0 }
+		counts: { gaps: 0, assumptions: 0 },
 	};
 }
 
@@ -72,13 +72,13 @@ const dataset: CardsDataset = {
 				caseInsensitive: ['Labour Party'],
 				caseSensitive: ['Labour'],
 				uniqueTitle: ['Labour Party'],
-				shortTitle: ['Labour']
-			}
-		}
+				shortTitle: ['Labour'],
+			},
+		},
 	],
 	coverage: [{ cluster: 'tax-fiscal', party: 'labour', cards: 1 }],
 	cards: [makeCard('labour-0', 'labour', ['tax-fiscal'])],
-	trivia: []
+	trivia: [],
 };
 
 afterEach(() => {
@@ -108,6 +108,22 @@ describe('App board', () => {
 		const home = screen.getByRole('link', { name: 'Policy Bias NZ 2026' });
 		expect(home.getAttribute('href')).toBe('/');
 		expect(home.closest('header')).not.toBeNull();
+	});
+
+	it('puts the anonymise switch in the header next to language', async () => {
+		const { default: App } = await import('./App');
+		render(<App />);
+
+		const header = document.querySelector('header.app-header');
+		if (!header) {
+			throw new Error('expected the app header');
+		}
+		const anonymise = within(header).getByRole('switch', { name: 'Anonymise' });
+		const language = within(header).getByRole('combobox', { name: 'Language' });
+		expect(anonymise.closest('header')).not.toBeNull();
+		expect(
+			anonymise.compareDocumentPosition(language) & Node.DOCUMENT_POSITION_FOLLOWING
+		).toBeTruthy();
 	});
 
 	it('puts terms, privacy and contact next to Gurki in the footer', async () => {

@@ -1,13 +1,8 @@
-import {
-	useEffect,
-	useRef,
-	useState,
-	type CSSProperties,
-	type JSX
-} from 'react';
+import { useEffect, useRef, useState, type CSSProperties, type JSX } from 'react';
 import type { ClusterMeta, PartyMeta } from '../data/types';
 import type { GroupBy } from '../grid/sortCards';
 import type { UseFiltersResult } from './useFilters';
+import { AnonymiseSwitch } from '../chrome/AnonymiseSwitch';
 import { useLang } from '../i18n/useLang';
 import { clusterColour } from '../theme/clusterColours';
 import { chipText, contrastingText } from '../theme/contrast';
@@ -38,13 +33,13 @@ function partyChipStyle(
 		return {
 			backgroundColor: colour,
 			borderColor: colour,
-			color: contrastingText(colour)
+			color: contrastingText(colour),
 		};
 	}
 	return {
 		backgroundColor: `${colour}33`,
 		borderColor: colour,
-		color: 'var(--ink)'
+		color: 'var(--ink)',
 	};
 }
 
@@ -64,25 +59,16 @@ function FilterPill({
 	onChange,
 	style,
 	className,
-	invertChecked = true
+	invertChecked = true,
 }: FilterPillProps): JSX.Element {
 	return (
 		<label
-			className={[
-				styles.pill,
-				checked && invertChecked ? styles.pillChecked : '',
-				className
-			]
+			className={[styles.pill, checked && invertChecked ? styles.pillChecked : '', className]
 				.filter(Boolean)
 				.join(' ')}
 			style={style}
 		>
-			<input
-				type='checkbox'
-				checked={checked}
-				onChange={onChange}
-				className={styles.pillCheck}
-			/>
+			<input type="checkbox" checked={checked} onChange={onChange} className={styles.pillCheck} />
 			{label}
 		</label>
 	);
@@ -98,13 +84,8 @@ function appliedFilterCount(filters: UseFiltersResult): number {
 	);
 }
 
-/** Category, party, money and derived filters plus grouping and anonymise. */
-export function FilterBar({
-	clusters,
-	parties,
-	totalCount,
-	filters
-}: FilterBarProps): JSX.Element {
+/** Category, party, money and derived filters plus grouping. */
+export function FilterBar({ clusters, parties, totalCount, filters }: FilterBarProps): JSX.Element {
 	const {
 		filtered,
 		anonymise,
@@ -121,7 +102,7 @@ export function FilterBar({
 		setHasOutput,
 		hasDerived,
 		setHasDerived,
-		clearAppliedFilters
+		clearAppliedFilters,
 	} = filters;
 
 	const { t } = useLang();
@@ -147,35 +128,20 @@ export function FilterBar({
 	}, [menuOpen]);
 
 	return (
-		<div
-			ref={barRef}
-			className={styles.bar}
-			role='toolbar'
-			aria-label={t('filterAria')}
-		>
+		<div ref={barRef} className={styles.bar} role="toolbar" aria-label={t('filterAria')}>
 			<div className={styles.row}>
-				<button
-					type='button'
-					className={styles.switch}
-					role='switch'
-					aria-checked={anonymise}
-					onClick={() => setAnonymise(!anonymise)}
-				>
-					{t('anonymise')}
-					<span
-						className={`${styles.switchTrack} ${anonymise ? styles.switchTrackOn : ''}`}
-						aria-hidden
-					>
-						<span className={styles.switchThumb} />
-					</span>
-				</button>
-
-				<div className={styles.divider} aria-hidden />
-
+				<div className={styles.anonymise}>
+					<AnonymiseSwitch
+						checked={anonymise}
+						onToggle={() => setAnonymise(!anonymise)}
+						label={t('anonymise')}
+						showLabel
+					/>
+				</div>
 				<div className={styles.group}>
 					<span className={styles.groupLabel}>{t('groupBy')}</span>
 					<button
-						type='button'
+						type="button"
 						className={`${styles.chip} ${groupBy === 'cluster' ? styles.chipActive : ''}`}
 						onClick={() => setGroupBy(nextGroupBy(groupBy, 'cluster'))}
 						aria-pressed={groupBy === 'cluster'}
@@ -184,7 +150,7 @@ export function FilterBar({
 					</button>
 					{anonymise ? null : (
 						<button
-							type='button'
+							type="button"
 							className={`${styles.chip} ${groupBy === 'party' ? styles.chipActive : ''}`}
 							onClick={() => setGroupBy(nextGroupBy(groupBy, 'party'))}
 							aria-pressed={groupBy === 'party'}
@@ -199,20 +165,19 @@ export function FilterBar({
 						{filtered.length} / {totalCount}
 					</span>
 					{applied > 0 ? (
-						<button
-							type='button'
-							className={styles.menuButton}
-							onClick={clearAppliedFilters}
-						>
-							{t('clearFilters')}
+						<button type="button" className={styles.menuButton} onClick={clearAppliedFilters}>
+							<span className={styles.menuButtonLabel}>{t('clearFilters')}</span>
+							<span className={styles.menuButtonIcon} aria-hidden>
+								<ClearIcon />
+							</span>
 						</button>
 					) : null}
 					<button
-						type='button'
+						type="button"
 						className={`${styles.menuButton} ${menuOpen ? styles.menuButtonOpen : ''}`}
 						aria-expanded={menuOpen}
 						aria-pressed={menuOpen}
-						aria-controls='filter-menu'
+						aria-controls="filter-menu"
 						onClick={() => setMenuOpen(!menuOpen)}
 					>
 						<span className={styles.menuButtonLabel}>{t('filters')}</span>
@@ -220,10 +185,7 @@ export function FilterBar({
 							<FilterIcon />
 						</span>
 						{applied > 0 ? (
-							<span
-								className={styles.badge}
-								aria-label={t('appliedCount', { n: applied })}
-							>
+							<span className={styles.badge} aria-label={t('appliedCount', { n: applied })}>
 								{applied}
 							</span>
 						) : null}
@@ -235,10 +197,10 @@ export function FilterBar({
 				<>
 					<div
 						className={styles.menuDismiss}
-						aria-hidden='true'
+						aria-hidden="true"
 						onPointerDown={() => setMenuOpen(false)}
 					/>
-					<div className={styles.menu} id='filter-menu'>
+					<div className={styles.menu} id="filter-menu">
 						<div className={styles.menuBody}>
 							<div className={styles.group}>
 								<span className={styles.groupLabel}>{t('category')}</span>
@@ -254,7 +216,7 @@ export function FilterBar({
 											invertChecked={false}
 											style={{
 												backgroundColor: colour,
-												color: chipText(colour)
+												color: chipText(colour),
 											}}
 										/>
 									);
@@ -272,9 +234,7 @@ export function FilterBar({
 												label={party.label}
 												checked={active}
 												onChange={() => toggleParty(party.id)}
-												className={
-													active ? undefined : styles.partyChipInactive
-												}
+												className={active ? undefined : styles.partyChipInactive}
 												invertChecked={false}
 												style={partyChipStyle(party.colour, active)}
 											/>
@@ -288,9 +248,7 @@ export function FilterBar({
 								{MONEY_OPTION_IDS.map((id) => (
 									<FilterPill
 										key={id}
-										label={
-											id === 'named-figure' ? t('namedFigure') : t('noFigure')
-										}
+										label={id === 'named-figure' ? t('namedFigure') : t('noFigure')}
 										checked={selectedMoney.has(id)}
 										onChange={() => toggleMoney(id)}
 									/>
@@ -302,30 +260,22 @@ export function FilterBar({
 								<FilterPill
 									label={t('hasOutput')}
 									checked={hasOutput === true}
-									onChange={() =>
-										setHasOutput(hasOutput === true ? null : true)
-									}
+									onChange={() => setHasOutput(hasOutput === true ? null : true)}
 								/>
 								<FilterPill
 									label={t('noOutput')}
 									checked={hasOutput === false}
-									onChange={() =>
-										setHasOutput(hasOutput === false ? null : false)
-									}
+									onChange={() => setHasOutput(hasOutput === false ? null : false)}
 								/>
 								<FilterPill
 									label={t('hasUnderstanding')}
 									checked={hasDerived === true}
-									onChange={() =>
-										setHasDerived(hasDerived === true ? null : true)
-									}
+									onChange={() => setHasDerived(hasDerived === true ? null : true)}
 								/>
 								<FilterPill
 									label={t('statedOnly')}
 									checked={hasDerived === false}
-									onChange={() =>
-										setHasDerived(hasDerived === false ? null : false)
-									}
+									onChange={() => setHasDerived(hasDerived === false ? null : false)}
 								/>
 							</div>
 						</div>
@@ -336,16 +286,30 @@ export function FilterBar({
 	);
 }
 
+function ClearIcon(): JSX.Element {
+	return (
+		<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+			<path
+				d="M6 6l12 12M18 6L6 18"
+				fill="none"
+				stroke="currentColor"
+				strokeWidth="2"
+				strokeLinecap="round"
+			/>
+		</svg>
+	);
+}
+
 function FilterIcon(): JSX.Element {
 	return (
-		<svg viewBox='0 0 24 24' aria-hidden='true' focusable='false'>
+		<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
 			<path
-				d='M4 5h16l-6.5 8v6l-3 2v-8L4 5z'
-				fill='none'
-				stroke='currentColor'
-				strokeWidth='2'
-				strokeLinecap='round'
-				strokeLinejoin='round'
+				d="M4 5h16l-6.5 8v6l-3 2v-8L4 5z"
+				fill="none"
+				stroke="currentColor"
+				strokeWidth="2"
+				strokeLinecap="round"
+				strokeLinejoin="round"
 			/>
 		</svg>
 	);

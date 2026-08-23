@@ -23,7 +23,7 @@ gaps:
   - how the security-of-supply target is to be measured is not stated
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-energi
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-14b0090278a2516e
 ---

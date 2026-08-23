@@ -19,19 +19,19 @@ money: named-figure
 sourcePath: corpus/se-election-2026/kristdemokraterna/var-politik-politik-a-till-o-aldreboendegaranti.md
 sourceDigest: sha256-4ad8468bd25c14bd
 assumptions:
-  - a right without a vacant place is a place on a list; the page says more places are needed and does not say how many
+  - a right without a vacant place is a place on a list; the policy says more places are needed and does not say how many
   - dropping heavy needs-testing at 85 brings forward moves that today's tests delay, so demand jumps before stock does
   - municipalities must both stimulate sheltered housing and make staying at home easier; those two uses compete for the same local capital
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-aldreboendegaranti-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-c6befc4a0501adb5
+sourceSpecDigest: sha256-ecb249b1c4fb67f2
 ---
 
 # Our understanding
 
-> At 85 the needs test is meant to fall away. The person who feels unsafe can claim a place. That is a demand-side right. The page already says more elderly-housing places are required for the demographic years ahead. If the stock does not move first, the right is a ticket to wait.
+> At 85 the needs test is meant to fall away. The person who feels unsafe can claim a place. That is a demand-side right. The policy already says more elderly-housing places are required for the demographic years ahead. If the stock does not move first, the right is a ticket to wait.
 
 System: Age-85 right as demand without stock
 

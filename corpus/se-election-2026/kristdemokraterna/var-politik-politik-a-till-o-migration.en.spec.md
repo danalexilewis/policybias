@@ -23,7 +23,7 @@ gaps:
   - how return is to be enforced when an asylum application is refused is not stated
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-migration
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-41589f7f25699fd8
 ---

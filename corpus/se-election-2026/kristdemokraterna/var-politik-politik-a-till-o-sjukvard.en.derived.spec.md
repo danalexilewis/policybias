@@ -24,14 +24,14 @@ assumptions:
   - without a timetable or a cash figure, the residual of unequal access sits with the state on day one
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-sjukvard-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-73011cd3fd757312
+sourceSpecDigest: sha256-50d2d03574a5bc38
 ---
 
 # Our understanding
 
-> Need-based, tax-funded care is the baseline. The intervention is who holds the principal role. If the state takes it, today's regional queues and vacancies become a national residual on the first day, and the page never says what that transfer costs or when it happens.
+> Need-based, tax-funded care is the baseline. The intervention is who holds the principal role. If the state takes it, today's regional queues and vacancies become a national residual on the first day, and the policy never says what that transfer costs or when it happens.
 
 System: State principalship as an uncosted transfer of residual risk
 

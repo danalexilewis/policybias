@@ -23,7 +23,7 @@ gaps:
   - how queues, staffing and patient safety are to be measured after the shift is not stated
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-sjukvard
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-8f96bc380772bd48
 ---

@@ -23,7 +23,7 @@ gaps:
   - the cost of new nuclear power and carbon storage is not stated
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-klimat
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-78f5e1cbcd267629
 ---

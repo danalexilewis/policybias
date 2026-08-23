@@ -23,7 +23,7 @@ gaps:
   - when the half-kept goal is reached is not stated
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-inkomstskatter
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-6ba57c453f1950d4
 ---

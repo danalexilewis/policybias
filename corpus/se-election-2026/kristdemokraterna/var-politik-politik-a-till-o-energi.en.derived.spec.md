@@ -25,14 +25,14 @@ assumptions:
   - a security-of-supply objective without a metric can be declared met by any winter that did not black out
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-energi-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-207b395073c4c822
+sourceSpecDigest: sha256-b8af56871512cee1
 ---
 
 # Our understanding
 
-> About 80 decisions this term, a nuclear-finance framework, and shorter grid waits are presented as already in place. The remaining move is to hold course toward a fully fossil-free electricity system. 300 TWh is a planning goal (the page dates it 2045). Security of supply is named as a goal, not as a measured standard.
+> About 80 decisions this term, a nuclear-finance framework, and shorter grid waits are presented as already in place. The remaining move is to hold course toward a fully fossil-free electricity system. 300 TWh is a planning goal (the policy dates it 2045). Security of supply is named as a goal, not as a measured standard.
 
 System: Hold-course nuclear and grid policy
 

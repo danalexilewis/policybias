@@ -23,7 +23,7 @@ gaps:
   - the cost of the proposal is not stated
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-skolan
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-60bedf8e7934cc03
 ---

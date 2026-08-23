@@ -4,7 +4,7 @@ id: kristdemokraterna-var-politik-politik-a-till-o-brottsbekampning-derived
 title: "Harsher sentences read as a system: incapacity in prison plus deportation"
 status: draft
 updated: 2026-08-23
-summary: Abolishing quantity discounts and making deportation the rule after six months of prison trades on cells and police numbers the page never states.
+summary: Abolishing quantity discounts and making deportation the rule after six months of prison trades on cells and police numbers the policy never states.
 jurisdiction: SE
 sources:
   - title: Brottsbekämpning
@@ -25,14 +25,14 @@ assumptions:
   - parent support, school and social services as prevention compete with the same local staff who already run those services
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-brottsbekampning-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-7694a3bbc950c560
+sourceSpecDigest: sha256-1ca122dd151a7356
 ---
 
 # Our understanding
 
-> Lethal shootings more than tripled since the 2010s is the baseline the page owns. The offer is incapacity: keep people inside so they cannot recruit, and deport non-citizens after more than six months in prison. Both need cells, escorts and receiving states. None of those counts are printed.
+> Lethal shootings more than tripled since the 2010s is the baseline the policy owns. The offer is incapacity: keep people inside so they cannot recruit, and deport non-citizens after more than six months in prison. Both need cells, escorts and receiving states. None of those counts are printed.
 
 System: Incapacity and deportation without a cell count
 

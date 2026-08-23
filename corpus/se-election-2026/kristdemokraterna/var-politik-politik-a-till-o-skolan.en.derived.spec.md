@@ -24,14 +24,14 @@ assumptions:
   - knowledge for work and knowledge as a civic good can pull the same timetable in different directions
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-skolan-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-ece2d02bdf1adf93
+sourceSpecDigest: sha256-4cf208be86adb3a9
 ---
 
 # Our understanding
 
-> The page asks the school to do two jobs at once: knowledge for work and a tradition of learning for its own sake. The teacher is called invaluable, yet status is not given a wage, a hour, or a training rule. Independent schools are treated as obviously good, so quality is left to choice.
+> The policy asks the school to do two jobs at once: knowledge for work and a tradition of learning for its own sake. The teacher is called invaluable, yet status is not given a wage, a hour, or a training rule. Independent schools are treated as obviously good, so quality is left to choice.
 
 System: Teacher status without an instrument
 

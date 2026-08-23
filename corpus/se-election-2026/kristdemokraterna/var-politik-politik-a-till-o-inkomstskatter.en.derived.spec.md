@@ -1,7 +1,7 @@
 ---
 type: spec
 id: kristdemokraterna-var-politik-politik-a-till-o-inkomstskatter-derived
-title: "Half-in-hand read as a system: a cap on the top rate without a krone cut"
+title: "Half-in-hand read as a system: a cap on the top rate without a kronor cut"
 status: draft
 updated: 2026-08-23
 summary: A 50 percent top marginal rate and a 15 percent cap on who pays state income tax are goals; the broad cut that would get there is unpriced, while extra relief at 23 and 69 targets the edges.
@@ -22,17 +22,17 @@ assumptions:
   - raising the state-tax threshold and ending the phase-out of the earned-income credit are already done; they do not by themselves deliver half-in-hand
   - a cap on the share who pay state tax is a distributional choice: someone else's rate or a higher threshold must move
   - extra credit from 69 and cuts for people far from work change participation at the edges more than they change the top rate
-  - a broad cut for everyone in work has an open public-finance bill until a krone figure is printed
+  - a broad cut for everyone in work has an open public-finance bill until a kronor figure is printed
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-inkomstskatter-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-42e69b7ecaa818e7
+sourceSpecDigest: sha256-ee13a514ee63de8b
 ---
 
 # Our understanding
 
-> Half-in-hand is a ceiling, not a table. The page also wants no more than 15 percent of earners in the state tax. Those two caps can be met by a higher threshold, a lower rate, or both. The broad cut for everyone in work is the 2026 offer, and it has no krone attached. Extra relief for people far from work, for the young up to 23, and a further earned-income credit from 69 sit at the edges.
+> Half-in-hand is a ceiling, not a table. The policy also wants no more than 15 percent of earners in the state tax. Those two caps can be met by a higher threshold, a lower rate, or both. The broad cut for everyone in work is the 2026 offer, and it has no kronor attached. Extra relief for people far from work, for the young up to 23, and a further earned-income credit from 69 sit at the edges.
 
 System: Half-in-hand as a cap without a priced cut
 

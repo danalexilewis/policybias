@@ -23,7 +23,7 @@ gaps:
   - what is counted in the defence-related expenditure is not stated
 lang: en
 translationOf: kristdemokraterna-var-politik-politik-a-till-o-forsvar
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-e7b6cbee04e879c1
 ---

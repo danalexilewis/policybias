@@ -28,7 +28,7 @@ gaps:
 
 # What the page states
 
-> Alla barn som vistas i Sverige ska omfattas av skolplikt och få utbildning. Kontrollen ska stärkas så att barn deltar i undervisningen och vårdnadshavare tar sitt ansvar. Sidan säger inte hur kontrollen går till.
+> Alla barn som vistas i Sverige ska omfattas av skolplikt och få utbildning. Kontrollen ska stärkas så att barn deltar i undervisningen och vårdnadshavare tar sitt ansvar.
 
 System: Skolplikt för barn som vistas i Sverige
 

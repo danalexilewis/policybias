@@ -27,7 +27,7 @@ lang: en
 translationOf: sverigedemokraterna-a-till-o-pliktskola-derived
 translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-e8429d1789666a80
+sourceSpecDigest: sha256-308c7225c7fcf061
 ---
 
 # Our understanding

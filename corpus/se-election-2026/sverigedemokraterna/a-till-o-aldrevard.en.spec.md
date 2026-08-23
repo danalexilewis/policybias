@@ -26,7 +26,7 @@ gaps:
   - a timetable for safer care is not stated
 lang: en
 translationOf: sverigedemokraterna-a-till-o-aldrevard
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-7f5d9b4dd5b26d27
 ---

@@ -26,7 +26,7 @@ gaps:
   - what happens if a region misses the requirements is not stated
 lang: en
 translationOf: sverigedemokraterna-a-till-o-sjukvard
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-c1ee27f4b8c49d07
 ---

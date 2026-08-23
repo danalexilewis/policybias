@@ -26,7 +26,7 @@ gaps:
   - the cost of more institutional housing when EBO disappears is not stated
 lang: en
 translationOf: sverigedemokraterna-a-till-o-asylinvandring
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-e303b3cfe691bd9c
 ---

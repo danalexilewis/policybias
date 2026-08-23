@@ -13,7 +13,7 @@ tags:
   - taxation
 party: sverigedemokraterna
 clusters:
-  - climate-environment
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-flygskatten.md
 sourceDigest: "sha256-f62de7a583631378"

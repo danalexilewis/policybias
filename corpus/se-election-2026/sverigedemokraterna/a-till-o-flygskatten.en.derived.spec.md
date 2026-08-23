@@ -14,7 +14,7 @@ tags:
 derivesFrom: sverigedemokraterna-a-till-o-flygskatten
 party: sverigedemokraterna
 clusters:
-  - climate-environment
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-flygskatten.md
 sourceDigest: sha256-f62de7a583631378
@@ -27,7 +27,7 @@ lang: en
 translationOf: sverigedemokraterna-a-till-o-flygskatten-derived
 translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-c458414abc34cf43
+sourceSpecDigest: sha256-7ccf0ed389fa6d11
 ---
 
 # Our understanding

@@ -27,7 +27,7 @@ lang: en
 translationOf: sverigedemokraterna-a-till-o-organiserad-brottslighet-derived
 translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-2622b3dfa9238433
+sourceSpecDigest: sha256-a0318c5b0ba6dbc3
 ---
 
 # Our understanding

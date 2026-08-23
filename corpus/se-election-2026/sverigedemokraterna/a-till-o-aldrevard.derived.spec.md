@@ -4,7 +4,7 @@ id: sverigedemokraterna-a-till-o-aldrevard-derived
 title: "Äldrevård read as a system: språket och lyftet, medan avstängningen saknas"
 status: draft
 updated: 2026-08-23
-summary: Sidan namnger vanvård och övergrepp, men svaret är kompetensstöd och språkkrav; den som ska avlägsna en misstänkt förövare från golvet är fortfarande kommunen, utan ny makt.
+summary: Politiken namnger vanvård och övergrepp, men svaret är kompetensstöd och språkkrav; den som ska avlägsna en misstänkt förövare från golvet är fortfarande kommunen, utan ny makt.
 jurisdiction: SE
 sources:
   - title: Äldrevård
@@ -22,7 +22,7 @@ assumptions:
   - språkkrav höjer tröskeln för nyanställning mer än de avlägsnar den som redan är anställd och misstänkt
   - Äldreomsorgslyftet är stöd till kompetensutveckling, inte en inspektion och inte ett avskedande
   - kommunen är fortfarande huvudman; "prioritera högre" utan ny ram eller omfördelning betyder att något annat i budgeten får vika
-  - tystade övergrepp är ett tillsyns- och anmälningsproblem; sidan ger inget nytt tillsynsorgan
+  - tystade övergrepp är ett tillsyns- och anmälningsproblem; politiken ger inget nytt tillsynsorgan
 ---
 
 # Our understanding
@@ -35,7 +35,7 @@ Scenario: En misstänkt förövare har redan en tjänst
 Given misstänkta förövare tillåts arbeta kvar
 When hårdare språkkrav och Äldreomsorgslyftet fortsätter
 Then personal kan kompetensutvecklas och nyrekrytering kan kräva bättre svenska
-But sidan säger inte att den misstänkte ska stängas av
+But politiken säger inte att den misstänkte ska stängas av
 Outcome tryggheten för den äldre beror fortfarande på kommunens vilja att avlägsna personen
 
 Scenario: Kommunen ska prioritera äldrevården högre

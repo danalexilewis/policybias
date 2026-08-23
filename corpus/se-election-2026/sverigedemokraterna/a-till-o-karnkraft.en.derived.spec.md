@@ -27,7 +27,7 @@ lang: en
 translationOf: sverigedemokraterna-a-till-o-karnkraft-derived
 translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-7b68ba344067a493
+sourceSpecDigest: sha256-536f764af857ef25
 ---
 
 # Our understanding

@@ -25,7 +25,7 @@ gaps:
   - how large the economic loss from the closures was is not stated
 lang: en
 translationOf: sverigedemokraterna-a-till-o-karnkraft
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-b73d412aa084c39b
 ---

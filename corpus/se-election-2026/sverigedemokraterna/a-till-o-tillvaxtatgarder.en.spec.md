@@ -26,7 +26,7 @@ gaps:
   - how the reforms are financed is not stated
 lang: en
 translationOf: sverigedemokraterna-a-till-o-tillvaxtatgarder
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-90742be0d3e0216a
 ---

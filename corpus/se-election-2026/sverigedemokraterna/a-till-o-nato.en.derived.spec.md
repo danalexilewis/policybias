@@ -27,7 +27,7 @@ lang: en
 translationOf: sverigedemokraterna-a-till-o-nato-derived
 translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-0d2889d1e07274d1
+sourceSpecDigest: sha256-83f2d91cd777022c
 ---
 
 # Our understanding

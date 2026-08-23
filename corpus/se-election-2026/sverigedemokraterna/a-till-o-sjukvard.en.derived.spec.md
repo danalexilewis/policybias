@@ -27,7 +27,7 @@ lang: en
 translationOf: sverigedemokraterna-a-till-o-sjukvard-derived
 translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-f10052d4d00b433d
+sourceSpecDigest: sha256-04bb4be8328ef2b9
 ---
 
 # Our understanding

@@ -26,14 +26,14 @@ gaps:
   - a timetable for tougher checks is not stated
 lang: en
 translationOf: sverigedemokraterna-a-till-o-pliktskola
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-40e5cb63256d6e57
+sourceSpecDigest: sha256-840433f9f99b4e31
 ---
 
 # What the page states
 
-> Every child present in Sweden is to be covered by compulsory schooling and receive education. Checks are to be strengthened so that children take part in teaching and guardians take their responsibility. The page does not say how the check is carried out.
+> Every child present in Sweden is to be covered by compulsory schooling and receive education. Checks are to be strengthened so that children take part in teaching and guardians take their responsibility.
 
 System: Compulsory schooling for children present in Sweden
 

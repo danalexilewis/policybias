@@ -20,21 +20,21 @@ sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-tillvaxtatgarde
 sourceDigest: "sha256-b605a67e0f5a33a3"
 assumptions:
   - sänkt skattetryck utan namngiven bas är antingen lägre inkomstskatt, bolagsskatt, moms eller allt; incidensen skiljer sig
-  - kortare tillstånd ökar värdet på projekt som redan är lönsamma; de skapar inte av sig själva den efterfrågan sidan vill se
-  - drivkrafter från bidrag till arbete kräver att bidrag sänks, lön efter skatt höjs, eller båda; sidan säger inte vilket
+  - kortare tillstånd ökar värdet på projekt som redan är lönsamma; de skapar inte av sig själva den efterfrågan politiken vill se
+  - drivkrafter från bidrag till arbete kräver att bidrag sänks, lön efter skatt höjs, eller båda; politiken säger inte vilket
   - tillväxt i världstoppen är ett mål mot andra länders utfall, inte ett åtagande staten styr ensam
 ---
 
 # Our understanding
 
-> Agendan är bred med flit: skatt, EU, bidrag, regler, tillstånd och FoU. Det är poängen på sidan — inget enskilt grepp räcker. Utan storlek och ordning är listan en riktning. Vem som betalar sänkningen, och hur snabbt tillväxten ska synas, står inte där.
+> Agendan är bred med flit: skatt, EU, bidrag, regler, tillstånd och FoU. Det är poängen på politiken — inget enskilt grepp räcker. Utan storlek och ordning är listan en riktning. Vem som betalar sänkningen, och hur snabbt tillväxten ska synas, står inte där.
 
 System: Tillväxt som paket utan prislapp
 
 Scenario: Skattetrycket sänks utan att basen namnges
 Given skattetrycket ska sänkas för både privatpersoner och företag
 When en hushållare eller ett bolag ska räkna på nästa år
-Then sidan säger inte vilken skatt som rör sig, eller hur mycket
+Then politiken säger inte vilken skatt som rör sig, eller hur mycket
 Outcome plånboken kan bli tyngre eller nästan oförändrad; båda ryms i texten
 
 Scenario: Tillstånd kortas medan efterfrågan fortfarande är svag

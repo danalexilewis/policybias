@@ -26,7 +26,7 @@ gaps:
   - how membership of a criminal organisation is bounded against other associations is not stated
 lang: en
 translationOf: sverigedemokraterna-a-till-o-organiserad-brottslighet
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-bdcccf367ba437c3
 ---

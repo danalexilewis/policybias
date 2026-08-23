@@ -27,7 +27,7 @@ lang: en
 translationOf: sverigedemokraterna-a-till-o-tillvaxtatgarder-derived
 translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-872895140982f634
+sourceSpecDigest: sha256-199489ef5b2eff55
 ---
 
 # Our understanding

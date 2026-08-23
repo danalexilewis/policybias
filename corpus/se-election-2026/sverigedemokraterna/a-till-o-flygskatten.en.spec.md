@@ -13,7 +13,7 @@ tags:
   - taxation
 party: sverigedemokraterna
 clusters:
-  - climate-environment
+  - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-flygskatten.md
 sourceDigest: sha256-f62de7a583631378
@@ -25,9 +25,9 @@ gaps:
   - the revenue loss for the state after abolition is not stated
 lang: en
 translationOf: sverigedemokraterna-a-till-o-flygskatten
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-c81e171a9e162278
+sourceSpecDigest: sha256-10006476c174de75
 ---
 
 # What the page states

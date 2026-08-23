@@ -25,7 +25,7 @@ gaps:
   - a timetable for the named alliance shifts is not stated
 lang: en
 translationOf: sverigedemokraterna-a-till-o-nato
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-507bb1172dbddf59
 ---

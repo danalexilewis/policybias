@@ -4,7 +4,7 @@ id: sverigedemokraterna-a-till-o-asylinvandring-derived
 title: "Asylinvandring read as a system: Sverige ska sluta vara destinationen"
 status: draft
 updated: 2026-08-23
-summary: Första säkra land, avskaffat EBO och EU:s golv ska göra det mindre värt att söka sig hit; sidan säger inte vart ärendena då tar vägen eller vad golvet kostar.
+summary: Första säkra land, avskaffat EBO och EU:s golv ska göra det mindre värt att söka sig hit; politiken säger inte vart ärendena då tar vägen eller vad golvet kostar.
 jurisdiction: SE
 sources:
   - title: Asylinvandring
@@ -22,12 +22,12 @@ assumptions:
   - första säkra land flyttar prövningen till det land den sökande redan rest igenom, om det landet tar emot
   - EU:s miniminivå är ett golv andra medlemsländer kan ligga över; sänkt svensk nivå ändrar relativ attraktion, inte asylrätten i unionen
   - när EBO upphör måste staten eller kommunen hysa samma personer; institutionsplatser kostar mer per dygn än eget boende, men beloppet saknas
-  - återvändande när det är tryggt kräver avtal med hemlandet och tvång om personen vägrar; sidan nämner bara att man ska åka
+  - återvändande när det är tryggt kräver avtal med hemlandet och tvång om personen vägrar; politiken nämner bara att man ska åka
 ---
 
 # Our understanding
 
-> Asyl ska sökas någon annanstans, och villkoren här ska inte dra hit den som kan välja. EBO och ett mottagande över miniminivån är det som ska tas bort. Sidan säger inte vilket land som då tar ärendet, vad miniminivån är värd, eller hur den som inte vill återvända tvingas iväg. Destinationen ska sluta vara Sverige. Trycket försvinner inte.
+> Asyl ska sökas någon annanstans, och villkoren här ska inte dra hit den som kan välja. EBO och ett mottagande över miniminivån är det som ska tas bort. Politiken säger inte vilket land som då tar ärendet, vad miniminivån är värd, eller hur den som inte vill återvända tvingas iväg. Destinationen ska sluta vara Sverige. Trycket försvinner inte.
 
 System: Attraktion ned, prövningen någon annanstans
 
@@ -43,4 +43,4 @@ Given asylsökande kan i dag ordna eget boende
 When den möjligheten upphör
 Then mottagandet ska ner till EU:s miniminivå
 But någon måste då tillhandahålla sängplatserna som EBO inte längre bär
-Outcome kostnaden flyttar från den sökandes hyra till anläggningsboende, utan belopp på sidan
+Outcome kostnaden flyttar från den sökandes hyra till anläggningsboende, utan belopp på politiken

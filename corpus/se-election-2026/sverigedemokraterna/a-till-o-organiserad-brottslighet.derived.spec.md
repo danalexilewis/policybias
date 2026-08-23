@@ -4,7 +4,7 @@ id: sverigedemokraterna-a-till-o-organiserad-brottslighet-derived
 title: "Organiserad brottslighet read as a system: mer tid bakom lås, förbudet väntar på grundlagen"
 status: draft
 updated: 2026-08-23
-summary: Dubbla straff kan börja verka före nästa val; medlemsförbudet kan det inte, eftersom grundlagen kräver två beslut och sidan bara lovar det första.
+summary: Dubbla straff kan börja verka före nästa val; medlemsförbudet kan det inte, eftersom grundlagen kräver två beslut och politiken bara lovar det första.
 jurisdiction: SE
 sources:
   - title: Organiserad brottslighet
@@ -20,7 +20,7 @@ sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-organiserad-bro
 sourceDigest: "sha256-b2b172f20e64eac5"
 assumptions:
   - dubbla straff för gängbrott ökar tiden i anstalt; utan nya platser blir kön till fängelset trycket som hushållen inte ser
-  - gängtillhörighet måste bevisas i domstol; sidan säger inte vilket beviskrav som ska gälla
+  - gängtillhörighet måste bevisas i domstol; politiken säger inte vilket beviskrav som ska gälla
   - två grundlagsbeslut kan inte båda hinna före ett enda val om det andra ska tas av en ny riksdag
   - medlemsförbud utan legal definition av kriminell organisation riskerar att antingen bli tandlöst eller att träffa vidare än gäng
 ---
@@ -35,7 +35,7 @@ Scenario: Dubbla straff börjar gälla medan anstaltsplatserna är desamma
 Given straffen redan skärpts för flera brott som gängkriminella begår
 When dubbla straff införs för gängbrott
 Then fler dömda ska sitta inne längre
-But sidan säger inte var de ska sitta
+But politiken säger inte var de ska sitta
 Outcome tiden bakom lås ökar; kapaciteten i anstalt är en tyst begränsning
 
 Scenario: Det första grundlagsbeslutet tas före valet

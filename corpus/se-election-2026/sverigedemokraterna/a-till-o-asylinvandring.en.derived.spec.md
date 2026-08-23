@@ -27,7 +27,7 @@ lang: en
 translationOf: sverigedemokraterna-a-till-o-asylinvandring-derived
 translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-bc46fe6751544d40
+sourceSpecDigest: sha256-7ca5a26fbf1a8a64
 ---
 
 # Our understanding

@@ -23,7 +23,7 @@ gaps:
   - how large the climate bonus for electric cars becomes, and where the cap against expensive cars sits, is not stated
   - how the AP funds are to wind down fossil holdings without lowering pensions is not stated
 translationOf: vansterpartiet-var-politik-politik-a-o-klimat
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-e17a5b0595c37733
 lang: en

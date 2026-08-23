@@ -41,6 +41,6 @@ And oligopolskatt tas ut på bankernas övervinster
 And skattereduktion ges för avgift till fackförening
 And fordonsskatten höjs på stora energislukande bilar
 Output 470 miljarder kronor i mindre skatteinkomster varje år under 2000-talet som baslinje
-And ingen som tjänar under 50 tusen kr i månaden får höjd skatt
+And ingen som tjänar under 50 000 kr i månaden får höjd skatt
 Outcome välfärden och det offentliga åtagandet finansieras, och klyftor i konsumtion och sparande jämnas ut
 Activates vansterpartiet-var-politik-politik-a-o-klimat

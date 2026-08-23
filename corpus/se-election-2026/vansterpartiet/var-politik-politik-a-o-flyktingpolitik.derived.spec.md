@@ -4,7 +4,7 @@ id: vansterpartiet-var-politik-politik-a-o-flyktingpolitik-derived
 title: "Permanent status läst som system: familjeåterförening utan inkomstprov landar på ett osäkrat bostadsbestånd"
 status: draft
 updated: 2026-08-23
-summary: Att ta bort bostads- och inkomstprov för återförening ökar vilka som kan komma; sidan finansierar integration via generell välfärd och dimensionerar aldrig extra bostäder eller skolplatser.
+summary: Att ta bort bostads- och inkomstprov för återförening ökar vilka som kan komma; politiken finansierar integration via generell välfärd och dimensionerar aldrig extra bostäder eller skolplatser.
 jurisdiction: SE
 sources:
   - title: Flyktingpolitik
@@ -19,7 +19,7 @@ money: no-figure
 sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-flyktingpolitik.md
 derivesFrom: vansterpartiet-var-politik-politik-a-o-flyktingpolitik
 assumptions:
-  - permanens behandlas som orsaken till språkinlärning; många behöver ändå undervisning och arbete som sidan inte specificerar
+  - permanens behandlas som orsaken till språkinlärning; många behöver ändå undervisning och arbete som politiken inte specificerar
   - att slopa försörjnings- och bostadskrav höjer återföreningsvolymen relativt en behovsprövad regel
   - generell skattefinansierad välfärd bär då både nyanlända och alla som redan är här, så merbelastningen är en finanspolitisk restpost
   - en rättvis asylprövning utan angiven handläggningstid lämnar människor i ovisshet medan de väntar

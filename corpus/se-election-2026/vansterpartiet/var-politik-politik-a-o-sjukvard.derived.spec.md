@@ -4,7 +4,7 @@ id: vansterpartiet-var-politik-politik-a-o-sjukvard-derived
 title: "Behovsstyrd vård läst som system: ett vinstfilter utan säng- eller personalräkning"
 status: draft
 updated: 2026-08-23
-summary: Att stänga vinstsyftande företag ute från kärnvården flyttar restefterfrågan till kvarvarande utförare som sidan redan säger saknar vårdplatser.
+summary: Att stänga vinstsyftande företag ute från kärnvården flyttar restefterfrågan till kvarvarande utförare som politiken redan säger saknar vårdplatser.
 jurisdiction: SE
 sources:
   - title: Sjukvård
@@ -20,14 +20,14 @@ derivesFrom: vansterpartiet-var-politik-politik-a-o-sjukvard
 assumptions:
   - ett vinstförbud i kärnvården skapar inte i sig vårdplatser eller personal; kvarvarande offentlig och ideell kapacitet absorberar den undanträngda caseloaden
   - mer pengar i stället för skattesänkningar för höginkomsttagare är ett öppet krav tills en krona eller ett vårdtalsmål namnges
-  - uppsökande arbete i utsatta områden och glesa regioner konkurrerar båda om samma knappa personal sidan vill behålla
-  - köer till privat försäkring krymper bara om det offentliga erbjudandet blir lika snabbt; sidan anger prioriteringsregeln, inte väntetiden
+  - uppsökande arbete i utsatta områden och glesa regioner konkurrerar båda om samma knappa personal politiken vill behålla
+  - köer till privat försäkring krymper bara om det offentliga erbjudandet blir lika snabbt; politiken anger prioriteringsregeln, inte väntetiden
 sourceDigest: "sha256-305070f2abf28851"
 ---
 
 # Our understanding
 
-> Ett vinstfilter ändrar vem som får behandla, inte hur många som kan behandlas. Sidan säger redan att Sverige ligger i EU-botten för vårdplatser, så att stänga vinstsyftande företag ute från kärnvården belastar kvarvarande avdelningar om inte personal och platser tillförs i tal politiken aldrig namnger.
+> Ett vinstfilter ändrar vem som får behandla, inte hur många som kan behandlas. Politiken säger redan att Sverige ligger i EU-botten för vårdplatser, så att stänga vinstsyftande företag ute från kärnvården belastar kvarvarande avdelningar om inte personal och platser tillförs i tal politiken aldrig namnger.
 
 System: Behovsstyrd vård som ett kapacitetskrav utan personalräkning
 

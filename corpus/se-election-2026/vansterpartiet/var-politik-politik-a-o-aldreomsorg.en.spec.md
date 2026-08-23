@@ -25,7 +25,7 @@ gaps:
   - whether the five starting points apply even without the commission's report is not stated
   - how special housing is to be expanded when places have fallen since the 2000s is not stated
 translationOf: vansterpartiet-var-politik-politik-a-o-aldreomsorg
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-db17b17d2a41e4dc
 lang: en

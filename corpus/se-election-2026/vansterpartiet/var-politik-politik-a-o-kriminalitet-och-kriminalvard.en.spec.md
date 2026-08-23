@@ -23,7 +23,7 @@ gaps:
   - how large the national commission of inquiry becomes, and with what mandate, is not stated
   - how overcrowded prisons are to be relieved if some sentences are tightened at the same time is not stated
 translationOf: vansterpartiet-var-politik-politik-a-o-kriminalitet-och-kriminalvard
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-7f1a5cbba83f61e8
 lang: en
@@ -31,7 +31,7 @@ lang: en
 
 # What the page states
 
-> Crime prevention starts with welfare that catches young people early; society still sets punishment that matches the seriousness of the crime, without general tightening. Recruitment of children is to be stopped with school, social services, Sluta skjut across the country and a stop for drugs and weapons at the border. The prison service is in crisis with overcrowded remand prisons, so in-slucing, exit programmes and forensic psychiatry with special discharge review are to carry the relapse — not warehousing.
+> Crime prevention starts with welfare that catches young people early; society still sets punishment that matches the seriousness of the crime, without general tightening. Recruitment of children is to be stopped with school, social services, Sluta skjut across the country and a stop for drugs and weapons at the border. The prison service is in crisis with overcrowded remand prisons, so re-entry, exit programmes and forensic psychiatry with special discharge review are to carry the relapse — not warehousing.
 
 System: Welfare against recruitment and punishment according to seriousness
 

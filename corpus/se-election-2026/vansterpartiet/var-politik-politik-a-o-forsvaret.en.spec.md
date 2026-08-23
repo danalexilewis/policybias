@@ -23,7 +23,7 @@ gaps:
   - how a nuclear-weapons ban is reconciled with NATO membership's exercises and transits is not stated
   - how permanent foreign bases are defined against temporary presence is not stated
 translationOf: vansterpartiet-var-politik-politik-a-o-forsvaret
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-020a76c2f36705c6
 lang: en

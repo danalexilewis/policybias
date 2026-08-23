@@ -24,7 +24,7 @@ gaps:
   - how the tax on network excess profits defines excess profit is not stated
   - how much the national grid is to cost, and who pays until it is built, is not stated
 translationOf: vansterpartiet-var-politik-politik-a-o-elpriset
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-672f7805399fd70d
 lang: en

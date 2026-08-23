@@ -22,13 +22,13 @@ assumptions:
   - physical flows on interconnectors continue even if export is billed in a fifth zone; EU market rules may constrain the split
   - a cap at 75 öre with 90 percent cover above it leaves households paying one tenth of the spike plus the insurance levy once firms pass it through
   - an industry levy is not free; it can sit in future retail tariffs or in delayed investment
-  - a tax on grid excess profit needs a definition of excess; too tight a tax can slow the same grid build the page wants in public hands
+  - a tax on grid excess profit needs a definition of excess; too tight a tax can slow the same grid build the policy wants in public hands
 sourceDigest: sha256-311b30b8c1e99221
 lang: en
 translationOf: vansterpartiet-var-politik-politik-a-o-elpriset-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-86676df4f8b261dd
+sourceSpecDigest: sha256-228c36ea8b949dbd
 ---
 
 # Our understanding

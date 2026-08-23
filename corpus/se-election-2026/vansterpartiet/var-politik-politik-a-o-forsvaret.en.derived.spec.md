@@ -25,7 +25,7 @@ assumptions:
 sourceDigest: sha256-7b493b49615891c9
 lang: en
 translationOf: vansterpartiet-var-politik-politik-a-o-forsvaret-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-9ae58a55beb6c69e
 ---
@@ -37,7 +37,7 @@ sourceSpecDigest: sha256-9ae58a55beb6c69e
 System: Alliance membership with a thinner host-nation offer
 
 Scenario: A nuclear ban meets alliance planning
-Given membership in Nato cannot replace the home force
+Given membership in NATO cannot replace the home force
 When a new law forbids nuclear weapons on Swedish territory
 Then transit, visits and storage need a legal answer
 Outcome the Nordic nuclear-free zone is the political line

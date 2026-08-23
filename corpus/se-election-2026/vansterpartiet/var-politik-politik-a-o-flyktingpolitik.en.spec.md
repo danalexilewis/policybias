@@ -24,7 +24,7 @@ gaps:
   - how long an asylum examination is to take is not stated
   - what applies to anyone who is refused is not stated
 translationOf: vansterpartiet-var-politik-politik-a-o-flyktingpolitik
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-fff22211fce9211f
 lang: en

@@ -23,9 +23,9 @@ gaps:
   - how large the green ROT deduction becomes compared with today's ROT is not stated
   - how much vehicle tax is raised on energy-hungry cars is not stated
 translationOf: vansterpartiet-var-politik-politik-a-o-skattepolitik
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-975a0f15fa1cbc3c
+sourceSpecDigest: sha256-77d671d64e8d2aca
 lang: en
 ---
 
@@ -46,6 +46,6 @@ And an oligopoly tax is taken on the banks' excess profits
 And a tax reduction is given for a trade-union fee
 And vehicle tax is raised on large energy-hungry cars
 Output 470 billion kronor in lower tax revenue every year during the 2000s as a baseline
-And no one who earns under 50 thousand kr a month gets a tax rise
+And no one who earns under 50,000 kr a month gets a tax rise
 Outcome welfare and the public commitment are funded, and gaps in consumption and saving are evened out
 Activates vansterpartiet-var-politik-politik-a-o-klimat

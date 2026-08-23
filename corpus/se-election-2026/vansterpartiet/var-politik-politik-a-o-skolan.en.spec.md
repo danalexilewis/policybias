@@ -23,7 +23,7 @@ gaps:
   - how the state distributes money between schools when principalship returns is not stated
   - how many teachers are to return, and at what pay, is not stated
 translationOf: vansterpartiet-var-politik-politik-a-o-skolan
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-ec4dc4308660cf70
 lang: en

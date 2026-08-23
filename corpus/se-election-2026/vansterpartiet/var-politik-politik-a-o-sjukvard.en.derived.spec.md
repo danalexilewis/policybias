@@ -4,7 +4,7 @@ id: vansterpartiet-var-politik-politik-a-o-sjukvard-derived
 title: "Need-based care read as a system: a profit screen without a bed or staff count"
 status: draft
 updated: 2026-08-23
-summary: Barring profit-seeking firms from core care shifts residual demand onto remaining providers that the page already says are short of beds.
+summary: Barring profit-seeking firms from core care shifts residual demand onto remaining providers that the policy already says are short of beds.
 jurisdiction: SE
 sources:
   - title: Sjukvård
@@ -19,20 +19,20 @@ sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-sjukv
 derivesFrom: vansterpartiet-var-politik-politik-a-o-sjukvard
 assumptions:
   - a ban on profit in core care does not by itself create beds or staff; remaining public and non-profit capacity absorbs the displaced caseload
-  - more money instead of tax cuts for high earners is an open-ended claim until a krone figure or a bed target is named
-  - outreach in deprived areas and thin regions both compete for the same scarce staff the page wants to retain
-  - private insurance queues shrink only if the public offer becomes as fast; the page states the priority rule, not the wait
+  - more money instead of tax cuts for high earners is an open-ended claim until a kronor figure or a bed target is named
+  - outreach in deprived areas and thin regions both compete for the same scarce staff the policy wants to retain
+  - private insurance queues shrink only if the public offer becomes as fast; the policy states the priority rule, not the wait
 sourceDigest: sha256-305070f2abf28851
 lang: en
 translationOf: vansterpartiet-var-politik-politik-a-o-sjukvard-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-39e88629848048d3
+sourceSpecDigest: sha256-3ad9aa7489dad8bb
 ---
 
 # Our understanding
 
-> A profit screen changes who is allowed to treat, not how many people can be treated. The page already says Sweden sits at the bottom of the EU for beds, so shutting profit-seeking firms out of core care loads remaining wards unless staff and places are added in numbers the policy never names.
+> A profit screen changes who is allowed to treat, not how many people can be treated. The policy already says Sweden sits at the bottom of the EU for beds, so shutting profit-seeking firms out of core care loads remaining wards unless staff and places are added in numbers the policy never names.
 
 System: Need-based care as a capacity claim without a headcount
 

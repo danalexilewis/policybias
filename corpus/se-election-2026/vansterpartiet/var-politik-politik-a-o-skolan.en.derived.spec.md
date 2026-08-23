@@ -4,7 +4,7 @@ id: vansterpartiet-var-politik-politik-a-o-skolan-derived
 title: "School profit ban read as a system: sorting can survive if choice stays"
 status: draft
 updated: 2026-08-23
-summary: Ending profit extracts cash from chains, but the page names free school choice as the sorting engine and never says whether choice itself ends.
+summary: Ending profit extracts cash from chains, but the policy names free school choice as the sorting engine and never says whether choice itself ends.
 jurisdiction: SE
 sources:
   - title: Skolan
@@ -19,20 +19,20 @@ sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-skola
 derivesFrom: vansterpartiet-var-politik-politik-a-o-skolan
 assumptions:
   - a profit ban stops dividends; it does not by itself mix pupils if families still pick between schools
-  - the page treats free school choice as a cause of segregation, yet the intervention it names is profit, state control, and neighbourhood trust
+  - the policy treats free school choice as a cause of segregation, yet the intervention it names is profit, state control, and neighbourhood trust
   - state takeover reallocates between municipalities only once a formula exists; none is printed
-  - more resources after decades of cuts is unbounded until a krone or a teacher headcount is named
+  - more resources after decades of cuts is unbounded until a kronor or a teacher headcount is named
 sourceDigest: sha256-34bb3a0c3dee79cd
 lang: en
 translationOf: vansterpartiet-var-politik-politik-a-o-skolan-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
-sourceSpecDigest: sha256-7a85fc367182a384
+sourceSpecDigest: sha256-b0d49c2dcd8a899b
 ---
 
 # Our understanding
 
-> Cash leaving school groups is not the same as pupils mixing. The page says free choice gathers different backgrounds on different schools, then answers with a profit ban and a state principal. If choice remains, sorting can continue on a non-profit basis while the neighbourhood-school promise still has to be funded.
+> Cash leaving school groups is not the same as pupils mixing. The policy says free choice gathers different backgrounds on different schools, then answers with a profit ban and a state principal. If choice remains, sorting can continue on a non-profit basis while the neighbourhood-school promise still has to be funded.
 
 System: Profit ban beside an unnamed choice rule
 

@@ -27,13 +27,13 @@ sourceDigest: "sha256-e865926055e71dc0"
 
 # Our understanding
 
-> Sidans stora tal är vad som gick förlorat, inte vad de nya verktygen tar in. En löntagare under 50 000 kronor i månaden utlovas ingen höjning; banker, grönt rot och törstiga bilar ombeds betala utan publicerade satser. Att likställa skatt på ersättning och lön är en rättviseregel vars kronor per person politiken inte visar.
+> Politikens stora tal är vad som gick förlorat, inte vad de nya verktygen tar in. En löntagare under 50 000 kronor i månaden utlovas ingen höjning; banker, grönt rot och törstiga bilar ombeds betala utan publicerade satser. Att likställa skatt på ersättning och lön är en rättviseregel vars kronor per person politiken inte visar.
 
 System: Ett löneskydd bredvid osatta avgifter
 
 Scenario: En blygsam lön hålls skadeslös medan andra baser kläms
-Given 470 miljarder kronor om året är sidans bild av intäkter som redan avståtts
-And lön under 50 tusen kronor i månaden inte får se en höjning
+Given 470 miljarder kronor om året är politikens bild av intäkter som redan avståtts
+And lön under 50 000 kronor i månaden inte får se en höjning
 When skatterna i punktlistan slås på
 Then varje reparation av baslinjen måste komma från banker, hög lön, kapital, utformning av fackavdragsavlastning, grönt rot och fordonsskatt
 Outcome en person under månadslinjen behåller sin sats
@@ -41,7 +41,7 @@ But en bankkund eller förare av en stor bil kan betala via priser om företagen
 Activates vansterpartiet-var-politik-politik-a-o-klimat
 
 Scenario: Ersättningsinkomst linjeras mot löneskatt utan en publicerad tabell
-Given sjukpenning, arbetslöshet och sjukersättning beskattas tyngre än lön i dag enligt sidans berättelse
+Given sjukpenning, arbetslöshet och sjukersättning beskattas tyngre än lön i dag enligt politikens berättelse
 When lika skatt på lika inkomst återkommer
 Then de hushållen behåller mer av en given bruttoersättning
 Outcome arbete och icke-arbete behandlas lika i kassan

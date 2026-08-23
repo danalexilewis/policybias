@@ -23,7 +23,7 @@ gaps:
   - how the profit ban is drawn against contracting outside the core service is not stated
   - how outreach health checks in vulnerable areas are staffed is not stated
 translationOf: vansterpartiet-var-politik-politik-a-o-sjukvard
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-4c00cc4d01b6ee12
 lang: en

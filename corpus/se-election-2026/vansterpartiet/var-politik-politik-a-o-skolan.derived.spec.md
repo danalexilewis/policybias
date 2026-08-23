@@ -4,7 +4,7 @@ id: vansterpartiet-var-politik-politik-a-o-skolan-derived
 title: "Skolvinstförbud läst som system: sortering kan överleva om valet finns kvar"
 status: draft
 updated: 2026-08-23
-summary: Att stoppa vinst plockar ut kassa från koncernerna, men sidan namnger det fria skolvalet som sorteringsmotorn och säger aldrig om valet i sig upphör.
+summary: Att stoppa vinst plockar ut kassa från koncernerna, men politiken namnger det fria skolvalet som sorteringsmotorn och säger aldrig om valet i sig upphör.
 jurisdiction: SE
 sources:
   - title: Skolan
@@ -19,7 +19,7 @@ sourcePath: corpus/se-election-2026/vansterpartiet/var-politik-politik-a-o-skola
 derivesFrom: vansterpartiet-var-politik-politik-a-o-skolan
 assumptions:
   - ett vinstförbud stoppar utdelning; det blandar inte i sig elever om familjer fortfarande väljer mellan skolor
-  - sidan behandlar det fria skolvalet som orsak till segregation, men interventionen den namnger är vinst, statlig styrning och tillit till närområdet
+  - politiken behandlar det fria skolvalet som orsak till segregation, men interventionen den namnger är vinst, statlig styrning och tillit till närområdet
   - statligt övertagande omfördelar mellan kommuner först när en formel finns; ingen är tryckt
   - mer resurser efter årtionden av nedskärningar är obegränsat tills en krona eller ett lärarantal namnges
 sourceDigest: "sha256-34bb3a0c3dee79cd"
@@ -27,7 +27,7 @@ sourceDigest: "sha256-34bb3a0c3dee79cd"
 
 # Our understanding
 
-> Pengar som lämnar skolkoncerner är inte detsamma som att elever blandas. Sidan säger att det fria valet samlar olika bakgrunder på olika skolor, och svarar med vinstförbud och statlig huvudman. Om valet finns kvar kan sorteringen fortsätta på ideell bas medan löftet om närområdesskolan ändå måste finansieras.
+> Pengar som lämnar skolkoncerner är inte detsamma som att elever blandas. Politiken säger att det fria valet samlar olika bakgrunder på olika skolor, och svarar med vinstförbud och statlig huvudman. Om valet finns kvar kan sorteringen fortsätta på ideell bas medan löftet om närområdesskolan ändå måste finansieras.
 
 System: Vinstförbud bredvid en onämnd valregel
 

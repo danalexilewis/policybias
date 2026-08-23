@@ -22,7 +22,7 @@ assumptions:
   - fysiska flöden på utlandsförbindelserna fortsätter även om exporten faktureras i en femte zon; EU:s marknadsregler kan begränsa splitten
   - ett tak på 75 öre med 90 procents täckning däröver lämnar hushållen med en tiondel av toppen plus försäkringsavgiften när företagen vältrar över den
   - en branschavgift är inte gratis; den kan sitta i framtida slutkundstariffer eller i uppskjuten investering
-  - en skatt på elnätsövervinst behöver en definition av övervinst; en för tajt skatt kan sakta samma nätbygge som sidan vill ha i offentlig regi
+  - en skatt på elnätsövervinst behöver en definition av övervinst; en för tajt skatt kan sakta samma nätbygge som politiken vill ha i offentlig regi
 sourceDigest: "sha256-311b30b8c1e99221"
 ---
 

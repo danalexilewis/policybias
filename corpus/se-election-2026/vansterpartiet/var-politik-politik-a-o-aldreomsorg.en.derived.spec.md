@@ -27,7 +27,7 @@ assumptions:
 sourceDigest: sha256-53a34fd2ce521559
 lang: en
 translationOf: vansterpartiet-var-politik-politik-a-o-aldreomsorg-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-acba758a6fa8bee1
 ---

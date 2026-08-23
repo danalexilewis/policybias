@@ -26,7 +26,7 @@ assumptions:
 sourceDigest: sha256-6876b95dcbc56cc2
 lang: en
 translationOf: vansterpartiet-var-politik-politik-a-o-klimat-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-1a67d368a68b65d3
 ---

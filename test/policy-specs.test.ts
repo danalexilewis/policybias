@@ -18,6 +18,8 @@ import {
   findMarkupInSpec,
   hasNumber,
   isFrameProse,
+  detectProseLanguage,
+  checkSpecLanguage,
   normaliseHaystack,
   proseCoverage,
   sourceUrlsOf,
@@ -96,6 +98,19 @@ describe('figure extraction', () => {
     expect(hasNumber('280 departments', '28')).toBe(false)
     expect(hasNumber('a rate of 1.28 percent', '28')).toBe(false)
     expect(hasNumber('a rate of 28 percent', '28')).toBe(true)
+  })
+
+  it('reads Swedish decimal commas and space thousands', () => {
+    expect(extractNumbers('1,7 miljarder kronor')).toEqual(['1.7'])
+    expect(extractNumbers('50 000 kronor a month')).toEqual(['50000'])
+    expect(extractNumbers('19,3 % base blend')).toEqual(['19.3'])
+    expect(extractNumbers('1 234,5 tonnes')).toEqual(['1234.5'])
+    expect(extractNumbers('2,4 miljarder')).toEqual(['2.4'])
+  })
+
+  it('matches a Swedish page figure against a canonical token', () => {
+    expect(hasNumber(normaliseHaystack('Regeringen har avsatt 1,7 miljarder'), '1.7')).toBe(true)
+    expect(hasNumber(normaliseHaystack('ingen som tjänar under 50 000 kr'), '50000')).toBe(true)
   })
 })
 
@@ -581,5 +596,36 @@ describe('the authored spec tree', () => {
     for (const entry of specs.filter((candidate) => candidate.kind === 'derived')) {
       expect(stated).toContain(`${entry.party}/${entry.slug}`)
     }
+  })
+})
+
+describe('spec language', () => {
+  it('detects Swedish vs English function words', () => {
+    expect(detectProseLanguage('Politiken sänker skatten och hushållen får mer kvar')).toBe('sv')
+    expect(detectProseLanguage('The policy cuts tax and the household keeps more')).toBe('en')
+  })
+
+  it('flags an English body on a canonical Swedish spec', () => {
+    const raw = spec(`# Our understanding
+
+> The page's arithmetic identity is a green tax shift without a rate.
+
+Scenario: A household files a return
+Given a tax cut financed by environmental tax
+When the household files its return
+Then take-home pay after bills can rise or fall
+`)
+    const file: SpecFile = {
+      party: 'centerpartiet',
+      slug: 'ekonomi',
+      kind: 'derived',
+      lang: null,
+      absolutePath: 'x',
+      repoPath: 'corpus/se-election-2026/centerpartiet/ekonomi.derived.spec.md',
+      raw,
+      document: parse(raw)
+    }
+    const problems = checkSpecLanguage(file, 'se-election-2026')
+    expect(problems.some((problem) => problem.code === 'spec_language_mismatch')).toBe(true)
   })
 })

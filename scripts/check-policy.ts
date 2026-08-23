@@ -18,7 +18,7 @@ import { basename, dirname, join, relative, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import YAML from 'yaml'
 import { parseFile, type GurkiDocument } from 'gurki'
-import { EVENT_IDS } from '../src/event/events.ts'
+import { EVENT_IDS, EVENT_LANGS, type EventId, type Lang } from '../src/event/events.ts'
 import { extrapolatedLines, findMarkerProblems } from './extrapolated.ts'
 
 const REPO_ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
@@ -48,6 +48,7 @@ type DumpPage = {
   money: string
   tags: string[]
   sourceUrl: string
+  canonicalUrl: string
   body: string
 }
 
@@ -167,6 +168,7 @@ function loadDumpPages(parties: string[]): DumpPage[] {
         money: String(frontmatter.money ?? ''),
         tags: Array.isArray(frontmatter.tags) ? frontmatter.tags.map(String) : [],
         sourceUrl: String(frontmatter.sourceUrl ?? ''),
+        canonicalUrl: String(frontmatter.canonicalUrl ?? ''),
         body: bodyAfterFrontmatter(raw)
       })
     }
@@ -248,22 +250,43 @@ export function expectedId(party: string, slug: string, kind: SpecKind = 'stated
   return `${party}-${normalised}${suffix}`
 }
 
+const NUMBER_TOKEN = /\d(?:[\d\u00a0\u2009 .,]*\d)?/g
+
 /**
- * Numbers as a reader would see them: 28, 1,500, 3.46, 0.06.
+ * Numbers as a reader would see them: 28, 1,500, 3.46, 1,7, 50 000, 19,3.
  * Words like "nine" are not checked; the digits alongside them are.
  */
 export function extractNumbers(text: string): string[] {
-  const matches = text.match(/\d[\d,]*(?:\.\d+)?/g) ?? []
-  return matches.map(normaliseNumber).filter((value) => value.length > 0)
+  const matches = text.match(NUMBER_TOKEN) ?? []
+  return matches.map(canonNumber).filter((value) => value.length > 0)
 }
 
-function normaliseNumber(value: string): string {
-  return value.replace(/,/g, '').replace(/\.0+$/, '').replace(/^0+(?=\d)/, '')
+/** Canonical form: no thousands separators, decimal as `.`, trailing .0 stripped. */
+export function canonNumber(raw: string): string {
+  let token = raw.replace(/[\u00a0\u2009]/g, ' ').trim()
+  token = token.replace(/(?<=\d) (?=\d{3}(?:\D|$))/g, '')
+  const lastComma = token.lastIndexOf(',')
+  const lastDot = token.lastIndexOf('.')
+  if (lastComma >= 0 && lastDot >= 0) {
+    token =
+      lastComma > lastDot
+        ? token.replace(/\./g, '').replace(',', '.')
+        : token.replace(/,/g, '')
+  } else if (lastComma >= 0) {
+    const after = token.slice(lastComma + 1)
+    token = /^\d{1,2}$/.test(after)
+      ? `${token.slice(0, lastComma).replace(/,/g, '')}.${after}`
+      : token.replace(/,/g, '')
+  }
+  return token.replace(/\.0+$/, '').replace(/^0+(?=\d)/, '')
 }
 
-/** Page text with thousands separators removed, so 1,500 matches 1500. */
+/** Page text with every number token in canonical form, so 1,7 matches 1.7 and 50 000 matches 50000. */
 export function normaliseHaystack(text: string): string {
-  return text.replace(/(\d),(?=\d{3}\b)/g, '$1')
+  return text.replace(NUMBER_TOKEN, (token) => {
+    const canonical = canonNumber(token)
+    return canonical.length > 0 ? canonical : token
+  })
 }
 
 /** 28 must not be satisfied by 280 or by 1.28. */
@@ -334,6 +357,95 @@ const STOPWORDS = new Set([
   'kan', 'ska', 'skulle', 'måste', 'får', 'ha', 'har', 'hade', 'bli', 'blir', 'blev',
   'man',
 ])
+
+const SV_MARKERS = new Set([
+  'och', 'att', 'inte', 'för', 'som', 'ska', 'med', 'kan', 'vill', 'är', 'det',
+  'den', 'utan', 'från', 'blir', 'anges', 'har', 'till', 'politiken', 'hushåll',
+  'när', 'sedan', 'eller', 'också', 'måste', 'får', 'mot', 'vid', 'efter',
+])
+const EN_MARKERS = new Set([
+  'the', 'and', 'that', 'not', 'which', 'with', 'from', 'without', 'policy',
+  'household', 'when', 'then', 'this', 'than', 'into', 'after', 'before',
+  'should', 'shall', 'must', 'onto', 'under', 'over',
+])
+
+export function detectProseLanguage(text: string): 'sv' | 'en' | 'unknown' {
+  const words = text
+    .toLowerCase()
+    .replace(/[^a-zà-öø-ÿ]+/gi, ' ')
+    .split(/\s+/)
+    .filter((word) => word.length >= 2)
+  let swedish = 0
+  let english = 0
+  for (const word of words) {
+    if (SV_MARKERS.has(word)) {
+      swedish += 1
+    }
+    if (EN_MARKERS.has(word)) {
+      english += 1
+    }
+  }
+  if (swedish < 3 && english < 3) {
+    return 'unknown'
+  }
+  if (swedish >= english * 2) {
+    return 'sv'
+  }
+  if (english >= swedish * 2) {
+    return 'en'
+  }
+  return 'unknown'
+}
+
+export function specProseForLanguage(spec: SpecFile): string {
+  const frontmatter = spec.document.frontmatter
+  const extensions = (frontmatter?.extensions ?? {}) as Record<string, unknown>
+  const parts: string[] = [frontmatter?.title ?? '', frontmatter?.summary ?? '']
+  for (const key of ['gaps', 'assumptions'] as const) {
+    const list = extensions[key]
+    if (Array.isArray(list)) {
+      parts.push(...list.map(String))
+    }
+  }
+  parts.push(...quotedLinesOf(spec.raw))
+  for (const system of spec.document.systems) {
+    parts.push(system.title)
+  }
+  for (const scenario of spec.document.scenarios) {
+    parts.push(scenario.title)
+    for (const step of scenario.steps) {
+      parts.push(step.text)
+    }
+  }
+  return parts.join('\n')
+}
+
+export function checkSpecLanguage(spec: SpecFile, eventId: string): Problem[] {
+  const langs = eventId === 'nz-election-2026' || eventId === 'se-election-2026'
+    ? EVENT_LANGS[eventId]
+    : undefined
+  if (!langs) {
+    return []
+  }
+  const expected: Lang = spec.lang === 'en' || spec.lang === 'sv' || spec.lang === 'mi'
+    ? spec.lang
+    : langs.canonical
+  if (expected !== 'en' && expected !== 'sv') {
+    return []
+  }
+  const detected = detectProseLanguage(specProseForLanguage(spec))
+  if (detected === 'unknown' || detected === expected) {
+    return []
+  }
+  return [
+    {
+      level: 'error',
+      code: 'spec_language_mismatch',
+      message: `Spec body reads as ${detected} but should be ${expected}`,
+      path: spec.repoPath
+    }
+  ]
+}
 
 export function contentWords(text: string): string[] {
   return normaliseProse(text)
@@ -669,7 +781,10 @@ function checkFrontmatter(
   const urls = (frontmatter?.sources ?? []).map((source) =>
     typeof source === 'string' ? source : (source.url ?? '')
   )
-  if (page.sourceUrl && !urls.includes(page.sourceUrl)) {
+  const sourceListed =
+    (page.sourceUrl && urls.includes(page.sourceUrl)) ||
+    (page.canonicalUrl && urls.includes(page.canonicalUrl))
+  if (page.sourceUrl && !sourceListed) {
     fail('source_url_missing', `sources should include the page url ${page.sourceUrl}`)
   }
 
@@ -897,6 +1012,7 @@ function checkEvent(event: string, options: Options): Problem[] {
     const page = pageByRepoPath.get(sourcePath)
 
     problems.push(...checkFrontmatter(spec, page, clusterIds, statedIds))
+    problems.push(...checkSpecLanguage(spec, event))
     if (!page) {
       continue
     }

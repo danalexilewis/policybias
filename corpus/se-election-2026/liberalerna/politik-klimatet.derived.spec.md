@@ -1,10 +1,10 @@
 ---
 type: spec
 id: liberalerna-politik-klimatet-derived
-title: Klimatet behöver en effektiv politik. Liberalerna är alliansens grönaste röst! (reading)
+title: "Avskiljningsmål läst som system: volym utan byggherre"
 status: draft
-updated: 2026-08-22
-summary: Our reading of Klimatet behöver en effektiv politik. Liberalerna är alliansens grönaste röst!
+updated: 2026-08-23
+summary: Tio miljoner ton sedan tjugo miljoner ton avskild koldioxid är ett anläggningsprogram som vilar på kärnkraft, vind och sol som sidan bara namnger som mix, inte som utbyggnadstakt.
 jurisdiction: SE
 sources:
   - title: Klimatet behöver en effektiv politik. Liberalerna är alliansens grönaste röst!
@@ -17,20 +17,34 @@ clusters:
   - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-klimatet.md
-sourceDigest: sha256-00a66d4078fc1985
+sourceDigest: "sha256-00a66d4078fc1985"
 assumptions:
-  - the page is the 2026 campaign position unless it says otherwise
+  - att avskilja 10 miljoner ton kräver anläggningar, rör och lager som inte finns i den skalan i Sverige i dag
+  - biomassa-baserad avskiljning som ger negativa utsläpp konkurrerar med samma biomassa som används för värme och bränsle
+  - tillväxt-först klimatpolitik skjuter upp nedskärningar som skulle krympa en fossil aktivitet i år
+  - kärnkraft, vind och sol som trio behöver fortfarande lokalisering och nät; sidan behandlar mixen som svaret
 ---
 
 # Our understanding
 
-> The party states a direction. Figures that are not on the page are not invented here.
+> Avskiljningsmålen är ett byggprogram. Tio miljoner ton är inte en önskan, det är tankar, rör och en köpare av lagring. Tillväxt som metod betyder att fossil aktivitet kan stiga under tiden om avskiljningen kommer sent. Elmixen namnges; utbyggnadstakten gör det inte.
 
-System: Klimatet behöver en effektiv politik. Liberalerna är alliansens grönaste röst!
+System: Ton avskiljning på en obyggd stack
 
-Scenario: A reader takes the page at its word
-Given the matching stated spec
-When the policy is read as a system
-Then the intervention is what the page names
-Output no figure is added that the page does not print
-Outcome the derived face does not blend with the stated face
+Scenario: Det första avskiljningsmålet kommer före anläggningarna
+Given målet är att avskilja 10 miljoner ton CO2
+And stora volymer CO2 ska avskiljas och lagras
+When kalenderåret för det första målet kommer
+Then avskild koldioxid ska lämna atmosfären
+Outcome negativa utsläpp kräver biomassa plus lagring, inte en pressrad
+But sidan namnger inte vem som bygger eller betalar anläggningarna
+# extrapolated: 0 är räkning från anläggningar som ännu inte står på sidan
+Output 0 ton avskilda om ingen anläggning kör
+
+Scenario: Fossila bränslen ersätts medan energianvändningen stiger
+Given kol olja och gas måste ersättas av fossilfri energi
+And många människor runt om i världen behöver använda mycket mer energi
+When sol vind och kärnkraft byggs ut tillsammans
+Then tillförlitlig fossilfri el är gångjärnet i den svenska planen
+Outcome industrin kan växa utan ny fossil förbränning bara om den elen faktiskt kommer
+Activates liberalerna-politik-karnkraft

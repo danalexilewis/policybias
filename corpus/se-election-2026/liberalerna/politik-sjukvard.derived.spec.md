@@ -1,10 +1,10 @@
 ---
 type: spec
 id: liberalerna-politik-sjukvard-derived
-title: Sjukvård – Liberalerna (reading)
+title: "Namngiven läkarkontakt läst som system: en rätt utan bemanningsgolv"
 status: draft
-updated: 2026-08-22
-summary: Our reading of Sjukvård – Liberalerna
+updated: 2026-08-23
+summary: En namngiven läkare för varje patient och avlösning som rätt landar på samma arbetskraft sidan redan säger saknar kollegor.
 jurisdiction: SE
 sources:
   - title: Sjukvård – Liberalerna
@@ -17,20 +17,32 @@ clusters:
   - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-sjukvard.md
-sourceDigest: sha256-81e3a6b1e95b57b0
+sourceDigest: "sha256-81e3a6b1e95b57b0"
 assumptions:
-  - the page is the 2026 campaign position unless it says otherwise
+  - en namngiven husläkarkontakt binder bara om liststorlek och timmar har tak; politiken slår fast rätten, inte taket
+  - läkemedel mot sällsynta sjukdomar och extra sjukhuskollegor tävlar om samma budget sidan lämnar oprissatt
+  - avlösning som laglig rätt är ett öppet kommunalt krav tills timmar och lön är satta
+  - utbildningstid genom ett helt yrkesliv minskar mottagningstimmar om inte personalstyrkan ökar först
 ---
 
 # Our understanding
 
-> The party states a direction. Figures that are not on the page are not invented here.
+> En namngiven läkare för varje patient är en schemaregel, inte en ny mottagning. Där listorna redan är fulla köar rätten bakom rekrytering. Avlösning som rätt och läkemedel mot sällsynta sjukdomar är extra krav mot samma obetalda glapp.
 
-System: Sjukvård – Liberalerna
+System: Namngiven kontakt som tävlar med en oprissatt arbetskraft
 
-Scenario: A reader takes the page at its word
-Given the matching stated spec
-When the policy is read as a system
-Then the intervention is what the page names
-Output no figure is added that the page does not print
-Outcome the derived face does not blend with the stated face
+Scenario: En mottagning som fortfarande saknar kollegor tar på sig namngiven-kontakt-plikt
+Given fler kollegor behövs på sjukhus och vårdcentraler i hela landet
+And arbetsvillkoren måste förbättras påtagligt
+When varje patient tilldelas en namngiven läkare
+Then listtid reserveras för kontinuitet i stället för drop-in-volym
+Outcome patienter med kronisk sjukdom får en stabil kontakt
+But kvarvarande personal absorberar listorna tills rekryteringen landar
+
+Scenario: En anhörig kräver avlösning som rätt
+Given anhöriga behöver mer stöd och avlösning ska bli en rätt
+When den anhörige bokar avlastning
+Then kommunen måste hitta täckning i stället för att erbjuda en tjänst
+Outcome hushållet får en paus
+But kostnaden sitter i äldre- och socialomsorgen tills timmarna är prissatta
+Activates liberalerna-politik-aldreomsorg

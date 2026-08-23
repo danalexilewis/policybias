@@ -11,7 +11,7 @@ tags:
   - defence
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+money: named-figure
 contentDigest: sha256-383090422277d2ad
 contentLength: 3872
 ---

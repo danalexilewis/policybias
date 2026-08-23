@@ -1,10 +1,10 @@
 ---
 type: spec
 id: liberalerna-politik-gangkriminalitet-derived
-title: Gängkriminalitet – Liberalerna (reading)
+title: "Stålhandske och yllemitter läst som system: två klockor på samma barn"
 status: draft
-updated: 2026-08-22
-summary: Our reading of Gängkriminalitet – Liberalerna
+updated: 2026-08-23
+summary: Hårdare verktyg träffar dem som redan är i näten, medan skola och socialtjänst måste nå barnet först; sidan säger aldrig vilken klocka vinner när de krockar.
 jurisdiction: SE
 sources:
   - title: Gängkriminalitet – Liberalerna
@@ -17,20 +17,33 @@ clusters:
   - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/liberalerna/politik-gangkriminalitet.md
-sourceDigest: sha256-c9b0c542eb2e7beb
+sourceDigest: "sha256-c9b0c542eb2e7beb"
 assumptions:
-  - the page is the 2026 campaign position unless it says otherwise
+  - avlyssning och kameror höjer upptäckten av dem som redan är i nätet mer än de avskräcker första rekryteringen
+  - en gymnasieexamen skyddar bara barnet som fortfarande går i skolan; sidan behandlar skolan som avgörande utan en skolk-trigger
+  - att kväva gängens pengar kräver regler om tillgångar och kontanter sidan inte namnger
+  - EU-samarbete hjälper mot vapen och droger över gränser, inte mot en rekryteringspromenad på ett svenskt bostadsområde
 ---
 
 # Our understanding
 
-> The party states a direction. Figures that are not on the page are not invented here.
+> De hårda verktygen landar på personer som redan är i näten. De mjuka verktygen måste komma före det första ärendet. Skolan som sköld fungerar bara medan barnet fortfarande går dit. Där de klockorna krockar säger sidan inte vilken plikt kommer först.
 
-System: Gängkriminalitet – Liberalerna
+System: Upptäckt av medlemmar mot avbrott i rekrytering
 
-Scenario: A reader takes the page at its word
-Given the matching stated spec
-When the policy is read as a system
-Then the intervention is what the page names
-Output no figure is added that the page does not print
-Outcome the derived face does not blend with the stated face
+Scenario: En tonåring används för ett första ärende medan hen fortfarande står på skolans lista
+Given kriminella nätverk rekryterar allt yngre barn
+And att klara skolan namnges som ett av de starkaste skydden mot brott
+When tonåringen erbjuds kontanter för en leverans samma vecka som en missad lektion
+Then polisverktyg riktas mot den vuxne som skickade barnet
+And socialtjänsten ska nå familjen tidigt
+Outcome barnet är både vittne i ett ärende och en elev skolan måste behålla
+But sidan säger inte vilken verksamhet får ta barnet ur klassen
+Activates liberalerna-politik-skola
+
+Scenario: Ett nätverk flyttar pengar och vapen över en gräns
+Given organiserad brottslighet verkar över nationsgränser
+When det europeiska polissamarbetet stärks
+Then vapen och droger blir svårare att föra in i landet
+Outcome lokala skjutningar beror fortfarande på vem som är kvar i området och rekryterar
+But att kväva gängets ekonomi kräver befogenheter sidan bara namnger i kontur

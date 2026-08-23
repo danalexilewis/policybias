@@ -26,7 +26,7 @@ gaps:
   - when the Elderly Care Boost becomes permanent, and how many can train in paid time, is not stated
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-aldreomsorg
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-9469d4576bb7c8b4
 ---

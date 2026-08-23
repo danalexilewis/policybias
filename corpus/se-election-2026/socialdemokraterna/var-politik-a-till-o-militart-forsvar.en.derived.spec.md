@@ -25,7 +25,7 @@ assumptions:
   - state part-ownership in SAAB ties up capital that could otherwise buy a submarine or air defence
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-militart-forsvar-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-3671ea98a06dc101
 ---

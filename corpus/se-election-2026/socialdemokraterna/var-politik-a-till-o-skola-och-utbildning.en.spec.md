@@ -24,7 +24,7 @@ gaps:
   - how school choice becomes fair in practice, beyond recasting the school voucher, is not stated
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-skola-och-utbildning
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-0150ee554f2e3795
 ---

@@ -26,7 +26,7 @@ gaps:
   - how the investment grant and the state construction credits for housing are sized is not stated
 lang: en
 translationOf: socialdemokraterna-ekonomi-val-2026
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-848f7e2ef09e91e3
 ---

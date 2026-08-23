@@ -25,7 +25,7 @@ assumptions:
   - a confiscation fund can only pay out what has actually been seized
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-lag-och-ordning-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-33b685d5532baf1b
 ---

@@ -25,7 +25,7 @@ assumptions:
   - a zero vision against deaths from lack of beds binds politically without saying how many beds must be added
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-sjukvard-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-c02e838fea8d78d2
 ---

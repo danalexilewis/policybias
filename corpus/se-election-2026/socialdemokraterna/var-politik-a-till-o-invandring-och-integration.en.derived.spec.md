@@ -25,7 +25,7 @@ assumptions:
   - the EU minima set a floor for asylum, not a ceiling on how fast returns can happen
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-invandring-och-integration-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-01025563c0f05731
 ---

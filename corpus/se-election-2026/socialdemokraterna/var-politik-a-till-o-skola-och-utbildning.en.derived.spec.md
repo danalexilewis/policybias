@@ -25,7 +25,7 @@ assumptions:
   - binding teacher density in the early years requires recruitment that does not follow from the ban
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-skola-och-utbildning-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-a571746e5f885eb0
 ---

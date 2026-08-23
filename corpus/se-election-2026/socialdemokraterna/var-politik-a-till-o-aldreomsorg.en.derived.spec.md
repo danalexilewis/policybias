@@ -27,7 +27,7 @@ assumptions:
   - a language requirement without enough language training shuts out those already working, before new staff are in place
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-aldreomsorg-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-f231ef12f7ab2c48
 ---

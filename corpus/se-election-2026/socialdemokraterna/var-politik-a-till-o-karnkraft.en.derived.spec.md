@@ -25,7 +25,7 @@ assumptions:
   - a power uprate in old reactors defers, but does not remove, the need for replacements
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-karnkraft-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-ecfdb713f99d223a
 ---

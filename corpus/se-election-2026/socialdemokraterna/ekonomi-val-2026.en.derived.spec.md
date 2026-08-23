@@ -27,7 +27,7 @@ assumptions:
   - pressure on banks and grocery chains lowers the household's price only if the margin is not taken out somewhere else
 lang: en
 translationOf: socialdemokraterna-ekonomi-val-2026-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-2e1c29fc0d0981ed
 ---

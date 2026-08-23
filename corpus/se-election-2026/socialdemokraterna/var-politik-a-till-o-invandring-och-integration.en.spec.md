@@ -24,7 +24,7 @@ gaps:
   - how many extra posts in welfare are reintroduced for foreign-born women is not stated
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-invandring-och-integration
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-b68381b94595d959
 ---

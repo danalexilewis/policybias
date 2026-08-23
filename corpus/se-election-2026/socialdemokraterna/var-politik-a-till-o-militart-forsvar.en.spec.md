@@ -24,7 +24,7 @@ gaps:
   - the cost of a further submarine and of brigade air defence on Gotland is not stated
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-militart-forsvar
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-0d7cc16da53f2ab5
 ---

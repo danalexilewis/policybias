@@ -24,7 +24,7 @@ gaps:
   - how an electronic tag or a personal companion is chosen for the young person on the way into crime is not stated
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-lag-och-ordning
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-8e7d14ae2b62ac41
 ---

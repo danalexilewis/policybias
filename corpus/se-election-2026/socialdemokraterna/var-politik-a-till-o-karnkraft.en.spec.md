@@ -24,7 +24,7 @@ gaps:
   - how additional nuclear waste is to be handled beyond the state securing the management is not stated
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-karnkraft
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-45ecd08e302d3198
 ---

@@ -1,7 +1,7 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-a-till-o-klimatpolitik-derived
-title: "Sweden fuel read as a system: the pump price is held with contracts while the EU target lies beyond national reach"
+title: "Sverigebränslet read as a system: the pump price is held with contracts while the EU target lies beyond national reach"
 status: draft
 updated: 2026-08-23
 summary: The base blend can be steered in procurement, but the binding EU target requires other member states, and faster permits only yield electricity if someone builds.
@@ -25,18 +25,18 @@ assumptions:
   - compensation to sparsely populated areas for car dependence offsets part of the instrument that is to cut driving
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-klimatpolitik-derived
-translator: human
+translator: cursor-agent
 translatedAt: 2026-08-23
 sourceSpecDigest: sha256-da6d372e9f3fce08
 ---
 
 # Our understanding
 
-> Sweden fuel's base blend can be written into contracts. The EU target of sharply lower emissions can only be delivered if the union goes along. Amendment permits as the main rule remove one obstacle, not the whole investment. Support for electric-car leasing and compensation to the countryside keep the transition politically possible, and can at the same time keep car dependence.
+> Sverigebränslet's base blend can be written into contracts. The EU target of sharply lower emissions can only be delivered if the union goes along. Amendment permits as the main rule remove one obstacle, not the whole investment. Support for electric-car leasing and compensation to the countryside keep the transition politically possible, and can at the same time keep car dependence.
 
 System: Contracted blending against a supranational target
 
-Scenario: A haulier fills up under Sweden fuel
+Scenario: A haulier fills up under Sverigebränslet
 Given a stable base blend with long procurement contracts
 When the contracts apply
 Then the blend stays fixed regardless of the month's spot price
@@ -47,7 +47,7 @@ Scenario: The EU target is to be made binding
 Given a target of at least a 95 percent cut in carbon dioxide emissions
 When the target is negotiated in the EU
 Then Sweden's vote is not enough on its own
-Outcome domestic policy can miss the target despite Sweden fuel
+Outcome domestic policy can miss the target despite Sverigebränslet
 But the responsibility looks like a Swedish promise
 
 Scenario: Wind power waits for the municipality's yes

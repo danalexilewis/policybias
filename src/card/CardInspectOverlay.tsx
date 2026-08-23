@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type JSX } from 'react';
+import { useEffect, useRef, type JSX } from 'react';
 import { AppWindow } from '../chrome/AppWindow';
 import type { AnonymiseNames, PartyMeta, PolicyCard } from '../data/types';
 import type { CardDisplay } from './CardDisplay';
@@ -15,6 +15,8 @@ type CardInspectOverlayProps = {
 	cards?: PolicyCard[];
 	parties?: PartyMeta[];
 	anonymiseNames?: AnonymiseNames;
+	/** Moves inspect to a neighbour. Updates the URL via the parent. */
+	onSelect: (card: PolicyCard) => void;
 };
 
 function isTypingTarget(target: EventTarget | null): boolean {
@@ -57,14 +59,14 @@ function selectNeighbour(
 function Chevron(props: { direction: 'left' | 'right' }): JSX.Element {
 	const d = props.direction === 'left' ? 'M14 6l-6 6 6 6' : 'M10 6l6 6-6 6';
 	return (
-		<svg viewBox='0 0 24 24' aria-hidden='true' focusable='false'>
+		<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
 			<path
 				d={d}
-				fill='none'
-				stroke='currentColor'
-				strokeWidth='2'
-				strokeLinecap='round'
-				strokeLinejoin='round'
+				fill="none"
+				stroke="currentColor"
+				strokeWidth="2"
+				strokeLinecap="round"
+				strokeLinejoin="round"
 			/>
 		</svg>
 	);
@@ -77,11 +79,11 @@ export function CardInspectOverlay({
 	onClose,
 	onToggleParty,
 	cards = [],
-	parties = []
+	parties = [],
+	onSelect,
 }: CardInspectOverlayProps): JSX.Element {
 	const overlayRef = useRef<HTMLDivElement>(null);
 	const { t } = useLang();
-	const [current, setCurrent] = useState(card);
 	const canCycle = cards.length > 1;
 
 	useEffect(() => {
@@ -89,7 +91,7 @@ export function CardInspectOverlay({
 		if (overlay) {
 			overlay.scrollTop = 0;
 		}
-	}, [current.id]);
+	}, [card.id]);
 
 	useEffect(() => {
 		const previousOverflow = document.body.style.overflow;
@@ -111,12 +113,7 @@ export function CardInspectOverlay({
 			}
 			if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
 				event.preventDefault();
-				selectNeighbour(
-					cards,
-					current.id,
-					event.key === 'ArrowLeft' ? -1 : 1,
-					setCurrent
-				);
+				selectNeighbour(cards, card.id, event.key === 'ArrowLeft' ? -1 : 1, onSelect);
 			}
 		}
 
@@ -125,29 +122,21 @@ export function CardInspectOverlay({
 			document.body.style.overflow = previousOverflow;
 			window.removeEventListener('keydown', onKeyDown);
 		};
-	}, [onClose, canCycle, cards, current.id]);
+	}, [onClose, canCycle, cards, card.id, onSelect]);
 
 	const hideParty = !display.party;
 
 	function step(direction: -1 | 1): void {
-		selectNeighbour(cards, current.id, direction, setCurrent);
+		selectNeighbour(cards, card.id, direction, onSelect);
 	}
 
 	return (
-		<div
-			ref={overlayRef}
-			className={styles.overlay}
-			role='presentation'
-			onClick={onClose}
-		>
-			<div
-				className={styles.chrome}
-				onClick={(event) => event.stopPropagation()}
-			>
+		<div ref={overlayRef} className={styles.overlay} role="presentation" onClick={onClose}>
+			<div className={styles.chrome} onClick={(event) => event.stopPropagation()}>
 				<button
-					type='button'
+					type="button"
 					className={styles.partySwitch}
-					role='switch'
+					role="switch"
 					aria-checked={display.party}
 					aria-label={t('party')}
 					onClick={onToggleParty}
@@ -164,37 +153,37 @@ export function CardInspectOverlay({
 					{canCycle ? (
 						<>
 							<button
-								type='button'
+								type="button"
 								className={styles.iconButton}
 								onClick={() => step(-1)}
 								aria-label={t('previousPolicy')}
 							>
-								<Chevron direction='left' />
+								<Chevron direction="left" />
 							</button>
 							<button
-								type='button'
+								type="button"
 								className={styles.iconButton}
 								onClick={() => step(1)}
 								aria-label={t('nextPolicy')}
 							>
-								<Chevron direction='right' />
+								<Chevron direction="right" />
 							</button>
 						</>
 					) : null}
 					<button
-						type='button'
+						type="button"
 						className={styles.iconButton}
 						onClick={onClose}
 						aria-label={t('closePolicy')}
 						autoFocus
 					>
-						<svg viewBox='0 0 24 24' aria-hidden='true' focusable='false'>
+						<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
 							<path
-								d='M6 6l12 12M18 6L6 18'
-								fill='none'
-								stroke='currentColor'
-								strokeWidth='2'
-								strokeLinecap='round'
+								d="M6 6l12 12M18 6L6 18"
+								fill="none"
+								stroke="currentColor"
+								strokeWidth="2"
+								strokeLinecap="round"
 							/>
 						</svg>
 					</button>
@@ -202,39 +191,29 @@ export function CardInspectOverlay({
 			</div>
 			<div
 				className={styles.panel}
-				role='dialog'
-				aria-modal='true'
-				aria-label={current.title}
+				role="dialog"
+				aria-modal="true"
+				aria-label={card.title}
 				onClick={(event) => event.stopPropagation()}
 			>
 				<AppWindow title={t('stated')}>
 					<div className={styles.column}>
 						<GurkiCard
-							card={current}
+							card={card}
 							display={display}
-							face='stated'
-							size='inspect'
+							face="stated"
+							size="inspect"
 							parties={parties}
 						/>
 						{display.gaps ? (
-							<ListCard
-								kind='gaps'
-								items={current.gaps}
-								hideParty={hideParty}
-								size='inspect'
-							/>
+							<ListCard kind="gaps" items={card.gaps} hideParty={hideParty} size="inspect" />
 						) : null}
 					</div>
 				</AppWindow>
 				<AppWindow title={t('ourUnderstanding')}>
 					<div className={styles.column}>
-						{current.derived ? (
-							<GurkiCard
-								card={current}
-								display={display}
-								face='derived'
-								size='inspect'
-							/>
+						{card.derived ? (
+							<GurkiCard card={card} display={display} face="derived" size="inspect" />
 						) : (
 							<p className={styles.empty}>
 								Nothing to add. The policy already says everything we would.
@@ -242,10 +221,10 @@ export function CardInspectOverlay({
 						)}
 						{display.gaps ? (
 							<ListCard
-								kind='assumptions'
-								items={current.assumptions}
+								kind="assumptions"
+								items={card.assumptions}
 								hideParty={hideParty}
-								size='inspect'
+								size="inspect"
 							/>
 						) : null}
 					</div>

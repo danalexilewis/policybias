@@ -1,5 +1,5 @@
 // @vitest-environment jsdom
-import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { CardsDataset, CardFace, PartyId, PolicyCard } from './data/types';
 import {
@@ -141,6 +141,33 @@ describe('App board', () => {
 		expect(terms.closest('footer')).not.toBeNull();
 		expect(privacy.closest('footer')).not.toBeNull();
 		expect(contact.closest('footer')).not.toBeNull();
+	});
+
+	it('puts the inspected card on the url so a share opens the same policy', async () => {
+		const { default: App } = await import('./App');
+		render(<App />);
+
+		fireEvent.click(screen.getByRole('button', { name: /Inspect/ }));
+
+		await waitFor(() => {
+			expect(new URLSearchParams(window.location.search).get('card')).toBe('labour-0');
+		});
+		expect(screen.getByRole('dialog', { name: 'labour-0' })).toBeTruthy();
+	});
+
+	it('opens inspect from a shared card query and clears it on close', async () => {
+		window.history.replaceState({}, '', `${eventPath(CURRENT_EVENT_ID)}?card=labour-0`);
+		const { default: App } = await import('./App');
+		render(<App />);
+
+		expect(screen.getByRole('dialog', { name: 'labour-0' })).toBeTruthy();
+
+		fireEvent.click(screen.getByRole('button', { name: 'Close policy' }));
+
+		await waitFor(() => {
+			expect(new URLSearchParams(window.location.search).get('card')).toBeNull();
+		});
+		expect(screen.queryByRole('dialog', { name: 'labour-0' })).toBeNull();
 	});
 });
 

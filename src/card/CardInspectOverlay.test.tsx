@@ -1,6 +1,7 @@
 // @vitest-environment jsdom
 import { cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { NuqsAdapter } from 'nuqs/adapters/react';
+import { useState, type JSX } from 'react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import type { CardFace, PolicyCard } from '../data/types';
 import { ALL_VISIBLE, type CardDisplay } from './CardDisplay';
@@ -19,20 +20,13 @@ function makeFace(kind: 'stated' | 'derived', title: string): CardFace {
 			steps: 0,
 			outputs: 0,
 			outcomes: 0,
-			extrapolated: 0
-		}
+			extrapolated: 0,
+		},
 	};
 }
 
-function makeCard(
-	withReading: boolean,
-	gaps: string[] = [],
-	id = 'labour-medicard'
-): PolicyCard {
-	const title =
-		id === 'labour-medicard'
-			? 'Medicard three free doctor visits'
-			: id;
+function makeCard(withReading: boolean, gaps: string[] = [], id = 'labour-medicard'): PolicyCard {
+	const title = id === 'labour-medicard' ? 'Medicard three free doctor visits' : id;
 	return {
 		id,
 		party: 'labour',
@@ -43,20 +37,18 @@ function makeCard(
 		source: {
 			title: 'Medicard',
 			url: 'https://example.test/medicard',
-			path: 'labour/medicard.md'
+			path: 'labour/medicard.md',
 		},
 		gaps,
-		assumptions: withReading
-			? ['a standing entitlement still needs a year of GP capacity']
-			: [],
+		assumptions: withReading ? ['a standing entitlement still needs a year of GP capacity'] : [],
 		stated: makeFace('stated', title),
 		derived: withReading
 			? makeFace('derived', 'Medicard read as a standing entitlement')
 			: undefined,
 		counts: {
 			gaps: gaps.length,
-			assumptions: withReading ? 1 : 0
-		}
+			assumptions: withReading ? 1 : 0,
+		},
 	};
 }
 
@@ -66,19 +58,34 @@ type OverlayRenderExtra = {
 	display?: CardDisplay;
 	onClose?: () => void;
 	onToggleParty?: () => void;
+	onSelect?: (card: PolicyCard) => void;
 	cards?: PolicyCard[];
 };
+
+function OverlayHarness({
+	card,
+	extra,
+}: {
+	card: PolicyCard;
+	extra: OverlayRenderExtra;
+}): JSX.Element {
+	const [current, setCurrent] = useState(card);
+	return (
+		<CardInspectOverlay
+			card={current}
+			cards={extra.cards}
+			display={extra.display ?? ALL_VISIBLE}
+			onClose={extra.onClose ?? vi.fn()}
+			onToggleParty={extra.onToggleParty ?? vi.fn()}
+			onSelect={extra.onSelect ?? setCurrent}
+		/>
+	);
+}
 
 function renderOverlay(card: PolicyCard, extra: OverlayRenderExtra = {}) {
 	return render(
 		<NuqsAdapter>
-			<CardInspectOverlay
-				card={card}
-				cards={extra.cards}
-				display={extra.display ?? ALL_VISIBLE}
-				onClose={extra.onClose ?? vi.fn()}
-				onToggleParty={extra.onToggleParty ?? vi.fn()}
-			/>
+			<OverlayHarness card={card} extra={extra} />
 		</NuqsAdapter>
 	);
 }
@@ -87,24 +94,20 @@ describe('CardInspectOverlay', () => {
 	it('shows stated and reading side by side', () => {
 		renderOverlay(makeCard(true));
 
-		expect(
-			screen.getByRole('dialog', { name: 'Medicard three free doctor visits' })
-		).toBeTruthy();
+		expect(screen.getByRole('dialog', { name: 'Medicard three free doctor visits' })).toBeTruthy();
 		expect(screen.getByText('Stated')).toBeTruthy();
 		expect(screen.getByText('Our understanding')).toBeTruthy();
 		expect(
 			screen.getByRole('heading', {
-				name: 'Medicard three free doctor visits'
+				name: 'Medicard three free doctor visits',
 			})
 		).toBeTruthy();
 		expect(
 			screen.getByRole('heading', {
-				name: 'Medicard read as a standing entitlement'
+				name: 'Medicard read as a standing entitlement',
 			})
 		).toBeTruthy();
-		expect(
-			screen.queryByRole('button', { name: 'Our understanding' })
-		).toBeNull();
+		expect(screen.queryByRole('button', { name: 'Our understanding' })).toBeNull();
 	});
 
 	it('says when there is no reading', () => {
@@ -114,38 +117,25 @@ describe('CardInspectOverlay', () => {
 	});
 
 	it('puts gaps under stated and assumptions under our reading', () => {
-		renderOverlay(
-			makeCard(true, ['what happens if CGT revenue falls short is not stated'])
-		);
+		renderOverlay(makeCard(true, ['what happens if CGT revenue falls short is not stated']));
 
 		expect(screen.getByRole('heading', { name: 'Gaps' })).toBeTruthy();
-		expect(
-			screen.getByText('what happens if CGT revenue falls short is not stated')
-		).toBeTruthy();
+		expect(screen.getByText('what happens if CGT revenue falls short is not stated')).toBeTruthy();
 		expect(screen.getByRole('heading', { name: 'Assumptions' })).toBeTruthy();
 		expect(
-			screen.getByText(
-				'a standing entitlement still needs a year of GP capacity'
-			)
+			screen.getByText('a standing entitlement still needs a year of GP capacity')
 		).toBeTruthy();
 		expect(screen.queryByText('What the page does not answer.')).toBeNull();
-		expect(
-			screen.queryByText('Reasoning we supplied, not a published claim.')
-		).toBeNull();
+		expect(screen.queryByText('Reasoning we supplied, not a published claim.')).toBeNull();
 
 		const stated = screen.getByText('Stated');
 		const gaps = screen.getByRole('heading', { name: 'Gaps' });
 		const reading = screen.getByText('Our understanding');
 		const assumptions = screen.getByRole('heading', { name: 'Assumptions' });
+		expect(stated.compareDocumentPosition(gaps) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+		expect(gaps.compareDocumentPosition(reading) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
 		expect(
-			stated.compareDocumentPosition(gaps) & Node.DOCUMENT_POSITION_FOLLOWING
-		).toBeTruthy();
-		expect(
-			gaps.compareDocumentPosition(reading) & Node.DOCUMENT_POSITION_FOLLOWING
-		).toBeTruthy();
-		expect(
-			reading.compareDocumentPosition(assumptions) &
-				Node.DOCUMENT_POSITION_FOLLOWING
+			reading.compareDocumentPosition(assumptions) & Node.DOCUMENT_POSITION_FOLLOWING
 		).toBeTruthy();
 	});
 
@@ -160,12 +150,10 @@ describe('CardInspectOverlay', () => {
 
 	it('hides cycle controls when there is only one policy', () => {
 		renderOverlay(makeCard(true), {
-			cards: [makeCard(true)]
+			cards: [makeCard(true)],
 		});
 
-		expect(
-			screen.queryByRole('button', { name: 'Previous policy' })
-		).toBeNull();
+		expect(screen.queryByRole('button', { name: 'Previous policy' })).toBeNull();
 		expect(screen.queryByRole('button', { name: 'Next policy' })).toBeNull();
 	});
 
@@ -176,7 +164,7 @@ describe('CardInspectOverlay', () => {
 		const onClose = vi.fn();
 		renderOverlay(second, {
 			cards: [first, second, third],
-			onClose
+			onClose,
 		});
 
 		fireEvent.click(screen.getByRole('button', { name: 'Next policy' }));
@@ -197,7 +185,7 @@ describe('CardInspectOverlay', () => {
 		const first = makeCard(true, [], 'first');
 		const last = makeCard(true, [], 'last');
 		renderOverlay(last, {
-			cards: [first, last]
+			cards: [first, last],
 		});
 
 		fireEvent.keyDown(window, { key: 'ArrowRight' });
@@ -213,7 +201,7 @@ describe('CardInspectOverlay', () => {
 		const { rerender } = renderOverlay(makeCard(true), {
 			display: { ...ALL_VISIBLE, party: false },
 			onClose,
-			onToggleParty
+			onToggleParty,
 		});
 
 		const toggle = screen.getByRole('switch', { name: 'Party' });
@@ -231,13 +219,12 @@ describe('CardInspectOverlay', () => {
 					display={ALL_VISIBLE}
 					onClose={onClose}
 					onToggleParty={onToggleParty}
+					onSelect={vi.fn()}
 				/>
 			</NuqsAdapter>
 		);
 
-		expect(
-			screen.getByRole('switch', { name: 'Party' }).getAttribute('aria-checked')
-		).toBe('true');
+		expect(screen.getByRole('switch', { name: 'Party' }).getAttribute('aria-checked')).toBe('true');
 		expect(screen.getAllByAltText('Labour').length).toBeGreaterThan(0);
 	});
 });

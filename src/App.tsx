@@ -2,9 +2,9 @@ import { Analytics } from '@vercel/analytics/react';
 import { useEffect, useState, type JSX, type MouseEvent } from 'react';
 import { NuqsAdapter } from 'nuqs/adapters/react';
 import { CardInspectOverlay } from './card/CardInspectOverlay';
+import { useInspectedCard } from './card/useInspectedCard';
 import { mergeAnonymiseNames } from './card/anonymise';
 import { useCards } from './data/useCards';
-import type { PolicyCard } from './data/types';
 import { FilterBar } from './filters/FilterBar';
 import { useFilters } from './filters/useFilters';
 import { GameOverlay } from './game/GameOverlay';
@@ -35,7 +35,7 @@ function AppShell(): JSX.Element {
 	const [shuffleSeed] = useState(() => Math.floor(Math.random() * 0xffffffff));
 	const wallCards = data ? shuffleCards(data.cards, shuffleSeed) : [];
 	const filters = useFilters(wallCards);
-	const [inspectedCard, setInspectedCard] = useState<PolicyCard | null>(null);
+	const { inspectedCard, inspect, closeInspect } = useInspectedCard(data?.cards ?? []);
 	const { score: lifetimeScore, recordGuess } = useLifetimeScore();
 
 	const cards = filters.filtered;
@@ -175,7 +175,7 @@ function AppShell(): JSX.Element {
 							groupBy={filters.groupBy}
 							selectedParties={filters.selectedParties}
 							onToggleParty={filters.toggleParty}
-							onInspect={setInspectedCard}
+							onInspect={inspect}
 						/>
 					) : null}
 				</main>
@@ -216,7 +216,8 @@ function AppShell(): JSX.Element {
 					display={filters.display}
 					parties={data?.parties ?? []}
 					anonymiseNames={names}
-					onClose={() => setInspectedCard(null)}
+					onClose={closeInspect}
+					onSelect={inspect}
 					onToggleParty={() => filters.setAnonymise(!filters.anonymise)}
 				/>
 			) : null}

@@ -1,10 +1,10 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-a-till-o-skola-och-utbildning-derived
-title: Skola och utbildning (reading)
+title: "Vinstförbud och skolpeng read as a system: små klasser belånas mot koncernvinster som kan försvinna"
 status: draft
-updated: 2026-08-22
-summary: Our reading of Skola och utbildning
+updated: 2026-08-23
+summary: Fler lärare i de tidiga åren finansieras med vinster som försvinner när uttag förbjuds, så den löpande kostnaden måste bäras av en omgjord skolpeng eller av kommunerna.
 jurisdiction: SE
 sources:
   - title: Skola och utbildning
@@ -19,18 +19,35 @@ money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-a-till-o-skola-och-utbildning.md
 sourceDigest: sha256-6ef050b90790654f
 assumptions:
-  - the page is the 2026 campaign position unless it says otherwise
+  - vinst som en gång förbjudits kan inte fortsätta betala fler lärare; det är ett engångsflöde mot en stående kostnad
+  - en omgjord skolpeng som tar bort överkompensation sänker intäkten för fristående huvudmän och kan stänga skolor
+  - förbud mot religiösa friskolor flyttar elever till andra huvudmän som måste ha platser
+  - bindande lärartäthet på lågstadiet kräver rekrytering som inte följer av förbudet
 ---
 
 # Our understanding
 
-> The party states a direction. Figures that are not on the page are not invented here.
+> Små klasser och fler lärare i de tidiga åren ska betalas med koncernvinster. När uttag förbjuds upphör den källan, medan lärarna kvarstår som kostnad. Skolpengen som inte längre överkompenserar friskolor flyttar pengar, men tar inte fram lärare. Religiösa friskolor som stängs lämnar elever som någon annan måste ta emot.
 
-System: Skola och utbildning
+System: Förbud mot uttag mot stående lärarkostnad
 
-Scenario: A reader takes the page at its word
-Given the matching stated spec
-When the policy is read as a system
-Then the intervention is what the page names
-Output no figure is added that the page does not print
-Outcome the derived face does not blend with the stated face
+Scenario: Koncernvinsten som skulle betala små klasser försvinner
+Given små klasser för små barn som ska finansieras med skolkoncernernas vinster
+When vinstuttag förbjuds
+Then flödet som skulle betala lärarna upphör
+Outcome den löpande kostnaden för fler lärare måste bäras någon annanstans
+But koncernen har inte längre vinst att flytta till undervisning
+
+Scenario: En friskola förlorar överkompensationen i skolpengen
+Given en skolpeng som överkompenserar friskolor
+When skolpengen görs om
+Then intäkten per elev sjunker för den fristående huvudmannen
+Outcome likvärdigheten kan öka genom omfördelning
+But skolor med knappa marginaler kan stänga innan de kommunala platserna finns
+
+Scenario: Elever lämnar en religiös friskola
+Given religiösa friskolor som ska förbjudas
+When förbudet träder in
+Then eleverna behöver en annan skola
+Outcome huvudmannen med platser bär mottagandet
+But förbudet säger inte var de platserna finns

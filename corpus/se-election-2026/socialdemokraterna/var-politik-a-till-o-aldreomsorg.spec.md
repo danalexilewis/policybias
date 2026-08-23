@@ -1,10 +1,10 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-a-till-o-aldreomsorg
-title: Äldreomsorg
+title: "Ny äldreomsorgslag, förstärkt lyft och mer tid utan minutplanering"
 status: draft
-updated: 2026-08-22
-summary: Socialdemokraterna vill att äldreomsorgen ska vara en trygg hamn där dina behov alltid kommer i första rummet, oavsett var i landet du bor eller hur stor din plånbok är.
+updated: 2026-08-23
+summary: En ny äldreomsorgslag och en miljardsatsning på bemanning ska ge mer tid, medan Äldreomsorgslyftet görs permanent och språkkrav införs.
 jurisdiction: SE
 sources:
   - title: Äldreomsorg
@@ -20,19 +20,22 @@ money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-a-till-o-aldreomsorg.md
 sourceDigest: sha256-f88344016e7a7776
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - hur stor miljardsatsningen på bemanning är i kronor är inte angivet
+  - hur många fler kollegor satsningen ger per hemtjänstområde är inte angivet
+  - hur inflationsuppräkningen av statsbidragen till kommunerna beräknas är inte angivet
+  - när Äldreomsorgslyftet blir permanent, och hur många som kan utbildas på betald tid, är inte angivet
 ---
 
 # What the page states
 
-> Du som har varit med och byggt Sverige förtjänar en ålderdom präglad av trygghet, värdighet och valfrihet.
+> En miljardsatsning på bemanning ska ge personalen fler kollegor och den äldre mer tid, stöd och omsorg.
+> En ny äldreomsorgslag ska garantera jämlik omsorg, och Äldreomsorgslyftet görs permanent så att personal kan utbilda sig på betald arbetstid.
+> Statsbidragen till kommunerna räknas upp med inflationen, och språkkrav ska göra att den äldre och personalen förstår varandra.
 
-System: Äldreomsorg
+System: Bemanningssatsning och ny äldreomsorgslag
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then Du som har varit med och byggt Sverige förtjänar en ålderdom präglad av trygghet, värdighet och valfrihet.
-Output Socialdemokraterna vill att äldreomsorgen ska vara en trygg hamn där dina behov alltid kommer i första rummet, oavsett var i landet du bor eller hur stor din plånbok är.
-Outcome the claim is the party's stated position
+Scenario: Hemtjänsten får fler kollegor och lagen sätter golvet
+Given äldreomsorg där personalen saknar tid att se hela människan och minutplanering styr besöken
+When en ny äldreomsorgslag och en miljardsatsning på ökad bemanning införs
+Then personalen får fler kollegor och mer tid till omsorg utan minutplanering
+Outcome jämlik omsorg i hela landet, med språkkrav och tillgång till läkare och sjuksköterskor dygnet runt på äldreboenden och i hemtjänsten

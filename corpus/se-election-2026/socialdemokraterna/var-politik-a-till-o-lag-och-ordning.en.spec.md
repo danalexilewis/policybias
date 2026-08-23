@@ -1,11 +1,10 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-a-till-o-lag-och-ordning
-title: Law and order
+title: "More police, a mafia law and double sentences against gangs"
 status: draft
-updated: 2026-08-22
-summary: It is a fundamental part of the social contract that you as a citizen
-  are given protection from crime and redress if you are still victimized.
+updated: 2026-08-23
+summary: The police are to grow, a Swedish mafia law with collective criminal liability is introduced, and sentences are tightened for gang criminals and for those who recruit children.
 jurisdiction: SE
 sources:
   - title: Lag och ordning
@@ -15,28 +14,33 @@ tags:
 party: socialdemokraterna
 clusters:
   - crime-justice
-money: no-figure
+money: named-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-a-till-o-lag-och-ordning.md
 sourceDigest: sha256-adf544b3811ed04c
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - how many staff the Police have today, against the target, is not stated
+  - the annual cost of reaching 50 000 staff in the Police is not stated
+  - how the confiscation fund is split between crime-hit areas and civil society is not stated
+  - how an electronic tag or a personal companion is chosen for the young person on the way into crime is not stated
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-lag-och-ordning
-translator: machine
-translatedAt: 2026-08-22
-sourceSpecDigest: sha256-e25ef89b5480576f
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-8e7d14ae2b62ac41
 ---
 
 # What the page states
 
-> Regardless of where you live, you should be able to go out in the evenings without feeling afraid or worried.
+> Crime is falling in general, but the coarser gang crime spreads fear and undermines trust.
+> Sentences are tightened for gangs, organised crime and men's violence against women, and a Swedish mafia law with collective criminal liability is to reach the gang leaders.
+> The police are to grow across the country, and further closures of police stations in sparsely populated areas are stopped.
 
-System: Lag och ordning
+System: More police and a mafia law
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then Regardless of where you live, you should be able to go out in the evenings without feeling afraid or worried.
-Output It is a fundamental part of the social contract that you as a citizen are given protection from crime and redress if you are still victimized.
-Outcome the claim is the party's stated position
+Scenario: Gang leaders are prosecuted while the Police grow
+Given growing and ever coarser gang crime spreads fear at the same time as crime in general is falling
+When a Swedish mafia law is introduced and sentences for gang criminals are tightened
+Then the gang leaders are arrested and prosecuted with collective criminal liability, and gang criminals receive double sentences
+Output 50 000 staff in the Police
+And at least 34 000 police officers
+Outcome safety is restored and the closure of further police stations in sparsely populated areas is stopped

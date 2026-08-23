@@ -11,7 +11,7 @@ tags:
   - economy
   - education
   - employment
-money: no-figure
+money: named-figure
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
 contentDigest: sha256-4911a447cf9e388b

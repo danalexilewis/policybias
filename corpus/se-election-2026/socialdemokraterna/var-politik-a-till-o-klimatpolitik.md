@@ -11,7 +11,7 @@ tags:
   - climate
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+money: named-figure
 contentDigest: sha256-82dd8b2871a83b4c
 contentLength: 2573
 ---

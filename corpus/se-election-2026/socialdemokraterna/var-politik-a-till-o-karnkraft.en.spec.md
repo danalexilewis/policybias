@@ -1,11 +1,10 @@
 ---
 type: spec
 id: socialdemokraterna-var-politik-a-till-o-karnkraft
-title: Nuclear power
+title: "Longer operation, new nuclear power at existing sites and technology-neutral support"
 status: draft
-updated: 2026-08-22
-summary: Together with hydropower, it is important for a reliable electricity
-  supply and creates stability and balance in the electricity system.
+updated: 2026-08-23
+summary: Existing reactors are to be able to run longer, new nuclear power is allowed where it already exists, and state support is to be technology-neutral for fossil-free power.
 jurisdiction: SE
 sources:
   - title: Kärnkraft
@@ -19,24 +18,27 @@ money: no-figure
 sourcePath: corpus/se-election-2026/socialdemokraterna/var-politik-a-till-o-karnkraft.md
 sourceDigest: sha256-2908cb23c25da6c2
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - how much electricity the power uprates add is not stated
+  - how large the technology-neutral support for fossil-free power is is not stated
+  - how the German ownership share in Oskarshamn is to be bought out, and at what price, is not stated
+  - how additional nuclear waste is to be handled beyond the state securing the management is not stated
 lang: en
 translationOf: socialdemokraterna-var-politik-a-till-o-karnkraft
-translator: machine
-translatedAt: 2026-08-22
-sourceSpecDigest: sha256-444c697c39a5ccce
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-45ecd08e302d3198
 ---
 
 # What the page states
 
-> Nuclear power forms a significant part of Sweden's electricity system.
+> Nuclear power is, together with hydropower, important for a secure electricity supply.
+> Operating life is to be extended and power uprates carried out where economic and safety requirements can be met.
+> New nuclear power is allowed where production already exists — Ringhals, Oskarshamn and Forsmark — and the state is to have democratic control over siting, safety and waste.
 
-System: Kärnkraft
+System: Longer operation and new nuclear power at existing sites
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then Nuclear power forms a significant part of Sweden's electricity system.
-Output Together with hydropower, it is important for a reliable electricity supply and creates stability and balance in the electricity system.
-Outcome the claim is the party's stated position
+Scenario: A new reactor is considered only where nuclear power already exists
+Given nuclear power that forms a substantial part of the electricity system and creates balance together with hydropower
+When operating life is extended and new nuclear power is allowed at sites with existing production
+Then Ringhals, Oskarshamn and Forsmark can receive new production, and the state keeps control over siting and safety
+Outcome state support can go to all large-scale fossil-free power production, and the plant in Oskarshamn is to have a Swedish owner

@@ -11,7 +11,7 @@ tags:
   - crime-and-justice
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+money: named-figure
 contentDigest: sha256-6639f09c4f528d55
 contentLength: 2271
 ---

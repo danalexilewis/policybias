@@ -12,7 +12,7 @@ tags:
   - social-welfare
 stance: intervention
 licenseNote: Party copyright; not Gurki MIT
-money: no-figure
+money: named-figure
 contentDigest: sha256-c4623467662a59a4
 contentLength: 5149
 ---

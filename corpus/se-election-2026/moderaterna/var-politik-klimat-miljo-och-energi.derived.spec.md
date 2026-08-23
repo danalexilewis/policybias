@@ -1,10 +1,10 @@
 ---
 type: spec
 id: moderaterna-var-politik-klimat-miljo-och-energi-derived
-title: Klimat, miljö och energi (reading)
+title: "Kärnkraft i söder read as a system: staten bär byggrisken medan hushållen lovas att inte styra sin förbrukning"
 status: draft
 updated: 2026-08-22
-summary: Our reading of Klimat, miljö och energi
+summary: Statligt ägande och finansiering av ny kärnkraft socialiserar byggrisken, medan 1.5 miljoner ton till 2030 väljs före bränsleskatt och ESR kan missas.
 jurisdiction: SE
 sources:
   - title: Klimat, miljö och energi
@@ -15,22 +15,33 @@ derivesFrom: moderaterna-var-politik-klimat-miljo-och-energi
 party: moderaterna
 clusters:
   - climate-environment
-money: no-figure
+money: named-figure
 sourcePath: corpus/se-election-2026/moderaterna/var-politik-klimat-miljo-och-energi.md
-sourceDigest: sha256-ebd4615cfe201a6d
+sourceDigest: "sha256-ebd4615cfe201a6d"
 assumptions:
-  - the page is the 2026 campaign position unless it says otherwise
+  - ny kärnkraft i söder tar många år, så 3 800 MW ersätts inte under mandatperioden
+  - statligt ägande och finansiering lägger byggrisk på skattebetalare om kalkylen spricker
+  - 1.5 miljoner ton till 2030 är valt i stället för högre bensinpris, vilket gör ESR-gapet medvetet
+  - 0.1 procent av globala utsläpp används för att rätta inhemska restutsläpp som dyra
 ---
 
 # Our understanding
 
-> The party states a direction. Figures that are not on the page are not invented here.
+> Staten tar risk i ny kärnkraft så att hushållen inte ska behöva styra livet efter elpriset, men att riva ner gick fort och att bygga tar år. Budgetens utsläppsminskning räcker inte för ESR 2030. Trålförbudet gäller skyddade områden först.
 
-System: Klimat, miljö och energi
+System: Statlig risk i baskraft mot hushållens effekt
 
-Scenario: A reader takes the page at its word
-Given the matching stated spec
-When the policy is read as a system
-Then the intervention is what the page names
-Output no figure is added that the page does not print
-Outcome the derived face does not blend with the stated face
+Scenario: Effektbristen i söder möts med reaktorer som inte finns än
+Given södra Sverige förlorade 3 800 MW planerbar elproduktion
+When staten går in med finansiering, regelverk och ägande
+Then ny kärnkraft ska på sikt mata söder
+Outcome hushållen lovas att slippa planera efter effektavgifter
+But åren till spadtag bärs som tyska priser i elområde tre och fyra
+
+Scenario: Utsläppsmålet till 2030 möts inte med bränsleskatt
+Given Sverige står för cirka 0.1 procent av de globala utsläppen
+When budgeten sänker utsläppen utan att höja bensinpriset
+Then ESR-åtagandet till 2030 blir svårt att nå
+Output 1.5 miljoner ton lägre utsläpp till 2030
+Outcome den återstående minskningen skjuts på dyrare åtgärder eller senare år
+But hushåll med bil slipper prissignalen som skulle ha burit ESR

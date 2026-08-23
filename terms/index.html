@@ -16,11 +16,8 @@
     <link rel="stylesheet" href="/directory.css" />
   </head>
   <body>
-    <main class="desktop desktop--page">
-      <section class="window" aria-label="Terms" data-ui-aria="termsTitle">
-        <div class="title-bar">
-          <p class="title"><a href="/">POLICYBIAS</a></p>
-          <details class="lang-picker">
+    <header class="topbar">
+      <details class="lang-picker">
             <summary class="lang-picker__trigger" aria-label="Language" data-ui-aria="language">
               <span class="lang-picker__full" data-lang-full>English</span>
               <span class="lang-picker__code" data-lang-code>EN</span>
@@ -30,6 +27,11 @@
               <a class="lang-picker__item lang-link" role="option" data-lang="en" href="/terms/"><span>English</span><span class="lang-picker__check" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12l5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a><a class="lang-picker__item lang-link" role="option" data-lang="sv" href="/terms/?lang=sv"><span>Svenska</span><span class="lang-picker__check" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12l5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a><a class="lang-picker__item lang-link" role="option" data-lang="mi" href="/terms/?lang=mi"><span>Te reo Māori</span><span class="lang-picker__check" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12l5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
             </div>
           </details>
+    </header>
+    <main class="desktop desktop--page">
+      <section class="window" aria-label="Terms" data-ui-aria="termsTitle">
+        <div class="title-bar">
+          <p class="title"><a href="/">POLICYBIAS</a></p>
         </div>
         <div class="window-body copy">
           <h1 data-ui="termsTitle">Terms</h1>

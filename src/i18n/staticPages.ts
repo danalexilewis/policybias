@@ -1,57 +1,44 @@
-import {
-  EVENT_IDS,
-  eventPath,
-  eventStatus,
-  type Lang,
-} from '../event/events'
-import { withLangQuery } from './href'
-import {
-  dictionaryFor,
-  SITE_LANGS,
-  statusUiKey,
-  translate,
-  type UiKey,
-} from './messages'
+import { EVENT_IDS, eventPath, eventStatus, type Lang } from '../event/events';
+import { withLangQuery } from './href';
+import { dictionaryFor, SITE_LANGS, statusUiKey, translate, type UiKey } from './messages';
 
-const CONTACT_HREF =
-  'https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e'
-const LICENSE_HREF =
-  'https://github.com/danalexilewis/policybias/blob/main/LICENSE'
+const CONTACT_HREF = 'https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e';
+const LICENSE_HREF = 'https://github.com/danalexilewis/policybias/blob/main/LICENSE';
 
 function ui(key: UiKey): string {
-  return `<span data-ui="${key}">${escapeHtml(translate('en', key))}</span>`
+	return `<span data-ui="${key}">${escapeHtml(translate('en', key))}</span>`;
 }
 
 function escapeHtml(value: string): string {
-  return value
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
+	return value
+		.replaceAll('&', '&amp;')
+		.replaceAll('<', '&lt;')
+		.replaceAll('>', '&gt;')
+		.replaceAll('"', '&quot;');
 }
 
 const CARET_ICON =
-  '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+	'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const CHECK_ICON =
-  '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12l5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+	'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12l5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
 function langUiKey(code: Lang): UiKey {
-  if (code === 'sv') {
-    return 'langSv'
-  }
-  if (code === 'mi') {
-    return 'langMi'
-  }
-  return 'langEn'
+	if (code === 'sv') {
+		return 'langSv';
+	}
+	if (code === 'mi') {
+		return 'langMi';
+	}
+	return 'langEn';
 }
 
 function langPicker(path: string): string {
-  const items = SITE_LANGS.map((code) => {
-    const href = withLangQuery(path, code, 'en')
-    const label = translate('en', langUiKey(code))
-    return `<a class="lang-picker__item lang-link" role="option" data-lang="${code}" href="${href}"><span>${escapeHtml(label)}</span><span class="lang-picker__check" aria-hidden="true">${CHECK_ICON}</span></a>`
-  }).join('')
-  return `<details class="lang-picker">
+	const items = SITE_LANGS.map((code) => {
+		const href = withLangQuery(path, code, 'en');
+		const label = translate('en', langUiKey(code));
+		return `<a class="lang-picker__item lang-link" role="option" data-lang="${code}" href="${href}"><span>${escapeHtml(label)}</span><span class="lang-picker__check" aria-hidden="true">${CHECK_ICON}</span></a>`;
+	}).join('');
+	return `<details class="lang-picker">
             <summary class="lang-picker__trigger" aria-label="${escapeHtml(translate('en', 'language'))}" data-ui-aria="language">
               <span class="lang-picker__full" data-lang-full>${escapeHtml(translate('en', 'langEn'))}</span>
               <span class="lang-picker__code" data-lang-code>EN</span>
@@ -60,18 +47,18 @@ function langPicker(path: string): string {
             <div class="lang-picker__menu" role="listbox">
               ${items}
             </div>
-          </details>`
+          </details>`;
 }
 
 function shell(args: {
-  titleKey: UiKey
-  path: string
-  ariaKey: UiKey
-  body: string
-  pageClass?: string
-  windowClass?: string
+	titleKey: UiKey;
+	path: string;
+	ariaKey: UiKey;
+	body: string;
+	pageClass?: string;
+	windowClass?: string;
 }): string {
-  return `<!doctype html>
+	return `<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -89,11 +76,13 @@ function shell(args: {
     <link rel="stylesheet" href="/directory.css" />
   </head>
   <body>
+    <header class="topbar">
+      ${langPicker(args.path)}
+    </header>
     <main class="desktop${args.pageClass ? ` ${args.pageClass}` : ''}">
       <section class="window${args.windowClass ? ` ${args.windowClass}` : ''}" aria-label="${escapeHtml(translate('en', args.ariaKey))}" data-ui-aria="${args.ariaKey}">
         <div class="title-bar">
           <p class="title"><a href="/">POLICYBIAS</a></p>
-          ${langPicker(args.path)}
         </div>
         <div class="window-body${args.pageClass ? ' copy' : ''}">
           ${args.body}
@@ -112,27 +101,27 @@ function shell(args: {
     ${chromeApplyScript()}
   </body>
 </html>
-`
+`;
 }
 
 export function renderDirectoryHtml(): string {
-  const meta: Record<(typeof EVENT_IDS)[number], { created: string; updated: string }> = {
-    'nz-election-2026': { created: '2026-08-21', updated: '2026-08-22' },
-    'se-election-2026': { created: '2026-08-22', updated: '2026-08-22' },
-  }
-  const rows = EVENT_IDS.map((eventId) => {
-    const status = eventStatus(eventId)
-    const statusKey = statusUiKey(status)
-    const dates = meta[eventId]
-    return `<tr>
-                <td><a href="${eventPath(eventId)}">${eventId}</a></td>
-                <td><time datetime="${dates.created}">${dates.created}</time></td>
-                <td><time datetime="${dates.updated}">${dates.updated}</time></td>
-                <td class="event-status" data-ui="${statusKey}">${escapeHtml(translate('en', statusKey))}</td>
-              </tr>`
-  }).join('\n              ')
+	const meta: Record<(typeof EVENT_IDS)[number], { created: string; updated: string }> = {
+		'nz-election-2026': { created: '2026-08-21', updated: '2026-08-22' },
+		'se-election-2026': { created: '2026-08-22', updated: '2026-08-22' },
+	};
+	const rows = EVENT_IDS.map((eventId) => {
+		const status = eventStatus(eventId);
+		const statusKey = statusUiKey(status);
+		const dates = meta[eventId];
+		return `<tr class="campaign-card">
+                <td class="campaign-card__name"><a href="${eventPath(eventId)}">${eventId}</a></td>
+                <td><span class="card-label">${ui('directoryCreated')}</span><time datetime="${dates.created}">${dates.created}</time></td>
+                <td><span class="card-label">${ui('directoryUpdated')}</span><time datetime="${dates.updated}">${dates.updated}</time></td>
+                <td class="event-status"><span class="card-label">${ui('directoryStatus')}</span><span data-ui="${statusKey}">${escapeHtml(translate('en', statusKey))}</span></td>
+              </tr>`;
+	}).join('\n              ');
 
-  const body = `<table>
+	const body = `<table class="directory-table">
             <thead>
               <tr>
                 <th>${ui('directoryName')}</th>
@@ -144,61 +133,61 @@ export function renderDirectoryHtml(): string {
             <tbody>
               ${rows}
             </tbody>
-          </table>`
+          </table>`;
 
-  return shell({
-    titleKey: 'directoryAria',
-    path: '/',
-    ariaKey: 'directoryAria',
-    body,
-    windowClass: 'window--directory',
-  })
+	return shell({
+		titleKey: 'directoryAria',
+		path: '/',
+		ariaKey: 'directoryAria',
+		body,
+		windowClass: 'window--directory',
+	});
 }
 
 export function renderTermsHtml(): string {
-  const body = `<h1 data-ui="termsTitle">${escapeHtml(translate('en', 'termsTitle'))}</h1>
+	const body = `<h1 data-ui="termsTitle">${escapeHtml(translate('en', 'termsTitle'))}</h1>
           <p data-ui="termsP1">${escapeHtml(translate('en', 'termsP1'))}</p>
           <p data-ui="termsP2">${escapeHtml(translate('en', 'termsP2'))}</p>
           <p><a href="${LICENSE_HREF}">MIT</a></p>
           <p data-ui="termsP3">${escapeHtml(translate('en', 'termsP3'))}</p>
           <p data-ui="termsP4">${escapeHtml(translate('en', 'termsP4'))}</p>
-          <p data-ui="termsP5">${escapeHtml(translate('en', 'termsP5'))}</p>`
+          <p data-ui="termsP5">${escapeHtml(translate('en', 'termsP5'))}</p>`;
 
-  return shell({
-    titleKey: 'termsTitle',
-    path: '/terms/',
-    ariaKey: 'termsTitle',
-    body,
-    pageClass: 'desktop--page',
-  })
+	return shell({
+		titleKey: 'termsTitle',
+		path: '/terms/',
+		ariaKey: 'termsTitle',
+		body,
+		pageClass: 'desktop--page',
+	});
 }
 
 export function renderPrivacyHtml(): string {
-  const body = `<h1 data-ui="privacyTitle">${escapeHtml(translate('en', 'privacyTitle'))}</h1>
+	const body = `<h1 data-ui="privacyTitle">${escapeHtml(translate('en', 'privacyTitle'))}</h1>
           <p data-ui="privacyP1">${escapeHtml(translate('en', 'privacyP1'))}</p>
           <p data-ui="privacyP2">${escapeHtml(translate('en', 'privacyP2'))}</p>
           <p data-ui="privacyP3">${escapeHtml(translate('en', 'privacyP3'))}</p>
           <p data-ui="privacyP4">${escapeHtml(translate('en', 'privacyP4'))}</p>
           <p>${ui('privacyP5')}
             <a href="${CONTACT_HREF}" data-ui="getInTouch">${escapeHtml(translate('en', 'getInTouch'))}</a>.
-          </p>`
+          </p>`;
 
-  return shell({
-    titleKey: 'privacyTitle',
-    path: '/privacy/',
-    ariaKey: 'privacyTitle',
-    body,
-    pageClass: 'desktop--page',
-  })
+	return shell({
+		titleKey: 'privacyTitle',
+		path: '/privacy/',
+		ariaKey: 'privacyTitle',
+		body,
+		pageClass: 'desktop--page',
+	});
 }
 
 export function chromeApplyScript(): string {
-  const dicts: Record<Lang, Record<string, string>> = {
-    en: dictionaryFor('en'),
-    sv: dictionaryFor('sv'),
-    mi: dictionaryFor('mi'),
-  }
-  return `<script>
+	const dicts: Record<Lang, Record<string, string>> = {
+		en: dictionaryFor('en'),
+		sv: dictionaryFor('sv'),
+		mi: dictionaryFor('mi'),
+	};
+	return `<script>
 (function () {
   var dicts = ${JSON.stringify(dicts)};
   var params = new URLSearchParams(window.location.search);
@@ -243,5 +232,5 @@ export function chromeApplyScript(): string {
     });
   });
 })();
-</script>`
+</script>`;
 }

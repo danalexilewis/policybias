@@ -8,6 +8,13 @@
 	--radius: 6px;
 	--font-ui: 'Bricolage Grotesque', system-ui, sans-serif;
 	--font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+	--chrome-control: 48px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
 }
 
 html,
@@ -96,8 +103,9 @@ body {
 	align-items: center;
 	justify-content: center;
 	gap: 0.45rem;
-	min-height: 48px;
-	padding: 0.55rem 1rem;
+	height: var(--chrome-control);
+	min-height: var(--chrome-control);
+	padding: 0 1rem;
 	border: 2px solid var(--ink);
 	border-radius: var(--radius);
 	background: var(--paper);
@@ -199,8 +207,9 @@ body {
 
 @media (max-width: 52rem) {
 	.lang-picker__trigger {
-		min-width: 48px;
-		min-height: 48px;
+		min-width: var(--chrome-control);
+		height: var(--chrome-control);
+		min-height: var(--chrome-control);
 		padding: 0 10px;
 		gap: 0.25rem;
 	}
@@ -221,6 +230,43 @@ body {
 }
 
 .lang-picker__trigger:active {
+	background: color-mix(in srgb, var(--ink) 8%, var(--paper));
+}
+
+.github-link {
+	display: inline-grid;
+	place-items: center;
+	width: var(--chrome-control);
+	min-width: var(--chrome-control);
+	height: var(--chrome-control);
+	min-height: var(--chrome-control);
+	padding: 0;
+	border: 2px solid var(--ink);
+	border-radius: var(--radius);
+	background: var(--paper);
+	color: var(--ink);
+	box-shadow: var(--shadow);
+	flex: 0 0 auto;
+}
+
+.github-link:link,
+.github-link:visited {
+	color: var(--ink);
+	text-decoration: none;
+}
+
+.github-link svg {
+	width: 1.35rem;
+	height: 1.35rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.github-link:hover {
+		background: color-mix(in srgb, var(--ink) 6%, var(--paper));
+	}
+}
+
+.github-link:active {
 	background: color-mix(in srgb, var(--ink) 8%, var(--paper));
 }
 

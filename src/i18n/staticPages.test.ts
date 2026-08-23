@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import { renderDirectoryHtml, renderPrivacyHtml, renderTermsHtml } from './staticPages';
+import {
+	renderDirectoryHtml,
+	renderEventHtml,
+	renderPrivacyHtml,
+	renderTermsHtml,
+} from './staticPages';
 
 describe('static chrome pages', () => {
 	it('embeds every language dictionary so ?lang= can swap chrome', () => {
@@ -14,11 +19,42 @@ describe('static chrome pages', () => {
 		expect(html).not.toContain('class="lang-links"');
 	});
 
+	it('puts the GitHub link on the home page only', () => {
+		const home = renderDirectoryHtml();
+		expect(home).toContain('class="github-link"');
+		expect(home).toContain('aria-label="GitHub"');
+		expect(home).toContain('href="https://github.com/danalexilewis/policybias"');
+		expect(renderTermsHtml()).not.toContain('class="github-link"');
+		expect(renderPrivacyHtml()).not.toContain('class="github-link"');
+		expect(renderEventHtml('nz-election-2026')).not.toContain('class="github-link"');
+	});
+
 	it('keeps English legal copy in the markup for readers without script', () => {
 		expect(renderTermsHtml()).toContain('without warranty');
 		expect(renderPrivacyHtml()).toContain('We do not run accounts');
 		expect(renderDirectoryHtml()).toContain('data-ui="status.review"');
 		expect(renderDirectoryHtml()).toContain('window--directory');
 		expect(renderDirectoryHtml()).toContain('campaign-card');
+	});
+
+	it('puts open graph tags on chrome and event shells', () => {
+		const pages = [
+			renderDirectoryHtml(),
+			renderTermsHtml(),
+			renderPrivacyHtml(),
+			renderEventHtml('nz-election-2026'),
+			renderEventHtml('se-election-2026'),
+		];
+		for (const html of pages) {
+			expect(html).toContain('property="og:image"');
+			expect(html).toContain('https://policybias.com/og.png');
+			expect(html).toContain('name="twitter:card" content="summary_large_image"');
+		}
+		expect(renderDirectoryHtml()).toContain('Guess the party from the policy, not the colour.');
+		expect(renderEventHtml('nz-election-2026')).toContain('Policy Bias — NZ 2026');
+		expect(renderEventHtml('se-election-2026')).toContain('property="og:locale" content="sv_SE"');
+		expect(renderEventHtml('se-election-2026')).toContain(
+			'Gissa partiet från politiken, inte färgen.'
+		);
 	});
 });

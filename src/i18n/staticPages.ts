@@ -1,9 +1,25 @@
-import { EVENT_IDS, eventPath, eventStatus, type Lang } from '../event/events';
+import {
+	EVENT_IDS,
+	EVENT_LANGS,
+	eventPath,
+	eventStatus,
+	type EventId,
+	type Lang,
+} from '../event/events';
 import { withLangQuery } from './href';
-import { dictionaryFor, SITE_LANGS, statusUiKey, translate, type UiKey } from './messages';
+import {
+	dictionaryFor,
+	eventUiKey,
+	SITE_LANGS,
+	statusUiKey,
+	translate,
+	type UiKey,
+} from './messages';
+import { openGraphTags } from './openGraph';
 
 const CONTACT_HREF = 'https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e';
 const LICENSE_HREF = 'https://github.com/danalexilewis/policybias/blob/main/LICENSE';
+const GITHUB_HREF = 'https://github.com/danalexilewis/policybias';
 
 function ui(key: UiKey): string {
 	return `<span data-ui="${key}">${escapeHtml(translate('en', key))}</span>`;
@@ -21,6 +37,8 @@ const CARET_ICON =
 	'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const CHECK_ICON =
 	'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12l5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const GITHUB_ICON =
+	'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>';
 
 function langUiKey(code: Lang): UiKey {
 	if (code === 'sv') {
@@ -50,6 +68,10 @@ function langPicker(path: string): string {
           </details>`;
 }
 
+function githubLink(): string {
+	return `<a class="github-link" href="${GITHUB_HREF}" aria-label="GitHub">${GITHUB_ICON}</a>`;
+}
+
 function shell(args: {
 	titleKey: UiKey;
 	path: string;
@@ -57,16 +79,21 @@ function shell(args: {
 	body: string;
 	pageClass?: string;
 	windowClass?: string;
+	descriptionKey?: UiKey;
+	github?: boolean;
 }): string {
+	const title = translate('en', args.titleKey);
+	const description = translate('en', args.descriptionKey ?? 'ogDescription');
 	return `<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-ui="${args.titleKey}">${escapeHtml(translate('en', args.titleKey))}</title>
+    <title data-ui="${args.titleKey}">${escapeHtml(title)}</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="theme-color" content="#fffbe6" />
+    ${openGraphTags({ title, description, path: args.path, lang: 'en' })}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -78,6 +105,7 @@ function shell(args: {
   <body>
     <header class="topbar">
       ${langPicker(args.path)}
+      ${args.github ? githubLink() : ''}
     </header>
     <main class="desktop${args.pageClass ? ` ${args.pageClass}` : ''}">
       <section class="window${args.windowClass ? ` ${args.windowClass}` : ''}" aria-label="${escapeHtml(translate('en', args.ariaKey))}" data-ui-aria="${args.ariaKey}">
@@ -141,6 +169,7 @@ export function renderDirectoryHtml(): string {
 		ariaKey: 'directoryAria',
 		body,
 		windowClass: 'window--directory',
+		github: true,
 	});
 }
 
@@ -159,6 +188,7 @@ export function renderTermsHtml(): string {
 		ariaKey: 'termsTitle',
 		body,
 		pageClass: 'desktop--page',
+		descriptionKey: 'termsP1',
 	});
 }
 
@@ -178,7 +208,38 @@ export function renderPrivacyHtml(): string {
 		ariaKey: 'privacyTitle',
 		body,
 		pageClass: 'desktop--page',
+		descriptionKey: 'privacyP1',
 	});
+}
+
+export function renderEventHtml(eventId: EventId): string {
+	const lang = EVENT_LANGS[eventId].canonical;
+	const event = translate(lang, eventUiKey(eventId));
+	const title = translate(lang, 'documentTitleBoard', { event });
+	const description = translate(lang, 'ogDescription');
+	return `<!doctype html>
+<html lang="${lang}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>${escapeHtml(title)}</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#fffbe6" />
+    ${openGraphTags({ title, description, path: eventPath(eventId), lang })}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;600;700&family=IBM+Plex+Mono:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+`;
 }
 
 export function chromeApplyScript(): string {

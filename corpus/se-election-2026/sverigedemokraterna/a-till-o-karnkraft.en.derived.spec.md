@@ -17,12 +17,17 @@ clusters:
   - energy-power
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-karnkraft.md
-sourceDigest: "sha256-130bdb28f2c90232"
+sourceDigest: sha256-130bdb28f2c90232
 assumptions:
   - statlig riskdelning betyder att skattebetalare tar en del av förlusten om projektet spricker; sidan säger inte hur stor andelen är
   - nya reaktorer tar mer än en mandatperiod; hushållens prisnivå nu styrs inte av reaktorer som inte är byggda
   - halva kärnkraften är sidans baslinje för förlusten, inte en oberoende energibalans
   - undanröjda hinder tar bort laghinder; de tar inte bort kapitalkostnad, lokalt motstånd eller nätkapacitet
+lang: en
+translationOf: sverigedemokraterna-a-till-o-karnkraft-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-7b68ba344067a493
 ---
 
 # Our understanding

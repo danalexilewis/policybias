@@ -1,11 +1,10 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-flygskatten
-title: The flight tax
+title: The aviation tax abolished and not to be restored
 status: draft
-updated: 2026-08-22
-summary: The tax was introduced in 2018 by the Social Democratic government with
-  the justification of "reducing aviation's climate impact".
+updated: 2026-08-23
+summary: The aviation tax has been abolished; it is described as symbolic and without a smaller climate impact, and it is not to be brought back.
 jurisdiction: SE
 sources:
   - title: Flygskatten
@@ -19,24 +18,29 @@ money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-flygskatten.md
 sourceDigest: sha256-f62de7a583631378
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - how large the aviation tax was per journey is not stated
+  - how much competitiveness or how many routes returned after abolition is not stated
+  - which measure shows that climate impact did not fall is not stated
+  - what replaces the tax as an instrument against aviation emissions is not stated
+  - the revenue loss for the state after abolition is not stated
 lang: en
 translationOf: sverigedemokraterna-a-till-o-flygskatten
-translator: machine
-translatedAt: 2026-08-22
-sourceSpecDigest: sha256-3d5d0cf24d3aad6b
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-c81e171a9e162278
 ---
 
 # What the page states
 
-> The Sweden Democrats pushed through the abolition of the flight tax.
+> The aviation tax has been abolished. It was introduced to reduce aviation's climate impact, but is described as symbolic and without that effect, while it has made international air links harder. Abolition is to lift competitiveness. The tax is not to be restored. Climate targets are not to be reached with a tool that has no environmental benefit.
 
-System: Flygskatten
+System: An abolished aviation tax that is not to be brought back
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then The Sweden Democrats pushed through the abolition of the flight tax.
-Output The tax was introduced in 2018 by the Social Democratic government with the justification of "reducing aviation's climate impact".
-Outcome the claim is the party's stated position
+Scenario: A proposal to restore the aviation tax arrives
+Given the aviation tax has been abolished
+And the tax has not resulted in any smaller climate impact
+And the tax has made access to international air links harder
+When a proposal to restore the tax is pushed
+Then the tax is not to be brought back
+And removal of the aviation tax is a lift for Swedish competitiveness
+Outcome Sweden does not hamper its competitiveness in order to meet climate targets without environmental benefit

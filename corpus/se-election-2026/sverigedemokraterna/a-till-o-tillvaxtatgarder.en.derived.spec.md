@@ -17,12 +17,17 @@ clusters:
   - economy-tax
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-tillvaxtatgarder.md
-sourceDigest: "sha256-b605a67e0f5a33a3"
+sourceDigest: sha256-b605a67e0f5a33a3
 assumptions:
   - sänkt skattetryck utan namngiven bas är antingen lägre inkomstskatt, bolagsskatt, moms eller allt; incidensen skiljer sig
   - kortare tillstånd ökar värdet på projekt som redan är lönsamma; de skapar inte av sig själva den efterfrågan sidan vill se
   - drivkrafter från bidrag till arbete kräver att bidrag sänks, lön efter skatt höjs, eller båda; sidan säger inte vilket
   - tillväxt i världstoppen är ett mål mot andra länders utfall, inte ett åtagande staten styr ensam
+lang: en
+translationOf: sverigedemokraterna-a-till-o-tillvaxtatgarder-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-872895140982f634
 ---
 
 # Our understanding

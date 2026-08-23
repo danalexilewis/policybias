@@ -17,12 +17,17 @@ clusters:
   - elderly-welfare
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-aldrevard.md
-sourceDigest: "sha256-88ef1be8fd01a72b"
+sourceDigest: sha256-88ef1be8fd01a72b
 assumptions:
   - språkkrav höjer tröskeln för nyanställning mer än de avlägsnar den som redan är anställd och misstänkt
   - Äldreomsorgslyftet är stöd till kompetensutveckling, inte en inspektion och inte ett avskedande
   - kommunen är fortfarande huvudman; "prioritera högre" utan ny ram eller omfördelning betyder att något annat i budgeten får vika
   - tystade övergrepp är ett tillsyns- och anmälningsproblem; sidan ger inget nytt tillsynsorgan
+lang: en
+translationOf: sverigedemokraterna-a-till-o-aldrevard-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-f9a0d4a270ce7308
 ---
 
 # Our understanding

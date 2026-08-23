@@ -1,10 +1,10 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-sjukvard
-title: Sjukvård
+title: Nationell styrning av sjukvården, med statligt helhetsansvar på sikt
 status: draft
-updated: 2026-08-22
-summary: Ett splittrat huvudmannaskap och otydliga prioriteringar har under lång tid lett till långa vårdköer och oacceptabla skillnader mellan regionerna.
+updated: 2026-08-23
+summary: Splittrat huvudmannaskap och otydliga prioriteringar har gett långa vårdköer och skillnader mellan regionerna; staten ska styra hårdare och på sikt ta helhetsansvaret.
 jurisdiction: SE
 sources:
   - title: Sjukvård
@@ -16,21 +16,28 @@ clusters:
   - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-sjukvard.md
-sourceDigest: sha256-64934e07ce2be1ac
+sourceDigest: "sha256-64934e07ce2be1ac"
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - hur stora de riktade satsningarna är, och hur mycket köerna kortats, anges inte
+  - när det statliga helhetsansvaret ska vara på plats anges inte
+  - vilket kömål eller vilken väntetid som räknas som acceptabel anges inte
+  - vad som händer med regionerna som organisation när staten tar över anges inte
+  - hur mycket administration som ska bort, och hur det mäts, anges inte
+  - vad som sker om en region missar kraven anges inte
 ---
 
 # What the page states
 
-> Sjukvården behöver inte bara resurser, den behöver också ett tydligt ansvar, styrning och uppföljning som faktiskt får effekt.
+> Sjukvården behöver ansvar, styrning och uppföljning, inte bara mer pengar. Splittrat huvudmannaskap har gett långa köer och ojämlik vård mellan regionerna. Staten ska styra hårdare nu och ta helhetsansvar på sikt. Pengarna ska gå till vård, personal och patientmöten.
 
-System: Sjukvård
+System: Nationell styrning av sjukvården mot statligt helhetsansvar
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then Sjukvården behöver inte bara resurser, den behöver också ett tydligt ansvar, styrning och uppföljning som faktiskt får effekt.
-Output Ett splittrat huvudmannaskap och otydliga prioriteringar har under lång tid lett till långa vårdköer och oacceptabla skillnader mellan regionerna.
-Outcome the claim is the party's stated position
+Scenario: En patient möter olika köer beroende på region
+Given ett splittrat huvudmannaskap och otydliga prioriteringar har gett långa vårdköer och skillnader mellan regionerna
+When staten tar ett starkare grepp om samordningen och skärper kraven på regionerna
+Then resurser kopplas till krav, uppföljning och tydligt ansvar
+And pengar ska gå till vård, personal och patientmöten, inte till växande administration
+And tillgänglighet, kvalitet och trygghet ska vara överordnade mål
+And på sikt ska staten ha helhetsansvar för hälso- och sjukvården
+Outcome vården blir mer likvärdig över landet
+And ingen ska få sämre vård på grund av sitt postnummer

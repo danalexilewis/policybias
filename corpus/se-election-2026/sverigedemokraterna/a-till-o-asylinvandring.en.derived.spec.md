@@ -17,12 +17,17 @@ clusters:
   - migration-integration
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-asylinvandring.md
-sourceDigest: "sha256-94a00538c916c687"
+sourceDigest: sha256-94a00538c916c687
 assumptions:
   - första säkra land flyttar prövningen till det land den sökande redan rest igenom, om det landet tar emot
   - EU:s miniminivå är ett golv andra medlemsländer kan ligga över; sänkt svensk nivå ändrar relativ attraktion, inte asylrätten i unionen
   - när EBO upphör måste staten eller kommunen hysa samma personer; institutionsplatser kostar mer per dygn än eget boende, men beloppet saknas
   - återvändande när det är tryggt kräver avtal med hemlandet och tvång om personen vägrar; sidan nämner bara att man ska åka
+lang: en
+translationOf: sverigedemokraterna-a-till-o-asylinvandring-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-bc46fe6751544d40
 ---
 
 # Our understanding

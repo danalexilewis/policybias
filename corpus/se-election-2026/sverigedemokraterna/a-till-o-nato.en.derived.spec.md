@@ -17,12 +17,17 @@ clusters:
   - defence-security
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-nato.md
-sourceDigest: "sha256-b75dba64f54fd198"
+sourceDigest: sha256-b75dba64f54fd198
 assumptions:
   - restriktionsfri samverkan betyder att svenska förbehåll mot baser, kärnvapen eller övningar inte ska finnas; sidan räknar inte upp vilka
   - robotförsvar i Nato är ett allierat system; Sveriges röst räcker inte för att bygga det
   - det kinesiska hotet är en transatlantisk strid om Natos geografiska fokus; europeiska medlemmar kan vilja hålla alliansen vid Ryssland
   - miljöarbete i Nato är redan omstritt; att flytta det kräver konsensus, inte en nationell viljeyttring
+lang: en
+translationOf: sverigedemokraterna-a-till-o-nato-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-0d2889d1e07274d1
 ---
 
 # Our understanding

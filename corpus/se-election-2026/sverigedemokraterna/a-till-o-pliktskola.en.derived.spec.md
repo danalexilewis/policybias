@@ -17,12 +17,17 @@ clusters:
   - schools-education
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-pliktskola.md
-sourceDigest: "sha256-ecda7d8524be6213"
+sourceDigest: sha256-ecda7d8524be6213
 assumptions:
   - barn som vistas i Sverige men inte är folkbokförda saknar ofta adress och vårdnadshavare som skolan kan kräva närvaro av
   - stärkt kontroll utan namngivet verktyg kan bli allt från brev till viten; sidan väljer inte
   - vårdnadshavares ansvar biter bara om någon myndighet får ett tydligt uppdrag att ingripa
   - sidan är för kort för att skilja på barn som aldrig skrivits in och barn som skolkar efter inskrivning
+lang: en
+translationOf: sverigedemokraterna-a-till-o-pliktskola-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-e8429d1789666a80
 ---
 
 # Our understanding

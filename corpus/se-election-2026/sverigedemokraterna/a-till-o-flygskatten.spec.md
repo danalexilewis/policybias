@@ -1,10 +1,10 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-flygskatten
-title: Flygskatten
+title: Flygskatten avskaffad och ska inte återställas
 status: draft
-updated: 2026-08-22
-summary: Skatten infördes 2018 av den Socialdemokratiska regeringen med motiveringen att ”minska flygets klimatpåverkan”.
+updated: 2026-08-23
+summary: Flygskatten är avskaffad; den beskrivs som symbolisk och utan mindre klimatpåverkan, och den ska inte återinföras.
 jurisdiction: SE
 sources:
   - title: Flygskatten
@@ -16,21 +16,26 @@ clusters:
   - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-flygskatten.md
-sourceDigest: sha256-f62de7a583631378
+sourceDigest: "sha256-f62de7a583631378"
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - hur stor flygskatten var per resa anges inte
+  - hur mycket konkurrenskraft eller antal linjer som återkom efter avskaffandet anges inte
+  - vilket mått som visar att klimatpåverkan inte minskade anges inte
+  - vad som ersätter skatten som styrmedel mot utsläpp från flyg anges inte
+  - intäktsbortfallet för staten efter avskaffandet anges inte
 ---
 
 # What the page states
 
-> Sverigedemokraterna drev igenom avskaffandet av flygskatten.
+> Flygskatten är avskaffad. Den infördes för att minska flygets klimatpåverkan, men beskrivs som symbolisk och utan den effekten, samtidigt som den försvårat internationella flygförbindelser. Avskaffandet ska lyfta konkurrenskraften. Skatten ska inte återställas. Klimatmål ska inte nås med ett verktyg utan miljönytta.
 
-System: Flygskatten
+System: Avskaffad flygskatt som inte ska återinföras
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then Sverigedemokraterna drev igenom avskaffandet av flygskatten.
-Output Skatten infördes 2018 av den Socialdemokratiska regeringen med motiveringen att ”minska flygets klimatpåverkan”.
-Outcome the claim is the party's stated position
+Scenario: Ett förslag att återställa flygskatten kommer
+Given flygskatten är avskaffad
+And skatten har inte resulterat i någon mindre klimatpåverkan
+And skatten har försvårat tillgången till internationella flygförbindelser
+When ett förslag att återställa skatten drivs
+Then skatten ska inte återinföras
+And borttagandet av flygskatten är ett lyft för den svenska konkurrenskraften
+Outcome Sverige hämmar inte sin konkurrenskraft för att uppnå klimatmål utan miljönytta

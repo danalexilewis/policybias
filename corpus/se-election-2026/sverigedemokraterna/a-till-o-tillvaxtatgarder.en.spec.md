@@ -1,12 +1,10 @@
 ---
 type: spec
 id: sverigedemokraterna-a-till-o-tillvaxtatgarder
-title: Growth measures
+title: Lower tax burden, shorter permits and a broad growth agenda
 status: draft
-updated: 2026-08-22
-summary: The past mandate period has been marked by clean-up from the former
-  Social Democratic government with tariff wars, recession and weak growth as a
-  result.
+updated: 2026-08-23
+summary: Growth is to be reached through a lower tax burden, fewer bureaucratic obstacles from the EU, stronger incentives from benefits into work, simpler rules, shorter permits and easier R&D.
 jurisdiction: SE
 sources:
   - title: Tillväxtåtgärder
@@ -20,24 +18,31 @@ money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-tillvaxtatgarder.md
 sourceDigest: sha256-b605a67e0f5a33a3
 gaps:
-  - cost is not stated on the page
-  - timetable is not stated on the page
+  - which taxes are to be cut, and by how much, is not stated
+  - how much permit processes are to be shortened is not stated
+  - how incentives from benefits into work are to be changed is not stated
+  - which EU obstacles are to be minimised is not stated
+  - what world-leading growth means as a rate is not stated
+  - how the reforms are financed is not stated
 lang: en
 translationOf: sverigedemokraterna-a-till-o-tillvaxtatgarder
-translator: machine
-translatedAt: 2026-08-22
-sourceSpecDigest: sha256-1f3530820e37b841
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-90742be0d3e0216a
 ---
 
 # What the page states
 
-> The Sweden Democrats have pursued and will continue to pursue growth-promoting policies.
+> Growth policy is to continue. Inflation is described as beaten, defence built up and households and firms already stimulated. The next step is a lower tax burden for individuals and firms, fewer bureaucratic obstacles from the EU, stronger reasons to move from benefits into work, simpler rules, shorter permit processes and easier conditions for R&D. Growth requires a broad agenda, not isolated moves. Sweden is to have world-leading growth.
 
-System: Tillväxtåtgärder
+System: A broad growth agenda with tax, rules and permits
 
-Scenario: Party states this policy
-Given a Swedish general election is contested
-When the party publishes this policy
-Then The Sweden Democrats have pursued and will continue to pursue growth-promoting policies.
-Output The past mandate period has been marked by clean-up from the former Social Democratic government with tariff wars, recession and weak growth as a result.
-Outcome the claim is the party's stated position
+Scenario: Households and firms still meet a high tax burden
+Given inflation is beaten and spending has been made on households and firms to stimulate the economy
+And the term of office has been marked by a tariff war, recession and weak growth
+When the tax burden is lowered for individuals and firms, bureaucratic obstacles from the EU are minimised and permit processes are shortened
+Then the incentives to move from benefits into work are to increase
+And simpler rules are to be carried through
+And R&D-intensive business is to be made easier
+Outcome growth and production get going through many measures taken together
+And Sweden is to have world-leading growth

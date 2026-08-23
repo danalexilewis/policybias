@@ -17,12 +17,17 @@ clusters:
   - climate-environment
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-flygskatten.md
-sourceDigest: "sha256-f62de7a583631378"
+sourceDigest: sha256-f62de7a583631378
 assumptions:
   - en skatt per resa höjer priset på att flyga; när den tas bort blir flyg relativt billigare mot tåg och möten på marken
   - påståendet om ingen mindre klimatpåverkan saknar serie; utsläpp kan ha hållits tillbaka av andra saker eller inte
   - internationella linjer styrs av efterfrågan och flygbolagens nät, inte bara av en svensk skatt
   - klimatmål utan detta styrmedel kräver antingen andra styrmedel eller att målen missas; sidan nämner inget alternativ
+lang: en
+translationOf: sverigedemokraterna-a-till-o-flygskatten-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-c458414abc34cf43
 ---
 
 # Our understanding

@@ -17,12 +17,17 @@ clusters:
   - crime-justice
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-organiserad-brottslighet.md
-sourceDigest: "sha256-b2b172f20e64eac5"
+sourceDigest: sha256-b2b172f20e64eac5
 assumptions:
   - dubbla straff för gängbrott ökar tiden i anstalt; utan nya platser blir kön till fängelset trycket som hushållen inte ser
   - gängtillhörighet måste bevisas i domstol; sidan säger inte vilket beviskrav som ska gälla
   - två grundlagsbeslut kan inte båda hinna före ett enda val om det andra ska tas av en ny riksdag
   - medlemsförbud utan legal definition av kriminell organisation riskerar att antingen bli tandlöst eller att träffa vidare än gäng
+lang: en
+translationOf: sverigedemokraterna-a-till-o-organiserad-brottslighet-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-2622b3dfa9238433
 ---
 
 # Our understanding

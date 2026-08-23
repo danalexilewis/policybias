@@ -17,12 +17,17 @@ clusters:
   - health-care
 money: no-figure
 sourcePath: corpus/se-election-2026/sverigedemokraterna/a-till-o-sjukvard.md
-sourceDigest: "sha256-64934e07ce2be1ac"
+sourceDigest: sha256-64934e07ce2be1ac
 assumptions:
   - krav på regioner biter bara om staten kan hålla inne pengar eller ta över drift; sidan säger inte vilket verktyg som gäller
   - formuleringen på sikt lämnar regionerna som huvudman under en obestämd övergång, så dagens köer styrs fortfarande där
   - likvärdig vård över landet kräver antingen omfördelning mellan regioner eller mer statliga pengar; ingetdera är belagt
   - administration som ska bort är inte mätt, så löftet kan infrias genom omklassning av tjänster
+lang: en
+translationOf: sverigedemokraterna-a-till-o-sjukvard-derived
+translator: human
+translatedAt: 2026-08-23
+sourceSpecDigest: sha256-f10052d4d00b433d
 ---
 
 # Our understanding

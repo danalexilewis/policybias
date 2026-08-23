@@ -114,7 +114,7 @@ describe('App board', () => {
 		const { default: App } = await import('./App');
 		render(<App />);
 
-		const header = document.querySelector('header.app-header');
+		const header = document.querySelector<HTMLElement>('header.app-header');
 		if (!header) {
 			throw new Error('expected the app header');
 		}

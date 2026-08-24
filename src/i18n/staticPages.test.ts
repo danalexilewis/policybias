@@ -14,9 +14,20 @@ describe('static chrome pages', () => {
 		expect(html).toContain('"source":"Puna"');
 		expect(html).toContain('data-ui="termsTitle"');
 		expect(html).toContain('href="/terms/?lang=mi"');
-		expect(html).toContain('class="topbar"');
+		expect(html).toContain('class="topbar topbar--ruled"');
 		expect(html).toContain('class="lang-picker"');
 		expect(html).not.toContain('class="lang-links"');
+	});
+
+	it('puts a home logo on the left of every chrome topbar', () => {
+		const pages = [renderDirectoryHtml(), renderTermsHtml(), renderPrivacyHtml()];
+		for (const html of pages) {
+			expect(html).toContain('class="home-link"');
+			expect(html).toContain('src="/favicon.svg"');
+			expect(html).toContain('data-ui-aria="home"');
+			expect(html.indexOf('home-link')).toBeLessThan(html.indexOf('lang-picker'));
+		}
+		expect(renderEventHtml('nz-election-2026')).not.toContain('class="home-link"');
 	});
 
 	it('puts the GitHub link on the home page only', () => {
@@ -31,7 +42,19 @@ describe('static chrome pages', () => {
 
 	it('keeps English legal copy in the markup for readers without script', () => {
 		expect(renderTermsHtml()).toContain('without warranty');
+		expect(renderTermsHtml()).toContain('data-ui="termsMission"');
+		expect(renderTermsHtml()).toContain('data-ui="termsCards"');
+		expect(renderTermsHtml()).toContain('data-ui="termsAi"');
+		expect(renderTermsHtml()).toContain('data-ui="termsMit"');
+		expect(renderTermsHtml()).toContain('data-ui="termsAmend"');
+		expect(renderTermsHtml()).toContain('Get in touch');
+		expect(renderTermsHtml()).toContain('href="https://gurki.nz"');
+		expect(renderTermsHtml()).toContain(
+			'href="https://github.com/danalexilewis/policybias/blob/main/LICENSE"'
+		);
 		expect(renderPrivacyHtml()).toContain('We do not run accounts');
+		expect(renderPrivacyHtml()).toContain('data-ui="privacyTrackers"');
+		expect(renderPrivacyHtml()).toContain('We do not run trackers');
 		expect(renderDirectoryHtml()).toContain('data-ui="status.review"');
 		expect(renderDirectoryHtml()).toContain('window--directory');
 		expect(renderDirectoryHtml()).toContain('campaign-card');

@@ -1,3 +1,4 @@
+import { renderTopbarHtml } from '../chrome/renderTopbarHtml';
 import {
 	EVENT_IDS,
 	EVENT_LANGS,
@@ -6,20 +7,12 @@ import {
 	type EventId,
 	type Lang,
 } from '../event/events';
-import { withLangQuery } from './href';
-import {
-	dictionaryFor,
-	eventUiKey,
-	SITE_LANGS,
-	statusUiKey,
-	translate,
-	type UiKey,
-} from './messages';
+import { dictionaryFor, eventUiKey, statusUiKey, translate, type UiKey } from './messages';
 import { openGraphTags } from './openGraph';
 
 const CONTACT_HREF = 'https://app.eddy.works/start/e217d3c2-21bb-4866-acbe-599ec3e3a12e';
 const LICENSE_HREF = 'https://github.com/danalexilewis/policybias/blob/main/LICENSE';
-const GITHUB_HREF = 'https://github.com/danalexilewis/policybias';
+const GURKI_HREF = 'https://gurki.nz';
 
 function ui(key: UiKey): string {
 	return `<span data-ui="${key}">${escapeHtml(translate('en', key))}</span>`;
@@ -31,45 +24,6 @@ function escapeHtml(value: string): string {
 		.replaceAll('<', '&lt;')
 		.replaceAll('>', '&gt;')
 		.replaceAll('"', '&quot;');
-}
-
-const CARET_ICON =
-	'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-const CHECK_ICON =
-	'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12l5 5 9-10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-const GITHUB_ICON =
-	'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>';
-
-function langUiKey(code: Lang): UiKey {
-	if (code === 'sv') {
-		return 'langSv';
-	}
-	if (code === 'mi') {
-		return 'langMi';
-	}
-	return 'langEn';
-}
-
-function langPicker(path: string): string {
-	const items = SITE_LANGS.map((code) => {
-		const href = withLangQuery(path, code, 'en');
-		const label = translate('en', langUiKey(code));
-		return `<a class="lang-picker__item lang-link" role="option" data-lang="${code}" href="${href}"><span>${escapeHtml(label)}</span><span class="lang-picker__check" aria-hidden="true">${CHECK_ICON}</span></a>`;
-	}).join('');
-	return `<details class="lang-picker">
-            <summary class="lang-picker__trigger" aria-label="${escapeHtml(translate('en', 'language'))}" data-ui-aria="language">
-              <span class="lang-picker__full" data-lang-full>${escapeHtml(translate('en', 'langEn'))}</span>
-              <span class="lang-picker__code" data-lang-code>EN</span>
-              <span class="lang-picker__icon" aria-hidden="true">${CARET_ICON}</span>
-            </summary>
-            <div class="lang-picker__menu" role="listbox">
-              ${items}
-            </div>
-          </details>`;
-}
-
-function githubLink(): string {
-	return `<a class="github-link" href="${GITHUB_HREF}" aria-label="GitHub">${GITHUB_ICON}</a>`;
 }
 
 function shell(args: {
@@ -103,10 +57,7 @@ function shell(args: {
     <link rel="stylesheet" href="/directory.css" />
   </head>
   <body>
-    <header class="topbar">
-      ${langPicker(args.path)}
-      ${args.github ? githubLink() : ''}
-    </header>
+    ${renderTopbarHtml({ path: args.path, github: args.github })}
     <main class="desktop${args.pageClass ? ` ${args.pageClass}` : ''}">
       <section class="window${args.windowClass ? ` ${args.windowClass}` : ''}" aria-label="${escapeHtml(translate('en', args.ariaKey))}" data-ui-aria="${args.ariaKey}">
         <div class="title-bar">
@@ -118,7 +69,7 @@ function shell(args: {
       </section>
     </main>
     <footer>
-      ${ui('encodedIn')} <a href="https://gurki.nz">Gurki</a>
+      ${ui('encodedIn')} <a href="${GURKI_HREF}">Gurki</a>
       ·
       <a href="/terms/">${ui('terms')}</a>
       ·
@@ -176,11 +127,19 @@ export function renderDirectoryHtml(): string {
 export function renderTermsHtml(): string {
 	const body = `<h1 data-ui="termsTitle">${escapeHtml(translate('en', 'termsTitle'))}</h1>
           <p data-ui="termsP1">${escapeHtml(translate('en', 'termsP1'))}</p>
-          <p data-ui="termsP2">${escapeHtml(translate('en', 'termsP2'))}</p>
-          <p><a href="${LICENSE_HREF}">MIT</a></p>
-          <p data-ui="termsP3">${escapeHtml(translate('en', 'termsP3'))}</p>
+          <p data-ui="termsMission">${escapeHtml(translate('en', 'termsMission'))}</p>
+          <p data-ui="termsCards">${escapeHtml(translate('en', 'termsCards'))}</p>
+          <p>${ui('termsGurkiBefore')}<a href="${GURKI_HREF}">Gurki</a>${ui('termsGurkiAfter')}</p>
+          <p data-ui="termsAi">${escapeHtml(translate('en', 'termsAi'))}</p>
+          <p>${ui('termsAmend')}
+            <a href="${CONTACT_HREF}" data-ui="getInTouch">${escapeHtml(translate('en', 'getInTouch'))}</a>${ui('termsAmendTail')}
+          </p>
           <p data-ui="termsP4">${escapeHtml(translate('en', 'termsP4'))}</p>
-          <p data-ui="termsP5">${escapeHtml(translate('en', 'termsP5'))}</p>`;
+          <p data-ui="termsP5">${escapeHtml(translate('en', 'termsP5'))}</p>
+          <p>${ui('termsLicense')}
+            <a href="${LICENSE_HREF}" data-ui="termsMit">${escapeHtml(translate('en', 'termsMit'))}</a>.
+          </p>
+          <p data-ui="termsCopyright">${escapeHtml(translate('en', 'termsCopyright'))}</p>`;
 
 	return shell({
 		titleKey: 'termsTitle',
@@ -195,6 +154,7 @@ export function renderTermsHtml(): string {
 export function renderPrivacyHtml(): string {
 	const body = `<h1 data-ui="privacyTitle">${escapeHtml(translate('en', 'privacyTitle'))}</h1>
           <p data-ui="privacyP1">${escapeHtml(translate('en', 'privacyP1'))}</p>
+          <p data-ui="privacyTrackers">${escapeHtml(translate('en', 'privacyTrackers'))}</p>
           <p data-ui="privacyP2">${escapeHtml(translate('en', 'privacyP2'))}</p>
           <p data-ui="privacyP3">${escapeHtml(translate('en', 'privacyP3'))}</p>
           <p data-ui="privacyP4">${escapeHtml(translate('en', 'privacyP4'))}</p>
@@ -279,6 +239,9 @@ export function chromeApplyScript(): string {
     if (el.getAttribute('data-lang') === lang) {
       el.setAttribute('aria-current', 'true');
     }
+  });
+  document.querySelectorAll('.home-link').forEach(function (el) {
+    el.setAttribute('href', lang === 'en' ? '/' : '/?lang=' + lang);
   });
   document.querySelectorAll('.lang-picker').forEach(function (el) {
     document.addEventListener('pointerdown', function (event) {

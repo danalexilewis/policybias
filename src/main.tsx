@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import App from './App';
 import './theme/global.css';
 import './theme/app.css';
+import './chrome/topbar.css';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {

@@ -101,12 +101,13 @@ describe('App board', () => {
 		expect(screen.queryByRole('columnheader', { name: 'llms.txt' })).toBeNull();
 	});
 
-	it('links the title back to the home page', async () => {
+	it('links the square P back to the home page', async () => {
 		const { default: App } = await import('./App');
 		render(<App />);
 
-		const home = screen.getByRole('link', { name: 'Policy Bias NZ 2026' });
+		const home = screen.getByRole('link', { name: 'Home' });
 		expect(home.getAttribute('href')).toBe('/');
+		expect(home.querySelector('img')?.getAttribute('src')).toBe('/favicon.svg');
 		expect(home.closest('header')).not.toBeNull();
 	});
 
@@ -114,7 +115,7 @@ describe('App board', () => {
 		const { default: App } = await import('./App');
 		render(<App />);
 
-		const header = document.querySelector<HTMLElement>('header.app-header');
+		const header = document.querySelector<HTMLElement>('header.topbar');
 		if (!header) {
 			throw new Error('expected the app header');
 		}

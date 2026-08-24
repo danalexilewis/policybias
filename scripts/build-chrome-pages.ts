@@ -1,4 +1,4 @@
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { copyFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { EVENT_IDS } from '../src/event/events.ts';
@@ -12,6 +12,7 @@ import {
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 export function writeChromePages(root: string = ROOT): void {
+	copyFileSync(join(ROOT, 'src/chrome/topbar.css'), join(root, 'public/topbar.css'));
 	writeFileSync(join(root, 'index.html'), renderDirectoryHtml());
 	mkdirSync(join(root, 'terms'), { recursive: true });
 	mkdirSync(join(root, 'privacy'), { recursive: true });

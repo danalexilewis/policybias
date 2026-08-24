@@ -18,6 +18,7 @@ import { LanguagePicker } from './i18n/LanguagePicker';
 import { eventUiKey } from './i18n/messages';
 import { useLang } from './i18n/useLang';
 import { AnonymiseSwitch } from './chrome/AnonymiseSwitch';
+import { Topbar } from './chrome/Topbar';
 import { AgentTrap } from './prank/AgentTrap';
 
 export default function App(): JSX.Element {
@@ -111,41 +112,44 @@ function AppShell(): JSX.Element {
 				<AgentTrap />
 				<Analytics />
 				<div className="app-sticky">
-					<header className="app-header">
-						<a className="app-header__brand" href="/">
-							<p className="app-header__product">Policy Bias</p>
-							<h1 className="app-header__title">{eventName}</h1>
+					<Topbar
+						homeLabel={t('home')}
+						homeHref={withLangQuery('/', lang, 'en')}
+						brand={
+							<div className="app-header__brand">
+								<p className="app-header__product">Policy Bias</p>
+								<h1 className="app-header__title">{eventName}</h1>
+							</div>
+						}
+					>
+						<span className="app-header__anonymise">
+							<AnonymiseSwitch
+								checked={filters.anonymise}
+								onToggle={() => filters.setAnonymise(!filters.anonymise)}
+								label={t('anonymise')}
+							/>
+						</span>
+						<LanguagePicker />
+						<a
+							className="app-button"
+							href={withLangQuery(eventScoresPath(eventId), lang, eventLangs(eventId).canonical)}
+						>
+							<HeaderActionContent label={t('publicScores')} icon={<ScoreIcon />} />
 						</a>
-						<div className="app-header__actions">
-							<span className="app-header__anonymise">
-								<AnonymiseSwitch
-									checked={filters.anonymise}
-									onToggle={() => filters.setAnonymise(!filters.anonymise)}
-									label={t('anonymise')}
-								/>
-							</span>
-							<LanguagePicker />
+						{canPlay ? (
 							<a
-								className="app-button"
-								href={withLangQuery(eventScoresPath(eventId), lang, eventLangs(eventId).canonical)}
+								className="app-button app-button--primary"
+								href={eventGamePath(eventId)}
+								onClick={onPlayGameClick}
 							>
-								<HeaderActionContent label={t('publicScores')} icon={<ScoreIcon />} />
+								<HeaderActionContent label={t('playGame')} icon={<PlayIcon />} />
 							</a>
-							{canPlay ? (
-								<a
-									className="app-button app-button--primary"
-									href={eventGamePath(eventId)}
-									onClick={onPlayGameClick}
-								>
-									<HeaderActionContent label={t('playGame')} icon={<PlayIcon />} />
-								</a>
-							) : (
-								<button type="button" className="app-button app-button--primary" disabled>
-									<HeaderActionContent label={t('playGame')} icon={<PlayIcon />} />
-								</button>
-							)}
-						</div>
-					</header>
+						) : (
+							<button type="button" className="app-button app-button--primary" disabled>
+								<HeaderActionContent label={t('playGame')} icon={<PlayIcon />} />
+							</button>
+						)}
+					</Topbar>
 
 					{data ? (
 						<FilterBar

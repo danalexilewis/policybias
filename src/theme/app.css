@@ -31,13 +31,8 @@
 	border-bottom: 2px solid var(--ink);
 }
 
-.app-header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 1rem;
+.app-sticky .topbar {
 	padding: 0.75rem 1.25rem;
-	background: var(--paper);
 }
 
 .app-header__brand {
@@ -246,7 +241,7 @@ a.app-button--primary:visited {
 		padding-top: env(safe-area-inset-top);
 	}
 
-	.app-header {
+	.app-sticky .topbar {
 		flex-wrap: nowrap;
 		padding: 8px 16px;
 		gap: 8px;
